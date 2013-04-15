@@ -1,0 +1,56 @@
+[Header]
+missionType = "Tutorial"
+aid=1
+
+missionNumber = 1
+
+myStartMoney = 2000
+myTech = "sunWalker;windBattery;sunArcher;sunCannon"
+
+aiName = "Meister der Helibomber"
+aiTech = "sunWalker;rainBattery;sunAviary"
+aiStartMoney = 2000
+aiGeyserAttachments = 1
+aiCollectors = 1
+aiTimeBetweenMoves = 6
+aiAbility="!CONCENTRATE_FIRE;!REPEAT_SUCCESSFUL_DROPS"
+
+title="Meister der Helibomber"
+
+[A.]
+<h2>Meister der Helibomber</h2>
+<p>
+<i>"Der Krieg von Nimbus ist sowohl die Wiege als auch die Triebkraft der Nimbischen Kriegskunst."
+--Galtruf Endiks, Historiker</i>
+<p>
+Die F?rsten der Finsternis betrachten Ihre Insel als leichte Beute und haben den Meister der Helibomber ausgesandt, um Ihr Land zu erobern und Ihr Volk zu versklaven.
+<p>
+Ihre Gegner halten Sie f?r inkompetent. Beweisen Sie ihnen das Gegenteil, indem Sie die feindlichen Hohepriester gefangennehmen und sie zu Ehren der Furien auf dem Altar opfern.
+
+$Button=Aktueller Wissensstand,ShowTechnology,55
+$Button=Mission beginnen,DoNothing,0
+
+
+[Succeeded][BadTeamDead]
+<h2>Mission erfolgreich abgeschlossen!</h2>
+<p>
+Sie haben Ihr Volk vorbildlich gegen diesen hinterh?ltigen und brutalen Angriff verteidigt! Es ist Ihnen gelungen, den Hohepriester des sogenannten "Meisters der Helibomber" gefangenzunehmen und ihm den Garaus zu machen. Damit sollte nun wohl unzweifelhaft feststehen, wer hier der wahre Meister ist, oder? 
+<$Config,Done{mission.fileName}=1>
+$Button=Mission beenden,MissionAbort,1
+$Button=N?chste Mission,MissionBegin,SaveTheIsland
+
+
+[Failed]
+<h2>Missionsziel verfehlt!</h2>
+<p>
+Es ist Ihnen in diesem Kampf nicht gelungen, den feindlichen Priester gefangenzunehmen.
+<p>
+Der Meister der Helibomber hat Ihre Truppen deutlich dezimiert. Es scheint, als h?tten die F?rsten der Finsternis Ihre F?higkeiten richtig eingesch?tzt.
+<p>
+Von nun an werden Sie im Reich der Finsteren F?rsten ein kl?gliches Sklavendasein f?hren. Auch die Bev?lkerung Ihres Reiches mu? fortan ein Leben in Ketten fristen und wird Ihren mit Schande befleckten Namen bei jedem Atemzug verfluchen.
+$Button=Weiter,Tell,TryAgain
+
+
+[END]
+																		 
+																		 

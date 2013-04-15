@@ -1,0 +1,25 @@
+typename road constructor
+typeflags bridge road spreadspower needspower buildonwater;
+{
+	zorder = "zoARTIFACT";
+	foot_x = 1;
+	foot_y = 1;
+}
+
+A01 : : "road.gif" #00 ;
+B01 : : "road.gif" #01 ;
+C01 : : "road.gif" #02 ;
+D01 : : "road.gif" #03 ;
+E01 : : "road.gif" #04 ;
+F01 : : "road.gif" #05 ;
+G01 : : "road.gif" #06 ;
+H01 : : "road.gif" #07 ;
+I01 : : "road.gif" #08 ;
+J01 : : "road.gif" #09 ;
+K01 : : "road.gif" #10 ;
+L01 : : "road.gif" #02 ;
+M01 : : "road.gif" #03 ;
+N01 : : "road.gif" #04 ;
+O01 : : "road.gif" #01 ;
+P01 : default  : "road.gif" #00 ;
+

@@ -1,0 +1,21 @@
+typename IsleBig
+
+typeflags surface rim default_hotspot island islandThreeByThree predictable not_selectable;
+{
+	foot_x = 3;
+	foot_y = 3;
+	zorder = "zoISLAND";
+}
+
+// Filled pieces
+// this is rain
+AA01 : default: "rgrass.gif" #6 ;
+AA02 : : "rgrass.gif" #7 ;
+AA03 : : "rgrass.gif" #8 ;
+AA04 : : "rgrass.gif" #9 ;
+
+// this is thunder
+AA05 : : "THGRASS.gif" #10 ;
+AA06 : : "THGRASS.gif" #11 ;
+AA07 : : "THGRASS.gif" #12 ;
+AA08 : : "THGRASS.gif" #13 ;

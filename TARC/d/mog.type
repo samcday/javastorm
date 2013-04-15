@@ -1,0 +1,30 @@
+typename mog constructor
+typeflags mog createsisland emplacement shadow;
+{
+	zorder = "zoEMPLACEMENTS";
+	foot_x = 3;
+	foot_y = 3;
+}
+
+A01 : default : "mog.gif" #00 : "mog.gif" #13;
+
+B01 : : "mog.gif" #01 : "mog.gif" #13;
+B02 : : "mog.gif" #02 : "mog.gif" #13;
+B03 : : "mog.gif" #03 : "mog.gif" #13;
+B04 : : "mog.gif" #04 : "mog.gif" #13;
+B05 : : "mog.gif" #05 : "mog.gif" #13;
+B06 : : "mog.gif" #06 : "mog.gif" #13;
+B07 : : "mog.gif" #07 : "mog.gif" #13;
+B08 : : "mog.gif" #01 : "mog.gif" #13;
+B09 : : "mog.gif" #01 : "mog.gif" #13;
+
+C01 : : "mog.gif" #01 : "mog.gif" #13;
+C02 : : "mog.gif" #08 : "mog.gif" #13;
+
+D01 : : "mog.gif" #09 : "mog.gif" #13;
+D02 : : "mog.gif" #11 : "mog.gif" #13;
+D03 : : "mog.gif" #12 : "mog.gif" #13;
+
+E01 : : "mog.gif" #10 : "mog.gif" #13;
+
+P00 : help : "b_mog.gif" #00;

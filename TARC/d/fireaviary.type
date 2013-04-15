@@ -1,0 +1,32 @@
+typename fireaviary constructor
+typeflags createsisland emplacement;
+{
+	description="Jet Engine";
+	class="Air Attack Base";
+	maxHitPoints = 600;
+		// Ken changes 8-15 to make wind flyers a tougher unit in general. Bug 621
+		// A little more tough, since its level 4. 400 to 600. Aug 28
+	theme = "fire";
+	level = 2;
+	cost = 800;
+
+	zorder = "zoEMPLACEMENTS";
+	foot_x = 3;
+	foot_y = 3;
+	constructionRate = 10;
+
+	range = 30;
+		// This is the true range of the flyer. Change the value in the
+		// flyer if you change this value!
+
+	hotfootratiox = 0.5;
+	hotfootratioy = 0.625;
+	damageEffect = 1;
+	group = "aviary";
+
+	techBit = 38;
+}
+
+P00 : default : "fflyer.gif" #32  ;
+
+A00 : help : "b_waviary.gif" #00;

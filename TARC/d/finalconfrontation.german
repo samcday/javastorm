@@ -1,0 +1,71 @@
+[Header]
+missionType = "Tutorial"
+
+missionNumber = 1
+
+myStartMoney = 1200
+myTech = "all"
+
+aiName = "Spieler"
+aiMoneyRechargeRate = 8    // About 3 minutes to get from 0 to reasonable wealth.
+aiTimeBetweenMoves = 2
+aiCollectors = 3
+aiGeyserAttachments = 3
+aiAllyList = "2;3;4;5"
+
+// First enemy to the upper right
+ai2Name = "F?rst des Donners"
+ai2Tech = "thunderBattery;bulf;thunderCannon;thunderBlocker;thunderArcher"
+ai2StartMoney = 0
+
+// Second enemy in the middle of the map
+ai3Name = "F?rst des Regens"
+ai3Tech = "rainBattery;rainWalker;rainCannon;rainAviary;rainBlocker;rainBalloon"
+ai3StartMoney = 0
+
+// Lower-right corner enemy
+ai4Name = "F?rst des Windes"
+ai4Tech = "windBattery;windWalker;windArcher;windAviary;windBlocker;windBalloon"
+ai4StartMoney = 0
+ai4Ability = "!ATTACH_TO_ENEMY_ISLAND;!ENCIRCLE_ENEMY_ISLAND"
+
+// Lower-right corner enemy
+ai5Name = "F?rst der Furien"
+ai5Tech = "sunWalker;thunderBlocker"
+ai5Collectors = 0
+ai5GeyserAttachments = 0
+ai5StartMoney = 0
+ai5Ability = "!COLLECT_STORM_POWER;!ATTACH_TO_ENEMY_ISLAND;!ENCIRCLE_ENEMY_ISLAND"
+
+title="Entscheidende Begegnung"
+
+[A.]
+<h2>Entscheidende Begegnung</h2>
+<i>"Alles war ruhig, als wir uns den Festungen n?herten, aber man konnte den bevorstehenden Kampf f?rmlich sp?ren, und der Gestank des Todes hing in der Luft."<br>
+--Tagebucheintrag, Trin Hursperints</i>
+<p>
+Durch ein waghalsiges Man?ver ist Ihre Insel tief in feindliches Gebiet eingedrungen: geradewegs ins Zentrum des finsteren gegnerischen Reiches!
+<p>
+Hier haben Sie die letzten Hochburgen der Finsteren Prinzen des Windes, des Regens und des Donners entdeckt. Nehmen Sie sie im Kampf ein, und sichern Sie sich so den totalen Sieg!
+
+$Button=Aktueller Wissensstand,ShowTechnology,55
+$Button=Mission beginnen,DoNothing,0
+
+
+[Succeeded][BadTeamDead]
+<h2>Mission erfolgreich abgeschlossen!</h2>
+<p>
+Alle sollen wissen, da? Sie ab sofort der alleinige Herrscher ?ber das Reich von Nimbus sind! Die ganze Welt ist Ihrer Befehlsgewalt unterstellt! Die Finsteren F?rsten werden Sie auf Knien um ihr Leben anflehen! Und die Furien werden Ihnen f?r alle Zeiten untertan sein!
+<$Config,Done{mission.fileName}=1>
+$Button=Mission beenden,MissionAbort,1
+
+
+[Failed]
+<h2>Missionsziel verfehlt!</h2>
+<p>
+Alle Hoffnungen, das Reich von Nimbus aus der unendlichen Dunkelheit zu befreien, ruhten auf Ihnen, doch Sie haben kl?glich versagt. Um Ihr Unverm?gen und Ihre Impertinenz geb?hrend zu bestrafen, haben die Finsteren F?rsten nun beschlossen, da? jeder einzelne Nimber sein Leben bis in alle Ewigkeit in Armut, Krankheit und Knechtschaft fristen mu?. 
+$Button=Weiter,Tell,TryAgain
+
+[END]
+																		 
+																		 

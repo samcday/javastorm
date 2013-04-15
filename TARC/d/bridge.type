@@ -1,0 +1,83 @@
+typename bridge constructor
+typeflags surface bridge;
+{
+	description="Bridge";
+	class="Bridge";
+	zorder = "zoBRIDGE"; // changed from +1 jfg 1/27
+//	mana = "s";
+	foot_x = 1;
+	threat = 1;
+	foot_y = 1;
+	hotfootRatioX = 0;
+	hotfootRatioY = 0.27;
+}
+
+// WARNING: You must have a "cracked" frame for every orientation
+// whether it looks cracked or not. Crabs need it so they can scuttle
+// off bridge. Also, for the cracking algorythm to work properly,
+// you must match the variation number +10 of each cracked frame with the
+// variation number of its normal frame. -Ken
+
+A01 : default : "bridge.gif" #00 ; // 0
+A11 : cracked : "bridge.gif" #35 ; // 1
+A20 : hard    : "bridge.gif" #50 ; // 1
+B01 :         : "bridge.gif" #01 ; // 2
+B02 :         : "bridge.gif" #12 ; // 3
+B11 : cracked : "bridge.gif" #36 ; // 4
+B12 : cracked : "bridge.gif" #45 ; // 4
+B20 : hard    : "bridge.gif" #51 ; // 4
+C01 :         : "bridge.gif" #02 ; // 5
+C02 :         : "bridge.gif" #13 ; // 6
+C11 : cracked : "bridge.gif" #37 ; // 7
+C12 : cracked : "bridge.gif" #46 ; // 7
+C20 : hard    : "bridge.gif" #52 ; // 7
+D01 :         : "bridge.gif" #03 ; // 8 
+D02 :         : "bridge.gif" #14 ; // 9 
+D11 : cracked : "bridge.gif" #38 ; // 10
+D12 : cracked : "bridge.gif" #47 ; // 10
+D20 : hard    : "bridge.gif" #53 ; // 10
+E01 :         : "bridge.gif" #04 ; // 11
+E02 :         : "bridge.gif" #15 ; // 12
+E11 : cracked : "bridge.gif" #39 ; // 13
+E12 : cracked : "bridge.gif" #48 ; // 13
+E20 : hard    : "bridge.gif" #54 ; // 13
+F01 :         : "bridge.gif" #05 ; // 14
+F11 : cracked : "bridge.gif" #40 ; // 15
+F20 : hard    : "bridge.gif" #55 ; // 15
+G01 :         : "bridge.gif" #06 ; // 16
+G11 : cracked : "bridge.gif" #41 ; // 17
+G20 : hard    : "bridge.gif" #56 ; // 17
+H01 :         : "bridge.gif" #07 ; // 18
+H11 : cracked : "bridge.gif" #42 ; // 19
+H20 : hard    : "bridge.gif" #57 ; // 19
+I01 :         : "bridge.gif" #08 ; // 20
+I11 : cracked : "bridge.gif" #43 ; // 21
+I20 : hard    : "bridge.gif" #58 ; // 21
+J01 :         : "bridge.gif" #09 ; // 22
+J02 :         : "bridge.gif" #09 ; //25
+J11 : cracked : "bridge.gif" #16 ; // 23
+J11 : cracked : "bridge.gif" #18 ; //24
+J12 : cracked : "bridge.gif" #22 ; //26
+J20 : hard    : "bridge.gif" #59 ; //26
+K01 :         : "bridge.gif" #10 ; //27
+K02 :         : "bridge.gif" #10 ; //30
+K11 : cracked : "bridge.gif" #17 ; //28
+K11 : cracked : "bridge.gif" #19 ; //29
+K12 : cracked : "bridge.gif" #24 ; //31
+K20 : hard    : "bridge.gif" #60 ; //31
+
+L01 :         : "bridge.gif" #61 ;
+L11 : cracked : "bridge.gif" #61 ;
+L20 : hard    : "bridge.gif" #65 ;
+M01 :         : "bridge.gif" #62 ;
+M11 : cracked : "bridge.gif" #62 ;
+M20 : hard    : "bridge.gif" #66 ;
+N01 :         : "bridge.gif" #63 ;
+N11 : cracked : "bridge.gif" #63 ;
+N20 : hard    : "bridge.gif" #67 ;
+O01 :         : "bridge.gif" #64 ;
+O11 : cracked : "bridge.gif" #64 ;
+O20 : hard    : "bridge.gif" #68 ;
+
+P00 : help    : "B_bridge.GIF" #00;
+

@@ -1,0 +1,68 @@
+[Header]
+missionType = "Tutorial"
+aid=1
+
+missionNumber = 1
+
+myStartMoney = 2000
+myTech = "sunWalker;windBattery;sunArcher;sunCannon"
+
+aiName = "Master of Whirligigs"
+aiTech = "sunWalker;rainBattery;sunAviary"
+aiStartMoney = 2000
+aiGeyserAttachments = 1
+aiCollectors = 1
+aiTimeBetweenMoves = 6
+aiAbility="!CONCENTRATE_FIRE;!REPEAT_SUCCESSFUL_DROPS"
+
+title="Master of Whirligigs"
+
+[A.]
+<h2>Master of Whirligigs</h2>
+<p>
+<i>The ancestry and origin of warfare in Nimbus is warfare in Nimbus."
+--Galtruf Endiks, Historian</i>
+<p>
+The Lords of Darkness believe that your island is weak. They
+have sent the Master of Whirligigs to take your land and
+enslave your people.
+<p>
+Your enemies think you are incompetent.  Prove them wrong by 
+capturing their evil High Priest and sacrificing him to 
+the Furies.
+
+$Button=Review Knowledge,ShowTechnology,55
+$Button=Play Mission,DoNothing,0
+
+
+[Succeeded][BadTeamDead]
+<h2>Success!</h2>
+<p>
+You have defended your people brilliantly against this vicious 
+and brutal attack!  You have captured 
+and slaughtered the High Priest of the so-called 
+"Master" of Whirligigs.  Is it not clear now who is the 
+true Master?
+<$Config,Done{mission.fileName}=1>
+$Button=Leave Missions,MissionAbort,1
+$Button=Next Mission,MissionBegin,SaveTheIsland
+
+
+[Failed]
+<h2>Failure!</h2>
+<p>
+You did not capture the enemy Priest in this battle.
+<p>
+The Master of Whirligigs has decimated your forces. It
+seems that the Lords of Darkness were right about you 
+after all.
+<p>
+You will now become a minor minion in the empire 
+of the Dark Lords and your people will eke out their days 
+in chains, cursing your pitiful name with every breath.
+$Button=Continue,Tell,TryAgain
+
+
+[END]
+																		 
+																		 

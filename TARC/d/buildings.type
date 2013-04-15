@@ -1,0 +1,12 @@
+typename buildings
+typeflags default_hotspot;
+{
+	zorder = "zoFLYERS";
+}
+
+A01 : default : "buildings.gif" #00  ;
+//A02 :  : "buildings.gif" #01  ;
+A02 :  : "vegetation.gif" #00  ;
+A03 :  : "buildings.gif" #02  ;
+
+

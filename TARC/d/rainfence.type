@@ -1,0 +1,32 @@
+typename rainFence constructor 
+typeflags createsisland emplacement shadow fence fencePost;
+{
+	description="Acid Barricade";
+	class="Defense";
+	zorder = "zoEMPLACEMENTS";
+	range = 45;
+	minUsage = 20;
+	threat = 5;
+	maxUsage = 20;
+	constructionRate = 10;
+	foot_x = 3;
+	foot_y = 3;
+//	hotFootY = 6;
+	hotFootRatioY = 0.375;
+	damageEffect = 1;
+	group = "fence";
+
+	maxHitPoints = 700;
+	theme = "rain";
+	cost = 400;
+	level = 2;
+
+	techBit = 13;
+}
+
+A00 : default : "sfence.gif" #00  : "sfence.gif" #23 ;
+A01 : : "sfence.gif" #01  : "sfence.gif" #24 ;
+A02 : : "sfence.gif" #02  : "sfence.gif" #25 ;
+A03 : : "sfence.gif" #03  : "sfence.gif" #26 ;
+
+P00 : help : "b_rfence.GIF" #00;

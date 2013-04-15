@@ -1,0 +1,26 @@
+typename bombExplodeSmall constructor
+typeflags default_hotspot bomb mayDropOnRim ;
+{
+	description="Point Blast";
+	class="Offensive Spell";
+
+	zorder = "zoEMPLACEMENTS";
+	foot_x = 1;
+	foot_y = 1;
+
+	level = 1;	// Determines its probability class
+	range = 1;
+	cost = 300;
+
+	activeSound = "pointBlastGet.wav";
+	fireSound = "pointBlastCast.wav";
+	casttime=5;
+	praytime=60;
+	manacost=10;
+}
+
+A00 : : "blank.gif" #0 ;
+
+B00 :  default baseframe : "spells.gif" #03  ;
+
+B01 : help : "b_obelisk.gif" #00;

@@ -1,0 +1,11 @@
+typename metaDebris
+typeflags opaquecollide ship;
+{
+	zorder = "zoISLAND";
+	foot_x = 1;
+	foot_y = 1;
+}
+
+// Only one frame: a unit island with stalagtites
+
+A00 : default : "island.gif" #00;

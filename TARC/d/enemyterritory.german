@@ -1,0 +1,91 @@
+[Header]
+missionType = "Tutorial"
+
+missionNumber = 1
+
+allowAnyCapture = 1
+
+myStartMoney = 10000
+myTech = "sunWalker;windBattery;windWalker;windArcher;sunBlocker;sunAviary;sunCannon"
+
+aiMoneyRechargeRate = 8      // One sun cannon per minute
+
+// The guy you're saving
+ai2Name = "Der ?berl?ufer"
+ai2Tech = "sunWalker"
+ai2StartMoney = 0
+ai2TimeBetweenMoves = 4
+ai2AllyList = "1"
+ai2Ability = "!COLLECT_STORM_POWER;!ATTACH_TO_ENEMY_ISLAND;!ENCIRCLE_ENEMY_ISLAND"
+ai2Color = white
+
+ai3Name = "F?rst des Windes"
+ai3Tech = "sunWalker;sunArcher;sunCannon;windBattery;windAviary;windBlocker;windArcher"
+ai3StartMoney = 6000
+ai3TimeBetweenMoves = 4
+ai3AllyList = "4"
+ai3Ability = "!ATTACH_TO_ENEMY_ISLAND;!ENCIRCLE_ENEMY_ISLAND"
+ai3Color = red
+
+ai4Name = "F?rst des Regens"
+ai4Tech = "sunWalker;sunArcher;sunCannon;rainBattery;rainCannon;rainAviary;rainBlocker"
+ai4StartMoney = 6000
+ai4TimeBetweenMoves = 4
+ai4AllyList = "3"
+ai4Ability = "!ATTACH_TO_ENEMY_ISLAND;!ENCIRCLE_ENEMY_ISLAND"
+ai4Color = orange
+
+title="Feindliches Gebiet"
+
+[Options]
+
+[A.]
+<h2>Feindliches Gebiet</h2>
+<i>"Die Feinde meiner Feinde sind meine besten Freunde."<br>
+--Kommandant Setin Hork</i>
+<p>
+In den Reihen des Feindes befindet sich ein ?berl?ufer! Ein Priester des F?rsten des Donners will aus dem feindlichen Gebiet geholt werden. Seine Insel befindet sich nahe den feindlichen Verteidigungslinien.
+<p>
+Brechen Sie durch die feindlichen Verteidigungslinien durch, r?cken Sie zu der Insel des Priesters vor, und holen Sie ihn dort ab. Er behauptet, einen geheimen, unbewachten Zugang ins Innere des feindlichen Reiches zu kennen!
+
+$Button=Aktueller Wissensstand,ShowTechnology,55
+$Button=Mission beginnen,DoNothing,0
+
+[Ai2PriestCaptured]
+<h2>Gerettet!</h2>
+<p>
+<i>"Gott sei Dank haben Sie mich noch rechtzeitig retten k?nnen. Sobald Sie mich auf Ihrer Insel in Sicherheit gebracht haben, werde ich Ihnen den geheimen Weg verraten!"
+</i>
+$Button=Weiter,DoNothing,0
+
+
+[Succeeded][Ai2PriestSaved]
+<h2>Mission erfolgreich abgeschlossen!</h2>
+<p>
+Sie haben den ?berl?ufer auf Ihre eigene Insel gebracht!
+<p>
+Er verr?t Ihnen einen geheimen Weg, auf dem Sie gefahrlos durch das feindliche Territorium zum Inneren des Finsteren Reiches vordringen k?nnen. Ihr unumst??licher Sieg steht unmittelbar bevor! 
+
+<$Config,Done{mission.fileName}=1>
+
+$Button=Mission beenden,MissionAbort,1
+$Button=N?chste Mission,MissionBegin,FinalConfrontation
+
+[Ai2PriestDead]
+<h2>Missionsziel verfehlt!</h2>
+<p>
+Die feindlichen Einheiten haben den abtr?nnigen Priester get?tet. Ohne seine geheimen Informationen werden Sie es niemals schaffen, in das Zentrum des finsteren Reiches vorzudringen! 
+$Button=Weiter,Tell,TryAgain
+
+[Failed]
+<h2>Missionsziel verfehlt!</h2>
+<p>
+Der Feind hat Ihre Insel verw?stet und Ihren Priester niedergemetzelt.
+<p>
+Ohne die wertvollen Informationen, die Ihnen der ?berl?ufer h?tte geben k?nnen, werden Sie Ihr Ziel niemals erreichen!
+$Button=Weiter,Tell,TryAgain
+
+
+[END]
+																		 
+																		 

@@ -1,0 +1,37 @@
+typename sunFlyer constructor
+typeflags flyer dontSave flyershadow;
+{
+	description="Whirligig";
+	class="Aerial Attack";
+	maxHitPoints = 50;
+	theme = "sun";
+	// Level is not relevent for this, only its base.
+
+	zorder = "zoFLYERS";
+	foot_x = 1;
+	foot_y = 1;
+	constructionRate = 5;
+
+	range = 30;
+		// This is the true range of the flyer. Change the value in the
+		// aviary if you change this value!
+
+	speed = 2;
+	hpPerSec = 10;
+	//	damageEffect = 1; Not until particle systems are truly attached to their parents! -Ken
+	activeSound = "whirligigSpin.wav";
+	impactSound = "whirligigSpinSlow.wav";
+	fireSound = "whirligigFire.wav";
+}
+
+// flyer and deathball art is purposely interchanged. 
+A00 : default : "sflyer.gif" #00 : "sflyer.gif" #50 ;
+A01 :         : "sflyer.gif" #01 : "sflyer.gif" #51 ;
+A02 :         : "sflyer.gif" #02 : "sflyer.gif" #52 ;
+A03 :         : "sflyer.gif" #03 : "sflyer.gif" #53 ;
+A04 :         : "sflyer.gif" #04 : "sflyer.gif" #54 ;
+A05 :         : "sflyer.gif" #05 : "sflyer.gif" #55 ;
+A06 :         : "sflyer.gif" #06 : "sflyer.gif" #56 ;
+A07 :         : "sflyer.gif" #07 : "sflyer.gif" #57 ;
+																				
+P00 : help : "b_sflyer.gif" #00 ;																				

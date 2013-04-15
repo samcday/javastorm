@@ -1,0 +1,12 @@
+typename playerisland
+typeflags ship;
+{
+	zorder = "zoBRIDGE";
+	foot_x = 1;
+	foot_y = 1;
+}
+
+A01	: default : "player.gif" #80 ;
+
+
+

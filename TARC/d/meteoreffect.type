@@ -1,0 +1,28 @@
+typename MeteorEffect
+typeflags dontSave not_real;
+{
+	zorder = "zoMISSILES";
+	//fireSound = "whirligigFire.wav";
+	orientations = 1;
+}
+
+// this is the fall effect
+A00 :  : "meteor1.GIF" #00;
+A01 :  : "meteor1.GIF" #01;
+A02 :  : "meteor1.GIF" #02;
+A03 :  : "meteor1.GIF" #03;
+A04 :  : "meteor1.GIF" #04;
+A05 :  : "meteor1.GIF" #05;
+A06 :  : "meteor1.GIF" #06;
+A07 :  : "meteor1.GIF" #07;
+A08 :  : "meteor1.GIF" #08;
+
+
+// this is the boom effect
+A09 :  : "meteor2.GIF" #00;
+A10 :  : "meteor2.GIF" #01;
+A11 :  : "meteor2.GIF" #02;
+A12 :  : "meteor2.GIF" #03;
+A13 :  : "meteor2.GIF" #04;
+A15 :  : "meteor2.GIF" #05;
+

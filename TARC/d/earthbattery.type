@@ -1,0 +1,28 @@
+typename earthBattery constructor
+typeflags createsisland emplacement shadow;
+{
+	description="Earth Generator";
+	class="Source of Energy";
+	maxHitPoints = 800;
+	theme = "earth";
+	level = 1;
+	cost = 400;
+	mana = "o";
+
+	zorder = "zoEMPLACEMENTS";
+	minUsage = -100;
+	maxUsage = -100;
+	foot_x = 3;
+	foot_y = 3;
+	hotFootRatioX = 0.5;
+	hotFootRatioY = 0.4;
+	damageEffect = 1;
+	activeSound = "jacoblad.wav";
+//	rateVar = 0.01;
+	group = "battery";
+
+	techBit = 25;
+}
+
+A01 : default : "focus.gif" #06 : "focus.gif" #03 ;
+P00 : help : "b_focusers.gif" #00;

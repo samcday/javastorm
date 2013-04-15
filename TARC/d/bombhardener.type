@@ -1,0 +1,28 @@
+typename bombHardener constructor
+typeflags default_hotspot bomb mayDropOnRim ;
+{
+	description = "Bridge Harden";
+	class = "Defensive Spell";
+
+	zorder = "zoEMPLACEMENTS";
+	foot_x = 1;
+	foot_y = 1;
+
+	level = 2;	// Determines its probability class
+	range = 7;
+	cost = 150;
+
+	activeSound = "bridgeHardenGet.wav";
+	fireSound = "bridgeHardenCast.wav";
+	casttime=5;
+	praytime=60;
+	manacost=10;
+
+}
+
+A00 : : "blank.gif" #0 ;
+
+B00 :  default baseframe : "spells.gif" #08  ;
+
+B01 : help : "b_obelisk.gif" #00;
+

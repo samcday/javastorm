@@ -1,0 +1,29 @@
+typename noIsland
+
+
+
+typeflags rim default_hotspot island islandThreeByThree not_selectable surface islandThreeByThree;
+
+{
+
+    description="noIsland";
+
+	zorder = "zoISLAND";
+
+    foot_x = 1;
+
+    foot_y = 1;
+
+}
+
+
+
+A01 : default solid dirt : "null.gif" #0;
+F01 : solid dirt : "null.gif" #0;
+C01 : solid dirt : "null.gif" #0;
+G01 : solid dirt : "null.gif" #0;
+B01 : solid dirt : "null.gif" #0;
+D01 : solid dirt : "null.gif" #0;
+I01 : solid dirt : "null.gif" #0;
+E01 : solid dirt : "null.gif" #0;
+H01 : solid dirt : "null.gif" #0;

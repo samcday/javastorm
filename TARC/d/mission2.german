@@ -1,0 +1,46 @@
+[Header]
+missionType = "Normal"
+buildCriteria = "sunArcher"
+
+tech = deny;all;allow;rainVortex;sunFactory;sunArcher"
+
+run0 = AddRandom,windGem
+
+[OBJECTIVE]
+<background="startcl.gif">
+<h2>Mission Two</h2>
+"Build the Infrastructure"
+<p>
+Encouraged by your performance as Mayor, a mob appears
+one day on your doorstep. Pirates have been spotted passing
+in the distance and the people are nervous. They want 
+a Sun {factory} to build defenses.
+<p>
+Look for a Wind Gem, <!"WindGem.0">, on your island. You can click
+on it to move it around. Use it to build your {factory}, then
+Research and build Sun Disc Throwers for defense!
+<br>
+<!"sunfactory.0">   <!"sunArcher.33">   
+<br>
+   "Sun {factory}"      "Sun Disc Thrower"
+
+$Button=CONTINUE,DoNothing,0
+
+[SUCCESS]
+<h2>Success!</h2>
+<p>
+Congratulations! You are proclaimed a "Captain of Industry" by
+the people in a ceremony lasting three hours. After the celebration
+they rename you "Captain of Jack Daniels."
+<p>
+Good work!
+<p>
+$Button=NEXT MISSION,MissionBegin,mission3
+
+[FAILURE]
+<h2>Failure!</h2>
+Really, there is hardly any way you can fail this mission.
+<br>
+$Button=QUIT,DoNothing,0
+$Button=RESTART,MissionRestart,0
+[end]

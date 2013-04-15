@@ -1,0 +1,74 @@
+typename earthcannon constructor
+typeflags createsisland emplacement;
+{
+	description="Earth Cannon";
+	class="Shooter";
+	maxHitPoints = 600;
+	theme = "earth";
+	level = 2;
+	cost = 1000;
+
+	zorder = "zoEMPLACEMENTS";
+	range = 35;
+//	attackValueConst = 15;
+	hpPerSec = 35;
+	foot_x = 3;
+	foot_y = 3;
+	height = 2;
+
+	minUsage = 20;
+	maxUsage = 200;
+//	hotFootX = 2;
+//	hotFootY = 6;
+	hotFootRatioX = 0.125;
+	hotFootRatioY = 0.375;
+//	rateConst = 0.0;
+//	rateVar = 0.002;
+	group = "cannon";
+
+	damageEffect = 1;
+	constructionRate = 10;
+	fireSound = "thunderCannon.wav";
+
+	techBit = 34;
+}
+
+L00	:         : "ecannon.gif" #00 ;
+L01	:suck     : "ecannon.gif" #00 ;
+L02	:suck	  : "ecannon.gif" #00 ;
+L03	:suck	  : "ecannon.gif" #01 ;
+L04	:suck	  : "ecannon.gif" #01 ;
+L05	:suck	  : "ecannon.gif" #02 ;
+L06	:suck	  : "ecannon.gif" #02 ;
+L07	:		  : "ecannon.gif" #03 ;
+L08	:		  : "ecannon.gif" #04 ;
+M00	:         : "ecannon.gif" #15 ;
+M01	:suck     : "ecannon.gif" #15 ;
+M02	:suck	  : "ecannon.gif" #15 ;
+M03	:suck     : "ecannon.gif" #16 ;
+M04	:suck	  : "ecannon.gif" #16 ;
+M05	:suck	  : "ecannon.gif" #17 ;
+M06	:suck	  : "ecannon.gif" #17 ;
+M07	:		  : "ecannon.gif" #18 ;
+M08	:		  : "ecannon.gif" #19 ;
+N00	:         : "ecannon.gif" #05 ;
+N01	:suck     : "ecannon.gif" #05 ;
+N02	:suck	  : "ecannon.gif" #05 ;
+N03	:suck     : "ecannon.gif" #06 ;
+N04	:suck	  : "ecannon.gif" #06 ;
+N05	:suck	  : "ecannon.gif" #07 ;
+N06	:suck	  : "ecannon.gif" #07 ;
+N07	:		  : "ecannon.gif" #08 ;
+N08	:		  : "ecannon.gif" #09 ;
+O00	:         : "ecannon.gif" #10 ;
+O01	:suck     : "ecannon.gif" #10 ;
+O02	:suck	  : "ecannon.gif" #10 ;
+O03	:suck     : "ecannon.gif" #11 ;
+O04	:suck	  : "ecannon.gif" #11 ;
+O05	:suck	  : "ecannon.gif" #12 ;
+O06	:suck	  : "ecannon.gif" #13 ;
+O07	:		  : "ecannon.gif" #13 ;
+O08	:		  : "ecannon.gif" #14 ;
+
+P00 : help : "b_tcannon.gif" #00;
+

@@ -1,0 +1,13 @@
+typename platform
+
+typeflags  default_hotspot not_selectable;
+{
+        description="Platform";
+	zorder = "zoBRIDGE";
+	foot_x = 3;
+	foot_y = 3;
+}
+
+// P because islands connect only to bridges, not to each other...
+P00 : default : "platform.gif" #1 ; 
+

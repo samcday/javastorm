@@ -1,0 +1,158 @@
+[Header]
+missionType = "Tutorial"
+aid=1
+
+loadFort = "CaptureThePriest"
+denySalvage = 1
+denyAscend = 1
+tutorialNumber = 3
+moreGeysers = 0
+
+techAllowed = "deny;all;allow;windVortex;sunArcher;sunWalker;sunFactory;windBattery;sunCannon;altar"
+
+myStartMoney = 2000
+myTech = "sunArcher;sunWalker"
+myProd = "sunArcher"
+
+aiOff = 1
+aiNoTemple = 1
+
+title = "Gefangennahme eines Priesters"
+
+[Options]
+
+[A.]
+<h2>Gefangennahme eines Priesters</h2>
+<i>"Es gibt kein sch?neres Gef?hl als das, was sich einstellt, nachdem man es dem Gegner so richtig gezeigt hat." --Gen. Ebens Rilfenstor</i>
+<p>
+Nachdem Sie nun wissen, wie Sie Produktionsst?tten errichten und Wissen in Produktion leiten k?nnen, sind Sie bereit, die in den Produktionsst?tten hergestellten Kampfeinheiten zum Angriff gegen feindliche Einheiten einzusetzen!
+<p>
+Um Ihnen diese Aufgabe ein wenig zu erleichtern, finden Sie auf Ihrer Insel bereits einen Windtempel und eine Sonnenproduktionsst?tte vor. Im Spiel m?ssen Sie diese Geb?ude selbst errichten.
+<p>
+Des weiteren k?nnen Sie in Ihrem Produktionsfenster erkennen, da? Sie nunmehr auch die M?glichkeit haben, Golems zu bauen. Golems sind besondere Diener des Tempels, die zum Abbau von Sturmkraft eingesetzt werden k?nnen.
+
+$Button=WEITER,Tell,A1.
+
+
+[A1.]
+<h2>Golems bauen</h2>
+Um einen Golem zu bauen, gehen Sie wie bei der Errichtung eines Sonnenscheibenwerfers vor. Zum Bau eines Golems ist eine Einheit Sonnenenergie <!"mana.7"> (d.h. eine Einheit Regen-, Wind- oder Donnerenergie) erforderlich.
+<p>
+In dieser ?bungsmission brauchen Sie mehr Sturmkraft, als Sie bisher besitzen. Errichten Sie deshalb eine Br?ckenverbindung zu einem Geysir, bauen Sie dann einige Golems, und lassen Sie diese schlie?lich Sturmkraft aus dem Geysir abbauen.  
+Sie werden feststellen, da? die Golems beim Abbau von Sturmkristallen deutlich schneller arbeiten als der Priester.
+<p>
+<I>Die ?bungsmission wird automatisch fortgesetzt, wenn einer Ihrer Golems den ersten Sturmkristall im Tempel abgeliefert hat.</I>
+$Button=ZUR?CK,Tell,A.
+$Button=OK,DoNothing,0
+
+
+[B.]
+<h2>Gefangennahme feindlicher Priester, Teil 1</h2>
+<i>"Der einzige Unterschied zwischen einem gefangenen und einem toten Priester ist eine kleine Zeitspanne."  --Belkis Reveskis, Nimbischer Feldherr</i>
+<p>
+S?dlich Ihrer Insel befindet sich eine feindliche Insel. Ihr Ziel ist es, den feindlichen Priester gefangenzunehmen.
+<p>
+Priester sind auf dem Schlachtfeld unsterblich, aber wenn sie eine Weile unter Beschu? genommen werden, fallen sie in einen Paralysezustand und k?nnen gefangengenommen werden. Anschlie?end k?nnen Sie sie auf Ihre Insel bringen und dort den Furien als Opfer darbringen, um sich mit neuem Wissen belohnen zu lassen.
+$Button=WEITER,Tell,B1.
+
+[B1.]
+<h2>Gefangennahme feindlicher Priester, Teil 2</h2>
+Stellen Sie eine Br?ckenverbindung zwischen Ihrer und der feindlichen Insel her. 
+<p>
+Br?ckenteile sind kostenfrei. Sollten Sie also an einer bestimmten Stelle des feindlichen Inselrandes Schwierigkeiten haben, ein Br?ckenteil anzulegen, verzweigen Sie Ihre Br?cken ein wenig und versuchen es an einer anderen Stelle.
+<p>
+Hinweis: Im Augenblick brauchen Sie sich noch keine Sorgen ?ber die Verwendung rissiger Br?ckenteile zu machen, denn es kommt in dieser ?bungsmission nicht zu so vielen Explosionen, da? die Br?cken zusammenbrechen w?rden. Konzentrieren Sie sich in diesem Fall einfach darauf, so schnell wie m?glich eine Br?ckenverbindung zur feindlichen Insel herzustellen.
+<p>
+<I>Sobald Sie Ihre Br?cke an der feindlichen Insel angelegt haben, wird die ?bungsmission fortgesetzt.</I>
+
+$Button=ZUR?CK,Tell,B.
+$Button=OK,DoNothing,0
+
+[C.]
+<h2>Errichtung von Sonnenscheibenwerfern</h2>
+Sehr gut! Nachdem Sie sich nun Zugang zu der feindlichen Insel verschafft haben, k?nnen Sie mit den Angriffsvorbereitungen beginnen. Geben Sie zun?chst die Sonnenscheibenwerfer in Produktion.
+<p>
+<I>Klicken Sie, wie gehabt, Ihre Sonnenproduktionsst?tte mit der <c>rechten Maustaste</c> an, w?hlen Sie dann <c>Wissen in Produktion leiten</c> und anschlie?end <c>Sonnenscheibenwerfer</c>.</I>
+$Button=OK,DoNothing,0
+
+[D.]
+<h2>Generatoren, Teil 1</h2>
+<i>"Mit hundert dieser Generatoren sind alle Antriebsprobleme der Zukunft gel?st." --Berlis Smirtenk, Erfinder des Generators</i>
+<p>
+Mit Hilfe Ihrer Sonnenscheibenwerfer soll nun der feindliche Priester unter Beschu? genommen werden. Dazu m?ssen Sie zun?chst einige Werfer auf der feindlichen Insel errichten!
+<p>
+Wenn Sie jetzt versuchen, einen Sonnenscheibenwerfer auf der feindlichen Insel aufzustellen, werden Sie feststellen, da? die Energiereichweite Ihres Tempels nicht ausreicht. Um die n?tige Energieversorgung zu gew?hrleisten, m?ssen Sie sogenannte "Generatoren" einsetzen.
+
+$Button=WEITER,Tell,D1.
+
+[D1.]
+<h2>Generatoren, Teil 2</h2>
+Es gibt drei Typen von Generatoren, die den drei Energiearten entsprechen: Regen, Wind und Donner. Einen "Sonnengenerator" gibt es nicht, da es sich bei der "Sonne" um eine universelle Energieart handelt, die sowohl von Regen- als auch Wind- oder Donnerenergie gespeist werden kann.
+<p>
+Jeder Generator erzeugt eine Einheit der jeweils zugeh?rigen Energieart und verteilt diese, genau wie der Tempel, in einem kreisf?rmigen Radius.
+<p>
+<I>Klicken Sie Ihre Produktionsst?tte an, und geben Sie den "Windgenerator" in Produktion. Die ?bungsmission wird anschlie?end automatisch fortgesetzt.</I>
+<br>
+           <!"rainBattery.0">                              <!"windBattery.0">                                <!"thunderBattery.0"><br>
+   "Regengenerator"         "Windgenerator"         "Donnergenerator"
+$Button=ZUR?CK,Tell,D.
+$Button=OK,DoNothing,0
+
+[E.]
+<h2>Energiezufuhr erweitern, Teil 1</h2>
+Wie bereits erw?hnt, verteilt ein Generator seine Energie in einem kreisf?rmigen Radius.
+<p>
+F?r die Errichtung eine Generators ist eine Einheit Sonnenenergie (also eine Einheit einer beliebigen Energieart) erforderlich. Um die Energiezufuhr zu gew?hrleisten, m?ssen Sie Ihren ersten Generator in der N?he bzw. innerhalb der Energiereichweite des Tempels aufstellen. Dieser neue Generator verteilt seine Energie wiederum kreisf?rmig in einem bestimmten Radius, so da? Sie innerhalb dieser Energiereichweite dann einen zweiten Generator aufstellen k?nnen, der seine Energie ebenfalls in einem kreisf?rmigen Radius verteilt usw. Auf diese Art und Weise k?nnen Sie eine Kette von Generatoren errichten, die Energiereichweite durch ?berschneidung der Radien erweitern und so die Energieversorgung an jeder beliebigen Stelle im Wolkenreich gew?hrleisten.
+$Button=WEITER,Tell,E1.
+
+[E1.]
+<h2>Energiezufuhr erweitern, Teil 2</h2>
+Im Augenblick ben?tigen Sie eine Energieversorgung, die bis zur feindlichen Insel reicht, so da? Sie dort Ihre Sonnenscheibenwerfer errichten k?nnen. Stellen Sie ausgehend von Ihrer Insel entlang der Br?cke (an den Enden der einzelnen Br?ckenteile) eine Kette von Windgeneratoren auf, bis die Energiezufuhr auf die feindliche Insel reicht.
+<p>
+<I>Nachdem Sie Ihren ersten Sonnenscheibenwerfer auf der feindlichen Insel errichtet haben, wird die ?bungsmission automatisch fortgesetzt.</I>
+<p>
+Denken Sie daran, da? Kampfeinheiten immer nur auf einer Insel oder an den Enden von Br?ckenteilen, nicht aber entlang der Seiten einer Br?cke errichtet werden k?nnen.
+<p>
+Hinweis: M?glicherweise m?ssen Sie noch weitere Br?ckenteile an Ihre bereits vorhandenen Br?cken anlegen, um die Generatoren an den Stellen plazieren zu k?nnen, wo Sie sie brauchen.
+
+$Button=ZUR?CK,Tell,E.
+$Button=OK,DoNothing,0
+
+[F.]
+<h2>Feindliche Priester paralysieren</h2>
+<i>"Sie haben sie in der Zange, wenn jede Faser ihres K?rpers regungslos bleibt, abgesehen von ihren Augen, die sich in wilder Panik hin und her bewegen." --Prut Nilduk ?ber die Priester auf dem Schlachtfeld</i>
+<p>
+Sobald sich der feindliche Priester innerhalb der Reichweite Ihrer Sonnenscheibenwerfer befindet, wird er automatisch unter Beschu? genommen.
+Wenn sich der Priester jedoch au?erhalb der Reichweite Ihrer Kampfeinheiten aufh?lt, m?ssen Sie weitere Sonnenscheibenwerfer errichten, bis er dem Beschu? nicht mehr ausweichen kann. Gegebenenfalls m?ssen Sie die Energiezufuhr weiter ins Innere der feindlichen Insel erweitern, um zus?tzliche Sonnenscheibenwerfer errichten zu k?nnen.
+<p>
+<I>Die ?bungsmission wird fortgesetzt, sobald der feindliche Priester durch den Beschu? Ihrer Einheiten paralysiert ist.</I>
+
+$Button=OK,DoNothing,0
+
+[G.]
+<h2>Gefangennahme des feindlichen Priesters</h2>
+Solange sich der Priester im Paralysezustand befindet (erkennbar daran, da? er einen Schutzschild in Form eines schimmernden Kreises um sich herum errichtet), k?nnen Sie einen Golem beauftragen, ihn gefangenzunehmen.  
+Klicken Sie Ihren Golem dazu mit der <c>linken Maustaste</c> an, und ziehen Sie anschlie?end den Mauszeiger auf den paralysierten Priester.
+<p>
+Sobald sich der Mauszeiger auf dem Priester befindet, nimmt er die Form einer Hand an.
+<p>
+Klicken Sie nun erneut die <c>linke Maustaste</c>. Der Golem bewegt sich daraufhin auf den Priester zu und nimmt ihn gefangen. Ein Priester kann ausschlie?lich dann gefangengenommen werden, wenn er sich im Paralysezustand befindet.
+<p>
+Ein Golem kann immer nur ein Objekt tragen. Wenn sich der Mauszeiger nicht in eine Hand verwandelt, k?nnte dies daran liegen, da? der Golem schon einen Sturmkristall transportiert. In diesem Fall m?ssen Sie vor der Gefangennahme des Priester Ihren Golem zun?chst mit der <c>rechten Maustaste</c> anklicken und den Eintrag <c>Sturmkristall ablegen</c> ausw?hlen.
+<p>
+<I>Sobald Ihr Golem den Priester in Gewahrsam genommen hat, wird die ?bungsmission fortgesetzt.</I>
+
+[H.]
+<h2>Mission erfolgreich abgeschlossen!</h2>
+Sie haben den feindlichen Priester gefangengenommen. An dieser Stelle folgt normalerweise die Opferung zu Ehren der Furien. Diese Zeremonie wird in der n?chsten ?bungsmission ausf?hrlich behandelt.
+<p>
+Damit ist die dritte ?bungsmission abgeschlossen. 
+In der n?chsten ?bungsmission erfahren Sie, wie Sie mit Hilfe von Sonnenscheibenwerfern und Sonnenkanonen feindliche Einheiten dezimieren und die Opferung des feindlichen Priesters durchf?hren k?nnen, um als Gegenleistung neues Wissen zu erlangen.
+<$Config,Done{mission.fileName}=1>
+$Button=?bungsmission beenden,LeaveBattle,1
+$Button=N?chste ?bungsmission,MissionBegin,Tutorial4
+
+
+[END]
+																		 
+																		 

@@ -1,0 +1,228 @@
+typename Priest
+
+typeflags walker priest shadow saveQa;
+{
+	description="High Priest";
+	class="High Priest";
+	zorder = "zoEMPLACEMENT";
+	// Trying to make zOrder just under walkers and buildings.
+	foot_x = 1;
+	foot_y = 1;
+	height = 1;
+	range = 30;
+	threat = 25;
+	maxHitPoints =100;
+	group = "walker";
+
+	speed = 1.8;
+		// We're making the priest slow so that you're unwilling to risk him
+		// during battle.
+	turningSpeed = 999999.0;    //999999.0; to fast
+
+	hotFootRatioX = 0.5;
+	hotFootRatioY = 0.2;
+
+//	activeSound = "moveBeetle.wav";
+	pickupSound = "priestPickup.wav";
+	moveSound = "priestMove1.wav";
+	dropSound = "priestDrop.wav";
+}
+
+// NORTH
+A00 : : "priest.gif" #64 : "s_priest.gif" #64;
+A01 : : "priest.gif" #65 : "s_priest.gif" #65;
+A02 : : "priest.gif" #66 : "s_priest.gif" #66;
+A03 : : "priest.gif" #67 : "s_priest.gif" #67;
+A04 : : "priest.gif" #68 : "s_priest.gif" #68;
+A05 : : "priest.gif" #69 : "s_priest.gif" #69;
+A06 : : "priest.gif" #70 : "s_priest.gif" #70;
+A07 : : "priest.gif" #71 : "s_priest.gif" #71;
+
+// NORTHEAST
+B00 : : "priest.gif" #52 : "s_priest.gif" #52;
+B01 : : "priest.gif" #53 : "s_priest.gif" #53;
+B02 : : "priest.gif" #54 : "s_priest.gif" #54;
+B03 : : "priest.gif" #55 : "s_priest.gif" #55;
+B04 : : "priest.gif" #56 : "s_priest.gif" #56;
+B05 : : "priest.gif" #57 : "s_priest.gif" #57;
+B06 : : "priest.gif" #58 : "s_priest.gif" #58;
+B07 : : "priest.gif" #59 : "s_priest.gif" #59;
+
+// EAST
+C00 : : "priest.gif" #40 : "s_priest.gif" #40;
+C01 : : "priest.gif" #41 : "s_priest.gif" #41;
+C02 : default gumpframe : "priest.gif" #42 : "s_priest.gif" #42;
+C03 : : "priest.gif" #43 : "s_priest.gif" #43;
+C04 : : "priest.gif" #44 : "s_priest.gif" #44;
+C05 : : "priest.gif" #45 : "s_priest.gif" #45;
+C06 : : "priest.gif" #46 : "s_priest.gif" #46;
+C07 : : "priest.gif" #47 : "s_priest.gif" #47;
+
+// SOUTHEAST
+D00 : : "priest.gif" #28 : "s_priest.gif" #28;
+D01 : : "priest.gif" #29 : "s_priest.gif" #29;
+D02 : : "priest.gif" #30 : "s_priest.gif" #30;
+D03 : : "priest.gif" #31 : "s_priest.gif" #31;
+D04 : : "priest.gif" #32 : "s_priest.gif" #32;
+D05 : : "priest.gif" #33 : "s_priest.gif" #33;
+D06 : : "priest.gif" #34 : "s_priest.gif" #34;
+D07 : : "priest.gif" #35 : "s_priest.gif" #35;
+
+// SOUTH
+E00 : : "priest.gif" #16 : "s_priest.gif" #16;
+E01 : : "priest.gif" #17 : "s_priest.gif" #17;
+E02 : : "priest.gif" #18 : "s_priest.gif" #18;
+E03 : : "priest.gif" #19 : "s_priest.gif" #19;
+E04 : : "priest.gif" #20 : "s_priest.gif" #20;
+E05 : : "priest.gif" #21 : "s_priest.gif" #21;
+E06 : : "priest.gif" #22 : "s_priest.gif" #22;
+E07 : : "priest.gif" #23 : "s_priest.gif" #23;
+
+// SOUTH-WEST
+F00 : : "priest.gif" #4 : "s_priest.gif" #04;
+F01 : : "priest.gif" #5 : "s_priest.gif" #05;
+F02 : : "priest.gif" #6 : "s_priest.gif" #06;
+F03 : : "priest.gif" #7 : "s_priest.gif" #07;
+F04 : : "priest.gif" #8 : "s_priest.gif" #08;
+F05 : : "priest.gif" #9 : "s_priest.gif" #09;
+F06 : : "priest.gif" #10 : "s_priest.gif" #10;
+F07 : : "priest.gif" #11 : "s_priest.gif" #11;
+
+// WEST
+G00 : : "priest.gif" #89 : "s_priest.gif" #88;
+G01 : : "priest.gif" #90 : "s_priest.gif" #89;
+G02 : : "priest.gif" #91 : "s_priest.gif" #90;
+G03 : : "priest.gif" #92 : "s_priest.gif" #91;
+G04 : : "priest.gif" #93 : "s_priest.gif" #92;
+G05 : : "priest.gif" #94 : "s_priest.gif" #93;
+G06 : : "priest.gif" #95 : "s_priest.gif" #94;
+G07 : : "priest.gif" #96 : "s_priest.gif" #95;
+
+// NORTHWEST
+H00 : : "priest.gif" #76 : "s_priest.gif" #76;
+H01 : : "priest.gif" #77 : "s_priest.gif" #77;
+H02 : : "priest.gif" #78 : "s_priest.gif" #78;
+H03 : : "priest.gif" #79 : "s_priest.gif" #79;
+H04 : : "priest.gif" #80 : "s_priest.gif" #80;
+H05 : : "priest.gif" #81 : "s_priest.gif" #81;
+H06 : : "priest.gif" #82 : "s_priest.gif" #82;
+H07 : : "priest.gif" #83 : "s_priest.gif" #83;
+
+// BLANK
+I00 : : "blank.gif" #0 : "blank.gif" #00;
+
+// FLOAT
+J00 : : "priestfloat.gif" #12 : "s_priest.gif" #16; 
+J01 : : "priestfloat.gif" #13 : "s_priest.gif" #16; 
+J02 : : "priestfloat.gif" #14 : "s_priest.gif" #16; 
+J03 : : "priestfloat.gif" #15 : "s_priest.gif" #16; 
+J04 : : "priestfloat.gif" #16 : "s_priest.gif" #16; 
+J05 : : "priestfloat.gif" #17 : "s_priest.gif" #16; 
+J06 : : "priestfloat.gif" #18 : "s_priest.gif" #16; 
+J07 : : "priestfloat.gif" #19 : "s_priest.gif" #16; 
+J08 : : "priestfloat.gif" #20 : "s_priest.gif" #16; 
+J09 : : "priestfloat.gif" #21 : "s_priest.gif" #16; 
+J10 : : "priestfloat.gif" #22 : "s_priest.gif" #16; 
+J11 : : "priestfloat.gif" #23 : "s_priest.gif" #16; 
+
+// CHANT - 0 bridges gone
+K00 : : "pchant.gif" #00 : "s_priest.gif" #16; 
+K01 : : "pchant.gif" #01 : "s_priest.gif" #16; 
+K02 : : "pchant.gif" #02 : "s_priest.gif" #16; 
+K03 : : "pchant.gif" #03 : "s_priest.gif" #16; 
+K04 : : "pchant.gif" #04 : "s_priest.gif" #16; 
+K05 : : "pchant.gif" #05 : "s_priest.gif" #16; 
+K06 : : "pchant.gif" #06 : "s_priest.gif" #16; 
+K07 : : "pchant.gif" #07 : "s_priest.gif" #16; 
+K08 : : "pchant.gif" #08 : "s_priest.gif" #16; 
+K09 : : "pchant.gif" #09 : "s_priest.gif" #16; 
+K10 : : "pchant.gif" #10 : "s_priest.gif" #16; 
+K11 : : "pchant.gif" #11 : "s_priest.gif" #16; 
+K12 : : "pchant.gif" #12 : "s_priest.gif" #16; 
+K13 : : "pchant.gif" #13 : "s_priest.gif" #16; 
+K14 : : "pchant.gif" #14 : "s_priest.gif" #16; 
+K15 : : "pchant.gif" #15 : "s_priest.gif" #16; 
+K16 : : "pchant.gif" #16 : "s_priest.gif" #16; 
+K17 : : "pchant.gif" #17 : "s_priest.gif" #16; 
+
+// CHANT - 1 bridges gone
+L00 : : "pchant.gif" #18 : "s_priest.gif" #16; 
+L01 : : "pchant.gif" #19 : "s_priest.gif" #16; 
+L02 : : "pchant.gif" #20 : "s_priest.gif" #16; 
+L03 : : "pchant.gif" #21 : "s_priest.gif" #16; 
+L04 : : "pchant.gif" #22 : "s_priest.gif" #16; 
+L05 : : "pchant.gif" #23 : "s_priest.gif" #16; 
+L06 : : "pchant.gif" #24 : "s_priest.gif" #16; 
+L07 : : "pchant.gif" #25 : "s_priest.gif" #16; 
+L08 : : "pchant.gif" #26 : "s_priest.gif" #16; 
+L09 : : "pchant.gif" #27 : "s_priest.gif" #16; 
+L10 : : "pchant.gif" #28 : "s_priest.gif" #16; 
+L11 : : "pchant.gif" #29 : "s_priest.gif" #16; 
+L12 : : "pchant.gif" #30 : "s_priest.gif" #16; 
+L13 : : "pchant.gif" #31 : "s_priest.gif" #16; 
+L14 : : "pchant.gif" #32 : "s_priest.gif" #16; 
+L15 : : "pchant.gif" #33 : "s_priest.gif" #16; 
+L16 : : "pchant.gif" #34 : "s_priest.gif" #16; 
+L17 : : "pchant.gif" #35 : "s_priest.gif" #16; 
+
+// CHANT - 2 bridges gone
+M00 : : "pchant.gif" #36 : "s_priest.gif" #16; 
+M01 : : "pchant.gif" #37 : "s_priest.gif" #16; 
+M02 : : "pchant.gif" #38 : "s_priest.gif" #16; 
+M03 : : "pchant.gif" #39 : "s_priest.gif" #16; 
+M04 : : "pchant.gif" #40 : "s_priest.gif" #16; 
+M05 : : "pchant.gif" #41 : "s_priest.gif" #16; 
+M06 : : "pchant.gif" #42 : "s_priest.gif" #16; 
+M07 : : "pchant.gif" #43 : "s_priest.gif" #16; 
+M08 : : "pchant.gif" #44 : "s_priest.gif" #16; 
+M09 : : "pchant.gif" #45 : "s_priest.gif" #16; 
+M10 : : "pchant.gif" #46 : "s_priest.gif" #16; 
+M11 : : "pchant.gif" #47 : "s_priest.gif" #16; 
+M12 : : "pchant.gif" #48 : "s_priest.gif" #16; 
+M13 : : "pchant.gif" #49 : "s_priest.gif" #16; 
+M14 : : "pchant.gif" #50 : "s_priest.gif" #16; 
+M15 : : "pchant.gif" #51 : "s_priest.gif" #16; 
+M16 : : "pchant.gif" #52 : "s_priest.gif" #16; 
+M17 : : "pchant.gif" #53 : "s_priest.gif" #16; 
+
+// CHANT - 3 bridges gone
+N00 : : "pchant.gif" #54 : "s_priest.gif" #16; 
+N01 : : "pchant.gif" #55 : "s_priest.gif" #16; 
+N02 : : "pchant.gif" #56 : "s_priest.gif" #16; 
+N03 : : "pchant.gif" #57 : "s_priest.gif" #16; 
+N04 : : "pchant.gif" #58 : "s_priest.gif" #16; 
+N05 : : "pchant.gif" #59 : "s_priest.gif" #16; 
+N06 : : "pchant.gif" #60 : "s_priest.gif" #16; 
+N07 : : "pchant.gif" #61 : "s_priest.gif" #16; 
+N08 : : "pchant.gif" #62 : "s_priest.gif" #16; 
+N09 : : "pchant.gif" #63 : "s_priest.gif" #16; 
+N10 : : "pchant.gif" #64 : "s_priest.gif" #16; 
+N11 : : "pchant.gif" #65 : "s_priest.gif" #16; 
+N12 : : "pchant.gif" #66 : "s_priest.gif" #16; 
+N13 : : "pchant.gif" #67 : "s_priest.gif" #16; 
+N14 : : "pchant.gif" #68 : "s_priest.gif" #16; 
+N15 : : "pchant.gif" #69 : "s_priest.gif" #16; 
+N16 : : "pchant.gif" #70 : "s_priest.gif" #16; 
+N17 : : "pchant.gif" #71 : "s_priest.gif" #16; 
+
+// CHANT - 4 bridges gone
+O00 : : "pchant.gif" #72 : "s_priest.gif" #16; 
+O01 : : "pchant.gif" #73 : "s_priest.gif" #16; 
+O02 : : "pchant.gif" #74 : "s_priest.gif" #16; 
+O03 : : "pchant.gif" #75 : "s_priest.gif" #16; 
+O04 : : "pchant.gif" #76 : "s_priest.gif" #16; 
+O05 : : "pchant.gif" #77 : "s_priest.gif" #16; 
+O06 : : "pchant.gif" #78 : "s_priest.gif" #16; 
+O07 : : "pchant.gif" #79 : "s_priest.gif" #16; 
+O08 : : "pchant.gif" #80 : "s_priest.gif" #16; 
+O09 : : "pchant.gif" #81 : "s_priest.gif" #16; 
+O10 : : "pchant.gif" #82 : "s_priest.gif" #16; 
+O11 : : "pchant.gif" #83 : "s_priest.gif" #16; 
+O12 : : "pchant.gif" #84 : "s_priest.gif" #16; 
+O13 : : "pchant.gif" #85 : "s_priest.gif" #16; 
+O14 : : "pchant.gif" #86 : "s_priest.gif" #16; 
+O15 : : "pchant.gif" #87 : "s_priest.gif" #16; 
+O16 : : "pchant.gif" #88 : "s_priest.gif" #16; 
+O17 : : "pchant.gif" #89 : "s_priest.gif" #16; 
+
+P00 : help : "b_priest.gif" #00;

@@ -1,0 +1,36 @@
+// Names for things
+//---------------------------------------------------------------------
+a factory = "fr:a Workshop"
+factory = "fr:Workshop"
+factories = "fr:Workshops"
+vortex = "fr:Temple"
+vortices = "fr:Temples"
+stormpower = "fr:Storm Power"
+focus = "fr:Focus"
+focuses = "fr:Focuses"
+a focus = "fr:a Focus"
+technology = "fr:Knowledge"
+technologies = "fr:Knowledge"
+bomb = "fr:Bomb"
+bombs = "fr:Bombs"
+a bomb = "fr:a Bomb"
+helpWord = "fr:About"
+priest = "fr:High Priest"
+
+// User Interface
+//--------------------------------------------------------------------
+OkButton = "$Button=fr:OK,DoNothing,0"
+WindowName = "{progname} {local.2} fr:Fort `"{local.1}`" fr:owned by {fort.mySubHandle|Not Registered}"
+
+
+crash HTML = "<p>fr:Please copy this information and <a href=`"mailto:bugs@titanic.com`">Email Us</a> with it.`n<p>`n<a href=`"{troubleshooting URL}`">Go to troubleshooting pages.</a><hr>(to stop this browser launch, set troubleshootOnCrash = 0 in your options.cfg file.)`n"
+crash TXT  = "fr:An assertion has failed:`n'%s' in '%s', line %d version %d.`nPlease copy this information and mail it to bugs@titanic.com`n"
+	// When the game asserts, should it run the troubleshooting web pages?
+
+progName = "fr:Netstorm"
+copyright = "fr:(C) 1997 Titanic Entertainment, Inc."
+
+playMode0 = "fr:Multiplayer"
+playMode1 = "fr:Campaign"
+
+readonly = "fr:READONLY! "

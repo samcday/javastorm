@@ -1,0 +1,131 @@
+typename Altar 
+typeflags dontSave altar;
+{
+	description = "Altar";
+	class="Altar";
+	zorder = "zoEMPLACEMENTS";
+	foot_x = 7;
+	foot_y = 7;
+	maxHitPoints = 1500;
+	damageEffect = 1;
+	cost = 500; // if you change this, make sure you change it in dais.type, too!
+}
+
+// Clusters 
+// P = Empty
+// O = Struggling
+// N = Crumbling
+// M = Invisible (used while doing dais is doing animations that include altar art)
+// L = Sacrificing
+
+P00 : default : "altar01.gif" #00; 
+O01 :        : "altar01.gif" #15; 
+O02 :        : "altar01.gif" #16;
+O03 :        : "altar01.gif" #17; 
+O04 :        : "altar01.gif" #18;
+O05 :        : "altar01.gif" #19; 
+O06 :        : "altar01.gif" #20;
+O07 :        : "altar01.gif" #21; 
+O08 :        : "altar01.gif" #22;
+O09 :        : "altar01.gif" #23; 
+O10 :        : "altar01.gif" #24;
+O11 :        : "altar01.gif" #25; 
+O12 :        : "altar01.gif" #26;
+O13 :        : "altar01.gif" #27; 
+
+// No Crumbling!
+//N00 :        : "altar20.gif" #00; 
+//N01 :        : "altar20.gif" #01; 
+//N02 :        : "altar20.gif" #02;
+//N03 :        : "altar20.gif" #03; 
+//N04 :        : "altar20.gif" #04;
+//N05 :        : "altar20.gif" #05; 
+//N06 :        : "altar20.gif" #06;
+//N07 :        : "altar20.gif" #07; 
+//N08 :        : "altar20.gif" #08;
+//N09 :        : "altar20.gif" #09; 
+//N10 :        : "altar20.gif" #10;
+//N11 :        : "altar20.gif" #11; 
+//N12 :        : "altar20.gif" #12;
+//N13 :        : "altar20.gif" #13; 
+//N14 :        : "altar20.gif" #14; 
+//N15 :        : "altar20.gif" #15; 
+
+M00 :        : "blank.gif" #00;
+
+L00:        : "altar21.gif" #00;
+L01 :        : "altar21.gif" #01; 
+L02 :        : "altar21.gif" #02;
+L03 :        : "altar21.gif" #03; 
+L04 :        : "altar21.gif" #04;
+L05 :        : "altar21.gif" #05; 
+L06 :        : "altar21.gif" #06;
+L07 :        : "altar21.gif" #07; 
+L08 :        : "altar21.gif" #08;
+L09 :        : "altar21.gif" #09; 
+L10 :        : "altar21.gif" #10;
+L11 :        : "altar21.gif" #11; 
+L12 :        : "altar21.gif" #12;
+L13 :        : "altar21.gif" #13; 
+L14 :        : "altar21.gif" #14; 
+L15 :        : "altar21.gif" #15;
+L16 :        : "altar21.gif" #16; 
+L17 :        : "altar21.gif" #17;
+L18 :        : "altar21.gif" #18; 
+L19 :        : "altar21.gif" #19;
+L20 :        : "altar21.gif" #20; 
+L21 :        : "altar21.gif" #21;
+L22 :        : "altar21.gif" #22; 
+L23 :        : "altar21.gif" #23;
+L24 :        : "altar21.gif" #24; 
+L25 :        : "altar21.gif" #25;
+L26 :        : "altar21.gif" #26; 
+L27 :        : "altar21.gif" #27; 
+L28 :        : "altar21.gif" #28;
+L29 :        : "altar21.gif" #29; 
+L30 :        : "altar21.gif" #30;
+L31 :        : "altar21.gif" #31; 
+L32 :        : "altar21.gif" #32;
+L33 :        : "altar21.gif" #33; 
+L34 :        : "altar21.gif" #34;
+L35 :        : "altar22.gif" #35; 
+L36 :        : "altar22.gif" #36;
+L37 :        : "altar22.gif" #37; 
+L38 :        : "altar22.gif" #38;
+L39 :        : "altar22.gif" #39; 
+L40 :        : "altar22.gif" #40;
+L41 :        : "altar22.gif" #41; 
+L42 :        : "altar22.gif" #42;
+L43 :        : "altar22.gif" #43; 
+L44 :        : "altar22.gif" #44; 
+L45 :        : "altar22.gif" #45;
+L46 :        : "altar22.gif" #46; 
+L47 :        : "altar22.gif" #47;
+L48 :        : "altar22.gif" #48; 
+L49 :        : "altar22.gif" #49;
+L50 :        : "altar22.gif" #50; 
+L51 :        : "altar22.gif" #51;
+L52 :        : "altar22.gif" #52; 
+L53 :        : "altar22.gif" #53;
+L54 :        : "altar22.gif" #54; 
+L55 :        : "altar22.gif" #55;
+L56 :        : "altar22.gif" #56; 
+L57 :        : "altar22.gif" #57; 
+L58 :        : "altar22.gif" #58;
+L59 :        : "altar22.gif" #59; 
+L60 :        : "altar22.gif" #60;
+L61 :        : "altar22.gif" #61; 
+L62 :        : "altar22.gif" #62;
+L63 :        : "altar22.gif" #63; 
+L64 :        : "altar22.gif" #64;
+L65 :        : "altar22.gif" #65;
+L66 :        : "altar22.gif" #66; 
+L67 :        : "altar22.gif" #67;
+L68 :        : "altar22.gif" #68; 
+L69 :        : "altar22.gif" #69;
+L70 :        : "altar23.gif" #70;
+L71 :        : "altar23.gif" #71; 
+L72 :        : "altar23.gif" #72;
+L73 :        : "altar23.gif" #73; 
+
+A00 : help : "b_altar.gif" #00;

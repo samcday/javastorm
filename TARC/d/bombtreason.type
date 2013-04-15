@@ -1,0 +1,26 @@
+typename bombTreason constructor
+typeflags default_hotspot bomb mayDropOnRim ;
+{
+	description = "Treason";
+	class = "Offsensive Spell";
+
+	zorder = "zoEMPLACEMENTS";
+	foot_x = 1;
+	foot_y = 1;
+
+	level = 1;	// Determines its probability class
+	range = 7;
+	cost = 2000;
+
+	activeSound = "treasonGet.wav";
+	fireSound = "treasonCast.wav";
+	casttime=5;
+	praytime=60;
+	manacost=10;
+}
+
+A00 : : "blank.gif" #0 ;
+
+B00 : default baseframe : "spells.gif" #00  ;
+
+B01 : help : "b_obelisk.gif" #00;

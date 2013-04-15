@@ -1,0 +1,203 @@
+[Header]
+missionType = "Tutorial"
+
+missionNumber = 1
+
+myStartMoney = 2400
+myTech = "bulf;thunderBattery;thunderArcher;thunderCannon"
+
+ai1Name = "Knight of Thunder"
+ai1Tech = "sunWalker;thunderArcher;thunderBattery;thunderCannon;bulf"
+ai1StartMoney = 2000
+ai1GeyserAttachments = 4
+ai1Collectors = 5
+ai1TimeBetweenMoves = 2
+
+ai2Name = "Marquis de Man o' War"
+ai2Tech = "sunWalker;rainBattery;rainAviary;sunAviary;sunCannon;rainWalker"
+ai2StartMoney = 5000
+ai2GeyserAttachments = 8
+ai2Collectors = 5
+ai2TimeBetweenMoves = 2
+
+title="Thundering Power!"
+
+[A.]
+<h2>Thundering Power!</h2>
+<i>"To keep the Thunder as your friend, you must become the Lightning."
+--Nimbian proverb</i>
+<p>
+Your ally the Good Duke of Thunder is being assaulted by
+the Marquis De Man o' War.
+<p>
+As you travel to the Duke's island to manage its defense one thing
+becomes clear: Losing this ally would leave you without
+power in the Thunder alignment and possibly hobble the entire
+war effort.
+
+$Button=More,Tell,A1.
+
+[A1.]
+<h2>Thundering Power!</h2>
+<p>
+You have heard of this Marquis before. He is equally well known 
+for his disdain of your combat ability, and his barbed wit.
+<p>
+This is your chance to stop his tongue for good!
+
+$Button=Review Knowledge,ShowTechnology,55
+$Button=Play Mission,DoNothing,0
+
+
+[@20]
+A note arrives from the Marquis:
+<p>
+<i>
+Greetings and congratulations!
+<p>
+I see that you
+have managed to deceive your people into believing
+that you are a capable ruler.
+<p>
+In good faith, I feel it is my duty as a citizen of Nimbus
+to disabuse them of this notion by trouncing you soundly.
+</i>
+$Button=Fight On,DoNothing,0
+
+[@120]
+A note arrives from the Marquis:
+<p>
+<i>
+Think of the families of those who will die today. Do not
+make widows of the good women of your nation. Even with their
+men gone, they will still not turn to you for comfort.
+<p>
+Shall you save those precious lives?
+</i>
+$Button=Surrender,Tell,Surrender
+$Button=Continue Fighting,DoNothing,0
+
+
+
+[@360]
+A note arrives from the Marquis:
+<p>
+<i>
+Your tactics are as transparent as the lies that
+hold your empire together.
+</i>
+$Button=Fight On,DoNothing,0
+
+[@500]
+A note arrives from the Marquis:
+<p>
+<i>
+I see that your battle style is similar to
+your honor: When a real challenge arises it
+always comes up lacking.
+</i>
+$Button=Reply,Tell,Wife
+$Button=Ignore,DoNothing,0
+
+[Wife]
+You send a response:
+<p>
+<i>
+Then my honor must be greater even
+than that of your wife.
+</i>
+
+[@700]
+A note arrives from the Marquis:
+<p>
+<i>
+We can resolve this battle right now. Admit that
+you are a base coward and I shall withdraw my forces
+immediately.
+</i>
+$Button=I am Coward,DoNothing,0
+$Button=Go to Hell,DoNothing,0
+
+[@900]
+A note arrives from the Marquis:
+<p>
+<i>
+The battle has clearly gone my way. Surrender now
+and I shall supply you with the finest silk handkerchief
+to sniffle in.
+</i>
+$Button=Surrender,Tell,Surrender
+$Button=Continue Fighting,DoNothing,0
+
+
+
+[Surrender]
+You order surrender, and your troops stop fighting. They
+stand in surprise while you advance with a white flag held
+high.
+<p>
+As you pass the last soldier he spits at your feet.
+<p>
+<i>"Coward."</i>
+$Button=Depart in Disgrace,LeaveBattle,1
+$Button=Kill that Soldier,Tell,KillSoldier
+$Button=Fight,Tell,FightAgain
+
+[KillSoldier]
+As you raise your hand against the soldier the man
+beside him trips you. Before you know it they are all on you,
+cursing your family and your name.
+<p>
+The tomb they will never erect for you would have read,
+<p>
+"Killed by his own men"
+$Button=Die Pathetically,LeaveBattle,1
+
+[FightAgain]
+As you hurl down the white flag your troops cheer with
+a thunderous roar.
+<p>
+They knew the surrender to be an act
+of mercy: The wounded from both sides have been brought
+safely out of the conflict.
+<p>
+Your act of kindness has inspired them, and they fight 
+with renewed intensity
+$Button=Fight On!,DoNothing,0
+
+[Succeeded][BadTeamDead]
+<h2>Success!</h2>
+<p>
+You have crushed the Marquis!
+$Button=Send a Note to the Marquis,Tell,VictoryNote
+
+[VictoryNote]
+You send a note to the Marquis:
+<p>
+<i>
+I have heard it said that the man with the most
+to say is the man with the fewest lovers.
+<p>
+I see in your case this is true: For you
+babble as if you were a thousand men, and love only
+yourself.
+<$Config,Done{mission.fileName}=1>
+$Button=Leave Missions,MissionAbort,1
+$Button=Next Mission,MissionBegin,DissolvedAlliance
+
+[Failed]
+A note arrives from the Marquis:
+<p>
+<i>
+It is as I said, and now I have no wit to waste upon
+you. Always I find that victory makes boring the
+sport of baiting my opponent.
+<p>
+Now I have spent myself upon you, and you are no more
+use to me.
+$Button=Continue,Tell,TryAgain
+
+
+[END]
+																		 
+																		 

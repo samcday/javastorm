@@ -1,0 +1,19 @@
+typename outpostBarkin constructor
+typeflags factory yuckWalk dropBlocking shotblocking mayDropOnIsle mayDropOnRim shadow;
+{
+	description = "Specialty Outpost";
+	class = "Production";
+	maxHitPoints = 5000;
+	theme = "sun";
+	cost = 100;
+	mana = "s";
+
+	zorder = "zoEMPLACEMENTS";
+	foot_x = 5;
+	foot_y = 4;
+	damageEffect = 1;
+	constructionRate = 10;
+}
+
+A01 : default : "newembassy.gif" #00 : "newembassy.gif" #01 ;
+P00 : help : "b_embassy.gif" #00;

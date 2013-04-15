@@ -1,0 +1,19 @@
+typename HealEffect
+typeflags dontSave not_real;
+{
+	zorder = "zoMISSILES";
+	//fireSound = "whirligigFire.wav";
+	orientations = 1;
+}
+
+
+A00 :  : "HealEffect.GIF" #00;
+A01 :  : "HealEffect.GIF" #01;
+A02 :  : "HealEffect.GIF" #02;
+A03 :  : "HealEffect.GIF" #03;
+A04 :  : "HealEffect.GIF" #04;
+A05 :  : "HealEffect.GIF" #05;
+A06 :  : "HealEffect.GIF" #06;
+A07 :  : "HealEffect.GIF" #07;
+A08 :  : "HealEffect.GIF" #08;
+

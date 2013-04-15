@@ -1,0 +1,5600 @@
+oCompXlat.pl output: file e:\ns\d\xlat.german.new compared to file e:\ns\d\xlat.german.ref
+
++++++++++++ NEW TRANSLATIONS +++++++++++++
+//Both of these are the title to a box asking the user to type in a name for
+//the fort they are renaming or saving, respectively.
+
+***
+EVERYONE
+---
+ALLE
+===
+
+***
+ALLIES
+---
+ALLIERTE
+===
+
+***
+BATTLE
+---
+KAMPF
+===
+
+***
+Save Fortress As?
+---
+Festung speichern unter?
+===
+
+***
+New Save-Game Name?
+---
+Neuer Spielstand?        
+===
+
+***
+%s (~rCORRUPT~.)
+---
+%s (~rKORRUPT~.)
+===
+
+***
+Installing DirectX
+---
+DirectX wird installiert
+===
+
+// %s is replaced with the folder name supplied by the player
+***
+You can play the game by selecting "NetStorm" from the "Start/Programs/%s" menu.
+---
+Um das Spiel zu starten, w?hlen Sie bitte den Men?befehl "Start/Programme/%s" und schlie?lich "NetStorm".
+===
+
+// %s is replaced with the directory name supplied by the player
+***
+You can play the game by running "NetStorm" from the "%s" directory.
+---
+Um das Spiel zu starten, w?hlen Sie bitte im "%s"-Verzeichnis den Eintrag "NetStorm".
+===
+
+// %s is replaced at runtime with the name of a player
+***
+Kickoff "%s"?
+
+---
+"%s" rausschmei?en?
+
+===
+
+// %s is replaced at runtime with a special error code.
+***
+Contact customer support and provide the with this data: "%s".
+---
+Bitte leiten Sie folgende Information an unseren Kundendienst weiter: "%s".
+===
+
+// %s is replaced at runtime with the name of a file.
+***
+NetStorm could not open file "%s".
+Please insert the NetStorm CD and try again.
+---
+NetStorm konnte die Datei "%s" nicht ?ffnen.
+Legen Sie bitte die NetStorm-CD ein, und versuchen Sie es erneut.
+===
+
+***
+NetStorm requires Microsoft's DirectX to run in fullscreen mode. Clicking "Install DirectX" below will install DirectX onto your computer.
+
+
+---
+Um in NetStorm den Vollbildmodus aktivieren zu k?nnen, ist Microsoft DirectX erforderlich. Sie haben nun die M?glichkeit, DirectX auf Ihr System zu installieren, indem Sie die unten abgebildete Schaltfl?che "DirectX installieren" anklicken.
+
+
+===
+
+***
+The installation may overwrite your current video drivers. If you know you already have DirectX installed and want to keep your current video drivers, click "Skip DirectX" below.
+
+---
+Durch die Installation werden m?glicherweise vorhandene Grafiktreiber ?berschrieben. Sollte DirectX bereits auf Ihrem System vorhanden sein, und m?chten Sie Ihre aktuellen Grafiktreiber beibehalten, klicken Sie bitte auf die unten abgebildete Schaltfl?che "DirectX nicht installieren".
+
+===
+
+// %s is replaced at runtime with the name of a shortcut.
+***
+Adding shortcut: "%s".
+---
+Shortcut wird hinzugef?gt: "%s".
+===
+
++++++++++++ PRESERVED TRANSLATIONS +++++++++++++
+***
+Loading
+---
+Ladevorgang
+===
+
+***
+Please Wait
+---
+Bitte warten
+===
+
+***
+Warning, you are low on virtual memory.  You may have problems running NetStorm.
+Free disk space on your hard drive to increase virtual memory.
+---
+Achtung: Es ist nicht gen?gend virtueller Arbeitsspeicher verf?gbar, so da? beim Betrieb von NetStorm Probleme auftreten k?nnen. Schaffen Sie zus?tzlichen Platz auf Ihrer Festplatte, um den verf?gbaren Arbeitsspeicher zu vergr??ern.
+===
+
+***
+Low Memory
+---
+Zu wenig Arbeitsspeicher
+===
+
+***
+You may not run more than one copy of NetStorm simultaneously.
+---
+Es ist nicht m?glich, zwei NetStorm-Versionen gleichzeitig zu benutzen.
+===
+
+***
+Sorry...
+---
+Sorry...
+===
+
+***
+Activision and Titanic Entertainment Present: NetStorm
+---
+Activision und Titanic Entertainment pr?sentieren: NetStorm
+===
+
+***
+The game is not properly installed.
+Please re-run setup.
+
+---
+Das Spiel wurde nicht ordnungsgem?? installiert.
+Bitte installieren Sie die Software erneut.
+
+===
+
+***
+Fatal Error
+---
+Allgemeine Schutzverletzung
+===
+
+***
+Unrecoverable Exception!
+---
+Schwerwiegender Fehler!
+===
+
+***
+NetStorm will now shutdown.
+---
+NetStorm wird beendet.
+===
+
+***
+Unrecoverable Exception!
+---
+Schwerwiegender Fehler!
+===
+
+***
+Everyone
+---
+Alle
+===
+
+***
+Allies
+---
+Allierte
+===
+
+***
+Friends
+---
+Freunde
+===
+
+***
+Battle
+---
+Kampf
+===
+
+***
+~y~ESend To:
+---
+~y~ESenden an:
+===
+
+***
+~y~ESend To:
+---
+~y~ESenden an:
+===
+
+***
+Cost: ~i%d~[IfortGump.3]~.
+
+---
+Kosten: ~i%d~[IfortGump.3]~.
+
+===
+
+***
+~r~ENeed more Storm Power to Build!
+
+---
+~r~EMehr Sturmkraft erforderlich!
+
+===
+
+***
+Salvage for %d~[IfortGump.3]
+---
+Selbstzerst?rung f?r %d~[IfortGump.3]
+===
+
+***
+Storm Power Available
+---
+Verf?gbare Sturmkraft
+===
+
+***
+Production Window
+---
+Produktionsfenster 
+===
+
+***
+Production Window
+---
+Produktionsfenster 
+===
+
+***
+Production Window
+---
+Produktionsfenster 
+===
+
+***
+Priest can't get here.
+---
+Diese Stelle ist f?r den Priester nicht zug?nglich.
+===
+
+***
+Must be placed over constructing artifact
+---
+Mu? auf errichtendem Artefakt plaziert werden 
+===
+
+***
+Cannot place here
+---
+Plazierung hier nicht m?glich
+===
+
+***
+Energy not satisfied
+---
+Energieversorgung reicht nicht aus
+===
+
+***
+Only on Controlled Island
+---
+Nur auf besetzter Insel
+===
+
+// This is the level of a unit
+***
+ Level %s
+---
+ Level %s
+===
+
+// This indicates that there are no more empty slots in a factory
+***
+None
+---
+Keine
+===
+
+***
+Put Knowledge into Production
+---
+Wissen in Produktion leiten
+===
+
+***
+Knowledge Available
+
+---
+Verf?gbares Wissen
+
+===
+
+***
+Production Slots Available: %s
+
+---
+Verf?gbare Produktionspl?tze: %s
+
+===
+
+***
+ Again
+---
+ Wiederholen
+===
+
+***
+ Again
+---
+ Wiederholen
+===
+
+***
+All Knowledge is in Production
+---
+Gesamtes Wissen befindet sich in Produktion
+===
+
+***
+Put Knowledge into Production
+---
+Wissen in Produktion leiten
+===
+
+***
+Upgrade costs %s%d~[IfortGump.3]
+---
+Erweiterungskosten %s%d~[IfortGump.3] 
+===
+
+***
+Cancel
+---
+Abbrechen
+===
+
+// This the default string for a battle description.
+***
+Your Description Here
+---
+Geben Sie hier Ihre Kampfbeschreibung ein
+===
+
+***
+New battle description:
+---
+Neue Kampfbeschreibung:
+===
+
+***
+Please type in your player name.
+---
+Geben Sie bitte Ihren Spielernamen ein.
+===
+
+// SubId refers to subscriber Id.
+// This sentence has been removed from final builds.
+***
+New Player SubId?
+---
+Neue Spieler SubId?
+===
+
+***
+Player %s
+
+---
+Spieler %s
+
+===
+
+***
+Status: ~iOnline~.
+
+---
+Status: ~iOnline~.
+
+===
+
+***
+Status: ~r~EDISCONNECTED~.
+
+---
+Status: ~r~EVERBINDUNG ABGEBROCHEN~.
+
+===
+
+***
+Priest: ~i%s~.
+
+---
+Priester: ~i%s~.
+
+===
+
+***
+Dead
+---
+Tot
+===
+
+***
+Captured
+---
+Gefangengenommen
+===
+
+***
+Alive
+---
+Lebt
+===
+
+***
+Allied with ~i%s~.
+---
+Alliiert mit ~i%s~.
+===
+
+***
+(One-Way)
+---
+(Einseitig)
+===
+
+***
+Allied with nobody.
+
+---
+Keine Alliierten.
+
+===
+
+***
+Reliability: ~i%d%%~.
+
+---
+Zuverl?ssigkeit: ~i%d%%~.
+
+===
+
+***
+Games Played: ~i%d~.
+
+---
+K?mpfe: ~i%d~.
+
+===
+
+***
+View Player Info
+---
+Spielerinfo anzeigen 
+===
+
+***
+Ignore chat
+---
+Chat ignorieren
+===
+
+***
+Find Priest!
+---
+Priester suchen!
+===
+
+***
+Send %s1000~[IfortGump.3]
+---
+%s1000~[IfortGump.3] senden
+===
+
+***
+Un-mark as Friend
+---
+Markierung als Freund entfernen
+===
+
+***
+Mark as Friend
+---
+Als Freund markieren
+===
+
+***
+Break Alliance
+---
+Allianz aufl?sen
+===
+
+***
+Request Alliance
+---
+Allianz anbieten
+===
+
+***
+Hide/Show chat - ~iF3~.
+---
+Chat ein- bzw. ausblenden - ~iF3~.
+===
+
+***
+Refresh Zones
+---
+Zonen aktualisieren
+===
+
+***
+Hide buildings - ~iF2~.
+---
+Geb?ude ein- bzw. ausblenden - ~iF2~.
+===
+
+***
+Hide/Show chat - ~iF3~.
+---
+Chat ein- bzw. ausblenden - ~iF3~.
+===
+
+***
+View Home Temple - ~iF4~.
+---
+Eigener Tempel - ~iF4~.
+===
+
+***
+View Your Priest - ~iF5~.
+---
+Eigener Priester - ~iF5~.
+===
+
+***
+View Knowledge - ~iF6~.
+---
+Wissensstand - ~iF6~.
+===
+
+***
+Hide Island Ownership - ~iF7~.
+---
+Besitzerkennzeichnung ein/aus - ~iF7~.
+===
+
+***
+Review Mission Objectives - ~iF8~.
+---
+Missionsziel anzeigen - ~iF8~.
+===
+
+***
+View Player List - ~iF9~.
+---
+Spielerliste anzeigen - ~iF9~.
+===
+
+***
+Find Local Server
+---
+Lokalen Server suchen
+===
+
+***
+~E~Select Server
+
+---
+~E~Server ausw?hlen
+
+===
+
+***
+Add New Server...
+---
+Neuen Server hinzuf?gen...
+===
+
+***
+Find Local Server
+---
+Lokalen Server suchen
+===
+
+***
+Adjust Direct Draw
+---
+DirectDraw Einstellungen 
+===
+
+***
+Window Mode
+---
+Fenstermodus
+===
+
+***
+Direct Draw / Full Screen
+---
+DirectDraw/Vollbildmodus
+===
+
+***
+Sound On
+---
+Effekte ein/aus
+===
+
+***
+Play Music
+---
+Musik ein/aus
+===
+
+***
+Wind Noise
+---
+Windger?usche
+===
+
+***
+Speaker Swap L/R
+---
+Lautsprecherumschaltung L/R
+===
+
+***
+Default
+---
+Standard
+===
+
+***
+Low
+---
+Niedrig
+===
+
+***
+Medium
+---
+Mittel
+===
+
+***
+High
+---
+Hoch
+===
+
+***
+Sound Quality
+---
+Klangqualit?t
+===
+
+***
+Volume 1
+---
+Lautst?rke 1
+===
+
+***
+Volume 2
+---
+Lautst?rke 2
+===
+
+***
+Volume 3
+---
+Lautst?rke 3
+===
+
+***
+Volume 4
+---
+Lautst?rke 4
+===
+
+***
+Volume 5
+---
+Lautst?rke 5
+===
+
+***
+Sound Effect Volume
+---
+Lautst?rke Effekte
+===
+
+***
+Volume 1
+---
+Lautst?rke 1
+===
+
+***
+Volume 2
+---
+Lautst?rke 2
+===
+
+***
+Volume 3
+---
+Lautst?rke 3
+===
+
+***
+Volume 4
+---
+Lautst?rke 4
+===
+
+***
+Volume 5
+---
+Lautst?rke 5
+===
+
+***
+Music Volume
+---
+Lautst?rke Musik
+===
+
+***
+Edge Scroll in Fullscreen
+---
+Rand-Scrolling im Vollbildmodus 
+===
+
+***
+Cursor Snap To Grid
+---
+Magnetisches Gitter
+===
+
+***
+Auto-Demo
+---
+Auto-Demo
+===
+
+***
+Tell Tips at Startup
+---
+Hinweise beim Start anzeigen
+===
+
+***
+Pause - ~iShift-F9~.
+---
+Pause - ~iUmschalt-F9~.
+===
+
+***
+Select Language
+---
+Sprache einstellen
+===
+
+// This is a debugging option and has been removed from the
+// final release. Zackets are Zack's packets.
+***
+Zacket Record During Battle
+---
+Zacket-Aufzeichnung w?hrend des Kampfes
+===
+
+***
+Force server death
+---
+Server-Abschaltung erzwingen
+===
+
+***
+Allow Reconnect
+---
+Erneuten Verbindungsaufbau zulassen
+===
+
+***
+Stall for 12 seconds
+---
+12 Sekunden Wartezeit
+===
+
+***
+Stall for 15 seconds
+---
+15 Sekunden Wartezeit
+===
+
+// %s is replaced at runtime with the description of a unit
+// %d is replaces at runtime with the numeric level of the unit
+***
+%s (Level %d)
+---
+%s (Level %d)
+===
+
+***
+~y%s - not available in demo
+---
+~y%s - Nicht in der Demo verf?gbar 
+===
+
+***
+Altar at Max Level
+---
+Altar auf max. Level
+===
+
+***
+Upgrade Altar to Level %d
+---
+Altar auf Level %d erweitern 
+===
+
+***
+ADVANCE TO RANK %s!!
+---
+AUF RANG %s VORR?CKEN!!
+===
+
+***
+Get 5,000 ~[IfortGump.3]
+---
+Erhalt von 5.000 ~[IfortGump.3]
+===
+
+***
+Save as...
+---
+Speichern unter...
+===
+
+***
+Add Island
+---
+Insel hinzuf?gen
+===
+
+// Cracked, Normal, and Hard refer to the state of a bridge piece.
+// These three appear only on the edit menu, which has been removed for
+// the final game.
+***
+Cracked
+---
+Rissig
+===
+
+***
+Normal
+---
+Normal
+===
+
+***
+Hard
+---
+Solide
+===
+
+***
+Test Battle
+---
+?bungskampf
+===
+
+***
+Main Menu
+---
+Hauptmen?
+===
+
+***
+Return to Editing
+---
+Zur?ck zum Bearbeitungsmodus
+===
+
+***
+Restart Demo
+---
+Demo neu starten
+===
+
+***
+Exit Demo
+---
+Demo beenden
+===
+
+***
+Review Mission Objectives - ~iF8~.
+---
+Missionsziel anzeigen - ~iF8~.
+===
+
+***
+Restart Mission
+---
+Mission neu starten
+===
+
+***
+Leave Mission
+---
+Mission abbrechen
+===
+
+***
+Leave Battle In Shame
+---
+Kampf unehrenhaft beenden
+===
+
+***
+Leave Battle Honorably
+---
+Kampf ehrenhaft beenden
+===
+
+***
+Declare a Draw
+---
+Pattsituation erkl?ren
+===
+
+***
+Main Menu
+---
+Hauptmen?
+===
+
+***
+Quit Game
+---
+Spiel beenden
+===
+
+***
+Player List
+
+---
+Spielerliste
+
+===
+
+// %d is replaced at runtime with the numeric level of the player whose
+// name will preceed the ','
+***
+, Level %d
+---
+, Spielstufe %d
+===
+
+***
+ - SERVER
+---
+ - SERVER
+===
+
+***
+NetStorm
+
+---
+NetStorm 
+
+===
+
+***
+Game
+---
+Spiel
+===
+
+***
+Edit
+---
+Bearbeiten
+===
+
+***
+View
+---
+Ansicht
+===
+
+***
+Options
+---
+Optionen
+===
+
+***
+Players
+---
+Spieler
+===
+
+***
+General Help - ~iF1~.
+---
+Hilfe - ~iF1~.
+===
+
+***
+Technical Help
+---
+Technische Hilfe
+===
+
+***
+Version
+---
+Version
+===
+
+***
+Debug
+---
+Debug
+===
+
+***
+Cheat
+---
+Cheat
+===
+
+***
+Ignore Energy
+---
+Energie ignorieren
+===
+
+// This is on the user cheat menu, which IS shipping with the game.
+// It gives the player 10,000 storm power for free.
+***
+Get 10,000
+---
+10,000 hinzuf?gen
+===
+
+***
+Font
+---
+Font
+===
+
+***
+XCheat
+---
+XCheat
+===
+
+***
+Cheats ON
+---
+Cheats EIN
+===
+
+***
+Ignore Energy
+---
+Energie ignorieren
+===
+
+// This is a cheat menu item which gives the player 10,000 storm power for free.
+// This has been removed from the final game.
+***
+Get 10,000~[IfortGump.3]
+---
+10,000~[IfortGump.3] hinzuf?gen 
+===
+
+// This is for debugging and has been removed from the final game
+// Made an Artificial Intelligence take over the playing of the
+// local player's pieces.
+***
+Make me an AI
+---
+KI-Status aktivieren
+===
+
+***
+Set 0~[IfortGump.3]
+---
+Auf 0~[IfortGump.3] setzen 
+===
+
+// This is a debugging item, which has been removed from the final game.
+***
+Get Full Deck
+---
+Volle Funktionalit?t 
+===
+
+***
+Get a free island
+---
+Freie Insel besetzen
+===
+
+***
+Edit Local Config...
+---
+Lokale Konfiguration bearbeiten...
+===
+
+***
+Telnet to Master...
+---
+Telnet an Master...
+===
+
+***
+Flag as Multiplayer
+---
+Als Mehrspieler-Spiel kennzeichnen
+===
+
+***
+Flag as Mission
+---
+Als Mission kennzeichnen
+===
+
+***
+Flag as PlayerMade
+---
+Als eigenes Szenario kennzeichnen
+===
+
+***
+~w~3~EMultiplayer Options
+---
+~w~3~EMehrspieler-Optionen
+===
+
+***
+Connect!
+---
+Verbinden!
+===
+
+***
+Cancel
+---
+Abbrechen
+===
+
+***
+~ySave Game: ~w%s
+---
+~ySpiel speichern: ~w%s
+===
+
+***
+~yPlayer Name: ~w%s
+---
+~ySpielername: ~w%s
+===
+
+***
+Find Local Server
+---
+Lokalen Server suchen
+===
+
+***
+~yServer: ~w%s
+---
+~yServer: ~w%s
+===
+
+***
+~yProtocol: ~w%s
+---
+~yProtokoll: ~w%s
+===
+
+// This is the value initially filling the field for the player's name
+***
+Unnamed
+---
+kein Name
+===
+
+***
+Select LAN Protocol
+
+---
+LAN-Protokoll ausw?hlen
+
+===
+
+***
+New Server Address?
+---
+Neue Server-Adresse?
+===
+
+***
+New Server Port Number?
+---
+Port-Adresse des neuen Servers?
+===
+
+***
+New Server Nickname?
+---
+Neuer Server-Name?
+===
+
+***
+Campaign
+---
+Kampagne
+===
+
+***
+Multiplayer
+---
+Mehrspieler
+===
+
+***
+Demo
+---
+Demo
+===
+
+***
+Help
+---
+Hilfe
+===
+
+***
+Edit
+---
+Bearbeiten
+===
+
+***
+Intro
+---
+Intro
+===
+
+***
+Credits
+---
+Credits
+===
+
+***
+Options
+---
+Optionen
+===
+
+***
+Quit
+---
+Ende
+===
+
+***
+General Help - ~iF1~.
+---
+Hilfe - ~iF1~.
+===
+
+***
+Technical Help
+---
+Technische Hilfe
+===
+
+***
+Version
+---
+Version
+===
+
+***
+~wServer not responding
+---
+~wServer antwortet nicht 
+===
+
+***
+~w%s not responding
+---
+~w%s antwortet nicht 
+===
+
+***
+~w%s has disconnected
+---
+~w%s ist offline 
+===
+
+***
+~w%s is present
+---
+~w%s ist anwesend 
+===
+
+***
+~w%s sent you Storm Power
+---
+~w%s hat Ihnen Sturmkraft ?bersandt
+===
+
+***
+~w%s wishes to declare a Draw
+---
+~w%s m?chte Pattsituation erkl?ren
+===
+
+***
+~w%s and %s are now Allies
+---
+~w%s und %s haben eine Allianz geschlossen 
+===
+
+***
+~w%s and %s have broken their Alliance.
+---
+~w%s und %s haben ihre Allianz aufgel?st.
+===
+
+***
+~wGame started!
+---
+~wSpiel gestartet!
+===
+
+***
+~wGame completed!
+---
+~wSpiel abgeschlossen!
+===
+
+***
+~wGame Paused!
+---
+~wPause!
+===
+
+***
+your game name here
+---
+Geben Sie einen Spielnamen ein
+===
+
+***
+Battle Island
+
+---
+Kampfinsel
+
+===
+
+***
+Sail to here
+---
+Hinsegeln 
+===
+
+***
+Game Server disconnected.  Reconnecting to new Game Server.
+---
+Verbindung zum Spiel-Server abgebrochen. Erneuter Verbindungsaufbau zum Spiel-Server.
+===
+
+***
+Initializing.
+---
+Initialisierung.
+===
+
+***
+Connecting to Game Server. %s
+---
+Verbindungsaufbau zum Spiel-Server. %s
+===
+
+***
+Game Server disconnected; reconnecting.
+---
+Verbindung zum Spiel-Server abgebrochen; erneuter Verbindungsaufbau.
+===
+
+***
+Reconnecting to Game Server %s
+---
+Erneuter Verbindungsaufbau zum Spiel-Server %s
+===
+
+***
+Contacting Game Server.
+---
+Spiel-Server wird kontaktiert.
+===
+
+***
+Connecting to Game Server %s
+---
+Verbindungsaufbau zum Spiel-Server %s
+===
+
+***
+Server login failure.
+---
+Server-Login fehlgeschlagen.
+===
+
+***
+Game Server disconnected; reconnecting. Countdown %d.
+---
+Verbindung zum Spiel-Server abgebrochen; erneuter Verbindungsaufbau. Countdown %d.
+===
+
+***
+Reconnecting to Game Server %s - Countdown %d.
+---
+Erneuter Verbindungsaufbau zum Spiel-Server %s - Countdown %d.
+===
+
+***
+Contacting Game Server. Countdown %d.
+---
+Spiel-Server wird kontaktiert. Countdown %d.
+===
+
+***
+Connecting to Game Server %s - Countdown %d.
+---
+Verbindungsaufbau zum Spiel-Server %s - Countdown %d.
+===
+
+***
+Connection to Game Server lost.
+---
+Verbindung zum Spiel-Server abgebrochen.
+===
+
+***
+Login to server denied.
+---
+Server-Login verweigert.
+===
+
+***
+Searching for local %s server.
+---
+Suche nach lokalem %s Server.
+===
+
+***
+Local %s server found.
+---
+Lokaler %s Server gefunden.
+===
+
+***
+Becoming local %s server.
+---
+Status als lokaler %s Server aktiviert.
+===
+
+***
+Root Server login failure.
+---
+Root-Server-Login fehlgeschlagen.
+===
+
+***
+Failed to connect.
+---
+Verbindungsaufbau fehlgeschlagen.
+===
+
+***
+Contacting Root Server.
+---
+Root-Server wird angew?hlt.
+===
+
+***
+Root Server login failure.
+---
+Login beim Root-Server fehlgeschlagen.
+===
+
+***
+Root Server connected. Awaiting login reply.
+---
+Verbindung zum Root-Server hergestellt. Warten auf Anmeldebest?tigung.
+===
+
+***
+Contacting Challenge Server.
+---
+Kampf-Server wird kontaktiert.
+===
+
+***
+Challenge Server login failure.
+---
+Login beim Kampf-Server fehlgeschlagen.
+===
+
+***
+Challenge Server connected. Awaiting login reply.
+---
+Verbindung zum Kampf-Server hergestellt. Warten auf Anmeldebest?tigung.
+===
+
+***
+Challenge server login denied:%s
+---
+Login beim Kampf-Server verweigert:%s
+===
+
+***
+Challenge Server connection lost.
+---
+Verbindung zum Kampfarena-Server unterbrochen.
+===
+
+***
+Communicating with Challenge Server.
+---
+Kommunikation mit Kampf-Server.
+===
+
+// This is the value initially filling the field for the player's name
+***
+Unnamed
+---
+kein Name
+===
+
+***
+Creating Islands.
+---
+Inseln werden erstellt.
+===
+
+***
+Challenge Server connection lost.
+---
+Verbindung zum Kampfarena-Server unterbrochen.
+===
+
+***
+You
+---
+Sie
+===
+
+// This sentence has been removed from the game.
+***
+Battle can not be restarted because there is no one to reconnect to.
+---
+Der Kampf kann nicht erneut gestartet werden, da kein Server angew?hlt werden kann.
+===
+
+***
+Yes
+---
+Ja
+===
+
+***
+No
+---
+Nein
+===
+
+***
+A battle was started %2.1f minutes ago, but was not cleanly exited.  Attempt to reconnect?%s
+---
+Vor %2.1f Minuten wurde ein Kampf gestartet, der nicht ordnungsgem?? abgeschlossen wurde. Verbindung wiederherstellen?%s
+===
+
+***
+Starting Mission...
+---
+Mission wird gestartet...
+===
+
+***
+Reconnecting to new Game Server. Transferring.
+---
+Verbindungsaufbau zu neuem Spiel-Server. ?bertragung.
+===
+
+***
+Connected to server %s - Transferring.
+---
+Verbindung zum Server %s hergestellt - ?bertragung.
+===
+
+***
+: ~iReady~.
+---
+: ~iBereit~.
+===
+
+***
+: ~iTransferring~.
+---
+: ~i?bertragung~.
+===
+
+***
+: ~iDisconnected~.
+---
+: ~iVerbindung abgebrochen~.
+===
+
+// In this case, pending indicates that the given player has connected 
+// to the server, but has not yet logged in.
+***
+: ~iPending~.
+---
+: ~iWarten~.
+===
+
+***
+: ~iConnecting~.
+---
+: ~iVerbindungsaufbau~.
+===
+
+***
+
+
+There may be Internet traffic, or the Server
+may have a slow Internet connection which is
+taking longer than expected. You can abort
+this game, or continue waiting to get in. Most
+games reconnect correctly even after long delays.
+$ButtonInstant=Abort,LeaveBattle,3
+
+---
+
+
+M?glicherweise ist das Internet zur Zeit ?berlastet,
+oder es besteht einfach nur eine langsame Verbindung
+zum Server, so da? die ?bertragung l?ngere Zeit in
+Anspruch nimmt. In diesem Fall k?nnen Sie das Spiel 
+entweder verlassen, oder Sie warten, bis die Verbindung 
+zustande gekommen ist. In den meisten F?llen ist auch nach 
+l?ngeren Verz?gerungen ein einwandfreier Spielbetrieb gew?hrleistet.
+$ButtonInstant=Beenden,LeaveBattle,3
+
+===
+
+***
+
+
+Some players are not connected and may
+not make it back. Press Start to begin now.$ButtonInstant=Start,ServerForceBattleStart,0 
+---
+
+
+Einige Spieler haben sich dem Kampf nicht angeschlossen und kehren m?glicherweise auch nicht zur?ck. Klicken Sie auf Start, um den Kampf zu beginnen.
+$ButtonInstant=Start,ServerForceBattleStart,0
+===
+
+***
+~.~3%s~*~.
+
+%s
+Time Remaining: ~i%d~.%s
+---
+~.~3%s~*~.
+
+%s
+Verbleibende Zeit: ~i%d~.%s
+===
+
+***
+Becoming Server
+---
+Server-Status wird aktiviert
+===
+
+***
+Starting Game
+---
+Spiel wird gestartet
+===
+
+***
+(unknown)
+---
+(unbekannt)
+===
+
+***
+(demo)
+---
+(demo)
+===
+
+***
+(beta)
+---
+(beta)
+===
+
+***
+Player %s
+
+---
+Spieler %s
+
+===
+
+***
+Leave this Battle
+---
+Kampf abbrechen
+===
+
+***
+View your Player Info
+---
+Eigene Spielerinfo anzeigen
+===
+
+***
+Change Description...
+---
+Beschreibung ?ndern...
+===
+
+***
+Incompatible
+---
+Nicht kompatibel
+===
+
+***
+Challenge Area (id %d)
+
+---
+Kampfarena (id %d) 
+
+===
+
+***
+~yNum Players:~.%d
+
+---
+~yAnzahl Spieler:~.%d
+
+===
+
+***
+~yNum Friends:~.%d
+
+---
+~yAnzahl Freunde:~.%d
+
+===
+
+***
+Decend to this Level
+---
+Zu dieser Stufe hinabsteigen
+===
+
+***
+About
+---
+Info
+===
+
+***
+Decend to this Level
+---
+Zu dieser Stufe hinabsteigen
+===
+
+***
+Refresh Information
+---
+Info aktualisieren
+===
+
+***
+BATTLEMASTER
+
+---
+KAMPFMEISTER
+
+===
+
+***
+Players:%d  Avg Level:%d
+---
+Spieler: %d  Durchschnittl. Spielstufe: %d
+===
+
+***
+Empty
+---
+Leer
+===
+
+***
+Friends:%d
+---
+Freunde: %d
+===
+
+***
+~r~EBATTLEMASTER
+---
+~r~EKAMPFMEISTER
+===
+
+***
+Start Battle
+---
+Kampf starten
+===
+
+***
+Yes
+---
+Ja
+===
+
+***
+No
+---
+Nein
+===
+
+***
+~w~E~3Exclude which unit:
+---
+~w~E~3Welche Einheit ausschlie?en:
+===
+
+***
+~y~EExcluded Units:
+---
+~y~EAusgeschlossene Einheiten:
+===
+
+***
+None
+---
+Keine
+===
+
+***
+Remove exclusion of %s?
+
+---
+Ausschlu? von %s widerrufen?
+
+===
+
+***
+Yes
+---
+Ja
+===
+
+***
+No
+---
+Nein
+===
+
+***
+~w~E%s
+Players in Zone %d
+
+---
+~w~E%s
+Spieler in Zone %d
+
+===
+
+***
+LAN Server
+---
+LAN-Server
+===
+
+***
+BATTLEMASTER
+
+
+---
+KAMPFMEISTER
+
+
+===
+
+***
+~w~E%s
+Players in Battle (Zone %d)
+
+---
+~w~E%s
+Spieler im Kampf (Zone %d) 
+
+===
+
+***
+Battle Status Window
+---
+Kampfstatusfenster 
+===
+
+***
+Player List Window
+---
+Spielerliste
+===
+
+***
+Dismiss
+---
+Entlassen
+===
+
+***
+Place New Islands
+
+---
+Neue Inseln plazieren
+
+===
+
+***
+To the Beyond
+---
+Zum Jenseits
+===
+
+***
+Dismiss
+---
+Entlassen
+===
+
+***
+Alignment: <c>%s</c>
+---
+Konformit?t: <c>%s</c>
+===
+
+***
+Alignment: <c>None</c>
+---
+Konformit?t: <c>Keine</c>
+===
+
+***
+Class: <c>%s</c>
+---
+Klasse: <c>%s</c>
+===
+
+***
+Hits: <c>%d</c>
+---
+Treffer: <c>%d</c>
+===
+
+***
+Hits: <c>Invulnerable</c>
+---
+Treffer: <c>Unzerst?rbar</c>
+===
+
+***
+Range: <c>%d</c>
+---
+Reichweite: <c>%d</c>
+===
+
+***
+Range: <c>n/a</c>
+---
+Reichweite: <c>entf?llt</c>
+===
+
+***
+Damage: <c>%d</c>
+---
+Schaden: <c>%d</c>
+===
+
+***
+Damage: <c>special</c>
+---
+Schaden: <c>hoch</c>
+===
+
+***
+Damage: <c>n/a</c>
+---
+Schaden: <c>entf?llt</c>
+===
+
+***
+Cost in Storm Power: <c>%d</c>~[IfortGump.3]
+---
+Kosten in Sturmkraft: <c>%d</c>~[IfortGump.3] 
+===
+
+***
+Cost in Storm Power: <c>n/a</c>
+---
+Kosten in Sturmkraft: <c>entf?llt</c>
+===
+
+// The first %s is replaced with the word for influence (as specified in
+// config.german, "Energie"), the second is replaced with a string of
+// codes for icons.
+***
+%s to Build: <c>%s</c>
+---
+Ben?tigte %s zur Errichtung: <c>%s</c>
+===
+
+// The %s is replaced with the word for influence (as specified in
+// config.german, "Energie")
+***
+%s to Build: <c>n/a</c>
+---
+Ben?tigte %s zur Errichtung: <c>entf?llt</c>
+===
+
+// The %s is replaced with the word for influence (as specified in
+// config.german, "Energie")
+***
+%s to Build: <c>None</c>
+---
+Ben?tigte %s zur Errichtung: <c>Keine</c>
+===
+
+***
+Sacrifice
+---
+Opfern
+===
+
+***
+OK
+---
+OK
+===
+
+***
+Back
+---
+Zur?ck
+===
+
+***
+Cancel
+---
+Abbrechen
+===
+
+***
+No help information available
+---
+Kein Hilfetext verf?gbar
+===
+
+// This should never have been placed into the xlat file.
+// Do Not Translate it.
+***
+Type
+---
+Type
+===
+
+***
+Battle Status Window
+---
+Kampfstatusfenster 
+===
+
+***
+Chat Window
+---
+Chatfenster
+===
+
+***
+Select chat view
+---
+Chatansicht ein/aus
+===
+
+***
+Select help view
+---
+Hilfeansicht ein/aus
+===
+
+***
+Select research view
+---
+Erkundungsansicht ein/aus
+===
+
+***
+Select friend status view
+---
+Statusansicht der Freunde ein/aus
+===
+
+***
+Current Production
+
+---
+Aktuelle Produktion
+
+===
+
+***
+No Production Yet.
+
+---
+Bisher keine Produktion.
+
+===
+
+***
+View Current Production
+---
+Aktuelle Produktion anzeigen
+===
+
+***
+Construct Building
+
+---
+Geb?ude errichten
+
+===
+
+***
+%sTemple
+---
+%sTempel
+===
+
+***
+Workshop
+---
+Produktionsst?tte
+===
+
+***
+%sConstruct~.
+---
+%sErrichten~.
+===
+
+***
+Prayer
+
+---
+Gebet
+
+===
+
+***
+Pray for Devastation Spell
+---
+Um Verw?stungszauber beten
+===
+
+***
+%sPray~.
+---
+%sBeten~.
+===
+
+***
+View Learned Knowledge
+---
+Wissensstand
+===
+
+***
+%d Priest%s
+---
+%d Priester%s
+===
+
+***
+~y~EExcluded
+---
+~y~EAusgeschlossen
+===
+
+***
+WIND
+---
+WIND
+===
+
+***
+RAIN
+---
+REGEN
+===
+
+***
+THUN.
+---
+DONN.
+===
+
+***
+SUN
+---
+SONNE
+===
+
+***
+~0~w~ENot enough Storm Power to build this
+---
+~0~w~ENicht gen?gend Sturmkraft verf?gbar 
+===
+
+// This is obsolete and has been removed from the final build
+***
+~0~w~ENone in inventory
+---
+~0~w~ENicht im Inventar 
+===
+
+***
+Sky Overview
+---
+?bersicht
+===
+
+// This is used when the player cannot log into a server, but the reason the server
+// gave for disallowing the login was not understood by the client.  A catch all.
+***
+Unspecified reason
+---
+Unspezifizierte Begr?ndung 
+===
+
+***
+Login successful
+---
+Login erfolgreich
+===
+
+// This is a debugging tool, meaning that the player has sent an initial set of information
+// to the server.  Never seen by final clients.
+***
+Initial info sent
+---
+Basisinfo gesendet
+===
+
+***
+Player already logged in
+---
+Spieler ist bereits eingeloggt
+===
+
+***
+Name length is bad
+---
+Unzul?ssige Namensl?nge
+===
+
+***
+The server is full
+---
+Der Server ist ausgelastet
+===
+
+***
+Unknown error
+---
+Unbekannter Fehler
+===
+
+***
+~g~3~E%s just arrived!
+
+---
+~g~3~E%s ist gerade eingetroffen!
+
+===
+
+// This is the prototype for the Label underneath each player in the challenge area.
+// The first %s is replaced with the name of the player
+// the three %s on the next line are filled in with special codes for icons.
+// The %d is filled in with the numeric level of the player.
+***
+%s
+%s%s%sLevel %d
+
+---
+%s
+%s%s%sSpielstufe %d
+
+===
+
+***
+You have been kicked off!
+---
+Sie wurden rausgeschmissen!
+===
+
+***
+ERROR: Invalid battle id
+---
+FEHLER: Ung?ltiger Kampfname 
+===
+
+***
+ERROR: Invalid battle slot id
+---
+FEHLER: Ung?ltiger Kampfplatzname 
+===
+
+***
+That battle began before you got there
+---
+Dieser Kampf wurde bereits vor Ihrer Ankunft gestartet
+===
+
+***
+A NetStorm CD is required to play in that battle.
+---
+Um sich diesem Kampf anschlie?en zu k?nnen, mu? die NetStorm-CD im Laufwerk eingelegt sein.
+===
+
+***
+Salvage
+---
+Selbstzerst?rung
+===
+
+***
+Salvage gains %d~[IfortGump.3]
+---
+Gewinn durch Selbstzerst?rung %d~[IfortGump.3] 
+===
+
+***
+Salvage costs %d~[IfortGump.3]
+---
+Kosten f?r Selbstzerst?rung %d~[IfortGump.3] 
+===
+
+***
+Human Player
+---
+Menschl. Spieler
+===
+
+***
+Player
+---
+Spieler
+===
+
+***
+Computer #%d
+---
+Computer #%d
+===
+
+***
+english
+---
+Englisch
+===
+
+***
+french
+---
+Franz?sisch
+===
+
+***
+german
+---
+Deutsch
+===
+
+***
+spanish
+---
+Spanisch
+===
+
+***
+japanese
+---
+Japanisch
+===
+
+***
+portuguese
+---
+Portugiesisch
+===
+
+***
+Wind
+---
+Wind
+===
+
+***
+Rain
+---
+Regen
+===
+
+***
+Thunder
+---
+Donner
+===
+
+***
+Sun
+---
+Sonne
+===
+
+// These should not have been placed in Xlat and should be left untranslated.
+// START
+***
+archer
+---
+archer
+===
+
+***
+cannon
+---
+cannon
+===
+
+***
+blocker
+---
+blocker
+===
+
+***
+aviary
+---
+aviary
+===
+
+***
+flyer
+---
+flyer
+===
+
+***
+battery
+---
+battery
+===
+
+***
+fence
+---
+fence
+===
+
+***
+walker
+---
+walker
+===
+
+***
+balloon
+---
+balloon
+===
+
+***
+misc
+---
+misc
+===
+// END
+
+***
+CHEAT Set Owner
+---
+CHEAT Set-Inhaber 
+===
+
+***
+Player
+---
+Spieler
+===
+
+// This is the level of a unit
+***
+ Level %s
+---
+ Level %s
+===
+
+***
+Nobody
+---
+Kein Besitzer
+===
+
+***
+Owner
+---
+Besitzer
+===
+
+***
+Enemy
+---
+Feind
+===
+
+***
+Ally
+---
+Alliierter
+===
+
+***
+
+Alignment: ~i%s~.
+---
+
+Konformit?t: ~i%s~.
+===
+
+// This means no alignment, goes after the Alignment above
+***
+None
+---
+Keine
+===
+
+***
+
+Class: ~i%s~.
+---
+
+Klasse: ~i%s~.
+===
+
+***
+~y~[I%d.*]Invisible!~.
+
+---
+~y~[I%d.*]Unsichtbar!~.
+
+===
+
+***
+~y~[I%d.*]Paralyzed!~.
+
+---
+~y~[I%d.*]Paralysiert!~.
+
+===
+
+***
+Meltdown!
+---
+?berhitzung!
+===
+
+***
+NetStorm has failed an assertion and can't continue. Please submit this info to http://www.titanic.com/netstorm/bugreport.cgi
+(To copy, select with mouse, then hit Ctrl-ins. Then hit Shift-Ins in your web browser.)
+---
+Die NetStorm-Verifizierung ist fehlgeschlagen, und das Spiel kann nicht fortgesetzt werden. Bitte senden Sie diese Information an http://www.titanic.com/netstorm/bugreport.cgi
+(Markieren Sie den Text, kopieren Sie ihn mit Strg-Einfg in die Zwischenablage, und bet?tigen Sie anschlie?end in Ihrem Web-Browser die Tastenkombination Umsch-Einfg.)
+===
+
+***
+NetStorm Assertion Failed
+---
+NetStorm-Verifizierung fehlgeschlagen 
+===
+
+***
+N
+---
+N
+===
+
+***
+NE
+---
+NO
+===
+
+***
+E
+---
+O
+===
+
+***
+SE
+---
+SO
+===
+
+***
+S
+---
+S
+===
+
+***
+SW
+---
+SW
+===
+
+***
+W
+---
+W
+===
+
+***
+NW
+---
+NW
+===
+
+***
+ for %s%d~[IfortGump.3]
+---
+ f?r %s%d~[IfortGump.3] 
+===
+
+***
+Build Level %d %s%s
+---
+Errichtung von Level %d %s%s
+===
+
+***
+Build %s%s
+---
+Errichtung von %s%s
+===
+
+***
+Create %s for %s%d~[IfortGump.3]
+---
+Errichtung von %s f?r %s%d~[IfortGump.3] 
+===
+
+***
+Clear away
+---
+Entfernen
+===
+
+***
+View Learned Knowledge
+---
+Wissensstand
+===
+
+***
+~wNothing
+---
+~wNichts
+===
+
+***
+~wUnknown
+---
+~wUnbekannt
+===
+
+***
+~r~E(Not while paralyzed)
+---
+~r~E(Nicht im Paralysezustand) 
+===
+
+***
+~r~E(Not while flying)
+---
+~r~E(Nicht im Flug) 
+===
+
+***
+~r~E(Not here)
+---
+~r~E(Nicht hier)
+===
+
+***
+for %s%d~[IfortGump.3]
+---
+f?r %s%d~[IfortGump.3] 
+===
+
+***
+%sCast~. ~i%s~.~[I%d.*] %s
+---
+%sAnwenden~. ~i%s~.~[I%d.*] %s
+===
+
+***
+About %s
+---
+Info %s
+===
+
+***
+Carrying: ~i%s~.
+
+---
+Transportiert: ~i%s~.
+
+===
+
+***
+%sDrop~. ~i%s~. %s
+---
+%sAblegen~. ~i%s~. %s
+===
+
+***
+~yCapturable!~.
+
+---
+~yKann gefangengenommen werden!~.
+
+===
+
+***
+~yNot Connected!~.
+
+---
+~yKeine Verbindung!~.
+
+===
+
+***
+Storm Power: ~i%d~.
+
+---
+Sturmkraft: ~i%d~.
+
+===
+
+// Slow, medium, and fast refer to the Unit Refresh Rate, i.e. the delay between
+// subsequent placements of the same unit.
+***
+Slow
+---
+Langsam
+===
+
+***
+Medium
+---
+Mittel
+===
+
+***
+Fast
+---
+Schnell
+===
+
+// Individual and Shared refer to Technology, whether everyone uses the same technology
+// profile or if each person uses their own.
+***
+Individual
+---
+Individuell 
+===
+
+***
+Shared
+---
+Gemeinschaftlich
+===
+
+// These refer to the range of Storm Power generators
+***
+Short
+---
+Min.
+===
+
+***
+Normal
+---
+Normal
+===
+
+***
+Long
+---
+Max.
+===
+
+***
+0%
+---
+0%
+===
+
+***
+25%
+---
+25%
+===
+
+***
+50%
+---
+50%
+===
+
+***
+100%
+---
+100%
+===
+
+***
+No
+---
+Nein
+===
+
+***
+Yes
+---
+Ja
+===
+
+***
+Bridge Slots
+---
+Br?ckenteile
+===
+
+***
+Unit Rate
+---
+Baugeschwind.
+===
+
+***
+Knowledge
+---
+Wissen
+===
+
+***
+Generator Range
+---
+Generatorreichweite
+===
+
+***
+Kill Reward
+---
+Vernichtungsbonus
+===
+
+***
+Breakable Alliances
+---
+L?sbare Allianzen
+===
+
+***
+~[IfortGump.3] per Geyser
+---
+~[IfortGump.3] pro Geysir 
+===
+
+***
+You have successfully installed NetStorm.
+
+
+---
+NetStorm wurde erfolgreich installiert.
+
+
+===
+
+***
+
+
+However, due to the installation of Microsoft's DirectX drivers, you will have to reboot your computer before you can play the game. You should close all other applications before you do this.
+---
+
+
+Um die installierten Microsoft DirectX-Treiber zu aktivieren, mu? Ihr Rechner vor Beginn des Spiels neu gestartet werden. Bitte schlie?en Sie zuvor alle eventuell ge?ffneten Programme und Anwendungen.
+===
+
+***
+Reboot Now
+---
+Jetzt neu starten
+===
+
+***
+I'll reboot later
+---
+Sp?ter neu starten
+===
+
+***
+OK
+---
+OK
+===
+
+***
+Play Now
+---
+Jetzt spielen
+===
+
+***
+NetStorm did NOT install successfully.
+---
+Die NetStorm-Installation wurde NICHT erfolgreich abgeschlossen.
+===
+
+***
+Quit Anyway
+---
+Trotzdem beenden
+===
+
+***
+Back to Install
+---
+Zur?ck zur Installation 
+===
+
+***
+Welcome
+---
+Willkommen
+===
+
+***
+About Diagnostics
+---
+Info ?ber Diagnose
+===
+
+***
+Diagnostics
+---
+Diagnose
+===
+
+***
+System Information
+---
+Systeminformationen
+===
+
+***
+Install
+---
+Installieren
+===
+
+***
+Install Status
+---
+Installationsstatus
+===
+
+***
+Welcome
+---
+Willkommen
+===
+
+***
+About Diagnostics
+---
+Info ?ber Diagnose
+===
+
+***
+Diagnostics
+---
+Diagnose
+===
+
+***
+System Information
+---
+Systeminformationen
+===
+
+***
+Reinstall
+---
+Neu installieren
+===
+
+***
+Reinstall Status
+---
+Installationsstatus
+===
+
+***
+Uninstall
+---
+Deinstallieren
+===
+
+***
+About Diagnostics
+---
+Info ?ber Diagnose
+===
+
+***
+Diagnostics
+---
+Diagnose
+===
+
+***
+Testing
+---
+Test
+===
+
+***
+Please exit the game before running Setup.
+---
+Bitte beenden Sie das Spiel, bevor Sie das Setup starten.
+===
+
+***
+Another copy of NetStorm Setup is already running.
+---
+Das NetStorm-Setup wurde bereits gestartet.
+===
+
+***
+Setup failed to load the diagnostic analysis database.
+Analysis of diagnostic data will not be available.
+
+---
+Die Analysedatenbank f?r die Diagnose konnte nicht geladen werden.
+Ein Auswertung der Diagnosel?ufe ist nicht m?glich.
+
+===
+
+***
+Analysis Database Not Found
+---
+Analysedatenbank nicht gefunden 
+===
+
+***
+Welcome to NetStorm
+---
+Willkommen bei NetStorm
+===
+
+***
+Quit
+---
+Ende
+===
+
+***
+Next >
+---
+Weiter >
+===
+
+***
+< Back
+---
+< Zur?ck 
+===
+
+***
+NetStorm Setup:
+---
+NetStorm Setup:
+===
+
+***
+Finish
+---
+Abschlie?en
+===
+
+***
+Next >
+---
+Weiter >
+===
+
+***
+The game has installed successfully.
+---
+Installation des Spiels erfolgreich abgeschlossen.
+===
+
+***
+
+Due to Microsoft's DirectX, you will need to reboot before playing the game.
+---
+
+Um Microsoft DirectX zu aktivieren, mu? Ihr Rechner vor Beginn des Spiels neu gestartet werden.
+===
+
+***
+Copying:%s
+    to
+%s
+---
+Kopieren:%s
+    nach
+%s
+===
+
+***
+Copying:%s
+    to
+%s
+---
+Kopieren:%s
+    nach
+%s
+===
+
+***
+Copying:%s
+    to
+%s
+---
+Kopieren:%s
+    nach
+%s
+===
+
+***
+Installing Font:%s
+---
+Font-Installation:%s
+===
+
+***
+The destination %s is on a CD-ROM. You cannot install to a CD-ROM.
+---
+Das Zielverzeichnis %s befindet sich auf einer CD-ROM. Eine Installation ist nicht m?glich.
+===
+
+***
+Install Error
+---
+Installationsfehler
+===
+
+***
+Maximal install requires %d bytes of free disk space.
+%s has %d bytes free
+---
+Die Maximalinstallation erfordert %d Bytes freien Festplattenspeicher.
+Auf Laufwerk %s sind %d Bytes verf?gbar 
+===
+
+***
+Minimal install required %d bytes of free disk space.
+%s has %d bytes free
+---
+Die Minimalinstallation erfordert %d Bytes freien Festplattenspeicher.
+Auf Laufwerk %s sind %d Bytes verf?gbar 
+===
+
+***
+Install Error
+---
+Installationsfehler
+===
+
+***
+Creating directories
+---
+Verzeichnisse werden angelegt
+===
+
+***
+Could not create directory %s. It this disk-drive read-only?
+
+---
+Verzeichnis %s konnte nicht angelegt werden. Der Datentr?ger ist m?glicherweise schreibgesch?tzt.
+
+===
+
+***
+Install Error
+---
+Installationsfehler
+===
+
+***
+Copying files
+---
+Dateien werden kopiert
+===
+
+***
+Creating local files
+---
+Lokale Dateien werden erstellt
+===
+
+***
+Unable to create a file on the local drive (%s)
+
+---
+Datei konnte auf lokalem Laufwerk (%s) nicht angelegt werden 
+
+===
+
+***
+Install Error
+---
+Installationsfehler
+===
+
+***
+Creating shortcuts
+---
+Shortcuts werden angelegt
+===
+
+***
+Adding shortcut to: %s.
+---
+Shortcut wird hinzugef?gt: %s.
+===
+
+***
+Setting up the registry
+---
+Registrierungsdatei wird aktualisiert
+===
+
+***
+Setting up uninstall
+---
+Deinstallationsoption wird erstellt 
+===
+
+***
+Failed to setup DirectX; error code %d
+---
+DirectX konnte nicht angelegt werden; Fehlercode %d
+===
+
+***
+Install Error
+---
+Installationsfehler
+===
+
+***
+Install Completed
+---
+Installation abgeschlossen
+===
+
+***
+DEMO VERSION will remain in place at
+  %s
+---
+Die DEMO-VERSION bleibt in folgendem Verzeichnis bestehen 
+  %s
+===
+
+***
+Install where?
+---
+Wohin installieren?
+===
+
+***
+DEMO VERSION will remain in place at %s
+---
+DEMO-VERSION bleibt unter %s bestehen
+===
+
+***
+Installing to: %s
+
+Start Folder: %s
+
+---
+Installationslaufwerk: %s
+
+Startverzeichnis: %s
+
+===
+
+***
+Current location
+---
+Aktuelles Verzeichnis 
+===
+
+//This indicates no start folder selected in the setup program
+***
+none
+---
+entf?llt
+===
+
+***
+Details for Socket test: 
+---
+Info ?ber Socket-Test: 
+===
+
+***
+Details for Ping test: 
+---
+Info ?ber Ping-Test: 
+===
+
+***
+Details for DNS test: 
+---
+Info ?ber DNS-Test: 
+===
+
+***
+Details for Transmit test: 
+---
+Info ?ber ?bertragungstest: 
+===
+
+***
+Details for Receive test: 
+---
+Info ?ber Empfangstest: 
+===
+
+***
+Not run
+---
+Nicht starten
+===
+
+***
+Failed
+---
+Fehlgeschlagen
+===
+
+***
+Begin Tests
+---
+Tests starten
+===
+
+***
+Begin Tests
+---
+Tests starten
+===
+
+***
+Cancel Tests
+---
+Tests abbrechen
+===
+
+***
+Cancel Tests
+---
+Tests abbrechen
+===
+
+***
+Begin Tests
+---
+Tests starten
+===
+
+***
+Begin Tests
+---
+Tests starten
+===
+
+***
+Details >>
+---
+Info >>
+===
+
+***
+Begin Tests
+---
+Tests starten
+===
+
+***
+Begin Tests
+---
+Tests starten
+===
+
+***
+success
+---
+erfolgreich
+===
+
+***
+buffer too small
+---
+Buffer zu klein 
+===
+
+***
+destination net unreachable
+---
+Zielnetzwerk nicht erreichbar
+===
+
+***
+destination host unreachable
+---
+Ziel-Host nicht erreichbar
+===
+
+***
+destination protocol unreachable
+---
+Zielprotokoll nicht erreichbar
+===
+
+***
+destination port unreachable
+---
+Ziel-Port nicht erreichbar
+===
+
+***
+no resources
+---
+keine Ressourcen
+===
+
+***
+bad option
+---
+ung?ltige Option
+===
+
+***
+hardware error
+---
+Hardware-Fehler
+===
+
+***
+packet too big
+---
+Datenpaket zu gro?
+===
+
+***
+request timed out
+---
+Zeitlimit ?berschritten
+===
+
+***
+bad request
+---
+Ung?ltige Anfrage
+===
+
+***
+bad route
+---
+Ung?ltige Route
+===
+
+***
+time-to-live expired in transit
+---
+Zeitlimit f?r ?bertragung ?berschritten 
+===
+
+***
+time-to-live expired in reassembly
+---
+Zeitlimit f?r Zusammenf?hrung ?berschritten
+===
+
+***
+parameter problem
+---
+Ung?ltiger Parameter
+===
+
+***
+source quence
+---
+source quence
+===
+
+***
+option too big
+---
+Option zu gro?
+===
+
+***
+bad destination
+---
+Ung?ltige Zielangabe
+===
+
+***
+address deleted
+---
+Adresse gel?scht
+===
+
+***
+spec. max transmit unit changed
+---
+Spez. maximaler ?bertragungswert ge?ndert
+===
+
+***
+max transmit unit changed
+---
+Maximaler ?bertragungswert ge?ndert
+===
+
+***
+ip unloaded
+---
+IP entladen
+===
+
+***
+Unable to lookup name: %s
+
+---
+Ung?ltige Namenssuche: %s
+
+===
+
+***
+reply, %dmsec, %s
+
+---
+Antwort, %dmsek, %s
+
+===
+
+***
+Success
+---
+Erfolgreich
+===
+
+***
+General Failure
+---
+Allgemeine Schutzverletzung
+===
+
+***
+Testing %d of %d
+---
+%d von %d wird getestet
+===
+
+***
+
+Pinging %s
+
+---
+
+%s wird angepingt
+
+===
+
+***
+Passed
+---
+OK
+===
+
+***
+ : Not found
+
+---
+ : Nicht gefunden
+
+===
+
+***
+Testing %d of %d
+---
+%d von %d wird getestet
+===
+
+***
+Looking up %s
+---
+%s wird gesucht
+===
+
+***
+Passed
+---
+OK
+===
+
+***
+Canceled
+---
+Abgebrochen 
+===
+
+***
+Canceled
+---
+Abgebrochen 
+===
+
+***
+Canceled
+---
+Abgebrochen 
+===
+
+***
+Canceled
+---
+Abgebrochen 
+===
+
+***
+Canceled
+---
+Abgebrochen 
+===
+
+***
+Canceled
+---
+Abgebrochen 
+===
+
+***
+Canceled
+---
+Abgebrochen 
+===
+
+***
+Canceled
+---
+Abgebrochen 
+===
+
+***
+Found CLSID==%s
+
+---
+CLSID==%s gefunden
+
+===
+
+***
+Passed
+---
+OK
+===
+
+***
+HTML File Association Not Found
+
+---
+HTML-Dateiverkn?pfung nicht gefunden
+
+===
+
+***
+Looking for DirectDraw...
+---
+Suchen nach DirectDraw...
+===
+
+***
+failed
+DirectDraw not found on this system
+
+---
+fehlgeschlagen
+DirectDraw nicht auf diesem System vorhanden
+
+===
+
+***
+found it
+Looking for DirectSound...
+---
+erfolgreich
+Suchen nach DirectSound...
+===
+
+***
+failed
+DirectSound not found on this system
+
+---
+fehlgeschlagen
+DirectSound nicht auf diesem System vorhanden
+
+===
+
+***
+found it
+DirectX is present on this system
+
+---
+erfolgreich
+DirectX ist auf diesem System vorhanden
+
+===
+
+***
+Passed
+---
+OK
+===
+
+***
+TCP/IP Socket Layer Not Found
+
+---
+TCP/IP Socket Layer nicht gefunden 
+
+===
+
+***
+TCP/IP Socket Layer Version %d.%d
+  desc = %s
+  status = %s
+  maxSockets = %d
+
+---
+TCP/IP Socket Layer Version %d.%d
+  desc = %s
+  status = %s
+  maxSockets = %d
+
+===
+
+***
+Unable to create socket
+
+---
+Socket konnte nicht angelegt werden
+
+===
+
+***
+IPX Support detected.
+
+---
+IPX-Unterst?tzung lokalisiert.
+
+===
+
+***
+No IPX Support detected.
+
+---
+Keine IPX-Unterst?tzung gefunden.
+
+===
+
+***
+Passed
+---
+OK
+===
+
+***
+Waiting...
+---
+Warten...
+===
+
+***
+Unable to run
+---
+Kann nicht gestartet werden
+===
+
+***
+Unable to run
+---
+Kann nicht gestartet werden
+===
+
+***
+Testing xmit on %s port %d
+
+---
+Xmit auf %s Port %d wird getestet
+
+===
+
+***
+Creating socket...
+---
+Socket wird angelegt...
+===
+
+***
+Unable to create socket
+
+---
+Socket konnte nicht angelegt werden
+
+===
+
+***
+Looking up address of %s:%d...
+---
+Suchen der Adresse von %s:%d...
+===
+
+***
+Name lookup of %s failed, trying again.
+
+---
+Namenssuche nach %s erfolglos, erneuter Versuch.
+
+===
+
+***
+Unable to lookup %s
+
+---
+Suche nach %s erfolglos
+
+===
+
+***
+Connecting...
+---
+Verbinden...
+===
+
+***
+Connection failed. Code = %d
+
+---
+Verbindungsaufbau fehlgeschlagen. Code = %d
+
+===
+
+***
+Transmitting...
+---
+?bertragen...
+===
+
+***
+Send to root server failed. Code = %d
+
+---
+?bertragung an Root-Server fehlgeschlagen. Code = %d
+
+===
+
+***
+Waiting for reply...
+---
+Warten auf Antwort...
+===
+
+***
+Expected buffered packet. (len=%d). Code = %d
+
+---
+Gebuffertes Datenpaket erwartet. (len=%d). Code = %d
+
+===
+
+***
+Connection to root succeed
+
+---
+Verbindung zum Root-Server hergestellt
+
+===
+
+***
+Passed
+---
+OK
+===
+
+***
+Root server did not return correct code. Code:%d; Should be:%d
+
+---
+Fehlerhafte Code-Best?tigung des Root-Servers. Code %d statt %d
+
+===
+
+***
+Read incomplete packet. (len=%d should be=%d). Code = %d
+
+---
+Unvollst?ndiges Datenpaket gelesen. (len=%d statt=%d). Code = %d
+
+===
+
+***
+Listening on %d...
+---
+Warten auf %d...
+===
+
+***
+Testing receive on port %d.
+
+---
+Empfangstest auf Port %d.
+
+===
+
+***
+Unable to create listening socket.
+
+---
+Empfangssocket konnte nicht angelegt werden.
+
+===
+
+***
+Unable to bind to port %d. Code = %d
+
+---
+Anbindung an Port %d fehlgeschlagen. Code = %d
+
+===
+
+***
+Unable to listen to port %d. Code = %d
+
+---
+Port %d konnte nicht angesprochen werden. Code = %d
+
+===
+
+***
+Requesting connection...
+---
+Verbindung wird angemeldet...
+===
+
+***
+Unable to create outbound socket.
+
+---
+Transfer-Socket konnte nicht angelegt werden.
+
+===
+
+***
+Connecting...
+---
+Verbinden...
+===
+
+***
+Outbound connection failed. Code = %d
+
+---
+Transferverbindung fehlgeschlagen. Code = %d
+
+===
+
+***
+Request to callback failed. Code = %d
+
+---
+Best?tigunganforderung fehlgeschlagen. Code = %d
+
+===
+
+***
+Listening...
+---
+Warten...
+===
+
+***
+Unable to select on listening socket. Code = %d
+
+---
+Auswahl auf Empfangssocket nicht m?glich. Code = %d
+
+===
+
+***
+Timed out without a connection from the server.
+
+---
+Zeitlimit f?r Verbindungsaufbau ?berschritten.
+
+===
+
+***
+Accept failed. Code = %d
+
+---
+Anmeldung verweigert. Code = %d
+
+===
+
+***
+Received connection from remote host.
+
+---
+Verbindung vom DF?-Host hergestellt.
+
+===
+
+***
+Received, verifying...
+---
+Empfang abgeschlossen, ?berpr?fen...
+===
+
+***
+Send on accepted socket failed. Code = %d
+
+---
+?bertragung zum angemeldeten Socket fehlgeschlagen. Code = %d
+
+===
+
+***
+Expected buffered packet. (len=%d). Code = %d
+
+---
+Gebuffertes Datenpaket erwartet. (len=%d). Code = %d
+
+===
+
+***
+Received verification packet.
+Reception on port %d validated.
+
+---
+Pr?fpaket erhalten.
+Empfang auf Port %d best?tigt.
+
+===
+
+***
+Passed
+---
+OK
+===
+
+***
+Incorrect code received during validation. Code = %d
+
+---
+Fehlerhafter Code w?hrend ?berpr?fung. Code = %d
+
+===
+
+***
+Read incomplete packet on accepted socket. (len = %d, should be=%d). Code = %d
+
+---
+Unvollst?ndiges Datenpaket auf angemeldetem Socket. (len = %d statt=%d). Code = %d
+
+===
+
+***
+Unknown
+---
+Unbekannt
+===
+
+***
+Windows Version %d.%d Build %d
+---
+Windows-Version %d.%d Build %d
+===
+
+***
+Windows NT Version %d.%d Build %d
+---
+Windows NT-Version %d.%d Build %d
+===
+
+***
+Operating System: 
+---
+Betriebssystem: 
+===
+
+***
+    WARNING: NT may be incompatible with NetStorm.
+
+---
+    ACHTUNG: NetStorm unter NT m?glicherweise nicht lauff?hig.
+
+===
+
+***
+Unknown
+---
+Unbekannt
+===
+
+***
+80386 or compatible
+---
+80386 oder kompatibel 
+===
+
+***
+80486 or compatible
+---
+80486 oder kompatibel
+===
+
+***
+Pentium or compatible
+---
+Pentium oder kompatibel
+===
+
+***
+CPU: 
+---
+CPU: 
+===
+
+***
+    WARNING: Your CPU may be incompatible with NetStorm.
+
+---
+    ACHTUNG: NetStorm m?glicherweise auf Ihrer CPU nicht lauff?hig.
+
+===
+
+***
+%d bytes
+
+---
+%d Bytes
+
+===
+
+***
+Installed Memory: 
+---
+Verf?gbarer Speicher: 
+===
+
+***
+    WARNING: You have less than 16 Megs of memory.
+    You may experience problems while running NetStorm.
+
+---
+    ACHTUNG: Es sind weniger als 16 MB Speicher verf?gbar.
+    Es k?nnen daher m?glicherweise Probleme beim Betrieb von NetStorm auftreten.
+
+===
+
+***
+The combination results of the tests on your machine do not match any combinations Setup is prepared to analyze.
+---
+Die Testergebnisse Ihres Systems entsprechen keiner der vorgegebenen Setup-Analysekombinationen.
+===
+
+// This is the level of a unit.
+***
+ Level %s
+---
+ Level %s
+===
+
+// This indicates that there are no empty slots in a workshop
+***
+None
+---
+Keine
+===
+
+***
+%s Available
+
+---
+%s verf?gbar
+
+===
+
+***
+Production Slots Available: %s
+
+---
+Verf?gbare Produktionspl?tze: %s
+
+===
+
+***
+ Again
+---
+ Wiederholen
+===
+
+***
+ Again
+---
+ Wiederholen
+===
+
+// %s is replaced at runtime with the word for technology per config.german: Knowledge (Wissen)
+// Feel free to remove the %s from the GERMAN HALF ONLY, translating the phrase
+// "All Knowledge is in Production"
+***
+All %s is in Production
+---
+Gesamtes %s befindet sich in Produktion 
+===
+
+// %s is replaced at runtime with the word for technology per config.german: Knowledge (Wissen)
+// Feel free to remove the %s from the GERMAN HALF ONLY, translating the phrase
+// "Put Knowledge into Production"
+***
+Put %s into Production
+---
+%s in Produktion leiten 
+===
+
+***
+Upgrade costs %s%d~[IfortGump.3]
+---
+Erweiterungskosten %s%d~[IfortGump.3] 
+===
+
+// These do no require translation
+// START
+***
+dude
+---
+dude
+===
+
+***
+sunArcher
+---
+sunArcher
+===
+
+***
+sunAviary
+---
+sunAviary
+===
+
+***
+sunFlyer
+---
+sunFlyer
+===
+
+***
+banner
+---
+banner
+===
+
+***
+windBattery
+---
+windBattery
+===
+
+***
+rainBattery
+---
+rainBattery
+===
+
+***
+thunderBattery
+---
+thunderBattery
+===
+
+***
+sunBlocker
+---
+sunBlocker
+===
+
+***
+thunderBlocker
+---
+thunderBlocker
+===
+
+***
+blankMissile
+---
+blankMissile
+===
+
+***
+bolt
+---
+bolt
+===
+
+***
+bridge
+---
+bridge
+===
+
+***
+sunDisc
+---
+sunDisc
+===
+
+***
+emptyGeyser
+---
+emptyGeyser
+===
+
+***
+sunFactory
+---
+sunFactory
+===
+
+***
+windFactory
+---
+windFactory
+===
+
+***
+rainFactory
+---
+rainFactory
+===
+
+***
+thunderFactory
+---
+thunderFactory
+===
+
+***
+residence
+---
+residence
+===
+
+***
+fencemark
+---
+fencemark
+===
+
+***
+flag
+---
+flag
+===
+
+***
+fortGump
+---
+fortGump
+===
+
+***
+icon
+---
+icon
+===
+
+***
+island
+---
+island
+===
+
+***
+islandStalag
+---
+islandStalag
+===
+
+***
+playerBanner
+---
+playerBanner
+===
+
+***
+isle
+---
+isle
+===
+
+***
+isleBig
+---
+isleBig 
+===
+
+***
+geyserBrightener
+---
+geyserBrightener
+===
+
+***
+treeTwo
+---
+treeTwo 
+===
+
+***
+treeThree
+---
+treeThree 
+===
+
+***
+fringe
+---
+fringe 
+===
+
+***
+mana
+---
+mana 
+===
+
+***
+range
+---
+range 
+===
+
+***
+manabolt
+---
+manabolt 
+===
+
+***
+flare
+---
+flare 
+===
+
+***
+puzzlePiece
+---
+puzzlePiece 
+===
+
+***
+playerIsland
+---
+playerIsland 
+===
+
+***
+battleIsland
+---
+battleIsland 
+===
+
+***
+particlePlaceHolder
+---
+particlePlaceHolder 
+===
+
+***
+sunBalloon
+---
+sunBalloon 
+===
+
+***
+buried
+---
+buried 
+===
+
+***
+bombExplodeSmall
+---
+bombExplodeSmall 
+===
+
+***
+bombExplodeMedium
+---
+bombExplodeMedium 
+===
+
+***
+bombExplodeLarge
+---
+bombExplodeLarge 
+===
+
+***
+bombHeal
+---
+bombHeal 
+===
+
+***
+bombInvisible
+---
+bombInvisible 
+===
+
+***
+bombParalyze
+---
+bombParalyze 
+===
+
+***
+bombHardener
+---
+bombHardener 
+===
+
+***
+bombTreason
+---
+bombTreason 
+===
+
+***
+edgeFarm
+---
+edgeFarm 
+===
+
+***
+geyser
+---
+geyser 
+===
+
+***
+windVortex
+---
+windVortex 
+===
+
+***
+rainVortex
+---
+rainVortex 
+===
+
+***
+thunderVortex
+---
+thunderVortex 
+===
+
+***
+outpost
+---
+outpost 
+===
+
+***
+mcloud
+---
+mcloud 
+===
+
+***
+sunCannon
+---
+sunCannon
+===
+
+***
+rainCannon
+---
+rainCannon
+===
+
+***
+rainCannonMissile
+---
+rainCannonMissile
+===
+
+***
+thunderCannon
+---
+thunderCannon
+===
+
+***
+thunderCannonMissile
+---
+thunderCannonMissile
+===
+
+***
+sunWalker
+---
+sunWalker
+===
+
+***
+teleportEffect
+---
+teleportEffect
+===
+
+***
+bulf
+---
+bulf
+===
+
+***
+sunFence
+---
+sunFence
+===
+
+***
+windWalker
+---
+windWalker
+===
+
+***
+windFlyer
+---
+windFlyer
+===
+
+***
+windAviary
+---
+windAviary
+===
+
+***
+windArcher
+---
+windArcher
+===
+
+***
+windBalloon
+---
+windBalloon
+===
+
+***
+windBlocker
+---
+windBlocker
+===
+
+***
+rainAviary
+---
+rainAviary
+===
+
+***
+rainFlyer
+---
+rainFlyer
+===
+
+***
+rainFence
+---
+rainFence
+===
+
+***
+rainBalloon
+---
+rainBalloon
+===
+
+***
+rainBlocker
+---
+rainBlocker
+===
+
+***
+thunderArcher
+---
+thunderArcher
+===
+
+***
+thunderFence
+---
+thunderFence
+===
+
+***
+growingRainBlocker
+---
+growingRainBlocker
+===
+
+***
+platform
+---
+platform
+===
+
+***
+player
+---
+player
+===
+
+***
+mog
+---
+mog
+===
+
+***
+nugget
+---
+nugget
+===
+
+***
+bridgeConnector
+---
+bridgeConnector
+===
+
+***
+rainWalker
+---
+rainWalker
+===
+
+***
+noIsland
+---
+noIsland
+===
+
+***
+priest
+---
+priest
+===
+
+***
+lightning
+---
+lightning
+===
+
+***
+anim
+---
+anim
+===
+
+***
+challengeIsland
+---
+challengeIsland
+===
+
+***
+fakeThreeByThreeSurface
+---
+fakeThreeByThreeSurface
+===
+
+***
+sunFlyerBomb
+---
+sunFlyerBomb
+===
+
+***
+altar
+---
+altar
+===
+
+***
+dais
+---
+dais
+===
+
+***
+rune
+---
+rune
+===
+
+***
+forceField
+---
+forceField
+===
+
+***
+bombSpecialOne
+---
+bombSpecialOne
+===
+
+***
+daisExtraFrames
+---
+daisExtraFrames
+===
+
+***
+fenceShield
+---
+fenceShield
+===
+// END of stuff not requiring translation
+
+***
+Aerial Attack
+---
+Luftangriff
+===
+
+***
+Aerial Transport
+---
+Lufttransporter
+===
+
+***
+Air Attack Base
+---
+Luftangriffsbasis
+===
+
+***
+Altar
+---
+Altar
+===
+
+***
+Bridge
+---
+Br?cke
+===
+
+***
+Defense
+---
+Verteidigung
+===
+
+***
+Defensive Spell
+---
+Defensivzauber
+===
+
+***
+Energy
+---
+Energie
+===
+
+***
+Ground Transport
+---
+Bodentransporter
+===
+
+***
+High Priest
+---
+Hohepriester
+===
+
+***
+Offensive Spell
+---
+Offensivzauber
+===
+
+***
+Production
+---
+Produktion
+===
+
+***
+Residence
+---
+Wohnhaus
+===
+
+***
+Shooter
+---
+Gesch?tz
+===
+
+***
+Source of Energy
+---
+Energiequelle
+===
+
+***
+Spell
+---
+Zauberspruch
+===
+
+***
+Source of Storm Power
+---
+Sturmkraftquelle
+===
+
+***
+Source of Storm Power
+---
+Sturmkraftquelle
+===
+
+***
+Altar
+---
+Altar
+===
+
+***
+Bridge Harden
+---
+Br?ckenstabilisation
+===
+
+***
+Challenge Ring
+---
+Gefechtsring
+===
+
+***
+Heal
+---
+Heilung
+===
+
+***
+Large Farm
+---
+Gro?er Bauernhof
+===
+
+***
+Outpost
+---
+Au?enposten
+===
+
+***
+Paralysis
+---
+Paralyse
+===
+
+***
+Residence
+---
+Wohnhaus
+===
+
+***
+Small Farm
+---
+Kleiner Bauernhof
+===
+
+***
+Treason
+---
+Verrat
+===
+
+***
+Tree
+---
+Baum
+===
+
+***
+Water Wheel
+---
+Wasserrad
+===
+
+***
+Acid Barricade
+---
+S?urebarrikade
+===
+
+***
+Air Ship
+---
+Luftschiff
+===
+
+***
+Arc Spire
+---
+Kugelturm
+===
+
+***
+Artifact
+---
+Artefakt
+===
+
+***
+Balloon
+---
+Ballon
+===
+
+***
+Banner
+---
+Banner
+===
+
+***
+Bridge
+---
+Br?cke
+===
+
+***
+Bulf
+---
+Kolossos
+===
+
+***
+Bulwark
+---
+Bollwerk
+===
+
+***
+City Gate
+---
+Stadttor
+===
+
+***
+Cloud Floater
+---
+Wolkengleiter
+===
+
+***
+Crossbow
+---
+Armbrust
+===
+
+***
+Crystal Crab
+---
+Kristallkrabbe
+===
+
+***
+Decimation
+---
+Dezimierung
+===
+
+***
+Devastation
+---
+Verw?stung
+===
+
+***
+Devil Maker
+---
+Wirbelschleuder
+===
+
+***
+Dust Devil
+---
+Staubwirbel
+===
+
+***
+Edge Farm
+---
+Klippenvegetation
+===
+
+***
+Embassy
+---
+Botschaft
+===
+
+***
+Empty Storm Geyser
+---
+Leerer Sturmgeysir
+===
+
+// This does not require translation
+***
+fake3x3Surface
+---
+fake3x3Surface
+===
+
+***
+Force Field
+---
+Kraftfeld
+===
+
+// This does not require translation
+***
+fortGump
+---
+fortGump
+===
+
+***
+Fountain
+---
+Brunnen
+===
+
+***
+Golem
+---
+Golem
+===
+
+***
+Grove
+---
+Hain
+===
+
+***
+Growing Ice Tower
+---
+Eisturmerweiterung
+===
+
+***
+High Priest
+---
+Hohepriester
+===
+
+***
+Homestead
+---
+Heimst?tte
+===
+
+***
+Ice Cannon
+---
+Eiskanone
+===
+
+***
+Ice Tower
+---
+Eisturm
+===
+
+***
+Invisibility
+---
+Unsichtbarkeit
+===
+
+***
+Island
+---
+Insel
+===
+
+***
+IslandStalag
+---
+IslandStalag
+===
+
+***
+Man o'War Pool
+---
+Quallenspeier
+===
+
+***
+Man o'War
+---
+R?hrenqualle
+===
+
+***
+Mansion
+---
+Herrenhaus
+===
+
+***
+Nimbian
+---
+Nimber
+===
+
+***
+Obelisk
+---
+Obelisk
+===
+
+// This is a placeholder object for the player.  Its name is never seen, so feel free to
+// leave it as it is.
+***
+Player Stub
+---
+Player Stub
+===
+
+***
+Point Blast
+---
+Wirbelsturm
+===
+
+***
+Rain Generator
+---
+Regengenerator
+===
+
+***
+Rain Temple
+---
+Regentempel
+===
+
+***
+Rain Workshop
+---
+Regenproduktionsst?tte
+===
+
+***
+Rain {Focus}
+---
+Regen {Focus}
+===
+
+***
+River
+---
+Flu?
+===
+
+***
+Sail Skater
+---
+Segelmobil
+===
+
+***
+Stone Tower
+---
+Steinturm
+===
+
+***
+Storm Crystal
+---
+Sturmkristall
+===
+
+***
+Storm Geyser
+---
+Sturmgeysir
+===
+
+***
+Sun Barricade
+---
+Sonnenbarrikade
+===
+
+***
+Sun Cannon
+---
+Sonnenkanone
+===
+
+***
+Sun Disc Thrower
+---
+Sonnenscheibenwerfer
+===
+
+***
+Sun Generator
+---
+Sonnengenerator
+===
+
+***
+Sun Workshop
+---
+Sonnenproduktionsst?tte
+===
+
+***
+Sun {Focus}
+---
+Sonne {Focus}
+===
+
+***
+teleport effect
+---
+Teleport
+===
+
+***
+Thunder Cannon
+---
+Donnerkanone
+===
+
+***
+Thunder Generator
+---
+Donnergenerator
+===
+
+***
+Thunder Temple
+---
+Donnertempel
+===
+
+***
+Thunder Workshop
+---
+Donnerproduktionsst?tte
+===
+
+***
+Thunder {Focus}
+---
+Donner {Focus}
+===
+
+***
+Trees
+---
+B?ume
+===
+
+***
+Vander Tower
+---
+Voltturm
+===
+
+***
+Wall
+---
+Mauer
+===
+
+***
+Whirlibase
+---
+Helihangar
+===
+
+***
+Whirligig
+---
+Helibomber
+===
+
+***
+Wind Generator
+---
+Windgenerator
+===
+
+***
+Wind Temple
+---
+Windtempel
+===
+
+***
+Wind Tower
+---
+Windturm
+===
+
+***
+Wind Workshop
+---
+Windproduktionsst?tte
+===
+
+***
+Wind {Focus}
+---
+Wind {Focus}
+===
+
+***
+Platform
+---
+Plattform
+===
+
+***
+PlayerBanner
+---
+PlayerBanner
+===
+
+// This should be left as is.
+***
+noIsland
+---
+noIsland
+===
+

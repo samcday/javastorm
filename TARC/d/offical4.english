@@ -1,0 +1,16 @@
+title = "A Nation Rises"
+
+[Overview]
+<background="nsstart">
+<h2>{offical4.title}</h2>
+<p>
+Your island is strong. Now fight for the freedom of
+all good people in the skies of Nimbus.
+
+$Checked=1 The Noose,MissionBegin,TheNoose,{DoneTheNoose},{DoneDissolvedAlliance}
+$Checked=2 Rain Vs. Rain,MissionBegin,RainVsRain,{DoneRainVsRain},{DoneTheNoose}
+$Checked=3 Run For It!,MissionBegin,RunForIt,{DoneRunForIt},{DoneRainVsRain}
+$Checked=4 Guard My Back,MissionBegin,GuardMyBack,{DoneGuardMyBack},{DoneRunForIt}
+$Checked=5 Surrounded!,MissionBegin,Surrounded,{DoneSurrounded},{DoneGuardMyBack}
+
+$Button=Back,Tell,UCampaign

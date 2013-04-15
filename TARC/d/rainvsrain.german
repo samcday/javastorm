@@ -1,0 +1,51 @@
+[Header]
+missionType = "Tutorial"
+
+missionNumber = 1
+
+myStartMoney = 2000
+myTech = "sunWalker;sunArcher;rainBattery;rainAviary;rainCannon;rainBalloon;rainBlocker;rainWalker;rainFence"
+
+aiName = "Prinz des Regens"
+aiTech = "sunWalker;sunArcher;rainBattery;rainAviary;rainCannon;rainBalloon;rainBlocker;rainWalker;rainFence;sunBalloon"
+aiStartMoney = 6000
+aiGeyserAttachments = 4
+aiCollectors = 4
+aiTimeBetweenMoves = 3
+
+title="Kampf der Regenm?chte"
+
+[Options]
+
+[A.]
+<h2>Kampf der Regenm?chte</h2>
+<i>"Und so m?ge der Regen den Keim Eurer f?rchterlichen Wut stetig n?hren."<br>
+--Botschafter Halmuk Pelitan</i>
+<p>
+Eine entscheidende Begegnung steht Ihnen bevor: Sie m?ssen mit Ihrem effizientesten Regentempel gegen den Finsteren Prinzen des Regens antreten.
+<p>
+In seinem finsteren Tempel h?lt er zehntausende Nimbische Seelen gefangen. Zerst?ren Sie diesen Ort des Grauens, exekutieren Sie den feindlichen Priester auf dem Altar, und nehmen Sie Rache f?r zehntausende unschuldige Todesopfer!
+
+$Button=Aktueller Wissensstand,ShowTechnology,55
+$Button=Mission beginnen,DoNothing,0
+
+
+[Succeeded][BadTeamDead]
+<h2>Mission erfolgreich abgeschlossen!</h2>
+<p>
+Sie haben den Hohepriester des Finsteren Prinzen niedergestreckt, seinen Tempel vernichtet und zehntausende Nimbische Seelen befreit, damit sie endlich in die ewige Seligkeit eintreten k?nnen. Als Ausdruck ihrer Dankbarkeit stimmen sie Ihnen zu Ehren ein immerw?hrendes Loblied an.
+<$Config,Done{mission.fileName}=1>
+$Button=Mission beenden,MissionAbort,1
+$Button=N?chste Mission,MissionBegin,RunForIt
+
+
+[Failed]
+<h2>Missionsziel verfehlt!</h2>
+<p>
+Der Finstere Prinz des Regens hat Ihre mutigen, loyalen Truppen zerschlagen! Die Seelen Ihrer Nimbischen Krieger - und nicht zuletzt auch Ihre eigene Seele - wurden in den finsteren Tempel des Prinzen verbannt und sind dort ewigen Qualen ausgesetzt.
+$Button=Weiter,Tell,TryAgain
+
+
+[END]
+																		 
+																		 

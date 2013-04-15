@@ -1,0 +1,26 @@
+typename bombIIMano constructor
+typeflags default_hotspot bomb mayDropOnRim ;
+{
+	description="Hydra Wave";
+	class="Summons Spell";
+
+	zorder = "zoEMPLACEMENTS";
+	foot_x = 1;
+	foot_y = 1;
+
+	level = 2;	// Determines its probability class
+	range = 28;
+	cost = 1000;
+	activeSound = "70HydraWavePickup1.wav";
+	fireSound = "70HydraWaveCast1.wav";
+	casttime=5;
+	praytime=60;
+	manacost=10;
+	spawns=2;
+}
+
+A00 : : "blank.gif" #0 ;
+
+B00 :  default baseframe : "spells.gif" #14  ;
+
+B01 : help : "b_obelisk.gif" #00;

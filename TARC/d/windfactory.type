@@ -1,0 +1,28 @@
+typename windFactory constructor
+typeflags factory yuckWalk dropBlocking shotblocking shadow;
+{
+	description="Wind Workshop";
+	class="Production";
+	maxHitPoints = 4000;
+	theme = "wind";
+	cost = 1000;
+	zorder = "zoEMPLACEMENTS";
+	foot_x = 8;
+	foot_y = 6;
+	threat = 20;
+
+	damageEffect = 1;
+	buildDoneSound = "workshopComplete.wav";
+}
+
+A01 : default baseframe : "wfactory.gif" #00 : "wfactory.gif" #03 ;
+
+B01 : : "wfactory.gif" #01 : "wfactory.gif" #04 ;
+
+C01 : : "wfactory.gif" #02 : "wfactory.gif" #05 ;
+
+
+D01 : : "wfactory.gif" #02 : "wfactory.gif" #05 ;
+
+
+P00 : help : "b_wfactory.gif" #00;

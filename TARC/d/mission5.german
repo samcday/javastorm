@@ -1,0 +1,36 @@
+[Header]
+missionType = "Normal"
+moneyCriteria = 3000
+
+tech = deny;all;allow;rainVortex;sunFactory;sunWalker"
+
+hackCode = 5
+
+[OBJECTIVE]
+<background="startcl.gif">
+<h2>Mission Five</h2>
+"Pirate Attack!"
+<p>
+A lone scout balloon was spotted high above the Fortress 
+this morning. The Nimbians know this means pirates!
+<p>
+You must defend the Fort from attack by building Cannons
+and Sun Disc Throwers to stop the raid.
+<p>
+$Button=CONTINUE,DoNothing,0
+
+[SUCCESS]
+<h2>Success!</h2>
+<p>
+Cheers rise up as the last pirate vessel explodes in shards!
+<p>
+
+$Button=CONTINUE,MissionBegin,Mission6
+
+[FAILURE]
+<h2>Failure!</h2>
+Really, there is hardly any way you can fail this mission.
+<br>
+$Button=QUIT,DoNothing,0
+$Button=RESTART,MissionRestart,0
+[end]

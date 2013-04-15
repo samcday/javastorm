@@ -1,0 +1,31 @@
+typename sunBalloon 
+typeflags balloon flyershadow;
+{
+	description="Balloon";
+	class="Aerial Transport";
+	maxHitPoints = 100;
+	theme = "sun";
+	level = 2;
+	cost = 600;
+	threat = 15;
+
+	zorder = "zoFLYERS";
+	foot_x = 1;
+	foot_y = 1;
+	group = "balloon";
+
+	speed = 1.9;
+		// Ken improved v5.3 after consultation.
+	turningSpeed = 90000.0;
+
+	turningSpeed = 90.0;
+	pickupSound = "balloonPickup.wav";
+	moveSound = "balloonMove.wav";
+	dropSound = "balloonDrop.wav";
+
+	techBit = 2;
+}
+
+A00	: gumpframe default	: "sunbaloo.gif" #00 : "sunbaloo.gif" #08;
+
+P00 : help : "b_sballoon.gif" #00;

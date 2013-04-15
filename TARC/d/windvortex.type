@@ -1,0 +1,46 @@
+typename windVortex constructor
+typeflags vortex yuckWalk dropBlocking shotblocking mayDropOnRim mayDropOnIsle shadow;
+{
+	description="Wind Temple";
+	class="Energy";
+	maxHitPoints = 5000;
+	theme = "wind";
+	cost = 5000;
+	threat = 20;
+
+	zorder = "zoEMPLACEMENTS";
+	foot_x = 8;
+	foot_y = 6;
+	height = 2;
+
+	damageEffect = 1;
+	constructionRate = 10;
+
+	crew = 30;
+	buildDoneSound = "templeComplete.wav";
+}
+
+A00 : : "wvortex.gif" #00 ;
+A01 : : "wvortex.gif" #01 ;
+A02 : : "wvortex.gif" #02 ;
+A03 : : "wvortex.gif" #03 ;
+A04 : : "wvortex.gif" #04 ;
+A05 : : "wvortex.gif" #05 ;
+A06 : : "wvortex.gif" #06 ;
+A07 : : "wvortex.gif" #07 ;
+A08 : : "wvortex.gif" #08 ;
+A09 : : "wvortex.gif" #09 ;
+A10 : : "wvortex.gif" #10 ;
+A11 : : "wvortex.gif" #11 ;
+A12 : : "wvortex.gif" #12 ;
+
+B01 : default baseframe : "wvortex.gif" #13 : "wvortex.gif" #14 ;
+
+C00 : : "wvortpow.gif" #0 ;
+C01 : : "wvortpow.gif" #1 ;
+C02 : : "wvortpow.gif" #2 ;
+C03 : : "wvortpow.gif" #3 ;
+C04 : : "wvortpow.gif" #4 ;
+C05 : : "wvortpow.gif" #5 ;
+
+P00 : help : "b_wtemple.GIF" #00;

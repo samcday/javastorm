@@ -1,0 +1,27 @@
+typename playerbanner
+
+typeflags not_selectable;
+{
+        description="PlayerBanner";
+        zorder = "zoEMPLACEMENTS-1";
+        foot_x = 1;
+        foot_y = 1;
+}
+
+P00 :  : "playflag.gif" #14; 
+P01 :  : "playflag.gif" #00; 
+P02 :  : "playflag.gif" #84; 
+P03 :  : "playflag.gif" #28; 
+P04 :  : "playflag.gif" #98; 
+P05 :  : "playflag.gif" #42; 
+P06 :  : "playflag.gif" #70; 
+P07 :  : "playflag.gif" #56;
+
+P08 :  : "dots.gif" #01; 
+P09 :  : "dots.gif" #00; 
+P10 :  : "dots.gif" #06; 
+P11 :  : "dots.gif" #02; 
+P12 :  : "dots.gif" #07; 
+P13 :  : "dots.gif" #03; 
+P14 :  : "dots.gif" #05; 
+P15 :  : "dots.gif" #04;

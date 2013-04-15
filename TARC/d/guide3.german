@@ -1,0 +1,15 @@
+title = "Volkswiderstand"
+
+[Overview]
+<background="nsstart">
+<h2>Volkswiderstand</h2>
+<p>
+Ihre Insel ist gut ger?stet. Es ist nun an der Zeit, den Kampf um die Freiheit der rechtschaffenen Bev?lkerung des Wolkenreichs von Nimbus aufzunehmen.
+
+$Checked=1 Galgenfrist,MissionBegin,TheNoose,{DoneTheNoose},{DoneDissolvedAlliance}
+$Checked=2 Kampf der Regenm?chte,MissionBegin,RainVsRain,{DoneRainVsRain},{DoneTheNoose}
+$Checked=3 Sturmattacke,MissionBegin,RunForIt,{DoneRunForIt},{DoneRainVsRain}
+$Checked=4 Schulterschlu?,MissionBegin,GuardMyBack,{DoneGuardMyBack},{DoneRunForIt}
+$Checked=5 Belagerung,MissionBegin,Surrounded,{DoneSurrounded},{DoneGuardMyBack}
+
+$Button=Zur?ck,Tell,Campaign

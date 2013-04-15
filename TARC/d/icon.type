@@ -1,0 +1,150 @@
+typename icon
+typeflags default_hotspot	;
+{
+        zorder = "zoISLAND";
+}
+
+A01     :default                : "icons.gif" #00    ;
+A02     :               : "icons.gif" #01    ;
+A03     :               : "icons.gif" #02    ;
+A04     :               : "icons.gif" #03    ;
+A05     :               : "icons.gif" #04    ;
+A06     :               : "icons.gif" #05    ;
+A07     :               : "icons.gif" #06    ;
+A08     :               : "icons.gif" #07    ;
+A09     :               : "icons.gif" #08    ;
+A10     :               : "icons.gif" #09    ;
+A11     :               : "icons.gif" #10    ;
+A12     :               : "icons.gif" #11    ;
+A13     :               : "icons.gif" #12    ;		// this is actually the hit point icon for the demo
+// part of the new Modstorm Patch
+// added by Fleet
+A14     : 		: "icons.gif" #28    ;	// flower	
+A15     : 		: "icons.gif" #29    ;	// happyface	
+A16     : 		: "icons.gif" #30    ;	// eye	
+A17     : 		: "icons.gif" #31    ;	// face	
+A18     : 		: "icons.gif" #32    ;	// stone	
+A19     : 		: "icons.gif" #33    ;	// up	
+A20     : 		: "icons.gif" #34    ;	// peace	
+A21     : 		: "icons.gif" #35    ;
+A22     : 		: "icons.gif" #36    ;
+A23     : 		: "icons.gif" #37    ;
+A24     : 		: "icons.gif" #38    ;
+A25     : 		: "icons.gif" #39    ;
+A26     : 		: "icons.gif" #40    ;
+A27     : 		: "icons.gif" #41    ;
+A28     : 		: "icons.gif" #42    ;
+A29     : 		: "icons.gif" #43    ;
+A30     : 		: "icons.gif" #44    ;
+A31     : 		: "icons.gif" #45    ;
+A32     : 		: "icons.gif" #46    ;
+A33     : 		: "icons.gif" #47    ;
+A34     : 		: "icons.gif" #48    ;
+A35     : 		: "icons.gif" #50    ;
+
+
+A36     : 		: "icons.gif" #51    ;
+A37     : 		: "icons.gif" #52    ;
+A38     : 		: "icons.gif" #53    ;
+A39     : 		: "icons.gif" #54    ;
+A40     : 		: "icons.gif" #55    ;
+A41     : 		: "icons.gif" #56    ;
+A42     : 		: "icons.gif" #57    ;
+A43     : 		: "icons.gif" #58    ;
+A44     : 		: "icons.gif" #59    ;
+A45     : 		: "icons.gif" #60    ;
+A46     : 		: "icons.gif" #61    ;
+A47     : 		: "icons.gif" #62    ;
+A48     : 		: "icons.gif" #63    ;
+A49     : 		: "icons.gif" #64    ;
+
+
+
+
+
+
+B01     :               : "icons.gif" #14    ;
+B02     :               : "icons.gif" #15    ;
+B03     :               : "icons.gif" #16    ;
+B04     :               : "icons.gif" #17    ;
+B05     :               : "icons.gif" #18    ;
+B06     :               : "icons.gif" #19    ;
+B07     :               : "icons.gif" #20    ;
+B08     :               : "icons.gif" #21    ;
+B09     :               : "icons.gif" #22    ;
+B10     :               : "icons.gif" #23    ;
+
+C01     :               : "icons.gif" #14    ;
+C02     :               : "icons.gif" #15    ;
+C03     :               : "icons.gif" #16    ;
+C04     :               : "icons.gif" #17    ;
+C05     :               : "icons.gif" #18    ;
+C06     :               : "icons.gif" #19    ;
+C07     :               : "icons.gif" #20    ;
+C08     :               : "icons.gif" #21    ;
+C09     :               : "icons.gif" #22    ;
+C10     :               : "icons.gif" #23    ;
+C11     :               : "icons.gif" #24    ;
+C12     :               : "icons.gif" #25    ;
+C13     :               : "icons.gif" #26    ;
+C14     :               : "icons.gif" #27    ;
+
+// CHAT TO ICON SETS
+
+D00     :               : "icons3.gif" #0    ; // normal chat
+D01     :               : "icons3.gif" #1    ; // allies
+D02     :               : "icons3.gif" #2    ; // battle
+D03     :               : "icons3.gif" #3    ; // watcher
+D04     :               : "icons3.gif" #4    ; // wisper
+D05     :               : "icons3.gif" #5    ; // multi wisper
+
+// other faces
+D06     :               : "icons3.gif" #6    ;
+D07     :               : "icons3.gif" #7    ;
+D08     :               : "icons3.gif" #8    ;
+D09     :               : "icons3.gif" #9    ;
+
+
+// The UI Contest WOOT
+D10     :               : "icons4.gif" #0 ;
+D11     :               : "icons4.gif" #1 ;
+D12     :               : "icons4.gif" #2 ;
+D13     :               : "icons4.gif" #3 ;
+D14     :               : "icons4.gif" #4 ;
+D15     :               : "icons4.gif" #5 ;
+D16     :               : "icons4.gif" #6 ;
+D17     :               : "icons4.gif" #7 ;
+D18     :               : "icons4.gif" #8 ;
+D19     :               : "icons4.gif" #9 ;
+D20     :               : "icons4.gif" #10 ;
+D21     :               : "icons4.gif" #11 ;
+D22     :               : "icons4.gif" #12 ;
+D23     :               : "icons4.gif" #13 ;
+D24     :               : "icons4.gif" #14 ;
+D25     :               : "icons4.gif" #15 ;
+D26     :               : "icons4.gif" #16 ;
+D27     :               : "icons4.gif" #17 ;
+D28     :               : "icons4.gif" #18 ;
+D29     :               : "icons4.gif" #19 ;
+D30     :               : "icons4.gif" #20 ;
+D31     :               : "icons4.gif" #21 ;
+D32     :               : "icons4.gif" #22 ;
+D33     :               : "icons4.gif" #23 ;
+D34     :               : "icons4.gif" #24 ;
+D35     :               : "icons4.gif" #25 ;
+
+
+
+// more fleet icons
+D36     :               : "icons5.gif" #0 ;
+D37     :               : "icons5.gif" #1 ;
+D38     :               : "icons5.gif" #2 ;
+D39     :               : "icons5.gif" #3 ;
+D40     :               : "icons5.gif" #4 ;
+D41     :               : "icons5.gif" #5 ;
+
+D42     :               : "icons5.gif" #6 ;
+D43     :               : "icons5.gif" #7 ;
+D44     :               : "icons5.gif" #8 ;
+
+

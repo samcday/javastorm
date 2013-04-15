@@ -1,0 +1,61 @@
+[Header]
+missiontype="tutorial"
+
+missionnumber=9
+moregeysers=1
+
+mystartmoney=10000
+mytech="sunFence;windBattery;sunArcher"
+myallylist=""
+
+title="Sun Barricade"
+
+ai2name="Duke Offense"
+ai2tech="windBattery;rainBattery;thunderBattery;windArcher;sunArcher;sunCannon;thunderCannon;rainCannon;thunderBlocker"
+ai2startmoney=10000
+ai2GeysersAttachments=2
+ai2Collectors=5
+ai2TimeBetweenMoves=4
+
+[Options]
+
+[A.]
+<h2>Sun Barricades</h2>
+<i>~y"Before you launch a good offensive, make sure you have good defense"<br>
+Safe Nimbian</i>
+<p>~wYou got him! you circled your bridges around a immbolised priest, and they bridges cannot be destroyed, however, you now have a problem, in the rush, you did not organise all your weapons very well.. you barely have anything at all, if you could only defend the bridge long enough for a golem to pick up the priest.......
+<p>~B~E~rObjective:~.~B~w  Sacrafice the enemy priest
+
+$Button=Technology available,ShowTechnology,55
+$Button=Lets do this!,DoNothing,0
+</?>
+
+[ai2priestcaptured]
+<h2>Got Him!</h2>
+Sometimes a wide selection of technology is no match for clever use of simpler units.
+<p>No need to destroy Duke Offense's isle (unless you feel you need to assert yourself) sacrafice at will!
+
+[ai2templedead]
+<h2>!Temple Down!</h2>
+<p>~wThe world of Nimbus quakes at your feet, how you destroyed the temple with seriously limited technology will write you into legends!
+
+[succeeded][badteamdead]
+<h2>Success</h2>
+<p>~wYou have done what seems like an impossibility, you have acquired a very useful skil in the process!
+<$Config,Done{mission.fileName}=1>
+$Button=Training Menu,MissionBegin,BC1Menu76
+<p>
+$Button=Restart,Tell,TryAgain
+<p>
+$Button=Leave Missions,MissionAbort,0
+
+[Failed]
+<h2>Failure</h2>
+<p>I guess the enemy was too much....
+$Button=Training Menu,MissionBegin,BC1Menu76
+<p>
+$Button=Restart,Tell,TryAgain
+<p>
+$Button=Leave Missions,MissionAbort,0
+
+[END]

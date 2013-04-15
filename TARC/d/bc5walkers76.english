@@ -1,0 +1,57 @@
+[Header]
+missiontype="tutorial"
+
+denysalvage=1
+missionnumber=5
+moregeysers=0
+
+mystartmoney=0
+mytech=""
+myallylist=""
+
+title="Death Bridge"
+
+ai2name="Lord NoChance"
+ai2tech=""
+ai2startmoney=0
+
+[Options]
+
+[A.]
+<h2>Death Bridge</h2>
+<i>~y"The ones you generally pick last may surprise you"<br>
+-Bulf Sympathiser</i>
+<p>~wAfter a stuggle between you and an evil lord, you both have each other in a very precarious situation, however you have the advantage, as his priest gets immoblised... from inside the yellow sphere, you hear teh eveil lord laugh:
+<p>
+~o~B~E"Hahah you will never get any of your walkers past my bridge defense!"
+<p>
+~.~B~wcan you?
+<p>~B~E~rObjective:~.~B~w  Walk the collectors across the bridge to collect the priest, this is simply to give you a feel of what each walker is capable of.
+<p>~B~E~oHint:~.~B~w  You can send them all at once by ~jshift-picking ~wthem, but you cannot order them to all pick up the priest like this.  If you send them one at a time, it is more clear of the collectors strengths and weaknesses
+<p>     <!"sunwalker.*">          <!"bulf.*">        <!"windwalker.*">                     <!"rainwalker.*">
+<p>"Golem"<!"mana.11">     "Bulf"<!"mana.10">      "Sail Skater"<!"mana.8">      "Crystal Crab"<!"mana.9">
+$Button=Technology available,ShowTechnology,55
+$Button=Lets do this!,DoNothing,0
+</?>
+
+[succeeded][ai2priestcaptured]
+<h2>~oNOOOOOOOOOOOOOOO!!!!</h2>
+<p>~wThe evil lord screams as you manage to walk right up to him and capture his priest, nothing is impossible!"
+<$Config,Done{mission.fileName}=1>
+$Button=Training Menu,MissionBegin,BC1Menu76
+<p>
+$Button=Restart,Tell,TryAgain
+$Button=Next,MissionBegin,BC6Mows76
+<p>
+$Button=Leave Missions,MissionAbort,0
+
+[Failed]
+<h2>Uhhh</h2>
+<p>How?!
+$Button=Training Menu,MissionBegin,BC1Menu76
+<p>
+$Button=Restart,Tell,TryAgain
+<p>
+$Button=Leave Missions,MissionAbort,0
+
+[END]

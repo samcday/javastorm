@@ -1,0 +1,18 @@
+[Header]
+// needed to make game work
+missionType = "Tutorial" 
+
+// this is mission 1 of X
+missionNumber=1 
+
+// dont add anymore geysers
+moreGeysers=0 
+
+// start money with 0 so you cant do anything
+myStartMoney=0
+
+// start tec with nothing at this point
+myTech ="windBattery;outpost;sunFence" 
+
+
+[END]

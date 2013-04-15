@@ -1,0 +1,204 @@
+[Header]
+// needed to make game work
+missionType = "Tutorial" 
+
+// this is mission 1 of X
+missionNumber=1 
+
+// dont add anymore geysers
+moreGeysers=0 
+
+// start money with 0 so you cant do anything
+myStartMoney=0
+
+// start tec with nothing at this point
+myTech ="windBattery;sunFence" 
+
+[A.]
+THIS IS A 10.70 PATCH UNIT TEST FILE!
+
+
+
+[@1]
+<$DumpSquids,0>
+Time 1
+[@2]
+<$DumpSquids,0>
+Time 2
+[@3]
+<$DumpSquids,0>
+Time 3
+[@4]
+<$DumpSquids,0>
+Time 4
+[@5]
+<$DumpSquids,0>
+Time 5
+[@6]
+<$DumpSquids,0>
+Time 6
+[@7]
+<$DumpSquids,0>
+Time 7
+[@8]
+<$DumpSquids,0>
+Time 8
+[@9]
+<$DumpSquids,0>
+Time 9
+[@10]
+<$DumpSquids,0>
+Time 10
+[@11]
+<$DumpSquids,0>
+Time 11
+[@12]
+<$DumpSquids,0>
+Time 12
+[@13]
+<$DumpSquids,0>
+Time 13
+[@14]
+<$DumpSquids,0>
+Time 14
+[@15]
+<$DumpSquids,0>
+Time 15
+[@16]
+<$DumpSquids,0>
+Time 16
+[@17]
+<$DumpSquids,0>
+Time 17
+[@18]
+<$DumpSquids,0>
+Time 18
+[@19]
+<$DumpSquids,0>
+Time 19
+[@20]
+<$DumpSquids,0>
+Time 20
+[@21]
+<$DumpSquids,0>
+Time 21
+[@22]
+<$DumpSquids,0>
+Time 22
+[@23]
+<$DumpSquids,0>
+Time 23
+[@24]
+<$DumpSquids,0>
+Time 24
+[@25]
+<$DumpSquids,0>
+Time 25
+[@26]
+<$DumpSquids,0>
+Time 26
+[@27]
+<$DumpSquids,0>
+Time 27
+[@28]
+<$DumpSquids,0>
+Time 28
+[@29]
+<$DumpSquids,0>
+Time 29
+[@30]
+<$DumpSquids,0>
+Time 30
+[@31]
+<$DumpSquids,0>
+Time 31
+[@32]
+<$DumpSquids,0>
+Time 32
+[@33]
+<$DumpSquids,0>
+Time 33
+[@34]
+<$DumpSquids,0>
+Time 34
+[@35]
+<$DumpSquids,0>
+Time 35
+[@36]
+<$DumpSquids,0>
+Time 36
+[@37]
+<$DumpSquids,0>
+Time 37
+[@38]
+<$DumpSquids,0>
+Time 38
+[@39]
+<$DumpSquids,0>
+Time 39
+[@40]
+<$DumpSquids,0>
+Time 40
+[@41]
+<$DumpSquids,0>
+Time 41
+[@42]
+<$DumpSquids,0>
+Time 42
+[@43]
+<$DumpSquids,0>
+Time 43
+[@44]
+<$DumpSquids,0>
+Time 44
+[@45]
+<$DumpSquids,0>
+Time 45
+[@46]
+<$DumpSquids,0>
+Time 46
+[@47]
+<$DumpSquids,0>
+Time 47
+[@48]
+<$DumpSquids,0>
+Time 48
+[@49]
+<$DumpSquids,0>
+Time 49
+[@50]
+<$DumpSquids,0>
+Time 50
+[@51]
+<$DumpSquids,0>
+Time 51
+[@52]
+<$DumpSquids,0>
+Time 52
+[@53]
+<$DumpSquids,0>
+Time 53
+[@54]
+<$DumpSquids,0>
+Time 54
+[@55]
+<$DumpSquids,0>
+Time 55
+[@56]
+<$DumpSquids,0>
+Time 56
+[@57]
+<$DumpSquids,0>
+Time 57
+[@58]
+<$DumpSquids,0>
+Time 58
+[@59]
+<$DumpSquids,0>
+Time 59
+[@60]
+<$DumpSquids,0>
+Time 60
+
+
+[END]

@@ -1,0 +1,42 @@
+[Header]
+missionType = "Tutorial"
+aid=1
+
+missionNumber = 1
+
+myStartMoney = 1000
+myTech = "all"
+
+ai19Tech = "sunWalker;sunArcher;sunCannon;sunBlocker"
+ai19StartMoney = 30000
+ai19GeyserAttachments = 0
+ai19Collectors = 2
+ai19TimeBetweenMoves = 2
+
+ai2Tech = "sunWalker;sunArcher;sunCannon;sunBlocker;rainBattery"
+ai2StartMoney = 10000
+ai2GeyserAttachments = 8
+ai2Collectors = 2
+ai2TimeBetweenMoves = 2
+ai2StuffRefreshRate = 2
+
+//demo = 1
+
+title = "Test"
+
+[Demo]
+<h2>NetStorm Demo</h2>
+<p>
+The Dark Prince of Rain has started a vicious assault on the 
+Duke of Thunder.
+<p>
+Can the Duke defend himself long enough to
+bring his Thunder Cannons to bear and crush his assailant?
+
+$Timeout=10,DoNothing,0
+
+[A.]
+
+[END]
+																		 
+																		 

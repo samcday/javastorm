@@ -1,0 +1,17 @@
+typename grove constructor
+typeflags emplacement farm needspower needswater;
+{
+	description="Grove";
+	zorder = "zoEMPLACEMENTS";
+	maxHitPoints = 500;
+	foot_x = 5;
+	foot_y = 4;
+	damageEffect = 1;
+	constructionRate = 10;
+	crew = 2;
+	foodProduced = 10;
+	joyFactor = 10;
+}
+
+P01 : default : "grove.gif" #00 ;
+

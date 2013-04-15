@@ -1,0 +1,61 @@
+[Header]
+missionType = "Tutorial"
+
+missionNumber = 1
+
+myStartMoney = 2000
+myTech = "sunWalker;sunArcher;rainBattery;rainAviary;rainCannon;rainBalloon;rainBlocker;rainWalker;rainFence"
+
+aiName = "Prince of Rain"
+aiTech = "sunWalker;sunArcher;rainBattery;rainAviary;rainCannon;rainBalloon;rainBlocker;rainWalker;rainFence;sunBalloon"
+aiStartMoney = 6000
+aiGeyserAttachments = 4
+aiCollectors = 4
+aiTimeBetweenMoves = 3
+
+title="Rain vs. Rain!"
+
+[Options]
+
+[A.]
+<h2>Rain Vs. Rain!</h2>
+<i>"And so, let the rain revive the garlands of your fearsome rage."<br>
+--Ambassador Halmuk Pelitan</i>
+<p>
+You have come to the final confrontation: You must bring your
+strongest Rain Temple against the home island of the
+Dark Prince of Rain.
+<p>
+Ten thousand Nimbian souls are trapped within his evil Temple.
+Destroy it, sacrifice his High Priest, and avenge ten
+thousand deaths!
+
+$Button=Review Knowledge,ShowTechnology,55
+$Button=Play Mission,DoNothing,0
+
+
+[Succeeded][BadTeamDead]
+<h2>Success!</h2>
+<p>
+You have butchered the Dark Prince's High Priest, obliterated 
+his Temple, and set free ten thousand Nimbian souls into the 
+great Beyond. They sing everlasting praise and gratitude to 
+your name.
+<$Config,Done{mission.fileName}=1>
+$Button=Leave Missions,MissionAbort,1
+$Button=Next Mission,MissionBegin,RunForIt
+
+
+[Failed]
+<h2>Failure!</h2>
+<p>
+Your brave and loyal Nimbian forces have been crushed at the
+hands of the Dark Prince of Rain!  Their souls--and yours--
+have been cast into his evil Temple for an eternity of 
+torment.
+$Button=Continue,Tell,TryAgain
+
+
+[END]
+																		 
+																		 

@@ -1,0 +1,156 @@
+typename windArcher constructor
+typeflags createsisland emplacement shadow saveFrame;
+{
+	description="Crossbow";
+	class="Shooter";
+	maxHitPoints = 490;
+	theme = "wind";
+	level = 2;
+
+	zorder = "zoEMPLACEMENTS";
+	range = 16; //16
+	// K & J Reduced Aug 28 1997 due to beta test players responses. From 20 to 16
+//	attackValueConst = 2;
+	hpPerSec = 25;
+	minUsage = 20;
+	maxUsage = 200;
+	threat = 5;
+	cost = 550; 
+
+//	rateConst = 0.0;
+//	rateVar = 100; // this gets slowed down by animation, not a pause btwn anims...
+	constructionRate = 10;
+	foot_x = 3;
+	foot_y = 3;
+//	hotFootX = 1; 
+//	hotFootY = 8;
+	hotFootRatioX = 0.0625; 
+	hotFootRatioY = 0.5;
+	damageEffect = 1;
+	group = "archer";
+	orientations = 20;
+
+	techBit = 7;
+}
+
+L00 : default   : "warch1.gif" #00 : "warch1a.gif" #71;
+L01 :           : "warch1.gif" #01 : "warch1a.gif" #72;
+L02 :           : "warch1.gif" #02 : "warch1a.gif" #73;
+L03 :           : "warch1.gif" #04 : "warch1a.gif" #75;
+L04 :           : "warch1.gif" #05 : "warch1a.gif" #76;
+
+P05 :           : "warch1.gif" #06 : "warch1a.gif" #77;
+P06 :           : "warch1.gif" #07 : "warch1a.gif" #78;
+P07 :           : "warch1.gif" #08 : "warch1a.gif" #79;
+P08 :           : "warch1.gif" #09 : "warch1a.gif" #80;
+P09 :           : "warch1.gif" #10 : "warch1a.gif" #81;
+
+P10 :           : "warch1.gif" #11 : "warch1a.gif" #82;
+P11 :           : "warch1.gif" #12 : "warch1a.gif" #83;
+P12 :           : "warch1.gif" #13 : "warch1a.gif" #84;
+P13 :           : "warch1.gif" #14 : "warch1a.gif" #85;
+P14 :           : "warch1.gif" #15 : "warch1a.gif" #86;
+
+P15 :           : "warch1.gif" #16 : "warch1a.gif" #87;
+P16 :           : "warch1.gif" #17 : "warch1a.gif" #88;
+P17 :           : "warch1.gif" #18 : "warch1a.gif" #89;
+P18 :           : "warch1.gif" #19 : "warch1a.gif" #90;
+P19 :           : "warch1.gif" #21 : "warch1a.gif" #91;
+
+P20 :           : "warch1.gif" #21 : "warch1a.gif" #92;
+P21 :           : "warch1.gif" #22 : "warch1a.gif" #93;
+P22 :           : "warch1.gif" #23 : "warch1a.gif" #94;
+P23 :           : "warch1.gif" #24 : "warch1a.gif" #95;
+P24 :           : "warch1.gif" #25 : "warch1a.gif" #96;
+
+M00 :           : "warch1.gif" #26 : "warch1a.gif" #97;
+M01 :           : "warch1.gif" #27 : "warch1a.gif" #98;
+M02 :           : "warch1.gif" #28 : "warch1a.gif" #99;
+M03 :           : "warch1.gif" #29 : "warch1a.gif" #100;
+M04 :           : "warch1.gif" #30 : "warch1a.gif" #101; 
+
+P30 :           : "warch1.gif" #31 : "warch1b.gif" #102 ;
+P31 :           : "warch1.gif" #32 : "warch1b.gif" #103 ;
+P32 :           : "warch1.gif" #33 : "warch1b.gif" #104 ;
+P33 :           : "warch1.gif" #34 : "warch1b.gif" #105 ;
+P34 :           : "warch1.gif" #35 : "warch1b.gif" #106 ;
+
+P35 :           : "warch1.gif" #36 : "warch1b.gif" #107 ;
+P36 :           : "warch1.gif" #37 : "warch1b.gif" #108 ;
+P37 :           : "warch1.gif" #38 : "warch1b.gif" #109 ;
+P38 :           : "warch1.gif" #39 : "warch1b.gif" #110 ;
+P39 :           : "warch1.gif" #40 : "warch1b.gif" #111 ;
+
+P40 :           : "warch1.gif" #41 : "warch1b.gif" #112 ;
+P41 :           : "warch1.gif" #42 : "warch1b.gif" #113 ;
+P42 :           : "warch1.gif" #43 : "warch1b.gif" #114 ;
+P43 :           : "warch1.gif" #44 : "warch1b.gif" #115 ;
+P44 :           : "warch1.gif" #45 : "warch1b.gif" #116 ;
+
+P45 :           : "warch1.gif" #46 : "warch1b.gif" #117 ;
+P46 :           : "warch1.gif" #47 : "warch1b.gif" #118 ;
+P47 :           : "warch1.gif" #48 : "warch1b.gif" #119 ;
+P48 :           : "warch1.gif" #49 : "warch1b.gif" #120 ;
+P49 :           : "warch1.gif" #50 : "warch1b.gif" #121 ;
+
+N00 :           : "warch1.gif" #51 : "warch1b.gif" #122 ;
+N01 :           : "warch1.gif" #52 : "warch1b.gif" #123 ;
+N02 :           : "warch1.gif" #53 : "warch1b.gif" #124 ;
+N03 :           : "warch1.gif" #54 : "warch1b.gif" #125 ;
+N04 :           : "warch1.gif" #55 : "warch1b.gif" #126 ;
+
+P55 :           : "warch1.gif" #56 : "warch1b.gif" #127 ;
+P56 :           : "warch1.gif" #57 : "warch1b.gif" #128 ;
+P57 :           : "warch1.gif" #58 : "warch1b.gif" #129 ;
+P58 :           : "warch1.gif" #59 : "warch1b.gif" #130 ;
+P59 :           : "warch1.gif" #60 : "warch1b.gif" #131 ;
+
+P60 :           : "warch1.gif" #61 : "warch1b.gif" #132 ;
+P61 :           : "warch1.gif" #62 : "warch1b.gif" #133 ;
+P62 :           : "warch1.gif" #63 : "warch1b.gif" #134 ;
+P63 :           : "warch1.gif" #64 : "warch1b.gif" #135 ;
+P64 :           : "warch1.gif" #65 : "warch1b.gif" #136 ;
+
+P65 :           : "warch1.gif" #66 : "warch1b.gif" #137 ;
+P66 :           : "warch1.gif" #67 : "warch1b.gif" #138 ;
+P67 :           : "warch1.gif" #68 : "warch1b.gif" #139 ;
+P68 :           : "warch1.gif" #69 : "warch1b.gif" #140 ;
+P69 :           : "warch1.gif" #70 : "warch1b.gif" #141 ;
+
+P70 :           : "warch2.gif" #71 : "warch2a.gif" #0;
+P71 :           : "warch2.gif" #72 : "warch2a.gif" #1;
+P72 :           : "warch2.gif" #73 : "warch2a.gif" #2;
+P73 :           : "warch2.gif" #74 : "warch2a.gif" #3;
+P74 :           : "warch2.gif" #75 : "warch2a.gif" #4;
+
+O00 :           : "warch2.gif" #76 : "warch2a.gif" #5;
+O01 :           : "warch2.gif" #77 : "warch2a.gif" #6;
+O02 :           : "warch2.gif" #78 : "warch2a.gif" #7;
+O03 :           : "warch2.gif" #79 : "warch2a.gif" #8;
+O04 :           : "warch2.gif" #80 : "warch2a.gif" #9;
+
+P80 :           : "warch2.gif" #81 : "warch2a.gif" #10;
+P81 :           : "warch2.gif" #82 : "warch2a.gif" #11;
+P82 :           : "warch2.gif" #83 : "warch2a.gif" #12;
+P83 :           : "warch2.gif" #84 : "warch2a.gif" #13;
+P84 :           : "warch2.gif" #85 : "warch2a.gif" #14;
+P85 :           : "warch2.gif" #86 : "warch2a.gif" #15;
+
+P86 :           : "warch2.gif" #87 : "warch2a.gif" #16;
+P87 :           : "warch2.gif" #88 : "warch2a.gif" #17;
+P88 :           : "warch2.gif" #89 : "warch2a.gif" #18;
+P89 :           : "warch2.gif" #90 : "warch2a.gif" #19;
+
+P90 :           : "warch2.gif" #91 : "warch2a.gif" #20;
+P91 :           : "warch2.gif" #92 : "warch2a.gif" #21;
+P92 :           : "warch2.gif" #93 : "warch2a.gif" #22;
+P93 :           : "warch2.gif" #94 : "warch2a.gif" #23;
+P94 :           : "warch2.gif" #95 : "warch2a.gif" #24;
+P95 :           : "warch2.gif" #96 : "warch2a.gif" #25;
+
+P96 :           : "warch2.gif" #97 : "warch2a.gif" #26;
+P97 :           : "warch2.gif" #98 : "warch2a.gif" #27;
+P98 :           : "warch2.gif" #99 : "warch2a.gif" #28;
+P99 :           : "warch2.gif" #100 : "warch2a.gif" #29;
+
+A00 : help : "b_warcher.gif" #00;

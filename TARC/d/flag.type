@@ -1,0 +1,19 @@
+typename flag client constructor
+typeflags default_hotspot notreal;
+{
+        zorder = "zoBRIDGE";
+        foot_x = 1;
+        foot_y = 1;
+}
+
+A01 : default : "flag.gif" #00 ;
+A02 :  : "flag.gif" #01 ;
+A03 :  : "flag.gif" #02 ;
+A04 :  : "flag.gif" #03 ;
+A05 :  : "flag.gif" #04 ;
+A06 :  : "flag.gif" #05 ;
+A07 :  : "flag.gif" #06 ;
+A08 :  : "flag.gif" #07 ;
+A09 :  : "flag.gif" #08 ;
+A10 :  : "flag.gif" #09 ;
+

@@ -1,0 +1,33 @@
+typename growingRainBlocker 
+typeflags createsisland emplacement shadow;
+{
+	description="Growing Ice Tower";
+	theme = "rain";
+
+	zorder = "zoEMPLACEMENTS";
+	foot_x = 3;
+	foot_y = 3;
+	threat = 5;
+	//hotFootX = 4;
+	//hotFootY = 5;
+	hotFootRatioX = 0.25;
+	hotFootRatioY = 0.25;
+	constructionRate = 10;
+}
+
+P00 : default : "rblock.gif" #00  : "rblock.gif" #15;
+P01 :         : "rblock.gif" #01  : "rblock.gif" #16;
+P02 :         : "rblock.gif" #02  : "rblock.gif" #17;
+P03 :         : "rblock.gif" #03  : "rblock.gif" #18;
+P04 :	      : "rblock.gif" #04  : "rblock.gif" #19;
+P05 :         : "rblock.gif" #05  : "rblock.gif" #20;
+P06 :         : "rblock.gif" #06  : "rblock.gif" #21;
+P07 :         : "rblock.gif" #07  : "rblock.gif" #22;
+P08 :         : "rblock.gif" #08  : "rblock.gif" #23;
+P09 :         : "rblock.gif" #09  : "rblock.gif" #24;
+P00 :         : "rblock.gif" #10  : "rblock.gif" #25;
+P11 :         : "rblock.gif" #11  : "rblock.gif" #26;
+P12 :         : "rblock.gif" #12  : "rblock.gif" #27;
+P13 :         : "rblock.gif" #13  : "rblock.gif" #28;
+
+A00 : help : "b_rblocker.gif" #00;

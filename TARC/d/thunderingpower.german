@@ -1,0 +1,171 @@
+[Header]
+missionType = "Tutorial"
+
+missionNumber = 1
+
+myStartMoney = 2400
+myTech = "bulf;thunderBattery;thunderArcher;thunderCannon"
+
+ai1Name = "Ritter des Donners"
+ai1Tech = "sunWalker;thunderArcher;thunderBattery;thunderCannon;bulf"
+ai1StartMoney = 2000
+ai1GeyserAttachments = 4
+ai1Collectors = 5
+ai1TimeBetweenMoves = 2
+
+ai2Name = "Marquis de R?hrenqualle"
+ai2Tech = "sunWalker;rainBattery;rainAviary;sunAviary;sunCannon;rainWalker"
+ai2StartMoney = 5000
+ai2GeyserAttachments = 8
+ai2Collectors = 5
+ai2TimeBetweenMoves = 2
+
+title="Donnernde M?chte"
+
+[A.]
+<h2>Donnernde M?chte</h2>
+<i>"Um sich den Donner zum Freund zu machen, mu? man sich selbst in einen Blitz verwandeln."
+--Nimbisches Sprichwort</i>
+<p>
+Ihr Alliierter, der achtbare F?rst des Donners, wird vom Marquis De Qualle angegriffen.
+<p>
+W?hrend Ihrer Reise zur Insel des F?rsten, deren Verteidigung Sie in die Hand nehmen wollen, wird Ihnen folgendes bewu?t: Der Verlust dieses Alliierten w?rde f?r Sie gleichzeitig auch den Verlust aller Einheiten und Geb?ude mit Donnerkonformit?t bedeuten, wodurch m?glicherweise der Ausgang des gesamten Krieges in Frage gestellt w?re.
+
+$Button=Weiter,Tell,A1.
+
+[A1.]
+<h2>Donnernde M?chte</h2>
+<p>
+Von diesem Marquis De Qualle haben Sie schon einiges geh?rt. Er ist bekannt daf?r, da? er nicht gerade viel von Ihren Kampffertigkeiten h?lt und einen scharfen Verstand besitzt.
+<p>
+Das ist Ihre Chance, sein Schandmaul f?r immer zu stopfen!
+
+$Button=Aktueller Wissensstand,ShowTechnology,55
+$Button=Mission beginnen,DoNothing,0
+
+
+[@20]
+Sie erhalten eine Nachricht vom Marquis:
+<p>
+<i>
+Ich sende Ihnen meine Gr??e und Gl?ckw?nsche!
+<p>
+Wie ich sehe, haben Sie es geschafft, Ihrem Volk vorzugaukeln, Sie seien ein kompetenter Anf?hrer.
+<p>
+Als B?rger von Nimbus betrachte ich es als meine oberste Pflicht, der Bev?lkerung das Gegenteil zu beweisen, indem ich Ihnen eine kr?ftige Abreibung verpasse.
+</i>
+$Button=Weiterk?mpfen,DoNothing,0
+
+[@120]
+Sie erhalten eine Nachricht vom Marquis:
+<p>
+<i>
+Denken Sie an die Familien derer, die heute sterben werden. Sie sollten die anst?ndigen Frauen Ihres Volkes nicht zu Witwen machen. Denn selbst wenn sie ihre M?nner verlieren, werden sie Ihnen deshalb immer noch nicht trostsuchend in die Arme sinken.
+<p>
+Werden Sie also diese wertvollen Leben verschonen?
+</i>
+$Button=Kapitulieren,Tell,Surrender
+$Button=Weiterk?mpfen,DoNothing,0
+
+
+
+[@360]
+Sie erhalten eine Nachricht vom Marquis:
+<p>
+<i>
+Ihre Strategie ist so durchschaubar wie die L?gen, mit denen Sie Ihr Imperium aufrechterhalten.
+</i>
+$Button=Weiterk?mpfen,DoNothing,0
+
+[@500]
+Sie erhalten eine Nachricht vom Marquis:
+<p>
+<i>
+Offensichtlich halten Sie es mit Ihrem Kampfstil wie mit Ihrem pers?nlichen Ehrgef?hl: Sobald Sie sich einer echten Herausforderung stellen m?ssen, zeigen sich deutliche M?ngel.
+</i>
+$Button=Antworten,Tell,Wife
+$Button=Ignorieren,DoNothing,0
+
+[Wife]
+Sie senden eine Antwort:
+<p>
+<i>
+Dann mu? mein Ehrgef?hl aber wesentlich ausgepr?gter sein als das Ihrer Frau.
+</i>
+
+[@700]
+Sie erhalten eine Nachricht vom Marquis:
+<p>
+<i>
+Wir k?nnen diesen Kampf sofort beenden: Geben Sie einfach zu, da? Sie ein absoluter Feigling sind, und ich ziehe auf der Stelle meine Truppen zur?ck.
+</i>
+$Button=Ich bin ein Feigling,DoNothing,0
+$Button=Fahr zur H?lle,DoNothing,0
+
+[@900]
+Sie erhalten eine Nachricht vom Marquis:
+<p>
+<i>
+Ich habe den Sieg schon so gut wie in der Tasche. Geben Sie jetzt auf, und ich bringe Ihnen pers?nlich die feinsten Seidentaschent?cher vorbei, mit denen Sie Ihre Tr?nen trocknen k?nnen.
+</i>
+$Button=Kapitulieren,Tell,Surrender
+$Button=Weiterk?mpfen,DoNothing,0
+
+
+
+[Surrender]
+Sie geben Befehl zur Kapitulation. Ihre Truppen beenden alle Kampfhandlungen und bleiben fassungslos stehen, w?hrend Sie vortreten und weithin sichtbar eine wei?e Flagge schwenken.
+<p>
+Als Sie am letzten Soldaten vorbeischreiten, spuckt er Ihnen auf die F??e.
+<p>
+<i>"Feigling."</i>
+$Button=Unehrenhaft kapitulieren,LeaveBattle,1
+$Button=Den Soldaten t?ten,Tell,KillSoldier
+$Button=Weiterk?mpfen,Tell,FightAgain
+
+[KillSoldier]
+Als Sie gerade Ihre Hand gegen den Soldaten erheben wollen, stellt Ihnen ein anderer Soldat ein Bein. Bevor Sie wissen, was los ist, fallen s?mtliche Truppen ?ber Sie her und verfluchen Sie und Ihre Familie.
+<p>
+Der Grabstein, der niemals f?r Sie errichtet wird, h?tte folgende Inschrift gehabt:
+<p>
+"Von seinen eigenen M?nnern hingerichtet"
+$Button=Erb?rmlich sterben,LeaveBattle,1
+
+[FightAgain]
+Als Sie die wei?e Flagge senken, brechen Ihre Truppen ein donnerndes Jubelgeschrei aus.
+<p>
+Sie ahnten, da? es f?r Ihre Bereitschaft zur Kapitulation einen Grund geben mu?te: In der Zwischenzeit konnten auf beiden Seiten die Verwundeten vom Schlachtfeld in Sicherheit gebracht werden.
+<p>
+Dieser Akt der Barmherzigkeit hat die Truppen neu motiviert, und sie k?mpfen nun mit neuer Intensit?t. 
+$Button=Weiterk?mpfen!,DoNothing,0
+
+[Succeeded][BadTeamDead]
+<h2>Mission erfolgreich abgeschlossen!</h2>
+<p>
+Sie haben den Marquis besiegt!
+$Button=Nachricht an den Marquis senden,Tell,VictoryNote
+
+[VictoryNote]
+Sie senden eine Nachricht an den Marquis:
+<p>
+<i>
+Gem?? einem alten Sprichwort besitzen M?nner, die viel zu sagen haben, nur wenige Freunde.
+<p>
+Und wie ich feststellen mu?, trifft dies in Ihrem Fall auch tats?chlich zu: Sie quatschen f?r tausend Mann und haben nur einen einzigen Freund - n?mlich sich selbst.
+<$Config,Done{mission.fileName}=1>
+$Button=Mission beenden,MissionAbort,1
+$Button=N?chste Mission,MissionBegin,DissolvedAlliance
+
+[Failed]
+Sie erhalten eine Nachricht vom Marquis:
+<p>
+<i>
+Ich habe Sie offenbar genau richtig eingesch?tzt. Eigentlich schade, da? ich mir jetzt keine Dem?tigungen mehr f?r Sie ausdenken mu?, aber nach einem erfolgreichen Siegeszug gegen einen meiner Gegner geht f?r mich leider auch immer der Reiz verloren, ihn zu verspotten.
+<p>
+Es war mir eine Freude, mich richtig an Ihnen auszutoben, aber jetzt sind Sie mir einfach zu nichts mehr N?tze.
+$Button=Weiter,Tell,TryAgain
+
+
+[END]
+																		 
+																		 

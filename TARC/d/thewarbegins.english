@@ -1,0 +1,68 @@
+[Header]
+missionType = "Tutorial"
+aid=1
+
+missionNumber = 1
+
+myStartMoney = 3000
+myTech = "sunWalker;rainBattery;sunAviary;sunCannon"
+
+aiName = "The Jailer"
+aiTech = "sunWalker;windBattery;sunArcher"
+aiStartMoney = 0
+aiGeyserAttachments = 1
+aiCollectors = 1
+aiTimeBetweenMoves = 6
+aiAbility="!ENCIRCLE_ENEMY_ISLAND;!USE_PRIEST_TO_COLLECT"
+
+title="The War Begins!"
+
+[A.]
+<h2>The War Begins!</h2>
+<p>
+<i>"Darkness and tyranny are the locks on our shackles.  Who shall have
+the courage to be the key?"
+--Lament of Light</i>
+<p>
+Having conquered and enslaved the people of Nimbus, the Lords of Darkness 
+are now the unchallenged rulers of the skies.
+<p>
+They have set a guard upon your island and chained your Priest, but
+a daring raid has freed your holy man!  Now is your chance to break
+free and strike a blow for all Nimbus!
+
+$Button=Review Knowledge,ShowTechnology,55
+$Button=Play Mission,DoNothing,0
+
+
+[Succeeded][BadTeamDead]
+<h2>Success!</h2>
+<p>
+Your island is now free!
+<p>
+The next step is to gather more freedom-loving
+islands under your banner.
+<p>
+Only with many leaders behind you
+can the powers of Darkness be overthrown and destroyed!
+<$Config,Done{mission.fileName}=1>
+$Button=Leave Missions,MissionAbort,1
+$Button=Next Mission,MissionBegin,MasterOfWhirligigs
+
+
+[Failed]
+<h2>Failure!</h2>
+<p>
+Your surprise attack has failed!
+<p>
+The powers of Darkness will not be so careless a second time. They
+command that every third woman be hurled from the island, and every
+male below the age of thirty-five be taken for slave labor.
+<p>
+Your only chance for freedom has passed you like an untouchable breeze.
+$Button=Continue,Tell,TryAgain
+
+
+[END]
+																		 
+																		 

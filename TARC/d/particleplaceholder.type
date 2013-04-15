@@ -1,0 +1,10 @@
+typename particlePlaceHolder constructor
+typeflags default_hotspot dontSave;
+{
+	zorder = "zoNONE";
+	foot_x = 1;
+	foot_y = 1;
+}
+
+A00 : default : "plachold.gif" #00  ;
+

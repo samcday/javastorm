@@ -1,0 +1,38 @@
+typename moonCannonMissile
+typeflags dontSave not_real;
+{
+	orientations = 28;
+	range = 5; // this is the range that riccochets can fly in.
+	zorder = "zoMISSILES";
+	impactSound = "iceCannonImpact.wav";
+}
+
+A00 :  : "mcannon.gif" #13;
+A01 :  : "mcannon.gif" #14;
+A02 :  : "mcannon.gif" #15;
+A03 :  : "mcannon.gif" #16;
+A04 :  : "mcannon.gif" #17;
+A05 :  : "mcannon.gif" #18;
+A06 :  : "mcannon.gif" #19;
+A07 :  : "mcannon.gif" #20;
+A08 :  : "mcannon.gif" #21;
+A09 :  : "mcannon.gif" #22;
+A10 :  : "mcannon.gif" #23;
+A11 :  : "mcannon.gif" #24;
+A12 :  : "mcannon.gif" #25;
+A13 :  : "mcannon.gif" #26;
+A14 :  : "mcannon.gif" #27;
+A15 :  : "mcannon.gif" #28;
+A16 :  : "mcannon.gif" #29;
+A17 :  : "mcannon.gif" #30;
+A18 :  : "mcannon.gif" #31;
+A19 :  : "mcannon.gif" #32;
+A20 :  : "mcannon.gif" #33;
+A21 :  : "mcannon.gif" #34;
+A22 :  : "mcannon.gif" #35;
+A23 :  : "mcannon.gif" #36;
+A24 :  : "mcannon.gif" #37;
+A25 :  : "mcannon.gif" #38;
+A26 :  : "mcannon.gif" #39;
+A27 :  : "mcannon.gif" #40;
+A28 :  : "mcannon.gif" #41;

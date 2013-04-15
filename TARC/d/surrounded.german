@@ -1,0 +1,79 @@
+[Header]
+missionType = "Tutorial"
+
+missionNumber = 1
+moreGeysers = 1
+
+myStartMoney = 5000
+myTech = "sunWalker;sunArcher;sunBlocker;sunBalloon;sunFence;sunAviary;sunCannon;rainBattery;windBattery;thunderBattery"
+
+ai2Name = "Baron der Sonne"
+ai2Tech = "sunWalker;sunArcher;sunBlocker;sunBalloon;sunAviary;sunCannon"
+ai2StartMoney = 3000
+ai2GeyserAttachments = 2
+ai2Collectors = 3
+ai2TimeBetweenMoves = 4
+ai2AllyList = "3;4;5"
+ai2Color = red
+
+ai3Name = "Baron des Donners"
+ai3Tech = "sunWalker;thunderBattery;thunderBlocker;thunderCannon;bulf;thunderArcher"
+ai3StartMoney = 3000
+ai3GeyserAttachments = 2
+ai3Collectors = 4
+ai3TimeBetweenMoves = 3
+ai3AllyList = "2;4;5"
+ai3Color = yellow
+
+ai4Name = "Baron des Windes"
+ai4Tech = "sunWalker;windBattery;windWalker;windAviary;windArcher;windBalloon;windBlocker"
+ai4StartMoney = 2000
+ai4GeyserAttachments = 2
+ai4Collectors = 4
+ai4TimeBetweenMoves = 4
+ai4AllyList = "2;3;5"
+ai4Color = orange
+
+ai5Name = "Baron des Regens"
+ai5Tech = "sunWalker;rainBattery;rainCannon;rainAviary;rainBalloon;rainBlocker;rainWalker"
+ai5StartMoney = 0
+ai5GeyserAttachments = 2
+ai5Collectors = 3
+ai5TimeBetweenMoves = 4
+ai5AllyList = "2;3;4"
+ai5Color = white
+
+title="Belagerung"
+
+[Options]
+
+[A.]
+<h2>Belagerung</h2>
+<i>"Aber wenn es zu einem dauerhaften Frieden in Nimbus kommen w?rde, was sollten wir dann blo? mit all unserer Zeit anfangen?"<br>
+--Intum Rukat, Kriegsminister</i>
+<p>
+Provoziert durch ihre st?ndigen Siegesz?ge, haben die Finsteren F?rsten der Sonne, des Windes, des Regens und des Donners Sie ?berraschend angegriffen. Sie m?ssen all Ihr K?nnen einsetzen, um sie zu vernichten!
+
+$Button=Aktueller Wissensstand,ShowTechnology,55
+$Button=Mission beginnen,DoNothing,0
+
+
+[Succeeded][BadTeamDead]
+<h2>Mission erfolgreich abgeschlossen!</h2>
+<p>
+Dank Ihres milit?rischen Genies ist es Ihnen gelungen, das Unm?gliche m?glich zu machen! Sie haben einen gewaltigen ?berraschungsangriff abgewehrt und einen ?berw?ltigenden Sieg davongetragen! Jeder soll wissen, wer im Wolkenreich von Nimbus das Sagen hat!
+<$Config,Done{mission.fileName}=1>
+$Button=Mission beenden,MissionAbort,1
+$Button=N?chste Mission,MissionBegin,BreakingThrough
+
+
+[Failed]
+<h2>Missionsziel verfehlt!</h2>
+<p>
+Die Finsteren F?rsten konnten Ihren stetigen Vorsto? zur Macht?bernahme im Wolkenreich von Nimbus schlie?lich doch noch stoppen. Von nun an sind Sie ein Sklave der Finsternis und m?ssen den Befehlen der unberechenbaren und b?sartigen Finsteren F?rsten Folge leisten.
+$Button=Weiter,Tell,TryAgain
+
+
+[END]
+																		 
+																		 

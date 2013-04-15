@@ -1,0 +1,106 @@
+typename Flare
+
+typeflags dontSave not_real;
+{
+	zorder = "zoFLARES";
+	foot_x = 4;
+	foot_y = 4;
+}
+
+// Very Large Explosion
+A00 : default : "xlarge.gif" #0 ;
+A01 : : "xlarge.gif" #1 ;
+A02 : : "xlarge.gif" #2 ;
+A03 : : "xlarge.gif" #3 ;
+A04 : : "xlarge.gif" #4 ;
+A05 : : "xlarge.gif" #5 ;
+A06 : : "xlarge.gif" #6 ;
+A07 : : "xlarge.gif" #7 ;
+A08 : : "xlarge.gif" #8 ;
+A09 : : "xlarge.gif" #9 ;
+A10 : : "xlarge.gif" #10 ;
+A11 : : "xlarge.gif" #11 ;
+A12 : : "xlarge.gif" #12 ;
+A13 : : "xlarge.gif" #13 ;
+A14 : : "xlarge.gif" #14 ;
+A15 : : "xlarge.gif" #15 ;
+A16 : : "xlarge.gif" #16 ;
+A17 : : "xlarge.gif" #17 ;
+A18 : : "xlarge.gif" #18 ;
+A19 : : "xlarge.gif" #19 ;
+A20 : : "xlarge.gif" #20 ;
+A21 : : "xlarge.gif" #21 ;
+A22 : : "xlarge.gif" #22 ;
+A23 : : "xlarge.gif" #23 ;
+A24 : : "xlarge.gif" #24 ;
+A25 : : "xlarge.gif" #25 ;
+A26 : : "xlarge.gif" #26 ;
+A27 : : "xlarge.gif" #27 ;
+A28 : : "xlarge.gif" #28 ;
+A29 : : "xlarge.gif" #29 ;
+A30 : : "xlarge.gif" #30 ;
+A31 : : "xlarge.gif" #31 ;
+A32 : : "xlarge.gif" #32 ;
+A33 : : "xlarge.gif" #33 ;
+A34 : : "xlarge.gif" #34 ;
+
+// Medium Sized Explosion
+B00 : : "xlarge.gif" #35 ;
+B01 : : "xlarge.gif" #36 ;
+B02 : : "xlarge.gif" #37 ;
+B03 : : "xlarge.gif" #38 ;
+B04 : : "xlarge.gif" #39 ;
+B05 : : "xlarge.gif" #40 ;
+B06 : : "xlarge.gif" #41 ;
+B07 : : "xlarge.gif" #42 ;
+B08 : : "xlarge.gif" #43 ;
+B10 : : "xlarge.gif" #44 ;
+B11 : : "xlarge.gif" #45 ;
+B12 : : "xlarge.gif" #46 ;
+B13 : : "xlarge.gif" #47 ;
+B14 : : "xlarge.gif" #48 ;
+B15 : : "xlarge.gif" #49 ;
+B16 : : "xlarge.gif" #50 ;
+B17 : : "xlarge.gif" #51 ;
+B18 : : "xlarge.gif" #52 ;
+B19 : : "xlarge.gif" #53 ;
+B20 : : "xlarge.gif" #54 ;
+B21 : : "xlarge.gif" #55 ;
+B22 : : "xlarge.gif" #56 ;
+B23 : : "xlarge.gif" #57 ;
+
+// Puff of dust (used when fence gets hit)
+C00 : : "kaboom.gif" #00 ;
+C01 : : "kaboom.gif" #01 ;
+C02 : : "kaboom.gif" #02 ;
+C03 : : "kaboom.gif" #03 ;
+C04 : : "kaboom.gif" #04 ;
+C05 : : "kaboom.gif" #05 ;
+C06 : : "kaboom.gif" #06 ;
+C07 : : "kaboom.gif" #07 ;
+
+// Small Sized Explosion
+D00 : : "xsmall.gif" #35 ;
+D01 : : "xsmall.gif" #36 ;
+D02 : : "xsmall.gif" #37 ;
+D03 : : "xsmall.gif" #38 ;
+D04 : : "xsmall.gif" #39 ;
+D05 : : "xsmall.gif" #40 ;
+D06 : : "xsmall.gif" #41 ;
+D07 : : "xsmall.gif" #42 ;
+D08 : : "xsmall.gif" #43 ;
+D10 : : "xsmall.gif" #44 ;
+D11 : : "xsmall.gif" #45 ;
+D12 : : "xsmall.gif" #46 ;
+D13 : : "xsmall.gif" #47 ;
+D14 : : "xsmall.gif" #48 ;
+D15 : : "xsmall.gif" #49 ;
+D16 : : "xsmall.gif" #50 ;
+D17 : : "xsmall.gif" #51 ;
+D18 : : "xsmall.gif" #52 ;
+D19 : : "xsmall.gif" #53 ;
+D20 : : "xsmall.gif" #54 ;
+D21 : : "xsmall.gif" #55 ;
+D22 : : "xsmall.gif" #56 ;
+
+

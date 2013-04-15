@@ -1,0 +1,26 @@
+typename bombIIIMano constructor
+typeflags default_hotspot bomb mayDropOnRim ;
+{
+	description="Hydra Flood";
+	class="Summons Spell";
+
+	zorder = "zoEMPLACEMENTS";
+	foot_x = 1;
+	foot_y = 1;
+
+	level = 1;	// Determines its probability class
+	range = 28;
+	cost = 1500;
+	activeSound = "70HydraFloodPickup1.wav";
+	fireSound = "70HydraFloodCast1.wav";
+	casttime=5;
+	praytime=60;
+	manacost=10;
+	spawns=3;
+}
+
+A00 : : "blank.gif" #0 ;
+
+B00 :  default baseframe : "spells.gif" #15  ;
+
+B01 : help : "b_obelisk.gif" #00;

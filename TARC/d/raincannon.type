@@ -1,0 +1,41 @@
+typename raincannon constructor
+typeflags createsisland emplacement saveFrame shadow;
+{
+	description="Ice Cannon";
+	class="Shooter";
+	maxHitPoints = 600;
+	theme = "rain";
+	level = 2;
+	cost = 600;
+	threat = 5;
+
+	zorder = "zoEMPLACEMENTS";
+	range = 30;
+	hpPerSec = 20;
+	foot_x = 3;
+	foot_y = 3;
+	minUsage = 20;
+	maxUsage = 200;
+//	hotFootY = 10;
+	hotFootRatioY = 0.625;
+	group = "cannon";
+	damageEffect = 1;
+
+	techBit = 11;
+}
+
+L00	: default : "rcannon.gif" #00 : "rcannon.gif" #50;		// N
+L01	:         : "rcannon.gif" #01 : "rcannon.gif" #51; 
+L02	:         : "rcannon.gif" #02 : "rcannon.gif" #52; 
+M00	:         : "rcannon.gif" #09 : "rcannon.gif" #59;		// E
+M01	:         : "rcannon.gif" #10 : "rcannon.gif" #60; 
+M02	:         : "rcannon.gif" #12 : "rcannon.gif" #61; 
+N00	:         : "rcannon.gif" #03 : "rcannon.gif" #53;		// S
+N01	:         : "rcannon.gif" #04 : "rcannon.gif" #54; 
+N02	:         : "rcannon.gif" #05 : "rcannon.gif" #55; 
+O00	:         : "rcannon.gif" #06 : "rcannon.gif" #56;		// W
+O01	:         : "rcannon.gif" #07 : "rcannon.gif" #57; 
+O02	:         : "rcannon.gif" #08 : "rcannon.gif" #58; 
+
+P00     : help : "b_rcannon.gif" #00 ;
+

@@ -1,0 +1,63 @@
+typename sunaviary constructor
+typeflags createsisland emplacement shadow;
+{
+	description="Whirlibase";
+	class="Air Attack Base";
+	maxHitPoints = 200;
+	theme = "sun";
+	level = 2;
+	threat = 5;
+
+	zorder = "zoEMPLACEMENTS";
+	foot_x = 3;
+	foot_y = 3;
+	constructionRate = 10;
+
+	range = 30;
+		// This is the true range of the flyer. Change the value in the flyer
+		// if you change this value!
+
+//	hotfootx = 0;
+//	hotfooty = 10;
+	hotfootratiox = 0;
+	hotfootratioy = 0.625;
+	damageEffect = 1;
+	group = "aviary";
+
+	techBit = 0;
+}
+
+P00 : default : "sflyer.gif" #08  : "sflyer.gif" #39;
+P01 :         : "sflyer.gif" #09  : "sflyer.gif" #40;
+P02 :         : "sflyer.gif" #10  : "sflyer.gif" #41;
+P03 :         : "sflyer.gif" #11  : "sflyer.gif" #42;
+P04 :         : "sflyer.gif" #12  : "sflyer.gif" #43;
+P05 :         : "sflyer.gif" #13  : "sflyer.gif" #44;
+P06 :         : "sflyer.gif" #14  : "sflyer.gif" #45;
+P07 :         : "sflyer.gif" #15  : "sflyer.gif" #46;
+P08 :         : "sflyer.gif" #16  : "sflyer.gif" #47;
+P09 :         : "sflyer.gif" #17  : "sflyer.gif" #48;
+P10 :         : "sflyer.gif" #18  : "sflyer.gif" #49;
+P11 :         : "sflyer.gif" #19  : "sflyer.gif" #49;
+P12 :         : "sflyer.gif" #20  : "sflyer.gif" #49;
+P13 :         : "sflyer.gif" #21  : "sflyer.gif" #49;
+P14 :         : "sflyer.gif" #22  : "sflyer.gif" #49;
+P15 :         : "sflyer.gif" #23  : "sflyer.gif" #49;
+P16 :         : "sflyer.gif" #24  : "sflyer.gif" #49;
+P17 :         : "sflyer.gif" #25  : "sflyer.gif" #49;
+P18 :         : "sflyer.gif" #26  : "sflyer.gif" #49;
+P19 :         : "sflyer.gif" #27  : "sflyer.gif" #49;
+P20 :         : "sflyer.gif" #28  : "sflyer.gif" #49;
+P21 :         : "sflyer.gif" #29  : "sflyer.gif" #49;
+P22 :         : "sflyer.gif" #30  : "sflyer.gif" #49;
+P23 :         : "sflyer.gif" #31  : "sflyer.gif" #49;
+P24 :         : "sflyer.gif" #32  : "sflyer.gif" #49;
+P25 :         : "sflyer.gif" #33  : "sflyer.gif" #49;
+P26 :         : "sflyer.gif" #34  : "sflyer.gif" #49;
+P27 :         : "sflyer.gif" #35  : "sflyer.gif" #39;
+P28 :         : "sflyer.gif" #36  : "sflyer.gif" #39;
+P29 :         : "sflyer.gif" #37  : "sflyer.gif" #39;
+P30 :         : "sflyer.gif" #38  : "sflyer.gif" #39;
+
+A00 : help : "b_saviary.gif" #00 ;	
+

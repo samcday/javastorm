@@ -1,0 +1,25 @@
+typename earthCannonMissile
+typeflags dontSave not_real;
+{
+	orientations = 4;
+	zorder = "zoMISSILES";
+	fireSound = "fireBow.wav";
+	impactSound = "thunderCannonImpact.wav";
+}
+
+A00 :  : "dsmissiles.gif" #45  ;
+A01 :  : "dsmissiles.gif" #46  ;
+A02 :  : "dsmissiles.gif" #47  ;
+
+A03 :  : "dsmissiles.gif" #33  ;
+A04 :  : "dsmissiles.gif" #34  ;
+A05 :  : "dsmissiles.gif" #35  ;
+
+A06 :  : "dsmissiles.gif" #09  ;
+A07 :  : "dsmissiles.gif" #10  ;
+A08 :  : "dsmissiles.gif" #11  ;
+
+A09 :  : "dsmissiles.gif" #21  ;
+A10 :  : "dsmissiles.gif" #22  ;
+A11 :  : "dsmissiles.gif" #23  ;
+

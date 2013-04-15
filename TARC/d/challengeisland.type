@@ -1,0 +1,17 @@
+typename challengeIsland
+typeflags opaquecollide;
+{
+	zorder = "zoISLAND";
+	foot_x = 1;
+	foot_y = 1;
+}
+
+// Frame 0 is the ring surrounding the island.
+
+A00 : default : "ring.gif" #30;
+//A00 : default : "ring_sm.gif"  #00;
+//A01 :         : "ring_sm.gif"  #01;
+//A02 :         : "ring_sm.gif"  #02;
+//A03 :         : "ring_sm.gif"  #03;
+//A04 :         : "ring_sm.gif"  #04;
+//A05 :         : "ring_sm.gif"  #05;

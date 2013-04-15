@@ -1,0 +1,22 @@
+typename gate constructor
+typeflags gate emplacement needspower halfoncloud;
+{
+	description="City Gate";
+	zorder = "zoEMPLACEMENTS";
+	foot_x = 3;
+	foot_y = 3;
+	damageEffect = 1;
+	constructionRate = 10;
+	crew = 1;
+}
+
+// The gate is arranged so that it connects to road in the appropriate
+// direction. The first frame is always the down frame, and the last
+// is always fully up.
+O01 : default : "gate.gif" #00  ;
+O02 : : "gate.gif" #01  ;
+O03 : : "gate.gif" #02  ;
+O04 : : "gate.gif" #03  ;
+O05 : : "gate.gif" #04  ;
+O06 : : "gate.gif" #05  ;
+

@@ -1,0 +1,55 @@
+[Header]
+missionType = "Tutorial"
+
+missionNumber = 1
+
+myStartMoney = 2000
+myTech = "sunWalker;rainBattery;sunBlocker;sunCannon;sunBalloon"
+
+aiName = "Prinz des Windes"
+aiTech = "sunArcher;sunWalker;windBattery"
+aiStartMoney = 1000
+aiGeyserAttachments = 1
+aiCollectors = 3
+aiTimeBetweenMoves = 2
+aiAbility="!STOP COLLECTING FROM DANGEROUS GEYSERS"
+
+title="Kraftprobe"
+
+[Options]
+
+[A.]
+<h2>Kraftprobe</h2>
+<i>"Erhebt Euch aus dem Schlamm<br>
+und erst?rmt den Turm!<br>
+Die Stunde unseres Triumphes ist gekommen!<br>
+Auf zum Sieg!"<br>
+--Schlachtruf von Althus vom Wind auf dem Weg zum Sieg gegen schier unbezwingbare Widrigkeiten.</i>
+<p>
+Die Erkundungsinsel "Pathfinder" hat ein riesiges Sturmkraftvorkommen entdeckt. Leider ist der Finstere Prinz des Windes bereits dort gelandet und hat mit dem Abbau der Sturmkristalle begonnen. Sie m?ssen verhindern, da? er seine Truppen st?rkt und aufr?stet!
+<p>
+Unsere Beobachtungsposten berichten, da? die feindlichen Einheiten einen ungesicherten Weg benutzen, um Sturmkraft zu sammeln. Setzen Sie Kanonen ein, um die feindlichen Golems auf ihrem Weg zu den Geysiren zu vernichten!
+
+$Button=Aktueller Wissensstand,ShowTechnology,55
+$Button=Mission beginnen,DoNothing,0
+
+
+[Succeeded][BadTeamDead]
+<h2>Mission erfolgreich abgeschlossen!</h2>
+<p>
+Sie haben die Kampflinien des Finsteren Prinzen des Windes durchbrochen und gen?gend Sturmkraft gewonnen, um die gegnerischen Truppen auszul?schen! Die "Pathfinder" und ihre Mannschaft kehrt nach Hause zur?ck, um ein gro?es, glanzvolles Fest zu feiern. Jung und Alt tanzen tagelang in den Stra?en.
+<$Config,Done{mission.fileName}=1>
+$Button=Mission beenden,MissionAbort,1
+$Button=N?chste Mission,MissionBegin,ThunderingPower
+
+
+[Failed]
+<h2>Missionsziel verfehlt!</h2>
+<p>
+Der Finstere Prinz des Windes hat all Ihre Bem?hungen zunichte gemacht: Sie haben die "Pathfinder" an seine Truppen verloren. Doch damit nicht genug: Um sich f?r Ihren Vorsto? zu r?chen, infiltriert der Finstere Prinz Ihre Heimatwelt auf der "Pathfinder" und erobert das Zentrum Ihres Reiches.
+$Button=Weiter,Tell,TryAgain
+
+
+[END]
+																		 
+																		 

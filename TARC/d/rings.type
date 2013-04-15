@@ -1,0 +1,21 @@
+typename rings
+
+typeflags default_hotspot;
+{
+}
+
+A00 :  : "ring0.gif" #00  ;
+A01 : default : "ring0.gif" #01  ;
+A02 :  : "ring0.gif" #02  ;
+A03 :  : "ring0.gif" #03  ;
+
+A04 :  : "ring1.gif" #00  ;
+A05 :  : "ring1.gif" #01  ;
+A06 :  : "ring1.gif" #02  ;
+A07 :  : "ring1.gif" #03  ;
+
+A08 :  : "ring2.gif" #00  ;
+A09 :  : "ring2.gif" #01  ;
+A10 :  : "ring2.gif" #02  ;
+A11 :  : "ring2.gif" #03  ;
+

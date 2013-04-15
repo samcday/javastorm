@@ -1,0 +1,40 @@
+typename mooncannon constructor
+typeflags createsisland emplacement saveFrame shadow;
+{
+	description="Moon Cannon";
+	class="Shooter";
+	maxHitPoints = 600;
+	theme = "moon";
+	level = 1;
+	cost = 600;
+
+	zorder = "zoEMPLACEMENTS";
+	range = 28;
+	hpPerSec = 20;
+	foot_x = 3;
+	foot_y = 3;
+	minUsage = 20;
+	maxUsage = 200;
+//	hotFootY = 10;
+	hotFootRatioY = 0.625;
+	group = "cannon";
+	damageEffect = 1;
+
+	techBit = 31;
+}
+
+L00	: default : "mcannon.gif" #00 : "mcannon.gif" #50;		// N
+L01	:         : "mcannon.gif" #01 : "mcannon.gif" #51; 
+L02	:         : "mcannon.gif" #02 : "mcannon.gif" #52; 
+M00	:         : "mcannon.gif" #09 : "mcannon.gif" #59;		// E
+M01	:         : "mcannon.gif" #10 : "mcannon.gif" #60; 
+M02	:         : "mcannon.gif" #12 : "mcannon.gif" #61; 
+N00	:         : "mcannon.gif" #03 : "mcannon.gif" #53;		// S
+N01	:         : "mcannon.gif" #04 : "mcannon.gif" #54; 
+N02	:         : "mcannon.gif" #05 : "mcannon.gif" #55; 
+O00	:         : "mcannon.gif" #06 : "mcannon.gif" #56;		// W
+O01	:         : "mcannon.gif" #07 : "mcannon.gif" #57; 
+O02	:         : "mcannon.gif" #08 : "mcannon.gif" #58; 
+
+P00     : help : "b_rcannon.gif" #00 ;
+

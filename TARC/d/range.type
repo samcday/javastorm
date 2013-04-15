@@ -1,0 +1,47 @@
+typename range
+
+typeflags dontSave not_real;
+{
+	zorder = "zoMANAICON";
+	foot_x = 1;
+	foot_y = 1;
+}
+
+A00 : default : "range.gif" #00;
+A01 :  : "range.gif" #01;
+A02 :  : "range.gif" #02;
+A03 :  : "range.gif" #03;
+A04 :  : "range.gif" #04;
+A05 :  : "range.gif" #05;
+A06 :  : "range.gif" #06;
+A07 :  : "range.gif" #07;
+A08 :  : "range.gif" #08;
+A09 :  : "range.gif" #09;
+A10 :  : "range.gif" #10;
+A11 :  : "range.gif" #11;
+A12 :  : "range.gif" #12;
+B13 :  : "range.gif" #13;
+B14 :  : "range.gif" #14;
+B15 :  : "range.gif" #15;
+B16 :  : "range.gif" #16;
+B17 :  : "range.gif" #17;
+B18 :  : "range.gif" #18;
+B19 :  : "range.gif" #19;
+B20 :  : "range.gif" #20;
+B21 :  : "range.gif" #21;
+B22 :  : "range.gif" #22;
+B23 :  : "range.gif" #23;
+B24 :  : "range.gif" #24;
+B25 :  : "range.gif" #25;
+C26 :  : "range.gif" #26;
+C27 :  : "range.gif" #27;
+C28 :  : "range.gif" #28;
+C29 :  : "range.gif" #29;
+C30 :  : "range.gif" #30;
+C31 :  : "range.gif" #31;
+C32 :  : "range.gif" #32;
+C33 :  : "range.gif" #33;
+C34 :  : "range.gif" #34;
+C35 :  : "range.gif" #35;
+C36 :  : "range.gif" #36;
+C37 :  : "range.gif" #37;

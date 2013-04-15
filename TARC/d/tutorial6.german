@@ -1,0 +1,144 @@
+[Header]
+missionType = "Tutorial"
+aid=1
+
+loadFort = "RawPower"
+denyAscend = 1
+tutorialNumber = 6
+moreGeysers = 0
+
+techAllowed = "deny;all;allow;windVortex;windFactory;windBalloon;windWalker;windBattery;windArcher"
+
+myStartMoney = 7500
+myTech = "windBattery;windBalloon"
+
+aiOff = 1
+
+title = "Rohe Gewalt"
+
+[A.]
+<h2>Konforme Einheiten</h2>
+<i>"Welche S?nden haben wir begangen, da? wir solche Gewalt erfahren?"
+--Captain Villus Spakesmere ?ber einen blutigen Sieg</i>
+<p>
+In dieser letzten ?bungsmission haben Sie es mit einer neuen Kategorie von Verteidigungseinheiten zu tun. Gl?cklicherweise stehen Ihnen aber auch leistungsf?higere Kampfeinheiten zur Verf?gung.
+<p>
+Das Wolkenreich von Nimbus wird von den drei Furien Wind, Regen und Donner beherrscht. In den bisherigen ?bungsmissionen gab es keine Einheiten, die eine bestimmte Furien-Konformit?t besa?en, sondern lediglich universelle Einheiten, sogenannte "Sonneneinheiten".
+Sonneneinheiten sind vielseitig und einfach einzusetzen, aber nicht so leistungsf?hig und spezialisiert wie Furien-konforme Einheiten.
+
+$Button=WEITER,Tell,A1.
+
+[A1.]
+<h2>Luftschiffe</h2>
+In dieser ?bungsmission kommen Einheiten zum Einsatz, die in ihrer Konformit?t der Wind-Furie entsprechen. Als erstes lernen Sie in diesem Zusammenhang das "Luftschiff" kennen. Diese Einheit ist ein stark gepanzertes Lufttransportmedium, das Sturmkristalle einsammeln, Zauberspr?che erlernen und anwenden sowie feindliche Priester gefangennehmen kann, aber auch eine gro?e Anzahl feindlicher Treffer verkraften kann.
+<p>
+In dieser ?bungsmission stehen Ihnen keine Golems zur Verf?gung. Setzen Sie statt dessen Luftschiffe ein, um Sturmkraft abzubauen. Als Lufttransportmedium ben?tigt ein Luftschiff keine Br?cken, um die Geysire erreichen zu k?nnen!
+<p>
+<!"windBalloon.*"><br>
+            "Luftschiff"     
+$Button=ZUR?CK,Tell,A.
+$Button=WEITER,Tell,A2.
+
+[A2.]
+<h2>Konforme Energie, Teil 1</h2>
+Abgesehen von den hohen Sturmkraftkosten, die bei der Errichtung fortgeschrittener Einheiten wie den Luftschiffen anfallen, ist auch eine betr?chtliche Menge Energie erforderlich.
+<p>
+Wie schon zuvor erw?hnt, entsprechen die verschiedenen Energiearten in Ihrer Konformit?t einer der drei Furien Wind, Regen oder Donner.
+Um beispielsweise ein Luftschiff errichten zu k?nnen, sind zwei Einheiten Windenergie und eine beliebige Energieeinheit (sprich "Sonneneinheit") erforderlich.
+Nachdem Sie das Luftschiff zwecks Plazierung in den Mauszeiger aufgenommen haben, erscheinen unmittelbar neben dem Umri? zwei Windsymbole <!"mana.4"><!"mana.4"> und ein Sonnensymbol <!"mana.7">.  
+Wenn Sie den Mauszeiger nun umherbewegen, leuchten diese Symbole auf, sofern die ben?tigten Energiearten an der jeweiligen Stelle verf?gbar sind. Ein Generator oder Tempel kann jeweils immer nur eine Energieeinheit liefern, nicht jedoch zwei Einheiten gleichzeitig. Da Ihr Luftschiff zwei Einheiten Wind- und eine Einheit Sonnenenergie ben?tigt, m?ssen demnach mindestens drei Energiequellen vorhanden sein. So w?rden z.B. zwei Windgeneratoren und ein Regentempel die Energieversorgung f?r die Errichtung eines Luftschiffes gew?hrleisten.
+<p>
+Nachfolgend sind die verschiedenen Energiesymbole aufgelistet:<br>
+Nicht leuchtend:      <!"mana.0">            <!"mana.1">                 <!"mana.2">                  <!"mana.3"><br>
+Leuchtend:          <!"mana.4">            <!"mana.5">                 <!"mana.6">                  <!"mana.7"><br>
+            "Wind"      "Regen"        "Donner"         "Sonne"  <br>
+
+$Button=ZUR?CK,Tell,A1.
+$Button=WEITER,Tell,A3.
+
+[A3.]
+<h2>Konforme Energie, Teil 2</h2>
+Denken Sie daran, da? Ihr Windtempel nur je eine Einheit Windenergie liefern kann. Um also die f?r die Errichtung eines Luftschiffes erforderliche Energieversorgung zu gew?hrleisten, m?ssen noch zwei Windgeneratoren aufgestellt werden.
+<p>
+Hinweis: In einer Sonnenproduktionsst?tte k?nnen keine Furien-konformen Einheiten produziert werden. F?r den Bau eines Luftschiffes mu? eine Windproduktionsst?tte vorhanden sein.
+<p>
+Lassen Sie nun von Ihrem Priester eine Windproduktionsst?tte errichten, und geben Sie den "Windgenerator" sowie das "Luftschiff" in Produktion.
+<p>
+<I>Sobald das Luftschiff produziert wurde, wird die ?bungsmission automatisch fortgesetzt.</I>
+
+$Button=ZUR?CK,Tell,A2.
+$Button=OK,DoNothing,0
+
+
+[B.]
+<h2>Lufttransportmedien</h2>
+<i>"Sicher, sie sind schneller. Sicher, sie sind problemloser. Aber meiner Meinung nach k?nnen sie dennoch nicht mit der guten alten Br?cke konkurrieren." --Jameson Hoofa, Gr?nder der Gewerkschaft f?r Br?ckenbau</i>
+<p>
+Die Lufttransportmedien werden ?hnlich gesteuert wie die Bodentransportmedien, z.B. Golems und Priester. Um ein Luftschiff damit zu beauftragen, Sturmkristalle abzubauen, klicken Sie zun?chst das Luftschiff und anschlie?end den anzufliegenden Geysir mit der <c>linken Maustaste</c> an.
+<p>
+<I>Die ?bungsmission wird fortgesetzt, nachdem Ihr Luftschiff den ersten Sturmkristall in Ihrem Tempel abgeliefert hat.</I>
+<p>
+Hinweis: Nehmen Sie sich vor den feindlichen Kampfeinheiten im S?den in Acht!
+
+[C.]
+<h2>Armbr?ste, Teil 1</h2>
+In dieser ?bungsmission besitzen Sie bereits das Wissen ?ber die Wind-konforme "Armbrust". Diese Kampfeinheit hat eine weitaus gr??ere Reichweite und Schu?kraft als ein Sonnenscheibenwerfer, allerdings feuert sie nicht in alle Richtungen, sondern lediglich innerhalb eines bestimmten Winkels. 
+<p>
+Geben Sie nun eine Armbrust in Produktion. Da zur Zeit alle Produktionspl?tze belegt sind, m?ssen Sie allerdings zun?chst Ihre Windproduktionsst?tte erweitern.
+<p>
+<I>Die ?bungsmission wird automatisch fortgesetzt, sobald die Produktion einer Armbrust m?glich ist.</I>
+<p>
+    <!"windArcher.*"><br>
+"Armbrust"
+$Button=OK,DoNothing,0
+
+[D.] 
+<h2>Armbr?ste, Teil 2</h2>
+<i>"Wenn sie uns mehr bezahlen w?rden, k?nnten wir die Schu?reichweite auf 360 Grad erweitern." --Unbekannter Armbrustsch?tze</i>
+<p>
+Vor ihrer Plazierung k?nnen Sie die Armbrust mit der <c>rechten Maustaste</c> anklicken, um festzulegen, in welchen Quadranten sie feuern soll. Anhand der Reichweitenanzeige k?nnen Sie die m?gliche Zielerfassung feststellen.
+<p>
+Errichten Sie auf Ihrer Insel eine Armbrust, um sich gegen anfliegende Helibomber verteidigen zu k?nnen. Bevor sie die Armbrust endg?ltig plazieren, sollten Sie sie in die gew?nschte Zielrichtung drehen.
+Zur Errichtung einer Armbrust werden eine Einheit Windenergie und eine Einheit Sonnenenergie ben?tigt. Der Bau einer Armbrust kostet {global.crossbowCost} Sturmkrafteinheiten. Sie sollten deshalb auf jeden Fall daf?r sorgen, da? Ihr Luftschiff weiterhin kontinuierlich Sturmkristalle einsammelt.
+<p>
+<I>Die ?bungsmission wird fortgesetzt, wenn Sie eine Armbrust errichtet haben.</I>
+$Button=OK,DoNothing,0
+
+[E.]
+<h2>Barrikaden</h2>
+<i>"Zwischen Nimbus und dem Rest des Universums befindet sich eine endlose brennende Barriere." -Die Schrift von Nimbus</i>
+<p>
+Ihr Gegner in dieser ?bungsmission hat auf seiner Insel eine Sonnenbarrikade errichtet. Zwischen den vier Barrikadeneinheiten werden Kraftfelder erzeugt, die alle eingehenden Geschosse abwehren. Um den Kampf gewinnen zu k?nnen, m?ssen Sie diese Barrikaden vernichten.
+<p>
+?berraschenderweise reichen die Armbr?ste vollkommen aus, um die feindlichen Einheiten zu besiegen. Sie m?ssen jedoch darauf achten, da? Sie Ihre Kampfeinheiten au?erhalb der Schu?linie der feindlichen Donnerkanonen errichten, da Ihnen in dieser ?bungsmission keine Verteidigungseinheiten zur Verf?gung stehen, die Sie als Schutzschild einsetzen k?nnten!
+<p>
+<I>Sobald Sie alle feindlichen Donnerkanonen, Helihangars und Sonnenscheibenwerfer vernichtet haben, ist diese ?bungsmission abgeschlossen.</I>
+<p>
+Ausnahmsweise brauchen Sie sich in diesem Kampf nicht um die Gefangennahme des feindlichen Priesters zu k?mmern. Viel Gl?ck!
+<p>
+          <!"sunFence.*"><br>
+    "Sonnenbarrikade"
+$Button=OK,Tell,C1.
+
+
+[F.]
+<h2>Mission erfolgreich abgeschlossen</h2>
+<i>
+"Ein nicht ausgebildeter Mann ist harmlos.
+Ein gut ausgebildeter Mann ist unschlagbar.
+Ein halbwegs gut ausgebildeter Mann ist lediglich gef?hrlich." --Verfasser unbekannt</i>
+<p>
+Gute Arbeit! Sie haben das ?bungsprogramm erfolgreich absolviert und d?rfen sich nun gem?? der oben genannten Faustregel als halbwegs gut ausgebildet betrachten. Um Ihre Ausbildung abzuschlie?en, m?ssen Sie Ihre neu erworbenen Fertigkeiten jedoch noch in den vielen NetStorm-Einzelspieler-Missionen unter Beweis stellen und perfektionieren.
+<p>
+Im Wolkenreich von Nimbus gibt es mehr als zwanzig einzigartige Kampfeinheiten, von denen jede ihre besonderen strategischen Vorteile hat. Nach und nach werden Sie all diese Einheiten in den Kampagnen-Missionen kennenlernen. Denken Sie daran, da? Sie n?here Informationen zu s?mtlichen Einheiten abrufen k?nnen, indem Sie die betreffende Einheit mit der <c>rechten Maustaste</c> anklicken und dann den Men?punkt <c>Info</c> ausw?hlen.
+<p>
+Fahren Sie nun mit einer der zahlreichen Kampagnen-Missionen fort, oder spielen Sie online gegen andere Mitspieler.
+<p>
+Viel Spa?!
+<$Config,Done{mission.fileName}=1>
+$Button=?bungsmission beenden,LeaveBattle,1
+
+
+[END]
+																		 
+																		 

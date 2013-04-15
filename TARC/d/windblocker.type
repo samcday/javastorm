@@ -1,0 +1,35 @@
+typename windBlocker constructor
+typeflags createsisland emplacement shadow saveFrame;
+{
+	description="Wind Tower";
+	class="Defense";
+	maxHitPoints = 600;
+	theme = "wind";
+	level = 2;
+	cost = 800;
+	threat = 5;
+	zorder = "zoEMPLACEMENTS";
+	foot_x = 3;
+	foot_y = 3;
+	height = 3;
+
+//	hotFootX = 4;
+//	hotFootY = 5;
+	hotFootRatioX = 0.25;
+	hotFootRatioY = 0.3125;
+	damageEffect = 1;
+	constructionRate = 10;
+	group = "blocker";
+
+	techBit = 9;
+}
+
+L00 : default : "wblocker.gif" #00 : "wblocker.gif" #04 ;
+M00 : : "wblocker.gif" #03 : "wblocker.gif" #07 ;
+N00 : : "wblocker.gif" #01 : "wblocker.gif" #05 ;
+O00 : : "wblocker.gif" #02 : "wblocker.gif" #06 ;
+
+P00 : help : "b_wblocker.gif" #00;
+
+
+

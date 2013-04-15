@@ -1,0 +1,17 @@
+title = "?bungsmissionen"
+
+[Overview]
+<background="nsstart">
+<h2>?bungsmissionen</h2>
+<i>"Wer nach Frieden strebt, mu? zum Krieg r?sten."  --Verfasser unbekannt</i>
+<p>
+Sie wurden auserw?hlt, das Volk von Nimbus im Kampf gegen seine Unterdr?cker anzuf?hren. Sind Sie bereit, sich dieser Aufgabe unter Einsatz all Ihrer Kraft und Energie zu stellen?
+
+$Checked=1 Kunst des Br?ckenbaus,MissionBegin,Tutorial1,{DoneTutorial1},1
+$Checked=2 Geheimnisvolle Produktionsst?tten,MissionBegin,Tutorial2,{DoneTutorial2},{DoneTutorial1}
+$Checked=3 Gefangennahme eines Priesters,MissionBegin,Tutorial3,{DoneTutorial3},{DoneTutorial2}
+$Checked=4 Taktische Kriegsf?hrung,MissionBegin,Tutorial4,{DoneTutorial4},{DoneTutorial3}
+$Checked=5 Subtile Verteidigung,MissionBegin,Tutorial5,{DoneTutorial5},{DoneTutorial4}
+$Checked=6 Rohe Gewalt,MissionBegin,Tutorial6,{DoneTutorial6},{DoneTutorial5}
+
+$Button=Zur?ck,Tell,Campaign

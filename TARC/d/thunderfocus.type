@@ -1,0 +1,16 @@
+typename thunderFocus constructor
+typeflags focus yuckWalk dropBlocking shotblocking shadow;
+{
+	description="Thunder {Focus}";
+	class="Source of Energy";
+	theme = "thunder";
+	cost = 500;
+
+	zorder = "zoEMPLACEMENTS";
+	foot_x = 3;
+	foot_y = 3;
+	damageEffect = 1;
+}
+
+A01 : default : "focus.gif" #01 : "focus.gif" #04 ;
+P00 : help : "b_focusers.GIF" #00;

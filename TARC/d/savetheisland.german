@@ -1,0 +1,58 @@
+[Header]
+missionType = "Tutorial"
+aid=1
+
+loadFort = "SaveTheIsland"
+
+missionNumber = 1
+
+myStartMoney = 2000
+myTech = "sunWalker;rainBattery;sunArcher;sunCannon;sunBlocker;sunAviary"
+
+aiName = "F?rst des Donners"
+aiTech = "sunWalker;thunderBattery;thunderCannon;sunArcher;thunderArcher;sunBalloon"
+aiStartMoney = 2000
+aiGeyserAttachments = 1
+aiCollectors = 1
+aiTimeBetweenMoves = 4
+
+title="Befreiungseinsatz"
+
+[Options]
+
+[A.]
+<h2>Befreiungseinsatz</h2>
+<i>"Unser Volk ist nicht von Natur aus kriegerisch veranlagt, sondern entwickelte diese Wesensart aus einer nicht enden wollenden Notwendigkeit heraus."
+--General Abstek Voltikkin</i>
+<p>
+Die Insel des Botschafters von Hydrus wurde ?berraschend angegriffen. Gerade noch rechtzeitig konnten Golems zusammengestellt werden, um eine Sonnenbarrikade zu errichten und die Insel vor dem sicheren Untergang zu bewahren.
+<p>
+In die Defensive gedr?ngt und mit nur noch wenigen verf?gbaren Ressourcen hat der Botschafter Sie in der Stunde der Not um milit?rische Unterst?tzung gebeten.
+<p>
+Wenn es Ihnen gelingt, diese Insel zu retten, k?nnte sich der Botschafter zuk?nftig als wertvoller Verb?ndeter erweisen!
+
+$Button=Aktueller Wissensstand,ShowTechnology,55
+$Button=Mission beginnen,DoNothing,0
+
+
+[Succeeded][BadTeamDead]
+<h2>Mission erfolgreich abgeschlossen!</h2>
+<p>
+Sie werden als milit?risches Genie in die Geschichte eingehen! Der Botschafter versichert Ihnen seine unendliche Dankbarkeit, indem er Sie offiziell zu seinem Sohn und Erben ernennt.  
+<p>
+Sein Volk schw?rt Ihnen ewige Treue und Gefolgschaft - Ihr Imperium ist geboren!
+<$Config,Done{mission.fileName}=1>
+$Button=Mission beenden,MissionAbort,1
+$Button=N?chste Mission,MissionBegin,FragileFortune
+
+
+[Failed]
+<h2>Missionsziel verfehlt!</h2>
+<p>
+Das Vertrauen des Botschafters in Ihre F?higkeiten war offensichtlich fehl am Platz! Sie haben zugelassen, da? seine Insel von den feindlichen Truppen verw?stet wurde. Die allerletzte Handlung des Botschafters gilt Ihnen: Als Strafe f?r Ihr kl?gliches Versagen werden Sie eigenh?ndig von ihm hingerichtet.
+$Button=Weiter,Tell,TryAgain
+
+
+[END]
+																		 
+																		 

@@ -1,0 +1,188 @@
+[Header]
+missionType = "Tutorial"
+aid=1
+
+loadFort = "RawPower"
+denyAscend = 1
+tutorialNumber = 6
+moreGeysers = 0
+
+techAllowed = "deny;all;allow;windVortex;windFactory;windBalloon;windWalker;windBattery;windArcher"
+
+myStartMoney = 7500
+myTech = "windBattery;windBalloon"
+
+aiOff = 1
+
+title = "Raw Power!"
+
+[A.]
+<h2>Themed Units</h2>
+<i>"What sins have we committed to deserve such power?"
+--Captain Villus Spakesmere, referring to a bloody victory</i>
+<p>
+This time, you'll face a new class of defensive piece. But you'll have more 
+advanced weaponry at your disposal as well.
+<p>
+The world of Nimbus is ruled by three Furies: Wind, Rain, and Thunder. So far
+all your pieces have been aligned with none of these and are thus referred to as "Sun."
+Sun units are flexible and easy to use, but not as specialized or powerful as the aligned units.
+
+$Button=MORE,Tell,A1.
+
+[A1.]
+<h2>Air Ships</h2>
+In this tutorial you will use pieces aligned with the Wind Fury. First you'll
+use the "Air Ship." This unit is a heavily armored Aerial Transport, able to 
+deliver Storm Crystals, acquire Spells, and capture enemy Priests while withstanding considerable 
+hostile fire.
+<p>
+You don't have Golems for this Mission.  Use the Air Ship to harvest Storm Power instead.
+Because it flies, you don't have to build bridges to the geysers now!
+<p>
+<!"windBalloon.*"><br>
+            "Air Ship"     
+$Button=BACK,Tell,A.
+$Button=MORE,Tell,A2.
+
+[A2.]
+<h2>Aligned Energy, Part 1</h2>
+In addition to their high Storm Power costs, advanced units like the Air Ship
+have more formidable Energy requirements.
+<p>
+As discussed before, Energy is aligned with Wind, Rain, or Thunder. 
+The Air Ship, for example, requires two Wind Energies and one of any kind (i.e. "Sun").
+When you are constructing the Air Ship, the cursor will display
+two wind icons <!"mana.8"><!"mana.8"> and one sun <!"mana.11">.  
+As you move the cursor, the icons will light up when you have met 
+the requirements at a given construction site.  Each Generator and Temple can only
+supply one unit of Energy at a time.  Thus, since the Air Ship requires two
+Wind and one Sun, you must have at least three supplies
+of Energy; for example, two Wind Generators and a Rain Temple would satisfy the
+Energy requirements of an Air Ship.
+<p>
+These are the Energy icons:<br>
+Unlit:      <!"mana.0">            <!"mana.1">                 <!"mana.2">                  <!"mana.3"><br>
+Lit:          <!"mana.8">            <!"mana.9">                 <!"mana.10">                  <!"mana.11"><br>
+            "Wind"      "Rain"        "Thunder"         "Sun"  <br>
+
+$Button=BACK,Tell,A1.
+$Button=MORE,Tell,A3.
+
+[A3.]
+<h2>Aligned Energy, Part 2</h2>
+Remember that your Wind Temple generates one unit of Wind Energy around it.  Thus, in order
+to build an Air Ship, you will need to build two Wind Generators in order to
+satisfy the Air Ship's construction requirements.
+<p>
+One more thing: A Sun Workshop can not build aligned units.  In order to build an Air Ship,
+you will need to construct a Wind Workshop.
+<p>
+Build a Wind Workshop now with your Priest.  Enable production of the "Wind Generator" and
+the "Air Ship."  <I>The tutorial will continue when you have built an Air Ship.</I>
+
+$Button=BACK,Tell,A2.
+$Button=OK,DoNothing,0
+
+
+[B.]
+<h2>Aerial Transports</h2>
+<i>"Sure they're faster. Sure they're easier. But for my money, 
+there's still nothing compares to good-old Bridge."
+--Jameson Hoofa, Founder, Bridge Builder's Union
+</i>
+<p>
+The interface for commanding Aerial Transports is similar to the one for moving
+Golems and Priests (which are Ground Transports). To send your Air Ship out for 
+Storm Crystals, <c>left-click</c> on it and then <c>left-click</c> again on the destination Geyser.
+<p>
+<I>The tutorial will continue when you've used your Air Ship to bring a Storm Crystal
+back to your Temple.</I>
+<p>
+Hint: Be careful of those guns to the South!
+
+[C.]
+<h2>Crossbows, Part 1</h2>
+For this tutorial, we have given you knowledge of the Wind aligned unit "Crossbow."
+The Crossbow has a much longer range and more powerful kick than a Sun Disc Thrower.<p>
+However, it cannot fire in all directions.  Instead, it has a limited arc from the direction it is
+constructed. 
+<p>
+Put the Crossbow into production now.  You'll have to upgrade your Wind Workshop first.
+<p>
+<I>The tutorial will continue when you have enabled production of the Crossbow.</I>
+<p>
+    <!"windArcher.*"><br>
+"Crossbow"
+$Button=OK,DoNothing,0
+
+[D.] 
+<h2>Crossbows, Part 2</h2>
+<i>"When they pay us more, maybe we'll make them swivel all the way around."
+--Anonymous Crossbow Archer
+</i>
+<p>
+When you construct a Crossbow, you can <c>right-click</c> to change which quadrant
+it can fire in.  The range display will show you what can be hit.
+<p>
+Lay down a Crossbow now on your island to defend against any attacks from the Whirligigs.
+Practice rotating it before you drop it.
+The Crossbow requires one Wind Energy and one Sun Energy. It also
+costs {global.crossbowCost} Storm Power, so you'll need to make sure your Air Ship keeps
+retrieving Storm Crystals as you fight.
+<p>
+<I>The tutorial will continue when you have built one Crossbow.</I>
+$Button=OK,DoNothing,0
+
+[E.]
+<h2>Barricades</h2>
+<i>"Between Nimbus and the Beyond stands an infinite, burning barrier." -Book of Nimbus.
+</i>
+<p>
+Your opponent in this mission has erected a Sun Barricade on his island. 
+Four posts are generating a protection field which blocks all gun-fire
+between their endpoints. You can't succeed until you destroy 
+the Barricades.
+<p>
+Surprisingly, the Crossbow alone is enough to defeat the enemy's island.  
+Be sure to stay out of the direct line of fire of the
+Thunder Cannons since you do not have a blocker to use as a shield!
+<p>
+<I>The tutorial will complete when you have destroyed all of the enemy
+Thunder Cannons, Whirlibases, and Sun Disc Throwers.</I>
+Do not worry about capturing the Priest for this battle.  Good luck!
+<p>
+          <!"sunFence.*"><br>
+    "Sun Barricade"
+$Button=OK,Tell,C1.
+
+
+[F.]
+<h2>Mission Accomplished</h2>
+<i>
+"An uneducated man is harmless.
+A well-educated man is unbeatable.
+A half-educated man is merely dangerous."
+--Anonymous
+</i>
+<p>
+Good work! This completes the tutorial. Consider yourself half-educated.  
+To complete your education, you'll have to pit your new skills against NetStorm's many
+single-player missions.
+<p>
+The world of Nimbus contains over twenty unique units 
+you can use in battle, each with its own strategic advantages. 
+You will learn about each of them as you continue with the Campaign missions.
+Remember to <c>right-click</c> and select <c>About</c> to view information
+about each new unit as you encounter it.
+<p>
+You can continue with the Campaigns or play online now.
+<p>
+Have fun!
+<$Config,Done{mission.fileName}=1>
+$Button=Leave Tutorials,LeaveBattle,1
+
+
+[END]
+																		 
+																		 

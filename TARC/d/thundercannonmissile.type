@@ -1,0 +1,25 @@
+typename thunderCannonMissile
+typeflags dontSave not_real;
+{
+	orientations = 4;
+	zorder = "zoMISSILES";
+	fireSound = "fireBow.wav";
+	impactSound = "thunderCannonImpact.wav";
+}
+
+A00 :  : "tcannon.gif" #21  ;
+A01 :  : "tcannon.gif" #22  ;
+A02 :  : "tcannon.gif" #23  ;
+
+A03 :  : "tcannon.gif" #09  ;
+A04 :  : "tcannon.gif" #10  ;
+A05 :  : "tcannon.gif" #11  ;
+
+A06 :  : "tcannon.gif" #33  ;
+A07 :  : "tcannon.gif" #34  ;
+A08 :  : "tcannon.gif" #35  ;
+
+A09 :  : "tcannon.gif" #45  ;
+A10 :  : "tcannon.gif" #46  ;
+A11 :  : "tcannon.gif" #47  ;
+

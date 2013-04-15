@@ -1,0 +1,266 @@
+//
+// Analysis for the Setup diagnostics.
+//
+
+[Af1]
+-p-
+Setup could not find a .HTML file association in the registry
+-a-
+It appears that you do not have a web browser installed.
+
+NetStorm understands how to use a web browser to display links to web sites on the internet.
+If you do not have a web browser installed, some of the links in the on-line help will not work.
+However, these links are not critical to playing and enjoying the game.
+-s-
+Install a web browser.
+
+[Af2]
+-p-
+Setup could not find the file associated with .HTML files in the registry.
+-a-
+It appears that you had a web browser installed at one time, but the program has been moved
+or deleted.
+
+NetStorm understands how to use a Web browser to display links to web sites on the internet.
+If you do not have a Web browser installed, some of the links in the on-line help will not work.
+However, these links are not critical to playing and enjoying the game.
+-s-
+Reinstall your web browser.
+
+[Bf1]
+-p-
+Setup was unable to initialize the Windows Sockets system.
+-a-
+It appears that you do not have TCP/IP support installed on your computer.
+
+NetStorm uses TCP/IP for all network communication.  Without TCP/IP the game will start, but you will be unable
+to play online.
+-s-
+Install TCP/IP support from either the Windows install disks or CD, or from your ISP's install software.
+If you have any question about this, consult your ISP's technical support.
+
+[Bf2|Hf1|If[1,4,7]]
+-p-
+Setup detected an error while attempting to create a new socket.
+-a-
+Although you have TCP/IP support installed, it is not functioning properly.
+
+NetStorm uses TCP/IP for all network communication.  Without TCP/IP the game will start, but you will be unable
+to play online.
+-s-
+Reinstall Windows TCP/IP support or consult your ISP's technical support.
+
+[Df[1-2]]
+-p-
+Setup did not detect DirectDraw or DirectSound on this machine.
+-a-
+It appears that you have not installed the latest version of Microsoft's DirectX.
+
+DirectX did not ship with Windows 95, and has been through multiple revisions.
+NetStorm requires the latest version of DirectX in order to run, and will install it
+during the regular installation process.
+-s-
+If you get this during the initial diagnostics, complete the installation, reboot, and try
+the diagnostics again. If it fails again, consult customer support.
+
+[If5]
+-p-
+Setup could not connect to the diagnostic server.
+-a-
+Since you passed the ping tests, the most like reasons for this failure are:
+* You are behind a firewall or proxy
+* The diagnostic server is down.
+
+Firewalls are used to make computers on a LAN fairly inaccesable to the Internet at large.
+They do this by examining packet traffic between the LAN and the Internet, blocking traffic to or from
+certain ports.
+
+Proxys are similar, but instead of blocking traffic from the LAN machines to the Internet, they perform
+operations on behalf of the LAN machines.  This is sometimes used to provide an entire LAN with internet access
+via a single dialup account.
+
+ISPs, in general, do not firewall or proxy their customers.
+-s-
+If you are dialing into an ISP with a single machine, then the problem is with the diagnostic server.  You will still
+be able to run the game, and may even be able to play, since the diagnostic server is seperate from the game
+server.
+
+If you are on your company's LAN, the most likely problem is an outbound firewall. You should ask your LAN administrator to
+open up the firewall for you on ports 6799 and 6800.
+
+[If8]
+-p-
+Setup never heard a connection from the diagnostic server.
+-a-
+Since you passed the ping tests, the most like reasons for this failure are:
+* You are behind a firewall or proxy
+* The diagnostic server is down.
+
+Firewalls are used to make computers on a LAN fairly inaccesable to the Internet at large.
+They do this by examining packet traffic between the LAN and the Internet, blocking traffic to or from
+certain ports.
+
+Proxys are similar, but instead of blocking traffic from the LAN machines to the Internet, they perform
+operations on behalf of the LAN machines.  This is sometimes used to provide an entire LAN with internet access
+via a single dialup account.
+
+ISPs, in general, do not firewall or proxy their customers.
+-s-
+If you are dialing into an ISP with a single machine, then the problem is with the diagnostic server.  You will still
+be able to run the game, and may even be able to play, since the diagnostic server is seperate from the game
+server.
+
+If you are on your company's LAN, the most likely problem is an inbound firewall. You should ask your LAN administrator to
+open up the firewall for you on ports 6799 and 6800.
+
+[Ef]
+-p-
+Less than two of the pinged addresses responded.
+-a-
+It appears that you are not connected to the Internet. This could be for a number of reasons:
+* You are not dialed into your ISP
+* You are unplugged from your network connection.
+* You are connected or dialed in, but your ISP or LAN has lost its connection to the Internet.
+-s-
+Check all network connections (dial in if connected via modem), and re-run the diagnostics.
+
+If the problem persists, check with your ISP or LAN administrator.
+
+[Ff]
+-p-
+Less than two of the test sites could be looked up by name.
+-a-
+It appears that you are unable to perform DNS (Domain Name Service) lookups.  This could be for a number of reasons:
+* DNS has not been enabled for your TCP/IP protocol.
+* Your DNS server is down or your network connection to it is down.
+-s-
+Enable DNS for the TCP/IP protocol in your Network Control Panel.
+If you have problems, consult your ISP or LAN administrator.
+
+[Hf2]
+-p-
+Setup could not look up the address of the NetStorm's diagnostic server by name.
+-a-
+It appears that you are unable to perform DNS (Domain Name Service) lookups.  This could be for a number of reasons:
+* DNS has not been enabled for your TCP/IP protocol.
+* Your DNS server is down or your network connection to it is down.
+-s-
+Enable DNS for the TCP/IP protocol in your Network Control Panel.
+If you have problems, consult your ISP or LAN administrator.
+
+[If2]
+-p-
+Setup could not bind a socket to one of the diagnostic ports.
+-a-
+It appears that your are running another copy of Setup, or some other program is using the same ports that
+NetStorm uses.
+
+TCP/IP uses a 'port number' to route incoming packets to the appropriate program.  Each port number may be used by only
+one program.  One of the port numbers used by NetStorm is already in use on your computer.  You will not be able to
+go online until this port is freed.
+-s-
+Close all unneeded programs and try the diagnostics again.  If the problem persists, call customer support.
+
+[Hf[4-7]|If([3,6-7,9]|1[0-3])]
+-p-
+Setup detected an uncommon socket error while running the diagnostics.
+-a-
+This indicates a problem with the TCP/IP protocol software.
+
+You will still be able to run the game, but you may not be able to play online.
+-s-
+Try running the game and getting online.  If you can play online, then the error was probably transient.
+
+If the error persists, or you cannot get online, contact customer support.
+
+[Hf8]
+-p-
+At least one of the transmit tests passed, and at least one failed.
+-a-
+This may indicate that your connection to the Internet is firewalled on one of the ports used by NetStorm.
+This could also happen if the NetStorm diagnostic server is experiencing problems.
+-s-
+Try running the game and getting online.  If you can connect to the server, you will be able to play, but you
+will not be allowed to become the BattleMaster, who is the host of a battle.
+
+If you cannot connect to the server, then you are either blocked on port 6800, or the NetStorm server is down.
+
+Contact your ISP or LAN administrator to see if you are blocked on port 6800 outgoing and 6799 incoming and outging.
+If you are not blocked on these ports and the problem persists, contact customer support.
+
+[If14]
+-p-
+At least one of the recv tests passed, and at least one failed.
+-a-
+This may indicate that your connection to the Internet is firewalled on one of the ports used by NetStorm.
+This could also happen if the NetStorm diagnostic server is experiencing problems.
+-s-
+Consult your ISP or LAN administrator to see if you are blocked on port 6799 incoming and outgoing.
+
+If you are blocked incoming, you will still be able to play, but you will not be allowed to become the
+BattleMaster, who is the host a battle.
+
+If you are blocked outgoing, you will not be able to play.
+
+If you are not blocked on this port and the problem persists, contact customer support.
+
+[Ec]
+-p-
+The ping tests were cancelled before they completed
+
+-a-
+If you cancelled the ping tests because they appeared to be locked up, then you may not
+be connected to the Internet.
+
+-s-
+Connect to the Internet via your normal means, and try again.  If the lockup persists,
+contact your ISP or network administrator to verify that your Internet connection is
+working properly.
+
+[Fc]
+-p-
+The name lookup tests were cancelled before they completed.
+
+-a-
+If you cancelled the lookup tests because they appeared to be locked up, then you may not
+have a network connection to your DNS server, or your DNS server may be down.
+
+-s-
+Confirm that you are properly connected to your ISP or LAN and try again.  If the lockup
+persists, contact your ISP or network administrator to verify that your connection is
+working properly and that the DNS server is up.
+
+[Hc|Ic]
+-p-
+Some of the connection tests were cancelled before they completed.
+
+-a-
+If you cancelled the tests because they appeared to be locked up, then any of the following
+problems may be the cause:
+* You are not connected to the Internet
+* You are behind a firewall or proxy
+* You are connected to the Internet, but your ISP or LAN has lost its Internet connection.
+
+-s-
+Confirm that you are properly connection to your ISP or LAN and try again.  If the lockup
+persists, contact your ISP or network administrator to verify that your connection is
+working properly.
+
+[Bp0 Ep0 Fp0 Hp0 Ip0]
+// NOTE: The above order must match the same order in which the tests are printed
+	'B',	// socket test
+	'E',	// ping test
+	'F',	// lookup test
+	'H',	// xmit test
+	'I',	// recv test
+	'A',	// html test (this test has been removed)
+	'D',	// directX test (this test has been removed)
+	'G'		// udp test  (this test has been removed)
+-p-
+You passed all of the tests.
+
+-a-
+Your machine is configured correctly and properly connected to the Internet.
+
+-s-
+Complete the installation and play NetStorm online.

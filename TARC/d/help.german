@@ -1,0 +1,1883 @@
+<a name="sacrificeOutline">
+<h2>Gefangennahme und Opferung</h2>
+<p>
+<q>Panische Angst.<br>
+Eiserne Ketten.<br>
+Blut wird vergossen.<br>
+Ein Aufschrei ert?nt.<br>
+Dann herrscht nur noch eisiges Schweigen.</q><br>
+<p>
+Nehmen Sie den Hohepriester w?hrend des Kampfes mit einem Ihrer <a href="#transportHelp">Transportmedien</a> gefangen, und machen Sie ihm auf Ihrem <a href="#altarType">Altar</a> den Garaus. Im Gegenzug erhalten Sie daf?r neues <a href="#technologyHelp">Wissen</a> (im <a href="#multiplayerHelp">Mehrspieler-Modus</a>) bzw. gewinnen die jeweilige Mission (im Kampagnen-Modus).
+<p>
+<B>Die Vorgehensweise:</B>
+<p>
+1. <a href="#immobileHelp">Paralysieren Sie den Priester.</a><br>
+2. <a href="#pickupHelp">Lassen Sie den feindlichen Priester zu Ihrem Altar transportieren.</a><br>
+3. <a href="#moveyourpriestHelp">Bewegen Sie Ihren eigenen Priester zum Altar.</a><br>
+4. <a href="#performsacrificeHelp">F?hren Sie die Opferungszeremonie durch.</a><br>
+<p>
+<B>Hinweis: Wenn sich Ihr Priester im Paralysezustand befindet oder get?tet wird, kann er die Opferungszeremonie nicht durchf?hren!</B>
+<p>
+Siehe auch: <a href="#vesselPriestHelp">Errichtung von Geb?uden und Einheiten durch einen Priester</a>
+<br>
+</a>
+
+<a name="immobileHelp">
+<h2>Paralysieren eines Priesters</h2>
+<p>
+Lassen Sie den gegnerischen Priester von Ihren <a href="#unitHelp">Kampfeinheiten</a> unter Beschu? nehmen. Sobald seine 
+<a href="#statsHelp">Statusanzeige</a> auf die H?lfte gesunken ist, wird er in den Paralysezustand versetzt, l??t alles, was er gerade transportiert, fallen und wird von einem d?nnen Kraftfeld umgeben, das ihn am Leben erh?lt.
+<p>
+Solange sich ein Priester im Paralysezustand befindet, kann er keine <a href="#buriedType">Zauberspr?che</a> anwenden und auch keine 
+<a href="#vesselPriestHelp">Geb?ude errichten</a>.
+<p>
+Beachten Sie bitte, da? ein Priester w?hrend der Paralyse kontinuierlich seinen Gesundheitsstatus regeneriert. Er sollte deshalb weiterhin angegriffen werden, damit er sich nicht so weit erholen kann, da? eine Flucht m?glich ist.
+<p>
+Siehe auch: <a href="#pickupHelp">Feindlichen Priester mit Hilfe eines Transportmediums gefangennehmen und zum Altar transportieren</a>
+<br>
+</a>
+
+<a name="pickupHelp">
+<h2>Transport des feindlichen Priesters zum eigenen Altar</h2>
+<p>
+Sobald ein feindlicher Priester paralysiert wurde, k?nnen Sie ein <a href="#transportHelp">Transportmedium</a> damit beauftragen, ihn gefangenzunehmen. (Ausnahme: Priester k?nnen keine anderen Priester gefangennehmen.)
+<p>
+Der Gesundheitszustand des feindlichen Priesters mu? daf?r mindestens auf die H?lfte reduziert sein, da er sich ansonsten der Gefangennahme widersetzt.
+<p>
+Sobald das Transportmedium den eigenen Altar erreicht, wird der feindliche Priester innerhalb des heiligen Zirkels in Ketten gelegt.
+<p>
+Beachten Sie bitte, da? der gefangengenommene Priester der transportierenden Einheit neue Lebenskraft entzieht, so da? er vollst?ndig gesundet und sich aus dem Paralysezustand befreit, sobald er von dem Transportmittel abgesetzt wird.
+<p>
+Siehe auch: <a href="#moveyourpriestHelp">Eigenen Priester zum Altar bewegen</a>
+<br>
+</a>
+
+<a name="moveyourpriestHelp">
+<h2>Eigenen Priester zum Altar bewegen</h2>
+<p>
+Opferungen feindlicher Priester k?nnen ausschlie?lich vom eigenen Priester durchgef?hrt werden.
+<p>
+Sie k?nnen Ihren Priester jederzeit zum <a href="#altarType">Altar</a> bewegen. Ist ein feindlicher Priester im heiligen Zirkel angekettet, wenn der eigene Priester am Altar eintrifft, kann die Opferungszeremonie beginnen. Um Ihren Priester zum Altar zu bewegen, klicken Sie ihn mit der linken Maustaste an, und klicken Sie dann ebenfalls mit der linken Maustaste auf den Altar. Ist dort ein feindlicher Priester angekettet, nimmt der Mauszeiger die Form eines Dolches an, sobald er ?ber den Altar bewegt wird.  
+<p>
+Im Einzelspieler-Modus m?ssen Sie die Opferung eines feindlichen Priesters durchf?hren, um die Mission zu gewinnen. Im <a href="#multiQuickHelp">Mehrspieler</a>-Modus k?nnen Sie sich aussuchen, ob Sie zur Belohnung f?r die Opferung eines feindlichen Priesters neues <a href="#technologyHelp">Wissen</a> f?r Ihren n?chsten Kampf erwerben oder Ihren Altar erweitern m?chten, um bei der n?chsten Opferung noch h?heres Wissen erlangen zu k?nnen. 
+<p>
+Im Mehrspieler-Modus m?ssen Sie zu Beginn der Opferungszeremonie die gew?nschte Belohnung der Furien ausw?hlen.
+<p>
+Zum einen kann die Belohnung aus Wissen bestehen, mit dem die Furien Sie unmittelbar nach Beendigung der Opferungszeremonie erleuchten.
+<p>
+Zum anderen k?nnen Sie Ihren Altar zur Belohnung auch erweitern. Erweiterte Alt?re bieten die M?glichkeit, h?heres Wissen von den Furien zu erlangen. Beachten Sie bitte, da? nur solche Alt?re, die sich auf Ihrer Heimatinsel befinden, erweitert werden k?nnen, da diese Insel als einzige konstant in allen K?mpfen vorhanden ist.
+<p>
+Siehe auch: <a href="#performsacrificeHelp">Opferungszeremonie durchf?hren</a>
+<br>
+</a>
+
+<a name="performsacrificeHelp">
+<h2>Opferungszeremonie durchf?hren</h2>
+<p>
+Ihr Priester mu? zur Durchf?hrung der Opferung f?nf Runensteine beschw?ren. Wird Ihr Priester w?hrend der Zeremonie paralysiert, ist die Beschw?rung damit unwirksam, und der feindliche Priester flieht. Dies gilt auch dann, wenn der Altar w?hrend der Zeremonie zu sehr besch?digt wird.
+<p>
+Sobald die Opferungszeremonie abgeschlossen ist, erhalten Sie Ihre Belohnung: Entweder, wie zuvor ausgew?hlt, neues Wissen oder eine Erweiterung Ihres Altars. Wenn Sie sich mit neuem Wissen belohnen lassen, wird Ihr Altar im Anschlu? an die Opferungszeremonie automatisch zerst?rt. F?r die n?chste Opferung m?ssen Sie also einen neuen Altar errichten.  
+<p>
+Haben Sie sich hingegen f?r die Erweiterung Ihres Altars entschieden, konnten ihn aber im laufenden Kampf nicht mehr nutzen, bleibt der Altar auch w?hrend Ihres n?chsten Online-Kampfes auf Ihrer Heimatinsel bestehen. Beachten Sie bitte, da? nur auf Ihrer Heimatinsel ein erweiterter Altar existieren kann, da diese Insel als einzige in allen K?mpfen vorhanden ist.
+<p>
+Wenn Sie sich als Belohnung f?r die Opferung neues Wissen ausgesucht haben, steht Ihnen dieses unmittelbar nach der Zeremonie zur Verf?gung und kann mit Hilfe einer geeigneten Produktionsst?tte sofort in Produktion geleitet werden. Um sich Ihren neuen Wissensstand anzeigen zu lassen, dr?cken Sie die Taste F6.  
+<p>
+Erwerben Sie dieses Wissen im <a href="multiQuickHelp">Mehrspieler-Modus</a>, bleibt es dauerhaft erhalten und steht Ihnen auch in zuk?nftigen Mehrspieler-K?mpfen zur Verf?gung. Allerdings erscheint es in Ihren zuk?nftigen K?mpfen nicht automatisch im Produktionsfenster, sondern Sie m?ssen das Wissen zun?chst in die Produktion einer <a href="#factoryHelp">Produktionsst?tte</a> leiten, um die damit verbundenen Geb?ude bzw. Einheiten errichten zu k?nnen.
+<p>
+Siehe auch: <a href="#sacrificeOutline">Gefangennahme und Opferung</a>
+<br>
+</a>
+
+<a name="sphereHelp">
+<h2>Nimbus</h2>
+<p>
+Das Reich von Nimbus besteht aus drei Sph?ren: der <a href="#serenisphereHelp">Serenisph?re</a>,
+der <a href="#pyrosphereHelp">Pyrosph?re</a> und der <a href="#deusphereHelp">Deusph?re</a>.
+<p>
+<c>*</c> In der <a href="#serenisphereHelp">Serenisph?re</a> fordern Sie Ihre Online-Gegner zum Kampf.
+<br>
+<c>*</c> In der <a href="#pyrosphereHelp">Pyrosph?re</a> finden die K?mpfe statt, deren oberstes Ziel die Gefangennahme feindlicher <a href="#priestType">Hohepriester</a> ist.
+<br>
+<c>*</c> In der <a href="#deusphereHelp">Deusph?re</a> tragen die Furien ihren ewigen Kampf aus und schleudern dabei st?ndig <a herf="#geyserType">Sturmgeysire</a> in die Pyrosph?re, die Sie wiederum als Energiequelle f?r Ihre Einheiten verwenden.
+<p>
+Siehe auch: <a href="#serenisphereHelp">Serenisph?re</a>...
+<br>
+</a>
+
+<a name="map">
+<!"buried.2">
+<br>
+</a>
+
+<a name="deusphereHelp">
+<h2>Deusph?re</h2>
+<p>
+In der Deusph?re bestreiten die Furien ihren ewigen Kampf.  
+<p>
+Die Deusph?re ist die innerste <a href="#sphereHelp">Sph?re von Nimbus</a>, in der sich die <a href="#themeHelp">Furien</a> in ihrer andauernden gegenseitigen Wut ergehen und dabei Teile der unter ihnen liegenden Planetenoberfl?che in die Atmosph?re schleudern. Beten Sie, da? Sie niemals zwischen ihre Fronten geraten: Dies w?rde Ihren sofortigen, aber dennoch qualvollen Tod bedeuten.
+<p>
+Siehe auch: <a href="#themeHelp">Die Furien</a>
+<br>
+</a>
+
+<a name="serenisphereHelp">
+<h2>Serenisph?re</h2>
+<p>
+Die Serenisph?re ist die ?u?erste <a href="#sphereHelp">Sph?re von Nimbus</a>: Ein friedvoller Ort, in dem Sie andere Spieler zum Kampf in der darunterliegenden Pyrosph?re fordern.
+<p>
+In der Serenisph?re befinden sich die sogenannten <a href="#battleIslandType">Gefechtsringe</a>. Klicken Sie mit der <c>linken Maustaste</c> auf einen dieser Ringe, um sich dem dort jeweils stattfindenden Kampf anzuschlie?en.
+<p>
+Unter den Gefechtsringen finden Sie die <a href="zoneHelp">Zonen</a>. Sie beginnen jeden Kampf in einer Zone, die Ihrem aktuellen Wissensstand entspricht. Sollten Sie jedoch in einer anderen Zone k?mpfen wollen, klicken Sie die gew?nschte Zone mit der <c>rechten Maustaste</c> an, um sich dorthin zu begeben.
+<p>
+Um Ihre Insel an eine andere Stelle am Himmel zu bewegen, klicken Sie die gew?nschte Position einfach mit der <c>linken Maustaste</c> an.
+<p>
+Wenn Sie als erster Spieler einen Gefechtsring er?ffnen, sind Sie automatisch der <a href="#battleMasterHelp">Kampfmeister</a>. Der Kampfmeister legt die Regeln des Kampfes fest und kann andere Spieler aus dem Gefechtsring rausschmei?en. Wird ein Spieler rausgeschmissen, kann er sich dem Gefechtsring nicht mehr anschlie?en, bis der Kampfmeister den Ring verl??t.
+<p>
+Sobald sich auch alle anderen Spieler dem Kampf angeschlossen haben, aktiviert der Kampfmeister die Schaltfl?che 'Kampf starten', um in die Pyrosph?re hinabzusteigen, wo dann letztendlich der Kampf stattfindet.  
+<p>
+Bevor der Kampf jedoch beginnen kann, m?ssen alle Spieler zun?chst die farbigen Boxen neben ihren Namen anklicken. Die angezeigte Farbe ist auch die Farbe der eigenen Einheiten im Kampf.
+<p>
+Siehe auch: <a href="#pyrosphereHelp">Pyrosph?re</a>...
+<br>
+</a>
+
+<a name="pyrosphereHelp">
+<h2>Pyrosph?re</h2>
+<p>
+Die Pyrosph?re ist die mittlere <a href="#sphereHelp">Sph?re von Nimbus</a>. Hier findet der Kampf gegen Ihre Gegner statt.
+<p>
+Ihr Ziel ist es, die feindlichen <a href="#priestType">Hohepriester</a> gefangenzunehmen und den Furien als 
+<a href="#sacrificeOutline">Opfer</a> darzubringen.
+<p>
+W?hrend der K?mpfe in der Pyrosph?re erscheinen auf kleinen, umherschwebenden Plattformen <a href="#buriedType">Obelisken</a>
+und <a herf="#geyserType">Sturmgeysire</a>, die aus der darunterliegenden Deusph?re hochgeschleudert wurden und nur darauf warten, ausgebeutet zu werden.
+<p>
+Je heftiger der Kampf, desto mehr dieser Plattformen erscheinen.
+<p>
+Siehe auch: <a href="#deusphereHelp">Deusph?re</a>...
+<br>
+</a>
+
+<a name="bountyislandHelp">
+<h2>Neutrale Inseln</h2>
+<p>
+Neutrale Inseln existieren ausschlie?lich im <a href="multiQuickHelp">Mehrspieler</a>-Modus. Sie sollten sie benutzen, um zus?tzliche 
+<a href="#stormpowerHelp">Sturmkraft</a> abzubauen oder um Ihre Transportmedien m?chtige <a href="#buriedType">Zauberspr?che</a> erlernen zu lassen. Die Zauberspr?che sind in die <a href="#buriedType">Obelisken</a> eingemei?elt, die sich auf den neutralen Inseln befinden.
+</a>
+
+<a name="F1Help">
+<h2>NetStorm-Hilfe</h2>
+<p>
+Klicken Sie auf den ~lblauen~. Text, um sich weitere Informationen anzeigen zu lassen. Sie k?nnen in einem Hilfefenster bl?ttern, indem Sie es anklicken und bei gedr?ckter Maustaste den Mauszeiger nach oben oder unten <c>ziehen</c>.
+<?{global.inMission}>
+Dr?cken Sie die Taste ~iF8~., um sich das Missionsziel anzeigen zu lassen.
+</?>
+<p>
+<b>HILFE ZUM SPIEL</b>
+<br>
+<a href="#campaignHelp">* Kampagnen- und Mehrspieler-Modus</a>
+<br>
+<a href="#interfaceHelp">* Steuerung/Tastenbelegung</a>
+<br>
+<a href="#sphereHelp">* Das Reich von Nimbus</a>
+<br>
+<a href="#themeHelp">* Die Drei Furien</a>
+<br>
+<a href="#priestType">* Hohepriester</a>
+<br>
+<a href="#unitHelp">* Einheiten</a>
+<br>
+<a href="#vesselpriestHelp">* Errichtung von Geb?uden und Einheiten durch einen Priester</a>
+<br>
+<a href="#sacrificeOutline">* Gefangennahme und Opferung</a>
+<p>
+
+<b>HILFESTELLUNG BEI PROBLEMEN</b>
+<br>
+<a href="cmd:Tell,TechSupport">* Kundendienst/Technischer Kundendienst</a>
+<br>
+<a href="http://www.activision.com">* Activision Web-Site (Updates und Patches) unter www.activision.com</a> 
+<br>
+<a href="http://www.titanic.com">* Titanic Web-Site (Die Macher von NetStorm) unter www.titanic.com</a>
+</a>
+
+
+<a name="interfaceHelp">
+<h2>NetStorm-Steuerung/Tastenbelegung</h2>
+<p>
+Klicken Sie die <b><c>linke Maustaste</c></b>, um eine Einheit auszuw?hlen.
+<br>
+Klicken Sie innerhalb eines Fensters oder auf einer Einheit die <b><c>rechte Maustaste</c></b>, um die Men?befehle abzurufen.
+<br>
+Halten Sie die <b><c>ALT</c></b>-Taste gedr?ckt, um den Bildschirm in Richtung Mauszeiger zu scrollen. Um im Vollbildmodus zu scrollen (im Fenstermodus nur, wenn eine Aufl?sung von 640 x 480 eingestellt ist), bewegen Sie den Mauszeiger einfach auf den gew?nschten ?u?eren Bildschirmrand.
+(Hinweis: Wenn Sie eine Microsoft IntellimouseTM benutzen, klicken Sie einfach das "R?dchen", um denselben Effekt zu erzielen wie bei gedr?ckter ALT-Taste.)
+<br>
+Mit <b><c>ESC</c> wird das Optionen-Men? am oberen Bildschirmrand aktiviert.
+<p>
+<b><c>F1</c></c></b> Hilfe.
+<br>
+<b><c>F2</c></b> Geb?ude ein-/ausblenden. Ausgeblendete Geb?ude und Geysire werden transparent dargestellt.
+<br>
+<b><c>F3</c></b> <a href="#chatViewHelp">Chatfenster</a> ein-/ausblenden.
+<br>
+<b><c>F4</c> oder <c>H</c></b> Ansicht auf eigenen Tempel fokussieren.
+<br>
+<b><c>F5</c> oder <c>P</c></b> Ansicht auf eigenen Priester fokussieren.
+<br>
+<b><c>F6</c></b> Aktuellen Wissensstand anzeigen.
+<br>
+<b><c>F7</c></b> Farbkennzeichnung (Besitzer) der Inseln ein-/ausblenden.
+<br>
+<b><c>F8</c></b> Beschreibung des Missionsziels ein-/ausblenden.
+<br>
+<b><c>F9</c></b> Online-Spieler anzeigen (im <a href="multiQuickHelp">Mehrspieler-Modus</a>).
+<br>
+<b><c>Umschalt-F7</c></b> Screenshot anfertigen.
+<br>
+<b><c>Umschalt-F9</c> oder <c>Pause</c>-Taste</b> Spiel unterbrechen (Pause).
+<br>
+<b><c>TAB</c></b> Zwischen den letzten f?nf plazierten Einheiten umschalten.
+<br>
+<b><c>STRG-F5</c> oder <c>N</c></b> Zwischen den verf?gbaren Transportmedien umschalten. Die jeweils gew?hlte Einheit ist gleichzeitig auch die aktive Einheit.
+<br>
+<b><c>U</c></b> Zur Position der zuletzt zerst?rten eigenen Einheit springen.
+<p>
+<b><c> Q  W</c></b>
+<br>
+<b><c> A  S</c></b>  Mit Hilfe dieser Tasten werden Br?ckenteile automatisch in den Mauszeiger aufgenommen.
+<br>
+<b><c>(Y  X)</c></b>    (Die Tasten Y & X kommen nur in Spielen zum Einsatz, in denen 6 Br?ckenteile zur Auswahl stehen.)
+<p>
+Zus?tzliche Funktion: Wenn Sie die <c>Umschalt</c>-Taste gedr?ckt halten und eine Ziffer von <c>0 bis 9</c> eingeben, wird die aktuelle Bildschirmposition in NetStorm gespeichert. Um diese gespeicherte Position wieder aufzurufen, dr?cken Sie die jeweilige Ziffer.
+<p>
+Hinweis: Einige der vorgenannten Tastatur-Shortcuts k?nnen nur dann benutzt werden, wenn das <a href="#chatViewHelp">Chatfenster</a> ausgeblendet ist.
+<p>
+Die im Spiel verf?gbaren Energiearten werden durch folgende Symbole repr?sentiert:<br>
+<!"mana.4"> - Wind<br>
+<!"mana.5"> - Regen<br>
+<!"mana.6"> - Donner<br>
+<!"mana.7"> - Sonne<br>
+<p>
+Um n?here Informationen zu einem Fenster oder einer Einheit abzurufen, klicken Sie das gew?nschte Objekt mit der rechten Maustaste an, und w?hlen Sie den Men?punkt "Info". Sollten Sie noch nicht mit dem Spiel vertraut sein, k?nnen die Hilfetexte unter Umst?nden verwirrend erscheinen. In diesem Fall sollten Sie sich zun?chst die Demo ansehen und die <a href="#campaignHelp">?bungsmissionen</a> durchspielen.
+<br>
+</a>
+
+<a name="chatViewHelp">
+<h2>Chatfenster</h2>
+<p>
+Um sich mit anderen Spielern unterhalten zu k?nnen, aktivieren Sie das Chatfenster, indem Sie die Taste <c>F3</c> dr?cken. Geben Sie Ihre Nachricht ein, und senden Sie sie durch Bet?tigung von <b>RETURN</b> an andere Spieler. Eingehende Nachrichten werden im Chatfenster des Empf?ngers angezeigt!
+<p>
+In einem Chat wird auch der <a href="rankHelp">Rang</a>, also die Spielstufe,  des jeweiligen Spielers angezeigt.
+<p>
+Wenn Sie die Nachrichten eines bestimmten Spielers nicht einsehen wollen, klicken Sie seine Insel oder eine seiner Einheiten mit der rechten Maustaste an, und w?hlen Sie <c>Chat ignorieren</c>.
+<p>
+Normalerweise kann jeder Mitspieler Ihre Nachrichten einsehen. Sie k?nnen den Empf?ngerkreis jedoch auch eingrenzen, indem Sie den oder die gew?nschten Namen durch Doppelpunkte (:) getrennt eingeben. Durch die Eingabe von <c>Kampf:</c> wird Ihre Nachricht an alle an Ihrem Kampf beteiligten Spieler gesendet. Mit <c>Alliierte:</c> werden nur Ihre Alliierten angeschrieben.
+<p>
+Wenn der Absendername einer eingehenden Nachricht eingeklammert ist, bedeutet dies, da? die Nachricht ausschlie?lich an Sie gesendet wurde. 
+<p>
+Nachdem Sie die ersten Buchstaben des Adressatennamens eingegeben haben, dr?cken Sie die <c>TAB</c>-Taste, um die Namenseingabe automatisch vervollst?ndigen zu lassen. Wenn Sie beispielsweise eine Nachricht an einen Spieler namens "OzDerGro?e" senden, wollen Sie sich sicherlich nicht die M?he machen, alles per Hand einzugeben! Geben Sie in diesem Fall also nur die Buchstaben "oz" ein, und dr?cken Sie anschlie?end die <c>TAB</c>-Taste, um den Namen automatisch vervollst?ndigen zu lassen.
+<p>
+Gestalten Sie Ihre Chat-Nachrichten in ansprechender Form, indem Sie den Befehl <a href="#formatCommandHelp">.format</a> verwenden, um die Farbe und die Schriftattribute Ihrer Nachricht zu ver?ndern.
+<p>
+N?here Informationen hierzu finden Sie unter <a href="#interfaceHelp">Steuerung/Tastenbelegung</a>
+<br>
+</a>
+
+<a name="moneyGumpHelp">
+<h2>Verf?gbare Sturmkraft</h2>
+<p>
+<q>"Sturmkraft ist das Ma? aller Dinge! Sch?pfung und Zerst?rung werden eins!" -Lehre des Zehnten Zirkels</q>
+<p>
+Die im "Verf?gbare Sturmkraft-Fenster" angezeigte Zahl gibt an, wieviel <a href="#stormPowerHelp">Sturmkraft</a> Ihnen zur Errichtung von <a href="#unitHelp">Einheiten</a> und Geb?uden zur Verf?gung steht.
+<p>
+Sollten Sie weniger als 2000<!"fortgump.3"> besitzen, wird die Ziffer in Gelb angezeigt (zum Beispiel <~y>1900<~.><!"fortgump.3">).
+Besitzen Sie weniger als 1000<!"fortgump.3">, wird die Ziffer in Rot angezeigt (zum Beispiel <~r>850<~.><!"fortgump.3">).
+<p>
+Mit dem Symbol <!"fortgump.3"> wird die Sturmkraftmenge angegeben. Wird die verf?gbare Menge Sturmkraft in Rot angezeigt (zum Beispiel 
+"Kanone <~r>1000<~.><!"fortgump.3">"), besitzen Sie nicht gen?gend Sturmkraft, um die Errichtung des gew?hlten Geb?udes oder der gew?hlten Einheit durchzuf?hren.
+<p>
+Einheiten, f?r deren Errichtung zu wenig Sturmkraft zur Verf?gung steht, werden im <a href="#teleportViewHelp">Produktionsfenster</a> rot eingef?rbt. Sobald eine solche Einheit angew?hlt wird, blinkt die Sturmkraftanzeige.
+<p>
+Siehe auch: <a href="#interfaceHelp">Steuerung/Tastenbelegung</a>
+<br>
+</a>
+
+<a name="bridgeType">
+<h2>Br?cken</h2>
+<p>
+<q>"Wer nach Frieden strebt, mu? zum Krieg r?sten." -Verfasser unbekannt</q>
+<p>
+In der <a href="#pyrosphereHelp">Pyrosph?re</a> (sprich im Kampf) k?nnen Sie von Ihrer Insel aus abgehende Br?cken errichten. 
+<p>
+Sobald Sie einen Tempel errichtet haben, erscheinen im <a href="#teleportViewHelp">Produktionsfenster</a> in der linken oberen Ecke Ihres Bildschirms verschiedene Br?ckenteile.  
+Wenn die Br?ckenteile im Produktionsfenster angezeigt werden, sind sie zun?chst rissig. Sofern sie nicht sofort angelegt werden, gewinnen sie binnen weniger Sekunden an Stabilit?t. Der Unterschied zwischen einem rissigen und einem soliden Br?ckenteil wird deutlich, wenn Sie im Kampf ein wenig damit herumexperimentieren.
+<p>
+Klicken Sie ein Br?ckenteil mit der linken Maustaste an, um es aufzunehmen, und bet?tigen Sie die rechte Maustaste, um es im 90-Grad-Winkel zu drehen. Wenn das Teil im Mauszeiger angezeigt wird, positionieren Sie es auf dem Spielfeld und dr?cken erneut die linke Maustaste, um es an der gew?hlten Stelle zu plazieren.
+Eine rote Verf?rbung des Br?ckenteils bedeutet, da? eine Plazierung an der jeweiligen Stelle nicht m?glich ist.
+<p>
+Bauen Sie Br?cken, um Zug?nge zu Energiequellen zu schaffen, feindliche Inseln zu st?rmen und neue Territorien zu erschlie?en, in denen Sie Ihre <a href="#unitHelp">Einheiten</a> plazieren k?nnen. Beachten Sie bitte, da? Kampfeinheiten immer nur an den <i>Enden</i> einer Br?cke plaziert werden k?nnen, und nicht unmittelbar auf einer Br?cke!
+<p>
+Hier noch einige Regeln, die Sie beherzigen sollten: Ausgehend von dem <a href="#vortexHelp">Tempel</a> auf Ihrer Insel mu? bei der Errichtung Ihrer ersten Br?cke ein direkter Zugang bestehen. Des weiteren k?nnen keine Br?cken an Stellen angelegt werden, an denen sich <a href="#edgeFarmType">Klippenvegetation</a> befindet.
+<p>
+Eine effektive Methode, um feindliche Br?cken zu durchbrechen, ist es, einige <a href="generatorHelp">Generatoren</a> zu ?berhitzen! (nur im Mehrspieler-Modus)
+<br>
+</a>
+
+<a name="teleportViewHelp">
+<h2>Produktionsfenster</h2>
+<p>
+Um <a href="unitHelp">Einheiten</a> aus dem Produktionsfenster aufzunehmen, klicken Sie sie mit der linken Maustaste an, und klicken Sie erneut die linke Maustaste, um sie auf einer Insel oder an einem Br?ckenende zu errichten.
+<p>
+Wenn Sie nicht gen?gend <a href="#stormPowerHelp">Sturmkraft</a> besitzen, um die Einheit zu errichten, wird sie im Produktionsfenster in Rot angezeigt.
+<p>
+Das <a href="#technologyHelp">Wissen</a>, das Sie in die Produktion einer <a href="#factoryHelp">Produktionsst?tte</a> geleitet haben oder durch eine <a href="#sacrificeOutline">Opferung</a> erworben haben, wird ebenfalls in diesem Fenster angezeigt. 
+<p>
+Um sich n?here Informationen zu einer Einheit anzeigen zu lassen, klicken Sie sie im Produktionsfenster mit der rechten Maustaste an.
+<p>
+Siehe auch: <a href="#interfaceHelp">Steuerung/Tastenbelegung</a>
+<br>
+</a>
+
+<a name="minimapGumpHelp">
+<h2>?bersichtskarte</h2>
+<p>
+In der <a href="#pyrosphereHelp">Pyrosph?re</a> werden in der ?bersichtskarte sowohl <a href="#bountyislandHelp">neutrale Inseln</a> als auch Inseln Ihrer Online-Gegner angezeigt.
+<p>
+In der ?bersichtskarte werden lediglich Inseln (in Gr?n) und <a href="#bridgeType">Br?cken</a> (in Gelb) angezeigt.
+<p>
+Klicken Sie die ?bersichtskarte mit der linken Maustaste an, um sich einen bestimmten Teil des Wolkenreichs anzusehen, oder halten Sie die linke Maustaste gedr?ckt, und scrollen Sie ?ber die ?bersichtskarte. Diese Funktion kann im Kampf ?u?erst hilfreich sein, um sich einen ?berblick ?ber die aktuelle Kampfsituation zu verschaffen!
+<br>
+</a>
+
+<a name="formatCommandHelp">
+<h2>Der .format-Befehl</h2>
+<p>
+Wenn Sie im Chatfenster den Befehl '.format' gefolgt von Text angeben, gilt der eingegebene Befehl f?r den gesamten Text aller von nun an erstellten Chat-Nachrichten. Geben Sie beispielsweise im Chatfenster 
+<br>
+.format ~~y~~E
+<br>
+ein, und dr?cken Sie <b>RETURN</b>. Alle Ihre nachfolgenden Chat-Nachrichten sind von jetzt an ~y~Egelb und reliefartig~N~. formatiert. F?r die Farbzuordnung stehen neben dem Buchstaben 'y' f?r Gelb noch folgende weitere Kleinbuchstaben zur Verf?gung: 
+<br>
+~b~~b  Blau~
+<br>
+~r~~r  Rot~
+<br>
+~g~~g  Gr?n~
+<br>
+~k~~k  Schwarz~
+<br>
+~l~~l  Hellblau~
+<br>
+~m~~m  Magenta~
+<br>
+~o~~o  Orange~
+<br>
+~w~~w  Wei?~
+<br>
+~~.  Hiermit wird die Farbgebung wieder auf die Standardwerte zur?ckgesetzt (Tilde + Punkt).
+<p>
+Um Ihrem Text verschiedene Schriftattribute zuzuordnen, verwenden Sie Gro?buchstaben-Codes. So werden Ihre Chat-Nachrichten durch Eingabe des Befehls 
+<br>
+.format ~~E~~y
+<br>
+beispielsweise ~y~Ereliefartig und gelb~N~. formatiert. Die Codes f?r andere Schriftattribute lauten 
+<br>
+~I~~I  f?r kursiven Text.~N
+<br>
+~B~~B  f?r fett-formatierten Text.~N
+<br>
+~E~~E  f?r reliefartige Textformatierung.~N
+<br>
+~~N setzt die Textformatierung wieder auf die Standardschrift zur?ck.
+<p>
+<br>
+</a>
+
+<a name="tacticHelp">
+<a name="tacticsHelp">
+<h2>Taktisches Vorgehen in NetStorm</h2>
+Es ist sozusagen 'lebenswichtig', da? Sie die Funktionsweise Ihrer <a href="unitHelp">Einheiten</a> im Kampf genauestens kennen, denn auch Ihre strategischen ?berlegungen sollten davon abh?ngen. 
+<p>
+Alle Einheiten feuern grunds?tzlich auf das naheliegendste Zielobjekt. Sobald ein Ziel erfa?t wurde, wird es so lange beschossen, bis es vernichtet ist. Bestimmte Verteidigungseinheiten, wie z.B. T?rme, k?nnen in die Schu?linie zwischen Angreifer und Zielobjekt plaziert werden, so da? die angreifende Einheit gezwungen ist, ihre Geschosse auf das neue Ziel zu richten, n?mlich den Turm. Es wird immer auf das am n?chsten befindliche Zielobjekt gefeuert, <i>selbst dann, wenn das Zielobjekt nicht durch den Beschu? der angreifenden Einheit zerst?rt werden kann</i>!
+<p>
+Durch die Explosion einer Einheit werden gleichzeitig auch die benachbarten Br?ckenteile zerst?rt. Eine solide Br?cke, die sich zur Zeit der Explosion gegen?ber der Einheit befindet, wird dadurch rissig oder bekommt unbrauchbare Enden.
+<p>
+Sobald eine feuernde Einheit explodiert, k?nnen dadurch auch alle anderen in der N?he befindlichen Einheiten besch?digt werden! Es kann auch vorkommen, da? die benachbarten Einheiten in einer Kettenreaktion mit explodieren. Dies gilt auch f?r Tempel.
+<p>
+Die <a href="salvageHelp">Selbstzerst?rung</a> einer Einheit kann eine solche Besch?digung nicht verursachen, dennoch werden auch hierbei die benachbarten Br?cken in Mitleidenschaft gezogen.
+<p>
+Sie k?nnen Ihre Einheiten 1. auf Ihrer Heimatinsel, 2. auf jeder unbewohnten Insel, die mittels einer Br?ckenverbindung mit Ihrer Heimatinsel verbunden ist, und 3. an den Enden Ihrer eigenen Br?cken errichten.
+<p>
+Durch die Zerst?rung einer feindlichen Einheit gewinnen Sie 25% des urspr?nglichen Sturmkraftwerts hinzu. Beachten Sie bitte, da? Helibomber und R?hrenquallen nichts kosten, so da? Sie durch deren Vernichtung auch keine Sturmkraft hinzugewinnen. Lediglich die Zerst?rung der zugeh?rigen Basisstationen bringt Ihnen Sturmkraft ein.
+<p>
+Sie sollten darauf achten, die Zielerfassung Ihrer Kampfeinheiten m?glichst auf den <i>unteren Bereich</i> des Zielobjekts auszurichten. Wenn Ihre Angriffe auf den oberen Bereich des Zielobjekts ausgerichtet sind, k?nnen die Geschosse ihr Ziel durchaus auch verfehlen und so ?berhaupt keinen Schaden verursachen.
+</a>
+</a>
+
+<a name="salvageHelp">
+<h2>Selbstzerst?rung</h2>
+<p>
+Sie k?nnen durch die Selbstzerst?rung einer eigenen Einheit 25% des urspr?nglichen Sturmkraftwerts zur?ckgewinnen.
+<p>
+F?r die Selbstzerst?rung einer bereits besch?digten <a href="unitHelp">Einheit</a> gewinnen Sie lediglich einen geringeren Sturmkraftanteil zur?ck. So erlangen Sie beispielsweise durch die Selbstzerst?rung einer intakten Einheit, deren Errichtung 400<!"fortgump.3"> gekostet hat, wieder 100<!"fortgump.3"> zur?ck. War die Einheit zum Zeitpunkt der Selbstzerst?rung jedoch zu einem Drittel besch?digt, erhalten Sie nur noch 66<!"fortgump.3"> zur?ck.
+<p>
+Noch eine letzte Anmerkung: Ist eine Einheit zu mehr als 50% besch?digt, kann durch ihre Selbstzerst?rung keinerlei Sturmkraft mehr zur?ckgewonnen werden.
+</a>
+
+<a name="statsHelp">
+<h2>Informationen ?ber Einheiten</h2>
+<p>
+<b><c>Konformit?t:</c></b> In diesem Spiel besitzt jede <a href="unitHelp">Einheit</a> eine Konformit?t zu einer der <a href="#themeHelp">Furien</a> oder zur Sonne. Durch die Konformit?t einer Einheit wird festgelegt, welches <a href="#technologyHelp">Wissen</a> die entsprechende Furie daf?r zur Verf?gung stellt, von welcher <a href="#factoryHelp">Produktionsst?tte</a> sie hergestellt werden kann und welche Art von <a href="#influenceHelp">Energie</a> erforderlich ist, um die Einheit bauen zu k?nnen.
+<p>
+<b><c>Klasse:</c></b> Die Klasse gibt Auskunft ?ber die Funktion der Einheit und ?ber deren Einsatzm?glichkeiten. Am Ende dieser Seite finden Sie eine Liste aller Klassen.
+<p>
+<b><c>Treffer:</c></b> Hiermit wird angegeben, wie viele Treffer die Einheit verkraften kann, bevor sie zerst?rt wird.
+<p>
+<b><c>Reichweite:</c></b> Diese Zahl gibt an, auf welche Entfernung (in 'Quadranten') eine Einheit feuern bzw. einen Effekt ausl?sen kann. Zum Vergleich: Die Gr??e eines Sonnenscheibenwerfers betr?gt 3x3 'Quadranten', und das Spielfeld ist vierzig Quadranten hoch.
+<p>
+<b><c>Schaden:</c></b> Mit dieser Ziffer wird angegeben, welche durchschnittliche Schadensh?he eine Einheit pro Sekunde verursachen kann. Beachten Sie bitte, da? es sich hierbei nicht um den pro Schu? verursachten Schaden handelt, sondern um den innerhalb einer Zeitspanne verursachten durchschnittlichen Schaden.
+<p>
+<b><c>Kosten in Sturmkraft:</c></b> Hier werden die Kosten in Sturmkrafteinheiten angegeben, die f?r die Errichtung der jeweiligen Einheit anfallen.
+<p>
+<b><c>Ben?tigte Energie zur Errichtung:</c></b> Zeigt an, wieviel <a href="#influenceHelp">Energie</a> zur Errichtung der jeweiligen Einheit erforderlich ist und welche Energieart ben?tigt wird. 
+<p>
+Durch die <a href="salvageHelp">Selbstzerst?rung</a> eigener Einheiten ist es m?glich, einen Teil des urspr?nglichen Sturmkraftwerts zur?ckzugewinnen.
+<p>
+<b><c>KLASSEN:</c></b>
+<p>
+<c>Produktion:</c><br>
+   <a href="#windVortexType">Windtempel</a><br>
+   <a href="#rainVortexType">Regentempel</a><br>
+   <a href="#thunderVortexType">Donnertempel</a><br>
+   <a href="#sunFactoryType">Sonnenproduktionsst?tte</a><br>
+   <a href="#windFactoryType">Windproduktionsst?tte</a><br>
+   <a href="#rainFactoryType">Regenproduktionsst?tte</a><br>
+   <a href="#thunderFactoryType">Donnerproduktionsst?tte</a><br>
+   <a href="#outpostType">Au?enposten</a><br>
+<c>Heiliger Ort:</c><br>
+   <a href="#altarType">Altar</a><br>
+<c>Hohepriester:</c><br>
+   <a href="#priestType">Hohepriester</a><br>
+<c>Energiequelle:</c><br>
+   <a href="#windbatteryType">Windgenerator</a><br>
+   <a href="#rainbatteryType">Regengenerator</a><br>
+   <a href="#thunderbatteryType">Donnergenerator</a><br>
+<c>Sturmkraftquelle:</c><br>
+   <a href="#geyserType">Sturmgeysir</a><br>
+   <a href="#nuggetType">Sturmkristall</a><br>
+<c>Br?cke:</c><br>
+   <a href="#bridgeType">Br?cke</a><br>
+<c>Gesch?tz:</c><br>
+   <a href="#suncannonType">Sonnenkanone</a><br>
+   <a href="#raincannonType">Eiskanone</a><br>
+   <a href="#thundercannonType">Donnerkanone</a><br>
+   <a href="#sunarcherType">Sonnenscheibenwerfer</a><br>
+   <a href="#windarcherType">Armbrust</a><br>
+   <a href="#thunderarcherType">Voltturm</a><br>
+<c>Luftangriff:</c><br>
+   <a href="#sunflyerType">Helibomber</a><br>
+   <a href="#windflyerType">Staubwirbel</a><br>
+   <a href="#rainflyerType">R?hrenqualle</a><br>
+<c>Luftangriffsbasis:</c><br>
+   <a href="#sunaviaryType">Helihangar</a><br>
+   <a href="#windaviaryType">Wirbelschleuder</a><br>
+   <a href="#rainaviaryType">Quallenspeier</a><br>
+<c>Verteidigung:</c><br>
+   <a href="#sunblockerType">Steinturm</a><br>
+   <a href="#windblockerType">Windturm</a><br>
+   <a href="#rainblockerType">Eisturm</a><br>
+   <a href="#thunderblockerType">Bollwerk</a><br>
+   <a href="#sunfenceType">Sonnenbarrikade</a><br>
+   <a href="#rainfenceType">S?urebarrikade</a><br>
+   <a href="#thunderfenceType">Kugelturm</a><br>
+   <a href="#edgefarmType">Klippenvegetation</a><br>
+<c>Bodentransportmedium:</c><br>
+   <a href="#sunwalkerType">Golem</a><br>
+   <a href="#windwalkerType">Segelmobil</a><br>
+   <a href="#rainwalkerType">Kristallkrabbe</a><br>
+   <a href="#bulfType">Kolossos</a><br>
+<c>Lufttransportmedium:</c><br>
+   <a href="#sunballoonType">Ballon</a><br>
+   <a href="#windballoonType">Luftschiff</a><br>
+   <a href="#rainballoonType">Wolkengleiter</a><br>
+<c>Offensivzauber:</c><br>
+   <a href="#bombExplodeSmallType">Wirbelsturm</a><br>
+   <a href="#bombExplodeMediumType">Verw?stung</a><br>
+   <a href="#bombExplodeLargeType">Dezimierung</a><br>
+   <a href="#bombTreasonType">Verrat</a><br>
+<c>Defensivzauber:</c><br>
+   <a href="#bombHardenerType">Br?ckenstabilisation</a><br>
+   <a href="#bombHealType">Heilung</a><br>
+   <a href="#bombInvisibleType">Unsichtbarkeit</a><br>
+   <a href="#bombParalyzeType">Paralyse</a><br>
+<c>Wohnhaus:</c><br>
+   <a href="#residenceType">Wohnhaus</a><br>
+<br>
+</a>
+
+<a name="daisType">
+<a name="runeType">
+<a name="altarType">
+<info>
+<q>"Er ist das Tor zu h?chstem Ruhm<br>
+und tiefstem Vergessen." -Askeld Urvonnus, Hohepriester von Nimbus</q>
+<p>
+Auf dem Altar werden die <a href="#sacrificeOutline">Opferungen</a> gefangengenommener <a href="#priestType">Priester</a> zu Ehren der <a href="#themeHelp">Furien</a> durchgef?hrt.
+<p>
+Ausschlie?lich Ihr Priester ist in der Lage, einen Altar zu errichten. Jeder Altar besitzt f?nf Runensteine - Sonne, Wind, Regen, Donner und Sturm - die w?hrend der Opferungszeremonie vom Priester beschworen werden. Nachdem alle Runensteine aktiviert sind, brechen nacheinander alle St?tzpfeiler des Altars zusammen, und der geopferte Priester st?rzt in den Abgrund.
+<p>
+Um im <a href="#campaignHelp">Kampagnen</a>-Modus eine Mission erfolgreich zu beenden, m?ssen alle feindlichen Priester geopfert werden.
+<p>
+Im <a href="multiplayerHelp">Mehrspieler</a>-Modus haben die Opferungszeremonien eine andere Bedeutung. Hier werden Sie durch die Opferungen an die Furien mit Wissen belohnt. Um Wissen ?ber leistungsf?higere Einheiten zu erhalten, m?ssen Sie Ihren Altar (durch Opferungen) erweitern. Ein erweiterter Altar (Alt?re k?nnen nacheinander um maximal zwei Level erweitert werden) bleibt auch in zuk?nftigen K?mpfen auf Ihrer Heimatinsel bestehen. (Beachten Sie bitte, da? die Erweiterung eines Altars ausschlie?lich auf Ihrer Heimatinsel m?glich ist.)  
+Die Erweiterungsstufe Ihres Altar mu? dem Level der Einheit entsprechen, ?ber die Sie Wissen von den Furien zu erlangen versuchen.
+N?here Informationen zu den diversen Einheiten und ihren unterschiedlichen Levels finden Sie in der <a href="unitHelp">Tabelle der Kampfeinheiten</a>.
+<p>
+Beachten Sie bitte, da? ein gefangener Priester, der an Ihrem Altar festgekettet ist, in dem Moment flieht, wenn der Altar durch Beschu? zerst?rt wird.
+<p>
+Siehe auch: <a href="#sacrificeOutline">Gefangennahme und Opferung eines Priesters</a>
+</a>
+</a>
+</a>
+
+<a name="priestType">
+<info>
+<q>"Wer von Euch wird sich der Furie stellen?<br>
+Wer begegnet der Heiligkeit und der Furcht?<br> 
+Und wer l??t sich vernichten?" -Die Schrift von Nimbus</q>
+<p>
+Ihr Hohepriester ist der ultimative Tr?ger des Wissens und der Macht der <a href="#themeHelp">Furien</a>.
+Er kann spezielle Geb?ude und Alt?re errichten und f?hrt auch die Opferungen feindlicher Priester zu Ehren der Furien durch.
+<p>
+Ein Priester kann einzig und allein auf einem Altar vernichtet werden. Auch durch feindlichen Beschu? kann er nicht zerst?rt, sondern lediglich paralysiert werden. Solange der Priester einen <a href="#vortexHelp">Tempel</a> besitzt, heilen die Verwundungen, die er im Kampf erleidet, immer wieder von selbst.
+<p>
+Eine besondere F?higkeit der Priester ist, da? Sie ein "Gebet" sprechen k?nnen, um mit dem <a href="#bombExplodeMediumType">Verw?stungszauber</a> erleuchtet zu werden, den sie anschlie?end f?r 100<!"fortgump.3"> anwenden k?nnen. Probieren Sie es einfach einmal aus, indem Sie Ihren Priester mit der rechten Maustaste anklicken und in dem folgenden Men? den Eintrag "Beten" ausw?hlen (nur im Mehrspieler-Modus).
+<p>
+Dr?cken Sie die Taste <c>F5</c>, um w?hrend des Kampfes die Ansicht auf Ihren Hohepriester zu fokussieren.
+<p>
+<a href="#vesselPriestHelp">Errichtung von Geb?uden und Einheiten durch einen Priester</a><br>
+<a href="#sacrificeOutline">Opferung eines Priesters f?r neues Wissen</a><br>
+</a>
+
+<a name="vesselPriestHelp">
+<h2>Errichtung von Geb?uden und Einheiten durch einen Priester</h2>
+<p>
+Ihr Hohepriester ist in der Lage, <a href="#vortexHelp">Tempel</a>, <a href="#factoryHelp">Produktionsst?tten</a> und <a href="#altarType">Alt?re</a> sowie (im <a href="#multiplayerHelp">Mehrspieler</a>-Modus) <a href="#outpostType">Au?enposten</a> auf jeder gr??eren Insel zu errichten - selbstverst?ndlich einschlie?lich Ihrer eigenen Heimatinsel. Klicken Sie ihn dazu mit der rechten Maustaste an, und w?hlen Sie dann das gew?nschte Geb?ude aus. Es wird daraufhin im Mauszeiger angezeigt und kann im Spielfeld plaziert werden. (Beachten Sie bitte, da? sich der Bauplatz in Reichweite Ihres Priesters befinden mu?.) Nachdem das Geb?ude plaziert ist, bewegt sich der Priester auf die entsprechende Stelle zu und beginnt mit der Errichtung.
+<p>
+Solange sich Ihr Priester allerdings im <a href="#immobileHelp">Paralysezustand</a> befindet, kann er keine Geb?ude errichten.
+<p>
+Wie ein <a href="#sunWalkerType">Golem</a> dient auch Ihr Priester als <a href="#transportHelp">Transportmedium</a>. Sie k?nnen ihn beauftragen, <a href="#buriedType">Zauberspr?che</a> zu erlernen und anzuwenden oder <a href="#nuggetType">Sturmkristalle</a> einzusammeln. Au?erdem versucht ein Priester, der auf einer rissigen oder einsturzgef?hrdeten <a href="#bridgeType">Br?cke</a> steht, automatisch, an einen sicheren Ort zu gelangen.
+<p>
+Siehe auch: <a href="#sacrificeOutline">Opferung eines Priester f?r neues Wissen</a><br>
+</a>
+
+<a name="themeHelp">
+<h2>Die drei Furien von Nimbus</h2>
+<p>
+Im Herzen von Nimbus tobt ein andauernder, heftiger Kampf. Hier f?hren die drei Furien Wind, Regen und Donner einen erbitterten Krieg um die Vorherrschaft ?ber das <a href="#sphereHelp">Reich</a>.
+<p>
+Durch die enorme Vehemenz ihres Kampfes werden riesige Teile der verborgenen Planetenoberfl?che in die Atmosph?re geschleudert. Auf diesen Inseln lebt das Nimbische Volk.
+<p>
+Die Furien finden gro?en Gefallen an Tod und Zerst?rung. Aus diesem Grund belohnen sie die Zerst?rung jeder feindlichen Einheit mit einem Viertel des urspr?nglichen Sturmkraftwerts dieser <a href="#unitHelp">Einheit</a> - eine Ausnahme bilden hierbei jedoch die Luftangriffseinheiten, deren Errichtung von vornherein keine Kosten verursacht.  
+<p>
+Besonders geschmeichelt f?hlen sich die Furien durch die <a href="#sacrificeOutline">Opferung eines Priesters</a> zu ihren Ehren. Solche Opfergaben belohnen sie mit einem Kampfgeschenk: dem <a href="#technologyHelp">Wissen</a>. 
+<p>
+Jede der drei Furien besitzt eine eigene konforme <a href="#influenceHelp">Energieart</a> mit einem eigenen Symbol:<br>
+<!"mana.4"> - Wind<br>
+<!"mana.5"> - Regen<br>
+<!"mana.6"> - Donner<br>
+<p>
+Das nicht-konforme, allgemeinverwendbare "Sonnenwissen" wird durch das Symbol <!"mana.7"> gekennzeichnet. <a href="#unitHelp">Sonneneinheiten</a> k?nnen jede Art von <a href="#influenceHelp">Energie</a> verwerten, sind aber verh?ltnism??ig schwach.
+<p>
+Neben dem Sonnenwissen kann Ihnen jede Furie auch ihr eigenes spezielles Wissen vermitteln. Damit dieses dann in die Produktion geleitet werden kann, um entsprechende Geb?ude bzw. Einheiten zu errichten, m?ssen Sie allerdings auch die zu der jeweiligen Furie konforme Energieart besitzen.
+<p>
+Geb?ude und Einheiten mit Wind-Konformit?t sind:<br>
+<p>
+1<!"windVortex.*">  2<!"windfactory.*">  3<!"windbattery.*"><br>
+<p>
+1) <a href="#windVortexType">Tempel</a>, in denen Wind erzeugt wird.<br>
+2) <a href="#windFactoryType">Produktionsst?tten</a>, in denen Wind-konforme Einheiten hergestellt werden.<br>
+3) <a href="#windBatteryType">Windgeneratoren</a>, die Windenergie produzieren.<br>
+4) Alle <a href="#unitHelp">Wind-konformen Einheiten</a>.<br>
+<p>
+Geb?ude und Einheiten mit Regen-Konformit?t sind:<br>
+<p>
+1<!"RainVortex.*">  2<!"Rainfactory.*">  3<!"Rainbattery.*"><br>
+<p>
+1) <a href="#RainVortexType">Tempel</a>, in denen Regen erzeugt wird.<br>
+2) <a href="#RainFactoryType">Produktionsst?tten</a>, in denen Regen-konforme Einheiten hergestellt werden.<br>
+3) <a href="#RainBatteryType">Regengeneratoren</a>, die Regenenergie erzeugen.<br>
+4) Alle <a href="#unitHelp">Regen-konformen Einheiten</a>.<br>
+<p>
+Geb?ude und Einheiten mit Donner-Konformit?t sind:<br>
+<p>
+1<!"ThunderVortex.*">  2<!"Thunderfactory.*">  3<!"Thunderbattery.*"><br>
+<p>
+1) <a href="#ThunderVortexType">Tempel</a>, in denen Donner erzeugt wird.<br>
+2) <a href="#ThunderFactoryType">Produktionsst?tten</a>, in denen Donner-konforme Einheiten hergestellt werden.<br>
+3) <a href="#ThunderBatteryType">Donnergeneratoren</a>, die Donnerenergie produzieren.<br>
+4) Alle <a href="#unitHelp">Donner-konformen Einheiten</a>.<br>
+<p>
+Obwohl das Sonnenwissen nicht an eine bestimmte Furie gebunden ist, k?nnen Sie es doch von allen drei Furien beziehen. Nat?rlich gibt es auch einige Sonnen-konforme Geb?ude und Einheiten:<br>
+1<!"sunFactory.*"><br>
+<p>
+1) <a href="#SunFactoryType">Produktionsst?tten</a>, in denen (Sonnen-)Einheiten ohne Konformit?t hergestellt werden.<br>
+2) Alle <a href="#unitHelp">Sonneneinheiten</a>.<br>
+<p>
+Siehe auch: <a href="#sacrificeOutline">Opferung eines Priesters f?r neues Wissen</a>
+<br>
+</a>
+
+<a name="unitHelp">
+<h2>Kampfeinheiten</h2>
+Die in NetStorm verf?gbaren Kampfeinheiten sind in vier Konformit?tskategorien unterteilt: Sonne, Wind, Regen und Donner. Wenn n?tig, k?nnen Einheiten durch <a href="salvageHelp">Selbstzerst?rung</a> vernichtet werden. Es gibt ein paar <a href="tacticsHelp">Grundregeln</a>, die f?r alle angreifenden Einheiten gelten.
+<p>
+<h2>Sonneneinheiten</h2>
+Level I<br>
+<a href="#sunWalkerType">* Golem</a>  /  Bodentransportmedium<br>
+<a href="#sunArcherType">* Sonnenscheibenwerfer</a>  /  Gesch?tz<br>
+<a href="#sunCannonType">* Sonnenkanone</a>  /  Gesch?tz<br>
+<a href="#sunBlockerType">* Steinturm</a>  /  Verteidigung<br>
+<a href="#sunFenceType">* Sonnenbarrikade</a> / Verteidigung<br>
+Level II<br>
+<a href="#sunFlyerType">* Helibomber</a>  /  Luftangriff<br>
+<a href="#sunAviaryType">* Helihangar</a>  /  Luftangriffsbasis<br>
+<a href="#sunBalloonType">* Ballon</a>  /  Lufttransportmedium<br>
+<p>
+<h2>Windeinheiten</h2>
+Level I<br>
+<a href="#windBatteryType">* Windgenerator</a>  /  Energiequelle<br>
+<a href="#windWalkerType">* Segelmobil</a>  /  Bodentransportmedium<br>
+Level II<br>
+<a href="#windArcherType">* Armbrust</a>  /  Gesch?tz<br>
+<a href="#windBlocker">* Windturm</a>  /  Verteidigung<br>
+Level III<br>
+<a href="#windFlyerType">* Staubwirbel</a>  /  Luftangriff<br>
+<a href="#windAviaryType">* Wirbelschleuder</a>  /  Luftangriffsbasis<br>
+<a href="#windBalloonType">* Luftschiff</a>  /  Lufttransportmedium<br>
+
+<p>
+<h2>Regeneinheiten</h2>
+Level I<br>
+<a href="#rainBatteryType">* Regengenerator</a>  /  Energiequelle<br>
+<a href="#rainFenceType">* S?urebarrikade</a>  /  Verteidigung<br>
+Level II<br>
+<a href="#rainWalkerType">* Kristallkrabbe</a>  /  Bodentransportmedium<br>
+<a href="#rainBlockerType">* Eisturm</a>  /  Verteidigung<br>
+<a href="#rainCannonType">* Eiskanone</a>  /  Gesch?tz<br>
+Level III<br>
+<a href="#rainFlyerType">* R?hrenqualle</a>  /  Luftangriff<br>
+<a href="#rainAviaryType">* Quallenspeier</a>  /  Luftangriffsbasis<br>
+<a href="#rainBalloonType">* Wolkengleiter</a>  /  Lufttransportmedium<br>
+
+<p>
+<h2>Donnereinheiten</h2>
+Level I<br>
+<a href="#thunderBatteryType">* Donnergenerator</a>  /  Energiequelle<br>
+<a href="#bulfType">* Kolossos</a>  /  Bodentransportmedium<br>
+Level II<br>
+<a href="#thunderCannonType">* Donnerkanone</a>  /  Gesch?tz<br>
+<a href="#thunderFence">* Kugelturm</a>  /  Verteidigung<br>
+<a href="#thunderBlockerType">* Bollwerk</a>  /  Verteidigung<br>
+Level III<br>
+<a href="#thunderArcher">* Voltturm</a>  /  Gesch?tz<br>
+<p>
+<a href="#statsHelp">Informationen ?ber Einheiten</a><br>
+<a href="#themeHelp">Andere Einheiten und deren Konformit?ten</a>
+<br>
+</a>
+
+<a name="rainVortexType">
+<a name="windVortexType">
+<a name="thunderVortexType">
+<a name="vortexHelp">
+<info>
+<q>Das Blut der heiligen M?nner ist das Elixier des Schicksals.</q>
+<p>
+<a href="#rainVortexType">Regentempel</a><br>
+<a href="#windVortexType">Windtempel</a><br>
+<a href="#thunderVortexType">Donnertempel</a><br>
+<p>
+Der Tempel ist die <a href="#influenceHelp">Energie</a>zentrale jeder Insel.  
+Wie oben angegeben, gibt es drei Arten von Tempeln.
+<p>
+Solange Ihr Tempel existiert, verheilen die Wunden, die Ihr <a href="#priestType">Priester</a> w?hrend des Kampfes erlitten hat, von selbst. Abgesehen davon erf?llt der Tempel folgende Zwecke:
+<p>
+1. Sie d?rfen von der Insel aus, auf der sich der Tempel befindet, abgehende Br?cken errichten.
+<br>
+2. Die Insel ist f?r die Errichtung feindlicher Geb?ude tabu. Keiner Ihrer Gegner kann auf dieser Insel irgend etwas bauen.
+<br>
+3. Transportmedien liefern die eingesammelten Sturmkristalle im Tempel ab, wo sie dann in Sturmkraft umgewandelt werden.
+<p>
+Dasselbe gilt ?brigens auch f?r die <a href="outpostType">Au?enposten</a> - spezielle, hilfreiche Einheiten, die nur im <a href="multiplayerHelp">Mehrspieler-Modus</a> verf?gbar sind.
+<p>
+Dr?cken Sie die Taste <c>F4</c>, um w?hrend des Kampfes die Ansicht auf Ihren eigenen Tempel zu fokussieren.
+<p>
+N?here Informationen zum Einsatz von Tempeln finden Sie unter:<br>
+<a href="#spVortexHelp">Sturmkraftgewinnung</a><br>
+<a href="#golemVortexHelp">Herstellung von Golems</a><br>
+<a href="#influenceVortexHelp">Energieerzeugung</a><br>
+</a>
+</a>
+</a>
+</a>
+
+<a name="spVortexHelp">
+<h2>Der Tempel:<br>Sturmkraftgewinnung</h2>
+<p>
+W?hrend des Kampfes wird im Tempel <a href="#moneyHelp">Sturmkraft</a> erzeugt und in eine weiterverwendbare Form verarbeitet. Ohne einen Tempel ist die Erzeugung bzw. Verarbeitung von Sturmkraft nicht m?glich.
+<p>
+Sturmkraft wird in Form von <a href="#nuggetType">Sturmkristallen</a> aus <a href="#geyserType">Sturmgeysiren</a> abgebaut.
+<p>
+Siehe auch: <a href="#golemVortexHelp">Herstellung von Golems</a><br>
+<br>
+</a>
+
+<a name="golemVortexHelp">
+<h2>Der Tempel:<br>Herstellung von Golems</h2>
+<p>
+Mit Hilfe der Tempel werden <a href="#sunWalkerType">Golems</a> produziert, die auf Ihrer neuen Insel als <a href="#transportHelp">Transportmedien</a> dienen.
+<p>
+Nachdem Sie in die <a href="#pyrosphereHelp">Pyrosph?re</a> hinabgestiegen sind, um sich in den Kampf zu begeben, wird in Ihrem <a href="#teleportViewHelp">Produktionsfenster</a> ein Golem angezeigt. Sofern Sie gen?gend <a href="#moneyHelp">Sturmkraft</a> besitzen, k?nnen Sie beliebig viele Golems produzieren.
+<p>
+Siehe auch: <a href="#influenceVortexHelp">Energieerzeugung</a><br>
+<br>
+</a>
+
+<a name="influenceVortexHelp">
+<h2>Der Tempel:<br>Energieerzeugung</h2>
+<p>
+Um in Nimbus jegliche Art von Geb?ude oder Einheit errichten zu k?nnen, mu? zun?chst die Versorgung mit geeigneter <a href="#influenceHelp">Energie</a> gesichert sein. Der Tempel stellt eine von zwei Energiequellen dar. Er liefert die ben?tigte Energie f?r alle Geb?ude und Einheiten, die Sie auf Ihrer Heimatinsel errichten wollen, seien es Golems, Produktionsst?tten oder auch <a href="#unitHelp">Kampfeinheiten</a>.
+<p>
+Um sich seine Energiereichweite anzeigen zu lassen, klicken Sie Ihren Tempel mit der linken Maustaste an.
+<p>
+<a href="#vortexHelp">Zur?ck zur Tempel-Hilfe</a>
+</a>
+
+<a name="serverHelp">
+<h2>NetStorm-Server</h2>
+<p>
+
+[[ DO NOT TRANSLATE YET ]]
+
+Here is what a NetStorm server is:
+
+Here is how a local server works:
+
+Here is how an internet server works:
+
+If you have trouble use the troubleshooting guide.
+
+</a>
+
+[[CONTINUE TRANSLATING HERE.]]
+
+<a name="edgeFarmType">
+<info>
+<q>"In anderen Kulturen ist das Pfl?gen nicht so eine gef?hrliche Sache." -Pavel Milyukov, Nimbischer Farmer</q>
+<p>
+An den Stellen, an denen Klippenvegetation vorhanden ist, k?nnen keine <a href="#bridgeType">Br?cken</a> angelegt werden. Auf diese Weise werden feindliche Vorst??e auf Ihre Insel vereitelt - andererseits sind aber auch Ihre eigenen Bem?hungen, an diesen Stellen abgehende Br?cken zu errichten, vergebens.
+<p>
+Die Bewohner von Nimbus bauen Ihre Nahrung in den Klippenbereichen der Inseln an, so da? die Inseloberfl?chen f?r Bauzwecke frei bleiben.
+<br>
+</a>
+
+<a name="obeliskType">
+<a name="buriedType">
+<a name="bombHelp">
+<h2>Zauberspr?che</h2>
+<p>
+<q>"Sie geben dem Gemetzel eine gewisse W?rze." -Oltor Hammershold, Nimbischer Feldkoch</q>
+<p>
+Transportmedien k?nnen Zauberspr?che mit erstaunlichen Kr?ften erlernen und auch anwenden.
+<p>
+Zauberspr?che sind auf Obelisken eingemei?elt. Klicken Sie Ihr Transportmedium mit der linken Maustaste an, und positionieren Sie den Mauszeiger anschlie?end auf einen Obelisken. Sobald der Mauszeiger die Form einer Hand annimmt, klicken Sie erneut die linke Maustaste. Ihr Transportmedium macht sich daraufhin auf den Weg zu dem Obelisken und erlernt den Zauberspruch. 
+Jedes Transportmedium kann immer nur einen Zauberspruch besitzen. Wenn ein Transportmedium einen Zauberspruch erlernt hat, wird dies durch ein kleines Symbol angezeigt, das auf dem Transportmedium erscheint.
+<p>
+Vorausgesetzt, es ist gen?gend Sturmkraft verf?gbar, kann ein Transportmedium einen erlernten Zauberspruch beliebig oft anwenden. Der Zauber bleibt solange im Besitz des Transportmediums, bis es zerst?rt wird oder einen anderen Zauber erlernt, der dann den vorigen Zauberspruch ersetzt. Um sich die Reichweite des Zauberspruchs anzeigen zu lassen, klicken Sie das Transportmedium mit der linken Maustaste an. Um den Zauberspruch anzuwenden, klicken Sie das Transportmedium mit der rechten Maustaste an.
+<p>
+W?hrend der Anwendung des Zauberspruchs bleibt das Transportmedium so lange unbeweglich, bis der Zauber vollst?ndig ausgef?hrt ist. Dieser Vorgang dauert einige Sekunden.  
+<p>
+Im <a href="#multiplayerHelp">Mehrspieler</a>-Modus kommen Zauberspr?che h?ufiger zum Einsatz als im Kampagnen-Modus.
+<p>
+Zauberspr?che haben keine Auswirkungen auf diejenigen, die sie anwenden.
+<p>
+In NetStorm verf?gbare Zauberspr?che sind:<br>
+<!"bombExplodeSmall.1"><a href="#bombExplodeSmallType">Wirbelsturm</a><br>
+<!"bombExplodeMedium.1"><a href="#bombExplodeMediumType">Verw?stung</a><br>
+<!"bombExplodeLarge.1"><a href="#bombExplodeLargeType">Dezimierung</a><br>
+<!"bombHardener.1"><a href="#bombHardenerType">Br?ckenstabilisation</a><br>
+<!"bombHeal.1"><a href="#bombHealType">Heilung</a><br>
+<!"bombInvisible.1"><a href="#bombInvisibleType">Unsichtbarkeit</a><br>
+<!"bombParalyze.1"><a href="#bombParalyzeType">Paralyse</a><br>
+<!"bombTreason.1"><a href="#bombTreasonType">Verrat</a><br>
+<br>
+</a>
+</a>
+</a>
+
+<a name="bombExplodeSmallType">
+<info>
+<q>"Ich glaube 'niedlich' ist nicht ganz der richtige Ausdruck daf?r." -Ervin Grots, Lehrling</q>
+<p>
+<!"bombExplodeSmall.1">
+<br>
+Dieser <a href="#buriedType">Zauber</a> zerst?rt alles, was sich in seiner Reichweite befindet.<br>
+</a>
+
+<a name="bombExplodeMediumType">
+<a name="bombSpecialOneType">
+<info>
+<q>"F?r das allt?gliche Chaos ist er optimal geeignet." -Telsen Rott</q>
+<p>
+<!"bombExplodeMedium.1">
+<br>
+Dieser <a href="#buriedType">Zauber</a> zerst?rt alles, was sich in seiner Reichweite befindet.<br>
+</a>
+</a>
+
+<a name="bombExplodeLargeType">
+<info>
+<q>"Lauf! Schneller!" -Captain Knut Hamsun, Nimbisches Opfer</q>
+<p>
+<!"bombExplodeLarge.1">
+<br>
+Dieser <a href="#buriedType">Zauber</a> zerst?rt alles, was sich in seiner Reichweite befindet.<br>
+</a>
+
+<a name="bombHardenerType">
+<info>
+<q>"Der M?rtel entwickelt ein teuflisches Eigenleben." -Hule Gundersun, Steinmetzmeister</q>
+<p>
+<!"bombHardener.1">
+<br>
+Dieser <a href="#buriedType">Zauber</a> macht alle in Reichweite befindlichen <a href="#bridgeType">Br?cken</a> unzerst?rbar.<br>
+</a>
+
+<a name="bombHealType">
+<info>
+<q>"Und Deine Krankheit war eine Illusion.<br>  
+Und Dein Fieber war ein Traum." -Die Schrift von Nimbus</q>
+<p>
+<!"bombHeal.1">
+<br>
+Dieser <a href="#buriedType">Zauber</a> wirkt auf alle in Reichweite befindlichen Einheiten und setzt die Anzahl der Treffer, die diese Einheiten jeweils verkraften k?nnen, wieder auf die Ursprungswerte zur?ck. Des weiteren kann mit diesem Zauber die <a href="#bombParalyzeType">Paralyse</a> und auch der <a href="#bombInvisibleType">Unsichtbarkeitszauber</a> aufgehoben werden.<br>
+</a>
+
+<a name="bombInvisibleType">
+<info>
+<q>"Es handelt sich nicht um etwas, das Sie nicht sehen, sondern etwas, das Ihre Augen nicht wahrnehmen." -Luffor Haginit, Nimbischer Logiker</q>
+<p>
+<!"bombInvisible.1">
+<br>
+Dieser <a href="#buriedType">Zauber</a> macht alle Einheiten innerhalb seiner Reichweite unsichtbar. Beachten Sie bitte, da? unsichtbare Einheiten weder als Ziel erfa?t noch aufgenommen werden k?nnen. Unsichtbare Verteidigungseinheiten wehren eingehende Geschosse zwar nach wie vor ab, aber alle anderen Einheiten, die vorher als Ziel erfa?t waren, sind in unsichtbarem Zustand keine Zielobjekte mehr.<br>
+</a>
+
+<a name="bombParalyzeType">
+<info>
+<q>"V?llige Harmonie mit dem Kosmos." -Dag Haverlink, Nimbischer Stratege</q>
+<p>
+<!"bombParalyze.1">
+<br>
+Dieser <a href="#buriedType">Zauber</a> stoppt alle Bewegungen und Aktionen innerhalb seiner Reichweite. Keines der betroffenen <a href="#TransportHelp">Transportmedien</a> ist dadurch mehr in der Lage, seinen eigenen Zauberspruch anzuwenden. Paralysierte Einheiten k?nnen anhand des daneben angezeigten Zaubersymbols von anderen Einheiten unterschieden werden.<br>
+</a>
+
+<a name="bombTreasonType">
+<info>
+<q>"Der glanzvollste Sieg ?ber jeden Feind ist es, seine rechte Hand dazu zu ?berreden, seine linke Hand abzuhacken." -General Greig Hamlinken</q>
+<p>
+<!"bombTreason.1">
+<br>
+Dieser <a href="#buriedType">Zauber</a> verschafft dem Anwender die Kontrolle ?ber alle Einheiten, einschlie?lich der <a href="#bridgeType">Br?cken</a>, die sich innerhalb der Reichweite des Zauberspruchs befinden. Dies gilt, abgesehen von den <a href="#PriestType">Priestern</a>, auch f?r alle <a href="#transportHelp">Transportmedien</a>.<br>
+</a>
+
+<a name="residenceType">
+<info>
+<q>"Ich h?tte nichts dagegen, an der Oberfl?che zu leben, wenn die Kriegsgesch?tze nicht immer wieder mein Haus niederbrennen w?rden." -Damon Runyon, normaler B?rger</q>
+<p>
+Um dem Kriegsgeschehen zu entgehen, leben die Nimber in halbunterirdischen H?usern. Diese Wohnh?user k?nnen weder bewegt noch zerst?rt werden, noch kann etwas auf ihnen errichtet werden.
+<br>
+</a>
+
+<a name="influenceHelp">
+<h2>Energie</h2>
+<p>
+Um w?hrend des Kampfes <a href="#unitHelp">Einheiten</a> errichten zu k?nnen, mu? die erforderliche Energieversorgung sichergestellt sein. Es gibt drei Energiearten, die sowohl in <a href="#vortexHelp">Tempeln</a> als auch mit Hilfe von "Generatoren" erzeugt werden:<br>
+<!"mana.4"> - Windenergie aus <!"windvortex.*"> und <!"windbattery.*"><br>
+<!"mana.5"> - Regenenergie aus <!"rainvortex.*"> und <!"rainbattery.*"><br>
+<!"mana.6"> - Donnerenergie aus <!"thundervortex.*"> und <!"thunderbattery.*"><br>
+<p>
+<b>Energieversorgung zur Errichtung von Einheiten</b>
+<p>
+Die neben dem zu errichtenden Objekt angezeigten Symbole beschreiben die f?r den Bau ben?tigte Energieart/en. So bedeutet beispielsweise
+<br>
+<!"mana.2"><!"thunderCannon.0">
+<p>
+da? f?r die Errichtung dieser Donnerkanone eine Einheit Donnerenergie erforderlich ist - es mu? sich also entweder ein Donnertempel oder ein <a href="#thunderbatteryType">Donnergenerator</a> in der N?he befinden.
+<p>
+Wird neben der zu errichtenden Einheit das Symbol f?r Sonnenenergie -  <!"mana.3">  - angezeigt, kann <i>jegliche</i> Energieart die genutzt werden, um diese Einheit errichten zu k?nnen. Beispielsweise bedeutet
+<br>
+<!"mana.3"><!"sunCannon.0">
+<p>
+da? f?r die Errichtung dieser Sonnenkanone eine <i>beliebige</i> Energieeinheit, sei es Regen-, Wind-, Donner- oder auch Sonnenenergie, verwendet werden kann.
+<p>
+Klicken Sie Ihre Tempel und Generatoren mit der linken Maustaste an, um festzustellen, welche Energieart von ihnen erzeugt wird.
+<br>
+</a>
+
+<a name="factoryHelp">
+<a name="sunFactoryType">
+<a name="windFactoryType">
+<a name="rainFactoryType">
+<a name="thunderFactoryType">
+<info>
+<q>"Das Nimbische Talent f?r komplexe Mechanik ist einfach un?bertroffen." -Nimbischer Mechaniker</q>
+<p>
+In Produktionsst?tten werden <a href="#unitHelp">Kampfeinheiten</a> hergestellt.
+<p>
+Mit dem <a href="#technologyHelp">Wissen</a>, das Sie durch die Opferung feindlicher <a href="#priestType">Hohepriester</a> erworben haben, errichten Sie w?hrend des Kampfes entsprechende Produktionsst?tten, in denen dann Kampfeinheiten gem?? der verf?gbaren Wissensarten hergestellt werden. Das einmal erworbene Wissen behalten Sie auch ?ber alle zuk?nftigen K?mpfe hinaus, so da? sich die Vielfalt und Leistungsf?higkeit Ihrer Einheiten im Laufe der Zeit steigert.
+<p>
+In jeder Produktionsst?tte kann nur eine begrenzte Anzahl von Einheiten hergestellt werden. Sie sollten deshalb sorgf?ltig abw?gen, welche Einheiten Sie produzieren!
+<p>
+Eine neue Level-I-Produktionsst?tte verf?gt ?ber zwei "Produktionspl?tze", von denen einer belegt wird, wenn Sie Wissen in die Produktion leiten. Wurde ein bestimmtes Wissen zwecks Herstellung der entsprechenden Einheit einmal in die Produktion geleitet, kann diese Auswahl im nachhinein nicht mehr ge?ndert werden.
+<p>
+<I>Aber</I>: Mit jeder <a href="#upgradeHelp">Erweiterung</a> einer Produktionsst?tte kommt ein Produktionsplatz hinzu. Eine Erweiterung kostet einen bestimmten Betrag an <a href="#moneyHelp">Sturmkraft</a>.
+<p>
+Nach der Plazierung einer Einheit auf dem Spielfeld sendet die Produktionsst?tte einen Sturmkraftstrahl an die entsprechende Stelle aus. In dem Moment, wo der Strahl auf die f?r die Versorgung der Einheit passende <a href="#influenceHelp">Energieart</a> trifft, wird die Einheit schlie?lich errichtet. Wird w?hrenddessen jedoch die Produktionsst?tte zerst?rt, kann von dem, was sich zu diesem Zeitpunkt in Produktion befand, nichts mehr hergestellt werden, bis eine neue Produktionsst?tte gebaut ist, um die alte zu ersetzen.
+<br>
+</a></a></a></a></a>
+
+<a name="upgradeHelp">
+<h2>Produktionsst?tten erweitern</h2>
+<p>
+<q>"Mehr Kraft, mehr Geschwindigkeit. Noch mehr Kraft, Lichtgeschwindigkeit!" -Spen Lodel, J?nger der Sonne</q>
+<p>
+Durch die Erweiterung einer Produktionsst?tte haben Sie die M?glichkeit, neue <a href="#unitHelp">Kampfeinheiten</a> herzustellen.
+<p>
+Wenn Sie eine Produktionsst?tte erweitern, werden dort zus?tzliche Produktionspl?tze geschaffen. Um festzustellen, wieviel <a href="#moneyHelp">Sturmkraft</a> die Erweiterung kosten w?rde, klicken Sie die gew?nschte <a href="#factoryHelp">Produktionsst?tte</a> mit der rechten Maustaste an. 
+<p>
+Jede Produktionsst?tte kann bis zu zweimal erweitert werden. 
+<br>
+</a>
+
+<a name="researchHelp">
+<a name="technologyHelp">
+<h2>Wissen</h2>
+<p>
+<q>"Man kann in ihren aufgeschlitzten B?uchen lesen wie ein Elektriker in einem Schaltplan."<br>
+- Haldor Hurlmen, Nimbischer Hohepriester und Maschinenbauingenieur</q>
+<p>
+Wissen verleiht Ihnen die F?higkeit, <a href="#unitHelp">Kampfeinheiten</a> zu bauen. Im <a href="multiQuickHelp">Mehrspieler</a>-Modus bleibt Ihr angesammeltes Wissen durch alle Online-K?mpfe hindurch erhalten.
+<p>
+Nachdem Sie durch die <a href="#sacrificeOutline">Opferung von Hohepriestern</a> Wissen erworben haben, k?nnen Sie es in die Produktion einer beliebigen <a href="#factoryHelp">Produktionsst?tte</a> mit passender 
+<a href="#themeHelp">Konformit?t</a> leiten.
+<p>
+Zu Beginn des Spiels erhalten Sie das Wissen ?ber die <a href="#sunarcherType">
+Sonnenscheibenwerfer</a> und die <a href="#suncannontype">Sonnenkanonen</a>, die Sie sogleich in die Produktion Ihrer ersten Produktionsst?tte leiten k?nnen. Um weiteres Wissen zu erlangen, m?ssen Sie zun?chst die <a href="#sacrificeOutline">Opferung</a> feindlicher Priester durchf?hren.  
+<p>
+Sobald Sie im Austausch f?r das gew?nschte Wissen einige Priester geopfert haben, steht Ihnen dieses Wissen unmittelbar nach der Errichtung einer passenden Produktionsst?tte zur Verf?gung.  
+<p>
+Hier ein Beispiel: Sie opfern drei Priester im Austausch f?r das Wissen ?ber Donnerkanonen. Sobald Sie jetzt eine Donnerproduktionsst?tte errichten, k?nnen Sie einen Ihrer Produktionspl?tze zur Produktion von Donnerkanonen nutzen.
+<p>
+Wenn Sie aber eine Windproduktionsst?tte errichten, k?nnen Sie dort keine Donnerkanonen herstellen. In jeder Produktionsst?tte k?nnen immer nur der jeweiligen Konformit?t entsprechende Einheiten hergestellt werden: Sonnen-konforme Einheiten in Sonnenproduktionsst?tten, Donner-konforme Einheiten in Donnerproduktionsst?tten etc.
+<p>
+Wenn alle verf?gbaren Produktionspl?tze einer Produktionsst?tte belegt sind, ist es an der Zeit, entweder eine weitere Produktionsst?tte zu errichten oder die existierende Produktionsst?tte zu <a href="#upgradeHelp">erweitern</a>, um zus?tzliche Produktionspl?tze f?r neues Wissen zu schaffen.
+<p>
+Siehe auch: <a href="#factoryHelp">Produktionsst?tten</a>
+<p>
+Siehe auch: <a href="#sacrificeOutline">Opferung von Priestern f?r neues Wissen</a>
+<br>
+</a>
+</a>
+
+<a name="geyserType">
+<a name="emptyGeyserType">
+<info>
+<q>Die Entstehung der Kristalle in einem Geysir zu beobachten, ist, als ob man zusieht, wie wei?es Feuer zu Eis wird.</q>
+<p>
+Sturmgeysire erzeugen <a href="#stormpowerHelp">Sturmkraft</a> in Form von <a href="#nuggetType">Sturmkristallen</a>, die von Ihren <a href="#transportHelp">Transportmedien</a> abgebaut werden k?nnen. 
+<p>
+Zu Beginn jedes Kampfes erscheinen zun?chst mehrere Geysirplattformen. Im Laufe der Zeit wird durch den gewaltigen Kampf der <a href="#themeHelp">Furien</a>, der unterhalb des Wolkenreichs tobt, immer wieder Sturmkraft nach oben geschleudert, die dort dann weitere Geysire entstehen l??t. Jedes Mal, wenn ein Geb?ude oder eine Einheit zerst?rt wird, gelangt ein Teil der Energie wieder in das Kampfgeschehen der Furien hinunter, und kommt sp?ter in Form von Geysirplattformen wieder zur?ck.
+<p>
+Ein <a href="#TransportHelp">Boden- oder Lufttransportmedium</a>, das beauftragt wurde, Sturmkristalle aus einem Geysir abzubauen, f?hrt diese T?tigkeit so lange aus, bis der Geysir leer ist.
+<br>
+</a>
+</a>
+
+<a name="nuggetType">
+<info>
+<q> Die Entstehung der Kristalle in einem Geysir zu beobachten, ist, als ob man zusieht, wie wei?es Feuer zu Eis wird.</q>
+<p>
+Sturmkristalle, eine komprimierte Form von <a href="#stormpowerHelp">Sturmkraft</a>, werden von <a href="#geyserType">Sturmgeysiren</a> freigesetzt. 
+<p>
+Ein <a href="#TransportHelp">Boden- oder Lufttransportmedium</a>, das beauftragt wurde, Sturmkristalle aus einem Geysir abzubauen, f?hrt diese T?tigkeit so lange aus, bis der Geysir leer ist.
+<br>
+</a>
+
+<a name="sunArcherType">
+<info>
+<q>"Die Dummen werden von den Sonnenscheibenwerfern enthauptet." -Major Tomas Rultoff</q>
+<p>
+Der Sonnenscheibenwerfer feuert innerhalb einer geringen Reichweite in alle Richtungen. Er eignet sich hervorragend zur Verteidigung gegen Luftangriffseinheiten.
+<p>
+Ein kraftvoller Rotorarm schleudert explosive Wurfscheiben ?u?erst zielgenau auf anfliegende Einheiten.
+</a>
+
+<a name="sunAviaryType">
+<info>
+<q>Nur ein Dach aus Gold k?nnte sich mit dem glei?enden Schein eines Helibombers messen.</q>
+<p>
+Im Helihangar werden <a href="#sunFlyerType">Helibomber</a> - effektive Luftangriffseinheiten - produziert und aufgetankt.  
+<p>
+Wird der Hangar zerst?rt, haben die Helibomber keine M?glichkeit mehr, sich zu regenerieren. F?r jeden vernichteten Helibomber wird im Helihangar sogleich ein neuer produziert.
+<p>
+Hinweis: Eine Einheit kann von maximal drei Luftangriffseinheiten gleichzeitig angegriffen werden, Bodentransportmedien k?nnen sogar nur von jeweils einer Luftangriffseinheit unter Beschu? genommen werden.
+</a>
+
+<a name="sunFlyerType">
+<info>
+<q>"Dieses Ger?t basiert auf seiner eigenen Unm?glichkeit, und so zerst?rt es durch die Kraft der Negation." -Jakob Hammersholt, Erfinder des Helibombers</q>
+<p>
+Helibomber fliegen in feindliches Territorium und greifen dort mit verheerender Zerst?rkraft die feindlichen Einheiten aus der Luft an.
+<p>
+Nachdem die Helibomber vom <a href="#sunAviaryType">Helihangar</a> freigegeben wurden, vernichten sie ein Ziel nach dem anderen, so lange, bis sie selbst zerst?rt werden. Allerdings m?ssen Helibomber einmal pro Minute aufgetankt werden. Sie k?nnen nicht als Transportmedien eingesetzt werden.
+<p>
+Ein weiterer Hinweis: Ein Helibomber greift keine <a href="#transporthelp">Transportmedien</a> an.
+<p>
+Hinweis: Eine Einheit kann von maximal drei Luftangriffseinheiten gleichzeitig angegriffen werden, Bodentransportmedien k?nnen sogar nur von jeweils einer Luftangriffseinheit unter Beschu? genommen werden.
+</a>
+
+<a name="sunBlockerType">
+<info>
+<q>Steint?rme sch?pfen ihre Kraft aus ihrem Innern. Die Erbauer lassen ihre St?rke und ihren Mut in den Turm einflie?en, indem sie in jede dritte Steinreihe den K?rper eines mutigen Mannes einmauern.</q>
+<p>
+Der Steinturm ist eine Verteidigungseinheit. Wird er in die Schu?linie einer angreifenden Einheit plaziert, f?ngt er die eingehenden Geschosse ab.
+</a>
+
+<a name="sunCannonType">
+<info>
+<q>"Es gibt zwei Dinge im Leben, die man nicht ignorieren kann: zum einen eine Kanone und zum anderen eine Kanonenkugel." -Commander Petrik 'der Bomber' Lombard</q>
+<p>
+Die Sonnenkanone <a href="#shooterHelp">schie?t</a> geradlinig nach Norden, S?den, Osten und Westen.  
+<p>
+Sie verursacht im Vergleich zu einem <a href="#sunArcherType">Sonnenscheibenwerfer</a> mehr Schaden und kann auch mehr Treffer verkraften, aber leider feuert sie langsamer. Um ein feindliches Ziel zu erfassen, mu? sich die Sonnenkanone um die eigene Achse drehen.
+</a>
+
+<a name="sunBalloonType">
+<info>
+<q>"Lektion 1: Finde den wunden Punkt eines jungen Giganten der L?fte..."<br> -Aus dem Handbuch der Ballonbauer von Halldor Laxness</q>
+<p>
+Der Ballon ist ein <a href="#transportHelp">Lufttransportmedium</a>, das sich ideal dazu eignet, <a href="#stormpowerhelp">Sturmkraft</a> abzubauen, <a href="#priestType">Hohepriester</a> gefangenzunehmen und <a href="#buriedType">Zauberspr?che</a> zu erlernen und anzuwenden.
+<p>
+Aufgrund seiner Flugf?higkeit braucht der Ballon keine <a href="#bridgeType">Br?cken</a>, um sich fortbewegen zu k?nnen. Sie sollten ihn aber dennoch nur bedacht einsetzen: Schon wenige Treffer gen?gen, und er platzt wie eine Seifenblase.
+<p>
+Beachten Sie bitte: Transportmedien k?nnen nicht gleichzeitig einen Priester und einen Sturmkristall transportieren.
+</a>
+
+<a name="sunFenceType">
+<info>
+<q>"Zwischen Nimbus und dem Jenseits befindet sich eine endlose brennende Barriere." -Die Schrift von Nimbus</q>
+<p>
+Die Sonnenbarrikade wehrt eingehende feindliche Geschosse ab.
+<p>
+Zwei Barrikadeneinheiten, die in direkter horizontaler oder vertikaler Linie aufgestellt werden, erzeugen zwischen sich ein Kraftfeld, das eingehende Geschosse abf?ngt. Dahinter befindliche eigene <a href="#shooterHelp">Gesch?tze</a> k?nnen jedoch durch das Kraftfeld hindurch feuern.
+</a>
+
+<a name="sunWalkerType">
+<info>
+<q>"Golems sind schwerf?llig, dumm, humorlos, und sie riechen streng. In Kriegszeiten sind sie allerdings die besten Freunde, die man sich nur w?nschen kann." -Major Tane Russo</q>
+<p>
+Der Golem ist ein <a href="#transportHelp">Bodentransportmedium</a>, das sich ideal dazu eignet, <a href="#stormpowerhelp">Sturmkraft</a> abzubauen, <a href="#priestType"> Hohepriester</a> gefangenzunehmen und <a href="#buriedType">Zauberspr?che</a> zu erlernen und anzuwenden.
+<p>
+Dieser ?bernat?rliche Befehlsempf?nger wird vom Tempel produziert, um Ihnen zu dienen. Der Golem ist ein pers?nliches Geschenk der <a href="#themeHelp">Furien</a>.
+<p>
+Beachten Sie bitte: <a href="#sunWalkerType">Golems</a> sind dumm und laufen geradewegs ?ber eine rissige, einsturzgef?hrdete Br?cke hin?ber. Alle anderen Transportmedien bleiben stehen bzw. bringen sich in Sicherheit, bevor sie in den Tod st?rzen.
+<p>
+Beachten Sie bitte: Transportmedien k?nnen nicht gleichzeitig einen Priester und einen Sturmkristall transportieren.
+</a>
+
+<a name="windArcherType">
+<info>
+<q>"Bogengeschosse sollten hundert Pfund wiegen und gut ausbalanciert sein. Die Bogenspannung ist gut justiert, wenn der Bogen in den Nimbischen Wind gehalten wird und ein Fis-Ton ?ber dem mittleren C erklingt." -Aus dem Sechsten Bogensch?tzenhandbuch</q>
+<p>
+Die Armbrust ist ein <a href="#shooterHelp">Gesch?tz</a> mit automatischer Zielerfassung.
+<p>
+Klicken Sie vor der Plazierung einer Armbrust die rechte Maustaste, um ihre Schu?richtung in eine der vier Himmelsrichtungen auszurichten. Die Armbrust zielt auf das in einem Bogenwinkel am n?chsten gelegene Objekt. Sie ist eine wertvolle Luftabwehrwaffe mit gro?er Schu?kraft.
+</a>
+
+<a name="windAviaryType">
+<info>
+<q>"Und wieder bin ich bei meinen Experimenten mit der Wirbelschleuder in eine Sackgasse geraten: Heute hat sie die gesamte Insel wie ein Federbett aufgewirbelt, Tiere und kleine Kinder erfa?t und in den Abgrund geschleudert. Ich mu? die Konstruktion nochmals ?berdenken." -Tagebucheintrag, Dr. Dere Dulkus</q>
+<p>
+In der Wirbelschleuder werden unberechenbare <a href="#windFlyerType">Staubwirbel</a> - effektive Luftangriffseinheiten - generiert und gespeist.
+<p>
+Wenn Sie eine Wirbelschleuder zerst?ren, werden die daraus abgegebenen Staubwirbel funktionsunf?hig. Ist die Wirbelschleuder allerdings intakt, wird f?r jeden zerst?rten Staubwirbel sogleich ein neuer produziert.
+<p>
+Hinweis: Eine Einheit kann von maximal drei Luftangriffseinheiten gleichzeitig angegriffen werden, Bodentransportmedien k?nnen sogar nur von jeweils einer Luftangriffseinheit unter Beschu? genommen werden.
+</a>
+
+<a name="windFlyerType">
+<info>
+<q>"Inmitten des Geheuls eines Staubwirbels vernahm der Verdammte seinen Namen." -Nimbische Redewendung</q>
+<p>
+Staubwirbel wirbeln in feindliches Territorium und greifen dort mit verheerender Zerst?rkraft die feindlichen Einheiten aus der Luft an.
+<p>
+Sobald sie sich ?ber <a href="#bridgeType">Br?cken</a> hinwegbewegen, bersten sie sie. Ein Staubwirbel rotiert zehn Sekunden lang und regeneriert sich alle zwanzig Sekunden in der <a href="#windAviaryType">Wirbelschleuder</a>. Staubwirbel k?nnen nicht als <a href="#transportHelp">Transportmedien</a> eingesetzt werden.
+<p>
+Hinweis: Eine Einheit kann von maximal drei Luftangriffseinheiten gleichzeitig angegriffen werden, Bodentransportmedien k?nnen sogar nur von jeweils einer Luftangriffseinheit unter Beschu? genommen werden.
+</a>
+
+<a name="windBatteryType">
+<info>
+<q>"Mit hundert Windgeneratoren k?nnte man die Kraft eines Hurrikans erzeugen." -Def Ilderless, Nimbischer Weiser</q>
+<p>
+Ein Windgenerator erzeugt <a href="#influenceHelp">Windenergie</a> und verteilt diese in einem kreisf?rmigen Radius.
+<p>
+Das Symbol f?r Windenergie ist <!"mana.4">.
+<p>
+Klicken Sie den Generator mit der linken Maustaste an, um sich seine Reichweite anzeigen zu lassen.
+<p>
+Windgeneratoren werden ben?tigt, um <a href="#unitHelp">Wind-konforme Kampfeinheiten</a> errichten zu k?nnen.
+<p>
+Wenn Sie einen Generator ?berhitzen, werden dadurch alle benachbarte Einheiten leicht besch?digt und umliegende Br?cken durchbrochen (nur im Mehrspieler-Modus).
+</a>
+
+<a name="windBlockerType">
+<info>
+<q>Das Universum besteht zu neunundneunzig Prozent aus Himmel und zu einem Prozent aus Inseln.<br>
+In den Wolken regiert der Wind.</q>
+<p>
+Ein Windturm ist eine Verteidigungseinheit. Plazieren Sie ihn zwischen Ihre Einheit und die darauf abgefeuerten feindlichen Geschosse. Die angreifende Einheit wird daraufhin den Windturm als Ziel erfassen.
+<p>
+Der Turm kann an drei Seiten besch?digt werden, seine abgerundete R?ckenseite ist hingegen unzerst?rbar. Gegen Luftangriffe ist der Windturm jedoch nicht resistent.
+<p>
+Bevor Sie einen Windturm plazieren, klicken Sie die rechte Maustaste, um die unzerst?rbare Seite nach Norden, S?den, Osten oder Westen zu drehen.
+</a>
+
+<a name="windBalloonType">
+<info>
+<q>"Nichts in Nimbus ist pr?chtiger oder sch?ner." -Gilden Fraj, Nimbischer Dichter</q>
+<p>
+Das Luftschiff ist ein <a href="#transportHelp">Lufttransportmedium</a>, das sich hervorragend f?r den Abbau von <a href="#stormpowerhelp">Sturmkraft</a>, die Gefangennahme von <a href="#priestType">Hohepriestern</a> und das Erlernen und Anwenden von <a href="#buriedType">Zauberspr?chen</a> eignet.
+<p>
+Es ist bedeutend widerstandsf?higer und schneller als ein <a href="#sunballoontype">Ballon</a>.  
+<p>
+Aufgrund seiner Flugf?higkeit braucht das Luftschiff keine <a href="#bridgeType">Br?cken</a>, um sich fortbewegen zu k?nnen. 
+<p>
+Beachten Sie bitte: Transportmedien k?nnen nicht gleichzeitig einen Priester und einen Sturmkristall transportieren.
+</a>
+
+<a name="windWalkerType">
+<info>
+<q>Die besten Piloten kennen die Geheimnisse, die die Brisen sich zufl?stern.</q>
+<p>
+Das Segelmobil ist ein <a href="#transportHelp">Bodentransportmedium</a>, das sich hervorragend f?r den Abbau von <a href="#stormpowerhelp">Sturmkraft</a>, die Gefangennahme von <a href="#priestType">Hohepriestern</a> und das Erlernen und Anwenden von <a href="#buriedType">Zauberspr?chen</a> eignet.
+<p>
+Das Segelmobil ist das schnellste verf?gbare Bodentransportmedium.
+<p>
+Beachten Sie bitte: Transportmedien k?nnen nicht gleichzeitig einen Priester und einen Sturmkristall transportieren.
+</a>
+
+<a name="thunderArcherType">
+<info>
+<q>Wenn man ein rohes Kolossos-Ei vor einem Voltturm in die Luft wirft, wird es beim Auftreffen auf den Boden hartgekocht sein.</q>
+<p>
+Ein Voltturm ist ein <a href="#shooterHelp">Gesch?tz</a> mit geringer Reichweite, das ausschlie?lich Luftangriffseinheiten und <a href="#transportHelp">Lufttransportmedien</a> angreift.
+<p>
+Der Voltturm erzeugt eine elektrische Ladung und gibt sie in geb?ndelter Form als t?dlichen Energieimpuls wieder ab. Er feuert in alle Richtungen.
+</a>
+
+<a name="thunderBatteryType">
+<info>
+<q>"Als die Nacht ?ber uns hereinbrach,<br>
+bargen wir im stroboskopischen Lichtschein des Generators<br> 
+unsere Gefallenen."<br> -Aus der Hymne an den Donnerh?gel</q>
+<p>
+Ein Donnergenerator erzeugt <a href="#influenceHelp">Donnerenergie</a> und verteilt diese in einem kreisf?rmigen Radius.
+<p>
+Das Symbol f?r Donnerenergie ist <!"mana.6">.
+<p>
+Klicken Sie den Generator mit der linken Maustaste an, um sich seine Reichweite anzeigen zu lassen.
+<p>
+Donnergeneratoren werden ben?tigt, um <a href="#unitHelp">Donner-konforme Kampfeinheiten</a> errichten zu k?nnen.
+<p>
+Wenn Sie einen Generator ?berhitzen, werden dadurch alle benachbarte Einheiten leicht besch?digt und umliegende Br?cken durchbrochen (nur im Mehrspieler-Modus).
+</a>
+
+<a name="thunderBlockerType">
+<info>
+<q>"Was ist der Unterschied zwischen einem Bollwerk und Deiner Mutter?" -Letzte Worte von Bernie Lovell, Nimbischer Kom?diant</q>
+<p>
+Das Bollwerk ist eine Verteidigungseinheit. Plazieren Sie es zwischen Ihre Einheit und die darauf abgefeuerten feindlichen Geschosse. Die angreifende Einheit wird daraufhin das Bollwerk als Ziel erfassen.
+<p>
+Bollwerke sind die robustesten Nimbischen Einheiten. Luftangriffe k?nnen ihnen nichts anhaben, und auch gegen Bodenattacken behaupten sie sich bravour?s. Ein Bollwerk saugt eingehende Geschosse f?rmlich auf, ist daf?r aber auch nicht billig.
+</a>
+
+<a name="thunderCannonType">
+<info>
+<q>"Man mu? darauf gefa?t sein, dauerhaft sein Geh?r zu verlieren." -Erste Zeile des Zehnten Donnerartillerie-Handbuchs</q>
+<p>
+Die Donnerkanone ist das verheerendste Nimbische <a href="#shooterHelp">Gesch?tz</a>: Sie hat eine gro?e Reichweite, verursacht enorme Sch?den und kann selbst einige Treffer vertragen.
+<p>
+Andererseits schie?t sie langsamer als andere Gesch?tze und kann nur geradlinig nach Norden, S?den Osten oder Westen feuern. Bevor Sie eine Donnerkanone endg?ltig plazieren, m?ssen Sie die gew?nschte Schu?richtung festlegen. 
+<p>
+Klicken Sie die rechte Maustaste, um die Einheit in die gew?nschte Richtung zu drehen.
+</a>
+
+<a name="thunderFenceType">
+<info>
+<q>"Wenn ein Kapit?n vor sich einen Kugelturm sichtet und sein Schiff nicht sofort in Richtung Heimat beidreht, ist er entweder besonders mutig, extrem dumm, oder er hat absolut nichts zu verlieren." -Luftwaffenadmiral Heike Kamerlingh</q>
+<p>
+Mit Kugelt?rmen lassen sich Barrikaden errichten, wobei zwischen zwei Kugelt?rmen ein t?dlicher Impulsstrahl erzeugt wird.
+<p>
+Der t?dliche Impulsstrahl der Kugelturmbarrikade wird auf <i>jede</i> feindliche Einheit gerichtet, die zwischen die Barrikadeneinheiten ger?t.
+</a>
+
+<a name="thunderWalkerType">
+<a name="bulfType">
+<info>
+<q>"Naturgem?? wird ein Kolossos nicht gr??er als eine Kanonenkugel, aber mit Hilfe einer strikten Di?t aus Nickel und Kalkstein w?chst er auf die hundertfache Gr??e an." -Feld-Journal, J. T. Kierken</q>
+<p>
+Ein Kolossos ist ein <a href="#transportHelp">Bodentransportmedium</a>, das ideal dazu geeignet ist, <a href="#stormpowerhelp">Sturmkraft</a> abzubauen, <a href="#priestType">Hohepriester</a> gefangenzunehmen und <a href="#buriedType">Zauberspr?che</a> zu erlernen und anzuwenden.
+<p>
+Er ist das robusteste Transportmedium in Nimbus, allerdings ist er ziemlich langsam.
+<p>
+Beachten Sie bitte: Transportmedien k?nnen nicht gleichzeitig einen Priester und einen Sturmkristall transportieren.
+</a>
+</a>
+
+<a name="rainAviaryType">
+<info>
+<q>Das Rezept stammt aus uralter Zeit: Die Hauptbestandteile sind fermentierter Regen und Giftsporen. Umr?hren ist nicht erforderlich.</q>
+<p>
+Der Quallenspeier setzt <a href="#rainFlyerType">R?hrenquallen</a> - effektive Luftangriffseinheiten - frei.
+<p>
+Wird eine solche R?hrenqualle vernichtet, sendet der Speier sogleich eine neue aus.
+<p>
+Hinweis: Eine Einheit kann von maximal drei Luftangriffseinheiten gleichzeitig angegriffen werden, Bodentransportmedien k?nnen sogar nur von jeweils einer Luftangriffseinheit unter Beschu? genommen werden.
+</a>
+
+<a name="rainFlyerType">
+<info>
+<q>"Ich bringe meinen M?nnern bei, alles niederzumetzeln, was in ihrem Blickfeld auftaucht." -Deisen Trow, Anf?hrer der Seerin-Bande</q>
+<p>
+Die R?hrenquallen werden vom <a href="#rainAviaryType">Quallenspeier</a> freigesetzt und treiben dann in feindliches Territorium, wo sie mit verheerender Zerst?rkraft die feindliche Einheiten aus der Luft angreifen.
+<p>
+Jede dieser krakenartigen Kreaturen lebt normalerweise nur eine Minute lang. R?hrenquallen k?nnen sich allerdings auch von der Sturmkraft, die durch eine zerst?rte Einheit freigesetzt wird, ern?hren und leben so noch eine weitere Minute.
+<p>
+R?hrenquallen greifen vorzugsweise <a href="#transportHelp">Bodentransportmedien</a> an. Ist davon jedoch keins zu finden, attackieren sie die n?chstgelegene feindliche Einheit.
+<p>
+Eine R?hrenqualle ist ungef?hr zweimal so widerstandsf?hig wie ein Ballon. Sie kann nicht als <a href="#transportHelp">Transportmedium</a> eingesetzt werden.
+<p>
+Hinweis: Eine Einheit kann von maximal drei Luftangriffseinheiten gleichzeitig angegriffen werden, Bodentransportmedien k?nnen sogar nur von jeweils einer Luftangriffseinheit unter Beschu? genommen werden.
+</a>
+
+<a name="rainBatteryType">
+<info>
+<q>"Im Jenseits gibt es einen immerw?hrenden Klang: das von weit her t?nende Rauschen herabfallenden Wassers." -Die Schrift von Nimbus</q>
+<p>
+Ein Regengenerator erzeugt <a href="#influenceHelp">Regenenergie</a> und verteilt diese in einem kreisf?rmigen Radius.
+<p>
+Das Symbol f?r Regenenergie ist <!"mana.5">.
+<p>
+Klicken Sie den Generator mit der linken Maustaste an, um sich seine Reichweite anzeigen zu lassen.
+<p>
+Regengeneratoren werden ben?tigt, um <a href="#unitHelp">Regen-konforme Kampfeinheiten</a> errichten zu k?nnen.
+<p>
+Wenn Sie einen Generator ?berhitzen, werden dadurch alle benachbarte Einheiten leicht besch?digt und umliegende Br?cken durchbrochen (nur im Mehrspieler-Modus).
+</a>
+
+<a name="rainBlockerType">
+<info>
+<q>Der erste Schritt, Wasser bergauf flie?en zu lassen, w?re es, Eis dazu zu bringen, r?ckw?rts zu schmelzen.</q>
+<p>
+Ein Eisturm ist eine Verteidigungseinheit. Plazieren Sie ihn in der Schu?linie zwischen Ihre Einheit und die darauf abgefeuerten, feindlichen Geschosse. Die angreifende Einheit wird daraufhin den Eisturm als Ziel erfassen.
+<p>
+Der Eisturm ist eine relativ labile Verteidigungseinheit, aber er regeneriert sich nach seiner Zerst?rung von selbst.  
+<p>
+Wenn er auf einer schwebenden Plattform errichtet wird, kann er mittels eines offensiven <a href="#buriedType">Zauberspruchs</a> samt der Insel dauerhaft vernichtet werden.
+</a>
+
+<a name="growingrainBlockerType">
+<info>
+<q>Der erste Schritt, um Wasser bergauf flie?en zu lassen, w?re es, Eis dazu zu bringen, r?ckw?rts zu schmelzen.</q>
+<p>
+Ein Eisturm ist eine Verteidigungseinheit. Plazieren Sie ihn in der Schu?linie zwischen Ihre Einheit und die darauf abgefeuerten, feindlichen Geschosse. Die angreifende Einheit wird daraufhin den Eisturm als Ziel erfassen.
+<p>
+Der Eisturm ist eine relativ labile Verteidigungseinheit, aber er regeneriert sich nach seiner Zerst?rung von selbst.  
+<p>
+Wenn er auf einer schwebenden Plattform errichtet wird, kann er mittels eines offensiven <a href="#buriedType">Zauberspruchs</a> samt der Insel dauerhaft vernichtet werden.
+</a>
+
+<a name="rainCannonType">
+<info>
+<q>Wie eine nette, kleine Schneeballschlacht mit rasiermesserscharfen Eiszapfen.</q>
+<p>
+Die Eiskanone ist ein <a href="#shooterHelp">Gesch?tz</a>, das sich ideal f?r den Angriff auf ganze Gruppen feindlicher Bodeneinheiten eignet.
+<p>
+Sie verursacht zwar nur einen verh?ltnism??ig geringen Schaden, setzt aber beim Aufprall Schrapnellsplitter frei und besch?digt so auch andere, in der N?he befindliche Zielobjekte. Sie sollten sie aufgrund dieser Eigenschaft strategisch geschickt einsetzen.
+<p>
+Klicken Sie die Kanone vor der Plazierung mit der rechten Maustaste an, um die Schu?richtung nach Norden, S?den, Osten oder Westen auszurichten.  
+</a>
+
+<a name="rainBalloonType">
+<info>
+<q>Jedes Jahr gibt es einen zerm?rbenden Wettstreit zwischen den gr??ten Regenwolken um die Ehre, die Gleiter antreiben zu d?rfen. Ein verheerender Wettstreit: Nur eine Handvoll Wolken ?berstehen ihn.</q>
+<p>
+Der Wolkengleiter ist ein <a href="#transportHelp">Lufttransportmedium</a>, das sich ideal dazu eignet, <a href="#stormpowerhelp">Sturmkraft</a> abzubauen, <a href="#priestType">Hohepriester</a> gefangenzunehmen und <a href="#buriedType">Zauberspr?che</a> zu erlernen und anzuwenden.
+<p>
+Der Gleiter ist robust, aber auch teuer. Aufgrund seiner gasartigen Beschaffenheit ist ein Wolkengleiter nur schwer als Ziel zu erfassen, so da? er gl?cklicherweise nur selten von feindlichen Geschossen getroffen wird.
+<p>
+Aufgrund seiner Flugf?higkeit braucht der Wolkengleiter keine <a href="#bridgeType">Br?cken</a>, um sich fortbewegen zu k?nnen. 
+<p>
+Beachten Sie bitte: Transportmedien k?nnen nicht gleichzeitig einen Priester und einen Sturmkristall transportieren.
+</a>
+
+<a name="rainFenceType">
+<info>
+<q>"Selbst Wasser kann manchmal wie Feuer brennen." -Die Schrift von Nimbus</q>
+<p>
+Die S?urebarrikade bietet von allen Barrikaden den effektivsten Schutz.
+<p>
+Zwischen zwei Barrikadeneinheiten, die in einer direkten horizontalen oder vertikalen Linie aufgestellt werden, wird eine mit S?ure gef?llte Barriere errichtet. Jede feindliche Einheit, die in die Barrikade ger?t, l?st sich auf.
+<p>
+Eine S?urebarrikade wehrt keine eingehenden Geschosse ab.
+</a>
+
+<a name="rainWalkerType">
+<info>
+<q>"Sie mag ja blo? eine Maschine sein, aber daf?r eine ziemlich hinterh?ltige." -Bertram Freilig, erster Nimber, der von einer Kristallkrabbe ausgenommen wurde</q>
+<p>
+Eine Kristallkrabbe ist ein <a href="#transportHelp">Bodentransportmedium</a>, das ideal f?r den Abbau von <a href="#stormpowerhelp">Sturmkraft</a>, die Gefangennahme von <a href="#priestType">Hohepriestern</a> und das Erlernen und Anwenden von <a href="#buriedType">Zauberspr?chen</a> geeignet ist.
+<p>
+Sie ist robust und schnell. Wenn eine Krabbe auf ein anderes Transportmedium trifft, versetzt sie es in Paralyse und klaut alles, was das Medium gerade mit sich f?hrt - ob Priester oder Sturmkristall. Dies kann nat?rlich nur dann geschehen, wenn die Krabbe selbst zu diesem Zeitpunkt nicht paralysiert ist.
+<p>
+Au?erdem ist sie clever genug, sich in Sicherheit zu bringen, wenn die <a href="#bridgeType">Br?cke</a>, auf der Sie gerade steht, rissig oder einsturzgef?hrdet ist.
+<p>
+Beachten Sie bitte: Transportmedien k?nnen nicht gleichzeitig einen Priester und einen Sturmkristall transportieren.
+</a>
+
+<a name="transportHelp">
+<h2>Transportmedien</h2>
+<p>
+Hierzu geh?rt jede transportierende <a href="unitHelp">Einheit</a>, ob Luft- oder Bodeneinheit.
+<p>
+<h3>Transportmedium bewegen</h3>
+<p>
+Klicken Sie das Transportmedium mit der linken Maustaste an, und bewegen Sie den Mauszeiger umher. An Stellen, die f?r das Transportmedium nicht erreichbar sind, nimmt der Mauszeiger die Form eines durchgestrichenen Kreises an, w?hrend Stellen, die f?r das Medium zug?nglich sind, durch ein Fadenkreuz gekennzeichnet werden. Klicken Sie in letzterem Fall die linke Maustaste, und das Transportmedium macht sich sofort auf den Weg dorthin.  
+<p>
+<h3>Objekte aufnehmen</h3>
+<p>
+Klicken Sie Ihr Transportmedium mit der linken Maustaste an, und bewegen Sie den Mauszeiger auf das aufzunehmende Objekt. Der Mauszeiger nimmt daraufhin die Form einer Hand an. Klicken Sie nun die linke Maustaste, und schon macht sich Ihr Transportmedium auf den Weg dorthin und nimmt das Objekt auf.
+<p>
+Aufnehmbare Objekte sind <a href="#nuggetType">Sturmkristalle</a>, <a href="#priestType">Hohepriester</a> und 
+<a href="#buriedType">Zauberspr?che</a>, die auf <a href="#buriedType">Obelisken</a> eingemei?elt sind.
+<p>
+Beachten Sie bitte: Transportmedien k?nnen nicht gleichzeitig einen Priester und einen Sturmkristall transportieren, und Priester k?nnen keine anderen Priester transportieren.
+<p>
+<h3>Transportgut ablegen</h3>
+<p>
+Klicken Sie das Transportmedium, das ein Objekt transportiert, mit der rechten Maustaste an, und w?hlen Sie den Eintrag "Ablegen ...". Beachten Sie bitte, da? Zauberspr?che nicht abgelegt werden k?nnen.
+<p>
+<h3>Zauberspr?che anwenden</h3>
+<p>
+Sobald ein Transportmedium einen Zauberspruch erlernt hat, kann es ihn beliebig oft anwenden, vorausgesetzt, der Spieler besitzt ausreichend Sturmkraft. Das Transportmedium beh?lt den Zauberspruch so lange, bis es vernichtet wird oder einen anderen Zauberspruch erlernt, der den vorigen Zauber ersetzt. Wenn Sie Ihr Transportmedium mit der rechten Maustaste anklicken, k?nnen Sie den Zauberspruch gegen Zahlung der angezeigten Menge Sturmkraft anwenden.
+<p>
+<h3>Allgemeines</h3>
+<p>
+Transportmedien k?nnen immer nur einen Zauberspruch besitzen.  
+<p>
+Bodentransportmedien k?nnen sogar nur von jeweils einer Luftangriffseinheit unter Beschu? genommen werden - Geb?ude und andere Einheiten k?nnen jeweils von bis zu drei Luftangriffseinheiten angegriffen werden.
+<p>
+<a href="#sunWalkerType">Golems</a> sind dumm und laufen geradewegs ?ber eine rissige, einsturzgef?hrdete Br?cke hin?ber. Alle anderen Transportmedien bleiben stehen, bevor sie in den Tod st?rzen.
+<p>
+Wenn sich ein <a href="#priestType">Priester</a> oder eine <a href="#rainWalkerType">Kristallkrabbe</a> auf einer rissigen, einsturzgef?hrdeten Br?cke befinden, bringen Sie sich automatisch in Sicherheit.
+<p>
+Bitte beachten Sie:
+<br>Ihr eigener <a href="#priestType">Hohepriester</a> kann nicht von Ihren eigenen Transportmedien transportiert werden.
+<br>
+</a>
+
+<a name="shooterHelp">
+<h2>Gesch?tze</h2>
+<p>
+Die Nimbischen Gesch?tze erfassen automatisch immer das n?chstgelegene feindliche Zielobjekt. Sie m?ssen ihnen also nie erst ein Zielobjekt zuweisen.
+<p>
+Klicken Sie ein Gesch?tz mit der linken Maustaste an, um sich seine Reichweite anzeigen zu lassen.
+<p>
+Beachten Sie bitte, da? Gesch?tze, die geradlinig feuern, sowohl Boden- als auch Lufttransportmedien als Ziele erfassen, allerdings verfehlen Sie sie h?ufig, da sich die <a href="#transportHelp">Transportmedien</a> weiterbewegen.
+</a>
+
+<a name="themeHelp">
+<h2>Die drei Furien von Nimbus</h2>
+<p>
+Im Herzen von Nimbus tobt ein andauernder, heftiger Kampf. Hier f?hren die drei <a href="#sphereHelp">Furien</a> Wind, Regen und Donner einen erbitterten Krieg um die Vorherrschaft ?ber das Reich.
+<p>
+Durch die enorme Vehemenz ihres Kampfes werden riesige Teile der verborgenen Planetenoberfl?che in die Atmosph?re geschleudert. Auf diesen Inseln lebt das Nimbische Volk.
+<p>
+Die Furien finden gro?en Gefallen an Tod und Zerst?rung. Aus diesem Grund belohnen sie die Zerst?rung jeder feindlichen Einheit mit einem Viertel des urspr?nglichen Sturmkraftwerts dieser <a href="#unitHelp">Einheit</a> - eine Ausnahme bilden hierbei jedoch die Luftangriffseinheiten, deren Errichtung von vornherein keine Kosten verursacht.  
+<p>
+Besonders geschmeichelt f?hlen sich die Furien durch die <a href="#sacrificeOutline">Opferung eines Priesters</a> zu ihren Ehren. Solche Opfergaben belohnen sie mit einem Kampfgeschenk: dem <a href="#technologyHelp">Wissen</a>. 
+<p>
+Jede der drei Furien besitzt eine eigene konforme <a href="#influenceHelp">Energieart</a> mit einem eigenen Symbol:<br>
+<!"mana.4"> - Wind<br>
+<!"mana.5"> - Regen<br>
+<!"mana.6"> - Donner<br>
+<p>
+Das nicht-konforme, allgemeinverwendbare "Sonnenwissen" wird durch das Symbol <!"mana.7"> gekennzeichnet. <a href="#unitHelp">Sonneneinheiten</a> k?nnen jede Art von <a href="#influenceHelp">Energie</a> verwerten, sind aber verh?ltnism??ig schwach.
+<p>
+Neben dem Sonnenwissen kann Ihnen jede Furie auch ihr eigenes spezielles Wissen vermitteln. Damit dieses dann in die Produktion geleitet werden kann, um entsprechende Geb?ude bzw. Einheiten zu errichten, m?ssen Sie allerdings auch die zu der jeweiligen Furie konforme Energieart besitzen.
+<p>
+Geb?ude und Einheiten mit Wind-Konformit?t sind:<br>
+<p>
+1<!"windVortex.*"> 2<!"windfactory.*"> 3<!"windbattery.*"><br>
+<p>
+1) <a href="#windVortexType">Tempel</a>, in denen Wind erzeugt wird.<br>
+2) <a href="#windFactoryType">Produktionsst?tten</a>, in denen Wind-konforme Einheiten hergestellt werden.<br>
+3) <a href="#windBatteryType">Windgeneratoren</a>, die Windenergie produzieren.<br>
+4) Alle <a href="#unitHelp">Wind-konformen Einheiten</a>.<br>
+<p>
+Geb?ude und Einheiten mit Regen-Konformit?t sind:<br>
+<p>
+1<!"RainVortex.*"> 2<!"Rainfactory.*"> 3<!"Rainbattery.*"><br>
+<p>
+1) <a href="#RainVortexType">Tempel</a>, in denen Regen erzeugt wird.<br>
+2) <a href="#RainFactoryType">Produktionsst?tten</a>, in denen Regen-konforme Einheiten hergestellt werden.<br>
+3) <a href="#RainBatteryType">Regengeneratoren</a>, die Regenenergie erzeugen.<br>
+4) Alle <a href="#unitHelp">Regen-konformen Einheiten</a>.<br>
+<p>
+Geb?ude und Einheiten mit Donner-Konformit?t sind:<br>
+<p>
+1<!"ThunderVortex.*"> 2<!"Thunderfactory.*"> 3<!"Thunderbattery.*"><br>
+<p>
+1) <a href="#ThunderVortexType">Tempel</a>, in denen Donner erzeugt wird.<br>
+2) <a href="#ThunderFactoryType">Produktionsst?tten</a>, in denen Donner-konforme Einheiten hergestellt werden.<br>
+3) <a href="#ThunderBatteryType">Donnergeneratoren</a>, die Donnerenergie produzieren.<br>
+4) Alle <a href="#unitHelp">Donner-konformen Einheiten</a>.<br>
+<p>
+Obwohl das Sonnenwissen nicht an eine bestimmte Furie gebunden ist, k?nnen Sie es doch von allen drei Furien beziehen. Nat?rlich gibt es auch einige Sonnen-konforme Geb?ude und Einheiten:<br>
+1<!"sunFactory.*"><br>
+<p>
+1) <a href="#SunFactoryType">Produktionsst?tten</a>, in denen (Sonnen-)Einheiten ohne Konformit?t hergestellt werden.<br>
+2) Alle <a href="#unitHelp">Sonneneinheiten</a>.<br>
+<p>
+Siehe auch: <a href="#sacrificeOutline">Opferung eines Priesters f?r neues Wissen</a>
+<br>
+</a>
+
+<a name="unitHelp">
+<h2> Kampfeinheiten</h2>
+Die in NetStorm verf?gbaren Kampfeinheiten sind in vier Konformit?tskategorien unterteilt: Sonne, Wind, Regen und Donner. Wenn n?tig, k?nnen Einheiten durch <a href="salvageHelp">Selbstzerst?rung</a> vernichtet werden. Es gibt ein paar <a href="tacticsHelp">Grundregeln</a>, die f?r alle angreifenden Einheiten gelten.
+<p>
+<h2>Sonneneinheiten</h2>
+Level I<br>
+<a href="#sunWalkerType">* Golem</a>  /  Bodentransportmedium<br>
+<a href="#sunArcherType">* Sonnenscheibenwerfer</a>  /  Gesch?tz<br>
+<a href="#sunCannonType">* Sonnenkanone</a>  /  Gesch?tz<br>
+<a href="#sunBlockerType">* Steinturm</a>  /  Verteidigung<br>
+Level II<br>
+<a href="#sunFlyerType">* Helibomber</a>  /  Luftangriff<br>
+<a href="#sunBalloonType">* Ballon</a>  /  Lufttransportmedium<br>
+Level III<br>
+<a href="#sunFenceType">* Sonnenbarrikade</a>  /  Verteidigung<br>
+<p>
+<h2>Windeinheiten</h2>
+Level I<br>
+<a href="#windBatteryType">* Windgenerator</a>  / Energiequelle<br>
+<a href="#windWalkerType">* Segelmobil</a>  /  Bodentransportmedium<br>
+Level II<br>
+<a href="#windArcherType">* Armbrust</a>  /  Gesch?tz<br>
+<a href="#windBlocker">* Windturm</a>  /  Verteidigung<br>
+Level III<br>
+<a href="#windFlyerType">* Staubwirbel</a>  /  Luftangriff<br>
+<a href="#windBalloonType">* Luftschiff</a>  /  Lufttransportmedium<br>
+
+<p>
+<h2>Regeneinheiten</h2>
+Level I<br>
+<a href="#rainBatteryType">* Regengenerator</a>  / Energiequelle<br>
+<a href="#rainFenceType">* S?urebarrikade</a>  /  Verteidigung<br>
+Level II<br>
+<a href="#rainWalkerType">* Kristallkrabbe</a>  /  Bodentransportmedium<br>
+<a href="#rainBlockerType">* Eisturm</a>  /  Verteidigung<br>
+<a href="#rainFlyerType">* R?hrenqualle</a>  /  Luftangriff<br>
+Level III<br>
+<a href="#rainCannonType">* Eiskanone</a>  /  Gesch?tz<br>
+<a href="#rainBalloonType">* Wolkengleiter</a>  /  Lufttransportmedium<br>
+
+<p>
+<h2>Donnereinheiten</h2>
+Level I<br>
+<a href="#thunderBatteryType">* Donnergenerator</a>  / Energiequelle<br>
+<a href="#bulfType">* Kolossos</a>  /  Bodentransportmedium<br>
+Level II<br>
+<a href="#thunderCannonType">* Donnerkanone</a>  /  Gesch?tz<br>
+<a href="#thunderFence">* Kugelturm</a>  /  Verteidigung<br>
+<a href="#thunderBlockerType">* Bollwerk</a>  /  Verteidigung<br>
+Level III<br>
+<a href="#thunderArcher">* Voltturm</a>  /  Gesch?tz<br>
+<p>
+<a href="#statsHelp">Informationen ?ber Einheiten</a><br>
+<a href="#themeHelp">Andere Einheiten und deren Konformit?ten</a>
+<br>
+</a>
+
+<a name="rainVortexType">
+<a name="windVortexType">
+<a name="thunderVortexType">
+<a name="vortexHelp">
+<info>
+<q>Das Blut der heiligen M?nner ist das Elixier des Schicksals.</q>
+<p>
+<a href="#rainVortexType">Regentempel</a><br>
+<a href="#windVortexType">Windtempel</a><br>
+<a href="#thunderVortexType">Donnertempel</a><br>
+<p>
+Der Tempel ist die <a href="#influenceHelp">Energie</a>zentrale jeder Insel.  
+Wie oben angegeben, gibt es drei Arten von Tempeln.
+<p>
+Solange Ihr Tempel existiert, verheilen die Wunden, die Ihr <a href="#priestType">Priester</a> w?hrend des Kampfes erlitten hat, von selbst.
+<p>
+Dr?cken Sie die Taste <c>F4</c>, um w?hrend des Kampfes die Ansicht auf Ihren eigenen Tempel zu fokussieren.
+<p>
+N?here Informationen zum Einsatz von Tempeln finden Sie unter:<br> 
+<a href="#spVortexHelp">Sturmkraftgewinnung</a><br>
+<a href="#golemVortexHelp">Herstellung von Golems</a><br>
+<a href="#influenceVortexHelp">Energieerzeugung</a><br>
+</a>
+</a>
+</a>
+</a>
+
+<a name="spVortexHelp">
+<h2>Der Tempel:<br>Sturmkraftgewinnung</h2>
+<p>
+W?hrend des Kampfes wird im Tempel <a href="#moneyHelp">Sturmkraft</a> erzeugt und in eine weiterverwendbare Form verarbeitet. Ohne einen Tempel ist die Erzeugung bzw. Verarbeitung von Sturmkraft nicht m?glich.
+<p>
+Sturmkraft wird in Form von <a href="#nuggetType">Sturmkristallen</a> aus <a href="#geyserType">Sturmgeysiren</a> abgebaut.
+<p>
+Siehe auch: <a href="#golemVortexHelp">Herstellung von Golems</a><br>
+<br>
+</a>
+
+<a name="golemVortexHelp">
+<h2>Der Tempel:<br>Herstellung von Golems</h2>
+<p>
+Mit Hilfe der Tempel werden <a href="#sunWalkerType">Golems</a> produziert, die auf Ihrer neuen Insel als <a href="#transportHelp">Transportmedien</a> dienen.
+<p>
+Nachdem Sie in die <a href="#pyrosphereHelp">Pyrosph?re</a> hinabgestiegen sind, um sich in den Kampf zu begeben, wird in Ihrem <a href="#teleportViewHelp">Produktionsfenster</a> ein Golem angezeigt. Sofern Sie gen?gend <a href="#moneyHelp">Sturmkraft</a> besitzen, k?nnen Sie beliebig viele Golems produzieren.
+<p>
+Siehe auch: <a href="#influenceVortexHelp">Energieerzeugung</a><br>
+<br>
+</a>
+
+<a name="influenceVortexHelp">
+<h2>Der Tempel:<br>Energieerzeugung</h2>
+<p>
+Um in Nimbus jegliche Art von Geb?ude oder Einheit errichten zu k?nnen, mu? zun?chst die Versorgung mit geeigneter <a href="#influenceHelp">Energie</a> gesichert sein. Der Tempel stellt eine von zwei Energiequellen dar. Er liefert die ben?tigte Energie f?r alle Geb?ude und Einheiten, die Sie auf Ihrer Heimatinsel errichten wollen, seien es Golems, Produktionsst?tten oder auch <a href="#unitHelp">Kampfeinheiten</a>.
+<p>
+Um sich seine Energiereichweite anzeigen zu lassen, klicken Sie Ihren Tempel mit der linken Maustaste an.
+<p>
+<a href="#vortexHelp">Zur?ck zur Tempel-Hilfe</a>
+</a>
+
+<a name="edgeFarmType">
+<info>
+<q>"In anderen Kulturen ist das Pfl?gen nicht so eine gef?hrliche Sache." -Pavel Milyukov, Nimbischer Farmer</q>
+<p>
+An den Stellen, an denen Klippenvegetation vorhanden ist, k?nnen keine <a href="#bridgeType">Br?cken</a> angelegt werden. Auf diese Weise werden feindliche Vorst??e auf Ihre Insel vereitelt - andererseits sind aber auch Ihre eigenen Bem?hungen, an diesen Stellen abgehende Br?cken zu errichten, vergebens.
+<p>
+Die Bewohner von Nimbus bauen Ihre Nahrung in den Klippenbereichen der Inseln an, so da? die Inseloberfl?chen f?r Bauzwecke frei bleiben.
+<br>
+</a>
+
+<a name="moneyHelp">
+<a name="stormPowerHelp">
+<h2>Sturmkraft</h2>
+<p>
+Sturmkraft dient als Zahlungsmittel: Die Errichtung aller <a href="#unitHelp">Einheiten</a> kostet einen gewissen Betrag an Sturmkraft - einzige Ausnahme sind die <a href="#bridgeType">Br?cken</a>.
+<p>
+Ihre aktuell verf?gbare Sturmkraft wird am oberen linken Bildschirmrand im <a href="#moneyGumpHelp">Verf?gbare Sturmkraft-Fenster</a> angezeigt.
+<p>
+Sturmkraft ist eine undefinierbare Kombination aus Energie und Zeit. Sie ist der Hauptbestandteil von allem, was im Reich von <a href="#sphereHelp">Nimbus</a> hergestellt und vernichtet werden kann.
+<p>
+Mit Sturmkraft kann in Nimbus fast alles produziert werden. Beachten Sie aber bitte, da? f?r die Errichtung von Geb?uden und Einheiten zus?tzlich auch <a href="#influenceHelp">Energie</a> erforderlich ist.
+<p>
+Sturmkraft wird in den <a href="#geyserType">Sturmgeysiren</a> des Reichs abgebaut: <!"geyser.*">  
+<br>
+Klicken Sie eines Ihrer <a href="#transportHelp">Transportmedien</a> mit der linken Maustaste an, und schicken Sie es zu einem Geysir. Das Medium bewegt sich daraufhin automatisch zwischen dem Geysir und Ihrem <a href="#vortexHelp">Tempel</a> hin und her und baut so lange Sturmkraft in Form von <a href="#nuggetType">Sturmkristallen</a> ab, bis der Geysir leer ist. (Sturmkristall: <!"nugget.*">)<br>
+Danach wendet sich das Transportmedium dem n?chsten zug?nglichen Geysir zu und setzt dort den Abbau von Sturmkristallen fort. Beobachten Sie, wie Ihr Sturmkraftbestand im <a href="#moneyGumpHelp">Verf?gbare Sturmkraft-Fenster</a> stetig anw?chst, sobald Ihre Transportmedien die Sturmkristalle im Tempel abliefern!
+<p>
+Auf der linken Seite des Bildschirms finden Sie das <a href="#teleportViewHelp">Produktionsfenster</a>, in dem die verf?gbaren <a href="#unitHelp">Einheiten</a> in Rot dargestellt werden, wenn Sie nicht gen?gend Sturmkraft f?r die Errichtung dieser Einheiten besitzen. 
+<p>
+Durch die Vernichtung feindlicher Einheiten gewinnen Sie die H?lfte ihres urspr?nglichen Sturmkraftwerts hinzu! Die andere H?lfte gelangt in das in der darunterliegenden Ebene tobende Kriegsgeschehen der <a href="#themehelp">Furien</a> zur?ck und wird sp?ter in Form von neuen <a href="#geyserType">Sturmgeysiren</a> wieder nach oben geschleudert.
+<br>
+</a>
+</a>
+
+<a name="outpostType">
+<a name="outpostHelp">
+<info>
+<q>Man kann die Macht beinahe k?rperlich sp?ren, wenn sie ?ber die Insel str?mt! -Sar Quinset</q>
+<p>
+Au?enposten erm?glichen Ihnen im <a href="multiQuickHelp">Mehrspieler</a>-Modus die Kontrolle ?ber andere Inseln.
+<p>
+Setzen Sie Ihren <a href="#priestType">Priester</a> ein, um im Mehrspieler-Modus Au?enposten auf anderen Inseln zu errichten und diese damit in Besitz zu nehmen. Die Errichtung von Au?enposten dient folgenden Zwecken:
+<p>
+1. Sie d?rfen von der Insel aus, auf der sich der Au?enposten befindet, abgehende Br?cken errichten.
+<br>
+2. Die Insel ist f?r die Errichtung feindlicher Geb?ude tabu. Keiner Ihrer Gegner kann auf dieser Insel irgend etwas bauen.
+<br>
+3. Transportmedien liefern die eingesammelten Sturmkristalle im Au?enposten ab, wo sie dann in Sturmkraft umgewandelt werden.
+<br>
+4. Einheiten k?nnen unmittelbar von einem Au?enposten aus teleportiert werden, statt die Distanz zu den Produktionsst?tten auf dem Landweg ?berwinden zu m?ssen.
+<p>
+Noch ein Wort zu den Besitzanspr?chen an Inseln: Der Spieler, der die meisten Au?enposten auf einer Insel errichtet hat, ist automatisch auch der Besitzer der Insel. Wenn zwei Spieler gleichzeitig Au?enposten auf einer Insel errichten, geht der Besitzanspruch an keinen der beiden ?ber, bis einer einen weiteren Au?enposten errichtet hat.
+<p>
+Au?enposten sind nur im <a href="multiplayerHelp">Mehrspieler</a>-Modus verf?gbar.
+</a>
+</a>
+
+<a name="campaignHelp">
+<a name="multiplayerHelp">
+<h2>Kampagnen- und Mehrspieler-Modus</h2>
+<p>
+In NetStorm k?nnen mehrere Kampagnen-Missionen gespielt werden, und im Mehrspieler-Modus stehen uneingeschr?nkte Spielm?glichkeiten zur Verf?gung. Sie sollten zun?chst unbedingt die "?bungsmissionen" durchspielen, um sich mit den wesentlichen Elementen und der Steuerung des Spiels vertraut zu machen.
+<p>
+<b>Kampagne</b>
+<p>
+In einem Kampagnen-Spiel steht zu Beginn jeder Mission ein bestimmter Wissensstand zur Verf?gung. Um die Mission erfolgreich abzuschlie?en, m?ssen Sie in der Regel den feindlichen <a href="#priestType">Hohepriester</a> zu Ehren der <a href="themeHelp">Furien</a> auf Ihrem Altar opfern. Nach Beendigung der Opferungszeremonie ist Ihr Feind endg?ltig besiegt, und Sie k?nnen mit der n?chsten Mission fortfahren.
+<p>
+<b>Mehrspieler</b>
+<p>
+Im <a href="multiQuickHelp">Mehrspieler</a>-Modus gelten etwas andere Regeln. Ihre Nimbische Bev?lkerung beginnt zun?chst mit einem einfachen Wissensprofil. Durch jede <a href="#sacrificeOutline">Opferung</a> eines feindlichen Priesters erwerben Sie neues <a href="#technologyHelp">Wissen</a>, mit dem Sie Ihre Kampff?higkeiten verbessern k?nnen.
+<p>
+Die Mehrspieler-Spielfelder unterscheiden sich von den Spielfeldern im Kampagnen-Modus. Hier k?nnen im Verlauf des Kampfes mehrere kleine Inseln in Besitz genommen werden. Der <a href="#outpostType">Au?enposten</a> (den es im Kampagnen-Modus nicht gibt) ist eines der Schl?sselelemente, um ein Mehrspieler-Spiel zu gewinnen.
+<p>
+Auch die <a href="#altarType">Alt?re</a> erf?llen andere Funktionen als im Kampagnen-Modus. Weitere wichtige Bestandteile des Mehrspieler-Modus sind die <a href="#challengeIslandType">Zonen</a> und der <a href="#battlemasterHelp">Kampfmeister</a>, ?ber dessen Funktion Sie sich eingehend informieren sollten. Wenn Sie die <a href="#chatViewHelp">Chat</a>-Funktion nutzen wollen, um sich mit anderen Spielern zu unterhalten, sollten Sie sich au?erdem den Hilfetext zum <a href="#formatCommandHelp">.format-Befehl</a> durchlesen.
+</a>
+</a>
+
+<a name="multiQuickHelp">
+<h2>Mehrspieler-QuickStart</h2>
+<p>
+Sie wollen sicherstellen, da? Ihnen kein superschlauer Typ Feuer unterm Hintern macht? Dann sollten Sie einen Blick in das <a href="#multiSafeHelp">Mehrspieler-?berlebenshandbuch</a> werfen.
+<p>
+Andere wichtige Funktionen im Mehrspieler-Modus:
+<p>
+* Mit Hilfe des <a href="#chatViewHelp">Chatfensters</a> k?nnen Sie sich mit anderen Spielern unterhalten.
+<br>
+* Die <a href="#reliabilityHelp">Zuverl?ssigkeitswerte</a> geben Auskunft dar?ber, ob Ihr Gegner angefangene Spiele normalerweise auch regul?r beendet.
+<br>
+* Anhand der <a href="#challengeIslandType">Zonen</a> k?nnen Sie erkennen, welche Spielstufe die anderen Spieler besitzen.
+<br>
+* In den <a href="#battleIslandType">Gefechtsringen</a> beginnen Sie die K?mpfe.
+<br>
+* Der <a href="#battlemasterHelp">Kampfmeister</a> leitet den Mehrspieler-Kampf.
+<br>
+* Mit Hilfe der <a href="#battleOptionsHelp">Kampfoptionen</a> k?nnen Sie die Spielregeln ab?ndern.
+<br>
+* Durch die Errichtung von <a href="#outpostType">Au?enposten</a> werden neue Inseln in Besitz genommen.
+<br>
+* Auf den <a href="#altarType">Alt?ren</a> k?nnen Sie <a href="#sacrificeOutline">Opferungszeremonien</a> durchf?hren, um <a href="#technologyHelp">Wissen</a> zu erwerben.
+<br>
+* Ihr <a href="#rankHelp">Rang</a> spiegelt Ihre Kampferfolge wider.
+<p>
+* Klicken Sie <a href="#playerlistView">hier</a>, um sich n?here Informationen zu folgenden Themen anzeigen zu lassen:<br>
+<a href="#PlayerListView"><!"fortgump.L1"><!"fortgump.L0"><!"icon.B4"><~y>devo12<~.></a>
+</a>
+
+<a name="rankHelp">
+<h2>Rang</h2>
+<p>
+Wodurch unterscheiden sich echte Veteranen von Anf?ngern? Durch ihren Rang.
+<p>
+Im <a href="#chatViewHelp">Chatfenster</a> wird neben Ihrem Namen auch Ihr Rang angezeigt. Je weiter sich Ihr Rang auf der rechten Seite der untenstehenden Liste befindet, desto erfolgreicher sind Sie.
+<br>
+<!"icon.B0"> <!"icon.B1"> <!"icon.B2"> <!"icon.B3"> <!"icon.B4"> <!"icon.B5"> <!"icon.B6"> <!"icon.B7"> <!"icon.B8"> <!"icon.B9">
+<p>
+Um einen h?heren Rang zu erreichen, m?ssen Sie so viele Priester wie m?glich opfern und jedes Wissen erlangen, das Ihnen die Furien zu bieten haben. Nachdem Sie alle Wissensarten erworben haben, k?nnen Sie bei der n?chsten Opferung die Option 
+<p>
+<c>AUF RANG X VORR?CKEN</c>
+<p>
+ausw?hlen. Anstelle des 'X' wird hier das Symbol Ihres neuen Ranges eingef?gt. Wenn Sie diese Option aktivieren, werden alle Einheiten, die Sie zuk?nftig mit diesem Rang errichten, noch leistungsf?higer! Sie beginnen zun?chst wieder mit dem Sonnenscheibenwerfer, der Sonnenkanone und einem Generator.
+<p>
+Wie wirkt sich der Rang auf den Kampf aus? Sofern Sie einen h?heren Rang als Ihr Gegner bekleiden, k?nnen Sie mehr Treffer bei den gegnerischen Einheiten landen, erleiden aber weniger Schaden durch deren Angriffe. Wenn ein Rangunterschied von vier R?ngen besteht, ist Ihre Zerst?rkraftquote gegen?ber den gegnerischen Einheiten 2 zu 1. Ein Unterschied von acht R?ngen ergibt eine Zerst?rkraftquote von 3 zu 1.
+<p>
+<a href="multiQuickHelp">Zur?ck zum Mehrspieler-QuickStart</a>
+</a>
+
+
+<a name="multiSafeHelp">
+<h2>Mehrspieler-?berlebenshandbuch</h2>
+<p>
+Spieler, die eine h?here Spielstufe als Sie selbst besitzen, sind in der Regel erfahrene Spieler und haben schon mehrere K?mpfe f?r sich entscheiden k?nnen. Sie sollten sich vor diesen Spielern in Acht nehmen, wenn sie sich Ihrem Spiel anschlie?en.
+<p>
+Aber auch Spieler mit einer niedrigen Spielstufe k?nnen schon erfahrene Spieler sein. Sehen Sie sich den Rang an, der neben dem jeweiligen Spielernamen angezeigt wird. Spieler mit h?herem Rang landen mehr Treffer bei den gegnerischen Einheiten und erleiden weniger Schaden durch deren Angriffe als Spieler mit niedrigerem Rang.
+<p>
+Die folgende Liste gibt die <a href="rankHelp">Rangordnung</a> in aufsteigender Reihenfolge an:
+<br>
+<!"icon.B0"> <!"icon.B1"> <!"icon.B2"> <!"icon.B3"> <!"icon.B4"> <!"icon.B5"> <!"icon.B6"> <!"icon.B7"> <!"icon.B8"> <!"icon.B9"> <!"icon.B10"> <!"icon.B11"> <!"icon.B12"> <!"icon.B13">
+<p>
+Um herauszufinden, wie viele Spiele ein Spieler bereits bestritten hat, klicken Sie die Insel des betreffenden Spielers mit der <c>rechten Maustaste</c> an, und w?hlen Sie dann den Eintrag <c>Spielerinfo anzeigen</c>. Anschlie?end werden die verf?gbaren Spielerinformationen eingeblendet.
+<p>
+Auch wenn ein Spieler nur wenige Spiele mehr als Sie selbst bestritten hat, kann er dennoch weitaus erfahrener sein. Sofern Sie sich nicht gerade mit ihnen in ein und demselben <a href="battleIslandType">Gefechtsring</a> befinden, brauchen Sie sich darum jedoch keine Gedanken zu machen.
+<p>
+Sind Sie hingegen gemeinsam mit den erfahrenen Spielern an einen Gefechtsring angeschlossen, stehen Ihnen zwei M?glichkeiten zur Verf?gung: Zum einen k?nnen Sie den Gefechtsring verlassen, indem Sie mit der <c>linken Maustaste</c> in den Bereich au?erhalb des Ringes klicken. Zum anderen k?nnen Sie, sofern Sie der <a href="#battlemasterHelp">Kampfmeister</a> im Gefechtsring sind, den im linken Fenster aufgef?hrten Namen des betreffenden Spielers mit der rechten Maustaste anklicken und ihn rausschmei?en.
+<p>
+Vor Spielbeginn sollten Sie sich unbedingt die <a href="reliabilityHelp">Zuverl?ssigkeitswerte</a> der anderen Spieler ansehen.
+<p>
+<a href="multiQuickHelp">Zur?ck zum Mehrspieler-QuickStart</a>
+</a>
+
+<a name="reliabilityHelp">
+<h2>Zuverl?ssigkeitswert</h2>
+<p>
+Jedem Spieler wird ein Zuverl?ssigkeitswert zugeordnet, der Auskunft ?ber die regul?r abgeschlossenen Spiele gibt.
+<p>
+Auf den ersten Blick mag ein solcher Wert uninteressant erscheinen - aber bedenkt man, wie frustrierend es sein kann, wenn Ihr Gegner kurz vor Schlu? den Kampf einfach verl??t, so da? Sie ihn nicht mehr schlagen k?nnen, erscheint diese statistische Information doch recht sinnvoll.
+<p>
+Aus eben diesem Grund gibt es in NetStorm diesen Zuverl?ssigkeitswert. Immer, wenn ein Spieler einen laufenden Kampf vorzeitig verl??t und nicht mehr zur?ckkehrt, wird dessen Zuverl?ssigkeitswert herabgesetzt. Bedenken Sie hierbei aber bitte auch, da? der Spieler den Kampf nicht zwangsl?ufig absichtlich abgebrochen haben mu?. Es k?nnte nat?rlich auch sein, da? seine Verbindung zum Server schlicht und einfach unterbrochen wurde. Ein niedriger Zuverl?ssigkeitswert l??t also nicht unbedingt auf einen schlechten Verlierer, sondern im Zweifelsfall einfach auf eine instabile Internet-Anbindung schlie?en.
+<p>
+Sie k?nnen den Zuverl?ssigkeitswert eines Spielers einsehen, indem Sie die Insel des Spielers in der Kampfarena mit der <c>rechten Maustaste</c> anklicken. Der maximale Zuverl?ssigkeitswert betr?gt 100%. Ein Zuverl?ssigkeitswert von 0% bedeutet, da? derjenige Spieler kein einziges Spiel zu Ende gebracht hat!
+<p>
+Sollte Ihr eigener Zuverl?ssigkeitswert unbeabsichtigt aber stetig sinken, sollten Sie in Erw?gung ziehen, den Internet Service Provider zu wechseln.
+<p>
+<a href="multiQuickHelp">Zur?ck zum Mehrspieler-QuickStart</a>
+</a>
+
+<a name="battlemasterHelp">
+<h2>Kampfmeister</h2>
+<p>
+Der Kampfmeister hat die Kontrolle ?ber die <a href="battleOptionsHelp">Regeln</a> des Kampfes und kann vor Beginn des Kampfes unerw?nschte oder unfaire Spieler aus dem <a href="battleIslandType">Gefechtsring</a> rausschmei?en.
+<p>
+Die Kampfregeln werden im unteren Bereich des linken Fensters angezeigt. Um eine Regel zu ?ndern, klicken Sie sie einfach an. Sobald eine Regel ge?ndert wurde, werden alle an diesem Kampf teilnehmenden Spieler, einschlie?lich des Kampfmeisters, "abgehakt" und m?ssen sich mit der Regel?nderung einverstanden erkl?ren, indem sie die farbige Box neben ihren Namen erneut anklicken. 
+<p>
+Als Kampfmeister haben Sie die Aufgabe, ein gutes Spiel f?r alle beteiligten Spieler auf die Beine zu stellen. Sollte sich ein Spieler f?r den betreffenden Kampf als ungeeignet erweisen (z.B. weil seine Spielstufe zu hoch ist), k?nnen Sie ihn aus dem Ring rausschmei?en. Klicken Sie dazu den jeweiligen Spielernamen einfach mit der <c>rechten Maustaste</c> an, und w?hlen Sie <c>Ja</c>.
+<p>
+Sie sollten die W?nsche Ihrer Mitspieler hinsichtlich der Regel?nderungen nach M?glichkeit immer ber?cksichtigen. Keiner der Spieler will ewig lange warten m?ssen, bis der Kampf beginnt, und die Ber?cksichtigung der individuellen W?nsche kann f?r alle Beteiligten von Vorteil sein.
+<p>
+Als Kampfmeister ?bernehmen Sie aber noch eine weitere wichtige Aufgabe. Ihr Rechner dient dazu, Informationen an die anderen Spieler weiterzuleiten. Sollten Sie lediglich eine langsame oder qualitativ minderwertige Internet-Anbindung besitzen, geh?rt es einfach zum guten Ton, statt dessen einem anderen Spieler den Posten als Kampfmeister zu ?berlassen.
+<p>
+Ein weiterer Faktor ist die Geschwindigkeit Ihrer (Modem-/ISDN-)Verbindung. Wenn Sie ein Spiel mit f?nf oder mehr Spielern leiten, sollten Sie zun?chst herausfinden, welcher der Mitspieler die schnellste Verbindung besitzt. Ein schneller Kampfmeister ist ein Garant daf?r, da? alle Beteiligten im h?chsten Ma? Spa? am Spiel haben werden.
+<p>
+<a href="battleOptionsHelp">Kampfoptionen einstellen</a>
+<p>
+<a href="multiQuickHelp">Zur?ck zum Mehrspieler-QuickStart</a>
+</a>
+
+
+
+<a name="battleIslandType">
+<h2>Gefechtsringe</h2>
+<p>
+Um sich einem Gefechtsring anzuschlie?en, klicken Sie ihn mit der <c>linken Maustaste</c> an.
+<p>
+Wenn Sie sich dem Ring als erster Spieler anschlie?en, werden Sie automatisch zum <a href="#battlemasterHelp">Kampfmeister</a>. Sollten Sie sich erst nach dem ersten Spieler einem Gefechtsring hinzugesellen, gelten Sie als einfacher Mitspieler.
+<p>
+<i>Der von Ihnen gew?hlte Stein innerhalb des Gefechtsringes entspricht auch Ihrem Standort im Kampf!</i>
+<p>
+Sobald Sie sich einem Kampf anschlie?en, erscheint Ihr Name im linken Fenster zusammen mit einer nebenstehenden, farbigen Box. Die angezeigte Farbe entspricht Ihrer Kampffarbe. Wenn Sie bereit sind, den Kampf zu beginnen, klicken Sie einfach in die farbige Box.
+<p>
+Zun?chst erscheint in der Box ein schwarzer Kreis:   <!"fortgump.L6">,<p>
+der aufleuchtet, wenn ein Verbindungsaufbau zum Kampfmeister m?glich ist:   <!"fortgump.L7">.<p>
+Sollte dies nicht geschehen, kann die Verbindung aus irgendeinem Grund nicht hergestellt werden. In diesem Fall sollten Sie den Gefechtsring zun?chst wieder verlassen und es dann erneut versuchen. Sollte auch danach noch immer kein Verbindungsaufbau m?glich sein, bleibt Ihnen keine andere M?glichkeit, als den aktuellen Kampf zu verlassen und sich einem anderen Gefechtsring anzuschlie?en.
+<p>
+Sollten Sie Ihre Meinung ?ndern und sich nicht dem Kampf anschlie?en wollen, k?nnen Sie den Gefechtsring jederzeit verlassen.
+<p>
+Wird im Ring die Meldung <c>Inkompatibel</c> angezeigt, bedeutet das, da? Ihre Mitspieler andere NetStorm-Versionen benutzen als Sie selbst, so da? ein gemeinsames Spiel nicht m?glich ist. Gegebenenfalls sollten Sie unter <a href="http://www.titanic.com/netstorm/updates.html">http://www.titanic.com/netstorm/updates.html</a> einen Patch bzw. eine aktuellere Spielversion downloaden.
+<p>
+<a href="multiQuickHelp">Zur?ck zum Mehrspieler-QuickStart</a>
+
+</a>
+</a>
+
+
+<a name="zoneHelp">
+<a name="challengeIslandType">
+<h2>Zonen</h2>
+<p>
+NetStorm besitzt mehrere Spielzonen. Wenn Sie die Pyrosph?re zum ersten Mal betreten, gelangen Sie automatisch in eine Zone, die Ihrer Spielstufe entspricht. Sollte sich dort kein weiterer Spieler befinden, gelangen Sie in eine der n?chsten Zonen, in der sich auch andere Spieler aufhalten.
+<p>
+In jeder Zone finden Sie <a href="#battleIslandType">Gefechtsringe</a> und weitere Zonen vor.
+<br>
+<!"battleIsland.*">
+"Gefechtsring"
+<br>
+<!"challengeIsland.*"> "Zone"
+<p>
+Wenn Sie eine andere Zone besuchen wollen, sollten Sie zun?chst auf die Meldungen achten, die unterhalb der Zone angezeigt werden. Ist hier "Leer" angegeben, gibt es in dieser Zone keine anderen Spieler. Um eine andere Zone zu betreten, klicken Sie sie einfach mit der <c>linken Maustaste</c> an.
+<p>
+Innerhalb einer Zone k?nnen Sie im linken Fenster einen Spielernamen anklicken und so auf diesen Spieler zoomen. Klicken Sie mit der <c>linken Maustaste</c> in die N?he des Spielers, und Ihre Insel bewegt sich auf den gerade ausgew?hlten neuen Standort zu.
+<p>
+<a href="multiQuickHelp">Zur?ck zum Mehrspieler-QuickStart</a>
+</a>
+</a>
+
+
+<a name="playerListView">
+<a name="playerListViewHelp">
+<h2>Spielerliste</h2>
+<p>
+Wenn Sie sich frei in der Pyrosph?re umherbewegen, werden die Namen aller Spieler angezeigt, die sich in Ihrer <a href="challengeIslandType">Zone</a> befinden. Klicken Sie einen Spielernamen an, um sich dessen aktuellen Standort anzeigen zu lassen.
+<p>
+Der Spielername gibt au?erdem Aufschlu? ?ber einige oder alle folgenden Gegebenheiten, z.B. in der Form:
+<!"fortgump.L1"><!"fortgump.L0"><!"icon.B4"><~y>devo12<~.>
+<p>
+<!"fortgump.L1"> gibt an, ob die Netzwerkdiagnose beim System des Spielers fehlgeschlagen und m?glicherweise eine Firewall zwischengeschaltet ist. Sofern keine Firewall eingesetzt wird, kann der Spieler die Funktion des <a href="battleMasterHelp">Kampfmeisters</a> ?bernehmen, d.h. sein Rechner dient im Mehrspieler-Modus als Server. Je weniger Mitspieler sich hinter einer Firewall befinden, desto reibungsloser l?uft der Kampf. Wenn Sie sich also selbst hinter einer Firewall befinden, sollten Sie sich einem Kampf anschlie?en, in dem m?glichst keine weiteren Mitspieler Firewalls einsetzen.
+<p>
+Wird neben Ihrem Namen das <!"fortgump.L1">-Icon abgebildet, obwohl Sie der Meinung sind, da? keine Firewall vor Ihr System geschaltet ist, starten Sie nochmals die Diagnosel?ufe (?ber das Windows Start-Men?). Wenn auch danach wieder dasselbe Ergebnis angezeigt wird, wenden Sie sich bitte an Ihren Netzwerkadministrator oder Internet Service Provider.
+<p>
+<!"fortgump.L0"> gibt an, da? sich die NetStorm-CD zur Zeit nicht im CD-ROM-Laufwerk des betreffenden Spielers befindet. Hinweis: Um im Gefechtsring einen Kampf starten zu k?nnen, mu? die CD bei mindestens der H?lfte der teilnehmenden Spieler eingelegt sein.
+<p>
+<!"icon.B4"> gibt Aufschlu? ?ber den aktuellen <a href="rankHelp">Rang</a> des Spielers.
+<p>
+<~y>devo12<~.> ist ein Beispiel f?r einen Spielernamen.
+<p>
+N?here Informationen zu diesem Thema finden Sie unter <a href="multiQuickHelp">Mehrspieler-QuickStart</a>.
+</a>
+</a>
+
+<a name="battleStatusView">
+<a name="battleStatusViewHelp">
+<h2>Kampfstatus-Fenster</h2>
+<p>
+In der oberen H?lfte dieses Fensters werden alle an Ihrem Kampf angeschlossenen Spieler aufgelistet. 
+<p>
+In der unteren H?lfte werden die aktuellen <a href="#battleoptionshelp">Kampfoptionen</a> angegeben.
+<p>
+Bevor der <a href="battlemasterhelp">Kampfmeister</a> den Kampf starten kann, mu? zun?chst jeder Spieler das neben seinem Namen eingeblendete K?stchen anklicken.
+<p>
+Wird das K?stchen zwar angeklickt, leuchtet aber dennoch nicht auf, so bedeutet dies, da? keine Verbindung zum Kampfmeister hergestellt werden kann und somit auch die Teilnahme an diesem Spiel nicht m?glich ist. <br>
+<!"fortgump.L6"> Dunkles K?stchen (keine Verbindung)<br>
+<!"fortgump.L7"> Leuchtendes K?stchen (Verbindung)<br>
+<p>
+Klicken Sie <a href="#playerlistView">hier</a>, um sich n?here Informationen zu folgenden Themen anzeigen zu lassen:<br>
+<a href="#playerlistView"><!"fortgump.L1"><!"fortgump.L0"><!"icon.B4"><~y>devo12<~.></a>
+<p>
+<p>
+<a href="multiQuickHelp">Zur?ck zum Mehrspieler-QuickStart</a>
+
+</a>
+</a>
+
+<a name="battleOptionsHelp">
+<h2>Kampfoptionen</h2>
+<p>
+Mit Hilfe der Kampfoptionen k?nnen die grundlegenden Kampfeinstellungen ge?ndert werden.
+<p>
+<c>Br?ckenteile</c> - Legt fest, wie viele Br?ckenteile w?hrend des Spiels im Produktionsfenster angezeigt werden.
+<p>
+<c>Baugeschwindigkeit</c> - Gibt an, wie schnell die Einheiten nach einer Plazierung wieder im Produktionsfenster angezeigt werden. Wenn Sie w?hrend des Spiels eine Einheit auf dem Spielfeld plazieren, kann die betreffende Einheit eine gewisse Zeit lang nicht im Produktionsfenster ausgew?hlt werden. Erh?hen Sie die Baugeschwindigkeit, um die Wartezeit bis zur erneuten Auswahl zu verringern.
+<p>
+<c>Generatorreichweite</c> - Bestimmt die Energiereichweite der Generatoren. Durch eine gr??ere Reichweite ist es einfacher, leistungsf?higere Einheiten aufzustellen (dadurch wird allerdings der strategische Aspekt des Spiels abgeschw?cht).
+<p>
+<c>Vernichtungsbonus</c> - Wenn Sie eine feindliche Einheit zerst?ren, gewinnen Sie dadurch in der Regel ein Viertel des urspr?nglichen Sturmkraftwerts dieser Einheit als Bonus hinzu. Mit Hilfe dieser Option l??t sich der Bonusprozentsatz ?ndern.
+<p>
+<c>~[IfortGump.3] pro Geysir</c> - Zeigt an, wieviel Sturmkraft in einem einzelnen Geysir abgebaut werden kann.
+<p>
+<c>L?sbare Allianzen</c> - Normalerweise kann eine einmal geschlossene Allianz nicht mehr r?ckg?ngig gemacht werden. Wenn Sie die Aufl?sung von Allianzen jedoch zulassen wollen, stellen Sie diese Option auf <c>Ja</c> ein.
+<p>
+<c>Ausgeschlossene Einheiten</c> - Wenn Sie die Errichtung bestimmter Einheiten im Kampf verhindern wollen, k?nnen Sie die betreffenden Einheiten mit Hilfe dieser Option ausschlie?en.
+<p>
+<a href="multiQuickHelp">Zur?ck zum Mehrspieler-QuickStart</a>
+

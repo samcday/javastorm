@@ -1,0 +1,69 @@
+[Header]
+missionType = "Tutorial"
+
+missionNumber = 1
+
+myStartMoney = 10000
+myTech = "sunWalker;thunderBattery;sunFence;sunArcher;sunCannon;sunBlocker;thunderBlocker;bulf"
+
+aiName = "Chamberlain of Rain"
+aiTech = "sunCannon;rainBattery;thunderBattery;rainCannon;rainBlocker;rainBalloon;rainWalker;thunderCannon"
+aiStartMoney = 0
+aiGeyserAttachments = 2
+aiCollectors = 4
+aiTimeBetweenMoves = 2
+
+title = "The Noose"
+
+[Options]
+
+[A.]
+<h2>The Noose</h2>
+<i>"If you are not ruthless and cunning, 
+you must be ten times as brave and ten times as bold.
+But even that is often not enough." --Trom Inskineld, Nimbian Strategist</i>
+<p>
+Sentries were posted last night as usual. Their relief found
+them slain in their sleep, an enemy island to starboard, and
+our island surrounded by enemy bridge!
+<p>
+As the sun rises the Storm Geysers will come and their attack
+will begin. We <i>must</i> break through their lines!
+
+$Button=More,Tell,A1.
+
+[A1.]
+<h2>The Noose</h2>
+<p>
+When we have smashed their trap we must capture their Priest and
+spill his blood upon our Altar. Only then will the Dark Princes
+know that even stealth is no avail against us!
+
+$Button=Review Knowledge,ShowTechnology,55
+$Button=Play Mission,DoNothing,0
+
+
+[Succeeded][BadTeamDead]
+<h2>Success!</h2>
+<p>
+Your fallen sentries are avenged!  You have penetrated the
+bridge and overwhelmed your haughty foe.  Even his surprise
+tactics were no match for you superior skills of devastation!
+<$Config,Done{mission.fileName}=1>
+$Button=Leave Missions,MissionAbort,1
+$Button=Next Mission,MissionBegin,RainVsRain
+
+
+[Failed]
+<h2>Failure!</h2>
+<p>
+Your sentries, slain in their sleep, had it easy.  The rest
+of your forces have been cruelly butchered, overwhelmed
+from all sides.  Their screams ring in your head as your 
+island suffers its final humiliation.
+$Button=Continue,Tell,TryAgain
+
+
+[END]
+																		 
+																		 

@@ -1,0 +1,197 @@
+[Header]
+missionType = "Tutorial"
+aid=1
+
+loadFort = "SecretWorkshop"
+denySalvage = 1
+denyAscend = 1
+tutorialNumber = 2
+moreGeysers = 0
+
+techAllowed = "deny;all;allow;windVortex;sunArcher"
+
+myStartMoney = 10000
+myTech = "sunArcher"
+
+aiOff = 1
+aiNoTemple = 1
+
+title = "Geheimnisvolle Produktionsst?tten"
+
+[Options]
+
+[A.]
+<h2>Geb?ude, Teil 1</h2>
+<i>"Die Priester faseln blo? irgendein wirres Zeug, und schon entsteht ein riesiges Geb?ude. Kein Wunder, da? die Leute Angst vor ihnen haben."  --Nikro Huvaks, Arbeitsloser Nimbischer Zimmermann 
+</i>
+<p>
+Ihr Priester besitzt die F?higkeit, mit Hilfe von Sturmkraft besondere Geb?ude zu errichten: Tempel, Produktionsst?tten und Alt?re.
+$Button=WEITER,Tell,A1.
+
+[A1.]
+<h2>Geb?ude, Teil 2</h2>
+Im <c>Tempel</c> werden die eingesammelten Sturmkristalle in Sturmkraft umgewandelt und Br?ckenteile produziert.<br>
+In einer <c>Produktionsst?tte</c> werden Kampfeinheiten hergestellt.<br>
+<br>
+<!"windvortex.*">    <!"sunFactory.*">
+                    "Tempel"                          "Produktionsst?tte"
+
+$Button=ZUR?CK,Tell,A.
+$Button=WEITER,Tell,A2.
+
+
+[A2.]
+<h2>Errichtung eines Tempels</h2>
+Sie besitzen nun gen?gend Sturmkraft, um einen Tempel errichten zu k?nnen.
+Klicken Sie Ihren Priester mit der <c>rechten Maustaste</c> an, und w?hlen Sie hier den Eintrag <c>Errichten</c>, dann <c>Tempel</c> und schlie?lich <c>Errichtung von Windtempel</c>.
+<p>
+Im Mauszeiger erscheint daraufhin der Umri? eines Windtempels, und Sie k?nnen ihn an irgendeiner Stelle auf der Insel positionieren, die f?r Ihren Priester zug?nglich ist. Wird die ausgew?hlte Fl?che in Rot angezeigt, kann der Tempel dort nicht gebaut werden, weil ein Hindernis im Weg ist. Sie k?nnen das Geb?ude also nur auf Pl?tzen errichten, die nicht rot eingef?rbt sind.
+<p>
+Nachdem Sie den Tempel schlie?lich an einem geeigneten Ort plaziert haben, geht Ihr Priester auf diese Stelle zu und beginnt mit der Errichtung.
+<p>
+<I>Probieren Sie es jetzt selbst einmal aus, und errichten Sie einen Tempel!</I> (Um sich die Beschreibung dieser ?bungsmission nochmals anzeigen zu lassen, dr?cken Sie die Taste <c>F8</c>.)
+
+$Button=ZUR?CK,Tell,A1.
+$Button=OK,DoNothing,0
+
+[B.]
+<h2>Tempel fertiggestellt</h2>
+Vielleicht haben Sie schon bemerkt, da? sich die Randfarbe der Insel in dem Moment ver?ndert hat, als der Tempel fertiggestellt war. Diese Verf?rbung bedeutet, da? die Insel in Besitz genommen wurde (in diesem Fall von Ihnen), und die Farbe kennzeichnet den jeweiligen Besitzer. Sobald Sie eine Insel in Besitz genommen haben, k?nnen Sie dort weitere Einheiten errichten und auch abgehende Br?ckenteile anlegen.
+<p>
+(Mit F7 k?nnen Sie die Besitzerkennzeichnung der Inseln aus- bzw. einschalten.  Wenn Sie in dieser Mission keine Verf?rbung des Inselrandes erkennen konnten, ist die Besitzerkennzeichnung m?glicherweise ausgeschaltet.)
+$Button=WEITER,Tell,B1.
+
+[B1.]
+<h2>Errichtung einer Produktionsst?tte</h2>
+Nachdem Sie einen Tempel gebaut haben, lassen Sie Ihren Priester nun eine Produktionsst?tte errichten.
+<p>
+Genau wie zuvor beim Tempel klicken Sie dazu Ihren Priester mit der <c>rechten Maustaste</c> an, w?hlen in dem eingeblendeten Men? den Eintrag <c>Errichten</c>, dann <c>Produktionsst?tte</c> und schlie?lich <c>Errichtung von Sonnenproduktionsst?tte</c>.
+<p>
+Der Mauszeiger verwandelt sich in diesem Fall in den Umri? einer <c>Sonnenproduktionsst?tte</c>, den Sie wieder auf eine Stelle positionieren, die f?r Ihren Priester erreichbar ist. Rote Fl?chenverf?rbungen zeigen an, da? die Produktionsst?tte hier nicht errichtet werden kann, weil ein Hindernis im Weg ist. Alle Geb?ude k?nnen nur an Pl?tzen aufgestellt werden, die nicht rot eingef?rbt sind.
+<p>
+<I>Versuchen Sie nun selbst einmal, eine Produktionsst?tte zu errichten!</I>
+
+$Button=ZUR?CK,Tell,B.
+$Button=OK,DoNothing,0
+
+[C.]
+<h2>Produktion</h2>
+<i>"Das Nimbische Talent f?r komplexe Mechanik ist einfach un?bertroffen." --Desil Prottus, Nimbischer Mechaniker</i>
+<p>
+In den Produktionsst?tten werden Kampfeinheiten hergestellt.
+Zu Beginn der Mission besitzen Sie das Wissen ?ber eine Waffe: den "Sonnenscheibenwerfer". Diese Einheit feuert kleine Sonnenscheiben auf die feindlichen Einheiten ab. Im Spiel k?nnen Sie weiteres Wissen ?ber andere Waffen erlangen, indem Sie feindliche Priester gefangennehmen und den Furien als Opfer darbringen! In dieser ?bungsmission m?ssen Sie sich jedoch zun?chst nur mit diesem einen Wissen begn?gen!
+<p>
+Als erstes stellen Sie nun einen Sonnenscheibenwerfer her. Klicken Sie dazu Ihre Sonnenproduktionsst?tte mit der <c>rechten Maustaste</c> an, und w?hlen Sie den Men?eintrag <c>Wissen in Produktion leiten</c>. Am oberen Rand des Men?fensters befinden sich zwei Produktionspl?tze <!"mana.9"><!"mana.9">.
+<I>Belegen Sie einen dieser Produktionspl?tze, indem Sie den Eintrag "Sonnenscheibenwerfer" anklicken.</I>
+$Button=OK,DoNothing,0
+
+
+[D.]
+<h2>Erste Kampfeinheit, Teil 1</h2>
+<i>"Die Dummen werden von den Sonnenscheibenwerfern enthauptet." -Major Tomas Rultoff</i>
+<p>
+In Ihrem Produktionsfenster ist nun eine runde Kampfeinheit abgebildet - der Sonnenscheibenwerfer.
+Um ihn im Wolkenreich zu plazieren, gehen Sie ?hnlich wie bei den Br?cken vor: Klicken Sie mit der <c>linken Maustaste</c> zun?chst auf den Sonnenscheibenwerfer und dann auf die Stelle, an der er errichtet werden soll.
+<p>
+Wie bei allen anderen Geb?uden und Einheiten ist es auch in diesem Fall nicht m?glich, den Sonnenscheibenwerfer auf einer rot eingef?rbten Fl?che aufzustellen.
+$Button=WEITER,Tell,D1.
+
+[D1.]
+<h2>Erste Kampfeinheit, Teil 2</h2>
+Bei der Errichtung von Kampfeinheiten gilt es, einen weiteren wichtigen Aspekt zu beachten: die Energieversorgung. Sobald Sie den Sonnenscheibenwerfer in den Mauszeiger aufnehmen, erscheint unmittelbar neben dessen Umri? ein kleines Symbol. Wenn dieses Symbol <!"mana.7"> leuchtet, ist die f?r die Errichtung dieser Einheit erforderliche Energie vorhanden. Grau gef?rbte Symbole <!"mana.3"> weisen hingegen darauf hin, da? die ben?tigte Energie nicht verf?gbar ist.
+<p>
+<I>Errichten Sie nun zun?chst einen Sonnenscheibenwerfer. Anschlie?end erhalten Sie weitere Informationen.</I>
+<p>
+Achten Sie in diesem Zusammenhang einmal darauf, wo der Sonnenscheibenwerfer aufgestellt werden kann und wo nicht.
+$Button=ZUR?CK,Tell,D.
+$Button=OK,DoNothing,0
+
+[E.]
+<h2>Anzeige der Kampfeinheiten</h2>
+Sicher haben Sie bemerkt, da? der Sonnenscheibenwerfer von einer kreisf?rmigen Anzeige umgeben war, als Sie ihn umherbewegt haben. Hierbei handelt es sich um die Reichweite der Einheit. Nachdem eine Kampfeinheit errichtet wurde, k?nnen Sie sich jederzeit die zugeh?rige Reichweite einblenden lassen, indem Sie die Einheit mit der <c>linken Maustaste</c> anklicken.
+<p>
+<I>Blenden Sie nun die Reichweite Ihres Sonnenscheibenwerfers ein, und errichten Sie dann in seiner n?heren Umgebung einen zweiten Werfer. Versuchen Sie dabei, die Gesamtreichweite der beiden Sonnenscheibenwerfer zu maximieren.</I>
+$Button=OK,DoNothing,0
+
+
+[F.]
+<h2>Energie, Teil 1</h2>
+<i>"Es gibt nicht ein einziges Naturgesetz, das nicht von der Energie ?bertroffen und gar gebrochen werden k?nnte."
+--Jan Kilterstern, Nimbischer Energieexperte</i>
+<p>
+Wie bereits zuvor erw?hnt, ist f?r die Errichtung aller Kampfeinheiten eine gewisse Energieversorgung erforderlich. Es gibt drei verschiedene Energiearten: Wind <!"mana.4>, Regen <!"mana.5> und Donner <!"mana.6>.
+<p>
+Einige Kampfeinheiten, wie z.B. die Sonnenscheibenwerfer, k?nnen mit <i>jeder beliebigen</i> Energieart betrieben werden. Eine <i>universelle</i> Energieform ist die "Sonne" <!"mana.7">, die nicht zwingend an eine der drei Furien gebunden ist. 
+<p>
+Ist zur Errichtung einer Einheit beispielsweise Windenergie <!"mana.4> erforderlich, mu? auch exakt diese Energieart verf?gbar sein. Hingegen kann eine Einheit, die Sonnenenergie ben?tigt, sowohl mit Wind- als auch mit Regen- oder Donnerenergie betrieben werden.
+$Button=WEITER,Tell,F1.
+
+
+[F1.]
+<h2>Energie, Teil 2</h2>
+Der Windtempel, den Sie auf Ihrer Insel errichtet haben, erzeugt Windenergie und verteilt diese innerhalb einer kreisf?rmigen Reichweite. Um sich die Reichweite anzeigen zu lassen, klicken Sie den Tempel mit der <c>linken Maustaste</c> an.
+<p>
+Blenden Sie nun die Reichweite des Tempels ein.
+<p>
+<I>Die ?bungsmission wird wenige Sekunden nach dem Einblenden der Energiereichweite des Tempels automatisch fortgesetzt.</I>
+
+[G.]
+<h2>Energie, Teil 3</h2>
+Jetzt, da Sie wissen, da? der Windtempel Energie ausstrahlt, wird auch der Zusammenhang mit den zul?ssigen und nicht zul?ssigen Errichtungspl?tzen f?r die Sonnenscheibenwerfer deutlich: Ein Sonnenscheibenwerfer ben?tigt eine Einheit beliebiger Energie, und der Windtempel erzeugt eine Einheit Windenergie. Der Sonnenscheibenwerfer mu? also zun?chst innerhalb der Reichweite des Tempels errichtet werden, damit die erforderliche Energiezufuhr gew?hrleistet ist.
+<p>
+Errichten Sie nun einige weitere Sonnenscheibenwerfer. Versuchen Sie danach, eine von der Insel abgehende Br?cke zu bauen und einen Sonnenscheibenwerfer an einem <i>Ende</i> eines beliebigen Br?ckenteils aufzustellen.  
+Wenn Sie sich zu weit aus der Energiereichweite entfernen, ?ndert sich das <!"mana.7">-Symbol auf der linken Seite des Mauszeigers in <!"mana.3">.
+<p>
+Einheiten k?nnen ausschlie?lich an den <i>Enden</i> von Br?ckenteilen errichtet werden, nicht aber entlang der Seiten!
+<p>
+<I>Die ?bungsmission wird automatisch fortgesetzt, nachdem Sie zwei weitere Sonnenscheibenwerfer errichtet haben.</I>
+$Button=ZUR?CK,Tell,F.
+$Button=OK,DoNothing,0
+
+[H.]
+<h2>Energie, Teil 4</h2>
+Noch eine letzte Anmerkung zum Thema Energie.
+<p>
+Eine geeignete Energiezufuhr ist <i>ausschlie?lich</i> f?r die <i>Errichtung</i> einer Kampfeinheit erforderlich, nicht aber f?r deren Betrieb. Ist eine Einheit erst einmal aufgestellt, bleibt sie solange in Betrieb, bis Sie durch feindlichen Beschu? oder durch Selbstzerst?rung vernichtet wird. Nach ihrer Errichtung verbraucht die Einheit weder Energie noch Sturmkraft.
+
+$Button=WEITER,Tell,H1.
+
+[H1.]
+<h2>Selbstzerst?rung</h2>
+Durch die Selbstzerst?rung einer existierenden Einheit k?nnen Sie einen Teil ihres urspr?nglichen Sturmkraftwerts zur?ckgewinnen.
+<p>
+Probieren Sie es gleich einmal aus. Klicken Sie einen der soeben errichteten Sonnenscheibenwerfer mit der <c>rechten Maustaste</c> an, und w?hlen Sie den Men?punkt <c>Selbstzerst?rung</c>. Die dadurch zur?ckgewonnene Sturmkraftmenge steht in umgekehrt proportionalem Verh?ltnis zum aktuellen Besch?digungsgrad der Einheit.
+<p>
+<I>F?hren Sie nun die Selbstzerst?rung einer Ihrer Einheiten durch. Danach wird die ?bungsmission automatisch fortgesetzt.</I>
+
+$Button=ZUR?CK,Tell,H.
+$Button=OK,DoNothing,0
+
+[I.]
+<h2>Mission erfolgreich abgeschlossen!</h2>
+Herzlichen Gl?ckwunsch, Sie haben die zweite ?bungsmission erfolgreich abgeschlossen.
+<p>
+In der n?chsten ?bungsmission werden Sie mit der Kampfweise im Wolkenreich von Nimbus vertraut gemacht!
+<$Config,Done{mission.fileName}=1>
+
+$Button=?bungsmission beenden,LeaveBattle,1
+$Button=N?chste ?bungsmission,MissionBegin,Tutorial3
+
+
+[NotVortex]
+<h2>Hinweis</h2>
+Sie haben Ihren Windtempel angeklickt, in dem jedoch keine Kampfeinheiten hergestellt werden k?nnen. Um Ihr Wissen in Produktion leiten zu k?nnen, m?ssen Sie auf Ihre Sonnenproduktionsst?tte klicken.
+<p>
+Wenn Sie sich die Beschreibung dieser ?bungsmission noch einmal durchlesen m?chten, dr?cken Sie die Taste <c>F8</c>.
+
+[NotFactory]
+<h2>Hinweis</h2>
+Sie haben Ihren Windtempel angeklickt, in dem jedoch keine Kampfeinheiten hergestellt werden k?nnen. Um Ihr Wissen in Produktion leiten zu k?nnen, m?ssen Sie auf Ihre Sonnenproduktionsst?tte klicken.
+<p>
+Wenn Sie sich die Beschreibung dieser ?bungsmission noch einmal durchlesen m?chten, dr?cken Sie die Taste <c>F8</c>.
+
+
+
+[END]
+																		 
+																		 

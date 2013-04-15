@@ -1,0 +1,96 @@
+typename Fringe
+
+typeflags fringe predictable not_selectable not_real;
+{
+	description="";
+	zorder = "zoSTALAG";
+}
+
+EA01 : default: "fringe.gif" #0 ;
+EA02 : : "fringe.gif" #1 ;
+EA03 : : "fringe.gif" #2 ;
+EA04 : : "fringe.gif" #3 ;
+EA05 : : "fringe.gif" #4 ;
+EA06 : : "fringe.gif" #5 ;
+EA07 : : "fringe.gif" #6 ;
+EA08 : : "fringe.gif" #7 ;
+EA09 : : "fringe.gif" #8 ;
+EA10 : lit : "fringe.gif" #15;
+EA11 : unlit : "fringe.gif" #31;
+EA12 : lit : "fringe.gif" #16;
+EA13 : unlit : "fringe.gif" #32;
+EA14 : lit : "fringe.gif" #17;
+EA15 : unlit : "fringe.gif" #33;
+EA16 : lit : "fringe.gif" #18;
+EA17 : unlit : "fringe.gif" #34;
+EA18 : lit : "fringe.gif" #19;
+EA19 : unlit : "fringe.gif" #35;
+EA20 : lit : "fringe.gif" #20;
+EA21 : unlit : "fringe.gif" #36;
+EA22 : lit : "fringe.gif" #21;
+EA23 : unlit : "fringe.gif" #37;
+EA24 : lit : "fringe.gif" #22;
+EA25 : unlit : "fringe.gif" #38;
+EA26 : lit : "fringe.gif" #23;
+EA27 : unlit : "fringe.gif" #39;
+EA28 : lit : "fringe.gif" #28;
+EA29 : unlit : "fringe.gif" #44;
+EA30 : lit : "fringe.gif" #29;
+EA31 : unlit : "fringe.gif" #45;
+EA32 : lit : "fringe.gif" #30;
+EA33 : unlit : "fringe.gif" #46;
+EA34 : lit : "fringe.gif" #28;
+EA35 : unlit : "fringe.gif" #44;
+EA36 : lit : "fringe.gif" #29;
+EA37 : unlit : "fringe.gif" #45;
+EA38 : lit : "fringe.gif" #30;
+EA39 : unlit : "fringe.gif" #46;
+
+// Anything that uses risle.gif#16 in rainIsle.gif
+IA01 : : "fringe.gif" #9 ;
+IA02 : : "fringe.gif" #10 ;
+IA03 : lit : "fringe.gif" #24 ;
+IA04 : unlit : "fringe.gif" #40 ;
+IA05 : lit : "fringe.gif" #25 ;
+IA06 : unlit : "fringe.gif" #41 ;
+BK01 : : "fringe.gif" #9 ;
+BK02 : : "fringe.gif" #10 ;
+BK03 : lit : "fringe.gif" #24 ;
+BK04 : unlit : "fringe.gif" #40 ;
+BK05 : lit : "fringe.gif" #25 ;
+BK06 : unlit : "fringe.gif" #41 ;
+BE01 : : "fringe.gif" #9 ;
+BE02 : : "fringe.gif" #10 ;
+BE03 : lit : "fringe.gif" #24 ;
+BE04 : unlit : "fringe.gif" #40 ;
+BE05 : lit : "fringe.gif" #25 ;
+BE06 : unlit : "fringe.gif" #41 ;
+EK01 : : "fringe.gif" #9 ;
+EK02 : : "fringe.gif" #10 ;
+EK03 : lit : "fringe.gif" #24 ;
+EK04 : unlit : "fringe.gif" #40 ;
+EK05 : lit : "fringe.gif" #25 ;
+EK06 : unlit : "fringe.gif" #41 ;
+
+// Anything that uses risle.gif#15 in rainIsle.gif
+HA01 : : "fringe.gif" #11 ;
+HA02 : : "fringe.gif" #12 ;
+HA03 : lit : "fringe.gif" #26 ;
+HA04 : unlit : "fringe.gif" #42 ;
+HA05 : lit : "fringe.gif" #27 ;
+HA06 : unlit : "fringe.gif" #43 ;
+DJ01 : : "fringe.gif" #11 ;
+DJ02 : : "fringe.gif" #12 ;
+DJ03 : lit : "fringe.gif" #26 ;
+DJ04 : unlit : "fringe.gif" #42 ;
+DJ05 : lit : "fringe.gif" #27 ;
+DJ06 : unlit : "fringe.gif" #43 ;
+ED01 : : "fringe.gif" #11 ;
+ED02 : : "fringe.gif" #12 ;
+ED03 : lit : "fringe.gif" #26 ;
+ED04 : unlit : "fringe.gif" #42 ;
+ED05 : lit : "fringe.gif" #27 ;
+ED06 : unlit : "fringe.gif" #43 ;
+
+AB01 : : "fringe.gif" #13 ;
+AE01 : : "fringe.gif" #14 ;

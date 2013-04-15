@@ -1,0 +1,35 @@
+typename battleIsland
+typeflags opaquecollide ship;
+{
+	description = "Challenge Ring";
+	zorder = "zoISLAND";
+	foot_x = 1;
+	foot_y = 1;
+}
+
+// Frame 0 is the ring surrounding the island.
+
+A00 : default : "ring.gif" #00;
+
+// The B cluster contains all of the player pips
+
+B00 :         : "ring.gif" #10;
+B01 :         : "ring.gif" #11;
+B02 :         : "ring.gif" #12;
+B03 :         : "ring.gif" #13;
+B04 :         : "ring.gif" #14;
+B05 :         : "ring.gif" #15;
+B06 :         : "ring.gif" #16;
+B07 :         : "ring.gif" #17;
+
+// The C cluster contains empty frames whose warm spots determine the location of
+// each of the pips relative to the center of the ring.
+
+C00 :         : "ring.gif" #1;
+C01 :         : "ring.gif" #2;
+C02 :         : "ring.gif" #3;
+C03 :         : "ring.gif" #4;
+C04 :         : "ring.gif" #5;
+C05 :         : "ring.gif" #6;
+C06 :         : "ring.gif" #7;
+C07 :         : "ring.gif" #8;

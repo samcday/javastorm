@@ -1,0 +1,55 @@
+typename rainVortex constructor
+typeflags vortex yuckWalk dropBlocking shotblocking mayDropOnRim mayDropOnIsle shadow;
+{
+	description="Rain Temple";
+	class="Energy";
+	maxHitPoints = 5000;
+	theme = "rain";
+	cost = 5000;
+	threat = 20;
+	zorder = "zoEMPLACEMENTS";
+	foot_x = 8;
+	foot_y = 6;
+
+	damageEffect = 1;
+	constructionRate = 10;
+	hotFootRatioX = 0.5;
+	hotFootRatioY = 0.8;
+
+	crew = 30;
+	buildDoneSound = "templeComplete.wav";
+}
+
+A00 : default baseframe : "rvortex.gif" #00 : "rvortex.gif" #27 ;
+
+B01 :  : "rvortex.gif" #09 ;
+B02 :  : "rvortex.gif" #10 ;
+B03 :  : "rvortex.gif" #11 ;
+B04 :  : "rvortex.gif" #12 ;
+B05 :  : "rvortex.gif" #13 ;
+B06 :  : "rvortex.gif" #14 ;
+B07 :  : "rvortex.gif" #15 ;
+B08 :  : "rvortex.gif" #16 ;
+B09 :  : "rvortex.gif" #17 ;
+B10 :  : "rvortex.gif" #18 ;
+B11 :  : "rvortex.gif" #19 ;
+B12 :  : "rvortex.gif" #20 ;
+B13 :  : "rvortex.gif" #21 ;
+B14 :  : "rvortex.gif" #22 ;
+
+C00 :  : "rvrev.gif" #0 ;
+C01 :  : "rvrev.gif" #1 ;
+C02 :  : "rvrev.gif" #2 ;
+C03 :  : "rvrev.gif" #3 ;
+C04 :  : "rvrev.gif" #4 ;
+C05 :  : "rvrev.gif" #5 ;
+C06 :  : "rvrev.gif" #6 ;
+C07 :  : "rvrev.gif" #7 ;
+C08 :  : "rvrev.gif" #8 ;
+C09 :  : "rvrev.gif" #9 ;
+C10 :  : "rvrev.gif" #10;
+C11 :  : "rvrev.gif" #11;
+C12 :  : "rvrev.gif" #12;
+
+
+P00 : help : "s_rainbeauty.gif" #00  ;

@@ -1,0 +1,57 @@
+[Header]
+missionType = "Tutorial"
+
+missionNumber = 1
+
+myStartMoney = 10000
+myTech = "sunWalker;thunderBattery;sunFence;sunArcher;sunCannon;sunBlocker;thunderBlocker;bulf"
+
+aiName = "Herzog des Regens"
+aiTech = "sunCannon;rainBattery;thunderBattery;rainCannon;rainBlocker;rainBalloon;rainWalker;thunderCannon"
+aiStartMoney = 0
+aiGeyserAttachments = 2
+aiCollectors = 4
+aiTimeBetweenMoves = 2
+
+title = "Galgenfrist"
+
+[Options]
+
+[A.]
+<h2>Galgenfrist</h2>
+<i>"Wenn Du nicht r?cksichtslos und gerissen bist, mu?t Du wenigstens zehnmal mutiger und verwegener sein. Aber selbst das ist oftmals noch nicht genug." --Trom Inskineld, Nimbischer Stratege</i>
+<p>
+Wie ?blich wurden auch letzte Nacht Wachtposten aufgestellt. Die Abl?sung fand sie am n?chsten Morgen ermordet auf, sichtete an Steuerbord eine feindliche Insel, und mu?te feststellen, da? unsere eigene Insel von einer feindlichen Br?cke umgeben war!
+<p>
+Bei Sonnenaufgang werden die Sturmgeysire aufsteigen, und die feindlichen Truppen werden zum Angriff ?bergehen. Wir <i>m?ssen</i> ihre Kampflinien durchbrechen!
+
+$Button=Weiter,Tell,A1.
+
+[A1.]
+<h2>Galgenfrist</h2>
+<p>
+Wenn wir den Hinterhalt des Feindes zerschlagen haben, m?ssen wir seinen Priester gefangennehmen und ihn auf dem Altar opfern. Erst dann werden die Finsteren Prinzen erkennen, da? sie selbst mit List und T?cke nichts gegen uns ausrichten k?nnen!
+
+$Button=Aktueller Wissensstand,ShowTechnology,55
+$Button=Mission beginnen,DoNothing,0
+
+
+[Succeeded][BadTeamDead]
+<h2>Mission erfolgreich abgeschlossen!</h2>
+<p>
+Ihre gemeuchtelten Wachm?nner sind ger?cht! Sie haben die feindlichen Linien durchbrochen und Ihren ?berheblichen Feind bezwungen. Auch seine ?berraschungstaktiken konnten nichts gegen Ihre geschickte Kampfstrategie ausrichten!
+<$Config,Done{mission.fileName}=1>
+$Button=Mission beenden,MissionAbort,1
+$Button=N?chste Mission,MissionBegin,RainVsRain
+
+
+[Failed]
+<h2>Missionsziel verfehlt!</h2>
+<p>
+Den Wachm?nnern, die im Schlaf niedergemetzelt wurden, erging es noch verh?ltnism??ig gut. Der Rest Ihrer Truppen wurde brutal und qualvoll abgeschlachtet, von allen Seiten ?berw?ltigt. Ihre Schmerzensschreie klingen Ihnen noch in den Ohren, als Ihre Insel dem letzten, vernichtenden Angriff zum Opfer f?llt.
+$Button=Weiter,Tell,TryAgain
+
+
+[END]
+																		 
+																		 

@@ -1,0 +1,38 @@
+typename sunFactory constructor
+typeflags factory yuckWalk dropBlocking shotblocking shadow;
+{
+	description="Sun Workshop";
+	class="Production";
+	maxHitPoints = 3000;
+	theme = "sun";
+	cost = 800;
+	threat = 10;
+	zorder = "zoEMPLACEMENTS";
+	foot_x = 7;
+	foot_y = 6;
+	damageEffect = 1;
+	buildDoneSound = "workshopComplete.wav";
+}
+
+A01 : default baseframe : "sfactory.gif" #00 : "sfactory.gif" #12 ;
+A02 : : "sfactory.gif" #01 : "sfactory.gif" #12 ;
+A03 : : "sfactory.gif" #02 : "sfactory.gif" #12 ;
+A04 : : "sfactory.gif" #03 : "sfactory.gif" #12 ;
+
+B01 :  : "sfactory.gif" #04 : "sfactory.gif" #12 ;
+B02 :  : "sfactory.gif" #05 : "sfactory.gif" #12 ;
+B03 :  : "sfactory.gif" #06 : "sfactory.gif" #12 ;
+B04 :  : "sfactory.gif" #07 : "sfactory.gif" #12 ;
+
+C01 :  : "sfactory.gif" #08 : "sfactory.gif" #12 ;
+C02 :  : "sfactory.gif" #09 : "sfactory.gif" #12 ;
+C03 :  : "sfactory.gif" #10 : "sfactory.gif" #12 ;
+C04 :  : "sfactory.gif" #11 : "sfactory.gif" #12 ;
+
+D01 :  : "sfactory.gif" #08 : "sfactory.gif" #12 ;
+D02 :  : "sfactory.gif" #09 : "sfactory.gif" #12 ;
+D03 :  : "sfactory.gif" #10 : "sfactory.gif" #12 ;
+D04 :  : "sfactory.gif" #11 : "sfactory.gif" #12 ;
+
+
+P00 : help : "b_sfactory.gif" #00;

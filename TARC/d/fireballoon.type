@@ -1,0 +1,45 @@
+typename fireBalloon 
+typeflags balloon;
+{
+	description="Zepplin";
+	class="Aerial Transport";
+	maxHitPoints = 100;
+	theme = "fire";
+	level = 3;
+	cost = 800;
+
+	zorder = "zoFLYERS";
+	foot_x = 1;
+	foot_y = 1;
+	group = "balloon";
+
+	speed = 4.0;
+		// Ken improved v5.3 after consultation.
+	turningSpeed = 90000.0;
+
+	turningSpeed = 90.0;
+	pickupSound = "balloonPickup.wav";
+	moveSound = "balloonMove.wav";
+	dropSound = "balloonDrop.wav";
+
+	techBit = 33;
+}
+
+A00	: : "fballoon.gif" #12 ;
+A01	: : "fballoon.gif" #13 ;
+B00	: : "fballoon.gif" #10 ;
+B01	: : "fballoon.gif" #11 ;
+C00	: : "fballoon.gif" #08 ;
+C01	: : "fballoon.gif" #09 ;
+D00	: : "fballoon.gif" #06 ;
+D01	: : "fballoon.gif" #07 ;
+E00	: : "fballoon.gif" #04 ;
+E01	: : "fballoon.gif" #05 ;
+F00	: : "fballoon.gif" #02 ;
+F01	: : "fballoon.gif" #03 ;
+G00	: gumpframe default : "fballoon.gif" #00 ;
+G01	: : "fballoon.gif" #01 ;
+H00	: : "fballoon.gif" #14 ;
+H01	: : "fballoon.gif" #15 ;
+
+P00 : help : "b_sballoon.gif" #00;

@@ -1,0 +1,18 @@
+typename sunFocus constructor
+typeflags focus yuckWalk dropBlocking shotblocking shadow;
+{
+	description="Sun {Focus}";
+	class="Source of Energy";
+//	maxHitPoints = 100;
+	theme = "rain";
+	cost = 500;
+
+	zorder = "zoEMPLACEMENTS";
+	foot_x = 3;
+	foot_y = 3;
+	damageEffect = 1;
+}
+
+A01 : default : "focus.gif" #02 : "focus.gif" #05 ;
+
+P00 : help : "b_focus.gif" #00;

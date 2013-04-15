@@ -1,0 +1,233 @@
+//
+// Analysis for the Setup diagnostics.
+//
+
+[Af1]
+-p-
+Das Setup-Programm konnte in der Registrierungsdatei keine Verkn?pfung zu einer .HTML-Datei finden.
+-a-
+Auf Ihrem System scheint kein Web-Browser installiert zu sein.
+
+NetStorm ben?tigt einen Web-Browser, um Links zu Internet-Web-Sites darstellen zu k?nnen.
+Ist auf Ihrem System kein Web-Browser installiert, funktionieren einige der Links in der Online-Hilfe nicht. 
+Der eigentliche Spielablauf und der Spielspa? werden dadurch jedoch nicht beeintr?chtigt. 
+-s-
+Installieren Sie einen Web-Browser.
+
+[Af2]
+-p-
+Das Setup-Programm konnte die in der Registrierungsdatei mit den .HTML-Dateien verkn?pfte Datei nicht finden.
+-a-
+Vermutlich war fr?her einmal ein Web-Browser auf Ihrem System installiert, der sp?ter aber verschoben oder gel?scht wurde.
+
+NetStorm ben?tigt einen Web-Browser, um Links zu Internet-Web-Sites darstellen zu k?nnen.
+Ist auf Ihrem System kein Web-Browser installiert, funktionieren einige der Links in der Online-Hilfe nicht. 
+Der eigentliche Spielablauf und der Spielspa? werden dadurch jedoch nicht beeintr?chtigt. 
+-s-
+Installieren Sie Ihren Web-Browser erneut.
+
+[Bf1]
+-p-
+Das Setup-Programm konnte das Windows-Sockets-System nicht initialisieren.
+-a-
+Auf Ihrem System scheint kein TCP/IP-Protokoll installiert zu sein.
+
+NetStorm ben?tigt f?r jegliche Netzwerkkommunikation das TCP/IP-Protokoll. Das Spiel selbst l??t sich zwar ohne TCP/IP-Protokoll starten, Online-Spiele sind in diesem Fall jedoch nicht m?glich.
+-s-
+Installieren Sie das TCP/IP-Protokoll, das beispielsweise auf Ihren Windows-Installationsdisketten, der Windows-Installations-CD oder in der von Ihrem ISP (Internet Service Provider) gelieferten Installations-Software enthalten ist. 
+Sollten Sie hierzu Fragen haben, wenden Sie sich bitte an Ihren ISP.
+
+[Bf2|Hf1|If[1,4,7]]
+-p-
+W?hrend des Versuchs, ein neues Socket anzulegen, ist ein Fehler aufgetreten.
+-a-
+Das TCP/IP-Protokoll ist zwar auf Ihrem System installiert, es funktioniert jedoch nicht einwandfrei.
+
+NetStorm ben?tigt f?r jegliche Netzwerkkommunikation das TCP/IP-Protokoll. Das Spiel selbst l??t sich zwar ohne TCP/IP-Protokoll starten, Online-Spiele sind in diesem Fall jedoch nicht m?glich.
+-s-
+Installieren Sie das Windows-TCP/IP-Protokoll erneut, oder wenden Sie sich an Ihren ISP.
+
+[Df[1-2]]
+-p-
+Das Setup-Programm konnte die Programme DirectX bzw. DirectSound nicht auf Ihrem System finden.
+-a-
+Vermutlich ist auf Ihrem System nicht die aktuellste Version von Microsoft DirectX installiert.
+
+Zum einen ist DirectX nicht Bestandteil der Windows95-Software, und zum anderen gibt es mittlerweile mehrere ?berarbeitete Versionen dieses Programms.
+NetStorm ben?tigt die derzeit aktuellste DirectX-Version, die bei der regul?ren Installation des Spiels mit installiert wird.
+-s-
+Wenn diese Meldung w?hrend des ersten Diagnoselaufs erscheint, ignorieren Sie sie zun?chst, und fahren Sie ganz normal bis zum Schlu? mit der Installation fort. Starten Sie anschlie?end Ihren Rechner neu, und f?hren Sie dann einen weiteren Diagnoselauf durch. Sollte die Fehlermeldung wiederholt auftreten, wenden Sie sich bitte an den Kundendienst.
+
+[If5]
+-p-
+Das Setup-Programm konnte keine Verbindung zum Diagnose-Server herstellen.
+-a-
+Da Ihr System den Ping-Test bestanden hat, k?nnte der Verbindungsaufbau aus folgenden Gr?nden nicht zustande gekommen sein:
+* Sie befinden sich hinter einer Firewall oder einem Proxy. 
+* Der Diagnose-Server ist zur Zeit nicht betriebsbereit.
+
+Firewalls werden eingesetzt, um einzelnen, an einem LAN angeschlossenen Rechnern den Zugriff auf das Internet zu verwehren.
+Hierbei wird der Datenpaket-Transfer zwischen LAN und Internet ?berpr?ft und die ?bertragung von bestimmten Ports aus bzw. an bestimmte Ports blockiert.
+
+Proxys arbeiten auf ?hnliche Weise, allerdings wird hierbei die ?bertragung vom LAN zum Internet nicht vollst?ndig unterbunden, sondern ist auf einen einzelnen Rechner beschr?nkt. Auf diese Weise wird der Internet-Zugang zentralisiert, das hei?t, f?r das gesamte LAN besteht lediglich eine einzige Einwahlverbindung zum Internet.
+
+ISPs schr?nken den Internet-Zugriff Ihrer Kunden in der Regel allerdings nicht durch den Einsatz von Firewalls oder Proxys ein.
+-s-
+Sofern Sie sich von einem Einzelplatzrechner aus bei Ihrem ISP einw?hlen, liegt das Problem beim Diagnose-Server. Sie k?nnen das Spiel aber trotzdem starten und auch spielen, da der Diagnose- und der Spiel-Server unabh?ngig voneinander arbeiten.
+
+Erfolgt die Einwahl hingegen von einem Rechner eines Firmen-LAN aus, ist der Verbindungsaufbau h?chstwahrscheinlich wegen einer Firewall nicht m?glich. Das Setup-Programm bietet f?r diesen Fall eine erweiterte Funktion an, mit deren Hilfe nach einem 'Schlupfloch' gesucht wird, um NetStorm trotz Firewall spielen zu k?nnen. Bleibt diese Suche jedoch erfolglos, m?ssen Sie Ihren LAN-Administrator bitten, die Firewall f?r Sie zu ?ffnen.
+
+[If8]
+-p-
+Das Setup-Programm konnte keine Verbindung zum Diagnose-Server herstellen.
+-a-
+Da Ihr System den Ping-Test bestanden hat, k?nnte der Verbindungsaufbau aus folgenden Gr?nden nicht zustande gekommen sein:
+* Sie befinden sich hinter einer Firewall oder einem Proxy. 
+* Der Diagnose-Server ist zur Zeit nicht betriebsbereit.
+
+Firewalls werden eingesetzt, um einzelnen, an einem LAN angeschlossenen Rechnern den Zugriff auf das Internet zu verwehren.
+Hierbei wird der Datenpaket-Transfer zwischen LAN und Internet ?berpr?ft und die ?bertragung von bestimmten Ports aus bzw. an bestimmte Ports blockiert.
+
+Proxys arbeiten auf ?hnliche Weise, allerdings wird hierbei die ?bertragung vom LAN zum Internet nicht vollst?ndig unterbunden, sondern ist auf einen einzelnen Rechner beschr?nkt. Auf diese Weise wird der Internet-Zugang zentralisiert, das hei?t, f?r das gesamte LAN besteht lediglich eine einzige Einwahlverbindung zum Internet.
+
+ISPs schr?nken den Internet-Zugriff Ihrer Kunden in der Regel allerdings nicht durch den Einsatz von Firewalls oder Proxys ein.
+-s-
+Sofern Sie sich von einem Einzelplatzrechner aus bei Ihrem ISP einw?hlen, liegt das Problem beim Diagnose-Server. Sie k?nnen das Spiel aber trotzdem starten und auch spielen, da der Diagnose- und der Spiel-Server unabh?ngig voneinander arbeiten.
+
+Erfolgt die Einwahl hingegen von einem Rechner eines Firmen-LAN aus, ist der Verbindungsaufbau h?chstwahrscheinlich wegen einer Firewall nicht m?glich. Das Setup-Programm bietet f?r diesen Fall eine erweiterte Funktion an, mit deren Hilfe nach einem 'Schlupfloch' gesucht wird, um NetStorm trotz Firewall spielen zu k?nnen. Bleibt diese Suche jedoch erfolglos, m?ssen Sie Ihren LAN-Administrator bitten, die Firewall f?r Sie zu ?ffnen.
+
+[Ef]
+-p-
+Weniger als zwei angepingte Adressen haben geantwortet.
+-a-
+M?glicherweise besteht keine Verbindung zum Internet. Hierf?r kann es folgende Ursachen geben:
+* Sie haben sich nicht bei Ihrem ISP eingew?hlt. 
+* Ihre Netzwerkverbindung wurde unterbrochen.
+* Sie haben sich zwar eingew?hlt, und es besteht auch eine Netzwerkverbindung, aber auf seiten Ihres ISPs oder LANs ist die Leitung zum Internet unterbrochen.
+-s-
+?berpr?fen Sie Ihre Netzwerkverbindung (wenn Sie via Modem verbunden sind, w?hlen Sie sich ein), und starten Sie den Diagnoselauf erneut.
+Sollte dies nicht weiterhelfen, wenden Sie sich bitte an Ihren ISP oder LAN-Administrator.
+
+[Ff]
+-p-
+Weniger als zwei der Test-Sites konnten unter den angegebenen Namen aufgefunden werden.
+-a-
+Vermutlich kann Ihr Rechner keine ?berpr?fungen des DNS (Domain Name Service) durchf?hren. Hierf?r kommen folgende Ursachen in Frage:
+* In Ihrem TCP/IP-Protokoll ist der DNS nicht eingeschaltet.
+* Ihr DNS-Server ist zur Zeit nicht in Betrieb bzw. Ihre Netzwerkverbindung dorthin ist zur Zeit unterbrochen.
+-s-
+Schalten Sie im TCP/IP-Protokoll Ihres Netzwerks die DNS-Funktion ein.
+Ist das Problem damit noch nicht beseitigt, wenden Sie sich bitte an Ihren ISP oder LAN-Administrator.
+
+[Hf2]
+-p-
+Das Setup-Programm konnte die Adresse des NetStorm-Diagnose-Servers nicht finden.
+-a-
+Vermutlich kann Ihr Rechner keine ?berpr?fungen des DNS (Domain Name Service) durchf?hren. Hierf?r kommen folgende Ursachen in Frage:
+* In Ihrem TCP/IP-Protokoll ist der DNS nicht eingeschaltet.
+* Ihr DNS-Server ist zur Zeit nicht in Betrieb bzw. Ihre Netzwerkverbindung dorthin ist zur Zeit unterbrochen.
+-s-
+Schalten Sie im TCP/IP-Protokoll Ihres Netzwerks die DNS-Funktion ein.
+Ist das Problem damit noch nicht beseitigt, wenden Sie sich bitte an Ihren ISP oder LAN-Administrator.
+
+[If2]
+-p-
+Das Setup-Programm war nicht in der Lage, die Anbindung eines Sockets an einen der Diagnoseports herzustellen.
+-a-
+M?glicherweise ist eine weitere, zuvor gestartete Version des Setup-Programms noch in Betrieb, oder ein anderes Programm belegt dieselben Ports, die von 
+NetStorm benutzt werden.
+
+Das TCP/IP-Protokoll verwendet sogenannte 'Port-Adressen', um eingehende Datenpakete an das jeweils passende Programm weiterzuleiten. Jede Port-Adresse kann immer nur von einem Programm benutzt werden, nicht von mehreren gleichzeitig. Eine der von NetStorm ben?tigten Port-Adressen ist derzeit auf Ihrem Rechner belegt. Solange diese Port-Adresse nicht frei ist, k?nnen Sie nicht online gehen.
+-s-
+Schlie?en Sie alle nicht ben?tigten Programme, und starten Sie den Diagnoselauf erneut. Sollte das Problem damit nicht behoben sein, wenden Sie sich bitte an den Kundendienst.
+
+[Hf[4-7]|If([3,6-7,9]|1[0-3])]
+-p-
+W?hrend des Diagnoselaufs ist ein irregul?rer Socket-Error aufgetreten. 
+-a-
+Dieser Fehler deutet auf ein softwarebedingtes Problem Ihres TCP/IP-Protokolls hin.
+
+Sie k?nnen das Spiel dennoch starten, Online-Spiele sind aber nicht m?glich.
+-s-
+Versuchen Sie, das Spiel zu starten und online zu gehen. Wenn Sie online spielen k?nnen, handelte es sich vermutlich nur um eine vor?bergehende Unregelm??igkeit.
+
+Sollte der Fehler nach wie vor auftreten, oder k?nnen Sie keine Online-Verbindung herstellen, wenden Sie sich bitte an den Kundendienst.
+
+[Hf8]
+-p-
+Mindestens ein ?bertragungstest war erfolgreich, und mindestens ein ?bertragungstest ist fehlgeschlagen.
+-a-
+M?glicherweise belegt bei Ihrer Internet-Anbindung eine Firewall einen der von NetStorm ben?tigten Ports. 
+Dieser Fehler k?nnte auch durch ein Problem auf dem NetStorm-Diagnose-Server verursacht worden sein.
+-s-
+Versuchen Sie, das Spiel zu starten und eine Online-Verbindung herzustellen. Sofern ein Verbindungsaufbau zum Server m?glich ist, k?nnen Sie zwar spielen, aber Sie k?nnen in diesem Fall nicht als Kampfmeister agieren.
+
+Sollte der Verbindungsaufbau zum Server scheitern, ist entweder der Port 6800 blockiert oder der NetStorm-Server ist au?er Betrieb.
+
+Wenden Sie sich bitte an Ihren ISP oder LAN-Administrator, um festzustellen, ob Ihr abgehender Port 6800 und Ihr ein- und abgehender Port 6799 blockiert sind.
+Sollte der Fehler weiterhin auftreten, obwohl diese Ports frei sind, wenden Sie sich bitte an den Kundendienst.
+
+[If14]
+-p-
+Mindestens ein Empfangstest war erfolgreich, und mindestens ein Empfangstest ist fehlgeschlagen.
+-a-
+M?glicherweise belegt bei Ihrer Internet-Anbindung eine Firewall einen der von NetStorm ben?tigten Ports. 
+Dieser Fehler k?nnte auch durch ein Problem auf dem NetStorm-Diagnose-Server verursacht worden sein.
+-s-
+Wenden Sie sich bitte an Ihren ISP oder LAN-Administrator, um festzustellen, ob Ihr ein- und abgehender Port 6799 blockiert ist.
+
+Sollte der eingehende Port blockiert sein, k?nnen Sie zwar spielen, aber Sie k?nnen in diesem Fall nicht als Kampfmeister agieren.
+
+Sollte der Fehler weiterhin auftreten, obwohl dieser Port frei ist, wenden Sie sich bitte an den Kundendienst.
+
+[Ec]
+-p-
+Die Ping-Tests wurden vorzeitig abgebrochen. 
+
+-a-
+Wenn Sie die Ping-Tests vorzeitig abgebrochen haben, weil Sie den Eindruck hatten, da? der Diagnoselauf 'h?ngengeblieben' ist, k?nnen Sie keine Verbindung zum Internet herstellen.
+
+-s-
+Stellen Sie zun?chst auf normalem Weg eine Verbindung zum Internet her, und f?hren Sie erneut einen Diagnoselauf durch. Sollte auch dieser Diagnoselauf erneut 'h?ngen', wenden Sie sich bitte an Ihren ISP oder Netzwerkadministrator, um Ihre Internet-Anbindung zu ?berpr?fen.
+
+[Fc]
+-p-
+Die Namens?berpr?fung wurde vorzeitig abgebrochen.
+
+-a-
+Wenn Sie die Namens?berpr?fung vorzeitig abgebrochen haben, weil Sie den Eindruck hatten, da? der Diagnoselauf 'h?ngengeblieben' ist, k?nnen Sie keine Verbindung zu Ihrem DNS-Server herstellen bzw. der DNS-Server ist zur Zeit nicht betriebsbereit.
+
+-s-
+?berpr?fen Sie, ob eine fehlerfreie Verbindung zum ISP bzw. LAN besteht, und f?hren Sie erneut einen Diagnoselauf durch. Sollte auch dieser Diagnoselauf wieder 'h?ngen', wenden Sie sich bitte an Ihren ISP oder Netzwerkadministrator, um Ihre Internet-Anbindung ?berpr?fen zu lassen bzw. festzustellen, ob der DNS-Server arbeitet.
+
+[Hc|Ic]
+-p-
+Einige der Verbindungstests wurden vorzeitig abgebrochen.
+
+-a-
+Wenn Sie die Tests vorzeitig abgebrochen haben, weil Sie den Eindruck hatten, da? der Diagnoselauf 'h?ngengeblieben' ist, k?nnten folgende Probleme vorliegen:
+* Es besteht keine Verbindung zum Internet.
+* Sie befinden Sie hinter einer Firewall oder einem Proxy. 
+* Sie haben sich zwar eingew?hlt, und es besteht auch eine Netzwerkverbindung, aber auf seiten Ihres ISPs oder LANs ist die Leitung zum Internet unterbrochen.
+
+-s-
+?berpr?fen Sie, ob eine fehlerfreie Verbindung zum ISP bzw. LAN besteht, und f?hren Sie erneut einen Diagnoselauf durch. Sollte auch dieser Diagnoselauf erneut 'h?ngen', wenden Sie sich bitte an Ihren ISP oder Netzwerkadministrator, um Ihre Internet-Anbindung ?berpr?fen zu lassen.
+
+[Bp0 Ep0 Fp0 Hp0 Ip0]
+// NOTE: The above order must match the same order in which the tests are printed
+	'B',	// socket test
+	'E',	// ping test
+	'F',	// lookup test
+	'H',	// xmit test
+	'I',	// recv test
+	'A',	// html test (dieser Test wurde gestrichen)
+	'D',	// directX test (dieser Test wurde gestrichen)
+	'G'		// udp test (dieser Test wurde gestrichen)
+-p-
+Alle Tests auf Ihrem System wurden erfolgreich abgeschlossen.
+
+-a-
+Ihr System ist richtig konfiguriert und verf?gt ?ber eine fehlerfreie Internet-Anbindung.
+
+-s-
+Schlie?en Sie die Installation regul?r ab, und spielen Sie NetStorm online.

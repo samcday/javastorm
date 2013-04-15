@@ -1,0 +1,2244 @@
+[COMMENTS]
+
+[*********]
+[***********************************************************]
+[WELCOME]
+<background="nsisles">
+<h2>NetStorm</h2>
+<p>
+Sie betreten nun das Reich von Nimbus - ein Reich von
+Inselfestungen, die hoch ?ber den Wolken schweben.
+<p>
+Ihre Aufgabe ist es, feindliche Hohepriester gefangenzunehmen
+und sie den Furien als Opfer darzubringen. Zum Dank werden Sie
+mit Wissen und Macht belohnt.
+
+$Button=OK,Tell,Welcome2
+
+
+[***********************************************************]
+[WELCOME2]
+<$config,welcomeGiven=1>
+<background="nsisles">
+<h2>NetStorm</h2>
+<p>
+NetStorm unterscheidet sich in vielerlei Hinsicht von anderen
+Action-Strategiespielen. Sie sollten deshalb unbedingt als 
+erstes die ?bungsmissionen durchspielen, bevor Sie sich einem
+Mehrspieler-Spiel anschlie?en.
+<p>
+Im Verlauf der ?bungsmissionen werden Sie mit wichtigen Elementen
+des Spiels vertraut gemacht. Sie erhalten hier beispielsweise
+Informationen ?ber die Energieversorgung und das Br?ckenbausystem,
+die sowohl im Einzelspieler- als auch im Mehrspieler-Modus den
+Schl?ssel zum Erfolg darstellen.
+<p>
+$Button=?bungsmissionen spielen,MissionBegin,Tutorial1
+$Button=Hauptmen?,Tell,Blank
+
+
+[***********************************************************]
+[About]
+<h2>NetStorm</h2>
+<p>
+Version {version}
+<p>
+(c) 1997 Titanic Entertainment, Inc. und Activision Inc.
+$Button=OK,DoNothing,0
+
+[***********************************************************]
+[NotImplemented]
+<h2>Noch nicht implementiert</h2>
+<p>
+Diese Funktion ist leider noch nicht implementiert bzw.
+aus programmtechnischen Gr?nden in der Demo-Version
+nicht verf?gbar.
+<br>
+Bitte notieren Sie sich Ihre Versionsnummer: {version}.
+$Button=OK,Tell,{global.priorTell}
+
+
+[***********************************************************]
+[PlayerSubIdNotFound]
+<h2>Keine Informationen ?ber Spieler #{p.handle}</h2>
+<p>
+Es sind keine Informationen ?ber den angegebenen Spieler verf?gbar.
+<p>
+
+$Button=OK,DoNothing,0
+
+
+[***********************************************************]
+[TechSupport]
+<h2>Technischer Kundendienst</h2>
+<p>
+Bevor Sie sich an unseren technischen Kundendienst wenden, sollten Sie zun?chst die im Programmumfang enthaltene technische Hilfedatei konsultieren. Um diese Datei zu ?ffnen, w?hlen Sie bitte im <c>Start</c>-Men? die Eintr?ge <c>Programme</c> / <c>NetStorm</c> / <c>Technische Hilfe</c>. Das Einladen der technischen Hilfedatei dauert ungef?hr 20 Sekunden.
+<p>
+Sollten im Zusammenhang mit NetStorm Probleme auftreten, senden Sie Ihre Fragen
+bitte per E-Mail an den technischen Kundendienst der Firma Activision: <a href="mailto:support@activision.com">support@activision.com</a>.
+<p>
+
+
+[***********************************************************]
+[SETUP]
+<h2>Setup</h2>
+<p>
+Das NetStorm-Setup-Programm wird gestartet. Bitte warten Sie, bis Sie zur
+Eingabe der ben?tigten Informationen aufgefordert werden.
+<p>
+Wenn Sie von der w?hrend des Setups angebotenen Online-Registrierung
+Gebrauch machen, wird Ihrer Insel der Name zugewiesen, den Sie bei der
+Registrierung angeben.
+<p>
+Nachdem Sie die gew?nschten Einstellungen vorgenommen haben, klicken Sie auf 
+die untenstehende Schaltfl?che, um das Setup-Programm zu beenden.
+$Button=Setup beenden,AccountSetup,1
+
+
+[***********************************************************]
+[QUITABANDON]
+<h2>Programm beenden</h2>
+<p>
+Es ist noch ein Kampf im Gange. M?chten Sie NetStorm
+wirklich beenden und zum Desktop zur?ckkehren?
+<p>
+$Button=Beenden,QuitApp,99
+$Button=Weiterspielen,DoNothing,0
+
+
+[***********************************************************]
+[BuildNoBucks]
+<h2>Nicht gen?gend Sturmkraft</h2>
+<p>
+Sie besitzen nicht gen?gend <a href="stormPowerHelp">Sturmkraft</a>, um dieses Geb?ude zu errichten.
+<p>
+Die f?r den Bau eines Geb?udes bzw. einer Einheit erforderliche
+Menge Sturmkraft wird in der linken oberen Ecke des Errichten-Men?s
+Ihres Hohepriesters angezeigt. Ist die Zahl in Rot dargestellt, etwa
+<~r>210<~w><!"fortgump.3">, reicht die verf?gbare Sturmkraft
+nicht aus.
+
+
+[***********************************************************]
+[NoTechTheme]
+<h2>Errichtung nicht m?glich</h2>
+<p>
+Solange Sie nicht das <a href="technologyHelp">Wissen</a> ?ber eine bestimmte Konformit?t besitzen, k?nnen Sie auch keine dieser Konformit?t entsprechende <a href="factoryHelp">Produktionsst?tte</a> errichten, denn in beispielsweise einer Regenproduktionsst?tte k?nnen ausschlie?lich <a href="unitHelp">Einheiten</a> mit Regen-Konformit?t errichtet werden.
+
+
+[***********************************************************]
+[UpgradeNoBucks]
+<h2> Nicht gen?gend Sturmkraft </h2>
+<p>
+Sie besitzen nicht gen?gend <a href="stormPowerHelp">Sturmkraft</a>, um diese Produktionsst?tte zu erweitern.
+<p>
+Die f?r die Erweiterung eines Geb?udes bzw. einer Einheit erforderliche
+Menge Sturmkraft wird in der linken oberen Ecke des Errichten-Men?s
+Ihres Hohepriesters angezeigt. Ist die Zahl in Rot dargestellt, etwa
+<~r>210<~w><!"fortgump.3">, reicht die verf?gbare Sturmkraft
+nicht aus.
+
+
+[***********************************************************]
+[NameRequired]
+<h2>Eindeutiger Name erforderlich</h2>
+Auf diesem Computer existiert bereits eine Festung mit dem angegebenen Namen.
+W?hlen Sie bitte eine eindeutige Bezeichnung f?r Ihre Festung.
+<p>
+$Button=OK,DoNothing,0
+
+
+[***********************************************************]
+[DENYSALVAGE]
+<h2>Selbstzerst?rung verweigert</h2>
+<p>
+Zum aktuellen Zeitpunkt ist es nicht sinnvoll, die Selbstzerst?rung
+wichtiger Geb?ude zu aktivieren. Durch eine Selbstzerst?rung werden
+nur 25% des urspr?nglichen Geb?udesturmkraftwerts zur?ckgewonnen - der
+Restwert wird hinf?llig.
+<p>
+Eine Selbstzerst?rung sollte im Kampf immer als letzter Ausweg genutzt werden. 
+<p>
+$Button=OK,DoNothing,0
+
+
+[***********************************************************]
+[BLANK]
+<background="nsisles">
+<h2>NetStorm</h2>
+<p>
+
+<?{autoDemo}>$Timeout=60,StartDemo,DemoStormRages</?>
+
+$Menu=Kampagne,Tell,Campaign
+$Menu=Mehrspieler,GoMultiplayer,0
+$Menu=Demo,Tell,Demoville
+<?{mayEditMissions}>$Menu=Bearbeiten,AskEditFort,0</?>
+$Button=Intro,DoNothing,0
+$Button=Mitwirkende,Tell,Credits
+$Button=Ende,RequestQuitApp,0 
+
+
+[***********************************************************]
+[DEMOVILLE]
+<background="nsisles">
+<h2>NetStorm</h2>
+<p>
+W?hlen Sie bitte die gew?nschte Demo aus:
+<p>
+
+$Timeout=120,Tell,Blank
+
+$Menu=Verheerende St?rme,StartDemo,DemoStormRages
+$Menu=Demo "Schulterschlu?",StartDemo,GuardMyBack
+$Menu=Demo "B?ndnisbruch",StartDemo,DissolvedAlliance
+
+$Button=Abbrechen,Tell,Blank
+
+[***********************************************************]
+[DemoAi1TempleDead]
+<$MissionAbort,1>
+
+[DemoGoodTeamDead]
+<$MissionAbort,1>
+
+[DemoBadTeamDead]
+<$MissionAbort,1>
+
+[***********************************************************]
+[Demo]
+<h2>NetStorm-Demo</h2>
+<p>
+In dieser Demo befindet sich Ihre Insel inmitten eines
+per Computer gesteuerten Kampfgeschehens.
+<p>
+Auf Wunsch k?nnen Sie, genau wie im Spiel, auch selbst
+Einheiten auf dem Spielfeld plazieren, um Ihrer Insel 
+zum Sieg zu verhelfen.
+
+$Timeout=15,DoNothing,0
+
+
+[***********************************************************]
+[MetaVerDiff]
+<h2>Versionsabweichung</h2>
+<p>
+Die auf dem angew?hlten Server befindliche NetStorm-Version {param.1}
+ist nicht mit der von Ihnen verwendeten Spielversion {MAJOR_VERSION}.{MINOR_VERSION} kompatibel. Installieren Sie entweder
+eine aktuellere Spielversion auf Ihrem Computer, oder w?hlen Sie
+einen anderen Kampf-Server mit kompatibler NetStorm-Version an.
+<p>
+NetStorm-Updates sind auf folgender Web-Site erh?ltlich:<br>
+<a href="http://www.titanic.com/netstorm/updates.html">http://www.titanic.com/netstorm/updates.html</a>
+<p>
+$Button=OK,SaveGoMain,0
+
+
+[***********************************************************]
+[GameVerDiff]
+<h2>Versionsabweichung</h2>
+<p>
+Die auf dem angew?hlten Spiel-Server befindliche NetStorm-Version
+{param.1} ist nicht mit der von Ihnen verwendeten Spielversion {MAJOR_VERSION}.{MINOR_VERSION} kompatibel. Installieren Sie entweder
+eine aktuellere Spielversion auf Ihrem Computer, oder w?hlen Sie
+einen Spiel-Server mit einer kompatiblen Version an.
+<p>
+NetStorm-Updates sind auf folgender Web-Site erh?ltlich:<br>
+<a href="http://www.titanic.com/netstorm/updates.html">http://www.titanic.com/netstorm/updates.html</a>
+<p>
+$Button=OK,SaveGoMain,0
+
+
+[***********************************************************]
+[PieceDump]
+Die gesamte St?ckliste wurde in Ihrem Hauptspielverzeichnis in der HTML-Datei<br>
+<b> "<a href="file:NetStormPieceList.html">NetStormPieceList</a>"</b>
+<br>
+gespeichert.
+
+
+[***********************************************************]
+[SalvageVortex]
+<h2>Warnung</h2>
+<p>
+Nach der Selbstzerst?rung dieses Tempels ist keine
+Sturmkraftgewinnung mehr m?glich, so da? auch
+keine Br?cken mehr gebaut werden k?nnen.
+<p>
+Soll die Selbstzerst?rung dennoch durchgef?hrt werden?
+<br>
+$Button=Ja,Salvage,{global.salvageSid}
+$Button=Nein,DoNothing,0
+
+
+[***********************************************************]
+[SalvageInf]
+<h2>Warnung</h2>
+<p>
+Nach der Selbstzerst?rung dieses Geb?udes ist die Produktion
+einer oder mehrerer Einheitenarten nicht mehr m?glich.
+<p>
+Soll die Selbstzerst?rung dennoch durchgef?hrt werden?
+<br>
+$Button=Ja,Salvage,{global.salvageSid}
+$Button=Nein,DoNothing,0
+
+
+[***********************************************************]
+[BeginCapture]
+<h2>Aufzeichnung starten</h2>
+<p>
+Soll die Aufzeichnung jetzt gestartet werden?
+$Button=Ja,Capture,1
+$Button=Nein,DoNothing,0
+
+
+[***********************************************************]
+[EndCapture]
+<h2>Aufzeichnung beenden</h2>
+<p>
+Die Aufzeichnung wurde unter dem Dateinamen
+{gifSequenceName}000.bmp mit aufsteigender Numerierung
+gespeichert.
+
+
+[***********************************************************]
+[LostPriest]
+<h2>Verlust des Priesters!</h2>
+<p>
+Sie haben w?hrend des letzten Kampfes Ihren Hohepriester
+verloren! Ein neuer heiliger Mann wurde aus der Bev?lkerung
+Ihrer Insel auserw?hlt, um seinen Platz einzunehmen. Er hat
+das Ritual der Initiation absolviert.
+<p>
+Der neue Priester steht Ihnen zu Diensten.
+
+
+[***********************************************************]
+[RePriest]
+<h2>Ersatzpriester!</h2>
+Obwohl Sie Ihren eigenen Hohepriester w?hrend des letzten
+Kampfes verloren haben, wird der Priester Ihres Gegners
+von Ihrem Volk als einer der ihren willkommen gehei?en.
+<p>
+Der neue Priester steht Ihnen zu Diensten.
+
+[***********************************************************]
+[PlacingIslands]
+Auf der linken Bildschirmseite befindet sich eine ?bersichtskarte. Um
+eine neue Insel hinzuzuf?gen, klicken Sie zun?chst mit der linken
+Maustaste auf eine der Inseln unterhalb der ?bersichtskarte, und
+klicken Sie dann auf die gew?nschte Stelle in der Karte, um die
+Insel schlie?lich dort zu plazieren.
+<p>
+Um den Vorgang abzubrechen, klicken Sie im unteren Teil des Fensters
+erneut auf die Abbildung der Insel.
+
+
+[***********************************************************]
+[CSLGenericFail]
+<h2>Login auf Kampf-Server fehlgeschlagen!</h2>
+Aus unbekannten Gr?nden ist Ihr Versuch, sich in den 
+Kampf-Server einzuw?hlen, fehlgeschlagen.
+<p>
+Sollte das Problem weiterhin auftreten, wenden Sie sich
+bitte an den Kundendienst.
+
+
+[***********************************************************]
+[CSLServerFull]
+<h2>Login auf Kampf-Server fehlgeschlagen!</h2>
+Die Verbindung zum Kampf-Server wurde abgebrochen, da dort
+kein Platz mehr f?r neue Spieler zur Verf?gung steht.
+<p>
+W?hlen Sie einen anderen Server an, oder versuchen Sie es
+zu einem sp?teren Zeitpunkt erneut.
+
+
+[***********************************************************]
+[CSLBadNameLen]
+<h2>Login auf Kampf-Server fehlgeschlagen!</h2>
+Der an den Server ?bermittelte Name besitzt eine unzul?ssige L?nge.
+<p>
+Registrieren Sie Ihr Spiel erneut, und versuchen Sie es noch einmal.
+Sollte das Problem weiterhin auftreten, wenden Sie sich bitte an
+den Kundendienst.
+
+
+[***********************************************************]
+[CSLAlreadyHere]
+<h2>Login auf Kampf-Server fehlgeschlagen!</h2>
+Die Verbindung zu dem Kampf-Server wurde abgebrochen, da sich
+ein anderer Spieler bereits mit Ihrer Account-Nummer eingeloggt hat.
+<p>
+Registrieren Sie sich unter einem anderen Namen, und versuchen Sie
+es danach erneut. Sollte das Problem weiterhin auftreten, wenden Sie sich
+bitte an den Kundendienst.
+
+
+[***********************************************************]
+[TellGifWritten]
+<h2>Screenshot gespeichert</h2>
+Dieser Screenshot wurde unter dem Dateinamen
+<p>
+<c><b>{InstallDir}\{GifOutSpec}</b></c>
+<p>
+gespeichert.
+$Button=?ffnen,URL,file:///{InstallDir}\{GifOutSpec}
+$Button=OK,DoNothing,0
+
+[***********************************************************]
+[SelectPalette]
+<h2>Palette ausw?hlen</h2>
+Welche Palette m?chten Sie hier benutzen?
+<p>
+$Menu=Sonnig,ChangePal,Sunny
+$Menu=Wolkig,ChangePal,Cloudy
+$Menu=Blau,ChangePal,Blue
+$Menu=Umrandet,ChangePal,Rim
+$Button=Abbrechen,DoNothing,0
+
+
+[***********************************************************]
+[WarnAscend]
+<h2>Spieler verl??t Kampf</h2>
+<p>
+Der Spieler {global.subject} begibt sich in die n?chste Ebene!
+
+
+[***********************************************************]
+[WarnPriestTaken]
+<h2>Priester gefangengenommen!</h2>
+<p>
+Spieler <c>{param.2}</c> hat einen 
+Hohepriester von <c>{param.3}</c> gefangengenommen!
+
+$Timeout=15,DoNothing,0
+$Button=Zeigen!,ViewPriest,{param.1}
+$Button=OK,DoNothing,0
+
+[***********************************************************]
+[WarnYourPriestTaken]
+<h2>Ihr Priester wurde gefangengenommen!</h2>
+<p>
+Ihr Hohepriester wurde von <c>{param.2}</c> gefangengenommen!
+
+$Timeout=15,DoNothing,0
+$Button=Zeigen!,ViewPriest,{param.1}
+$Button=OK,DoNothing,0
+
+[***********************************************************]
+[WarnNeutralPriestTaken]
+<h2>Priester gefangengenommen!</h2>
+<p>
+Ein neutraler Hohepriester wurde von {param.2} gefangengenommen!
+
+$Timeout=15,DoNothing,0
+$Button=Zeigen!,ViewPriest,{param.1}
+$Button=OK,DoNothing,0
+
+
+[***********************************************************]
+[BecomingServer]
+<h2>Server-Status aktiviert</h2>
+<p>
+Die Verbindung zum Spiel-Server wurde unterbrochen. Ihr Rechner
+wurde als neuer Server aktiviert. W?hrend des Verbindungsaufbaus
+der anderen Spieler mit Ihrem Computer k?nnen Verz?gerungen
+auftreten.
+<p>
+Sollte kein Verbindungsaufbau der anderen Spieler mit Ihrem
+Rechner m?glich sein, wird das Spiel vorzeitig abgebrochen.
+
+
+[***********************************************************]
+[ConfirmRetreat]
+<h2>Kampf verlassen</h2>
+<p>
+M?chten Sie wirklich diesen Kampf verlassen?
+<p>
+Eine sp?tere R?ckkehr zu diesem Kampf ist ausgeschlossen.
+
+$Button=Verlassen,LeaveBattle,1
+$Button=Weiterk?mpfen,DoNothing,0
+
+
+[***********************************************************]
+[LoadEditable]
+<h2>Kampfkarte laden</h2>
+<p>
+W?hlen Sie aus der untenstehenden Liste den gew?nschten
+Kampf aus.
+
+$Menu=*FORTLIST*,DoNothing,0
+$Button=Neue Karte erstellen,NewFort,0
+$Button=Abbrechen,Tell,Blank
+
+
+[***********************************************************]
+[LoadMultiplayer]
+<h2>Mehrspieler-Spiel laden </h2>
+<p>
+W?hlen Sie aus der untenstehenden Liste den gew?nschten
+Spielstand aus.
+
+$Menu=*FORTLIST*,DoNothing,0
+$Button=Neues Spiel beginnen,NewFort,0
+$Button=Abbrechen,DoNothing,0
+
+
+[***********************************************************]
+[LeaveEditMode]
+<h2>Bearbeitungsmodus beenden</h2>
+<p>
+M?chten Sie diese Karte speichern?
+
+$Button=Ja,SaveGoMain,1
+$Button=Nein,SaveGoMain,0
+$Button=Abbrechen,DoNothing,0
+
+
+[***********************************************************]
+[QuitEditMode]
+<h2>NetStorm beenden?</h2>
+<p>
+M?chten Sie das Spiel beenden, ohne zu speichern?
+
+$Button=Ja,QuitApp,99
+$Button=Nein,DoNothing,0
+
+[***********************************************************]
+[ABORT]
+<h2>Mission beenden?</h2>
+<p>
+M?chten Sie diese Mission beenden und zum Hauptmen? zur?ckkehren?
+<p>
+$Button=Hauptmen?,LeaveBattle,1
+$Button=Mission neu starten,MissionRestart,0
+$Button=Mission fortsetzen,DoNothing,0
+
+[***********************************************************]
+[TryAgain] 
+M?chten Sie die Mission <c>{mission.title}</c> erneut starten?
+<p>
+$Button=Mission neu starten,MissionRestart,0
+$Button=Mission beenden,MissionAbort,1
+
+[***********************************************************]
+[SetOwner]
+<h2>Spieler-Set</h2>
+<p>
+Wem soll diese Einheit zugewiesen werden?
+
+$Menu=Menschlicher Spieler,SetOwner,1
+$Menu=Computer #1,SetOwner,2
+$Menu=Computer #2,SetOwner,3
+$Menu=Computer #3,SetOwner,4
+$Menu=Computer #4,SetOwner,5
+$Menu=Computer #5,SetOwner,6
+$Menu=Computer #6,SetOwner,7
+$Menu=Computer #7,SetOwner,8
+$Button=Keine Besitzer,SetOwner,0
+$Button=Abbrechen,DoNothing,0
+
+[***********************************************************]
+[Campaign]
+<background="nsstart">
+<h2>Kampagne</h2>
+<p>
+Welche Missionskategorie m?chten Sie spielen?
+$Timeout=120,Tell,Blank
+
+$Menu=@{guideSpec},Tell,{cur.file}.overview
+
+$Button=Zur?ck,Tell,Blank
+
+[***********************************************************]
+[Credits]
+<background="nsstart">
+<h2>NetStorm Credits</h2>
+<p>
+Developed by Titanic Entertainment
+<p>
+<c>Titanic is, in alphabetical order:</c><br>
+Tony Bratton, Chief Nerd<br>
+Ken Demarest, President and Nerd<br>
+Beverly Garland, Art Director<br>
+Jim Greer, Director of Mind Control Products<br>
+Steve Moore, Father and Author<br>
+Chip Patterson, Artist<br>
+Kelcey Privett, Artist<br>
+Zack Simpson, Chief Executive Nerd<br>
+
+$Timeout=20,Tell,Credits1
+$Button=Weiter,Tell,Credits1
+$Button=Abbrechen,Tell,Blank
+
+[***********************************************************]
+[Credits1]
+<h2>NetStorm: Credits</h2>
+<p>
+<c>Additional Support From:</c><br>
+Thomas Blom, Video Support<br>
+Randy Buck, Voice and Sound Effects<br>
+Tom Byrne, Voice Talent<br>
+John King, Voice Talent<br>
+Richard (Dicko) Mather, Conceptual Art<br>
+John Miles, Graphic Code<br>
+Mark Morgan, Music<br>
+Morgan Ogburn, Conceptual Art<br>
+Mike Privett, Additional Programming<br>
+Purple Frog Software, Convertion to Html<br>
+Boutros Boutros-Doggie, Security<br>
+
+$Timeout=20,Tell,Credits2
+$Button=Zur?ck,Tell,Credits
+$Button=Weiter,Tell,Credits2
+$Button=Abbrechen,Tell,Blank
+
+
+[Credits2]
+<h2>NetStorm: Credits</h2>
+<p>
+<c>Activision Production</c><br>
+Mitch Lasky, Executive Producer<br>
+Jonathan Knight, Producer<br>
+Jason Kay, Producer<br>
+John Cibulski, Production Coordinator<br>
+Sandi Isaacs, Localizations<br>
+<p>
+<c>German Localization</c><br>
+Natascha Conrad, Activision Germany<br>
+Maren Bitzer, MB Office Service<br>
+M & S Music, German Speech Recordings<br>
+Effective Media, German QA Testing<br>
+
+$Timeout=20,Tell,Credits3
+$Button=Zur?ck,Tell,Credits1
+$Button=Weiter,Tell,Credits3
+$Button=Abbrechen,Tell,Blank
+
+
+
+[Credits3]
+<h2>NetStorm: Credits</h2>
+<p>
+<c>Activision Marketing and Public Relations:</c><br>
+Peter Karpas, Product Manager<br>
+Steve Perkins, Assistant Product Manager (Intern)<br>
+Kerstine Johnson, Manager Corporate Communications<br>
+Elizabeth Capps, Junior Publicist<br>
+<p>
+<c>Activision Documentation:</c><br>
+Mark Walker, Author<br>
+Mike Rivera, Documentation Manager<br>
+Ronnie Lane, Technical Help Documentation<br>
+Belinda Van Sickle, Documentation Writer / Production Artist<br>
+<p>
+<c>Activision Creative Services:</c><br>
+Ron Gould, Creative Director<br>
+Veronica Milito, Lead Copywriter<br>
+Jim Bridges, Senior Designer<br>
+
+$Timeout=20,Tell,Credits4
+$Button=Zur?ck,Tell,Credits2
+$Button=Weiter,Tell,Credits4
+$Button=Abbrechen,Tell,Blank
+
+
+
+[Credits4]
+<h2>NetStorm: Credits</h2>
+<p>
+<c>Activision Quality Assurance</c><br>
+Dave Arnspiger, QA Manager<br>
+Tim Vanlaw, Senior QA Project Lead<br>
+Mitchell Goldman, Project Lead<br>
+Aaron Casillas, Tester<br>
+Christian Campbell, Tester<br>
+Michael Brady, Tester<br>
+Chris Toft, Tester<br>
+Aaron Gray, Tester<br>
+Laurent Slutzky, Tester<br>
+Matt Powers, Tester<br>
+<p>
+And lots of other important people!<br>
+
+$Timeout=20,Tell,Credits5
+$Button=Zur?ck,Tell,Credits3
+$Button=Weiter,Tell,Credits5
+$Button=Abbrechen,Tell,Blank
+
+
+
+[Credits5]
+<h2>NetStorm: Credits</h2>
+<p>
+<c>Special Thanks To:</c><br>
+Bill Anker<br>
+Jamie Bafus<br>
+Tony Bowren<br>
+Christian Casparian<br>
+Scott Cronce<br>
+Scott Culbertson<br>
+Sean Dunn<br>
+Kelly Egan<br>
+Lydia Estrada<br>
+Kevin Gliner<br>
+Eric Johnson<br>
+Sean Kelley<br>
+Brian Kelly<br>
+Gary Knight<br>
+Bobby Kotick<br>
+$Timeout=20,Tell,Credits6
+$Button=Zur?ck,Tell,Credits4
+$Button=Weiter,Tell,Credits6
+$Button=Abbrechen,Tell,Blank
+
+[Credits6]
+<h2>NetStorm: Credits</h2>
+<p>
+<c>Special Thanks To:</c><br>
+Maryanne Lataif<br>
+Julia Moore<br>
+David Petchey<br>
+Jean Powell<br>
+Paula Sandige<br>
+Wendy Scherdorf<br>
+Ron Scott<br>
+Michael Tracy<br> 
+Denise Walsh<br>
+David Vonderhaar<br>
+$Timeout=20,Tell,Credits7
+$Button=Zur?ck,Tell,Credits5
+$Button=Weiter,Tell,Credits7
+$Button=Abbrechen,Tell,Blank
+
+[Credits7]
+<h2>NetStorm: Credits</h2>
+<p>
+<c>Our Official Beta Testers:</c><br>
+^ShahaB^	
+__Mike__	
+|}urn()ut	
+Ace4	
+Acid^Warp	
+Adso	<br>
+Agent-X	
+Ahnold	
+Aias	
+AirdoG	
+Airik	
+AL GHU	<br>
+Alagrnn	
+Alakhai	
+Albertaco	
+AltiDude	
+Ando	
+AngelMantis	<br>
+Antok	
+Apocalypse	
+Aquabat0	
+Aralan	
+Arbitrage	
+Arcanar Z	<br>
+ArcherRed	
+Arctic	
+argent	
+Arithon	
+arkaynne	
+art1	<br>
+Artemus	
+Asmodeas	
+asterix	
+AstroSpam	
+aToMs	
+Aurin	<br>
+Avatar	
+Avenger	
+Aviator	
+B4IG0	
+Babs	
+Backlash	<br>
+BAKup	
+Bastage	
+Batman	
+BBlackFIre	
+beak	
+Ben Raines	<br>
+BennyJ	
+Berman	
+Bigred	
+BigT	
+bishdogg	
+Bishop	<br>
+BlackMagi	
+Blades	
+Blasto	
+Blastocyte	
+blink	
+blood
+Blood Poet	
+BloodHawk/Nightstalker	
+Bloodlust	
+Bloodshock	
+Bloodyeye	
+bludlust	<br>
+blue	
+boingo	
+bravheart	
+Brian	
+Bruce	
+Bruenor	<br>
+Bry	
+buck	
+Bug	
+BullsEye	
+Bumpbash	
+butter	<br>
+$Timeout=20,Tell,Credits8
+$Button=Zur?ck,Tell,Credits6
+$Button=Weiter,Tell,Credits8
+$Button=Abbrechen,Tell,Blank
+
+[Credits8]
+Cair	
+camel	
+cancer man	
+Capnjim	
+Captain Canuck	
+CaptCPU	<br>
+Caramon	
+casper	
+Catch22	
+Cecil ~SoC~	
+CentSys	
+Chainsaw	<br>
+Chance	
+Cheeser	
+Chewie	
+chrillel	
+christovich	
+chrisw15	<br>
+chrisw73	
+Chrono	
+Chubbs	
+chuckod	
+Chucky	
+Chut	<br>
+Claytonious	
+clerk	
+cloverlief	
+Clownboy	
+CodeRed	
+codezero	<br>
+ColdBlooded187	
+comdot	
+Condor	
+Confucius	
+Conquer5	
+Coolspot	<br>
+Cougar	
+craigm	
+CryogenIce	
+Cutthroat	
+CyborMan	
+Cyrex	<br>
+Cytopia	
+Daax	
+Dagger	
+Dahrien	
+Daika	
+Dalamar	<br>
+Dan	
+Danath	
+danbeck	
+Dandy	
+Danor	
+Dark Legacy	<br>
+Dark_Spawn	
+Darkhat	
+DarkHaven	
+Darkhorse	
+DarkOne	
+DarkStar	<br>
+Data	
+DataJosh	
+davet	
+Dayzed	
+Dea	
+DeadEnd	<br>
+Death-3D	
+Deatha	
+deathblow	
+DeathDragon
+Deathstalker
+Decay	
+Decoy	<br>
+deicide	
+Dela	
+Demon Stalker	
+Dengar	
+Desticato	
+Devastater ~SoC~	<br>
+DeVioUS	
+Diet*Crack	
+dlavanty	
+doc	
+DogBeast	
+Dogma	<br>
+Don	
+dougi	
+Doyle	
+Dr.Gambit	
+dragon500	
+DragonKnt	<br>
+dragonsfire	
+Drakkeen	
+Draven	
+Dravus	
+DRDOOM	
+drdoug	<br>
+Dubak	
+Dukat	
+Dwer	
+Dwiggs	
+EarWart	
+echoes	<br>
+Electron	
+EleKTRa	
+Elessar	
+Eliminator01	
+Elmo	
+emmex	<br>
+Ender6	
+Enkidu	
+Euphoric	
+Evil Ernie	
+Expert	
+Extensis~SoC~	<br>
+Ez	
+Fabio	
+falcon	
+Farman	
+Fate	
+Faustus	<br>
+$Timeout=20,Tell,Credits9
+$Button=Zur?ck,Tell,Credits7
+$Button=Weiter,Tell,Credits9
+$Button=Abbrechen,Tell,Blank
+
+[Credits9]
+FID	
+Fireball	
+fireball	
+firefox	
+Fizbane	
+Flex	<br>
+flo	
+Fonny	
+FooBunny	
+Fox	
+Franz	
+Frederik	<br>
+frenzy	
+Fruithater	
+Galadin	
+Gargamel	
+geminix	
+ghost	<br>
+ghostrider	
+Ghostwheel	
+Glace	
+glitch	
+Gluestick	
+gogolie	<br>
+Goldcard	
+Goldy	
+goof	
+goosta	
+Gorky	
+GQ~SoC~	<br>
+Greebo	
+Greengob	
+Grey Deathstalker	
+griffen8	
+Grignard	
+grymm	<br>
+gulsukat	
+gummer	
+HackAway	
+Hahnbon	
+Hammerhead	
+Haplo	<br>
+Happy	
+Happyfunball	
+Harlequinn	
+hawkeye	
+Hawkeye	
+HEAT-SoC	<br>
+Hedge	
+Hedgehog	
+Heidi	
+Hellblazr	
+Hellder	
+Hellfire	<br>
+Hemlock	
+hepner	
+Here2day	
+herulian	
+Heyhey233	
+Hikarr~SoC~	<br>
+HipCheck	
+Hokies	
+Hornet	
+Hudatmon	
+Hummer	
+hungrybear	<br>
+Hunts	
+IceMage	
+ICE-MAN	
+IcePic	
+idea genarator	
+ignatu	<br>
+Immortal	
+InfiniT	
+Infominer	
+IO	
+IPFREELY	
+IRex	<br>
+IronClaw	
+Jack The Knife	
+Jade Monkey	
+Jalthi	
+JaM	
+Jammer	<br>
+Jarish	
+Jaunt	
+Jawz	
+jay	
+Jayce or Korda	
+JeePers	<br>
+Jerky Junky	
+(sort of) 
+Jester	
+jiant	
+JimmDogg	
+jinxter	<br>
+jjbean	
+jkf3	
+JoDax	
+$Timeout=20,Tell,Credits10
+$Button=Zur?ck,Tell,Credits8
+$Button=Weiter,Tell,Credits10
+$Button=Abbrechen,Tell,Blank
+
+[Credits10]
+joe	
+John	
+Joker	<br>
+Joly	
+Jonakand	
+jonboy	
+Jonny_B	
+Jorge	
+Jorus	<br>
+jt	
+Jthon	
+Judge_Dead	
+Juice	
+junkman	
+kabooby	<br>
+Kain	
+Kaiser Sozia	
+kaitsak	
+Kalgash	
+Kali	
+Kane13	<br>
+Kangster	
+Kaphka	
+Kaw-Liga	
+Kenku	
+Kero	
+Kevin	<br>
+Kevlar-X	
+Kevman	
+Khaneric	
+KHawke	
+Khyron	
+Killer	<br>
+Klive	
+KLR_1	
+knight or Wolf	
+knight21	
+Koala	
+Kooldude	<br>
+Korvus	
+kparkera	
+Krafd	
+kram	
+Ksai	
+Kudro	<br>
+Kwagga	
+LAman	
+LandeeJ	
+Lanik	
+LAR	
+Lassk	<br>
+Latta	
+LDespot	
+Leadpipe	
+LeChuck	
+Leppard	
+Lightbringer	<br>
+LightWing	
+Lilandra	
+Lionheart	
+LiPPoPeR	
+ljauthor	
+Lochiel	<br>
+Loenni	
+Login
+Loki	
+loki	
+Loomer	
+Lord 360	
+Lord Alex	<br>
+LordAce	
+Lurch	
+Maallan	
+machu	
+Mad Killa	
+Maddog	<br>
+MadDog	
+MadMan	
+Madrox	
+Malor	
+Mankind	
+Marquette~SoC~	<br>
+Master Rahl	
+matt	
+matthew0	
+Matthias	
+Maverick	
+Max	<br>
+Maxfield	
+McBane 	
+Medic	
+medina	
+Megadeth	
+mel	<br>
+melf	
+Menace	
+Merc	
+Methos	
+mike	
+Mike	<br>
+Mirewin~SOC~	
+Mitch	
+MLiq	
+Monkytec	
+MoonStryke	
+Morph	<br>
+mouse	
+Mr. E	
+Mr.Dog	
+Mr.EEL	
+MrScott	
+MudMan~SoC~	<br>
+Mutsaers	
+mykell	
+MysticMan	
+Mystico	
+nachos	
+Nagash	<br>
+Nat	
+N-Dawg	
+$Timeout=20,Tell,Credits11
+$Button=Zur?ck,Tell,Credits9
+$Button=Weiter,Tell,Credits11
+$Button=Abbrechen,Tell,Blank
+
+[Credits11]
+NecroLyte	
+Nedx	
+neelu	
+NeoN pUP!	<br>
+NexusOne	
+nicadd	
+NiceGuy	
+Nick	
+Nickolis	
+Night Falcon	<br>
+Ninja	
+NocturnaL	
+nogs or theprodigy	
+none	
+Nova	
+nt	<br>
+oather	
+Oberon	
+Oboeist	
+octopus	
+Ogreff	
+oj	<br>
+Oracle	
+oren	
+Ouch	
+Pac Paraco	
+Palindrome	
+Pete	<br>
+pETerCOol	
+Phantasm	
+PhaZe171	
+Pheonix Phire	
+Phil	
+Phobos	<br>
+Phoenix	
+Phook	
+phoric	
+Phred	
+picklers	
+Pimp523	<br>
+Ping	
+PJP	
+Pokey	
+poopmasta general	
+PrayerStorm	
+Probe	<br>
+Pryde	
+Psalm~{69}	
+Puffy	
+Pulse	
+PUMA	
+Punisher	<br>
+Pythonite	
+Quidam	
+Quoth	
+Rabbit	
+Raff	
+Rage	<br>
+Rakshas	
+Randomizer	
+Ranger Rick	
+Ranma	
+Rascal	
+Rasher	<br>
+Rasputin	
+Raven	
+Razor	
+RedCaseyB	
+Red-Eye	
+Rein	<br>
+reinking	
+Reliant	
+reos	
+repentordie	
+Reptile	
+Reverend	<br>
+Rhuell	
+Rhynno	
+Rich	
+ridlrtim	
+Riff Raff	
+Rilian	<br>
+RingTail	
+Ripper	
+rkm	
+rolice	
+Rommel	
+roy7	<br>
+RoyalHoser	
+Rumruner	
+Rune	
+Rush	
+Rutabaga Boy	
+Ruthless Warrior SoC	<br>
+Ryanag	
+Saber	
+Sadres~Soc~	
+Sage	
+Sailor Star Fighter	
+Sam Scam	<br>
+Sam Strohbehn	
+SandWorm	
+Sartre	
+saskman	
+SaXoN	
+Scrag	<br>
+Scream	
+Seamus	
+Sean	
+Seat	
+Seath	
+Seeker	<br>
+Sephiros	
+Sephiroth	
+SHADE	
+Shade	
+$Timeout=20,Tell,Credits12
+$Button=Zur?ck,Tell,Credits10
+$Button=Weiter,Tell,Credits12
+$Button=Abbrechen,Tell,Blank
+
+[Credits12]
+Shadow	
+Shadow999	<br>
+Shadowvox	
+ShAdOwZ	
+shaman	
+Shameless	
+Shen-Lon	
+Shlonglor	<br>
+Shyn	
+Sickboy	
+sid	
+Sigis	
+sigmund	
+Silvergene	<br>
+Simbad	
+Sinnist	
+Sir Court Jesster	
+SirSoccer	
+sk8r	
+Skates	<br>
+SkinTech	
+Skull~SoC~	
+Slacker	
+SLASH	
+Slaughterama	
+slayer33	<br>
+slider	
+Slowboat	
+Slugger	
+snafu	
+Sneti	
+SniperX	<br>
+Snoop6	
+Snowball	
+Snowdown	
+SnowyThing	
+soccerbag	
+Sockum	<br>
+Sol'kanar	
+Soltan	
+Someguy	
+Spambone	
+Spanky	
+Sparks	<br>
+Speaker	
+Spectre	
+speedy	
+Spektre	
+spinnaker	
+SpiritWalker~SoC~	<br>
+Splash	
+Sposh	
+SquidS	
+SRL	
+S'Rothon	
+Stalker	<br>
+Stark	
+StarMax	
+Statue	
+SternMan	
+stiletto	
+Stix	<br>
+Stony
+Storm	
+strahd	
+Strahd	
+Straylight	
+Strokah	
+SurgeMan	<br>
+Surreal Logic	
+Syxx	
+TAD	
+TadiRan	
+Talon	
+Tech Master	<br>
+TecK	
+Ted	
+Teflon Macobb	
+Terran	
+Tha Pimp	
+Thanatos	<br>
+The Apostate	
+The Cook	
+The Maxx	
+The_Prophet	
+the_saint	
+theblack	<br>
+TheMan	
+TheMaster	
+Thexder	
+Thin	
+Thorn	
+Thrawn	<br>
+tiberium	
+tigerx	
+Tim	
+Timewarp	
+Toad	
+tomahawk	<br>
+Tommy The Cat	
+Toonces X	
+Townsaver	
+Tramii	
+Trav	
+Trilox	<br>
+trouth	
+trum	
+Turtle or Toad	
+Twiggy	
+Tziinch	
+UFOria	<br>
+UltraX	
+UnIoNFliP	
+Vader187	
+Vagabond	
+$Timeout=20,Tell,Credits13
+$Button=Zur?ck,Tell,Credits11
+$Button=Weiter,Tell,Credits13
+$Button=Abbrechen,Tell,Blank
+
+[Credits13]
+Valdier	
+Valdin	<br>
+VanatTal	
+vardi_y	
+Varquai	
+Vector	
+Vengeance	
+Vex	<br>
+Vipester~SoC~	
+Vision	
+vlad	
+Vodooman	
+Voodoyou	
+w00kie	<br>
+Wag	
+waldo007	
+WallStreet	
+Warhaven	
+Warhawk	
+WARHEADS	<br>
+webv	
+Weedle	
+Weedo	
+whir	
+whiteape	
+Whitey	<br>
+Willard	
+Winky	
+Wintermute	
+wiz473	
+Wizeman	
+Wog	<br>
+Wolf	
+Wolfinjer	
+Wonderer	
+Wongo	
+Wraith	
+Wulf2	<br>
+Wylde	
+Xenon	
+Xerria	
+Xerxes	
+xmen	
+xuric	<br>
+yakman	
+yinjb	
+Yopapa	
+Zaijian	
+Zantar	<br>
+Zaphod	
+ZarQuon	
+Zealot	
+zen	
+Zergo	<br>
+Zero_Signal	
+zipoff	
+zodiak	
+Zorik	
+Zuhkov	
+$Timeout=20,Tell,Blank
+$Button=Zur?ck,Tell,Credits12
+$Button=OK,Tell,Blank
+
+
+
+[***********************************************************]
+[NewTech]
+<h2>Technologie hinzugewonnen!</h2>
+<p>
+Ihr Altar wird zerst?rt! Ihre Opfergabe wurde empfangen! Die Furien sind zufriedengestellt. Ihr Volk wird mit dem Wissen ?ber <i>{global.newTechName}</i> erleuchtet.
+<p>
+{global.newTechPic}
+<p>
+Sie k?nnen diese Einheit sofort einsetzen!
+
+$Timeout=15,DoNothing,0
+$Button=OK,DoNothing,0
+
+[***********************************************************]
+[AltarUpgrade]
+<h2>Altar erweitert!</h2>
+<p>
+Ihr Altar wurde gesegnet und durch die Opfergabe des feindlichen Priesters gest?rkt. In Ihrem n?chsten Kampf k?nnen Sie ihn erneut benutzen, um h?heres Wissen zu erlangen.
+
+$Timeout=15,DoNothing,0
+$Button=OK,DoNothing,0
+
+[***********************************************************]
+[MultiplayerPriestDead]
+<h2>Priester wurde geopfert!</h2>
+<p>
+Das Blut Ihres Priester wurde auf dem 
+Altar von <c>{param.1}</c> vergossen.
+
+<?{param.2}>
+$Timeout=15,DoNothing,0
+$Button=OK,DoNothing,0
+</?>
+<?!{param.2}>
+$Timeout=15,DoNothing,0
+$Button=Kampf verlassen,LeaveBattle,1
+$Button=Weiter zusehen,DoNothing,0
+</?>
+
+[***********************************************************]
+[MultiplayerOtherPriestDead]
+<h2>Opferung!</h2>
+<p>
+Der Hohepriester von <c>{param.1}</c> wurde auf dem Altar von <c>{param.2}</c> geopfert. Die Furien sind hocherfreut.
+
+$Timeout=15,DoNothing,0
+$Button=OK,DoNothing,0
+
+[***********************************************************]
+[AlreadyUpgrading]
+<h2>Erweiterung in Arbeit</h2>
+<p>
+Bevor eine weitere Erweiterung durchgef?hrt werden kann,
+mu? die laufende Erweiterung zun?chst abgeschlossen sein. 
+
+[***********************************************************]
+[ClientDisconnect]
+<h2>Spieler hat Verbindung abgebrochen</h2>
+{param.1} hat die Verbindung zum Spiel abgebrochen.
+$Button=OK,DoNothing,0
+
+
+[***********************************************************]
+[QueryDecendToChalLevel]
+<h2>Zu Stufe {param.1} hinabsteigen?</h2>
+$Button=Ja,DecendToChalLevel,{param.1}
+$Button=Nein,DoNothing,0
+
+[***********************************************************]
+[QueryLeaveChalBattle]
+<h2>Aktuellen Kampf verlassen?</h2>
+$Button=Ja,ChalSailPos,{param.1}
+$Button=Nein,DoNothing,0
+
+[***********************************************************]
+[QueryLeaveJoinChalBattle]
+<h2>Aktuellen Kampf verlassen?</h2>
+$Button=Ja,ChalSailJoinBattle,{param.1}
+$Button=Nein,DoNothing,0
+
+[***********************************************************]
+[NoDirectDraw]
+<h2>DirectDraw nicht installiert</h2>
+<p>
+F?r die Aktivierung des Vollbildmodus ist DirectDraw erforderlich.
+Dieses Programm scheint jedoch auf Ihrem Rechner nicht installiert zu
+sein.
+<p>
+Beenden Sie NetStorm, und installieren Sie DirectX, um in den Vollbildmodus
+umschalten zu k?nnen.
+
+$Button=OK,DoNothing,0
+
+
+[***********************************************************]
+[Tips]
+<h2>Wu?ten Sie schon?</h2>
+<p>
+{@tell.tip{tipNumber}|Es stehen Ihnen keine Hinweise mehr zur Verf?gung!}
+<p>
+<?{tipNumber}>
+$Button=Voriger Hinweis,TellTip,1
+</?>
+$Button=N?chster Hinweis,TellTip,2
+$Button=Keine Hinweise mehr,Config,tellTips=0
+$Button=OK,TellTip,3
+
+
+[***********************************************************]
+[NotInDemo][BreakingThroughMissing][MissingMission]
+<h2>NetStorm!</h2>
+<p>
+Diese Mission ist in der NetStorm-Demo nicht verf?gbar.
+<p>
+Wir hoffen, diese kurze Demo hat Ihnen gefallen. Die Vollversion
+des Spiels enth?lt weitaus mehr Missionen. Sie sollten unbedingt
+auch den Mehrspieler-Modus ausprobieren!
+<p>
+Fragen Sie Ihren Fachh?ndler nach der NetStorm-Vollversion.
+<p>
+Aktuelle Demos stehen unter <a href="http://www.titanic.com/netstorm/demo.html">http://www.titanic.com/netstorm/demo.html</a> zum Download bereit.
+.
+
+$Button=OK,DoNothing,0
+
+<?{param.1}>
+$OnExit=X,Tell,Blank
+</?>
+<?!{param.1}>
+$OnExit=X,Tell,Blank
+</?>
+
+[***********************************************************]
+[DemoNote]
+<h2>Demo</h2>
+<p>
+Dies ist die NetStorm-Demo Version {version}.
+<p>
+In dieser Demo-Version sind drei Missionen sowie alle Tutorials und
+die Mehrspieler-Funktion enthalten, in der Sie allerdings lediglich
+das Wissen ?ber Sonnen-konforme Technologie besitzen. Die hier
+gespeicherten Spielst?nde k?nnen in der Vollversion weitergespielt
+werden!
+<p>
+Um im Spiel die Online-Hilfe sowie die technische Hilfe aufzurufen, dr?cken Sie die F1-Taste.
+<p>
+Viel Vergn?gen!
+
+$Button=OK,Tell,{param.1}
+
+[***********************************************************]
+[TipList]
+tip0="Dr?cken Sie die Taste <c>F2</c>, um den Br?ckenbau zu vereinfachen."
+tip1="Klicken Sie ein beliebiges Objekt, auch die Spielfenster, mit der <c>rechten Maustaste</c> an, um sich den zugeh?rigen Hilfetext anzeigen zu lassen!"
+tip2="Mit der Taste <c>F5</c> wird die Kampffensteransicht auf Ihren eigenen Priester fokussiert."
+tip3="Klicken Sie feindliche Einheiten an, um sich deren Reichweite anzeigen zu lassen."
+tip4="Nachdem Sie eine Einheit am Rand einer Br?cke errichtet haben, k?nnen Sie an der Plattform der Einheit weitere abgehende Br?ckenteile anlegen!"
+tip5="Statt eine Br?cke gerade auf einen Geysir zuzubauen, ist es einfacher, die Br?ckenteile seitlich anzulegen."
+tip6="Sie sollten darauf achten, da? immer Br?ckenwege zu s?mtlichen verf?gbaren Geysiren existieren, damit Ihre Golems ununterbrochen Sturmkristalle abbauen k?nnen."
+tip7="Drehen Sie die abgewinkelten Br?ckenteile, so da? zwei Br?ckenenden freibleiben, um Ihre Angriffs- und Verteidigungseinheiten m?glichst effektiv positionieren zu k?nnen!"
+tip8="Mit Hilfe von T?rmen k?nnen schw?chere Angriffseinheiten gesch?tzt werden!"
+tip9="Durch jede Zerst?rung einer feindlichen Einheit gewinnen Sie zus?tzliche Sturmkraft hinzu!"
+tip10="Nachdem Sie eine Br?cke an einen Geysir angelegt haben, geht die Geysirplattform in Ihren Besitz ?ber, so da? Sie von dort aus weitere abgehende Br?ckenteile anlegen k?nnen!"
+tip11="Es ist effektiver, mehrere Produktionsst?tten zu bauen, statt bestehende Produktionsst?tten zu erweitern!"
+tip12="Meist ist es sinnvoller, unterschiedliche Waffen einzusetzen, statt sich nur auf einen Waffentyp zu beschr?nken."
+tip13="Jede Einheit nimmt grunds?tzlich das naheliegendste Ziel unter Beschu? - auch dann, wenn der jeweilige Waffentyp keinen Schaden am Zielobjekt verursachen kann!"
+tip14="Wenn ein Geysir leer ist, wenden sich die Transporteinheiten denjenigen Geysiren zu, die sich am n?chsten bei Ihrem Tempel befinden - auch dann, wenn sich der Geysir in feindlichem Gebiet befindet!"
+tip15="Sie sollten Ihre Gesch?tze nicht zu nah nebeneinander errichten - sobald eine Einheit explodiert, w?rden dadurch auch alle benachbarten Einheiten besch?digt!"
+tip16="Sie k?nnen eine feindliche Br?cke zerbrechen, indem Sie unmittelbar in der N?he der Br?cke eine billige Einheit errichten und diese dann durch Selbstzerst?rung vernichten. Durch die Explosion wird eine solide Br?cke rissig, und rissige Br?ckenteile fallen schlie?lich fr?her oder sp?ter zusammen!"
+tip17="Sofern Sie eine schnelle Grafikkarte besitzen, sollten Sie im DirectDraw-Modus den Men?befehl <c>Optionen / DirectDraw-Einstellungen / Wolken-Parallaxe</c> aktivieren. Ist ein toller Effekt!!"
+tip18="Beim Beschu? einer feindlichen Einheit sollten Sie immer in Bodenn?he des Zielobjektes zielen. Wird zu hoch geschossen, kann es passieren, da? das Ziel vollst?ndig verfehlt wird und keinen Schaden nimmt!"
+tip19="Sie k?nnen auf den Inseln Ihrer Alliierten Geb?ude errichten und nach dem Anlegen einer Br?ckenverbindung auch abgehende Br?cken bauen."
+tip20="Vernichten Sie ?berfl?ssig gewordene eigene Geb?ude oder Einheiten durch Selbstzerst?rung, um so zus?tzliche Sturmkraft zu gewinnen."
+tip21="Da die Einheiten immer auf das n?chstliegende Ziel feuern, k?nnen Sie oftmals T?rme einsetzen, um den feindlichen Beschu? abzulenken, w?hrend Sie von einer anderen Position aus angreifen!"
+tip22="Achten Sie auf rissige Br?cken! Golems k?nnen durch den Zusammenbruch von Br?ckenteilen, die sie betreten, in die Tiefe gerissen werden!"
+tip23="Im Mehrspieler-Modus k?nnen Priester um m?chtige Zauberspr?che beten!"
+tip24="Im Mehrspieler-Modus k?nnen Sie Au?enposten errichten, um so mehrere Inseln unter Ihre Kontrolle zu bringen!"
+tip25="Lufteinheiten k?nnen sich nicht gegenseitig angreifen!"
+tip26="Die Position Ihrer Insel w?hrend des Kampfes h?ngt von dem im Mehrspieler-Gefechtsring ausgew?hlten 'Stein' ab."
+tip27="Das Geheimnis bei der Bek?mpfung von Helibombern, Staubwirbeln und R?hrenquallen ist die Zerst?rung ihrer Basiseinheiten - Sie sollten keine Zeit damit verschwenden, die Flugeinheiten selbst anzugreifen."
+tip28="Wenn Sie sich keine Sorgen ?ber Ihre finanziellen Reserven machen wollen, sollten Sie preisg?nstige Sonneneinheiten einsetzen!"
+tip29="Alle Transportmedien unterscheiden sich in wesentlichen Merkmalen - machen Sie sich die individuellen Funktionen zunutze!"
+tip30="Sie k?nnen Waffen so gruppieren, da? Sie sich wirkungsvoll erg?nzen. Die Schw?chen der einen Einheit k?nnten die St?rken der anderen sein!"
+tip31="Sie k?nnen Br?ckenteile bereits dann an andere Br?ckenteile anlegen, wenn das existierende Br?ckenfragment, an das Sie anlegen wollen, noch abgedunkelt dargestellt wird."
+tip32="Wichtige Updates und technische Hilfestellung erhalten Sie auf den Web-Sites von Activision und Titanic."
+tip33="Wenn Sie im Mehrspieler-Modus die Chat-Funktion benutzen, brauchen Sie lediglich die ersten Buchstaben eines Empf?ngernamens einzugeben. Dr?cken Sie dann die TAB-Taste, und der Name wird automatisch vervollst?ndigt."
+tip34="Es stehen Ihnen keine weiteren Hinweise mehr zur Verf?gung!<$Config,tipNumber=0>"
+
+[***********************************************************]
+[AllianceRequested]
+<h2>Allianzangebot</h2>
+<c>{param.1}</c> m?chte eine Allianz mit Ihnen schlie?en. Wenn Sie das Angebot annehmen, k?nnen daraufhin beide Parteien eigene, abgehende Br?ckenteile an die Br?cken der anderen Partei anlegen, und Ihre Kampfeinheiten greifen sich nicht gegenseitig an. 
+<p>
+M?chten Sie das Allianzangebot annehmen?
+$Button=Ja,ConfirmAlliance,{param.2}
+$Button=Nein,DoNothing,0
+
+[***********************************************************]
+[AllianceComplete]
+<h2>Allianz geschlossen</h2>
+<c>{param.1}</c> und Sie sind nun gegenseitig verpflichtete Alliierte. Beide Parteien k?nnen abgehende Br?ckenteile an den Br?cken der anderen Partei anlegen, und Ihre Kampfeinheiten greifen sich nicht gegenseitig an.
+$Button=OK,DoNothing,0
+
+[***********************************************************]
+[AllianceBroken]
+<h2>Allianz aufgel?st</h2>
+
+Ihre Allianz mit <c>{param.1}</c> wurde aufgel?st.
+$Button=OK,DoNothing,0
+
+[***********************************************************]
+[SacrificeMenu]
+<h2>Opferung!</h2>
+<p>
+Gelobt seien die Furien! Sie k?nnen sich mit einer Level-{param.2}-Einheit 
+<?{param.3}> 
+belohnen lassen oder eine Erweiterung w?hlen, um sp?ter leistungsf?higere Einheiten errichten zu k?nnen.
+</?>
+<?!{param.3}>
+Belohnung.
+</?>
+$Timeout=15,RequestStormpower,0
+$Menu=*TECHLIST*,DoNothing,{param.1}
+[***********************************************************]
+[SacrificeForStormpower]
+<h2>Sturmkraft hinzugewonnen!</h2>
+Sie haben f?r die Opferung des feindlichen Priesters Sturmkraft hinzugewonnen!
+
+$Timeout=15,DoNothing,0
+$Button=OK,DoNothing,0
+
+
+
+[***********************************************************]
+[DirectDrawManager]
+<?{workingFullScreenFlags}>
+<$ScreenModeAbsChange,{workingFullScreenFlags}>
+</?>
+
+<?!{workingFullScreenFlags}>
+<h2>DirectDraw</h2>
+<p>
+Dieses Spiel ben?tigt Microsoft "DirectDraw", um einen schnellen
+Vollbildmodus zu gew?hrleisten. Die meisten modernen Spiele
+arbeiten auf der Grundlage von DirectDraw. Um eine optimale Leistungsf?higkeit zu gew?hrleisten, werden in NetStorm jedoch einige DirectDraw-Funktionen ben?tigt, die bei anderen Spielen nicht erforderlich sind und die m?glicherweise nicht von allen Grafikkarten unterst?tzt werden.
+<p>
+Aus diesem Grund stehen Ihnen einige besondere Optionen zur Verf?gung, mit deren Hilfe Sie NetStorm auf die von Ihnen verwendete Grafikkarte abstimmen k?nnen. Beachten Sie bitte, da? es bei manchen Einstellungskombinationen zu Rechnerabst?rzen kommen kann. Sollte dies passieren, starten Sie Ihren Rechner einfach neu und rufen anschlie?end erneut das Programm NetStorm auf, welches automatisch in den letzten lauff?higen Modus zur?ckkehrt. Sicherheitshalber sollten Sie vor Anwahl der untenstehenden Schaltfl?che <c>DirectDraw starten</c> 
+alle anderen Anwendungen schlie?en.
+<p>
+<c>Um in ein Fenster zur?ckzukehren, k?nnen Sie jederzeit die Tastenkombination ALT-RETURN bet?tigen!</c>
+
+<$Config,shownScreenExplain=1>
+
+$Button=DirectDraw starten,Tell,DirectDrawManager2
+$Button=Kundendienst,Tell,DirectDrawSupport
+$Button=Abbrechen,DoNothing,0
+$Timeout=45,DoNothing,0
+
+</?>
+
+[***********************************************************]
+[DirectDrawManager2]
+
+<$ScreenModeAbsChange,139>
+<$DoNothing,0>
+<$Tell,AdjustDirectDraw>
+
+[***********************************************************]
+[AdjustDirectDraw]
+<h2>DirectDraw</h2>
+<p>
+In vielen F?llen ist es m?glich, die Leistung von NetStorm erheblich zu steigern, indem einige der unten aufgef?hrten Einstellungen ge?ndert werden.
+Sobald Sie eine dieser Optionen anw?hlen (also noch vor der eigentlichen Aktivierung), erhalten Sie zun?chst eine ausf?hrliche Beschreibung dazu.
+F?r den Fall, da? Ihre Grafikkarte eine bestimmte Funktion nicht unterst?tzt, k?nnen manche Options?nderungen einen Rechnerabsturz verursachen. Bevor Sie ?nderungen an den Einstellungen vornehmen, sollten Sie daher sicherheitshalber alle anderen ge?ffneten Anwendungen schlie?en.
+<p>
+Die Einstellungs?nderung mu? binnen 15 Sekunden mit Hilfe der eingeblendeten Schaltfl?che best?tigt werden, andernfalls wird die ?nderung ignoriert.
+Sollte Ihr System abst?rzen, booten Sie Ihren Rechner neu, und starten Sie auch NetStorm erneut. Das Programm kehrt automatisch in den letzten lauff?higen Modus zur?ck.
+<p>
+<c>Wenn in diesem Zusammenhang der Mauszeiger nicht mehr auf dem Bildschirm angezeigt wird, bet?tigen Sie bitte die Taste F12!</c><br>
+<c>Um in ein Fenster zur?ckzukehren, k?nnen Sie jederzeit die Tastenkombination ALT-RETURN dr?cken!</c>
+
+$Checked=Gesicherter Grafikmodus,Tell,ToggleBackBufferDib,{global.ddBackBufferDib},1
+$Checked=Gesicherter Maustreiber,Tell,ToggleMouse,{global.ddSoftwareMouse},1
+$Checked=Wolken-Parallaxe,Tell,ToggleParallax,{global.ddParallax},{global.ddFourPage}
+$Checked=Verz?gerungsreduktion,Tell,ToggleFlipping,{global.ddFlipping},1
+
+$Button=Hilfe,Tell,DirectDrawSupport
+$Button=OK,DoNothing,0
+
+
+[***********************************************************]
+[ToggleBackBufferDib]
+<h2>Gesicherter Grafikmodus</h2>
+<p>
+Der gesicherte Grafikmodus wird von fast allen Grafikkarten unterst?tzt, beeintr?chtigt aber oftmals auch die Spielgeschwindigkeit. 
+<p>
+Sofern Ihre Grafikkarte es zul??t, was gl?cklicherweise meistens der Fall ist, sollte dieser Modus <c>ausgeschaltet</c> sein.
+<p>
+Der gesicherte Grafikmodus ist derzeit <c><?{global.ddBackBufferDib}>EINGESCHALTET</?><?!{global.ddBackBufferDib}>AUSGESCHALTET</?></c>.
+
+<?{global.ddBackBufferDib}>
+$Button=Ausschalten,ScreenModeChange,2
+</?>
+<?!{global.ddBackBufferDib}>
+$Button=Einschalten,ScreenModeChange,2
+</?>
+$Button=Abbrechen,Tell,AdjustDirectDraw
+
+[***********************************************************]
+[ToggleMouse]
+<h2>Gesicherter Maustreiber</h2>
+<p>
+Wenn der Mauszeiger 'Grafikm?ll' auf dem Bildschirm hinterl??t oder ganz vom Bildschirm verschwindet, wenn Sie die Maus bewegen, sollten Sie diese Option einschalten.
+<p>
+Die Spielgeschwindigkeit wird dadurch in der Regel nicht beeintr?chtigt, aber der Mauszeiger bleibt sozusagen am Bildschirm 'kleben'. Ist eine niedrige Bildfrequenz eingestellt, bewirkt das Einschalten dieser Option, da? die Maus quasi ?ber die Grafik 'springt'.
+<p>
+Der gesicherte Maustreiber ist derzeit <c><?{global.ddSoftwareMouse}>EINGESCHALTET</?><?!{global.ddSoftwareMouse}>AUSGESCHALTET</?></c>.
+
+<?{global.ddSoftwareMouse}>
+$Button=Ausschalten,ScreenModeChange,64
+</?>
+<?!{global.ddSoftwareMouse}>
+$Button=Einschalten,ScreenModeChange,64
+</?>
+$Button=Abbrechen,Tell,AdjustDirectDraw
+
+
+[***********************************************************]
+[ToggleFlipping]
+<h2>Verz?gerungsreduktion</h2>
+<p>
+Wenn das Scrolling in NetStorm verz?gert vonstatten geht, k?nnen Sie diese Option einschalten. Allerdings ist hierbei zu beachten, da? sich die Spielgeschwindigkeit je nach verwendeter Grafikkarte erheblich reduzieren kann.
+<p>
+Die Verz?gerungsreduktion ist derzeit <c><?{global.ddFlipping}>EINGESCHALTET</?><?!{global.ddFlipping}>AUSGESCHALTET</?></c>.
+
+<?{global.ddFlipping}>
+$Button=Ausschalten,ScreenModeChange,4
+</?>
+<?!{global.ddFlipping}>
+$Button=Einschalten,ScreenModeChange,4
+</?>
+$Button=Abbrechen,Tell,AdjustDirectDraw
+
+[***********************************************************]
+[ToggleParallax]
+<h2>Wolken-Parallaxe</h2>
+<p>
+Mit dieser Option werden die Wolken auf verschiedenen Ebenen animiert, wodurch NetStorm einen realistischeren Tiefeneffekt erh?lt. Wenn Ihre Grafikkarte ausreichend Speicher besitzt und schnell ist, wird die Spielgeschwindigkeit nur minimal beeintr?chtigt.
+<p>
+Die Wolken-Parallaxe ist derzeit <c><?{global.ddParallax}>EINGESCHALTET</?><?!{global.ddParallax}>AUSGESCHALTET</?></c>.
+
+<?{global.ddParallax}>
+$Button=Ausschalten,ScreenModeChange,16
+</?>
+<?!{global.ddParallax}>
+$Button=Einschalten,ScreenModeChange,16
+</?>
+$Button=Abbrechen,Tell,AdjustDirectDraw
+
+
+
+[***********************************************************]
+[DirectDrawSupport]
+<h2>DirectDraw-Unterst?tzung</h2>
+<p>
+DirectDraw ist eine Microsoft-Technologie, jedoch obliegt es den einzelnen Grafikkartenherstellern, ihren Karten kompatible Treiber beizulegen.
+<p>
+Wenn DirectDraw auf Ihrem Rechner nicht l?uft, wenden Sie sich bitte an Ihren Grafikkartenhersteller, oder besuchen Sie die Microsoft-Web-Site unter <p>
+
+<a href="http://www.microsoft.com">http://www.microsoft.com</a>
+
+$Button=OK,DoNothing,0
+
+
+[***********************************************************]
+[BattleOver1]
+<h2>SIEG!</h2>
+<$MoveDialog,br>
+$Button=Weiter,GoMultiplayer,1
+
+[BattleOver2]
+<h2>NIEDERLAGE!</h2>
+<$MoveDialog,br>
+$Button=Weiter,GoMultiplayer,1
+
+[BattleOver3]
+<h2>Kampf beendet!</h2>
+<$MoveDialog,br>
+$Button=Weiter,GoMultiplayer,1
+
+[BattleOver4]
+<h2>Verbindungsaufbau fehlgeschlagen</h2>
+<p>
+Ihr Mehrspieler-NetStorm-Spiel konnte nicht gestartet werden, da einige Ihrer Mitspieler nicht auf dem Server eingeloggt sind.
+<p>
+$Button=Zur?ck zur Kampfarena,GoMultiplayer,1
+
+[***********************************************************] 
+[BattleOver5]
+<h2>Patt</h2>
+<$MoveDialog,br>
+$Button=Weiter,GoMultiplayer,1
+
+
+[***********************************************************]
+[BattleVersionMismatch]
+<h2>Versionsabweichung</h2>
+<p>
+Alle an einem Kampf beteiligten Spieler m?ssen untereinander kompatible Versionen verwenden.
+<p>
+Ihre Version ist leider nicht mit den von den anderen Spielern in diesem Kampf benutzten Versionen kompatibel. M?glicherweise verwenden die anderen Spieler eine aktuellere Version als Sie, oder Ihre Version ist neueren Datums als die der anderen Spieler.
+<p>
+Die aktuellsten Patches zum Spiel stehen unter {patchURL} zum Download bereit.
+<p>
+$Button=Schade,DoNothing,0
+
+[***********************************************************]
+[BattleFailedDiags]
+<h2>Sorry...</h2>
+<p>
+Da nicht alle Diagnosel?ufe auf Ihrem Rechner erfolgreich abgeschlossen wurden, k?nnen Sie leider nicht das Amt des Kampfmeisters ?bernehmen.
+<p>
+Der vorige Kampfmeister dieses Kampfes ist offline, so da? Sie als n?chster Kampfmeister an der Reihe w?ren, aber leider ist dies aufgrund einiger unvollst?ndiger oder fehlerhafter Diagnosel?ufe nicht m?glich.
+<p>
+Starten Sie die Diagnosel?ufe erneut, oder schlie?en Sie sich einem anderen Kampf an.
+<p>
+$Button=OK,DoNothing,0
+
+[***********************************************************]
+[QueryForceJoinChalBattle]
+<h2>M?glicher Firewall-Schutz</h2>
+<p>
+Der Empfangstest wurde auf Ihrem Rechner nicht erfolgreich abgeschlossen, was bedeutet, da? sich keine anderen Spieler in Ihren Rechner einw?hlen k?nnen. Aufgrund dessen ist es leider nicht m?glich, da? Sie das Amt des Kampfmeisters ?bernehmen. Sie k?nnen sich aber dennoch anderen K?mpfen anschlie?en.
+<p>
+Sollte sich Ihre Netzwerkkonfiguration seit der Installation des Spiels ge?ndert haben, beenden Sie NetStorm, und starten Sie die Diagnosel?ufe erneut. Sie k?nnen sich dann gegebenenfalls als Kampfmeister anmelden, indem Sie die Schaltfl?che "Kampfmeister" bet?tigen.
+<p>
+$Button=Kampfmeister,ChalForceJoinBattle,{param.1}
+$Button=Abbrechen,DoNothing,0
+
+[***********************************************************]
+[Player]
+<h2>Spieler "{p.handle}"</h2>
+<p>
+{p.handle} hat <c>{p.totalGames}</c> Spiel(e) gespielt.
+<p>
+Zuverl?ssigkeit: <c>{p.reliability}%</c>
+(bedeutet, da? {p.handle} in <c>{p.unreliability}%</c> der F?lle seine begonnenen Spiele vorzeitig beendet hat).
+
+$Button=OK,DoNothing,0
+
+
+[***********************************************************]
+[MetaPlayer]
+<h2>Spieler "{p.handle}"</h2>
+<p>
+Version: <c>{p.version}</c><br>
+Sprache: <c>{p.language}</c>
+<p>
+{p.handle} hat <c>{p.totalGames}</c> Spiel(e) gespielt.
+<p>
+Zuverl?ssigkeit: <c>{p.reliability}%</c>
+(bedeutet, da? {p.handle} in <c>{p.unreliability}%</c> der F?lle seine begonnenen Spiele vorzeitig beendet hat).
+
+$Button=OK,DoNothing,0
+
+
+[***********************************************************]
+[ChalIntro]
+<h2>Serenisph?re</h2>
+Sie sind in die Serenisph?re eingetreten, in der sich die St?mme von Nimbus f?r den Kampf um Wissen und Macht zusammenfinden!
+<p>
+Klicken Sie <a href="multiQuickHelp">hier</a>, um sich den <a href="multiQuickHelp">Mehrspieler-QuickStart</a> anzeigen zu lassen.
+<p>
+Klicken Sie mit der <c>linken Maustaste</c> auf eine beliebige Stelle in der ?bersichtskarte, um Ihre Insel dorthin zu bewegen.
+<br>
+Klicken Sie die <c>rechte Maustaste</c>, um Informationen ?ber die <a href="battleIslandType">Gefechtsringe</a> und die <a href="challengeIslandType">Zonen</a> aufzurufen.
+<p>
+<?!{DoneTutorial4}>
+<i>Machen Sie sich zun?chst mit der Kampfweise im Mehrspieler-Kampf vertraut, indem Sie als erstes die "?bungsmissionen" durchspielen!</i>
+<p>
+</?>
+Um sich diese Beschreibung erneut anzeigen zu lassen, k?nnen Sie jederzeit die Taste <c>F8</c> dr?cken.
+<p>
+$Button=OK,DoNothing,0
+<?{param.1}>
+$Button=Nicht mehr anzeigen,Config,noShowChalIntro=1
+</?>
+
+[***********************************************************]
+[CSLShutdown]
+<h2>Server au?er Betrieb</h2>
+Dieser Server wird gerade heruntergefahren oder neu gestartet. W?hrend dieses Vorgangs k?nnen sich keine neuen Spieler einloggen.
+<p>
+Versuchen Sie es sp?ter noch einmal, oder loggen Sie sich auf einem anderen Server ein.
+<p>
+$Button=OK,DoNothing,0
+
+[***********************************************************]
+[NewRank]
+<h2>N?chster Rang erreicht!</h2>
+<p>
+Herzlichen Gl?ckwunsch!
+<p>
+Sie haben den n?chsth?heren Rang erreicht! Ihr neues Rangsymbol ist: {param.1}
+<p>
+Die Furien zerst?ren Ihr gesamtes bisheriges Wissen und erleuchten Sie erneut mit dem Wissen ?ber den Sonnenscheibenwerfer und die Sonnenkanone - diesmal allerdings in leistungsf?higeren Ausf?hrungen!
+
+[***********************************************************]
+[ProdPending]
+<h2>Produktion ausgelastet</h2>
+<p>
+Die Produktion ist derzeit ausgelastet.
+<p>
+Sie m?ssen warten, bis die Produktion des vorigen Wissens abgeschlossen ist, bevor Sie ein neues Wissen in die Produktion leiten k?nnen. Die Kapazit?ten sollten in K?rze wieder frei sein.
+
+[***********************************************************]
+[LeaveEarly]
+<h2>Kampf unehrenhaft verlassen</h2>
+<p>
+Es steht Ihnen zwar frei, den Kampf jetzt zu verlassen, aber Ihr Zuverl?ssigkeitswert wird dadurch gemindert, und andere Spieler k?nnten aufgrund dessen m?glicherweise nicht mehr mit Ihnen spielen wollen.
+<p>
+Ein Kampf wird ehrenhaft beendet, wenn<br>
+* ein Sieger feststellt oder ein Patt erkl?rt wurde.<br>
+* Ihr Priester gefangengenommen oder geopfert wurde.<br>
+* Ihr Tempel vernichtet wurde und keine M?glichkeit besteht, einen neuen zu errichten.<br>
+* Ihr Tempel vernichtet wurde und Ihr Priester paralysiert ist.<br>
+<p>
+M?chten Sie diesen Kampf wirklich unehrenhaft verlassen?
+
+$Button=Schande ?ber mich,LeaveBattle,1
+$Button=Ich bleibe noch,DoNothing,0
+
+
+[***********************************************************]
+[LeaveNormal]
+<h2>Kampf ehrenhaft verlassen</h2>
+<p>
+Entweder wurde Ihr Priester gefangengenommen oder geopfert, oder es ist befinden sich keine weiteren Gegner mehr in diesem Kampf, so da? sich auch Ihre Teilnahme er?brigt. 
+<p>
+Wenn Sie den Kampf jetzt verlassen, wird Ihr Zuverl?ssigkeitswert dadurch nicht negativ beeintr?chtigt.
+<p>
+$Button=Kampf ehrenhaft verlassen,LeaveBattle,9
+$Button=Kampf weiterverfolgen,DoNothing,0
+
+[***********************************************************]
+[NoCaptureNotOnline]
+<h2>Gefangennahme nicht m?glich!</h2>
+<p>
+Sie k?nnen den Priester von "{param.1}" nicht gefangennehmen,
+da dieser Spieler das Spiel verlassen hat.
+<p>
+Sollte er sich erneut einloggen, steht sein Priester auch wieder zur Gefangennahme bereit.
+
+[***********************************************************]
+[OnlyOneLeft]
+<h2>Letzter Spieler!</h2>
+<p>
+Sie sind der einzige Spieler, der noch an diesem Spiel
+teilnimmt. 
+<p>
+Sie k?nnen das Spiel dennoch fortsetzen und abwarten, ob
+sich noch andere Spieler hinzugesellen.
+
+[***********************************************************]
+[EarlySacrifice]
+<h2>Zu fr?h!</h2>
+<p>
+W?hrend der ersten Spielminuten sind keine Priesteropferungen m?glich.
+<p>
+Die Furien sind nicht bereit, schnelle, m?helose Kampfaktionen mit ihrem wertvollen Wissen zu belohnen. Sie sollten schon etwas l?nger an einem Kampf teilnehmen, damit die Furien Ihnen ihre Anerkennung zollen!
+
+[***********************************************************]
+[DrawNotAccepted]
+<h2>Patt abgelehnt</h2>
+<p>
+Die anderen Spieler haben Ihr Angebot, eine Pattsituation zu
+erkl?ren, abgelehnt.
+<p>
+Ihr Angebot wird automatisch zur?ckgezogen.
+
+[***********************************************************]
+[MayNotBattleUpdate]
+<h2>Sorry...</h2>
+<p>
+Nur der Kampfmeister kann die Beschreibung eines Kampfes ?ndern.
+<p>
+Sie sind also entweder nicht der Kampfmeister, oder Sie befinden sich derzeit nicht im Kampf.
+
+[***********************************************************]
+[WarnCantUpgradeAltarOffHomeIsland]
+<h2>Warnung</h2>
+<p>
+Sie haben Ihren Altar nicht auf Ihrer Heimatinsel errichtet. Eine Erweiterung dieses Altars ist nicht m?glich, da er im n?chsten Kampf nicht mehr zur Verf?gung stehen wird. Priesteropferungen im Austausch f?r Wissen oder Sturmkraft sind auf diesem Altar aber jederzeit m?glich.
+<p>
+$Button=OK,DoNothing,0
+$Button=Nicht mehr anzeigen,Config,noShowWarnCantUpgrade=1
+
+[***********************************************************]
+[NoProtocol]
+<h2>Kein Netzwerk gefunden</h2>
+<p>
+NetStorm konnte auf Ihrem Rechner weder einen TCP/IP- noch einen IPX/SPX-Socket ausfindig machen. Mindestens eines dieser Protokolle ist erforderlich, um NetStorm im Mehrspieler-Modus spielen zu k?nnen.
+<p>
+Installieren Sie TCP/IP (f?r Internet-Spielbarkeit) und/oder IPX/SPX (f?r LAN-Spielbarkeit), und starten Sie die NetStorm-Diagnosel?ufe erneut. Sobald die installierten Protokolle von der NetStorm-Diagnose aufgefunden wurden, wird diese Meldung nicht mehr angezeigt.
+<p>
+Sollten die Protokolle w?hrend der Diagnosel?ufe zwar gefunden, diese Meldung aber dennoch angezeigt werden, wenden Sie sich bitte an den Kundendienst.
+<p>
+$Button=In Ordnung,Tell,Blank
+
+[***********************************************************]
+[BridgesKilled]
+<h2>Zu wenig Baufl?che</h2>
+<p>
+Es werden Br?cken zerst?rt, um Platz f?r die Errichtung neuer Br?ckenverbindungen zu schaffen!
+<p>
+
+[***********************************************************]
+[FinishedDemo]
+<h2>Demo abgeschlossen</h2>
+<p>
+Herzlichen Gl?ckwunsch, Sie wurden mit dem gesamten Wissen der Sonne erleuchtet! In dieser NetStorm-Demo haben Sie das h?chste Ziel erreicht. 
+<p>
+Wenn Sie Interesse daran haben, die Vollversion von NetStorm zu bestellen, besuchen Sie unsere
+<a href="http://www.titanic.com/netstorm/buynetstormdirect.html">Web-Site</a>,
+
+oder wenden Sie sich an Ihren ?rtlichen Software-H?ndler.
+<p>
+F?r diese Opferung erhalten Sie 5.000 ~[IfortGump.3].
+<p>
+$Button=OK,DoNothing,0
+
+[***********************************************************]
+[MetaKeepAliveTimeout]
+<h2>Server-Verbindung abgebrochen</h2>
+<p>
+Es besteht keine Verbindung mehr zum Server.<br>
+Versuchen Sie, eine neue Verbindung herzustellen. Sollte der Verbindungsaufbau scheitern, wurde der Server m?glicherweise heruntergefahren, oder es ist ein Fehler im Netzwerk aufgetreten.
+<p>
+$Button=OK,LeaveBattle,2
+
+[***********************************************************]
+[TooManyPirates]
+<h2>Zu viele Spieler ohne CDs</h2>
+<p>
+Damit das Spiel gestartet werden kann, mu? sich die NetStorm-CD bei mindestens der H?lfte der Spielteilnehmer im lokalen CD-ROM-Laufwerk befinden.
+<p>
+$Button=OK,DoNothing,0
+
+
+[***********************************************************]
+[DirectDrawVerify]
+<h2>Best?tigung f?r Modus?nderung</h2>
+Ihr DirectDraw-Modus wurde ge?ndert. 
+<p>
+Wenn Sie die ge?nderte Einstellung beibehalten wollen, klicken Sie auf <c>OK</c>, andernfalls kehrt das System nach 15 Sekunden automatisch in den vorherigen Modus zur?ck.
+
+$Timeout=15,ScreenModeAbsChange,{param.1}
+$Button=OK,AcceptScreenModeChange,1 
+$Button=Abbrechen,ScreenModeAbsChange,{param.1}
+
+[***********************************************************]
+[NotRestart]
+<h2>Verbindungsaufbau nicht m?glich</h2>
+<p>
+Der Kampf kann nicht erneut gestartet werden, da alle verbleibenden Spieler (einschlie?lich Ihnen selbst) durch eine Firewall gesch?tzt sind.
+<p>
+Sollte sich vor Ihrem System keine Firewall befinden, k?nnen Sie jederzeit erneut die Diagnosel?ufe starten, indem Sie im Windows-Start-Men? den Eintrag NetStorm ausw?hlen und dann die "NetStorm Diagnose" aktivieren.
+<p>
+$Button=OK,LeaveBattle,1
+
+[***********************************************************]
+[AskLaunchRootServer]
+<h2>Kampf-Server-Status aktivieren?</h2>
+In Ihrem LAN existiert kein Kampf-Server.
+Soll dieser Status f?r Ihren Rechner aktiviert werden?
+<p>
+Wird innerhalb von 10 Sekunden keine Eingabe vorgenommen, wird automatisch der Server-Status f?r Ihren Rechner aktiviert.
+<p>
+$Timeout=10,LaunchRootServer,1
+$Button=Server-Status aktivieren,LaunchRootServer,1
+$Button=Weitersuchen,LaunchRootServer,0
+$Button=Abbrechen,LaunchRootServer,2
+
+[***********************************************************]
+[InsertCD]
+<h2>NetStorm-CD einlegen</h2>
+An dieser Stelle m?ssen einige Daten von der NetStorm-CD eingelesen werden. Bitte legen Sie diese nun in Ihr CD-ROM-Laufwerk ein.
+<p>
+$Button=OK,RecheckCD,0
+$Button=Spiel beenden,QuitApp,99
+
+[***********************************************************]
+[WarnFailedDiags]
+<h2>Diagnosel?ufe fehlgeschlagen</h2>
+Sollten die Diagnosel?ufe auf Ihrem Rechner nicht erfolgreich abgeschlossen worden sein, so k?nnen Sie das Amt des Kampfmeisters leider nicht ?bernehmen.
+<p>
+Um die Diagnosel?ufe erneut zu starten, w?hlen Sie im Windows-Start-Men? den Eintrag NetStorm, und aktivieren Sie dann die "NetStorm Diagnose".<br>
+Alternativ k?nnen Sie die Diagnosel?ufe auch im DOS-Modus starten, indem Sie dort zun?chst das NetStorm-Verzeichnis ausw?hlen und dann den Befehl "NSUTIL diagnose" eingeben.
+<p>
+$Button=OK,ChalForceJoinBattle,{param.1}
+$Button=Diesen Hinweis nicht mehr anzeigen,ChalJoinBattleNoWarning,{param.1}
+
+[***********************************************************]
+[IPXSucks]
+<h2>Hinweis zum IPX/SPX-Protokoll</h2>
+
+Abh?ngig von der verwendeten Netzwerkkarte und den benutzten Treibern k?nnen beim Einsatz des IPX/SPX-Protokolls Probleme auftreten, d.h. es kann zu einem Rechnerabsturz kommen und/oder es k?nnen Schwierigkeiten beim Verbindungsaufbau auftreten. Wenn m?glich, sollten Sie in diesem Fall f?r LAN-Spiele das TCP/IP-Protokoll verwenden.
+<p>
+Beachten Sie bitte, da? NetStorm nicht mit einem IPX-Emulator, wie z.B. Kali(tm), gestartet werden kann. NetStorm besitzt ein eigenes TCP/IP-Netzwerkprotokoll, wodurch sich der Einsatz von Kali(tm) und ?hnlichen IPX-Emulatoren er?brigt.
+<p>
+$Button=OK,Config,useIPAsLanProtocol=0
+$Button=Abbrechen,DoNothing,0
+
+[***********************************************************]
+[ClientCheated]
+<h2>Achtung Mogler!</h2>
+Achtung: Spieler <c>{param.1}</c> hat versucht, zu mogeln und wurde
+dabei ertappt. Zwar darf er weiterspielen, aber jeder zuk?nftige
+Mogelversuch wird von jetzt an ignoriert.
+<p>
+$Button=OK,DoNothing,0
+
+[***********************************************************]
+[ServerCheated]
+<h2>Server hat gemogelt!</h2>
+Achtung: <c>{param.1}</c> hat gemogelt. Weil er oder sein Verb?ndeter
+als Server dient, wird er dieses Mal nicht bestraft.
+<p>
+Sie d?rfen entweder weiterspielen oder die Schlacht verlassen. Wenn Sie
+die Schlacht verlassen, wird Ihr Hohepriester aus dem Spiel entfernt. Ihre
+Zuverl?ssigkeitsnote wird dadurch nicht beeintr?chtigt.
+<p>
+$Button=Ehrenhaft verlassen,LeaveCheater,0
+$Button=Bleiben und nichts machen,DoNothing,0
+
+[***********************************************************]
+[ServerThinksYouCheated]
+<h2>Geld reicht nicht aus</h2>
+<p>
+Der Server hat Ihren Bauversuch abgewiesen, da Ihnen nicht gen?gend
+Geld zur Verf?gung steht.
+<p>
+$Button=OK,DoNothing,0
+
+[***********************************************************]
+[PlayerNoMake]
+<h2>Achtung ~rUnit mogelt!</h2>
+Achtung: Spieler <c>{param.1}</c> erstellt den Einheitstyp "{param.2}"
+auf illegale Weise.
+<p>
+Sie d?rfen entweder weiterspielen oder die Schlacht verlassen. Wenn Sie die
+Schlacht verlassen, wird Ihr Hohepriester aus dem Spiel entfernt. Ihre
+Zuverl?ssigkeitsnote wird dadurch nicht beeintr?chtigt.> > <p>
+$Button=Ehrenhaft verlassen,LeaveCheater,0
+$Button=Bleiben und nichts machen,DoNothing,0
+
+[***********************************************************]
+[LeaveCheaters]
+<h2>Schlacht ehrbar verlassen</h2>
+<p>
+Jemand hat gemogelt. Sobald Sie das Spiel verlassen, wird Ihr
+Hohepriester aus der Schlacht entfernt.
+<p>
+Wenn Sie sich jetzt entscheiden, die Schlacht zu verlassen, wird Ihre
+Zuverl?ssigkeitsnote nicht beeintr?chtigt.
+<p>
+$Button=Ehrenhaft verlassen,LeaveCheater,0
+$Button=Bleiben und nichts machen,DoNothing,0
+
+
+[END]
+
+
+

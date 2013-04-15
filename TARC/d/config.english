@@ -1,0 +1,61 @@
+// Names for things
+// This were only useful when we were undecided as to the names of
+// things in the game.  Any time you see, enclosed in {} pairs, any of
+// the phrases on the left of the '=' below, you may replace them with
+// the phrase on the right.
+// E.g.  "{a factory}" may be replaced with "a Workshop".  Note the
+// lack of {} in the replacement.
+//---------------------------------------------------------------------
+a factory = "a Workshop"
+factory = "Workshop"
+factories = "Workshops"
+vortex = "Temple"
+vortices = "Temples"
+stormpower = "Storm Power"
+technology = "Knowledge"
+technologies = "Knowledge"
+helpWord = "About"
+priest = "High Priest"
+influence = "Energy"
+defaultAiName = "Evil Duke"
+progName = "NetStorm"
+copyright = "(C) 1997 Titanic Entertainment, Inc. and Activision Inc. {version}"
+
+// The stuff below needs translation.  Remember not to translate things
+// between {} pairs. Also, in the first line (OKButton), the only word
+// which needs translation is 'OK'.
+// User Interface
+//--------------------------------------------------------------------
+OkButton = "$Button=OK,DoNothing,0"
+WindowName = "NetStorm Multiplayer Game `"{local.1}`" owner: {fort.mySubHandle|Not Registered}"
+BlankWindowName = "NetStorm Main Menu"
+MissionWindowName = "NetStorm Mission `"{local.1}`""
+TestBattleWindowName = "NetStorm Test Battle `"{local.1}`""
+DemoWindowName = "NetStorm Demo `"{local.1}`""
+EditorWindowName = "NetStorm Editor Game `"{local.1}`""
+
+crash HTML = "<p>Please copy this information and <a href=`"mailto:bugs@titanic.com`">Email Us</a> with it.`n<p>`n<a href=`"{troubleshooting URL}`">Go to troubleshooting pages.</a><hr>(to stop this browser launch, set troubleshootOnCrash = 0 in your options.cfg file.)`n"
+crash TXT  = "An assertion has failed:`n'%s' in '%s', line %d version %d.`nPlease copy this information and mail it to bugs@titanic.com`n"
+
+readonly = "READONLY! "
+newFort = "MyOnlineGame"
+
+// Install Shortcuts
+// The program names and URLs do not need translation, but the rest of the string does.
+// Shortcuts always get installed
+// RelShortcuts get installed for release builds only
+// DemoShortcuts get installed for demos only
+// InetShortcuts always get installed.
+
+//Shortcut0 = "\Help\Help.exe,Readme.hlp,Technical Help,NetStorm Technical Help,\help"
+RelShortcut0 = "\NetStorm.exe,,NetStorm,Main NetStorm Executable,"
+RelShortcut1 = "\nsutil.exe,diagnose,NetStorm Diagnostics,Diagnostics for NetStorm,"
+RelShortcut2 = "\nsutil.exe,uninstall,Uninstall NetStorm,Uninstall for NetStorm,"
+RelShortcut3 = "\Help\Help.exe,Readme.hlp,Technical Help,NetStorm Technical Help,\help"
+DemoShortcut0 = "\NetStorm.exe,,NetStorm Demo,Main NetStorm Executable,"
+DemoShortcut1 = "\nsutil.exe,diagnose,NetStorm Demo Diagnostics,Diagnostics for NetStorm,"
+DemoShortcut2 = "\nsutil.exe,uninstall,Uninstall NetStorm Demo,Uninstall for NetStorm,"
+DemoShortcut3 = "\Help\Help.exe,Readme.hlp,Technical Help,NetStorm Technical Help,\help"
+InetShortcut0 = "http://www.activision.com,Visit Activision on the Web"
+InetShortcut1 = "http://www.titanic.com,Visit Titanic on the Web"
+

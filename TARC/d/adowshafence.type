@@ -1,0 +1,31 @@
+typename adowshaFence constructor 
+typeflags createsisland emplacement fence shadow;
+{
+	description="Shadow Barricade";
+	class="Defense";
+	zorder = "zoEMPLACEMENTS";
+	range = 50;
+	minUsage = 20;
+	maxUsage = 20;
+	constructionRate = 10;
+	foot_x = 3;
+	foot_y = 3;
+//	hotFootY = 6;
+	hotFootRatioX = 0.4;
+	hotFootRatioY = 0.4375;
+	damageEffect = 1;
+	group = "fence";
+	impactSound = "sunFenceImpact.wav";
+	maxHitPoints = 1000;
+	theme = "adowsha";
+	level = 1;
+
+	techBit = 33;
+}
+
+A00 : default : "afence.gif" #02  : "afence.gif" #03  ;
+A01 :         : "afence.gif" #02  : "afence.gif" #03  ;
+A02 :         : "afence.gif" #02  : "afence.gif" #03  ;
+
+P00 : help : "b_sfence.gif" #00;
+

@@ -1,0 +1,60 @@
+[Header]
+missionType = "Tutorial"
+aid=1
+
+missionNumber = 1
+
+myStartMoney = 3000
+myTech = "sunWalker;rainBattery;sunAviary;sunCannon"
+
+aiName = "W?chter"
+aiTech = "sunWalker;windBattery;sunArcher"
+aiStartMoney = 0
+aiGeyserAttachments = 1
+aiCollectors = 1
+aiTimeBetweenMoves = 6
+aiAbility="!ENCIRCLE_ENEMY_ISLAND;!USE_PRIEST_TO_COLLECT"
+
+title="Kriegserkl?rung"
+
+[A.]
+<h2>Kriegserkl?rung</h2>
+<p>
+<i>"Dunkelheit und Tyrannei sind die Schl?sser an unseren Fesseln. Wer wird genug Mut aufbringen, der Schl?ssel zu sein?"
+--Klagelied des Lichts</i>
+<p>
+Die F?rsten der Finsternis haben das Volk von Nimbus bezwungen und versklavt. Sie sind nun die unangefochtenen Herrscher ?ber das Wolkenreich.
+<p>
+Ihre Feinde haben auf Ihrer Insel eine Wache postiert und Ihren Priester in Ketten gelegt - doch durch einen waghalsigen Angriff ist es Ihnen gelungen, den heiligen Mann zu retten! Jetzt bietet sich Ihnen eine Chance, die Initiative zu ergreifen und ganz Nimbus zu befreien!
+
+$Button=Aktueller Wissensstand,ShowTechnology,55
+$Button=Mission beginnen,DoNothing,0
+
+
+[Succeeded][BadTeamDead]
+<h2>Mission erfolgreich abgeschlossen!</h2>
+<p>
+Sie konnten Ihre Insel befreien!
+<p>
+Als n?chstes sollten Sie versuchen, noch weitere, nach Freiheit strebende Inseln unter Ihrem Banner zu vereinen.
+<p>
+Nur gemeinsam mit mehreren, Ihnen gegen?ber loyal gesinnten Inselanf?hrern k?nnen Sie die M?chte der Finsternis besiegen und vernichten!
+<$Config,Done{mission.fileName}=1>
+$Button=Mission beenden,MissionAbort,1
+$Button=N?chste Mission,MissionBegin,MasterOfWhirligigs
+
+
+[Failed]
+<h2>Missionsziel verfehlt!</h2>
+<p>
+Ihr ?berraschungsangriff ist fehlgeschlagen!
+<p>
+Ein zweites Mal werden die Schergen der Finsternis nicht so unvorsichtig sein. Sie ordnen an, da? jede dritte Frau von der Insel in die Tiefe gest?rzt wird und jeder Mann unter f?nfunddrei?ig Jahren Zwangsarbeit verrichten mu?.
+<p>
+Leider haben Sie Ihre einzige Chance auf Freiheit vertan.
+$Button=Weiter,Tell,TryAgain
+
+
+[END]
+																		 
+																		 

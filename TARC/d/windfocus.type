@@ -1,0 +1,17 @@
+typename windFocus constructor
+typeflags focus yuckWalk dropBlocking shotblocking shadow;
+{
+	description="Wind {Focus}";
+	class="Source of Energy";
+	theme = "wind";
+	cost = 500;
+
+	zorder = "zoEMPLACEMENTS";
+	foot_x = 3;
+	foot_y = 3;
+	damageEffect = 1;
+}
+
+A01 : default : "focus.gif" #00 : "focus.gif" #03 ;
+P00 : help : "b_focusers.GIF" #00;
+

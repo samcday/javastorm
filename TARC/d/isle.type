@@ -1,0 +1,442 @@
+typename Isle
+
+typeflags surface default_hotspot island predictable not_selectable dontSave;
+{
+	zorder = "zoISLAND";
+}
+
+// Filled pieces
+// SUN
+AA01 : default: "rgrass.gif" #0 ;
+AA02 : : "rgrass.gif" #1 ;
+AA03 : : "rgrass.gif" #2 ;
+AA04 : : "rgrass.gif" #3 ;
+AA05 : : "rgrass.gif" #4 ;
+AA06 : : "rgrass.gif" #5 ;
+//thunder
+AA07 : : "THGRASS.gif" #0 ;
+AA08 : : "THGRASS.gif" #1 ;
+AA09 : : "THGRASS.gif" #2 ;
+AA10 : : "THGRASS.gif" #3 ;
+AA11 : : "THGRASS.gif" #4 ;
+AA12 : : "THGRASS.gif" #5 ;
+// wind
+AA13 : : "WIGRASS.GIF" #0 ;
+AA14 : : "WIGRASS.GIF" #1 ;
+AA15 : : "WIGRASS.GIF" #2 ;
+AA16 : : "WIGRASS.GIF" #3 ;
+AA17 : : "WIGRASS.GIF" #4 ;
+AA18 : : "WIGRASS.GIF" #5 ;
+// rain
+AA19 : : "RAGRASS.GIF" #0 ;
+AA20 : : "RAGRASS.GIF" #1 ;
+AA21 : : "RAGRASS.GIF" #2 ;
+AA22 : : "RAGRASS.GIF" #3 ;
+AA23 : : "RAGRASS.GIF" #4 ;
+AA24 : : "RAGRASS.GIF" #5 ;
+
+
+// Inside Corners
+// SUN
+AB01 : rim fringe  : "risle.gif" #17 ;
+AB02 : rim fringe  : "risle.gif" #29 ;
+// thunder
+AB03 : rim fringe  : "THISLE.gif" #17 ;
+AB04 : rim fringe  : "THISLE.gif" #29 ;
+// wind
+AB05 : rim fringe  : "WIISLE.GIF" #17 ;
+AB06 : rim fringe  : "WIISLE.GIF" #29 ;
+// RAIN
+AB07 : rim fringe  : "RAISLE.GIF" #17 ;
+AB08 : rim fringe  : "RAISLE.GIF" #29 ;
+
+
+// SUN
+AC01 : rim : "risle.gif" #33 ;
+AC02 : rim : "risle.gif" #34 ;
+// thunder
+AC03 : rim : "THISLE.gif" #33 ;
+AC04 : rim : "THISLE.gif" #34 ;
+// wind
+AC05 : rim : "WIISLE.GIF" #33 ;
+AC06 : rim : "WIISLE.GIF" #34 ;
+// RAIN
+AC07 : rim : "RAISLE.GIF" #33 ;
+AC08 : rim : "RAISLE.GIF" #34 ;
+
+
+
+// SUN
+AD01 : rim : "risle.gif" #35 ;
+AD02 : rim : "risle.gif" #36 ;
+// thunder
+AD03 : rim : "THISLE.gif" #35 ;
+AD04 : rim : "THISLE.gif" #36 ;
+// wind
+AD05 : rim : "WIISLE.GIF" #35 ;
+AD06 : rim : "WIISLE.GIF" #36 ;
+// RAIN
+AD07 : rim : "RAISLE.GIF" #35 ;
+AD08 : rim : "RAISLE.GIF" #36 ;
+
+
+// SUN
+AE01 : rim fringe : "risle.gif" #18 ;
+AE02 : rim fringe : "risle.gif" #30 ;
+// thunder
+AE03 : rim fringe : "THISLE.gif" #18 ;
+AE04 : rim fringe : "THISLE.gif" #30 ;
+// wind
+AE05 : rim fringe : "WIISLE.GIF" #18 ;
+AE06 : rim fringe : "WIISLE.GIF" #30 ;
+// RAIN
+AE07 : rim fringe : "RAISLE.GIF" #18 ;
+AE08 : rim fringe : "RAISLE.GIF" #30 ;
+
+// Illegal 
+//AF01 : rim : "risle.gif" #20 ;
+//AF02 : rim : "risle.gif" #20 ;
+//AH01 : rim : "risle.gif" #20 ;
+//AI01 : rim : "risle.gif" #20 ;
+//AG01 : rim : "risle.gif" #20 ;
+
+// These three look completely wacky and illegal. Why would 
+// we need BD, BK, BE? - jfg
+// Left edge meeting other edge
+//BD01 : rim : "risle.gif" #19 ;
+//BK01 : rim fringe : "risle.gif" #16 ;
+//BE01 : rim fringe : "risle.gif" #16 ;
+
+// Left Edge
+// SUN
+BF01 : rim : "risle.gif" #00 ;
+BF02 : rim : "risle.gif" #01 ;
+BF03 : rim : "risle.gif" #02 ;
+BF04 : rim : "risle.gif" #03 ;
+BF05 : rim : "risle.gif" #04 ;
+// thunder
+BF06 : rim : "THISLE.gif" #00 ;
+BF07 : rim : "THISLE.gif" #01 ;
+BF08 : rim : "THISLE.gif" #02 ;
+BF09 : rim : "THISLE.gif" #03 ;
+BF10 : rim : "THISLE.gif" #04 ;
+// wind
+BF11 : rim : "WIISLE.GIF" #00 ;
+BF12 : rim : "WIISLE.GIF" #01 ;
+BF13 : rim : "WIISLE.GIF" #02 ;
+BF14 : rim : "WIISLE.GIF" #03 ;
+BF15 : rim : "WIISLE.GIF" #04 ;
+// RAIN
+BF16 : rim : "RAISLE.GIF" #00 ;
+BF17 : rim : "RAISLE.GIF" #01 ;
+BF18 : rim : "RAISLE.GIF" #02 ;
+BF19 : rim : "RAISLE.GIF" #03 ;
+BF20 : rim : "RAISLE.GIF" #04 ;
+
+
+// Top Edge
+
+// These two are also wacky and should never be needed.
+//CJ01 : rim : "risle.gif" #19 ;
+//CK01 : rim : "risle.gif" #20 ;
+
+// SUN
+CG01 : rim : "risle.gif" #05 ;
+CG02 : rim : "risle.gif" #06 ;
+CG03 : rim : "risle.gif" #07 ;
+CG04 : rim : "risle.gif" #08 ;
+CG05 : rim : "risle.gif" #09 ;
+// thunder
+CG06 : rim : "THISLE.gif" #05 ;
+CG07 : rim : "THISLE.gif" #06 ;
+CG08 : rim : "THISLE.gif" #07 ;
+CG09 : rim : "THISLE.gif" #08 ;
+CG10 : rim : "THISLE.gif" #09 ;
+// Wind
+CG11 : rim : "WIISLE.GIF" #05 ;
+CG12 : rim : "WIISLE.GIF" #06 ;
+CG13 : rim : "WIISLE.GIF" #07 ;
+CG14 : rim : "WIISLE.GIF" #08 ;
+CG15 : rim : "WIISLE.GIF" #09 ;
+// RAIN
+CG16 : rim : "RAISLE.GIF" #05 ;
+CG17 : rim : "RAISLE.GIF" #06 ;
+CG18 : rim : "RAISLE.GIF" #07 ;
+CG19 : rim : "RAISLE.GIF" #08 ;
+CG20 : rim : "RAISLE.GIF" #09 ;
+
+
+// Right edge meeting other edge
+// These two are also wacky and should never be needed.
+//DK01 : rim : "risle.gif" #20 ;
+//DJ01 : rim fringe  : "risle.gif" #15 ;
+
+// Right Edge
+// SUN
+DH01 : rim : "risle.gif" #10 ;
+DH02 : rim : "risle.gif" #11 ;
+DH03 : rim : "risle.gif" #12 ;
+DH04 : rim : "risle.gif" #13 ;
+DH05 : rim : "risle.gif" #14 ;
+// thunder
+DH06 : rim : "THISLE.gif" #10 ;
+DH07 : rim : "THISLE.gif" #11 ;
+DH08 : rim : "THISLE.gif" #12 ;
+DH09 : rim : "THISLE.gif" #13 ;
+DH10 : rim : "THISLE.gif" #14 ;
+// wind
+DH11 : rim : "WIISLE.GIF" #10 ;
+DH12 : rim : "WIISLE.GIF" #11 ;
+DH13 : rim : "WIISLE.GIF" #12 ;
+DH14 : rim : "WIISLE.GIF" #13 ;
+DH15 : rim : "WIISLE.GIF" #14 ;
+// RAIN
+DH16 : rim : "RAISLE.GIF" #10 ;
+DH17 : rim : "RAISLE.GIF" #11 ;
+DH18 : rim : "RAISLE.GIF" #12 ;
+DH19 : rim : "RAISLE.GIF" #13 ;
+DH20 : rim : "RAISLE.GIF" #14 ;
+
+// These two are also wacky and should never be needed.
+//ED01 : rim fringe : "risle.gif" #15 ;
+//EK01 : rim fringe : "risle.gif" #16 ;
+
+// Bottom Edge
+// SUN
+EI01 : rim fringe : "risle.gif" #21 ;
+EI02 : rim fringe : "risle.gif" #22 ;
+EI03 : rim fringe : "risle.gif" #23 ;
+EI04 : rim fringe : "risle.gif" #24 ;
+EI05 : rim fringe : "risle.gif" #25 ;
+EI06 : rim fringe : "risle.gif" #26 ;
+// thunder
+EI07 : rim fringe : "THISLE.gif" #21 ;
+EI08 : rim fringe : "THISLE.gif" #22 ;
+EI09 : rim fringe : "THISLE.gif" #23 ;
+EI10 : rim fringe : "THISLE.gif" #24 ;
+EI11 : rim fringe : "THISLE.gif" #25 ;
+EI12 : rim fringe : "THISLE.gif" #26 ;
+// wind
+EI13 : rim fringe : "WIISLE.GIF" #21 ;
+EI14 : rim fringe : "WIISLE.GIF" #22 ;
+EI15 : rim fringe : "WIISLE.GIF" #23 ;
+EI16 : rim fringe : "WIISLE.GIF" #24 ;
+EI17 : rim fringe : "WIISLE.GIF" #25 ;
+EI18 : rim fringe : "WIISLE.GIF" #26 ;
+// rAIN
+EI19 : rim fringe : "RAISLE.GIF" #21 ;
+EI20 : rim fringe : "RAISLE.GIF" #22 ;
+EI21 : rim fringe : "RAISLE.GIF" #23 ;
+EI22 : rim fringe : "RAISLE.GIF" #24 ;
+EI23 : rim fringe : "RAISLE.GIF" #25 ;
+EI24 : rim fringe : "RAISLE.GIF" #26 ;
+
+// Outside Corners
+// Top Left
+// SUN
+FL01 : rim : "risle.gif" #19 ;
+FL02 : rim : "risle.gif" #31 ;
+// thunder
+FL03 : rim : "THISLE.gif" #19 ;
+FL04 : rim : "THISLE.gif" #31 ;
+// wind
+FL05 : rim : "WIISLE.GIF" #19 ;
+FL06 : rim : "WIISLE.GIF" #31 ;
+// RAIN
+FL07 : rim : "RAISLE.GIF" #19 ;
+FL08 : rim : "RAISLE.GIF" #31 ;
+
+// Top Right
+// SUN
+GM01 : rim : "risle.gif" #20 ;
+GM02 : rim : "risle.gif" #32 ;
+// thunder
+GM03 : rim : "THISLE.gif" #20 ;
+GM04 : rim : "THISLE.gif" #32 ;
+// wind
+GM05 : rim : "WIISLE.GIF" #20 ;
+GM06 : rim : "WIISLE.GIF" #32 ;
+// rain
+GM07 : rim : "RAISLE.GIF" #20 ;
+GM08 : rim : "RAISLE.GIF" #32 ;
+
+// Bottom Right
+// SUN
+HN01 : rim fringe : "risle.gif" #15 ;
+HN02 : rim fringe : "risle.gif" #27 ;
+// thunder
+HN03 : rim fringe : "THISLE.gif" #15 ;
+HN04 : rim fringe : "THISLE.gif" #27 ;
+// wind
+HN05 : rim fringe : "WIISLE.GIF" #15 ;
+HN06 : rim fringe : "WIISLE.GIF" #27 ;
+// rain
+HN07 : rim fringe : "RAISLE.GIF" #15 ;
+HN08 : rim fringe : "RAISLE.GIF" #27 ;
+
+
+// Bottom Left
+// SUN
+IO01 : rim fringe : "risle.gif" #16 ;
+IO02 : rim fringe : "risle.gif" #28 ;
+// thunder
+IO03 : rim fringe : "THISLE.gif" #16 ;
+IO04 : rim fringe : "THISLE.gif" #28 ;
+// wind
+IO05 : rim fringe : "WIISLE.GIF" #16 ;
+IO06 : rim fringe : "WIISLE.GIF" #28 ;
+//rain
+IO07 : rim fringe : "RAISLE.GIF" #16 ;
+IO08 : rim fringe : "RAISLE.GIF" #28 ;
+
+// This is nothing but a placeholder for the
+// island terrain scrambler. -Ken
+JJ00 : : "rgrass.gif" #47 ;
+// sun core peaces
+AA00 : : "rgrass.gif" #47 ;
+AA00 : : "rgrass.gif" #48 ;
+AA00 : : "rgrass.gif" #49 ;
+AA00 : : "rgrass.gif" #50 ;
+AA00 : : "rgrass.gif" #51 ;
+AA00 : : "rgrass.gif" #52 ;
+AA00 : : "rgrass.gif" #53 ;
+AA00 : : "rgrass.gif" #54 ;
+AA00 : : "rgrass.gif" #55 ;
+AA00 : : "rgrass.gif" #56 ;
+AA00 : : "rgrass.gif" #57 ;
+AA00 : : "rgrass.gif" #58 ;
+AA00 : : "rgrass.gif" #59 ;
+AA00 : : "rgrass.gif" #60 ;
+AA00 : : "rgrass.gif" #61 ;
+AA00 : : "rgrass.gif" #62 ;
+AA00 : : "rgrass.gif" #63 ;
+AA00 : : "rgrass.gif" #64 ;
+AA00 : : "rgrass.gif" #65 ;
+AA00 : : "rgrass.gif" #66 ;
+AA00 : : "rgrass.gif" #67 ;
+AA00 : : "rgrass.gif" #68 ;
+AA00 : : "rgrass.gif" #69 ;
+AA00 : : "rgrass.gif" #70 ;
+AA00 : : "rgrass.gif" #71 ;
+AA00 : : "rgrass.gif" #72 ;
+AA00 : : "rgrass.gif" #73 ;
+AA00 : : "rgrass.gif" #74 ;
+AA00 : : "rgrass.gif" #75 ;
+AA00 : : "rgrass.gif" #76 ;
+AA00 : : "rgrass.gif" #77 ;
+AA00 : : "rgrass.gif" #78 ;
+AA00 : : "rgrass.gif" #79 ;
+AA00 : : "rgrass.gif" #80 ;
+AA00 : : "rgrass.gif" #81 ;
+AA00 : : "rgrass.gif" #82 ;
+// thunder
+AA00 : : "THGRASS.gif" #47 ;
+AA00 : : "THGRASS.gif" #48 ;
+AA00 : : "THGRASS.gif" #49 ;
+AA00 : : "THGRASS.gif" #50 ;
+AA00 : : "THGRASS.gif" #51 ;
+AA00 : : "THGRASS.gif" #52 ;
+AA00 : : "THGRASS.gif" #53 ;
+AA00 : : "THGRASS.gif" #54 ;
+AA00 : : "THGRASS.gif" #55 ;
+AA00 : : "THGRASS.gif" #56 ;
+AA00 : : "THGRASS.gif" #57 ;
+AA00 : : "THGRASS.gif" #58 ;
+AA00 : : "THGRASS.gif" #59 ;
+AA00 : : "THGRASS.gif" #60 ;
+AA00 : : "THGRASS.gif" #61 ;
+AA00 : : "THGRASS.gif" #62 ;
+AA00 : : "THGRASS.gif" #63 ;
+AA00 : : "THGRASS.gif" #64 ;
+AA00 : : "THGRASS.gif" #65 ;
+AA00 : : "THGRASS.gif" #66 ;
+AA00 : : "THGRASS.gif" #67 ;
+AA00 : : "THGRASS.gif" #68 ;
+AA00 : : "THGRASS.gif" #69 ;
+AA00 : : "THGRASS.gif" #70 ;
+AA00 : : "THGRASS.gif" #71 ;
+AA00 : : "THGRASS.gif" #72 ;
+AA00 : : "THGRASS.gif" #73 ;
+AA00 : : "THGRASS.gif" #74 ;
+AA00 : : "THGRASS.gif" #75 ;
+AA00 : : "THGRASS.gif" #76 ;
+AA00 : : "THGRASS.gif" #77 ;
+AA00 : : "THGRASS.gif" #78 ;
+AA00 : : "THGRASS.gif" #79 ;
+AA00 : : "THGRASS.gif" #80 ;
+AA00 : : "THGRASS.gif" #81 ;
+AA00 : : "THGRASS.gif" #82 ;
+// wind
+AA00 : : "WIGRASS.GIF" #47 ;
+AA00 : : "WIGRASS.GIF" #48 ;
+AA00 : : "WIGRASS.GIF" #49 ;
+AA00 : : "WIGRASS.GIF" #50 ;
+AA00 : : "WIGRASS.GIF" #51 ;
+AA00 : : "WIGRASS.GIF" #52 ;
+AA00 : : "WIGRASS.GIF" #53 ;
+AA00 : : "WIGRASS.GIF" #54 ;
+AA00 : : "WIGRASS.GIF" #55 ;
+AA00 : : "WIGRASS.GIF" #56 ;
+AA00 : : "WIGRASS.GIF" #57 ;
+AA00 : : "WIGRASS.GIF" #58 ;
+AA00 : : "WIGRASS.GIF" #59 ;
+AA00 : : "WIGRASS.GIF" #60 ;
+AA00 : : "WIGRASS.GIF" #61 ;
+AA00 : : "WIGRASS.GIF" #62 ;
+AA00 : : "WIGRASS.GIF" #63 ;
+AA00 : : "WIGRASS.GIF" #64 ;
+AA00 : : "WIGRASS.GIF" #65 ;
+AA00 : : "WIGRASS.GIF" #66 ;
+AA00 : : "WIGRASS.GIF" #67 ;
+AA00 : : "WIGRASS.GIF" #68 ;
+AA00 : : "WIGRASS.GIF" #69 ;
+AA00 : : "WIGRASS.GIF" #70 ;
+AA00 : : "WIGRASS.GIF" #71 ;
+AA00 : : "WIGRASS.GIF" #72 ;
+AA00 : : "WIGRASS.GIF" #73 ;
+AA00 : : "WIGRASS.GIF" #74 ;
+AA00 : : "WIGRASS.GIF" #75 ;
+AA00 : : "WIGRASS.GIF" #76 ;
+AA00 : : "WIGRASS.GIF" #77 ;
+AA00 : : "WIGRASS.GIF" #78 ;
+AA00 : : "WIGRASS.GIF" #79 ;
+AA00 : : "WIGRASS.GIF" #80 ;
+AA00 : : "WIGRASS.GIF" #81 ;
+AA00 : : "WIGRASS.GIF" #82 ;
+// rain
+AA00 : : "RAGRASS.GIF" #47 ;
+AA00 : : "RAGRASS.GIF" #48 ;
+AA00 : : "RAGRASS.GIF" #49 ;
+AA00 : : "RAGRASS.GIF" #50 ;
+AA00 : : "RAGRASS.GIF" #51 ;
+AA00 : : "RAGRASS.GIF" #52 ;
+AA00 : : "RAGRASS.GIF" #53 ;
+AA00 : : "RAGRASS.GIF" #54 ;
+AA00 : : "RAGRASS.GIF" #55 ;
+AA00 : : "RAGRASS.GIF" #56 ;
+AA00 : : "RAGRASS.GIF" #57 ;
+AA00 : : "RAGRASS.GIF" #58 ;
+AA00 : : "RAGRASS.GIF" #59 ;
+AA00 : : "RAGRASS.GIF" #60 ;
+AA00 : : "RAGRASS.GIF" #61 ;
+AA00 : : "RAGRASS.GIF" #62 ;
+AA00 : : "RAGRASS.GIF" #63 ;
+AA00 : : "RAGRASS.GIF" #64 ;
+AA00 : : "RAGRASS.GIF" #65 ;
+AA00 : : "RAGRASS.GIF" #66 ;
+AA00 : : "RAGRASS.GIF" #67 ;
+AA00 : : "RAGRASS.GIF" #68 ;
+AA00 : : "RAGRASS.GIF" #69 ;
+AA00 : : "RAGRASS.GIF" #70 ;
+AA00 : : "RAGRASS.GIF" #71 ;
+AA00 : : "RAGRASS.GIF" #72 ;
+AA00 : : "RAGRASS.GIF" #73 ;
+AA00 : : "RAGRASS.GIF" #74 ;
+AA00 : : "RAGRASS.GIF" #75 ;
+AA00 : : "RAGRASS.GIF" #76 ;
+AA00 : : "RAGRASS.GIF" #77 ;
+AA00 : : "RAGRASS.GIF" #78 ;
+AA00 : : "RAGRASS.GIF" #79 ;
+AA00 : : "RAGRASS.GIF" #80 ;
+AA00 : : "RAGRASS.GIF" #81 ;
+AA00 : : "RAGRASS.GIF" #82 ;

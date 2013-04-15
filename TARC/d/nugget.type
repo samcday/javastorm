@@ -1,0 +1,26 @@
+typename nugget
+
+typeflags nugget shadow ;
+{
+	description="Storm Crystal";
+    class="Source of Storm Power";
+	zorder = "zoEMPLACEMENTS";
+	foot_x = 1;
+	foot_y = 1;
+//	hotFootRatioX = -0.19;
+	cost = 200;
+}
+
+A00 : default : "nugget.gif" #00: "nugget.gif" #11;
+A01 :: "nugget.gif" #01: "nugget.gif" #12;
+A02 :: "nugget.gif" #02: "nugget.gif" #13;
+A03 :: "nugget.gif" #03: "nugget.gif" #14;
+A04 :: "nugget.gif" #04: "nugget.gif" #15;
+A05 :: "nugget.gif" #05: "nugget.gif" #16;
+A06 :: "nugget.gif" #06: "nugget.gif" #17;
+A07 :: "nugget.gif" #07: "nugget.gif" #18;
+A08 :: "nugget.gif" #08: "nugget.gif" #19;
+//A09 :: "nugget.gif" #09: "nugget.gif" #20;
+//A10 :: "nugget.gif" #10: "nugget.gif" #21;
+
+P00 : help : "b_nugget.gif" #00;

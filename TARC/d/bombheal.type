@@ -1,0 +1,26 @@
+typename bombHeal constructor
+typeflags default_hotspot bomb mayDropOnRim ;
+{
+	description = "Heal";
+	class = "Defensive Spell";
+
+	zorder = "zoEMPLACEMENTS";
+	foot_x = 1;
+	foot_y = 1;
+
+	level = 2;	// Determines its probability class
+	range = 9;
+	cost = 200;
+
+	activeSound = "healGet.wav";
+	fireSound = "healCast.wav";
+	casttime=2;
+	praytime=10;
+	manacost=10;
+}
+
+A00 : : "blank.gif" #0 ;
+
+B00 : default baseframe : "spells.gif" #01  ;
+
+B01 : help : "b_obelisk.gif" #00;

@@ -1,0 +1,132 @@
+[Header]
+missionType = "Tutorial"
+
+missionNumber = 1
+
+myStartMoney = 1200
+myTech = "sunWalker;windBattery;sunArcher;sunBlocker;sunBalloon;sunAviary;sunCannon"
+
+// This if for the demo ONLY.
+ai1Name = "Spieler"
+ai1Tech = "sunWalker;windBattery;sunArcher;sunBlocker;sunBalloon;sunAviary;sunCannon"
+ai1TimeBetweenMoves = 3
+ai1AllyList = "2"
+
+
+// This is your friend.
+ai2Name = "Minister der Sonne"
+ai2Tech = "sunWalker;windBattery;sunArcher;sunCannon;sunBlocker;sunAviary"
+ai2StartMoney = 8000
+ai2GeyserAttachments = 2
+ai2Collectors = 4
+ai2TimeBetweenMoves = 4
+ai2AllyList = "1"
+ai2Color = purple
+
+// This is your friend's enemy.
+ai3Name = "Marquis de Donner"
+ai3Tech = "sunWalker;thunderBattery;sunArcher;sunBlocker;sunBalloon;sunAviary;sunCannon"
+ai3StartMoney = 8000
+ai3GeyserAttachments = 2
+ai3Collectors = 3
+ai3TimeBetweenMoves = 4
+ai3AllyList = "4"
+ai3Enemy = 2
+ai3Color = orange
+
+// This is your enemy
+ai4Name = "Ritter des Regens"
+ai4Tech = "sunWalker;rainBattery;sunArcher;sunBlocker;sunBalloon;sunAviary;sunCannon"
+ai4StartMoney = 4000
+ai4GeyserAttachments = 3
+ai4Collectors = 4
+ai4TimeBetweenMoves = 4
+ai4AllyList = "3"
+ai4Color = red
+
+demoRestartTimer = 360
+
+title="Schulterschlu?"
+
+[A.]
+<h2>Schulterschlu?</h2>
+<i>"Ein Mann ist niemals ver?ngstigter und einsamer als w?hrend eines Kampfes.<br>
+Und doch ist er auch zu keiner Zeit mutiger, loyaler und aufrichtiger."<br>
+--Captain Lesis Gretteltem.</i>
+<p>
+Es ist ein gigantischer Kampf zwischen vierzig Inseln ausgebrochen. Ein enormer Sturm zieht auf, und pl?tzlich stehen Sie allein auf weiter Flur. Lediglich der Gro?minister der Sonne leistet Ihnen noch Beistand.
+<p>
+Sie k?mpfen nun also Seite an Seite. Ihr Freund ist Ihre einzige Chance, diesen Kampf zu ?berleben. Mit einem Ballon l??t er Ihnen eine Nachricht zukommen: 
+<p>
+<i>"Machen Sie kurzen Proze? mit dem Feind, 
+<br>
+und lassen Sie uns dann gemeinsam
+<br>
+unsere Gl?ser auf den Sieg erheben!"</i>
+
+$Button=Aktueller Wissensstand,ShowTechnology,55
+$Button=Mission beginnen,DoNothing,0
+
+
+[Ai2TempleHalf][Ai2PriestCaptured]
+<h2>Eine Nachricht vom Minister:</h2>
+<p>
+<i>"Helfen Sie mir, mein Freund!
+<br>
+Ich brauche dringend 
+<br>
+Ihre Hilfe!"
+</i>
+$Timeout=15,DoNothing,0
+
+[Ai3TempleDead]
+<h2>Eine Nachricht vom Minister:</h2>
+<p>
+<i>"Die feindlichen Truppen im Norden sind vernichtet!
+<br>
+Unser Sieg r?ckt in greifbare N?he, 
+<br>
+mein mutiger Verb?ndeter!"
+</i>
+$Timeout=15,DoNothing,0
+
+[Ai4TempleDead]
+<h2>Eine Nachricht vom Minister:</h2>
+<p>
+<i>"Gut gemacht, Sir!
+<br>
+In K?rze werden Sie auch unseren
+<br>
+zweiten Gegner vernichtet haben!"
+</i>
+$Timeout=15,DoNothing,0
+
+[Succeeded][BadTeamDead]
+<h2>Mission erfolgreich abgeschlossen!</h2>
+<p>
+Das Eintreffen des Gro?ministers der Sonne auf Ihrer Insel wird mit ohrenbet?ubendem Jubel gefeiert, und zu Ehren Ihres gemeinsamen Sieges werden s?mtliche Glocken gel?utet! Zum Zeichen ewiger Verbundenheit ergreifen Sie die Hand Ihres Freundes, und Ihr Volk bringt mit lautstarkem Applaus zum Ausdruck, da? es diese br?derliche Allianz voll und ganz bef?rwortet.
+<$Config,Done{mission.fileName}=1>
+$Button=Mission beenden,MissionAbort,1
+$Button=N?chste Mission,MissionBegin,Surrounded
+
+
+[ai2PriestDead][Failed]
+<h2>Missionsziel verfehlt!</h2>
+<p>
+Ihr neuer, gleichwohl aber auch guter und loyaler Freund, der Gro?minister der Sonne, ist verloren. Als sein Berater bereits im Sterben lag und es wagte, die Allianz mit Ihnen zu verfluchen, geriet der Minister vor Wut au?er sich und erschlug ihn mit seinem Schwert, denn er war nach wie vor von Ihren Kampfk?nsten und Ihrer freundschaftlichen Loyalit?t ?berzeugt. Doch Sie haben sein Vertrauen bitter entt?uscht, und nun hat auch Ihr letztes St?ndlein geschlagen.
+$Button=Weiter,Tell,TryAgain
+
+
+[Demo]
+<h2>Demo von NetStorm</h2>
+<p>
+In dieser Demo k?mpfen zwei Inseln Seite an Seite gegen ihre Feinde.
+<p>
+Wie im Spiel selbst k?nnen Sie auch in dieser Demo Einheiten errichten und so die Inseln auf ihrem Weg zum Sieg unterst?tzen.
+$Timeout=15,DoNothing,0
+
+
+
+[END]
+																		 
+																		 

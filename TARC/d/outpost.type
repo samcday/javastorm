@@ -1,0 +1,19 @@
+typename outpost constructor
+typeflags factory yuckWalk dropBlocking shotblocking mayDropOnIsle mayDropOnRim shadow;
+{
+	description = "Outpost";
+	class = "Production";
+	maxHitPoints = 2000;
+	theme = "sun";
+	cost = 600;
+	mana = "s";
+	threat = 20;
+	zorder = "zoEMPLACEMENTS";
+	foot_x = 5;
+	foot_y = 4;
+	damageEffect = 1;
+	constructionRate = 10;
+}
+
+A01 : default : "embassy.gif" #00 : "embassy.gif" #01 ;
+P00 : help : "b_embassy.gif" #00;

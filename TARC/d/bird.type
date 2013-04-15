@@ -1,0 +1,55 @@
+typename Bird constructor
+typeflags dontSave ;
+{
+	description="Bird";
+	class="World Event";
+	maxHitPoints = 10;
+	theme = "sun";
+	// Level is not relevent for this, only its base.
+
+	zorder = "zoFLYERS";
+	foot_x = 1;
+	foot_y = 1;
+	constructionRate = 5;
+
+	range = 30;
+		// This is the true range of the flyer. Change the value in the
+		// aviary if you change this value!
+
+	speed = 2;
+
+}
+
+// flyer and deathball art is purposely interchanged. 
+A00 : default : "BIRD.GIF" #00 ;
+A01 : default : "BIRD.GIF" #01 ;
+A02 : default : "BIRD.GIF" #02 ;
+A03 : default : "BIRD.GIF" #03 ;
+A04 : default : "BIRD.GIF" #04 ;
+A05 : default : "BIRD.GIF" #05 ;
+A06 : default : "BIRD.GIF" #06 ;
+A07 : default : "BIRD.GIF" #07 ;
+A08 : default : "BIRD.GIF" #08 ;
+A09 : default : "BIRD.GIF" #09 ;
+A10 : default : "BIRD.GIF" #10 ;
+A11 : default : "BIRD.GIF" #11 ;
+A12 : default : "BIRD.GIF" #12 ;
+A13 : default : "BIRD.GIF" #13 ;
+A14 : default : "BIRD.GIF" #14 ;
+A15 : default : "BIRD.GIF" #15 ;
+A16 : default : "BIRD.GIF" #16 ;
+A17 : default : "BIRD.GIF" #17 ;
+A18 : default : "BIRD.GIF" #18 ;
+A19 : default : "BIRD.GIF" #19 ;
+A20 : default : "BIRD.GIF" #20 ;
+A21 : default : "BIRD.GIF" #21 ;
+A22 : default : "BIRD.GIF" #22 ;
+A23 : default : "BIRD.GIF" #23 ;
+A24 : default : "BIRD.GIF" #24 ;
+A25 : default : "BIRD.GIF" #25 ;
+A26 : default : "BIRD.GIF" #26 ;
+A27 : default : "BIRD.GIF" #27 ;
+
+
+																				
+P00 : help : "b_sflyer.gif" #00 ;																				

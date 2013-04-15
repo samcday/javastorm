@@ -1,0 +1,17 @@
+typename adowshafenceShield constructor 
+typeflags not_real not_selectable dontSave;
+{
+	description="Dark Void";
+	class="Defense";
+	zorder = "zoFLARES";
+	foot_x = 1;
+	foot_y = 1;
+}
+
+// North-south
+J00 : default : "afence.gif" #01;
+
+// East-west
+K00 : : "afence.gif" #00;
+
+

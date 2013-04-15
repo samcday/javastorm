@@ -1,0 +1,64 @@
+typename Manabolt
+
+typeflags dontSave not_real;
+{
+	zorder = "zoFLARES";
+	foot_x = 1;
+	foot_y = 1;
+	speed = 18.0;
+	turningSpeed = 1000.0;
+}
+
+A01 : default : "GEM.gif" #0 ;	// wind
+B01 : : "GEM.gif" #2 ;		// Rain
+C01 : : "GEM.gif" #4 ;		// Thunder
+D01 : : "MANA.gif" #1 ;		// Sun
+
+//E01 : : "mana.gif" #4;		// earth
+//F01 : : "GEM.gif"  #6;		// fire
+//G01 : : "mana.gif" #6;		// water
+//H01 : : "mana.gif" #7;		// moon
+
+
+
+//A01 : default : "manabolt.gif" #0 ;
+//A02 : : "manabolt.gif" #1 ;
+//A03 : : "manabolt.gif" #2 ;
+//A04 : : "manabolt.gif" #3 ;
+//A05 : : "manabolt.gif" #4 ;
+//A06 : : "manabolt.gif" #5 ;
+//A07 : : "manabolt.gif" #6 ;
+//A08 : : "manabolt.gif" #7 ;
+//A09 : : "manabolt.gif" #8 ;
+//A10 : : "manabolt.gif" #9 ;
+//A11 : : "manabolt.gif" #10 ;
+//A12 : : "manabolt.gif" #11 ;
+//A13 : : "manabolt.gif" #12 ;
+//
+//B01 : : "manabolt.gif" #13 ;
+//B02 : : "manabolt.gif" #14 ;
+//B03 : : "manabolt.gif" #15 ;
+//B04 : : "manabolt.gif" #16 ;
+//B05 : : "manabolt.gif" #17 ;
+//B06 : : "manabolt.gif" #18 ;
+//B07 : : "manabolt.gif" #19 ;
+//B08 : : "manabolt.gif" #20 ;
+//B09 : : "manabolt.gif" #21 ;
+//B10 : : "manabolt.gif" #22 ;
+//B11 : : "manabolt.gif" #23 ;
+//B12 : : "manabolt.gif" #24 ;
+//B13 : : "manabolt.gif" #25 ;
+//
+//C01 : : "manabolt.gif" #26 ;
+//C02 : : "manabolt.gif" #27 ;
+//C03 : : "manabolt.gif" #28 ;
+//C04 : : "manabolt.gif" #29 ;
+//C05 : : "manabolt.gif" #30 ;
+//C06 : : "manabolt.gif" #31 ;
+//C07 : : "manabolt.gif" #32 ;
+//C08 : : "manabolt.gif" #33 ;
+//C09 : : "manabolt.gif" #34 ;
+//C10 : : "manabolt.gif" #35 ;
+//C11 : : "manabolt.gif" #36 ;
+//C12 : : "manabolt.gif" #37 ;
+//C13 : : "manabolt.gif" #37 ;

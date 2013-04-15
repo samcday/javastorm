@@ -1,0 +1,28 @@
+typename thunderFactory constructor
+typeflags factory yuckWalk dropBlocking shotblocking shadow;
+{
+	description="Thunder Workshop";
+	class="Production";
+	maxHitPoints = 4000;
+	theme = "thunder";
+	cost = 1000;
+	threat = 10;
+	zorder = "zoEMPLACEMENTS";
+	foot_x = 8;
+	foot_y = 6;
+
+	damageEffect = 1;
+
+	helpText = "~3~wThunder Factory\n~0Specializing in thunder aligned weapons, this factory...";
+	buildDoneSound = "workshopComplete.wav";
+}
+
+A01 : default baseframe : "tfactory.gif" #00 : "tfactory.gif" #03 ;
+
+B01 :  : "tfactory.gif" #01 : "tfactory.gif" #04 ;
+
+C01 :  : "tfactory.gif" #02 : "tfactory.gif" #05 ;
+
+D01 :  : "tfactory.gif" #02 : "tfactory.gif" #05 ;
+
+D01 : help : "s_tfacbeauty.gif" #00  ;

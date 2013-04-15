@@ -1,0 +1,243 @@
+[Header]
+missionType = "Tutorial"
+aid=1
+
+loadFort = "SubtleDefense"
+denyAscend = 1
+tutorialNumber = 5
+moreGeysers = 0
+
+techAllowed = "deny;all;allow;windVortex;sunFactory;sunWalker;sunArcher;windBattery;sunBlocker;sunCannon;dais"
+
+myStartMoney = 4000
+myTech = "sunArcher;sunWalker;sunCannon;sunBlocker;windBattery"
+
+aiOff = 1
+
+title = "Subtle Defense"
+
+[Options]
+
+[A.]
+<h2>Defense, Part 1</h2>
+<i>"A Strategy is not enhanced by numbers." -- Tzu, Sun Warrior</i>
+<p>
+This time, you are overwhelmed by superior fire-power.
+<p>
+The enemy island has "Thunder Cannons" which have incredible range
+and damage.  The enemy also has "Whirligig Bases" which can 
+send flying Whirligigs to attack you from above!
+<br>   <!"thunderCannon.*">                         <!"sunAviary.*">
+<br>  Thunder Cannon                   Whirligig Base
+
+$Button=MORE,Tell,A1.
+
+[A1.]
+<h2>Defense, Part 2</h2>
+Meanwhile, you are already under attack!
+<p>
+The Thunder Cannon off the southern island is already attacking
+your Temple.  You need to interpose a defensive piece quickly in order to stop
+this attack.
+<p>
+You have knowledge of a technology called the "Stone Tower."  This piece 
+can absorb a lot of damage before disintegrating and can thus 
+be used as cover for other units.
+<p>
+Put "Stone Tower" into production in the Workshop that is already built on your island.
+Then build a Stone Tower directly in the line of fire of the Cannon.  You have
+no time to waste!
+<p>
+<I>The tutorial will resume when the Stone Tower is under fire.</I>
+
+$Button=BACK,Tell,A.
+$Button=OK,DoNothing,0
+
+
+[B.]
+<h2>Building Additional Workshops</h2>
+Excellent, now that you have stopped the attack on your Temple, you
+have a few moments to prepare a counter-attack.  The Stone Tower
+will not last forever, but when it collapses you can replace it with another one.
+<p>
+Meanwhile, you need to put "Sun Disc Thrower," "Sun Cannon," and "Wind Generator"
+into Production, but you only have one slot left in your Workshop.
+The last time you ran out of slots in a Workshop, you Upgraded to
+increase its capacity. Another way to increase the number of available production slots
+is to build an additional Workshop.
+<p>
+There's room to the South-West of your Temple for another Workshop.
+<p>
+<I>The tutorial will continue when you have put "Sun Disc Thrower," "Sun Cannon," and "Wind Generator"
+into production.</I>
+$Button=OK,DoNothing,0
+
+
+[C.]
+<h2>The Enemy Island</h2>
+<i>"If you ask why the Temple protects its island, it will immediately fail to do so."
+--Book of Nimbus
+</i>
+<p>
+In previous tutorials, the enemy island did not have a Temple on it.
+A Temple has the power to protect its island from enemy intrusion by
+disallowing the enemy to build pieces there.  In this tutorial, however, there
+is a Temple on the enemy island.  So, you will have to build 
+all of your weapons on bridges for this mission.
+<p>
+Notice that the center Thunder Cannon is too far from the edge of the island
+to be attacked by Sun Disc Throwers.  You will need to attack it with a Cannon of your own,
+but this is going to require some defenses.
+
+$Button=MORE,Tell,C1.
+
+[C1.]
+<h2>Defending Against Aerial Attacks</h2>
+<i>"The only way to make the Mud-gig more irritating would be to give it wings."
+--Gril Hegberk, two years before flight was perfected.</i>
+<p>
+The enemy also has a "Whirligig Base" which can launch flyers
+to attack your units.  Whirligigs are very powerful because they can
+easily move from one target to another.  However, they have two weaknesses which you can exploit.
+<p>
+First of all, they are vulnerable to Disc Throwers since 
+Disc Throwers can shoot at them while they move.  Secondly, the Whirligigs
+must return to their bases periodically to refuel which increases their 
+exposure to gun fire.  Also, if their base is destroyed, they run out of fuel and die.
+<p>
+During this attack, as you advance on the enemy island, you will need to use your
+Sun Disc Throwers to provide cover for your Cannons and Stone Towers from the aerial Whirligigs.
+<p>
+Go inspect the enemy island now and <c>left-click</c> on the Whirligig Base. <I>The tutorial will
+continue a few seconds after you have selected the Whirligig Base.</I>
+
+$Button=BACK,Tell,C.
+$Button=OK,DoNothing,0
+
+[D.]
+<h2>Defending Against A Cannon, Part 1</h2>
+<i>"Stone Towers are built from the outside in . . . 
+within every third layer of bricks is the body of a brave man."
+--Unknown</i>
+<p>
+If you use a Stone Tower as a shield as you did earlier, you can draw the fire from
+the Thunder Cannon and build Sun Cannons behind the Tower and shoot
+the Thunder Cannon.
+<p>
+Build a bridge towards the Thunder Cannon.  Build a Stone Tower close
+to the enemy island and in the line of fire.  Then build Sun Cannons
+behind the Stone Tower.
+<p>
+There's a trick to this - you can build bridges off of the
+small island that is under a unit that you build.  So, you can
+build the Stone Tower first, then add a short bridge segment behind it,
+then you can build a Sun Cannon off of that bridge.  Repeat this and you can have a whole
+line of Cannons all attacking the same place!
+
+$Button=MORE,Tell,D1.
+
+[D1.]
+<h2>Bridge Quality</h2>
+When you build bridges now, the quality matters.  
+When one of your pieces is destroyed the shock will cause adjacent cracked bridges to collapse.  
+This will make your attack much more difficult.  Try to build un-cracked bridges this time; 
+use cracked ones only as a last resort.
+<p>
+Bridge is not targeted by guns.  However, it can be destoryed.  
+Generators have the ability to "meltdown" causing collateral 
+damage to objects and bridge nearby.  Thus, if you find that you need to clear
+bridge (yours or the enemies) use the <c>Meltdown!</c> option
+of a Generator. (Multiplayer Only)
+<p>
+<I>The tutorial will continue when you have destroyed the Thunder Cannon
+and the Whirligig Base on the enemy island.  This is a hard one, good luck!</I>
+
+$Button=BACK,Tell,D.
+$Button=OK,DoNothing,0
+
+
+[E.]
+<h2>Spells</h2>
+<i>"For their own safety, encourage your children never to read strange Obelisks."
+--Ancient Parental Proverb</i>
+<p>
+Notice that on the enemy island there are several obelisks.  These are 
+ancient artifacts which hold the instructions for magical spells.
+When one of your Golems reads the runes on the obelisk, it is able to
+cast that spell.  Many of these spells are very useful.
+<p>
+Order a Golem to walk to the obelisk.  Look for the cursor to 
+change to a "hand" icon and then <c>left-click</c>.
+<p>
+<I>The tutorial will continue when you have granted a spell
+to any Golem.</I>
+<p>
+       <!"buried.*"><br>
+ "Obelisk"
+$Button=OK,DoNothing,0
+
+
+[F.]
+<h2>Devastation Spell</h2>
+You have found a "Devastation Spell".  Order the Golem to
+move near the enemy Priest.  Then <c>right-click</c> on the 
+Golem and order him to <c>Cast Devastation</c>.
+That should get the Priest's attention!
+<p>
+Notice that when you <c>left-click</c> on the Golem,
+you see the radius of the spell as well as an icon telling
+you which spell this Golem has.
+<p>
+<I>Use the spell to help you capture the enemy Priest and ultimately
+Sacrifice him.</I>
+
+$Button=MORE,Tell,F1.
+
+[F1.]
+<h2>Sacrificing the Priest</h2>
+A quick review on Sacrificing the enemy Priest:
+<p>
+1. Have your Priest build an Altar.
+<p>
+2. Carry the captured enemy Priest to the center of the Altar.
+<p>
+3. Order your Priest to begin the ritual. Order him to
+walk to the Altar by <c>left-clicking</c> on your Priest then <c>left-click</c>
+on the Altar when the cursor changes to a knife.
+<p>
+4. Wait while the Priest performs the ritual. (In a real game, you would
+need to be on the lookout for the enemy trying to get the stolen Priest back!)
+<p>
+<I>The tutorial will continue when you have Sacrificed the enemy Priest.</I>
+
+$Button=BACK,Tell,F.
+$Button=OK,DoNothing,0
+
+[G.]
+<h2>Mission Accomplished</h2>
+That completes Tutorial Five.
+<p>
+The next Tutorial introduces Aerial Transports and the advantages of using
+Wind, Rain and Thunder aligned units.
+<$Config,Done{mission.fileName}=1>
+$Button=Leave Tutorials,LeaveBattle,1
+$Button=Next Tutorial,MissionBegin,Tutorial6
+
+
+[VortexDestroyed]
+<h2>Temple Destroyed!</h2>
+Your Temple has been destroyed.  You can
+not process Storm Power or build bridges now which will make the mission very difficult to
+complete.  Next time, be sure to keep an eye on the Stone Tower that is
+meant to protect the Temple.  If you want to start the Mission again, press ESC, and select
+Restart Mission from the Game menu.
+
+[FactoryDestroyed]
+<h2>Workshop Destroyed!</h2>
+Your Workshop was destroyed.  You can not build some of your units
+now.  If you have enough Storm Power, you can build another to replace the previous one.
+If not, either gather more or restart the mission.
+
+[END]
+																		 
+																		 

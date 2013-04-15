@@ -1,0 +1,46 @@
+typename Residence constructor
+typeflags residence randframe yuckWalk dropBlocking ;
+{
+	description = "Residence";
+	class="Residence";
+	zorder = "zoBRIDGE";
+	foot_x = 4;
+	foot_y = 4;
+}
+// sun
+P01 : default unlit : "residence.gif" #00;
+P02 : lit : "residence.gif" #01;
+P03 : unlit : "residence.gif" #02;
+P04 : lit : "residence.gif" #03;
+P05 : unlit : "residence.gif" #04;
+P06 : lit : "residence.gif" #05;
+
+
+// thunder
+A07 : unlit : "THRESIDENCE.GIF" #00;
+A08 : lit : "THRESIDENCE.GIF" #01;
+A09 : unlit : "THRESIDENCE.GIF" #02;
+A10 : lit : "THRESIDENCE.GIF" #03;
+A11 : unlit : "THRESIDENCE.GIF" #04;
+A12 : lit : "THRESIDENCE.GIF" #05;
+
+// Wind
+A13 : unlit : "WRESIDENCE.GIF" #00;
+A14 : lit : "WRESIDENCE.GIF" #01;
+A15 : unlit : "WRESIDENCE.GIF" #02;
+A16 : lit : "WRESIDENCE.GIF" #03;
+A17 : unlit : "WRESIDENCE.GIF" #04;
+A18 : lit : "WRESIDENCE.GIF" #05;
+
+// rain
+A19 : unlit : "RARESIDENCE.GIF" #00;
+A20 : lit : "RARESIDENCE.GIF" #01;
+A21 : unlit : "RARESIDENCE.GIF" #02;
+A22 : lit : "RARESIDENCE.GIF" #03;
+A23 : unlit : "RARESIDENCE.GIF" #04;
+A24 : lit : "RARESIDENCE.GIF" #05;
+
+
+
+
+A00 : help : "b_residence.GIF" #00;

@@ -1,0 +1,102 @@
+[Header]
+missiontype="tutorial"
+
+missionnumber=6
+moregeysers=1
+
+mytech="rainBattery;rainAviary;sunFence;outpost"
+mystartmoney=3000
+
+title="Mows and Bars"
+
+ai2name="Lord Ice"
+ai2tech="rainCannon;rainBattery;rainBlocker;rainWalker"
+ai2startmoney=3000
+ai2geyserattachments=2
+ai2collectors=4
+ai2timebetweenmoves= 5
+ai2color=lightblue
+ai2bridgedrawrate= 1
+ai2allylist="3;4;5;6"
+
+ai3name="Count Thunder"
+ai3tech="thunderCannon;thunderBattery;bulf"
+ai3startmoney=3000
+ai3geyserattachments=2
+ai3collectors=4
+ai3timebetweenmoves= 5
+ai3color=Purple
+ai3bridgedrawrate= 1
+ai3stuffRefreshRate=1
+ai3allylist="2;4;5;6"
+
+ai4name="Sir Vortex"
+ai4tech="windArcher;windBattery;windBlocker;windWalker;;"
+ai4startmoney=3000
+ai4geyserattachments=2
+ai4collectors=4
+ai4timebetweenmoves= 6
+ai4color=Green
+ai4bridgedrawrate= 1
+ai4allylist="2;3;5;6"
+
+ai5name="Baron Death"
+ai5tech="sunCannon;sunArcher;sunFence;sunBlocker;windArcher;windBattery;windBlocker;windWalker;thunderCannon;thunderBattery;bulf;rainCannon;rainBattery;rainBlocker;rainWalker"
+ai5startmoney=3000
+ai5geyserattachments=2
+ai5collectors=4
+ai5timebetweenmoves= 3
+ai5color=Red
+ai5bridgedrawrate= 1
+ai5stuffRefreshRate=1
+ai5allylist="2;3;4;6"
+
+ai6name="Mr Sun"
+ai6tech="sunCannon;windBattery;sunArcher;sunFence;sunBlocker"
+ai6startmoney=3000
+ai6geyserattachments=2
+ai6collectors=4
+ai6timebetweenmoves= 5
+ai6color=Yellow
+ai6bridgedrawrate= 1
+ai6stuffRefreshRate=1
+ai6allylist="2;3;4;5"
+
+[Options]
+
+[A.]
+<h2>Man o' War</h2>
+<i>~y"These amazing creatures spawn from a liquid pool and hunt down their enemy mercilessly"<br>
+-Nimbain Scientist</i>
+<p>~wStranded in a remote part of the world you find yourself surrounded by hostile priests.  They are ganging up on you as they see it as an easy victory.  Show them that there is no such meaning when fighting against you!
+<p>~B~E~rObjective:~.~B~w  Destroy the enemies with Man o' Wars defended by Sun Bars
+<p>~B~E~oHint:~.~B~w Man o' Wars have a weak 'spawnging pool', do not let it get under fire, lay the sun bars down first before putting the Man o' War's behind it.
+<p>The Outpost is available to you (right click on priest, select "Build Outpost")
+<p><!"rainaviary.*"><!"rainflyer.*">                               <!"sunfence.*">
+<p>"Man o' War"                          "Sun Barricade"
+$Button=Technology available,ShowTechnology,55
+$Button=Lets do this!,DoNothing,0
+</?>
+
+[succeeded][badteamdead]
+<h2>Congratulations!</h2>
+<p>You have mastered another useful tactic in the world of Nimbus!"
+<$Config,Done{mission.fileName}=1>
+$Button=Training Menu,MissionBegin,BC1Menu76
+<p>
+$Button=Restart,Tell,TryAgain
+$Button=Next,MissionBegin,bc7sun_bars76
+
+<p>
+$Button=Leave Missions,MissionAbort,0
+
+[Failed]
+<h2>Failure...</h2>
+<p>The enemy laughed at your mows as they stomped right through your defense and onto your isle......
+$Button=Training Menu,MissionBegin,BC1Menu76
+<p>
+$Button=Restart,Tell,TryAgain
+<p>
+$Button=Leave Missions,MissionAbort,0
+
+[END]

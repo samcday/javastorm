@@ -1,0 +1,20 @@
+typename Monument constructor
+typeflags tree randframe yuckWalk dropBlocking shotblocking;
+{
+	description="Monument";
+	maxHitPoints = 400;
+	theme = "sun";
+	level = 2;
+	cost = 500; 
+
+	zorder = "zoEMPLACEMENTS";
+	foot_x = 2;
+	foot_y = 2;
+	damageEffect = 1;
+}
+
+P01 : default: "WMONUMNT.GIF" #0;
+
+
+
+

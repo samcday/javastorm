@@ -1,0 +1,2727 @@
+<a name="sacrificeOutline">
+<h2>How To Capture and Sacrifice</h2>
+<p>
+<q>A fevered fear.<br>
+A whetted bone.<br>
+A drop of blood.<br>
+A scream.<br>
+A moan.</q><br>
+<p>
+Capture the High Priest in Battle with one of your <a href="#transportHelp">Transports</a>, and slaughter him on 
+your <a href="#altarType">Altar</a> in exchange for new <a href="#technologyHelp">Knowledge</a> (in <a href="#multiplayerHelp">multiplayer mode</a>)
+or to win a mission (in the Campaign).
+<p>
+<B>The whole process:</B>
+<p>
+1. <a href="#immobileHelp">Immobilize the Priest.</a><br>
+2. <a href="#pickupHelp">Bring the Enemy Priest to your Altar.</a><br>
+3. <a href="#moveyourpriestHelp">Send your own Priest to the Altar.</a><br>
+4. <a href="#performsacrificeHelp">Perform the Sacrifice.</a><br>
+<p>
+<B>Remember: If your Priest is incapacitated or killed he will not be able to perform the Sacrifice!</B>
+<p>
+Learn more about <a href="#vesselPriestHelp">The Priest's Powers of Construction.</a>
+<br>
+</a>
+
+<a name="immobileHelp">
+<h2>How To Immobilize the Priest</h2>
+<p>
+Pulverize the enemy Priest with your <a href="#unitHelp">battle units</a>.  When you've reduced him to half of his 
+<a href="#statsHelp">Hit Points</a>,
+he'll stop moving, drop anything he's carrying, and a thin force field will form around him, keeping him alive.
+<p>
+A Priest will not be able to cast a <a href="#buriedType">Spell</a> while immobilized nor will he be able 
+to <a href="#vesselPriestHelp">construct buildings</a>.
+<p>
+Notice that the Priest is constantly regenerating Hit Points, so be sure to keep up a steady barrage
+or he may regenerate himself enough to flee.
+<p>
+Next: <a href="#pickupHelp">Use a Transport to pick him up and carry him to your Altar.</a>
+<br>
+</a>
+
+<a name="pickupHelp">
+<h2>How To Bring the Enemy Priest to your Altar</h2>
+<p>
+Once immobilized, you can send a <a href="#transportHelp">Transport</a> to pick up the Priest.
+(Exception: a Priest cannot pick up another Priest.)
+<p>
+The Priest must be damaged to at least fifty percent, otherwise he will resist being captured.
+<p>
+When your Transport returns to the Altar, the enemy Priest will be chained in the Sacrificial Circle.
+<p>
+Note that the Priest draws new life force from whatever Transport is carrying him, and therefore the Priest will be
+fully healed and un-paralyzed when released by the Transport.
+<p>
+Next: <a href="#moveyourpriestHelp">Send your own Priest to the Altar.</a>
+<br>
+</a>
+
+<a name="moveyourpriestHelp">
+<h2>How To Send Your Own Priest to the Altar</h2>
+<p>
+You need a Priest to slaughter a Priest.
+<p>
+At any time, you may move your Priest to your <a href="#altarType">Altar</a>. If he is ever there at a time when you have an
+enemy Priest chained in the Sacrificial Circle, the Sacrifice will commence.
+To move the Priest to the Altar, left-click on him and then left click on the Altar.  If an Enemy Priest is bound on
+the Altar, notice that your cursor appears as
+a dagger when positioned over the Altar.  
+<p>
+In single-player mode, you Sacrifice a Priest to win.  In <a href="#multiQuickHelp">multiplayer</a> mode, you Sacrifice a Priest
+to gain new <a href="#technologyHelp">Knowledge</a> for your next battle, or to Upgrade your Altar for a chance at
+even better Knowledge
+<p>
+In multiplayer mode, at the moment the Sacrifice begins, you must choose a gift from the Furies.
+<p>
+Your gift can be new Knowledge which the Furies will
+grant you immediately upon completion of the Sacrifice.
+<p>
+A different gift allows you to Upgrade your Altar.  Better Altars grant better Knowledge from
+the Furies.  Note that you will only be able to Upgrade an Altar on your home island, because it is the only 
+island that will persist from battle to battle.
+<p>
+Next: <a href="#performsacrificeHelp">Perform the Sacrifice.</a>
+<br>
+</a>
+
+<a name="performsacrificeHelp">
+<h2>How to Perform the Sacrifice</h2>
+<p>
+Your Priest must ward five runes to complete the Sacrifice. If he is rendered immobile during the
+Sacrifice the Spell will be broken and the enemy Priest will escape. Likewise, if the Altar takes
+too much damage the enemy Priest will also escape.
+<p>
+When the Sacrifice is complete you will be granted your gift: New Knowledge or an Upgraded Altar,
+as appropriate.  When new Knowledge is granted the Altar is consumed. You will need to build
+a new one to Sacrifice again.  
+<p>
+If you opt for an Upgraded Altar but do not have the chance to use it 
+in this battle, have no fear: this Upgraded Altar will remain on your
+home island for use in your next on-line encounter.  Note that you will 
+only be able to Upgrade an Altar on your home island, because it is the only 
+island that will persist from battle to battle.
+
+<p>
+Note that when you Sacrifice for Knowledge, it becomes instantly available to you, ready to be put into
+production by the proper Workshop.  Press F6 to Review your new Knowledge.  
+<p>
+If you gain this Knowledge in <a href="multiQuickHelp">Multiplayer mode</a>, it is yours permanently, 
+and will be available in future multiplayer battles.  
+But in future battles, it will not appear instantly in your Production Window: you will need to put this 
+Knowledge into production in <a href="#factoryHelp">a Workshop</a> in order to make it available.
+<p>
+Return to <a href="#sacrificeOutline">How To Capture and Sacrifice</a>
+<br>
+</a>
+
+<a name="sphereHelp">
+<h2>Nimbus</h2>
+<p>
+The world of Nimbus is composed of three spheres: the <a href="#serenisphereHelp">Serenisphere</a>,
+the <a href="#pyrosphereHelp">Pyrosphere</a> and the <a href="#deusphereHelp">Deusphere</a>.
+<p>
+<c>*</c> In the <a href="#serenisphereHelp">Serenisphere</a> you'll match up with your on-line opponents.
+<br>
+<c>*</c> In the <a href="#pyrosphereHelp">Pyrosphere</a> you'll do battle to capture enemy <a href="#priestType">High Priests</a>.
+<br>
+<c>*</c> In the <a href="#deusphereHelp">Deusphere</a> the Furies themselves do eternal 
+battle, constantly hurling <a herf="#geyserType">Storm Geysers</a> into the Pyrosphere 
+to fuel your battles.
+<p>
+Learn more about the <a href="#serenisphereHelp">Serenisphere</a>...
+<br>
+</a>
+
+<a name="map">
+<!"buried.2">
+<br>
+</a>
+
+<a name="deusphereHelp">
+<h2>Deusphere</h2>
+<p>
+In the Deusphere the Furies themselves do eternal battle.  
+<p>
+The Deusphere is the innermost <a href="#sphereHelp">sphere of Nimbus</a>: where the 
+<a href="#themeHelp">Furies</a> rage against one another in a constant war, hurling
+land up from the planet below.  Pray that you never fall down into 
+their fight: it would mean an instant, painful death.
+<p>
+Learn more about the <a href="#themeHelp">Furies</a>...
+<br>
+</a>
+
+<a name="serenisphereHelp">
+<h2>Serenisphere</h2>
+<p>
+The Serenisphere is the outermost <a href="#sphereHelp">sphere of Nimbus</a>: a peaceful place to match up
+with fellow players for battle in the Pyrosphere below.
+<p>
+The Serenisphere contains <a href="#battleIslandType">Challenge Rings</a>. <c>Right-click</c> on a ring to join the battle. You'll
+join at whatever location you selected.
+<p>
+Below you will see <a href="zoneHelp">Zones</a>. You'll start at a Zone that roughly matches your Knowledge
+level. However, if you wish to visit other places to begin battles, you may <c>right-click</c> on 
+any Zone to travel there.
+<p>
+You may also sail your island through the sky by <c>left-clicking</c> elsewhere.
+<p>
+If you're the first to join a battle, you'll be the <a href="#battleMasterHelp">BattleMaster</a>.  The BattleMaster decides the
+rules of a battle and can also kick others off of the ring. Anybody kicked off of a Challenge
+Ring cannot rejoin until the BattleMaster leaves.
+<p>
+When everyone else has joined and is ready to go, the BattleMaster must hit 'Start Battle' to 
+descend to the Pyrosphere for full-on battle.  
+<p>
+Before a battle can commence, all players must click on the colored boxes near their names. Your color
+in battle will be the same as your box color.
+<p>
+Learn more about the <a href="#pyrosphereHelp">Pyrosphere</a>...
+<br>
+</a>
+
+<a name="pyrosphereHelp">
+<h2>Pyrosphere</h2>
+<p>
+The Pyrosphere is the central <a href="#sphereHelp">sphere of Nimbus</a>.  It is 
+here that you'll square off against your opponents.
+<p>
+Your goal is to capture <a href="#priestType">High Priests</a> from your opponents and 
+<a href="#sacrificeOutline">Sacrifice</a> to the Furies.
+<p>
+As you do battle in the Pyrosphere <a href="#buriedType">Obelisks</a>
+and <a herf="#geyserType">Storm Geysers</a> will appear on small floating islands,
+hurled up from the Deusphere below, and ripe for pillage.
+<p>
+The more fierce the battle, the more resources appear.
+<p>
+Learn more about the <a href="#deusphereHelp">Deusphere</a>...
+<br>
+</a>
+
+<a name="bountyislandHelp">
+<h2>Neutral Islands</h2>
+<p>
+Neutral islands appear in <a href="multiQuickHelp">multiplayer</a> battle only.  Board them for additional
+<a href="#stormpowerHelp">Storm Power</a> or to endow your Transports
+with the ability to cast powerful <a href="#buriedType">Spells</a>.  Spells appear on
+neutral islands in the form of <a href="#buriedType">Obelisks</a>. Neutral Islands can also
+be claimed as your own with an <a href="#outpostType">Outpost</a>.
+</a>
+
+<a name="F1Help">
+<h2>NetStorm Instructions</h2>
+<p>
+Click on ~lblue~. text to get more information. Click and <c>drag</c> to scroll a help window.
+<?{global.inMission}>
+You may hit ~iF8~. to Review Mission Objectives.
+</?>
+<p>
+<b>GAME HELP</b>
+<br>
+<a href="#campaignHelp">* Campaign vs. Multiplayer Mode</a>
+<br>
+<a href="#interfaceHelp">* User Interface</a>
+<br>
+<a href="#sphereHelp">* The World of Nimbus</a>
+<br>
+<a href="#themeHelp">* The Three Furies</a>
+<br>
+<a href="#priestType">* High Priests</a>
+<br>
+<a href="#unitHelp">* Unit Overview</a>
+<br>
+<a href="#vesselpriestHelp">* The Priest's Powers of Construction</a>
+<br>
+<a href="#sacrificeOutline">* How to Capture and Sacrifice</a>
+<p>
+
+<b>GAME SUPPORT</b>
+<br>
+<a href="cmd:Tell,TechSupport">* Customer Service / Technical Support</a>
+<br>
+<a href="http://www.netstormhq.com">* Netstorm:HQ's Web Site (Updates and patches)</a>
+<br>
+<a href="http://te.netstormhq.com">* Ticonderoga Entertainment's Web Site (The creator of the latest patches)</a>
+<p>
+<b>GAME INFORMATION</b>
+<br>
+<a href="http://www.activision.com">* Activision's Web Site (Producer of NetStorm, Offers limited support)</a>
+<br>
+Titanic were the creators of NetStorm, sadly they are no longer around.
+</a>
+
+<a name="interfaceHelp">
+<h2>NetStorm User Interface</h2>
+<p>
+<b><c>Left Click</c></b> on a unit to select it.
+<br>
+<b><c>Right Click</c></b> on a window or unit to get a menu of commands.
+<br>
+<b><c>Hold down ALT</c></b> to scroll the screen towards the cursor.  To scroll in
+full screen mode (or in Window mode if your desktop is set to 640 x 480
+resolution) simply move the cursor to the edge of the screen.
+(Note: with MicroSoft's IntellimouseTM, holding the center "Wheel" button is equivalent to holding
+the ALT key.)
+<br>
+<b><c>Escape</c> brings up an options menu at the top of the screen.
+<p>
+<b><c>F1</c></c></b> General Help.
+<br>
+<b><c>F2</c></b> Hide buildings so you can see behind them.
+<br>
+<b><c>F3</c></b> Hide and show the <a href="#chatViewHelp">Chat Window</a>.
+<br>
+<b><c>F4</c> or <c>H</c></b> Jump to your Home Temple.
+<br>
+<b><c>F5</c></b> Jump to your Priest.
+<br>
+<b><c>F6</c></b> Show the Knowledge you control.
+<br>
+<b><c>F7</c></b> Toggle island colors.
+<br>
+<b><c>F8</c></b> Review mission objectives.
+<br>
+<b><c>F9</c></b> Show who is online (in <a href="multiQuickHelp">Multiplayer</a>).
+<br>
+<b><c>Shift-F3</c></b> Hide and show the Island Themes.
+<br>
+<b><c>Shift-F7</c></b> Take a screen Shot.
+<br>
+<b><c>Shift-F9</c> or the <c>Pause</c> button</b> Pause the game.
+<br>
+<b><c>TAB</c></b> Cycle through the last five units you've placed.
+<br>
+<b><c>Ctrl-F5</c> or <c>N</c></b> Cycle through all of your Transports, selecting each in turn.
+<br>
+<b><c>T</c></b> Hide and show the game timer.
+<br>
+<b><c>P</c> or <c>R</c></b> Selects your priest - press it twice to go to and select your priest.
+<br>
+<b><c>D</c></b> Allows you to grab the last unit you selected on the <a href="#teleportViewHelp">Production Window</a>.
+<br>
+<b><c>C</c></b> Changes the way your units and bridges roate.
+<br>
+<b><c>U</c></b> Jump to the position of your most recently lost unit.
+<br>
+<b><c>E</c></b> Selects the last available bridge slot.
+<p>
+<b><c> Q  W</c></b>
+<br>
+<b><c> A  S</c></b>  Use these keys to grab bridge pieces directly into your cursor.
+<br>
+<b><c>(Z  X)</c></b>    (Z & X are only relevant for games with 6 available bridge pieces.)
+<p>
+Another feature: If you hold the <c>Shift</c> key and type a number <c>0 through 9</c>, NetStorm will remember
+the screen location.  To hop directly back to that screen location, simply press the number key.
+<p>
+Note: many of the hot-keys above require you to have the <a href="#chatViewHelp">Chat Window</a> hidden.
+<p>
+For reference, here are the symbols used in the game to represent Energy:<br>
+<!"mana.8"> - Wind<br>
+<!"mana.9"> - Rain<br>
+<!"mana.10"> - Thunder<br>
+<!"mana.11"> - Sun<br>
+<p>
+To learn what any window or unit does just right-click it and select "About" from the 
+menu. If you are still learning how to play the help may seem confusing, so please
+watch the demo and play the <a href="#campaignHelp">Early Missions</a>.
+<br>
+</a>
+
+<a name="chatViewHelp">
+<h2>Chat Window</h2>
+<p>
+You can talk to other players when you activate the Chat Window by hitting <c>F3</c>. Type
+your message and hit <b>ENTER</b> to send it to the Chat Windows of other
+players!
+<p>
+If you'd rather not see what a certain player is typing, right-click on that
+player's island or units and select <c>Ignore Chat</c>.
+<p>
+Normally, everyone nearby sees your chat messages. You may restrict who gets
+your messages by typing their name followed by a colon (:). You can also type <c>battle:</c>
+to send messages to everyone in your <a href="#battleIslandType">Challenge Rings</a>, 
+<c>allies:</c> to send to allies only, or if you're an observer, you can type <c>Observer:</c> 
+and it will be sent to observers only.
+<p>
+There are ways to tell if someone is whispering to you, to you and others, or to a group of people. 
+You can see who they are talking to by looking at the icon before their name in the chat box:<br>
+Whispering to more than one person will have ~[I93.113]<br>
+Whispering to one person will have ~[I93.111]<br>
+Whispering to Observers will have ~[I93.112]<br>
+Whispering to the Battle will have ~[I93.109]<br>
+Whispering to Allies will have ~[I93.110]
+<p>
+If you hit the <c>TAB</c> key the game will automatically search for a name that is
+closest to what you already typed. For example, if I wanted to send a message to a player
+called "OzTheGreatAndPowerful" I definitely don't want to type his whole name!  So I just
+type in "oz" and hit <c>TAB</c> and his whole name appears automatically.
+<p>
+You can make your chat messages more distinctive by using
+the <a href="#formatCommandHelp">.format command</a> to change
+your message color and style.
+<p>
+You can read more about some chat options in the <a href="#chathelperHelp">Chat Helper</a> section. 
+<p>
+You may also read a general <a href="#interfaceHelp">interface discussion</a>.
+<br>
+</a>
+
+<a name="moneyGumpHelp">
+<h2>Storm Power Available Window</h2>
+<p>
+<q>"Storm Power is the Essence! Creation and Destruction become one!" -Tenth Circle Teachings</q>
+<p>
+This number shows your available <a href="#stormPowerHelp">Storm Power</a>, used to build 
+<a href="#unitHelp">units</a> and Buildings.
+<p>
+if you have less than 2000<!"fortgump.3"> remaining, the number shows in yellow (for example, <~y>1900<~.><!"fortgump.3">).
+If you have less than 1000<!"fortgump.3">, it shows in red (for example, <~r>850<~.><!"fortgump.3">).
+<p>
+The icon <!"fortgump.3"> is used to indicate amounts of Storm Power. If you are trying to
+build something and its Storm Power requirements are drawn in red (for example
+"Cannon <~r>1000<~.><!"fortgump.3">") then you do not have enough Storm Power to build it.
+<p>
+In the <a href="#teleportViewHelp">Production Window</a> units will blink if you attempt
+to build them but lack the Storm Power.
+<p>
+You may also read a general <a href="#interfaceHelp">interface discussion</a>.
+<br>
+</a>
+
+<a name="bridgeType">
+<h2>Bridge</h2>
+<p>
+<q>"We don't build bridges to make peace." -General Jan Masaryk</q>
+<p>
+In the <a href="#pyrosphereHelp">Pyrosphere</a> (i.e. in battle), you will build bridges out from the edges
+of your island. 
+<p>
+When you build a Temple, bridge pieces will appear in 
+the <a href="#teleportViewHelp">Production Window</a> at the upper-left of your screen.
+When a bridge piece first appears in the Production Window it is cracked, but if the piece
+remains in the Window for a few seconds it becomes more solid.  The implications and subtleties
+of using 
+cracked bridge pieces versus solid ones will become clear as you experiment with each in battle.
+<p>
+Rather than selecting each bridge separately on the <a href="#teleportViewHelp">Production Window</a>, simply use the Q, W, A, S, Z, X, and E keys.
+Each key corresponds to an adjacent bridge. Pressing the E key allows the user to select any available bridge unit. 
+To rotate a bridge 90 degrees simply right-click with the mouse and to activate reverse bridge rotation, press the C key.
+A bridge piece will go red
+if it's not legal to lay it down in a particular place.
+<p>
+Use bridges to connect to resources, to assault enemy islands, and to create territory where you can
+lay your <a href="#unitHelp">units</a>.  Remember that stationary units are placed at the <i>end</i> of bridges,
+never directly on them!
+<p>
+Rules to remember: There must be a continuous attachment from the <a href="#vortexHelp">Temple</a> 
+on your island to the bridge you are laying down.  Also, bridges cannot be attached to an island if 
+an <a href="#edgeFarmType">Edge Farm</a> stands in the way.
+<p>
+In Multiplayer mode you can cause <a href="generatorHelp">Generators</a> to Meltdown to slightly damage enemy units or break
+through bridges by right-clicking the unit and selecting Meltdown.
+<br>
+</a>
+
+<a name="teleportViewHelp">
+<h2>Production Window</h2>
+<p>
+Pick up <a href="unitHelp">units</a> from the Production Window by left-clicking, and
+left-click again to lay them down on an island or bridge spur.
+<p>
+Units will show red in this window if you need more <a href="#stormPowerHelp">Storm Power</a> to
+build them.
+<p>
+Any <a href="#technologyHelp">Knowledge</a> that you have put into production in a 
+<a href="#factoryHelp">Workshop</a> or acquired by <a href="#sacrificeOutline">Sacrifice</a> will 
+appear in this window. 
+<p>
+Right-click on any unit in this window to get more information about it.
+<p>
+You may also read a general <a href="#interfaceHelp">interface discussion</a>.
+<br>
+</a>
+
+<a name="minimapGumpHelp">
+<h2>Sky Overview</h2>
+<p>
+In the <a href="#pyrosphereHelp">Pyrosphere</a>, the Sky Overview shows you the 
+<a href="#bountyislandHelp">Neutral Islands</a> and 
+the islands of your on-line opponents.
+<p>
+The Sky Overview Window displays islands and <a href="#bridgeType">bridges</a> in their corresponding colors
+Geysers also stand out as brown dots.
+<p>
+Left-click in the Sky Overview to see a particular part of the sky. You may also hold down the left
+mouse button to drag the view around. This can be handy during battles when you want to
+get a good aerial view of the strategic situation!
+<br>
+</a>
+
+<a name="formatCommandHelp">
+<h2>.Format Command</h2>
+<p>
+When you type .format in the Chat Window and follow it with text, that text will 
+appear before any chat message you send from then on. For example, in the Chat Window type
+<br>
+.format ~~y~~E
+<br>
+and hit <b>ENTER</b>. All of your chat messages will now be ~y~Eyellow and embossed~N~.! You can use other
+lowercase letters for colors as well, such as
+<br>
+~b~~b  Blue~.
+<br>
+~l~~l  Light Blue~.
+<br>
+~d~~d  Teal~.
+<br>
+~r~~r  Red~.
+<br>
+~g~~g  Green~.
+<br>
+~u~~u  Light Green~.
+<br>
+~k~~k  Black~.
+<br>
+~m~~m  Magenta~.
+<br>
+~s~~s  Dark Magenta~.
+<br>
+~o~~o  Orange~.
+<br>
+~a~~a  Light Orange~.
+<br>
+~x~~x  Brown~.
+<br>
+~q~~q  Dark Tan~.
+<br>
+~j~~j  Light Tan~.
+<br>
+~p~~p  Pink~.
+<br>
+~y~~y  Yellow~.
+<br>
+~i~~i  Light Yellow~.
+<br>
+~t~~t  Silver~.
+<br>
+~~.  Resets the color. (That is Tilde + Period)
+<p>
+Some uppercase letters have meaning as well, for example, if you type
+<br>
+.format ~~E~~y
+<br>
+your chat messages will all be ~y~Eyellow and embossed~N~.. Other styles include
+<br>
+~I~~I  Italicizes text.~N
+<br>
+~B~~B  Bolds text.~N
+<br>
+~E~~E  Embosses all of your chat text.~N
+<br>
+~S~~S  Strikeouts all of your chat text.~N
+<br>
+~U~~U  Underlines all of your chat text.~N
+<br>
+~~N  Sets all your chat text to normal again.
+<p>
+For more colors and other command codes you can check the <a href="#chathelperHelp">Chat Helper</a> and for more
+help on formats you can check <a href="http://www.netstormhq.com">Netstorm:HQ</a>.
+<p>
+Note: You can use <c>.back</c> instead of <c>.format</c> as it will do the same thing. If you want to change something
+in the front of your name you can use <c>.front</c> just like <c>.format</c>.
+<br>
+</a>
+<a name="chathelperHelp">
+<h2>Chat Helper</h2>
+<p>
+<h3>What is the Chat Helper?</h3>
+The Chat Helper is the small button to the left of the <a href="#chatViewHelp">Chat Window</a>. Clicking on it brings up
+a menu of functions and options to let you decide what you are able to see in the Chat Window and 
+to help you create effects for your own text.
+<p>
+<h3>Format</h3>
+The Format menu gives you two options: <c>Edit Back Format</c>, and <c>Edit Front Format</c>. <c>Edit Back Format</c>
+brings up a text box in which you can put the text and codes you want to appear before your name in the 
+Chat Window. <c>Edit Front Format</c> also brings up a text box, but instead allows you to input the text and
+codes you want to appear in front of your name in the <a href="#chatViewHelp">Chat Window</a>.<br>
+<br>
+This is an alternative way to using the .back, .format and .front commands.
+<p>
+<h3>Chat Effects</h3>
+The Chat Effects menu allows you to decide which effects will be displayed or not
+and whether sounds will be played or not when you receive text from other users featuring 
+these codes. There are four options:
+<p>
+<c>Allow Chat Sound:</c> Turning this off will prevent sounds sent by other users from being played.
+<p>
+<c>Allow Background Colors:</c> Turning this off will stop background colors received from being
+displayed, ~E~[B.3]such as this.
+<p>
+<c>Allow Foreground Colors:</c> Turning this off will stop foreground colors received from being
+displayed which use the ~~[C.xxx] code, ~[C.52]such ~[C.156]as ~[C.223]these~., but it leaves
+the regular colors, such as ~y~~y~. and ~r~~r~..
+<p>
+<c>Allow Embossed Offset:</c> Turning this off will prevent any adjusted Emboss effects from being
+displayed (those which use the ~~[E.X#xY#] command)
+<p>
+<h3>Chat Controls</h3>
+These options are only available inside a game, and they allow you to decide which channels you can 
+receive text from, and which actions should be performed when a new message is received.
+<p>
+<h3>Channel Controls</h3>
+<c>Show General Channel:</c> Disabling this means you do not receive text which is sent to everybody.
+<p>
+<c>Show Allies Channel:</c> Disabling this means that you do not receive text which is sent through the <c>ALLIES:</c> Channel.
+<p>
+<c>Show Observer Channel:</c> Disabling this means that you do not receive text which is sent through the <c>OBSERVER:</c> Channel.
+<p>
+<c>Show Whisper Channel:</c> Disabling this means that you do not receive text from anyone whispering to you.
+<p>
+<h3>Player Controls</h3>
+<c>Show Allies Chat:</c> Disabling this means that you do not receive text from your Allies inside a game.
+<p>
+<c>Show Enemies Chat:</c> Disabling this means that you do not receive text from your Enemies inside a game.
+<p>
+<c>Show Observers Chat:</c> Disabling this means that you do not receive text from the Observers inside a game.
+<p>
+<h3>Other Controls</h3>
+<c>Open Window on Message:</c> Disabling this means that the Chat Window does not open when a message is received.
+<p>
+<c>Play sound on Message:</c> Disabling this means that sounds aren't played when a message is Received.
+<p>
+<h3>Insert</h3>
+This menu allows you to insert certain codes into the Chat Window which  change the colors of,
+or which give certain effects to, your text. You can  learn how to use these in the <a href="#formatCommandHelp">.format section</a>.
+These are the menus:
+<p>
+<c>Text Colors:</c> This menu allows you to insert colors from the 255 available ones.
+<p>
+<c>Background Colors:</c> This menu allows you to insert background colors which will
+be displayed behind the text when used in conjunction with the ~~E command (embossed text).
+<p>
+<c>Icons:</c> This menu allows you to insert icons from the many hundreds.
+<p>
+<c>Keywords:</c> These give you some command templates to use: Mimicing, Sounds,
+Icons and Emboss Offset (the positioning of the background color when used with the ~~E command (embossed text).
+<p>
+<c>Styles:</c> This menu gives you the codes of the formats which alter the style, not the color, of your text.
+<p>
+<c>Prefabricated Colors:</c> This menu gives you a list of the basic colors used in
+Netstorm which are not blocked by disabling the "Allow Foreground Colors" option.
+They also have simple codes, e.g. ~y~~y~., or ~b~~b~..
+<p>
+<c>Commands:</c> This menu gives you the commands which can be used to alter what is
+displayed before and after your name in the chat window.
+<p>
+<h3>Copy</h3>
+Clicking this copies text which you have put at the bottom of the <a href="#chatViewHelp">Chat Window</a> 
+to the clipboard. If no text is highlighted, all of the text is copied; if some of the text is highlighted, only that
+text is copied to the clipboard.
+<p>
+<h3>Paste</h3>
+Clicking this pastes any copied text into the text line of <a href="#chatViewHelp">Chat Window</a>, where the cursor is.
+<p>
+Note: For more help on formats you can check <a href="http://www.netstormhq.com">Netstorm:HQ</a>.
+</a>
+<a name="tacticHelp">
+<a name="tacticsHelp">
+<h2>Tactics in NetStorm</h2>
+It is crucial to understand how your <a href="unitHelp">units</a> will fight in battle.
+Your strategy will depend upon these facts.
+<p>
+All units will always choose the closest available target. Once locked, they will keep at it
+until destroyed.  Certain defensive units, like Towers, can be interposed to force the attacker to
+choose a new target. The closest target will be chosen <i>even if it is invulnerable to the attacker</i>!
+<p>
+When a unit explodes cracked bridge nearby will also crumble. Normal bridge that was adjacent
+to the unit will crack, or become a jagged end.
+<p>
+When shooting units explode they also damage every other unit nearby! They may explode from that damage in
+a chain reaction. Temples also explode in this way.
+<p>
+<a href="salvageHelp">Salvaging</a> a unit does not cause such an explosion,
+but bridge is affected in the same way, as if the unit had exploded.
+<p>
+You can build units 1) on your home island, 2) on any un-owned island which is connected by bridges to your 
+home island, or 3) off of any bridge that you own.
+<p>
+When you destroy an enemy unit you get 25% of its Storm Power value. Remember that 
+Whirligigs and Man o' War cost no additional Storm Power to build, and thus return none to you
+when destroyed. Only their bases will do so.
+<p>
+When you are targeting an enemy, remember that you must shoot the area where it meets the <i>ground</i>.
+If your shots are hitting its upper areas, then you're not really shooting it at all.
+</a>
+</a>
+
+<a name="salvageHelp">
+<h2>Salvaging</h2>
+<p>
+You may Salvage any unit and recoup 25% of the Storm Power you spent to build it.
+<p>
+If the <a href="unitHelp">unit</a> has been damaged, you will recoup less Storm Power. For example, if
+you build a unit for 400<!"fortgump.3"> you can Salvage it for 100<!"fortgump.3">. However, if one third of
+its hit points are gone, you'll only get 66<!"fortgump.3">.
+<p>
+One last thing to know: If the damage goes beyond half of the unit's hit points
+you will recoup no Storm Power at all.
+<p>
+Note: Salvaging a unit next to a bridge will make solid bridges crack, and cracked bridges fall.
+</a>
+
+<a name="statsHelp">
+<h2>Unit Information</h2>
+<p>
+<b><c>Alignment:</c></b> Each <a href="unitHelp">unit</a> in the game is aligned with one of the <a href="#themeHelp">Furies</a>
+or with Sun. The unit's alignment determines what Fury grants <a href="#technologyHelp">Knowledge</a> for it, 
+what <a href="#factoryHelp">Workshop</a>
+can produce it, and what sort of <a href="#influenceHelp">Energy</a> is required to build it.
+<p>
+<b><c>Class:</c></b> Describes what the unit does and how it can be used. A list of classes appears at the
+bottom of this page.
+<p>
+<b><c>Hits:</c></b> Tells how much damage the unit can absorb before being destroyed.
+<p>
+<b><c>Range:</c></b> If the unit shoots or spreads an effect, this number tells how many 'tiles'
+the effect will reach.  For reference, the size of a Sun Disc Thrower is 3x3 'tiles' and the 
+screen is forty tiles high.
+<p>
+<b><c>Damage:</c></b> Describes how much damage the unit will inflict, on average, every second. Remember,
+the rating isn't a per-shot rating, but an absolute scale telling you the unit's effectiveness over time.
+<p>
+<b><c>Cost in Storm Power:</c></b> Tells how much Storm Power you must expend in order to build the unit.
+<p>
+<b><c>Energy to Build:</c></b> Shows you how much <a href="#influenceHelp">Energy</a> is required 
+to create the unit and exactly which types of Energy are needed. 
+<p>
+Units may be <a href="salvageHelp">Salvaged</a> to recoup some of their Storm Power.
+<p>
+<b><c>CLASSES:</c></b>
+<p>
+<c>Production:</c><br>
+   <a href="#windVortexType">Wind Temple</a><br>
+   <a href="#rainVortexType">Rain Temple</a><br>
+   <a href="#thunderVortexType">Thunder Temple</a><br>
+   <a href="#sunFactoryType">Sun Workshop</a><br>
+   <a href="#windFactoryType">Wind Workshop</a><br>
+   <a href="#rainFactoryType">Rain Workshop</a><br>
+   <a href="#thunderFactoryType">Thunder Workshop</a><br>
+   <a href="#outpostType">Outpost</a><br>
+<c>Holy Place:</c><br>
+   <a href="#altarType">Altar</a><br>
+<c>High Priest:</c><br>
+   <a href="#priestType">High Priest</a><br>
+<c>Source of Energy:</c><br>
+   <a href="#windbatteryType">Wind Generator</a><br>
+   <a href="#rainbatteryType">Rain Generator</a><br>
+   <a href="#thunderbatteryType">Thunder Generator</a><br>
+<c>Source of Storm Power:</c><br>
+   <a href="#geyserType">Storm Geyser</a><br>
+   <a href="#nuggetType">Storm Crystal</a><br>
+<c>Bridge:</c><br>
+   <a href="#bridgeType">Bridge</a><br>
+<c>Shooter:</c><br>
+   <a href="#suncannonType">Sun Cannon</a><br>
+   <a href="#raincannonType">Ice Cannon</a><br>
+   <a href="#thundercannonType">Thunder Cannon</a><br>
+   <a href="#sunarcherType">Sun Disc Thrower</a><br>
+   <a href="#windarcherType">Crossbow</a><br>
+   <a href="#thunderarcherType">Vander Tower</a><br>
+<c>Aerial Attack:</c><br>
+   <a href="#sunflyerType">Whirligig</a><br>
+   <a href="#windflyerType">Dust Devil</a><br>
+   <a href="#rainflyerType">Man o' War</a><br>
+<c>Air Attack Base:</c><br>
+   <a href="#sunaviaryType">Whirlibase</a><br>
+   <a href="#windaviaryType">Devil Maker</a><br>
+   <a href="#rainaviaryType">Man o' War Pool</a><br>
+<c>Defense:</c><br>
+   <a href="#sunblockerType">Stone Tower</a><br>
+   <a href="#windblockerType">Wind Tower</a><br>
+   <a href="#rainblockerType">Ice Tower</a><br>
+   <a href="#thunderblockerType">Bulwark</a><br>
+   <a href="#sunfenceType">Barricade</a><br>
+   <a href="#rainfenceType">Acid Barricade</a><br>
+   <a href="#thunderfenceType">Arc Spire</a><br>
+   <a href="#edgefarmType">Edge Farm</a><br>
+<c>Ground Transport:</c><br>
+   <a href="#sunwalkerType">Golem</a><br>
+   <a href="#windwalkerType">Sail Skater</a><br>
+   <a href="#rainwalkerType">Crystal Crab</a><br>
+   <a href="#bulfType">Bulf</a><br>
+<c>Aerial Transport:</c><br>
+   <a href="#sunballoonType">Balloon</a><br>
+   <a href="#windballoonType">Air Ship</a><br>
+   <a href="#rainballoonType">Cloud Floater</a><br>
+<c>Offensive Spell:</c><br>
+   <a href="#bombExplodeSmallType">Point Blast</a><br>
+   <a href="#bombExplodeMediumType">Devastation</a><br>
+   <a href="#bombExplodeLargeType">Decimation</a><br>
+   <a href="#bombTreasonType">Treason</a><br>
+   <a href="#bombMeteorType">Bombardment</a><br>
+   <a href="#bombGravitonType">Graviton</a><br>
+   <a href="#bombLightingwaveType">ThunderStorm</a><br>
+   <a href="#bombLightingZapType">Thunder Strike</a><br>
+<c>Defensive Spell:</c><br>
+   <a href="#bombHardenerType">Bridge Harden</a><br>
+   <a href="#bombHealType">Heal</a><br>
+   <a href="#bombInvisibleType">Invisibility</a><br>
+   <a href="#bombParalyzeType">Paralysis</a><br>
+<c>Summons Spell:</c><br>
+   <a href="#bombTwisterType">Whirlwind</a><br>
+   <a href="#bombIITwisterType">Twister</a><br>
+   <a href="#bombIIITwisterType">Vortex</a><br>
+   <a href="#bombIManoType">Hydra</a><br>
+   <a href="#bombIIManoType">Hydra Wave</a><br>
+   <a href="#bombIIIManoType">Hydra Flood</a><br>
+<c>Residence:</c><br>
+   <a href="#residenceType">Residence</a><br>
+<br>
+
+
+
+
+
+
+
+
+
+</a>
+
+<a name="daisType">
+<a name="runeType">
+<a name="altarType">
+<info>
+<q>"It is a window onto the greatest of all glory,<br>
+and into the deepest of all oblivion." -Askeld Urvonnus, High Priest of Nimbus</q>
+<p>
+Use your Altar to <a href="#sacrificeOutline">Sacrifice</a> captured <a href="#priestType>Priests</a> to the <a href="#themeHelp">Furies</a>.
+<p>
+Your Priest can build an Altar. Each Altar has five runes - Sun, Wind, Rain, Thunder and Storm - which
+must be filled in order to complete a Sacrifice. As each rune is filled, one of the supporting bridges
+leaves the center and when all five are gone, the enemy Priest plunges into the abyss.
+<p>
+In the <a href="#campaignHelp">Campaign</a> when you Sacrifice all the enemy Priests, the 
+mission will usually end successfully.
+<p>
+In <a href="multiplayerHelp">Multiplayer</a> mode Sacrificing has a different meaning. You Sacrifice to
+get Knowledge from the Furies.  In order to get higher level units, you must Upgrade your Altar (by
+Sacrificing). The
+Upgraded Altar (there is a level two and a level three Altar) will stay with your island from
+game to game. (Note that you will not be able to Upgrade an Altar that is not on your home island.)  
+Your Altar's level must match the level of the unit you're trying to get from the Furies.
+Here is a <a href="unitHelp">table</a> of every unit and its level.
+<p>
+Note that when an Altar is destroyed, a captive Priest will go free.
+<p>
+Click here for to learn <a href="#sacrificeOutline">How To Capture and Sacrifice a Priest</a>.
+</a>
+</a>
+</a>
+
+<a name="priestType">
+<info>
+<q>"Who among you will face the Fury?<br>
+Who will know of holiness and fear?<br> 
+And who will be destroyed?"  -Book of Nimbus</q>
+<p>
+Your High Priest is the ultimate vessel of Knowledge and power from the <a href="#themeHelp">Furies</a>.
+Your Priest can build special buildings and Altars, and also performs Sacrifices of other Priests
+to the Furies.
+<p>
+A Priest can only be destroyed on an Altar.  He cannot be killed by battle units, only incapacitated. 
+Furthermore, if the Priest has a <a href="#vortexHelp">Temple</a> his wounds will gradually heal during battle.
+<p>
+Priests are also able to "Pray" in order to acquire the 
+<a href="#bombExplodeMediumType">Devastation Spell</a> which they are then able to cast for 100<!"fortgump.3">.  
+Right-click your Priest and choose "Pray" to
+see how this works. (Multiplayer Only)
+<p>
+To view your High Priest simply press <c>F5</c>. If you wish to select your High Priest,
+press <c>P</c> or <c>R</c> once, to view and select it press it twice.
+<p>
+<a href="#vesselPriestHelp">The Priest's Powers of Construction</a><br>
+<a href="#sacrificeOutline">Sacrificing a Priest for new Knowledge</a><br>
+</a>
+
+<a name="vesselPriestHelp">
+<h2>The Priest's Powers of Construction</h2>
+<p>
+Use your High Priest to build <a href="#vortexHelp">Temples</a>, <a href="#factoryHelp">Workshops</a>, 
+and <a href="#altarType">Altars</a>, and (in <a href="#multiplayerHelp">multiplayer</a> mode) <a href="#outpostType">Outposts</a> on any 
+large island--including your own first island.  Right-click on him and 
+select the appropriate option. The building will go to your cursor, ready to be placed.  (Note that your Priest must
+be able to walk to the build location.)  Once you've placed the building, the Priest will walk to it and begin
+construction.
+<p>
+Note that a Priest cannot construct buildings while <a href="#immobileHelp">immobilized</a>.
+<p>
+Like the <a href="#sunWalkerType">Golem</a>, your Priest also serves as a <a href="#transportHelp">Transport</a>.  
+You can use him to acquire and cast
+<a href="#buriedType">Spells</a> or to transport <a href="#nuggetType">Storm Crystals</a>.
+Additionally, the Priest will try to move to a safer location if the <a href="#bridgeType">bridge</a> underneath him becomes dangerous.
+<p>
+Learn more about <a href="#sacrificeOutline">Sacrificing a Priest for new Knowledge</a><br>
+</a>
+
+<a name="themeHelp">
+<h2>The Three Furies of Nimbus</h2>
+<p>
+At the heart of Nimbus a constant storm rages. There the three Furies, Wind, Rain and Thunder,
+strive in never-ending conflict for control of the <a href="#sphereHelp">world</a>.
+<p>
+This conflict
+tears huge chunks of the Hidden Planet up into the sky. Upon these newborn islands live the Nimbians, your people.
+<p>
+Death and destruction please the Furies. Thus, when you destroy an enemy unit, you are granted one quarter
+of the Storm Power value of that enemy <a href="#unitHelp">unit</a>--except for individual Aerial Attackers which
+do not actually cost any Storm Power to build.  
+<p>
+Even more pleasing to the Furies is the
+<a href="#sacrificeOutline">Sacrifice of a Priest</a>. Such Sacrifices cause them to grant the gift of 
+battle <a href="#technologyHelp">Knowledge</a>.
+<p>
+Each Fury has a symbol for its <a href="#influenceHelp">Energy</a>:<br>
+<!"mana.8"> - Wind<br>
+<!"mana.9"> - Rain<br>
+<!"mana.10"> - Thunder<br>
+<p>
+There is also common Knowledge called "Sun," symbolized by <!"mana.11">. <a href="#unitHelp">Sun units</a> can
+use any type of <a href="#influenceHelp">Energy</a> but are relatively weak.
+<p>
+Beyond Sun Knowledge each Fury can supply specialized Knowledge. This Knowledge
+tends to require the Energy of the particular Fury who bestowed it.
+<p>
+Associated with the Wind Fury are:<br>
+<p>
+1<!"windVortex.*">  2<!"windfactory.*">  3<!"windbattery.*"><br>
+<p>
+1) The <a href="#windVortexType">Temple</a> where Wind is worshipped.<br>
+2) The <a href="#windFactoryType">Workshop</a> producing Wind-aligned units.<br>
+3) The <a href="#windBatteryType">Wind Generator</a> that generates Wind Energy.<br>
+4) All <a href="#unitHelp">Wind-aligned units</a>.<br>
+<p>
+Associated with the Rain Fury are:<br>
+<p>
+1<!"RainVortex.*">  2<!"Rainfactory.*">  3<!"Rainbattery.*"><br>
+<p>
+1) The <a href="#RainVortexType">Temple</a> where Rain is worshipped.<br>
+2) The <a href="#RainFactoryType">Workshop</a> producing Rain-aligned units.<br>
+3) The <a href="#RainBatteryType">Rain Generator</a> that generates Rain Energy.<br>
+4) All <a href="#unitHelp">Rain-aligned units</a>.<br>
+<p>
+Associated with the Thunder Fury are:<br>
+<p>
+1<!"ThunderVortex.*">  2<!"Thunderfactory.*">  3<!"Thunderbattery.*"><br>
+<p>
+1) The <a href="#ThunderVortexType">Temple</a> where Thunder is worshipped.<br>
+2) The <a href="#ThunderFactoryType">Workshop</a> producing Thunder-aligned units.<br>
+3) The <a href="#ThunderBatteryType">Thunder Generator</a> that generates Thunder Energy.<br>
+4) All <a href="#unitHelp">Thunder-aligned units</a>.<br>
+<p>
+Sun, which has no Fury associated with it, is nevertheless supplied by all Furies. Thus it
+has:<br>
+1<!"sunFactory.*"><br>
+<p>
+1) A <a href="#SunFactoryType">Workshop</a> producing unaligned (Sun) units.<br>
+2) All <a href="#unitHelp">Sun units</a>.<br>
+<p>
+Learn more about <a href="#sacrificeOutline">Sacrificing a Priest for new Knowledge</a>...
+<br>
+</a>
+
+<a name="unitHelp">
+<h2>Battle Units</h2>
+Battle units are divided into four varieties: Sun, Wind, Rain and Thunder. Units may
+be <a href="salvageHelp">Salvaged</a> if necessary. There are basic <a href="tacticsHelp">Tactics</a>
+that all units use for attack.
+
+<p>
+<h2>Sun Units</h2>
+Level One<br>
+<a href="#sunWalkerType">* Golem</a>  /  Ground Transport<br>
+<a href="#sunArcherType">* Sun Disc Thrower</a>  /  Shooter<br>
+<a href="#sunCannonType">* Sun Cannon</a>  /  Shooter<br>
+<a href="#sunBlockerType">* Stone Tower</a>  /  Defense<br>
+<a href="#sunFenceType">* Sun Barricade</a>  /  Defense<br>
+Level Two<br>
+<a href="#sunFlyerType">* Whirligig</a>  /  Aerial Attack<br>
+<a href="#sunAviaryType">* Whirlibase</a>  /  Aerial Attack Base<br>
+<a href="#sunBalloonType">* Balloon</a>  /  Aerial Transport<br>
+<p>
+<h2>Wind Units</h2>
+Level One<br>
+<a href="#windBatteryType">* Wind Generator</a>  /  Source of Energy<br>
+Level Two<br>
+<a href="#windWalkerType">* Sail Skater</a>  /  Ground Transport<br>
+<a href="#windArcherType">* Crossbow</a>  /  Shooter<br>
+<a href="#windBlocker">* Wind Tower</a>  /  Defense<br>
+Level Three<br>
+<a href="#windFlyerType">* Dust Devil</a>  /  Aerial Attack<br>
+<a href="#windAviaryType">* Devil Maker</a>  /  Aerial Attack Base<br>
+<a href="#windBalloonType">* Air Ship</a>  /  Aerial Transport<br>
+
+<p>
+<h2>Rain Units</h2>
+Level One<br>
+<a href="#rainBatteryType">* Rain Generator</a>  /  Source of Energy<br>
+<a href="#rainWalkerType">* Crystal Crab</a>  /  Ground Transport<br>
+Level Two<br>
+<a href="#rainCannonType">* Ice Cannon</a>  /  Shooter<br>
+<a href="#rainBlockerType">* Ice Tower</a>  /  Defense<br>
+<a href="#rainFenceType">* Acid barricade</a>  /  Defense<br>
+Level Three<br>
+<a href="#rainFlyerType">* Man o' War</a>  /  Aerial Attack<br>
+<a href="#rainAviaryType">* Man o' War Pool</a>  /  Aerial Attack Base<br>
+<a href="#rainBalloonType">* Cloud Floater</a>  /  Aerial Transport<br>
+
+<p>
+<h2>Thunder Units</h2>
+Level One<br>
+<a href="#thunderBatteryType">* Thunder Generator</a>  /  Source of Energy<br>
+<a href="#bulfType">* Bulf</a>  /  Ground Transport<br>
+<a href="#thunderFence">* Arc Spire</a>  /  Defense<br>
+Level Two<br>
+<a href="#thunderCannonType">* Thunder Cannon</a>  /  Shooter<br>
+<a href="#thunderBlockerType">* Bulwark</a>  /  Defense<br>
+Level Three<br>
+<a href="#thunderArcher">* Vander Tower</a>  /  Shooter<br>
+<p>
+<a href="#statsHelp">How to read unit information.</a><br>
+<a href="#themeHelp">Other units and their Alignments.</a>
+<br>
+</a>
+
+<a name="rainVortexType">
+<a name="windVortexType">
+<a name="thunderVortexType">
+<a name="vortexHelp">
+<info>
+<q>The blood of holy men is the elixir of destiny.</q>
+<p>
+<a href="#rainVortexType">Rain Temple</a><br>
+<a href="#windVortexType">Wind Temple</a><br>
+<a href="#thunderVortexType">Thunder Temple</a><br>
+<p>
+The Temple is the ultimate center of <a href="#influenceHelp">Energy</a> on each island.
+Temples take one of three forms, as listed above.
+<p>
+As long as your Temple is standing, your <a href="#priestType">Priest</a> will heal 
+during battle. They also confer the following benefits:
+<p>
+1. You may build <a href="#bridgeType">bridges</a> off of the island containing the Temple.
+<br>
+2. The island is warded against enemy construction. No enemy may build on it.
+<br>
+3. Transports may return <a href="#nuggetType">Storm Crystals</a> to the Temple to turn them to <a href="#stormpowerHelp">Storm Power</a>.
+<br>
+4. The island will change to reflect the theme of which ever temple you build.
+<p>
+These benefits are nearly identical to the <a href="outpostType">Outpost</a>, a key
+unit in <a href="multiplayerHelp">multiplayer</a> play.
+<p>
+Hit <c>F4</c> to jump to your Temple during game play.
+<p>
+Find out about using the Temple for:<br>
+<a href="#spVortexHelp">Acquiring Storm Power</a><br>
+<a href="#golemVortexHelp">Making Golems</a><br>
+<a href="#influenceVortexHelp">Generating Energy</a><br>
+</a>
+</a>
+</a>
+</a>
+
+<a name="spVortexHelp">
+<h2>The Temple:<br>Acquiring Storm Power</h2>
+<p>
+In battle, the Temple converts <a href="#moneyHelp">Storm Power</a> into a usable 
+resource.  Without a Temple you can't collect or process Storm Power.
+<p>
+Storm Power is collected from <a href="#geyserType">Storm Geysers</a> in the 
+form of <a href="#nuggetType">Storm Crystals</a>.
+<p>
+Learn more about <a href="#golemVortexHelp">making Golems</a>...<br>
+<br>
+</a>
+
+<a name="golemVortexHelp">
+<h2>The Temple:<br>Making Golems</h2>
+<p>
+Temples allow you to create <a href="#sunWalkerType">Golems</a> that serve as 
+<a href="#transportHelp">Transports</a> on your new island.
+<p>
+A Golem will show up in your
+<a href="#teleportViewHelp">Production Window</a> when you first descend to the 
+<a href="#pyrosphereHelp">Pyrosphere</a> for battle.  You can make as many of these
+servants as you wish, provided you have enough <a href="#moneyHelp">Storm Power</a>.
+<p>
+Learn more about how the Vortex <a href="#influenceVortexHelp">generates Energy</a>...<br>
+<br>
+</a>
+
+<a name="influenceVortexHelp">
+<h2>The Temple:<br>Generating Energy</h2>
+<p>
+To build anything in Nimbus, you must have the adequate <a href="#influenceHelp">Energy</a>.  Your
+Temple is one of the two sources for this Energy.  As you prepare to build anything on your home island, 
+whether it's a Golem, a Workshop, or <a href="#unitHelp">units</a> for battle, your Temple will supply the Energy you need.
+<p>
+Left-click on your Temple to see the range of this Energy.
+<p>
+<a href="#vortexHelp">Return to Temple Help.</a>
+</a>
+
+<a name="serverHelp">
+<h2>NetStorm Servers</h2>
+<p>
+
+[[ DO NOT TRANSLATE YET ]]
+
+Here is what a NetStorm server is:
+
+Here is how a local server works:
+
+Here is how an internet server works:
+
+If you have trouble use the troubleshooting guide.
+
+</a>
+
+[[CONTINUE TRANSLATING HERE.]]
+
+<a name="edgeFarmType">
+<info>
+<q>"In other cultures, the plowing is not so dangerous." -Pavel Milyukov, Nimbian farmer</q>
+<p>
+No <a href="#bridgeType">bridge</a> may be attached where an Edge Farm
+grows, so enemy boarding attempts are foiled there --but this may also foil your attempts to build bridges out from
+your own island.
+<p>
+As a <a href="#vortexHelp">Temple</a> is built, the alignment of that Temple grows into the Edge Farm itself.
+<p>
+The inhabitants of the islands grow their food around the island's perimeter, leaving interior space open for 
+development.
+<br>
+</a>
+
+<a name="obeliskType">
+<a name="buriedType">
+<a name="bombHelp">
+<h2>Spells</h2>
+<p>
+<q>"They add a little spice to the carnage."  -Oltor Hammershold, Nimbian battle-cook.</q>
+<p>
+Transports can acquire and cast Spells that have special effects in the world.
+<p>
+Spells manifest in the world as Obelisks.  Left-click your Transport and then position the cursor over an Obelisk.  
+Left-click again when the hand-cursor appears, and now your Transport will travel to the Obelisk and acquire a Spell. 
+Each transport can possess one Spell.  An icon for that Spell will then appear overlaid
+on the Transport.
+<p>
+Once a Transport has acquired a Spell, it can cast the Spell an unlimited number of times, provided the player has
+sufficient Storm Power.  The Transport keeps that Spell until destroyed, or until he acquires another Spell--displacing
+the previous one.  
+Left-click on the Transport to see the 
+range of the Spell.  Right-click on the Transport to cast the Spell.
+<p>
+Once you cast the Spell, your Transport will halt in place until the Spell is cast.  This will 
+take a couple of seconds.  
+<p>
+Spells are more common in <a href="#multiplayerHelp">multiplayer</a> mode than in the Campaign.
+<p>
+Spells do not affect the caster.
+<p>
+The various kinds of Spells:<br>
+<!"bombExplodeSmall.1"><a href="#bombExplodeSmallType">Point Blast</a><br>
+<!"bombExplodeMedium.1"><a href="#bombExplodeMediumType">Devastation</a><br>
+<!"bombExplodeLarge.1"><a href="#bombExplodeLargeType">Decimation</a><br>
+<!"bombHardener.1"><a href="#bombHardenerType">Bridge Harden</a><br>
+<!"bombHeal.1"><a href="#bombHealType">Heal</a><br>
+<!"bombInvisible.1"><a href="#bombInvisibleType">Invisibility</a><br>
+<!"bombParalyze.1"><a href="#bombParalyzeType">Paralysis</a><br>
+<!"bombTreason.1"><a href="#bombTreasonType">Treason</a><br>
+<!"bombMeteor.1"><a href="#bombMeteorType">Bombardment</a><br>
+<!"bombGraviton.1"><a href="#bombGravitonType">Graviton</a><br>
+<!"bombLightingwave.1"><a href="#bombLightingwaveType">ThunderStorm</a><br>
+<!"bombLightingZap.1"><a href="#bombLightingZapType">Thunder Strike</a><br>
+<!"bombTwister.1"><a href="#bombTwisterType">Whirlwind</a><br>
+<!"bombIITwister.1"><a href="#bombIITwisterType">Twister</a><br>
+<!"bombIIITwister.1"><a href="#bombIIITwisterType">Vortex</a><br>
+<!"bombIMano.1"><a href="#bombIManoType">Hydra</a><br>
+<!"bombIIMano.1"><a href="#bombIIManoType">Hydra Wave</a><br>
+<!"bombIIIMano.1"><a href="#bombIIIManoType">Hydra Flood</a><br>
+
+<br>
+</a>
+</a>
+</a>
+<a name="bombLightingZapType">
+<info>
+<q>"The skies of nimbus take on a bleak blackness as every hair
+upon your body begins to rise. For a brief moment a bittersweet
+tranquility emerges? then the sky bellows out a bone shattering  
+roar unmatched by a thousand thunder cannons while bolts from above 
+rain down reeking havoc upon all that stands in there path?" -Fleet Admiral of Nimbus</q>
+<p>
+<!"bombLightingZap.1">
+<Br>
+A <a href="#buriedType">Spell</a> that deals a random amount of damage to everything in its range.<br>
+</a>
+
+<a name="bombLightingwaveType">
+<info>
+<q>"Forged by the thunder furies for those pure of heart.<br>
+Comes the power to summon lightning and make it reach its mark.<br>
+Many will run and more will hide as the clouds within grow gray.<br>
+Yet amps of current shall flood there bodies and soon dead they will lay." -Cantata, 4 of the 3rd Thunder Core</q>
+<p>
+<!"bombLightingwave.1>
+<Br>
+A <a href="#buriedType">Spell</a> that destroys everything destructible in its range.<br>
+</a>
+
+<a name="bombTwisterType">
+<info>
+<q>"Fallen Devil from above, wreaking havoc until he?s done." -DeaCon, Godly Council</q>
+<p>
+<!"bombTwister.1">
+<Br>
+A <a href="#buriedType">Spell</a> that summons two <a href="#windFlyerType">Dust Devils</a> to attack enemy units.<br>
+</a>
+
+<a name="bombIITwisterType">
+<info>
+<q>"In the lands of lightning and thunderous roars,<br>
+The winds of death began to soar,<br>
+And when it died back to a calm,<br>
+Not a single thing had found no harm." -DWMI, Nimbian Poet</q>
+<p>
+<!"bombIITwister.1">
+<Br>
+A <a href="#buriedType">Spell</a> that summons four <a href="#windFlyerType">Dust Devils</a> to attack enemy units.<br>
+</a>
+
+<a name="bombIIITwisterType">
+<info>
+<q>"It's not the wind that hurts... Have you ever been hit by a flying bridge? -Papers, Nimbian Safety Inspector"</q>
+<p>
+<!"bombIIITwister.1">
+<Br>
+A <a href="#buriedType">Spell</a> that summons six <a href="#windFlyerType">Dust Devils</a> to attack enemy units.<br>
+</a>
+
+<a name="bombIManoType">
+<info>
+<q>"Often it is neccessary to purge the poison from the mind by embodying it in the form of 
+ones' own fear." -Lord Dwia, High Priest of the XIIIBY</q>
+<p>
+<!"bombIMano.1">
+<Br>
+A <a href="#buriedType">Spell</a> that summons a <a href="#rainFlyerType">Man o' War</a> to attack enemy units.<br>
+</a>
+
+<a name="bombIIManoType">
+<info>
+<q>"Just when you think you can relax, along come the bringers of destruction." -Kenzo, Veteran Archer</q>
+<p>
+<!"bombIIMano.1">
+<Br>
+A <a href="#buriedType">Spell</a> that summons two <a href="#rainFlyerType">Man o' War</a> to attack enemy units<br>
+</a>
+
+<a name="bombIIIManoType">
+<info>
+<q>"Where one is good, three are better." -Dwindlin, Nimbian Mathematician</q>
+<p>
+<!"bombIIIMano.1">
+<Br>
+A <a href="#buriedType">Spell</a> that summons three <a href="#rainFlyerType">Man o' War</a> to attack enemy units.<br>
+</a>
+
+<a name="bombGravitonType">
+<info>
+<q>"Apparatuses with flying capabilities were designed to work under a specific
+gravitational constant; even a slight change in this constant will result in a
+catastrophic failure." -Ventusmori, Nimbian Engineer</q>
+<p>
+<!"bombGraviton.1">
+<Br>
+A <a href="#buriedType">Spell</a> that destroys all air units in its range.<br>
+</a>
+
+<a name="bombMeteorType">
+<info>
+<q>"Rain from the sky has no allies." -UnSpokenOne, Wise Nimbian</q>
+<p>
+<!"bombMeteor.1">
+<Br>
+A <a href="#buriedType">Spell</a> that deals a random amount of damage to everything in its range.<br>
+</a>
+
+<a name="bombExplodeSmallType">
+<info>
+<q>"I don't think 'cute' is the word you're looking for." -Ervin Grots, Apprentice</q>
+<p>
+<!"bombExplodeSmall.1">
+<br>
+A <a href="#buriedType">Spell</a> that destroys everything destructible in its range.<br>
+</a>
+
+<a name="bombExplodeMediumType">
+<a name="bombSpecialOneType">
+<info>
+<q>"Ideal for day-to-day pandemonium." -Telsen Rott, </q>
+<p>
+<!"bombExplodeMedium.1">
+<br>
+A <a href="#buriedType">Spell</a> that destroys anything destructible in its range.<br>
+</a>
+</a>
+
+<a name="bombExplodeLargeType">
+<info>
+<q>"Run.  Faster." -Captain Knut Hamsun, Nimbian casualty.</q>
+<p>
+<!"bombExplodeLarge.1">
+<br>
+A <a href="#buriedType">Spell</a> that destroys anything destructible in its range.<br>
+</a>
+
+<a name="bombHardenerType">
+<info>
+<q>"The mortar itself takes on a hellish willfulness." -Hule Gundersun, Master Mason</q>
+<p>
+<!"bombHardener.1">
+<br>
+A <a href="#buriedType">Spell</a> that makes <a href="#bridgeType">bridges</a> indestructible in its range.<br>
+</a>
+
+<a name="bombHealType">
+<info>
+<q>"And your illness was illusion.<br>  
+And your fever was a dream." -Book of Nimbus</q>
+<p>
+<!"bombHeal.1">
+<br>
+A <a href="#buriedType">Spell</a> that that restores all units in its range with some of their missing hit points. 
+It also heals <a href="#bombParalyzeType">Paralysis</a>, and, because of the iridescence of its healing magic, it
+negates <a href="#bombInvisibleType">Invisibility</a>.<br>
+</a>
+
+<a name="bombInvisibleType">
+<info>
+<q>"It's not that you do not see, but merely that your eyes do not perceive." -Luffor Haginit, Nimbian Logician</q>
+<p>
+<!"bombInvisible.1">
+<br>
+A <a href="#buriedType">Spell</a> that temporarily turns all units invisible in its range.
+Note that nothing can be targeted or picked up while it is invisible.  Invisible blockers
+will still block, but anything else previously targeted becomes un-targeted when it becomes
+invisible.<br>
+</a>
+
+<a name="bombParalyzeType">
+<info>
+<q>"A stalemate with the ether itself." -Dag Haverlink, Nimbian Gamesman</q>
+<p>
+<!"bombParalyze.1">
+<br>
+A <a href="#buriedType">Spell</a> that stops all movement and shooting in its range.  Any affected 
+<a href="#TransportHelp">Transports</a> will not be able to cast their Spells.
+Paralyzed units can be distinguished by the Spell icon next to them.<br>
+</a>
+
+<a name="bombTreasonType">
+<info>
+<q>"The most delightful victory over any foe is to persuade his right hand to hack off his left." -General Greig Hamlinken</q>
+<p>
+<!"bombTreason.1">
+<br>
+A <a href="#buriedType">Spell</a> that gives you the ownership of all units in its range, including
+<a href="#bridgeType">bridges</a> and all non-<a href="#PriestType">Priest</a> <a href="#transportHelp">Transports</a>.<br>
+</a>
+
+<a name="residenceType">
+<info>
+<q>"I wouldn't mind living above ground, but battle crossfire tends to burn your house down." -Damon
+Runyon, regular guy</q>
+<p>
+As a <a href="#vortexHelp">Temple</a> is built, the alignment of that Temple grows into the Residence.
+<p>
+Nimbians live in submerged houses below the chaos of battle. You cannot move or destroy
+a residence.  And you can't build on top of it.
+<br>
+</a>
+
+<a name="influenceHelp">
+<h2>Energy</h2>
+<p>
+Energy is what helps you build <a href="#unitHelp">units</a> in battle. There are three
+types of Energy provided by <a href="#vortexHelp">Temples</a> 
+and "Generators":<br>
+<!"mana.8"> - Wind Energy from <!"windvortex.*"> and <!"windbattery.*"><br>
+<!"mana.9"> - Rain Energy from <!"rainvortex.*"> and <!"rainbattery.*"><br>
+<!"mana.10"> - Thunder Energy from <!"thundervortex.*"> and <!"thunderbattery.*"><br>
+<p>
+<b>Building units using Energy</b>
+<p>
+Icons next to each thing you build tell you what Energy is needed to complete the structure. For example,
+<br>
+<!"mana.2"><!"thunderCannon.0">
+<p>
+tells you that this Thunder Cannon will need one Thunder Energy - that is, a Thunder Temple or
+a <a href="#thunderbatteryType">Thunder Generator</a> must be 
+nearby to satisfy the Cannon's Energy requirement.
+<p>
+When you see that a unit requires Sun Energy - <!"mana.3"> - it means that <i>any</i> sort of
+Energy will satisfy its requirements. For example,
+<br>
+<!"mana.3"><!"sunCannon.0">
+<p>
+tells you that this Sun Cannon will accept one of <i>any</i> Energy, be it Rain, Wind, or Thunder.
+<p>
+Left-click on Temples and Generators to see the Energy they provide.
+<br>
+</a>
+
+<a name="factoryHelp">
+<a name="sunFactoryType">
+<a name="windFactoryType">
+<a name="rainFactoryType">
+<a name="thunderFactoryType">
+<info>
+<q>"The Nimbian aptitude for complex mechanics is simply unsurpassed." - Nimbian Mechanic</q>
+<p>
+Workshops build your <a href="#unitHelp">units</a> for battle.
+<p>
+You'll build Workshops in battle to construct combat units based on the <a href="#technologyHelp">Knowledge</a> that 
+you've gained from Sacrificing <a href="#priestType">High Priests</a>.  This Knowledge carries over from
+battle to battle so that your diversity and power of units can increase over time.
+<p>
+Each Workshop can build only
+a few units so choose carefully!
+<p>
+On a new, Level I Workshop you'll have two "Production Slots."  When you choose a new
+Knowledge to build, you are filling up one of the slots.  Once you've chosen what a Workshop will build, you can't change
+it.
+<p>
+<I>But</I>, you get one additional slot each time  you <a href="#upgradeHelp">Upgrade</a> a Workshop. In order to Upgrade you must
+pay a certain amount of <a href="#moneyHelp">Storm Power</a>.
+<p>
+When a Workshop creates a unit, a Storm Power Stream streaks from the Workshop to the build site. When it combines
+with the proper <a href="#influenceHelp">Energy</a> the unit will be created on the spot. However, if the Workshop is
+destroyed you will lose the ability to build anything that Workshop was making until you build another Workshop to replace it.
+<br>
+</a></a></a></a></a>
+
+<a name="upgradeHelp">
+<h2>Upgrading Workshops</h2>
+<p>
+<q>"More power, more speed. Absolute power, speed of light!" - Spen Lodel, Sun Disciple</q>
+<p>
+Upgrade a Workshop to build new types of <a href="#unitHelp">units</a> for battle.
+<p>
+To get more Production Slots in a Workshop you may Upgrade it by 
+paying <a href="#moneyHelp">Storm Power</a>.
+Right-click on the <a href="#factoryHelp">Workshop</a> to learn how much Storm Power it requires for the Upgrade.  
+<p>
+You may only Upgrade each Workshop three times. 
+<br>
+</a>
+
+<a name="researchHelp">
+<a name="technologyHelp">
+<h2>Knowledge</h2>
+<p>
+<q>"You can read their bleeding guts like a draftsman's blueprint."<br>
+- Haldor Hurlmen, Nimbian High Priest and Mechanical Engineer</q>
+<p>
+Knowledge gives you the ability to build <a href="#unitHelp">units</a> in Battle.  In <a href="multiQuickHelp">Multiplayer</a> mode, your accumulated
+Knowledge persists from each on-line battle to the next.
+<p>
+Once you've acquired Knowledge by <a href="#sacrificeOutline">Sacrificing High Priests</a>, you can put that
+Knowledge into production in any <a href="#factoryHelp">Workshop</a> of the appropriate 
+<a href="#themeHelp">Fury alignment</a>.
+<p>
+From the outset, you are granted the Knowledge for the <a href="#sunarcherType">
+Disc Throwers</a> and <a href="#suncannontype">Sun Cannons</a> which you may then put into production
+with your first Workshop.  Everything else will cost you the <a href="#sacrificeOutline">Sacrifice</a> 
+of some number of Priests.  
+<p>
+Once you've killed some Priests in exchange for the Knowledge you want, that Knowledge will 
+be available to you when you build the appropriate Workshop.  
+<p>
+For instance, I kill three Priests
+in exchange for the ability to build Thunder Cannons.  Now when I build a Thunder Workshop, I can choose
+to fill one of my slots with Thunder Cannons.
+<p>
+But if I build a Wind Workshop, I won't be able to build my Thunder Cannons there.  Each Workshop can only build
+the units corresponding to its alignment: Sun units in Sun Workshops, Thunder units in Thunder Workshops, and so on.
+<p>
+If you have exhausted all of the available slots for a Workshop, it's time to <a href="#upgradeHelp">Upgrade</a>,
+which will increase the number of slots available for additional Knowledge or time to build an additional Workshop.
+<p>
+Learn more about <a href="#factoryHelp">Workshops</a>...
+<p>
+Learn more about <a href="#sacrificeOutline">Sacrificing Priests for new Knowledge</a>...
+<br>
+</a>
+</a>
+
+<a name="geyserType">
+<a name="emptyGeyserType">
+<info>
+<q>The coagulation of the Geyser into Crystal form is like watching white fire turn to ice.</q>
+<p>
+Storm Geysers provide you with <a href="#stormpowerHelp">Storm Power</a> in the form of <a href="#nuggetType">Storm Crystals</a> 
+which your <a href="#transportHelp">Transports</a> can collect for you. Right-clicking on a Storm Geyser will show the available <a href="#stormpowerHelp">Storm Power</a>.
+<p>
+Several Geyser islands appear at the opening of each battle,
+and more will be generated throughout the battle as Storm Power continues to be hurled up from
+the <a href="#themeHelp">Fury</a> battle below.
+Every time something is destroyed, part of its
+energy falls into this battle of the Furies, and reappears as Geyser islands.
+<p>
+If you send a <a href="#TransportHelp">Ground or Aerial Transport</a> out to a Geyser, the Transport will set itself into a
+loop collecting Storm Crystals until the Geyser is depleted. As a Storm Geyser begins to deplete, the steam spewing will shorten.
+<br>
+</a>
+</a>
+
+<a name="nuggetType">
+<info>
+<q>The coagulation of the Geyser into Crystal form is like watching white fire turn to ice.</q>
+<p>
+Storm Crystals are condensed <a href="#stormpowerHelp">Storm Power</a> hurled up by <a href="#geyserType">Storm Geysers</a>.
+<p>
+If you send a <a href="#TransportHelp">Ground or Aerial Transport</a> out to a Geyser, it will set itself into a
+loop collecting Storm Crystals until the Geyser is depleted.
+<br>
+</a>
+
+<a name="sunArcherType">
+<info>
+<q>"Sun Disc Throwers decapitate the clumsy." -Major Tomas Rultoff.</q>
+<p>
+The Sun Disc Thrower fires in any direction at short range.  It is crucial for defense against air attack.
+<p>
+A massive rotor arm flings the exploding saucers with perfect precision.
+</a>
+
+<a name="sunAviaryType">
+<info>
+<q>Only a roof of gold could contain the blinding light of the Whirligig's creation.</q>
+<p>
+The Whirlibase builds and refuels <a href="#sunFlyerType">Whirligigs</a>--airborne attackers.  
+<p>
+If you destroy it, its Whirligig will have no place to refuel.  Each time a Whirligig is 
+destroyed, its home base will make a new one.
+<p>
+Note: Nothing can ever be targeted by more than three Aerial Attackers at once.
+</a>
+
+<a name="sunFlyerType">
+<info>
+<q>"This device is lofted on its own impossibility, and so it destroys by the powers of negation." -Jakob Hammersholt,
+ inventor of the Whirligig.</q>
+<p>
+The Whirligigs fly into enemy territory, wreaking havoc on enemy units from above.  
+<p>
+Generated by <a href="#sunAviaryType">Whirlibases</a>, they go from target to target until something knocks them out 
+of the sky, but they need to refuel once every minute.  A Whirligig cannot be used for cargo.
+<p>
+Rule to remember: A Whirligig will never target a <a href="#transporthelp">Transport</a>.
+<p>
+Note: Nothing can ever be targeted by more than three Aerial Attackers at once, and Ground 
+Transports are only targeted by one Aerial Attacker at a time.
+</a>
+
+<a name="sunBlockerType">
+<info>
+<q>Stone Towers are built from the outside in.  Their builders give their strength and courage to the Tower, so 
+much so that in every third layer of bricks is the body of a brave man.</q>
+<p>
+The Stone Tower is a damage-absorber.  Set it between a valuable unit and hostile fire to block incoming shots.
+</a>
+
+<a name="sunCannonType">
+<info>
+<q>"Two things in life cannot be ignored: one is a cannon, the other is a cannon-ball." -Commander Petrik 
+'Bombard' Lombard</q>
+<p>
+The Sun Cannon <a href="#shooterHelp">shoots</a> straight north, south, east, or west.  
+<p>
+It inflicts more damage per shot than 
+the <a href="#sunArcherType">Sun Disc Thrower</a>, and it can suffer more damage
+than a Sun Disc Thrower, too, but fires less often.  The Cannon will rotate 
+itself to target an enemy.
+</a>
+
+<a name="sunBalloonType">
+<info>
+<q>"Step 1: Find the unpunctured hide of a young Air Whale...."<br>
+from Balloon Building by Halldor Laxness</q>
+<p>
+The Balloon is an <a href="#transportHelp">Aerial Transport</a> ideal for 
+gathering <a href="#stormpowerhelp">Storm Power</a>, for capturing <a href="#priestType">High Priests</a>,
+and for collecting and casting <a href="#buriedType">Spells</a>.
+<p>
+Because the Balloon is airborne, it doesn't need
+<a href="#bridgeType">bridges</a> to move around, but be careful: a few enemy hits will pop it like a soap bubble.
+<p>
+Remember: Transports cannot carry both a Priest and a Storm Crystal at the same time.
+</a>
+
+<a name="sunFenceType">
+<info>
+<q>"Between Nimbus and the Beyond stands an infinite, burning barrier." -Book of Nimbus.</q>
+<p>
+The Barricade keeps out enemy fire.
+<p>
+If you set up two Barricade posts along straight horizontal or vertical lines,
+you'll create a force field between them that keeps
+out troublesome enemy fire, but lets your own <a href="#shooterHelp">Shooters</a> fire right through.
+The fence of the Sun Barricades will represent the color of your home island.
+<p>
+Your allies can connect their Sun Barricade with yours and vice-versa. 
+Also, placing a Sun Barricade of your own in between an Enemy Sun Barricade's fence will deactivate them.
+</a>
+
+<a name="sunWalkerType">
+<info>
+<q>"Golems are dumb, clumsy, humorless, and they smell bad.<br>  
+And in wartime, they are the best friends you'll ever have." -Major Tane Russo</q>
+<p>
+The Golem is a <a href="#transportHelp">Ground Transport</a> which carries cargo.  He's ideal for
+gathering <a href="#stormpowerhelp">Storm Power</a>, for capturing <a href="#priestType">High Priests</a>,
+and for collecting and casting <a href="#buriedType">Spells</a>.
+<p>
+A supernatural servant generated by the Temple for your aid.  A personal gift from the <a href="#themeHelp">Furies</a>.
+<p>
+Be aware: <a href="#sunWalkerType">Golem</a> are dumb, and they will walk straight off a bridge if it is broken.  All other Transports stop before 
+falling to their deaths.
+<p>
+Remember: Transports cannot carry both a Priest and a Storm Crystal at the same time.
+</a>
+
+<a name="windArcherType">
+<info>
+<q>"Bolts should weigh a hundred pounds and be well-balanced.  You will know your bowstring has perfect 
+tension when you hear the Nimbian winds resonate it at F-sharp above Middle C." from The Sixth 
+Archer's Handbook</q>
+<p>
+The Crossbow is a self-aiming <a href="#shooterHelp">Shooter</a>.
+<p>
+As you're preparing to build it, right-click to aim it in one of four directions.  
+The Crossbow will target the closest unit in an arc.  Crucial to 
+fending off attacks by air, the Crossbow packs a precise wallop.
+</a>
+
+<a name="windAviaryType">
+<info>
+<q>"Another impasse in the Devil Maker experiments: today, it counter-spun the entire island like a top, 
+flinging pets and small children over the edge and into the abyss.  I must reconsider the design." -journal 
+entry, Dr. Dere Dulkus.</q>
+<p>
+The Devil Maker generates ornery <a href="#windFlyerType">Dust Devils</a>--Aerial Attackers.
+<p>
+If you destroy it, the Dust Devils 
+wind down.  Each time a Dust Devil is destroyed, its home base will make a new one.
+<p>
+Note: Nothing can ever be targeted by more than three Aerial Attackers at once.
+</a>
+
+<a name="windFlyerType">
+<info>
+<q>"Amid the howling of a Dust Devil, a doomed man hears it scream his name." -Nimbian proverb</q>
+<p>
+The Dust Devils fly into enemy territory, wreaking havoc from above.
+<p>
+It cracks <a href="#bridgeType">bridge</a> when it passes.
+The Dust Devil always lasts for twenty seconds, and regenerates from
+its <a href="#windAviaryType">Devil Maker</a> every thirty-two seconds. It cannot be used for <a href="#transportHelp">cargo</a>.
+<p>
+Note: Nothing can ever be targeted by more than three Aerial Attackers at once, and Ground 
+Transports are only targeted by one Aerial Attacker at a time.
+</a>
+
+<a name="windBatteryType">
+<info>
+<q>"With a hundred Wind Generators, you could power a hurricane." -Def Ilderless, Nimbian sage.</q>
+<p>
+A Wind Generator spreads Wind <a href="#influenceHelp">Energy</a> in 
+a radius around it.
+<p>
+The symbol for Wind Energy is <!"mana.8">.
+<p>
+Left-click to see the Energy it produces.
+<p>
+You'll need Wind Generators to build <a href="#unitHelp">Wind-aligned units</a> in battle.
+<p>
+In Multiplayer mode you can cause it to Meltdown to slightly damage enemy units or break 
+through bridges by right-clicking the unit and selecting Meltdown.
+</a>
+
+<a name="windBlockerType">
+<info>
+<q>The universe is ninety-nine percent sky and one percent island.<br> 
+In the sky, the Wind rules.</q>
+<p>
+The Wind Tower is a damage absorber.  Place it between a valuable unit and enemy fire.  The attacking unit will retarget
+to attack the Wind Tower.
+<p>
+On three sides it takes normal damage, but on its curved back it is utterly invulnerable. It is still vulnerable to air assault.
+<p>
+As you're preparing to build it, right-click to face the invulnerable side north, south, east or west.
+</a>
+
+<a name="windBalloonType">
+<info>
+<q>"In Nimbus there is nothing more graceful or fine." -Gilden Fraj, Nimbian Poet</q>
+<p>
+The Air Ship is an <a href="#transportHelp">Aerial Transport</a> ideal for 
+gathering <a href="#stormpowerhelp">Storm Power</a>, for capturing <a href="#priestType">High Priests</a>,
+and for collecting and casting <a href="#buriedType">Spells</a>.
+<p>
+Compared to the <a href="#sunballoontype">Balloon</a>,
+it is much sturdier, and faster.  
+<p>
+Because the Air Ship is airborne, it doesn't need 
+<a href="#bridgeType">bridges</a> to move around.
+<p>
+Remember: Transports cannot carry both a Priest and a Storm Crystal at the same time.
+</a>
+
+<a name="windWalkerType">
+<info>
+<q>The best pilots know the breezes by the names they call each other.</q>
+<p>
+The Sail Skater is a <a href="#transportHelp">Ground Transport</a> ideal for 
+gathering <a href="#stormpowerhelp">Storm Power</a>, for capturing <a href="#priestType">High Priests</a>,
+and for collecting and casting <a href="#buriedType">Spells</a>.
+<p>
+The Sail Skater is the speediest of the Ground Transports.
+<p>
+Remember: Transports cannot carry both a Priest and a Storm Crystal at the same time.
+</a>
+
+<a name="thunderArcherType">
+<info>
+<q>If you throw a raw Bulf egg into the air in front of a Vander Tower, it'll hit the ground hard-boiled. </q>
+<p>
+The Vander Tower is a medium range <a href="#shooterHelp">Shooter</a> that only targets airborne attackers or
+airborne <a href="#transportHelp">Transports</a>.
+<p>
+The Vander Tower builds a charge and then releases it in a shock of violent energy.  
+It fires in any direction.
+</a>
+
+<a name="thunderBatteryType">
+<info>
+<q>"As night fell around us<br>
+We tended to our fallen cohorts<br> 
+By the strobing Generator's glow."<br>
+   -from The Anthem of Thunder Ridge</q>
+<p>
+A Thunder Generator spreads Thunder <a href="#influenceHelp">Energy</a> in
+a radius around it.
+<p>
+The symbol for Thunder Energy is <!"mana.10">.
+<p>
+Left-click to see the Energy it produces.
+<p>
+You'll need Thunder Generators to build <a href="#unitHelp">Thunder-aligned units</a> in battle.
+<p>
+In Multiplayer mode you can cause it to Meltdown to slightly damage enemy units or break through 
+bridges by right-clicking the unit and selecting Meltdown.
+</a>
+
+<a name="thunderBlockerType">
+<info>
+<q>"How is a Bulwark like your mother?" -last words of Bernie Lovell, Nimbian comic.</q>
+<p>
+The Bulwark is a damage-absorber.  Set it between a valuable unit and hostile fire.  The attacking unit will retarget
+to attack the Bulwark.
+<p>
+The Bulwark is the toughest building in Nimbus.  It is utterly invulnerable to air assault, and very sturdy
+against ground fire.  The Bulwark sucks up damage like a
+sponge, but it is not cheap.
+</a>
+
+<a name="thunderCannonType">
+<info>
+<q>"Expect to go permanently deaf." - first line of The Tenth Thunder Artillery Handbook</q>
+<p>
+The Thunder Cannon is the meanest <a href="#shooterHelp">Shooter</a> in Nimbus: long-range, inflicts heavy damage, and can take a 
+beating.
+<p>
+It doesn't fire as often as other Shooters, and it can only 
+fire north, south, east, or west, and you must orient it in the direction you wish it to fire. 
+<p>
+As you're preparing to build it, right-click to rotate the unit.
+</a>
+
+<a name="thunderFenceType">
+<info>
+<q>"If a captain sees an Arc Spire ahead and doesn't turn his vessel around for home, it means that he is 
+either very brave, very stupid, or has absolutely nothing to lose." -Air Admiral Heike Kamerlingh</q>
+<p>
+The Arc Spires form barricades.  Set up two Spires and a deadly pulse courses between them.
+<p>
+The Arc Spire's charge will be drawn across <i>any</i> enemy unit between its poles.
+</a>
+
+<a name="thunderWalkerType">
+<a name="bulfType">
+<info>
+<q>"In its natural habitat the Bulf grows no larger than a cannonball, but on a strict diet of nickel and 
+limestone, he explodes to a hundred times that size." -field journal, J. T. Kierken</q>
+<p>
+The Bulf is a <a href="#transportHelp">Ground Transport</a> ideal for 
+gathering <a href="#stormpowerhelp">Storm Power</a>, for capturing <a href="#priestType">High Priests</a>,
+and for collecting and casting <a href="#buriedType">Spells</a>.
+<p>
+It is the toughest Transport in Nimbus, but quite slow.
+<p>
+Remember: Transports cannot carry both a Priest and a Storm Crystal at the same time.
+</a>
+</a>
+
+<a name="rainAviaryType">
+<info>
+<q>The recipe is a very ancient one, primarily requiring fermented rain and poison 
+spores.  No stirring is required.</q>
+<p>
+The Man o' War Pool cranks out <a href="#rainFlyerType">Man o' War</a>--Aerial Attackers.
+<p>
+Each time a Man o' War is destroyed, its home Pool will make a new one.
+<p>
+Note: Nothing can ever be targeted by more than three Aerial Attackers at once.
+</a>
+
+<a name="rainFlyerType">
+<info>
+<q>"I train my men to slaughter each other at the very sight of it." -Deisen Trow, Leader of the Band of Seerin</q>
+<p>
+Generated by <a href="#rainAviaryType">Man o' War Pool</a>, the Man o' War flies into enemy territory, wreaking havoc from above.
+<p>
+Each one lives for one minute targeting any ground units.  If it kills something other than a <a href="#shooterHelp">shooter</a>
+the Storm Power released nourishes the Man o' War and will continue on with an additional fifteen seconds added to its remaining life span.
+<p>
+The Man o' War prefers to attack <a href="#transportHelp">Ground Transports</a>, but if none are
+available it will strike at the nearest unit.
+<p>
+Each Man o' War is about twice as tough as a <a href="#sunballoontype">Balloon</a>. It cannot be used for <a href="#transportHelp">cargo</a>.
+<p>
+Note: Nothing can ever be targeted by more than three Aerial Attackers at once, and Ground
+Transports are only targeted by one Aerial Attacker at a time. 
+<br><br>
+The life span can not exceed one minute, but each unit that is killed other than a <a href="#shooterHelp">shooter</a>
+will add fifteen seconds untill the full minute is restored.
+</a>
+
+<a name="rainBatteryType">
+<info>
+<q>"In the Beyond, there is one sound that is always present: the faraway music of falling water." -Book of
+Nimbus</q>
+<p>
+A Rain Generator spreads Rain <a href="#influenceHelp">Energy</a> in
+a radius around it.
+<p>
+The symbol for Rain Energy is <!"mana.9">.
+<p>
+Left-click to see the Energy it produces.
+<p>
+You'll need Rain Generators to build <a href="#unitHelp">Rain-aligned units</a> in battle.
+<p>
+In Multiplayer mode you can cause it to Meltdown to slightly damage enemy units or break through bridges
+by right-clicking the unit and selecting Meltdown.
+</a>
+
+<a name="rainBlockerType">
+<info>
+<q>The first step to getting water to flow uphill, is enticing ice to melt backwards.</q>
+<p>
+The Ice Tower is a damage absorber.  Set it between a valuable unit and hostile fire.  The attacking unit will retarget
+to attack the Ice Tower.
+<p>
+The Ice Tower is weaker than other damage absorber, such as the <a href="#thunderBlockerType">Bulwark</a> and
+<a href="#sunBlockerType">Stone Tower</a>, but it regenerates by itself if destroyed.
+<p>
+If built on a floating island, an Offensive <a href="#buriedType">Spell</a> can destroy its island and kill 
+the Ice Tower permanently.
+</a>
+
+<a name="growingrainBlockerType">
+<info>
+<q>The first step to getting water to flow uphill, is enticing ice to melt backwards.</q>
+<p>
+The Ice Tower is weaker than other damage absorber, such as the <a href="#thunderBlockerType">Bulwark</a> and 
+<a href="#sunBlockerType">Stone Tower</a>, but it regenerates by itself if destroyed.
+<p>
+As a damage absorber, the Ice Tower is relatively weak, but it regenerates by itself if destroyed.  
+<p>
+If built on a floating island, an Offensive <a href="#buriedType">Spell</a> can destroy its island and kill
+the Ice Tower permanently.
+</a>
+
+<a name="rainCannonType">
+<info>
+<q>Like a friendly snow-ball fight, with razor-sharp icicles.</q>
+<p>
+The Ice Cannon is a <a href="#shooterHelp">Shooter</a>, ideal for targeting clustered enemy ground units.
+<p>
+It inflicts light damage.  You must orient it in the direction you wish it to shoot.  
+But on the upside, its artillery fire splinters into shrapnel on impact, damaging other nearby targets: strategize 
+appropriately.
+<p>
+As you're preparing to build it, right-click to rotate the Ice Cannon north, south, east or west.  
+</a>
+
+<a name="rainBalloonType">
+<info>
+<q>Every year there is a grueling contest among the thickest rain clouds for the honor of powering the 
+Floaters.  Most dissipate.  A handful survive.</q>
+<p>
+The Cloud Floater is an <a href="#transportHelp">Aerial Transport</a> ideal for
+gathering <a href="#stormpowerhelp">Storm Power</a>, for capturing <a href="#priestType">High Priests</a>,
+and for collecting and casting <a href="#buriedType">Spells</a>.
+<p>
+The Floater is quite sturdy, but it is expensive.  The Cloud Floater is very difficult to
+hit due to its insubstantial nature, and enemy shots seldom actually hit it.
+<p>
+Because it is airborne, it doesn't need 
+<a href="#bridgeType">bridges</a> to move around.
+<p>
+Remember: Transports cannot carry both a Priest and a Storm Crystal at the same time.
+</a>
+
+<a name="rainFenceType">
+<info>
+<q>"Even water can sometimes burn like fire." -Book of Nimbus</q>
+<p>
+The Acid Barricade provides the tightest protection of any barricade.
+<p>
+If you line up two Acid Barricade posts along straight horizontal or vertical 
+lines, an acidic barrier is created.  The Barricade dissolves every enemy unit that comes
+between the posts.
+<p>
+The Acid Barricade does not protect against enemy fire.
+</a>
+
+<a name="rainWalkerType">
+<info>
+<q>"Perhaps it is merely a machine, but it's a mean one." -Bertram Freilig, first Nimbian run over by a 
+Crystal Crab</q>
+<p>
+The Crystal Crab is a <a href="#transportHelp">Ground Transport</a> ideal for 
+gathering <a href="#stormpowerhelp">Storm Power</a>, for capturing <a href="#priestType">High Priests</a>,
+and for collecting and casting <a href="#buriedType">Spells</a>.
+<p>
+It is sturdy, and quick.  If it encounters another Transport other than a fellow Crab, it will stun it, and steal what it's carrying,
+whether Priest or Storm Crystal.
+<p>
+It is also smart enough to move to a safer location if the <a href="#bridgeType">bridge</a> underneath it becomes dangerous.
+<p>
+Remember: Transports cannot carry both a Priest and a Storm Crystal at the same time.
+</a>
+
+<a name="transportHelp">
+<h2>Transports</h2>
+<p>
+Any cargo-bearing <a href="unitHelp">unit</a>, can be Aerial or Ground.
+<p>
+<h3>Moving the Transport</h3>
+<p>
+Left-click on a Transport and as you move the cursor around the screen you'll see a cross-hairs any place 
+that's legal to move, and a no-circle any place that's illegal.  Left-click someplace legal, and the Transport
+will move there.  
+<p>
+<h3>Picking up Cargo</h3>
+<p>
+If you left-click your Transport and then move your cursor over an object that you can pick up, your cursor 
+becomes a hand.  If you left-click on that object, your Transport will go pick it up for you.
+<p>
+You can pick up <a href="#nuggetType">Storm Crystals</a>, <a href="#priestType">High Priests</a>, and 
+<a href="#buriedType">Spells</a> in the form of <a href="#buriedType">Obelisks</a>.
+<p>
+Remember: Transports cannot carry both a Priest and a Storm Crystal at the same time.
+And a Priest cannot carry another Priest.
+<p>
+<h3>Dropping Cargo</h3>
+<p>
+Right-click a cargo-carrying Transport, and choose "Drop ...".  
+This does not apply to Spells, which cannot be dropped.
+<p>
+<h3>Casting Spells</h3>
+<p>
+Once a Transport has acquired a Spell, it can cast the Spell an unlimited number of times, provided the player has
+sufficient Storm Power.  The Transport keeps that Spell until the Transport is destroyed, or until it acquires
+another Spell, supplanting the previous one.  Now when you right-click
+on your Transport, you'll be offered the option to cast the Spell for the indicated amount of Storm Power.
+<p>
+<h3>General</h3>
+<p>
+Transports can carry only one Spell at a time.  
+<p>
+Ground Transports will only attract one Aerial Attacker at a time--
+Buildings and other units attract three at a time.
+<p>
+<a href="#sunWalkerType">Golem</a> are dumb, and they will walk straight off a bridge if it is broken.  All other Transports stop before 
+falling to their deaths.
+<p>
+If a <a href="#priestType">Priest</a> or a <a href="#rainWalkerType">Crystal Crab</a> is standing on a dangerous bridge,
+it will try to move automatically to a safer position.
+<p>
+A Rule to Remember: 
+<br>You can't carry your own <a href="#priestType">High 
+Priests</a> in your own Transports.
+<br>
+</a>
+
+<a name="shooterHelp">
+<h2>Shooters</h2>
+<p>
+Shooters in Nimbus automatically target the closest enemy unit so you never have to tell them what to attack.
+<p>
+Left-click on a Shooter to see its attack range.
+<p>
+Remember that Shooters that fire in straight lines will target Ground or 
+Aerial <a href="#transportHelp">Transports</a> but often miss as the Transport
+passes by.
+</a>
+
+<a name="themeHelp">
+<h2>The Three Furies of Nimbus</h2>
+<p>
+At the heart of Nimbus a constant storm rages. There the three <a href="#sphereHelp">Furies</a>, Wind, Rain and Thunder,
+strive in never-ending conflict for control of the world.
+<p>
+This conflict
+tears huge chunks of the Hidden Planet up into the sky. Upon these newborn islands live the Nimbians, your people.
+<p>
+Death and destruction please the Furies. Thus, when you destroy an enemy unit, you are granted one quarter
+of the Storm Power value of that enemy <a href="#unitHelp">unit</a>--except for individual Aerial Attackers which
+do not actually cost any Storm Power to build.  
+<p>
+Even more pleasing to the Furies is the
+<a href="#sacrificeOutline">Sacrifice of a Priest</a>. Such Sacrifices cause them to grant the gift of 
+battle <a href="#technologyHelp">Knowledge</a>. 
+<p>
+Each Fury has a symbol for its <a href="#influenceHelp">Energy</a>:<br>
+<!"mana.8"> - Wind<br>
+<!"mana.9"> - Rain<br>
+<!"mana.10"> - Thunder<br>
+<p>
+There is also common Knowledge called "Sun," symbolized by <!"mana.11">. <a href="#unitHelp">Sun units</a> can
+use any type of <a href="#influenceHelp">Energy</a> but are relatively weak.
+<p>
+Beyond Sun Knowledge each Fury can supply specialized Knowledge. This Knowledge
+tends to require the Energy of the particular Fury who bestowed it.
+<p>
+Associated with the Wind Fury are:<br>
+<p>
+1<!"windVortex.*"> 2<!"windfactory.*"> 3<!"windbattery.*"><br>
+<p>
+1) The <a href="#windVortexType">Temple</a> where Wind is worshipped.<br>
+2) The <a href="#windFactoryType">Workshop</a> producing Wind-aligned units.<br>
+3) The <a href="#windBatteryType">Wind Generator</a> that generates Wind Energy.<br>
+4) All <a href="#unitHelp">Wind-aligned units</a>.<br>
+<p>
+Associated with the Rain Fury are:<br>
+<p>
+1<!"RainVortex.*"> 2<!"Rainfactory.*"> 3<!"Rainbattery.*"><br>
+<p>
+1) The <a href="#RainVortexType">Temple</a> where Rain is worshipped.<br>
+2) The <a href="#RainFactoryType">Workshop</a> producing Rain-aligned units.<br>
+3) The <a href="#RainBatteryType">Rain Generator</a> that generates Rain Energy.<br>
+4) All <a href="#unitHelp">Rain-aligned units</a>.<br>
+<p>
+Associated with the Thunder Fury are:<br>
+<p>
+1<!"ThunderVortex.*"> 2<!"Thunderfactory.*"> 3<!"Thunderbattery.*"><br>
+<p>
+1) The <a href="#ThunderVortexType">Temple</a> where Thunder is worshipped.<br>
+2) The <a href="#ThunderFactoryType">Workshop</a> producing Thunder-aligned units.<br>
+3) The <a href="#ThunderBatteryType">Thunder Generator</a> that generates Thunder Energy.<br>
+4) All <a href="#unitHelp">Thunder-aligned units</a>.<br>
+<p>
+Sun, which has no Fury associated with it, is nevertheless supplied by all Furies. Thus it
+has:<br>
+1<!"sunFactory.*"><br>
+<p>
+1) A <a href="#SunFactoryType">Workshop</a> producing unaligned (Sun) units.<br>
+2) All <a href="#unitHelp">Sun units</a>.<br>
+<p>
+Learn more about <a href="#sacrificeOutline">Sacrificing a Priest for new Knowledge</a>...
+<br>
+</a>
+
+<a name="unitHelp">
+<h2>Battle Units</h2>
+Battle units are divided into four varieties: Sun, Wind, Rain and Thunder. Units may
+be <a href="salvageHelp">Salvaged</a> if necessary. There are basic <a href="tacticsHelp">Tactics</a>
+that all units use for attack.
+
+<p>
+<h2>Sun Units</h2>
+Level One<br>
+<a href="#sunWalkerType">* Golem</a>  /  Ground Transport<br>
+<a href="#sunArcherType">* Sun Disc Thrower</a>  /  Shooter<br>
+<a href="#sunCannonType">* Sun Cannon</a>  /  Shooter<br>
+<a href="#sunBlockerType">* Stone Tower</a>  /  Defense<br>
+Level Two<br>
+<a href="#sunFlyerType">* Whirligig</a>  /  Aerial Attack<br>
+<a href="#sunBalloonType">* Balloon</a>  /  Aerial Transport<br>
+Level Three<br>
+<a href="#sunFenceType">* Sun Barricade</a>  /  Defense<br>
+<p>
+<h2>Wind Units</h2>
+Level One<br>
+<a href="#windBatteryType">* Wind Generator</a>  /  Source of Energy<br>
+<a href="#windWalkerType">* Sail Skater</a>  /  Ground Transport<br>
+Level Two<br>
+<a href="#windArcherType">* Crossbow</a>  /  Shooter<br>
+<a href="#windBlocker">* Wind Tower</a>  /  Defense<br>
+Level Three<br>
+<a href="#windFlyerType">* Dust Devil</a>  /  Aerial Attack<br>
+<a href="#windBalloonType">* Air Ship</a>  /  Aerial Transport<br>
+
+<p>
+<h2>Rain Units</h2>
+Level One<br>
+<a href="#rainBatteryType">* Rain Generator</a>  /  Source of Energy<br>
+<a href="#rainFenceType">* Acid barricade</a>  /  Defense<br>
+Level Two<br>
+<a href="#rainWalkerType">* Crystal Crab</a>  /  Ground Transport<br>
+<a href="#rainBlockerType">* Ice Tower</a>  /  Defense<br>
+<a href="#rainFlyerType">* Man o' War</a>  /  Aerial Attack<br>
+Level Three<br>
+<a href="#rainCannonType">* Ice Cannon</a>  /  Shooter<br>
+<a href="#rainBalloonType">* Cloud Floater</a>  /  Aerial Transport<br>
+
+<p>
+<h2>Thunder Units</h2>
+Level One<br>
+<a href="#thunderBatteryType">* Thunder Generator</a>  /  Source of Energy<br>
+<a href="#bulfType">* Bulf</a>  /  Ground Transport<br>
+Level Two<br>
+<a href="#thunderCannonType">* Thunder Cannon</a>  /  Shooter<br>
+<a href="#thunderFence">* Arc Spire</a>  /  Defense<br>
+<a href="#thunderBlockerType">* Bulwark</a>  /  Defense<br>
+Level Three<br>
+<a href="#thunderArcher">* Vander Tower</a>  /  Shooter<br>
+<p>
+<a href="#statsHelp">How to read unit information.</a><br>
+<a href="#themeHelp">Other units and their Alignments.</a>
+<br>
+</a>
+
+<a name="rainVortexType">
+<a name="windVortexType">
+<a name="thunderVortexType">
+<a name="vortexHelp">
+<info>
+<q>The blood of holy men is the elixir of destiny.</q>
+<p>
+<a href="#rainVortexType">Rain Temple</a><br>
+<a href="#windVortexType">Wind Temple</a><br>
+<a href="#thunderVortexType">Thunder Temple</a><br>
+<p>
+The Temple is the ultimate center of <a href="#influenceHelp">Energy</a> on each island.  
+Temples take one of three forms, as listed above.
+<p>
+As long as your Temple is standing, your <a href="#priestType">Priest</a> will heal 
+during battle.
+<p>
+Hit <c>F4</c> to jump to your Temple during game play.
+<p>
+Find out about using the Temple for:<br> 
+<a href="#spVortexHelp">Acquiring Storm Power</a><br>
+<a href="#golemVortexHelp">Making Golems</a><br>
+<a href="#influenceVortexHelp">Generating Energy</a><br>
+</a>
+</a>
+</a>
+</a>
+
+<a name="spVortexHelp">
+<h2>The Temple:<br>Acquiring Storm Power</h2>
+<p>
+In battle, the Temple converts <a href="#moneyHelp">Storm Power</a> into a usable 
+resource.  Without a Temple you can't collect or process Storm Power.
+<p>
+Storm Power is collected from <a href="#geyserType">Storm Geysers</a> in the 
+form of <a href="#nuggetType">Storm Crystals</a>.
+<p>
+Learn more about <a href="#golemVortexHelp">making Golems</a>...<br>
+<br>
+</a>
+
+<a name="golemVortexHelp">
+<h2>The Temple:<br>Making Golems</h2>
+<p>
+Temples allow you to create <a href="#sunWalkerType">Golems</a> that serve as 
+<a href="#transportHelp">Transports</a> on your new island.
+<p>
+A Golem will show up in your
+<a href="#teleportViewHelp">Production Window</a> when you first descend to the
+<a href="#pyrosphereHelp">Pyrosphere</a> for battle.  You can make as many of these
+servants as you wish, provided you have enough <a href="#moneyHelp">Storm Power</a>.
+<p>
+Learn more about how the Vortex <a href="#influenceVortexHelp">generates Energy</a>...<br>
+<br>
+</a>
+
+<a name="influenceVortexHelp">
+<h2>The Temple:<br>Generating Energy</h2>
+<p>
+To build anything in Nimbus, you must have the adequate <a href="#influenceHelp">Energy</a>.  Your
+Temple is one of the two sources for this Energy; the other source is Generators.  As you prepare to build anything on your home island, 
+whether it's a Golem, a Workshop, or <a href="#unitHelp">units</a> for battle, your Temple will supply the Energy you need.
+<p>
+Left-click on your Temple to see the range of this Energy.
+<p>
+<a href="#vortexHelp">Return to Temple Help.</a>
+</a>
+
+<a name="edgeFarmType">
+<info>
+<q>"In other cultures, the plowing is not so dangerous." -Pavel Milyukov, Nimbian farmer</q>
+<p>
+No <a href="#bridgeType">bridge</a> may be attached where an Edge Farm
+grows, so enemy boarding attempts are foiled there --but this may also foil your attempts to build bridges out from
+your own island.
+<p>
+As a <a href="#vortexHelp">Temple</a> is built, the alignment of that Temple grows into the Edge Farm itself.
+<p>
+The inhabitants of the islands grow their food around the island's perimeter, leaving interior space open for
+development.
+<br>
+</a>
+
+<a name="moneyHelp">
+<a name="stormPowerHelp">
+<h2>Storm Power</h2>
+<p>
+Storm Power is like currency: you spend it for every <a href="#unitHelp">unit</a> you build--except <a href="#bridgeType">bridges</a>.
+<p>
+Your current total is displayed in the <a href="#moneyGumpHelp">Storm Power Available Window</a> in the upper left
+of the screen.
+<p>
+Storm Power is an unstable state of matter between Energy and Time. It is the essence of
+all that is created or destroyed in <a href="#sphereHelp">Nimbus</a>.
+<p>
+You can use it to build nearly anything in the world of Nimbus. Remember, though, that 
+everything also requires <a href="#influenceHelp">Energy</a> to build.
+<p>
+Storm Power appears in the world as <a href="#geyserType">Storm Geysers</a>: <!"geyser.*">  
+<br>
+Left-click on one of your <a href="#transportHelp">Transports</a> and send it over to a Geyser.  The
+Transport will now automatically circle between the Geyser and your <a href="#vortexHelp">Temple</a>, mining
+the Storm Power in the form of <a href="#nuggetType">Storm Crystals</a>, until the Geyser is depleted.  (Storm Crystal:
+<!"nugget.*">)<br>
+It will then, find the next, closest un-depleted Geyser and do the same.  Watch your 
+<a href="#moneyGumpHelp">Storm Power Available Window</a> crank as your Transports
+gather the goods!
+<p>
+In your left-hand <a href="#teleportViewHelp">Production Window</a>, <a href="#unitHelp">units</a> will appear red if you do not have enough
+Storm Power to build them. 
+<p>
+Destroying enemy units in battle will give you half of their Storm Power value! The other half falls into the 
+war between the <a href="#themehelp">Furies</a> below, and eventually it is lofted up again 
+as <a href="#geyserType">Storm Geysers</a>.
+<br>
+</a>
+</a>
+
+<a name="outpostType">
+<a name="outpostHelp">
+<info>
+<q>You can almost feel the power as it takes over the island! - Sar Quinset</q>
+<p>
+Outposts give you control over an island in <a href="multiQuickHelp">Multiplayer</a> play.
+<p>
+Use your <a href="#priestType">Priest</a> to create Outposts on islands in multiplayer
+games and take them over. When an Outpost is created you gain four benefits:
+<p>
+1. You may build bridges off of the island containing the Outpost.
+<br>
+2. The island is warded against enemy construction. No enemy may build on it.
+<br>
+3. Transports may return Storm Crystals to the Outpost to turn them to Storm Power.
+<br>
+4. Units can be teleported directly from an Outpost, rather than having to travel the
+entire distance from your Workshops.
+<p>
+The rule for island domination is: The player with the most Outposts on an island dominates. If two
+players build simultaneously, the island may still remain unowned until one player creates
+another Outpost there.
+<p>
+Outposts are only available in <a href="multiplayerHelp">multiplayer</a> games.
+<p>
+Note: The island you build an outpost on will reflect the theme of your <a href="#vortexHelp">Temple</a>.
+</a>
+</a>
+
+<a name="campaignHelp">
+<a name="multiplayerHelp">
+<h2>Campaign vs. Multiplayer Mode</h2>
+<p>
+NetStorm has a number of Campaign missions for you to play, as well as a Multiplayer
+mode which you can play indefinitely. If you play the "Early Missions" you will be
+instructed in the workings of the game.
+<p>
+<b>Campaign</b>
+<p>
+In the Campaign you begin each mission with a specific group of Knowledge.  In order to win
+you must usually Sacrifice the enemy's <a href="#priestType">High Priest</a> to
+the <a href="themeHelp">Furies</a>.  This action vanquishes your enemy and allows you
+to advance to the next mission.
+<p>
+<b>Multiplayer</b>
+<p>
+In <a href="multiQuickHelp">Multiplayer</a> mode things are slightly different. Your Nimbians start with a simple Knowledge
+Profile. Each time you <a href="#sacrificeOutline">Sacrifice</a> an enemy Priest you will
+be able to gain new <a href="#technologyHelp">Knowledge</a> to improve your fighting
+ability.
+<p>
+Multiplayer maps are configured differently from those in the Campaign. You'll see that
+there are many small islands to control as you attempt to defeat your enemy. The
+<a href="#outpostType">Outpost</a> (which does not appear in the Original Campaigns) is instrumental
+in winning Multiplayer games.
+<p>
+The <a href="#altarType">Altar</a> also functions differently
+and you should learn about <a href="#challengeIslandType">Zones</a> and being
+a <a href="#battlemasterHelp">Battle Master</a>.  If you want 
+to <a href="#chatViewHelp">chat</a> with other players you might be interested in the
+<a href="#formatCommandHelp">.format command</a>.
+</a>
+</a>
+
+<a name="multiQuickHelp">
+<h2>Multiplayer Quick Start</h2>
+<p>
+Want to make sure a super-experienced guy doesn't kick your butt? Check
+out the <a href="#multiSafeHelp">Multiplayer Survival Guide</a>.
+<p>
+Other things you need to learn about for Multiplayer play:
+<p>
+* <a href="#chatViewHelp">Chat</a> lets you talk with other players.
+<br>
+* <a href="#reliabilityHelp">Reliability Ratings</a> tell you whether your opponent will finish a game.
+<br>
+* <a href="#challengeIslandType">Zones</a> let you find players your own Level.
+<br>
+* <a href="#battleIslandType">Challenge Rings</a> let you start battles.
+<br>
+* <a href="#battlemasterHelp">Battle Mastering</a> is a skill you'll want to have.
+<br>
+* <a href="#battleOptionsHelp">Battle Options</a> let you change the rules of the game.
+<br>
+* <a href="#playerOptionsHelp">Player Settings</a> let you set each player's settings.
+<br>
+* <a href="#outpostType">Outposts</a> are used to capture territory.
+<br>
+* <a href="#altarType">Altars</a> let you <a href="#sacrificeOutline">Sacrifice</a> to gain <a href="#technologyHelp">Knowledge</a>.
+<br>
+* <a href="#rankHelp">Rank</a> is achievement on a grand scale.
+<p>
+* Click <a href="#playerlistView">here</a> for a key to the information contained in:<br> 
+<a href="#PlayerListView"><!"fortgump.L1"><!"fortgump.L0"><~y><~E><~B>1.43 devo12<~.></a>
+</a>
+
+<a name="rankHelp">
+<h2>Rank</h2>
+<p>
+What divides the true veterans from the beginners?  Rank does.
+<p>
+Having a higher Rank than another player does not give you any advantages in
+battle - it is merely a way of showing your skill and how many Priests you have sacrificed.
+<p>
+Higher Rank is achieved when you have Sacrificed many Priests and
+gained every single piece of Knowledge the Furies can bestow. At this
+moment, when you next Sacrifice you will get the option to
+<p>
+<c>ADVANCE TO RANK X</c>
+<p>
+The 'X' will be the number of your new Rank. If you choose this option, all of the technologies 
+that you have gained whilst advancing to level 43 will be lost, and you will start over again 
+with the Sun Disc Thrower, the Sun Cannon, and one Generator. Choosing this option will also increase your Rank by 1.
+<p>
+In previous versions of Netstorm, Ranks gave players an advantage in battle, by giving their units more health 
+and stronger attacking power, but this was considered unfair. This system of stronger units is now used in the 
+Handicap system, of which the advantages are decided by the <a href="playerOptionsHelp">Player Settings</a>
+the <a href="#battlemasterHelp">Battle Master</a> can set.
+<p>
+<a href="multiQuickHelp">Back to Multiplayer Quick Start</a>
+</a>
+
+
+<a name="multiSafeHelp">
+<h2>Multiplayer Survival Guide</h2>
+<p>
+You need to know that players with a higher Level than yours
+have been playing longer and have won more battles. Be cautious
+if they join a game you're playing.
+<p>
+Even players with low Levels might be veterans. Check out their
+Rank by looking next to their name. A player with higher rank
+inflicts more damage the higher his Rank, and suffers less
+damage from lower Ranked players.
+<p>
+You can also examine how many games the player has played. To find out,
+<c>right-click</c> on the player's island and choose <c>View Player Info</c>
+to get details about them. This is probably the best way to tell how good a 
+player is, as the players who are the best are those who have been playing for the longest.
+<p>
+If they have played many more games than you, they are probably much
+more experienced than you are.  If you're not on a <a href="battleIslandType">Challenge
+Ring</a> then you don't need to be concerned.
+<p>
+If they are on the same Ring as you are, you have two options if you do not 
+want to play with them. First, you can simply leave the Challenge Ring by
+<c>left-clicking</c> outside the ring. Second, if you are the 
+<a href="#battlemasterHelp">Battle Master</a> you can right-click their 
+name in the left window and Kick them Off, however it is common courtesy
+to politely ask a player to leave before using this option.
+<p>
+It is also wise to check a player's <a href="reliabilityHelp">Reliability Rating</a> before
+playing.
+<p>
+<a href="multiQuickHelp">Back to Multiplayer Quick Start</a>
+</a>
+
+<a name="reliabilityHelp">
+<h2>Reliability Ratings</h2>
+<p>
+Every player gets a Reliability Rating that indicates how often he finishes games.
+<p>
+At first this may seem unimportant - but consider how disappointing it can be when
+your enemy disconnects right at the end of a battle - just so you won't beat
+him.
+<p>
+That is where Reliability Ratings come in. Whenever somebody disconnects from an unfinished
+battle and never returns, their Reliability Rating goes down.  Of course, it's
+impossible to tell whether they disconnected intentionally, or whether their 
+Internet connection is poor.  A disconnect is a disconnect. So a low Reliability 
+Rating might just mean you have a flaky Internet connection - not that you're a sore loser.
+<p>
+You can view a player's Reliability Rating in the Challenge area by <c>right-clicking</c> on
+their island.  A Reliability Rating of 100% is as good as it gets. A Rating of 0% means
+they have never finished any games!
+<p>
+If you find yourself with a low Reliability Rating you might consider switching Internet
+Service Providers.
+<p>
+<a href="multiQuickHelp">Back to Multiplayer Quick Start</a>
+</a>
+
+<a name="battlemasterHelp">
+<h2>Battle Master</h2>
+<p>
+The Battle Master can control the <a href="battleOptionsHelp">rules</a> and <a href="playerOptionsHelp">Players Settings</a> of a battle and kick
+unruly players off of the <a href="battleIslandType">Challenge Ring</a>
+before a battle begins.
+<p>
+The rules of a battle are shown at the bottom of the left hand
+window and the player settings are shown at the top left hand window.
+Click on a rule or setting to change it. When a rule or setting is changed
+you and all the other players in the battle will become "unchecked."
+This is a safety measure to prevent rules and settings changes from slipping past
+players undetected. 
+<p>
+As Battle Master you have the responsibility of creating a good
+game for all the players involved. If one player is not appropriate
+to your game (perhaps his level is too high) you can Kick him Off the
+ring. Just <c>right-click</c> on his name in the window and 
+select <c>Yes</c>. However, we ask you to be nice to the fellow players and
+try asking them to leave before kicking.
+<p>
+We urge you to consider the requests of other players on your ring
+regarding rules changes. Nobody likes to wait a long time for a battle
+to start, and heeding such requests can make everyone happier.
+<p>
+There is one other extremely important role for you as Battle Master.
+Your computer will be the one chosen to route information between the
+other players in the game. If you have a slow or poor connection, it
+is good etiquette to allow others to become a Battle Master instead.
+<p>
+Another consideration is your connection speed. If you're hosting a game
+of five or more players, you might ask around the ring to see who has the
+fastest connection. A fast Battle Master makes a more reliable game for
+everyone.
+<p>
+<a href="playerOptionsHelp">Review Player Settings</a>
+<br>
+<a href="battleOptionsHelp">Review Battle Options</a>
+<p>
+<a href="multiQuickHelp">Back to Multiplayer Quick Start</a>
+</a>
+
+
+
+<a name="battleIslandType">
+<h2>Challenge Rings</h2>
+<p>
+<c>Left-click</c> on a Challenge Ring to join that ring.
+<p>
+If you're the first player on the Challenge Ring, you will become the <a href="#battlemasterHelp">Battle Master</a>, 
+as long as the Pass Server Diagnostic option located under Options then Game is selected. Pass Server Diagnostic 
+allows you to serve, however, if you are behind a firewall or have a slow connection you may choose to deselect 
+this option and disallows you to become a <a href="#battlemasterHelp">Battle Master</a>.
+If you are not the first player on the ring you will simply become a member of that battle.
+<p>  
+If you are behind a firewall but would like to be able to serve NetStorm games you will need to open/forward  
+ports <c>6799</c> and <c>6800</c>. There is more help regarding this subject at <a href="http://www.netstormhq.com">Netstorm:HQ</a>.  
+<p>
+<i>Your location on the challenge ring is your location in the battle!</i>
+<p>
+When you join the battle, your name will appear in the left window with a colored box next to it and other <a href="playerOptionsHelp">Player Settings</a>.
+Your name will first be a gray color until you connect to the <a href="#battlemasterHelp">Battle Master</a>. If your name stays gray color,
+then for some reason you can not connect to the Battle Master. Once the gray color goes away the color of the box and your
+name is the color you'll have in the battle. To indicate that you're ready to start, click the colored box next to your name.
+<p>
+Once you clicked the box at first a black circle will appear in the box:   <!"fortgump.L6">
+<p>
+The circle should light up if your name is not gray. If it lights up this means your computer has
+confirmed that it can make a connection to the Battle Master:   <!"fortgump.L7">
+<p>
+If the black circle never lights up and your name stays gray, you cannot make this connection for some reason.
+You will want to leave this battle and join another. In rare circumstances, leaving the
+Challenge Ring and rejoining will allow the connection to be established.
+<p>
+You don't have to join a battle if you don't want to. You can leave a battle ring at any time. The <a href="#battlemasterHelp">Battle Master</a>
+has the power to 'kick', however it is common courtesy to politely ask a player to leave
+before using this option.
+<p>
+If a ring has yellow text on it, that means the battle is using a version that is different enough from yours that you may not play together.
+<p>
+Note: The <a href="#battlemasterHelp">Battle Master</a> can add a description by right clicking the center of the ring and typing into the field.
+<p>
+<a href="multiQuickHelp">Back to Multiplayer Quick Start</a>
+
+</a>
+</a>
+
+
+<a name="zoneHelp">
+<a name="challengeIslandType">
+<h2>Zones</h2>
+<p>
+NetStorm has many Zones for you to play in.  When you first enter the Pyrosphere you'll
+move automatically to a Zone that matches your Level.  If the best Zone for
+you has no other players, you'll probably appear in a nearby Zone with somebody in it.
+<p>
+In each Zone you'll see <a href="#battleIslandType">Challenge Rings</a> and more Zones.
+<br>
+<!"battleIsland.*">
+"Challenge Ring"
+<br>
+<!"challengeIsland.*"> "Zone"
+<p>
+If you wish to visit another Zone, examine the words under the Zone. If it says, "Empty"
+then there are no other players in that Zone. However, if someone joined the zone recently
+you may not be able to tell they joined the zone. Pushing <c>F9</c> will refresh the zones and allow
+you to see if anyone joined the zone recently. If there is someone in the zone it will say the number of
+players in the zone, and there average level. To travel to another Zone, just <c>left-click</c>
+the Zone.
+<p>
+While in a Zone, click on the player's name on the left window and your
+screen will zoom to that player. <c>Left-click</c> near that player and your island
+will fly to the new location you've chosen.
+<p>
+<a href="multiQuickHelp">Back to Multiplayer Quick Start</a>
+</a>
+</a>
+
+<a name="playerListView">
+<a name="playerListViewHelp">
+<h2>Player List Window</h2>
+<p>
+If you are floating free in the Pyrosphere you will see the names
+of every player present in your <a href="challengeIslandType">Zone</a>.  You can
+click on a player's name to see where that player is.
+<p>
+With each player handle you may see some or all of the following information, and might look like this:
+<!"fortgump.L1"><!"fortgump.L0"><~y><~E><~B>1.43 devo12<~.>
+<p>
+<!"fortgump.L1"> indicates that the player is marked as not being able to be the 
+<a href="battleMasterHelp">Battle Master</a> i.e. the server in a multi-player game. 
+In short, battles will be more robst the fewer players are fire-walled.
+If you are fire-walled yourself, look for battles where most of your opponents are not i.e. the server
+in a multi-player game.
+<p>
+If you see the <!"fortgump.L1"> icon next to your name, but don't think that you are
+actually fire-walled, you can get rid of the icon by pressing Esc, clicking Options, 
+clicking Game and select the Pass Server Diagnostic option. This means that you can 
+be a Battle Master at the start of a game, and that you can take over the role of
+<a href="battleMasterHelp">Battle Master</a> in the middle of a game if the current Battle Master disconnects.
+<p>
+If you do not see the <!"fortgump.L1"> icon next to your name, but you know that you are unable to
+serve well, then you can mark yourself as firewalled by unselecting the option mentioned in the previous
+paragraph. This will mean that you will never become Battle Master in a game.
+<p>
+<!"fortgump.L0"> indicates that the player does not have the NetStorm CD currently in 
+his or her CD-Rom drive.  Note: On most servers you will not see this icon.
+<p>
+The numbers before the name, example <c>1.43</c> are the <a href="rankHelp">Rank</a> and level. So therefore
+<c>1.43</c> would be rank 1 level 43. The higher the level the more <a href="unitHelp">Units</a> the player 
+has. The higher the rank is the longer the player has been playing.
+<p>
+<~y><~E><~B>devo12<~.> is an example of a player's handle name
+<p>
+While inside a <a href="battleIslandType">Challenge Ring</a> you may notice icons such as
+~[IfortGump.L9] ~[IfortGump.L11] <!"icon.B0">. You can review these icons in the
+<a href="playerOptionsHelp">Player Settings</a> section.
+<p>
+See the <a href="multiQuickHelp">Multiplayer Quick Start</a> for additional information.
+</a>
+</a>
+
+<a name="battleStatusView">
+<a name="battleStatusViewHelp">
+<h2>Battle Status Window</h2>
+<p>
+The top half of this window displays all the players in your battle and the current <a href="#playeroptionshelp">Player Settings</a>.
+<p>
+The bottom half shows the current <a href="#battleoptionshelp">Battle Options</a>.
+<p>
+Each player must click the box next to his or her name before the <a href="battlemasterhelp">Battle Master</a>
+can start the battle.
+<p>
+If somebody joins and their name stays gray it means they can not connect. When the gray named person clicks 
+in their pip will stay dark meaning they cannot establish a connection with the <a href="battlemasterhelp">Battle Master</a> 
+and cannot play in that game. Sometimes leaving the <a href="#battleIslandType">Challenge Ring</a> and rejoining will
+allow the connection to be established.
+<br>
+<!"fortgump.L6"> Dark Pip (can not connect)<br>
+<!"fortgump.L7"> Light Pip (connected)
+<p>
+Click <a href="#playerlistView">here</a> for a key to the information contained in:<br>
+<a href="#playerlistView"><!"fortgump.L1"><!"fortgump.L0"><~y>devo12<~.></a>
+<p>
+<a href="multiQuickHelp">Back to Multiplayer Quick Start</a>
+</a>
+</a>
+<a name="playerOptionsHelp">
+<h2>Player Settings</h2>
+<p>
+Player settings are settings the <a href="battlemasterhelp">Battle Master</a> sets for each player.
+<p>
+<c>Observer</c> - determines whether the indicated person is fighting or observing the battle. A ~[IfortGump.L9] 
+represents that the person is playing, while a ~[IfortGump.L10] represents that the person is observing.
+An observer will not have an island, a priest, or Storm Power in the game. The Battle Master can adjust
+this setting by clicking on the icon.
+<p>
+<c>Preset Teams</c> - To create a preset team, the Battle Master can click on the colored shields until the
+players on the same team have matching shields. Right clicking a colored shield will make this setting go back.
+<br>
+The Shields are: ~[IfortGump.L11]~[IfortGump.L12]~[IfortGump.L13]~[IfortGump.L14]~[IfortGump.L15]~[IfortGump.L16]~[IfortGump.L17]~[IfortGump.L18]
+<p>
+<c>Handicap</c> - The Handicap option allows the Battle Master to strengthen the units of a certain player.
+Left and Right clicking the icon forces it to change. 
+<br>
+The icons from one to ten are: <!"icon.B0"> <!"icon.B1"> <!"icon.B2"> <!"icon.B3"> <!"icon.B4"> <!"icon.B5"> <!"icon.B6"> <!"icon.B7"> <!"icon.B8"> <!"icon.B9">
+<br>
+Once the rank gets high, it will have two icons and it works just like a number system. The higher the icon the
+more strength the player units are. You can check the handicap any time in battle by pressing <c>F9</c> to
+bring up the player list. For more information on this you can check <a href="http://www.netstormhq.com">Netstorm:HQ</a>.
+<p>
+<a href="battleOptionsHelp">Review Battle Options</a>
+<br>
+<a href="multiQuickHelp">Back to Multiplayer Quick Start</a>
+</a>
+<a name="battleOptionsHelp">
+<h2>Battle Options</h2>
+<p>
+Battle options change the initial conditions of a battle.
+<p>
+
+<c>Game Options></c> Clicking this text will pop up a drop down menu that will list all the battle options that can be changed in drop down format.<p>
+
+<c>(Sort By)</c> you can click the sort by menu to easily toggle between the battle options viewing.<br> 
+<p><c>The Show All Options</c> has the same appearance of older version of NS however clicking the white text will bring up a drop down box allowing you to change the value of the option easily while clicking the tan text will toggle the options by one as seen in prior version of Netstorm.<br>
+<p><c>Show Only Changed Options</c>this option will show only the battle options that have been changed from there original default. This option allows you to add battle master option much the same as you would add excluded units. Clicking the white or tan text will reset the battle option to default and remove it from the current viewpoint. <p>
+<p>
+
+<c>Game Type</c> - Netstorm as a game over the years has evolved into many branches and with every introduction of a new patch the game dynamics tend to change. Keeping this in mind the concept of Game Types was born. In general Game Types allows you to easily select between different generations of battle styles that have been created over the years. This option also organizes the battle menu into something that is easier to read and easier to configure and auto configures some of the battle options thus making setting up a game quicker and easier. For example <br>
+<p>
+<c>Netstorm Standard</c> is classified as the most current style of game play. This selection features the newly implemented geyser distribution system and includes battle options that are traditionally associated with Modern Netstorm game play.<br> 
+<p>
+<c> Netstorm Classic</c> is a highbred between Netstorm 10.64 and Netstorm 10.37 and utilizes the random map geyser distribution system commonly found in older version of the game.<br>
+<p>
+<c> Netstorm Flexible</c> unlocks 95% of the battle options that can be configured and is very similar to the layout of  Netstorm 10.70<br>
+<p>
+<c> Netstorm Geyserless</c> is a radical new concept born from the idea of the furies granting the player small amounts of money during the game rather than the player having to worry about collecting. This game style is very new, and can be quite fun.<br>
+<p>
+<c> Player Customizable</c> allows the player to create there own game style and edit almost every aspect of the game. Who knows maybe you will create a game style that everyone will enjoy playing.
+<p>
+
+<c>Bridge Slots</c> - determines how many bridges will appear in
+your Production Window during the game.
+<p>
+<c>Unit Rate</c> - determines how quickly units refresh in your
+Production Window. For example, when you lay a unit down in the
+game its image in the Production Window will stay dimmed for a 
+while. Increase the Unit Rate and it will light up more quickly.
+<p>
+<c>Generator Range</c> - describes how far a Generator will cast
+its energy. A longer range means it's easier to deploy high level
+units (but there is less strategy to the game).
+<p>
+<c>Kill Reward</c> - When you destroy an enemy unit you usually
+get one quarter of the Storm Power value of that unit. You can change
+the reward value with this option.
+<p>
+<c>Breakable Alliances</c> - Are players allowed to break alliances once they
+have made them?  Normally you cannot break alliances. If you want greater freedom
+you can switch this to <c>Yes</c>.
+<p>
+<c>Allow Send</c> - Are players allowed to send Storm Power to other players? Normally you 
+can send Storm Power to other players. If you want to disallow this you can switch this to <c>No</c>.
+<p>
+<c>Money per Geyser</c> - How much Storm Power will each Geyser
+produce?
+<p>
+<c>Starting Cash</c> - determines how much Storm Power you start with. This is normally set at <c>6500</c>,
+however if you feel you need more or less at the start of game you can change this option.
+<p>
+<c>Geyser Amount</c> - determines how many geysers are in the game. You can change this to have
+more or less geysers in the game.
+<p>
+<c>Spell</c> - Do you want spells in the game? Normally spells are in the game. If you want to disallow spells
+you can switch this to <c>No</c>. This option does not affect the priest.
+<p>
+<c>Map Mode</c> - determines what type of map you want. This is normally set to the traditional multiplayer map
+<c>Archipelago</c>, but you can change this to a <c>Single Island</c>.
+<p>
+<c>Map Size</c> - Changing this option will result in a larger or smaller map size.
+<p>
+<c>Map Density</c> - determines the size and amount of islands in the game. Higher densities increase the
+odds of more and larger islands appearing, while lower densities decrease these odds.
+<p>
+<c>Island Dynamics</c> - this option if active causes random items such as trees, ruins and monuments to be created allover the map. 
+<p>
+<c>Geysers Placement</c> - This option toggles between having no geyser on startup or respawning during the game, the old Netstorm geyser mode where geysers could spawn anywhere on the map and the new geyser mode that evenly distributes geysers across the map.
+<p>
+<c>Geysers Respawns</c> - this option sets how often the respawn geyser could. <p>
+<p>
+<c>Resource Injections</c> - This option allows the furies to send you storm power at discreet intervals of time. <p>
+<p>
+<c>Injection Value</c> - This option sets how much storm power the furies will send you per injection. <p>
+<p>
+
+
+<c>Excluded Units</c> - If you don't want to allow a certain unit or building to be
+built during your battle, you can exclude them here. Also excluding spells will not allow a particular spell to appear on the map.
+<p>
+<a href="playerOptionsHelp">Review Player Settings</a>
+<br>
+<a href="multiQuickHelp">Back to Multiplayer Quick Start</a>
+
+

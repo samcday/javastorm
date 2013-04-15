@@ -1,0 +1,18 @@
+typename teleportEffect
+typeflags dontSave not_real;
+{
+	description="teleport effect";
+	zorder = "zoNONE";
+	foot_x = 1;
+	foot_y = 1;  
+
+	artifactFrame = 1;
+
+	speed = 12.0;
+	turningSpeed = 10000.0;
+
+	activeSound = "teleportEffect.wav";
+}
+
+A00 : default : "plachold.gif" #01;
+

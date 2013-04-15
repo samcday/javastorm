@@ -1,0 +1,14 @@
+typename embassy constructor
+typeflags residence emplacement needspower needswater dropBlocking shotBlocking shadow;
+{
+	description="Embassy";
+	maxHitPoints = 1000;
+	zorder = "zoEMPLACEMENTS";
+	foot_x = 4;
+	foot_y = 3;
+	damageEffect = 1;
+}
+
+P01 : default : "embassy.gif" #00  : "embassy.gif" #01  ;
+
+A00 : help : "b_embassy.GIF" #00;

@@ -1,0 +1,36 @@
+typename rainFactory constructor
+typeflags factory yuckWalk dropBlocking shotblocking shadow;
+{
+	description="Rain Workshop";
+	class="Production";
+	maxHitPoints = 4000;
+	theme = "rain";
+	cost = 1000;
+	threat = 20;
+
+	zorder = "zoEMPLACEMENTS";
+	foot_x = 8;
+	foot_y = 6;
+
+	damageEffect = 1;
+	buildDoneSound = "workshopComplete.wav";
+}
+
+A01 : default baseframe : "rfactory.gif" #00 : "rfactory.gif" #09;
+A02 : : "rfactory.gif" #01 : "rfactory.gif" #09 ;
+A03 : : "rfactory.gif" #02 : "rfactory.gif" #09;
+
+B01 : : "rfactory.gif" #03 : "rfactory.gif" #09;
+B02 : : "rfactory.gif" #04 : "rfactory.gif" #09;
+B03 : : "rfactory.gif" #05 : "rfactory.gif" #09;
+
+C01 : : "rfactory.gif" #06 : "rfactory.gif" #09;
+C02 : : "rfactory.gif" #07 : "rfactory.gif" #09;
+C03 : : "rfactory.gif" #08 : "rfactory.gif" #09;
+
+
+D01 : : "rfactory.gif" #06 : "rfactory.gif" #09;
+D02 : : "rfactory.gif" #07 : "rfactory.gif" #09;
+D03 : : "rfactory.gif" #08 : "rfactory.gif" #09;
+
+P00 : help : "b_rfactory.gif" #00;

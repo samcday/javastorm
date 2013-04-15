@@ -1,0 +1,162 @@
+[Header]
+missionType = "Tutorial"
+aid=1
+
+loadFort = "BridgeTheGap"
+denySalvage = 1
+denyAscend = 1
+tutorialNumber = 1
+moreGeysers = 0
+
+techAllowed = "deny;all;allow;windVortex"
+
+myStartMoney = 0
+myTech = ""
+
+aiOff = 1
+aiNoTemple = 1
+
+title = "Kunst des Br?ckenbaus"
+
+[Options]
+
+[A.]
+<h2>NetStorm!</h2>
+<i>"Wer nach Frieden strebt, mu? zum Krieg r?sten." -Verfasser unbekannt</i>
+<p>
+Die Zielsetzung in NetStorm ist denkbar einfach: Nehmen Sie die feindlichen Priester gefangen, und opfern Sie sie den Furien, um als Gegenleistung Wissen und Macht zu erlangen.
+<p>
+Ebenso leicht verst?ndlich ist die NetStorm-Spielsteuerung:
+<p>
+Klicken Sie die <c>linke Maustaste</c>, um Objekte aufzunehmen oder abzulegen.
+<br>
+Klicken Sie die <c>rechte Maustaste</c>, um weitere Optionen und Informationen aufzurufen.
+<p>
+Um den Bildschirm zu scrollen, bewegen Sie den Mauszeiger auf bzw. ?ber den Bildrand (im Vollbildmodus oder im Fenstermodus bei einer Aufl?sung von 640x480), oder halten Sie die <c>ALT</c>-Taste gedr?ckt, um entsprechend der Mauszeigerbewegung bzw. -position zu scrollen (in allen Bildschirmmodi).
+<p>
+Durch Bet?tigung der <c>ESC</c>-Taste wird das Optionen-Men? am oberen Bildschirmrand aktiviert.
+$Button=WEITER,Tell,A1.
+
+[A1.]
+<h2>Scrollen</h2>
+Probieren Sie zun?chst einmal, ?ber Ihre Insel zu scrollen. 
+<I>Nachdem Sie ein wenig umhergescrollt haben, dr?cken Sie die Taste F4, um die Ansicht wieder auf Ihre Insel zu fokussieren. Die ?bungsmission wird anschlie?end automatisch fortgesetzt.</I>
+<p>
+Sie k?nnen jederzeit die Taste <c>F8</c> dr?cken, um sich die Beschreibung dieser ?bungsmission nochmals einblenden zu lassen.
+$Button=ZUR?CK,Tell,A.
+$Button=OK,DoNothing,0
+
+
+[B.]
+<h2>Br?cken</h2>
+<i>"M?gen die Inseln von den Br?cken gehalten werden<br>
+und die Br?cken von den L?ften."<br>
+--Verfasser unbekannt</i>
+<p>
+Auf der linken Seite des Bildschirms befindet sich das Produktionsfenster, in dem unterschiedlich geformte Br?ckenteile abgebildet sind. Klicken Sie eines davon mit der <c>linken Maustaste</c> an, um es aufzunehmen. Bewegen Sie das Br?ckenteil an eine beliebige Stelle am Rand Ihrer Insel, und klicken Sie schlie?lich erneut die <c>linke Maustaste</c>, um es dort abzulegen.
+<p>
+Br?cken k?nnen nur an den <i>R?ndern</i> einer Insel oder an den <i>freien</i> Enden anderer Br?ckenteile angelegt werden. 
+Wird das ausgew?hlte Br?ckenteil im Mauszeiger in roter Farbe angezeigt, kann es an der jeweiligen Stelle nicht abgelegt werden.
+<p>
+An manchen Stellen der Inselr?nder befindet sich Klippenvegetation. Hier k?nnen keine Br?ckenteile errichtet werden.
+<p>
+<I>Versuchen Sie nun, ein paar Br?ckenteile abzulegen.</I>
+<p>
+ZUR ERINNERUNG: Mit <c>F8</c> k?nnen Sie sich jederzeit die Beschreibung der aktuellen ?bungsmission erneut einblenden lassen.
+$Button=OK,DoNothing,0
+
+
+[C.]
+<h2>Br?ckenteile drehen</h2>
+<i>"Wenn die k?rzeste Entfernung zwischen zwei Punkten eine gerade Linie w?re, w?rden wir doch wohl kaum derartig verwinkelte Br?cken bauen, oder?" --Euklidius, 4. Jahrhundert
+</i>
+<p>
+Wenn ein Br?ckenteil nicht wie gew?nscht ausgerichtet ist, klicken Sie die <c>rechte Maustaste</c>, um es in eine andere Stellung zu drehen. Mit einem Klick auf die <c>linke Maustaste</c> legen Sie es wie gewohnt in der Landschaft ab.
+<p>
+Wenn Sie versehentlich ein falsches Br?ckenteil aufgenommen haben, dr?cken Sie einfach die <c>ESC</c>-Taste, um es wieder in das Produktionsfenster zur?ckzulegen. Alternativ k?nnen Sie den Mauszeiger auch wieder in das Produktionsfenster bewegen und dort die <c>linke Maustaste</c> klicken.
+<p>
+Hinweis: Statt die Maus zu benutzen, k?nnen Sie die Br?ckenteile entsprechend ihrer Positionen im Produktionsfenster auch schnell und bequem mit Hilfe der Tasten <c>q</c>, <c>w</c>, <c>a</c> und <c>s</c> ausw?hlen. 
+$Button=WEITER,Tell,C1.
+
+[C1.]
+<h2>Beschaffenheit der Br?ckenteile</h2>
+Wenn ein Br?ckenteil im Produktionsfenster erscheint, hat es zun?chst Risse. Lassen Sie es eine Weile unbenutzt dort liegen, und Sie werden feststellen, da? es sich nach und nach stabilisiert.
+Rissige Br?ckenteile sind instabil und brechen schnell. Dementsprechend leidet die Qualit?t der gesamten Br?cke, wenn Sie ein Br?ckenteil zu fr?h anlegen, und Sie haben dann m?glicherweise sp?ter das Nachsehen!
+<p>
+Frei schwebende Br?ckenteile, die nicht an irgendeiner Insel angelegt sind, brechen unter ihrem eigenen Gewicht zusammen. Alles, was sich zu diesem Zeitpunkt auf dem Br?ckenteil befindet, st?rzt mit ihm in die Tiefe!
+<p>
+<I>Die ?bungsmission wird automatisch fortgesetzt, nachdem Sie einige weitere Br?ckenteile plaziert haben.</I>
+(Probieren Sie, die Teile durch Anklicken der <c>rechten Maustaste</c> in verschiedene Stellungen zu drehen!)
+
+$Button=ZUR?CK,Tell,C.
+$Button=OK,DoNothing,0
+
+[D.]
+<h2>Sturmkraft, Teil 1</h2>
+<i>"Die Entstehung der Kristalle in einem Geysir zu beobachten, ist, als ob man zusieht, wie wei?es Feuer zu Eis wird."
+--Freiken Drupe, Nimbischer Naturkundler</i>
+<p>
+Oberhalb des Produktionsfensters wird angezeigt, wieviel Sturmkraft Sie gerade besitzen. Die Sturmkraft dient im Wolkenreich von Nimbus in erster Linie als Zahlungsmittel: Ohne Sturmkraft k?nnen keinerlei Kampfeinheiten errichtet werden. Errichtung und Zerst?rung stehen in direktem Zusammenhang mit der verf?gbaren Sturmkraftmenge - und genau aus diesem Grund sollten Sie so viel Sturmkraft wie m?glich ansammeln!
+<p>
+Aus den Geysiren k?nnen Sturmkristalle abgebaut werden, die in Sturmkraft umgewandelt werden.
+<p>
+       <!"geyser.*">                          <!"nugget.*"><br>
+"Sturmgeysir"       "Sturmkristall"
+$Button=WEITER,Tell,D1.
+
+[D1.]
+<h2>Sturmkraft, Teil 2</h2>
+Errichten Sie eine Br?ckenverbindung zwischen Ihrer Insel und einer Geysirplattform. Sollte es Ihnen nicht auf Anhieb gelingen, die Br?cke am Geysir anzulegen, geben Sie nicht gleich auf - das zielgenaue Anlegen erfordert ein wenig ?bung. Warten Sie eine Weile, bis die falsch plazierten Br?ckenteile zusammenbrechen, und versuchen Sie es dann mit einem anders geformten Teil noch einmal.
+<p>
+Sobald ein Br?ckenteil so plaziert ist, da? es b?ndig an der Insel anliegt, erscheint am Ende des Br?ckenteils eine kleine Verl?ngerung, die den verbleibenden Zwischenraum ?berbr?ckt. Auf diese Weise k?nnen Sie schnell und einfach feststellen, ob das Br?ckenteil korrekt am Geysir abschlie?t.
+<p>
+Hinweis: Damit das korrekte Anlegen von Br?ckenteilen an Plattformen oder Inseln etwas einfacher vonstatten geht, k?nnen Sie mit Hilfe der Taste <c>F2</c> alle Objekte ausblenden bzw. transparent darstellen lassen.
+Um die Objekte wieder einzublenden, dr?cken Sie erneut <c>F2</c>.
+<p>
+<I>Sobald Sie eine Br?ckenverbindung zu einem Geysir hergestellt haben, wird die ?bungsmission automatisch fortgesetzt.</I>
+<p>
+       <!"geyser.*"><br>
+"Sturmgeysir"
+$Button=ZUR?CK,Tell,D.
+$Button=OK,DoNothing,0
+
+
+[E.]
+<h2>Abbau von Sturmkraft</h2>
+Nachdem Sie nun einen Zugang zu einem Geysir geschaffen haben, k?nnen Sie mit dem Abbau der darin befindlichen Sturmkristalle beginnen.
+<p>
+Klicken Sie mit der <c>linken Maustaste</c> zun?chst auf Ihren Priester und dann auf den Geysir. Der Priester betritt daraufhin den Geysir, sammelt einen Sturmkristall ein und kommt wieder heraus.
+<p>
+Hinweis: Dr?cken Sie die Taste <c>F5</c>, um die Ansicht auf Ihren Priester zu fokussieren.
+<p>
+<I>Die ?bungsmission wird fortgesetzt, sobald Ihr Priester mitsamt einem Sturmkristall zum Tempel zur?ckkehrt.</I>
+<p>
+     <!"priest.*"><br>
+     "Priester"<br>
+
+$Button=OK,DoNothing,0
+
+[F.]
+<h2>Der Tempel</h2>
+Der Priester pendelt nun st?ndig zwischen Geysir und Tempel hin und her und liefert bei jedem Besuch im Tempel einen eingesammelten Kristall ab.
+<p>
+Der Tempel besitzt die magische F?higkeit, Sturmkristalle in Sturmkraft umzuwandeln; dementsprechend w?chst Ihr oberhalb des Produktionsfensters angezeigter Sturmkraftbestand gem?? der abgelieferten Sturmkristalle an.
+<p>
+Lassen Sie Ihren Priester solange Sturmkristalle einsammeln, bis Sie 600 Sturmkrafteinheiten besitzen. In der Zwischenzeit sollten Sie weitere Br?ckenverbindungen zu anderen Geysiren errichten.
+
+
+[G.]
+<h2>Mission erfolgreich abgeschlossen!</h2>
+Herzlichen Gl?ckwunsch, Sie haben die erste ?bungsmission erfolgreich absolviert.
+<p>
+In der n?chsten ?bungsmission erfahren Sie, wie Kampfeinheiten errichtet werden.
+<$Config,Done{mission.fileName}=1>
+$Button=?bungsmission verlassen,LeaveBattle,1
+$Button=N?chste ?bungsmission,MissionBegin,Tutorial2
+
+[NoBridgeYet]
+?ben Sie zun?chst das Scrollen des Bildschirms. Dr?cken Sie danach die Taste <c>F4</c>, um zu Ihrer Insel zur?ckzukehren und anschlie?end mit dem Thema Br?ckenbau fortzufahren.
+
+[END]
+																		 
+																		 

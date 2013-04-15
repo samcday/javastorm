@@ -1,0 +1,13 @@
+typename geyserBrightener
+
+typeflags dontSave not_real;
+{
+	zorder = "zoFLARES";
+	foot_x = 3;
+	foot_y = 3;
+	hotFootRatioX = 0.22;
+	hotFootRatioY = 0.22;
+}
+
+A00 : default : "geyser.gif" #00 ;
+

@@ -1,0 +1,24 @@
+typename earthFactory constructor
+typeflags factory yuckWalk dropBlocking shotblocking;
+{
+	description="Earth Workshop";
+	class="Production";
+	maxHitPoints = 4000;
+	theme = "earth";
+	cost = 1000;
+	zorder = "zoEMPLACEMENTS";
+	foot_x = 8;
+	foot_y = 6;
+
+	damageEffect = 1;
+	buildDoneSound = "workshopComplete.wav";
+}
+
+A01 : default baseframe : "efactory.gif" #00 ;
+
+B01 : : "efactory.gif" #01 ;
+
+C01 : : "efactory.gif" #02 ;
+
+
+P00 : help : "b_sfactory.gif" #00;

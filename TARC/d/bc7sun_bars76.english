@@ -1,0 +1,96 @@
+[Header]
+missiontype="tutorial"
+
+missionnumber=7
+moregeysers=1
+
+mystartmoney=20000
+mytech="windBattery;sunFence"
+myallylist=""
+
+title="Sun Barricade"
+
+ai2name="Lord Ice"
+ai2tech="rainCannon;rainBattery"
+ai2startmoney=999999
+ai2geyserattachments=0
+ai2collectors=1
+ai2timebetweenmoves= 2
+ai2allylist="3;4;5"
+ai2color=lightblue
+ai2bridgedrawrate= 2
+ai2stuffRefreshRate=1
+
+ai3name="Sir Vortex"
+ai3tech="windArcher;windBattery"
+ai3startmoney=999999
+ai3geyserattachments=0
+ai3collectors=1
+ai3timebetweenmoves= 2
+ai3allylist="2;4;5"
+ai3color=Green
+ai3bridgedrawrate= 2
+ai3stuffRefreshRate=1
+
+ai4name="Count Thunder"
+ai4tech="thunderCannon;thunderBattery"
+ai4startmoney=999999
+ai4geyserattachments=0
+ai4collectors=1
+ai4timebetweenmoves= 2
+ai4allylist="2;3;5"
+ai4color=Purple
+ai4bridgedrawrate= 2
+ai4stuffRefreshRate=1
+
+ai5name="Mr Sun"
+ai5tech="sunCannon;windBattery;sunArcher"
+ai5startmoney=999999
+ai5geyserattachments=0
+ai5collectors=1
+ai5timebetweenmoves= 2
+ai5allylist="2;3;4"
+ai5color=Yellow
+ai5bridgedrawrate= 2
+ai5stuffRefreshRate=1
+
+[Options]
+
+[A.]
+<h2>Sun Barricade</h2>
+<i>~y"To be able to make a good offensive, you must make sure you are well defended first"<br>
+-Minister of Nimbian Defense</i>
+<p>~wOutraged at their defeat your enemies quickly regroup and attack.  You no longer can make Man o' War and you are surrounded, you send out a distress call for allies, they are arriving, you just have to hope you can hold out until then....
+<p>~B~E~rObjective:~.~B~w  Do not let your temple be destroyed for 5 minutes by using sun barricades as a defense.
+<p>~B~E~oHint:~.~B~w  You can try giving the enemy something to shoot at, then put a sun barricade in front of it...
+<p><!"sunfence.*">
+<p>"Sun Barricade"
+
+$Button=Technology available,ShowTechnology,55
+$Button=Lets do this!,DoNothing,0
+</?>
+
+[@300]
+<h2>Incoming Message</h2>
+<p>~yWe have arrived!
+<p>-allies
+<p>~wYou have finished the challange!
+<$Config,Done{mission.fileName}=1>
+$Button=Training Menu,MissionBegin,BC1Menu
+<p>
+$Button=Restart,Tell,TryAgain
+$Button=FINISH THEM!,MissionBegin,BC8Fury76
+<p>
+$Button=Leave Missions,MissionAbort,0
+
+
+[Failed][ai1templedead]
+<h2>Failure...</h2>
+<p>The enemy managed to break through your defense.  You allies arrive to see a demolished island and no priest.
+$Button=Training Menu,MissionBegin,BC1Menu76
+<p>
+$Button=Restart,Tell,TryAgain
+<p>
+$Button=Leave Missions,MissionAbort,0
+
+[END]

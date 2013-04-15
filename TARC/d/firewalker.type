@@ -1,0 +1,90 @@
+typename fireWalker 
+typeflags walker;
+{
+	description="Fire Ant";
+	class="Ground Transport";
+	maxHitPoints = 50;
+	theme = "Fire";
+	level = 1;
+	height = 1;
+
+	zorder = "zoEMPLACEMENTS";
+	foot_x = 1;
+	foot_y = 1;
+//	activeSound = "moveBeetle.wav";
+	moveSound = "golemMove1.wav";
+	pickupSound = "golemPickup.wav";
+	dropSound = "golemDrop.wav";
+	group = "walker";
+
+	speed = 2.0;
+	turningSpeed = 99999.0;
+
+	hotFootRatioX = 0.5;
+	hotFootRatioY = 0.2;
+}
+
+// NORTH
+A00 :default : "FIREANT.GIF" #0 ;
+A01 : : "FIREANT.GIF" #0 ;
+A02 : : "FIREANT.GIF" #0 ;
+A03 : : "FIREANT.GIF" #0 ;
+A04 : : "FIREANT.GIF" #0 ;
+
+
+// NORTHEAST
+B00 : : "FIREANT.GIF" #1 ;
+B01 : : "FIREANT.GIF" #1 ;
+B02 : : "FIREANT.GIF" #1 ;
+B03 : : "FIREANT.GIF" #1 ;
+B04 : : "FIREANT.GIF" #1 ;
+
+
+// EAST
+C00 : : "FIREANT.GIF" #2 ;
+C01 : : "FIREANT.GIF" #2 ;
+C02 : : "FIREANT.GIF" #2 ;
+C03 : : "FIREANT.GIF" #2 ;
+C04 : : "FIREANT.GIF" #2 ;
+
+// SOUTHEAST
+D00 : : "FIREANT.GIF" #3 ;
+D01 : : "FIREANT.GIF" #3 ;
+D02 : : "FIREANT.GIF" #3 ;
+D03 : : "FIREANT.GIF" #3 ;
+D04 : : "FIREANT.GIF" #3 ;
+
+// SOUTH
+E00 : : "FIREANT.GIF" #4 ;
+E01 : : "FIREANT.GIF" #4 ;
+E02 : : "FIREANT.GIF" #4 ;
+E03 : : "FIREANT.GIF" #4 ;
+E04 : : "FIREANT.GIF" #4 ;
+
+// SOUTH-WEST
+F00 : : "FIREANT.GIF" #5 ;
+F01 : : "FIREANT.GIF" #5 ;
+F02 : : "FIREANT.GIF" #5 ;
+F03 : : "FIREANT.GIF" #5 ;
+F04 : : "FIREANT.GIF" #5 ;
+
+// WEST
+G00 : : "FIREANT.GIF" #6 ;
+G01 : : "FIREANT.GIF" #6 ;
+G02 : : "FIREANT.GIF" #6 ;
+G03 : : "FIREANT.GIF" #6 ;
+G04 : : "FIREANT.GIF" #6 ;
+
+// NORTHWEST
+H00 : : "FIREANT.GIF" #7 ;
+H01 : : "FIREANT.GIF" #7 ;
+H02 : : "FIREANT.GIF" #7 ;
+H03 : : "FIREANT.GIF" #7 ;
+H04 : : "FIREANT.GIF" #7 ;
+
+
+// BLANK
+I00 : : "blank.gif" #0 ;
+
+J00 : help : "b_golem.GIF" #00;
+

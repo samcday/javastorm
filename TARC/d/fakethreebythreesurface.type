@@ -1,0 +1,10 @@
+typename fakeThreeByThreeSurface 
+typeflags surface dontSave island islandThreeByThree;
+{
+	description="fake3x3Surface";
+	zorder = "zoNONE";
+	foot_x = 3;
+	foot_y = 3;
+}
+
+A01 : default : "null.gif" #00 ; 

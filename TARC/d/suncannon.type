@@ -1,0 +1,61 @@
+typename suncannon constructor
+typeflags createsisland emplacement shadow;
+{
+	description="Sun Cannon";
+	class="Shooter";
+	maxHitPoints = 600;
+	theme = "sun";
+	level = 1;
+	threat = 5;
+	cost = 400;
+		// When they were only 200 it was too easy to just create a billion of
+		// them in a row on your island and slaughter anything that came near.
+	zorder = "zoEMPLACEMENTS";
+	range = 20;
+		// Reduced slightly so that other shooters will out-range them.
+	hpPerSec = 16;
+		// Ken adjusted this because creating a big line of 
+		// sun cannons was too easy.
+	foot_x = 3;
+	foot_y = 3;
+	minUsage = 20;
+	maxUsage = 200;
+//	hotFootY = 10;
+	hotFootRatioY = 0.625;
+	delayBetweenShots = 5.0;
+	group = "cannon";
+	damageEffect = 1;
+	constructionRate = 10;
+	fireSound = "sunCannonFire.wav";
+}
+
+N00	:		  : "scannon.gif" #00  : "s_scannon.gif" #00 ; // S
+L01	:         : "scannon.gif" #10  : "s_scannon.gif" #00 ; // N
+O02	:		  : "scannon.gif" #14  : "s_scannon.gif" #14 ; // W
+M03	:		  : "scannon.gif" #05  : "s_scannon.gif" #05 ; // E
+N04	:		  : "scannon.gif" #20  : "s_scannon.gif" #20 ; // S1
+N05	:		  : "scannon.gif" #21  : "s_scannon.gif" #21 ; // S2
+N06	:		  : "scannon.gif" #22  : "s_scannon.gif" #22 ; // S3
+N07	:		  : "scannon.gif" #23  : "s_scannon.gif" #23 ; // S4
+P08	:		  : "scannon.gif" #24  : "s_scannon.gif" #24 ; // NS
+L09	:		  : "scannon.gif" #25  : "s_scannon.gif" #25 ; // N4
+L10	:		  : "scannon.gif" #26  : "s_scannon.gif" #26 ; // N3
+L11	:		  : "scannon.gif" #27  : "s_scannon.gif" #27 ; // N2
+O12	:		  : "scannon.gif" #30  : "s_scannon.gif" #30 ; // W1
+O13	:		  : "scannon.gif" #31  : "s_scannon.gif" #31 ; // W2
+O14	:		  : "scannon.gif" #32  : "s_scannon.gif" #32 ; // W3
+O15	:		  : "scannon.gif" #33  : "s_scannon.gif" #33 ; // W4
+P16	: default : "scannon.gif" #34  : "s_scannon.gif" #34 ; // WE
+M17	:		  : "scannon.gif" #35  : "s_scannon.gif" #35 ; // E4
+M18	:		  : "scannon.gif" #36  : "s_scannon.gif" #36 ; // E3 
+M19	:		  : "scannon.gif" #37  : "s_scannon.gif" #37 ; // E2
+P20	:		  : "scannon.gif" #39  : "s_scannon.gif" #39 ; // WNW // ESE
+P21	:		  : "scannon.gif" #40  : "s_scannon.gif" #40 ; // NNW // SSE
+P22	:		  : "scannon.gif" #41  : "s_scannon.gif" #41 ; // NNE // SSW
+P23	:		  : "scannon.gif" #42  : "s_scannon.gif" #42 ; // ENE // WSW
+N24	:		  : "scannon.gif" #45  : "s_scannon.gif" #45 ; // SF
+L25	:		  : "scannon.gif" #46  : "s_scannon.gif" #46 ; // NF
+O26	:		  : "scannon.gif" #43  : "s_scannon.gif" #43 ; // WF
+M27	:		  : "scannon.gif" #44  : "s_scannon.gif" #44 ; // EF
+
+A00 : help : "b_scannon.gif" #00;

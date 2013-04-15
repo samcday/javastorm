@@ -1,0 +1,15 @@
+typename rune 
+typeflags dontSave not_selectable;
+{
+	description = "Altar";
+	zorder = "zoARTIFACTS";
+	maxHitPoints = 20;
+	foot_x = 1;
+	foot_y = 1;
+}
+
+P00 : default : "altar01.gif" #09;   
+P01 :	: "altar01.gif" #10;					 
+P02 :	: "altar01.gif" #11;					 
+P03 :	: "altar01.gif" #12;					 
+P04 :	: "altar01.gif" #13;					 

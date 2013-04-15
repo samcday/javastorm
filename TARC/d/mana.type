@@ -1,0 +1,31 @@
+typename Mana
+
+typeflags dontSave not_real;
+{
+	zorder = "zoMANAICON";
+	foot_x = 1;
+	foot_y = 1;
+}
+
+// It goes wind, rain, thunder, sun, then lit, then empty
+// 10, 11 and 12 are blank, slot and arrow.
+
+
+
+A01 : default : "mana.gif" #08 ; // wind off
+A02 : : "mana.gif" #11 ; // rain off
+A03 : : "mana.gif" #10 ; // thunder off
+A04 : : "mana.gif" #09 ; // sun off
+
+
+// non patch code
+A05 : : "mana.gif" #00 ; // wind on
+A06 : : "mana.gif" #03 ; // rain on
+A07 : : "mana.gif" #02 ; // thunder on
+A08 : : "mana.gif" #01 ; // sun on
+
+
+
+
+
+

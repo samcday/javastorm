@@ -1,0 +1,16 @@
+typename fountain constructor
+typeflags well emplacement;
+{
+	description="Fountain";
+	zorder = "zoEMPLACEMENTS";
+	foot_x = 2;
+	foot_y = 2;
+	damageEffect = 1;
+	constructionRate = 10;
+	crew = 1;
+	baseCrew = 1;
+	joyFactor = 10;
+}
+
+P01 : default : "fountain.gif" #00  ;
+

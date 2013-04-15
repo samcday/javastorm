@@ -1,0 +1,146 @@
+typename fortGump 
+typeflags ;
+{
+	description="fortGump";
+}
+
+// Group A is background textures
+
+A00 :         : "stufgump.gif" #00;		// Marble pattern texture
+A01:          : "stufgump.gif" #12;		// Sandy marble pattern texture
+A02:          : "gumpbox.gif" #0;		// protractor thing for left gump
+A03:          : "gumpbox.gif" #1;		// storm crystal for display in left gump
+A04:          : "gumpbox.gif" #2;		// money background
+
+// This group is found by the 'B' and the hardcoded offsets
+
+B00 :         : "chat.gif" #00 ;		// Chat Buttons L1
+B01 :         : "chat.gif" #01 ;		// Chat Buttons L2
+B02 :         : "chat.gif" #02 ;		// Chat Buttons L3
+
+// Group C is the checkmark button
+
+C00 :         : "accept.gif" #03 ;		// check, disabled, off
+C01 :         : "accept.gif" #01 ;      // check, disabled, on
+C02 :         : "accept.gif" #07 ;      // check, enabled, off
+C03 :         : "accept.gif" #05 ;      // check, enabled, on
+
+// Group D is a checkmark with a background
+
+D04 :         : "accept.gif" #09 ;		// check /w background, disabled, off
+D05 :         : "accept.gif" #08 ;      // check /w background, disabled, on
+D06 :         : "accept.gif" #11 ;      // check /w background, enabled, off
+D07 :         : "accept.gif" #10 ;      // check /w background, enabled, on
+
+// Group E is the cancel button
+
+E04 :         : "accept.gif" #02 ;		// cancel, disabled, off
+E05 :         : "accept.gif" #00 ;      // cancel, disabled, on
+E06 :         : "accept.gif" #06 ;      // cancel, enabled, off
+E07 :         : "accept.gif" #04 ;      // cancel, enabled, on
+
+// Group F is used for special effects.
+
+F01 : gumpFrame : "mog.gif" #10 ;		// a big flash.
+
+// Group G is additional Backgrounds
+
+G01 : : "stufgump.gif" #13 ;   // Teleporter background
+
+// Group H is buttons of all types
+// Buttons all follow this convention:
+// 1: 
+
+// Construction
+H01 :         : "buttons.gif" #04;		// Up,   Unlit
+H02 :         : "buttons.gif" #05;		// Down, Unlit
+H03 :         : "buttons.gif" #06;		// Up,   Lit
+H04 :         : "buttons.gif" #07;		// Down, Lit
+
+// Teleport
+H05 :         : "buttons.gif" #08;
+H06 :         : "buttons.gif" #09;
+H07 :         : "buttons.gif" #10;
+H08 :         : "buttons.gif" #11;
+
+// Chat
+H09 :         : "buttons.gif" #12;
+H10 :         : "buttons.gif" #13;
+H11 :         : "buttons.gif" #14;
+H12 :         : "buttons.gif" #15;
+
+// Help
+H13 :         : "buttons.gif" #16;
+H14 :         : "buttons.gif" #17;
+H15 :         : "buttons.gif" #18;
+H16 :         : "buttons.gif" #19;
+
+// Badges
+H17 :         : "buttons.gif" #20;
+H18 :         : "buttons.gif" #21;
+H19 :         : "buttons.gif" #22;
+H20 :         : "buttons.gif" #23;
+
+// Friends
+H21 :         : "buttons.gif" #24;
+H22 :         : "buttons.gif" #25;
+H23 :         : "buttons.gif" #26;
+H24 :         : "buttons.gif" #27;
+
+// Spy
+H25 :         : "buttons.gif" #28;
+H26 :         : "buttons.gif" #29;
+H27 :         : "buttons.gif" #30;
+H28 :         : "buttons.gif" #31;
+
+// Stat
+H29 :         : "buttons.gif" #32;
+H30 :         : "buttons.gif" #33;
+H31 :         : "buttons.gif" #34;
+H32 :         : "buttons.gif" #35;
+
+
+
+// I Group: Dialog Box Stuff
+//-------------------------------------------------
+
+// Corners
+I00 :         : "buttons.gif" #43;
+I01 :         : "buttons.gif" #44;
+I02 :         : "buttons.gif" #46;
+I03 :         : "buttons.gif" #45;
+
+// Button Accents
+J00 :         : "buttons.gif" #48;
+J01 :         : "buttons.gif" #47;
+J02 :         : "buttons.gif" #49;
+
+// Special marble texture for the starting screen.
+K00:          : "startmen.gif" #0;		// Sandy marble pattern texture
+
+// L Group: Misc icons
+L00:          : "no_cd.gif" #0;      // icon for no cd players
+L01:          : "no_cd.gif" #1;      // bad diag icon 1 - brickwall on fire
+L02:          : "no_cd.gif" #2;      // bad diag icon 2 - brickwall
+L03:          : "no_cd.gif" #3;      // bad diag icon 3 - fire
+L04:          : "no_cd.gif" #4;      // not connected
+L05:          : "no_cd.gif" #5;      // connected
+L06:          : "no_cd.gif" #7;      // blank pip
+L07:          : "no_cd.gif" #8;      // filled pip
+L08:          : "no_cd.gif" #6;      // square, not used currently
+
+// WATCHER ICONS
+L09:          : "TRUMP3.gif" #1;      // Battle
+L10:          : "TRUMP.gif" #6;      // Watch
+
+L11:          : "TRUMP3.gif" #12;      // BLUE
+L12:          : "TRUMP3.gif" #11;      // RED
+L13:          : "TRUMP3.gif" #17;      // WHITE
+L14:          : "TRUMP3.gif" #13;      // GREEN
+L15:          : "TRUMP3.gif" #18;      // Purple
+L16:          : "TRUMP3.gif" #14;      // YELLOW
+L17:          : "TRUMP3.gif" #16;      // CYAN
+L18:          : "TRUMP3.gif" #15;      // ORANGE
+
+
+

@@ -1,0 +1,83 @@
+typename windwalker constructor
+typeflags walker	shadow;
+{
+	description="Sail Skater";
+	class="Ground Transport";
+	maxHitPoints = 100;
+	theme = "wind";
+	level = 2;
+	cost = 600;
+	threat = 15;
+	zorder = "zoEMPLACEMENTS";
+	foot_x = 1;
+	foot_y = 1;
+	activeSound = "sailSkaterMove.wav";
+	group = "walker";
+
+	speed = 3.4; // was 3.5 now 3.4
+	turningSpeed = 450.0;
+	pickupSound = "sailDrop.wav";
+	moveSound = "sailMove.wav";
+	dropSound = "sailDrop.wav";
+
+	techBit = 5;
+}
+
+// Going North
+A01	:         : "wwalker.gif" #15: "s_wwalker.gif" #15;
+A01	:         : "wwalker.gif" #14: "s_wwalker.gif" #14;
+A01	:         : "wwalker.gif" #13: "s_wwalker.gif" #13;
+A01	:         : "wwalker.gif" #12: "s_wwalker.gif" #12;
+
+// Going West
+A01	:         : "wwalker.gif" #07: "s_wwalker.gif" #07;
+A01	: default : "wwalker.gif" #06: "s_wwalker.gif" #06;
+A01	:         : "wwalker.gif" #05: "s_wwalker.gif" #05;
+A01	:         : "wwalker.gif" #04: "s_wwalker.gif" #04;
+
+// Going South
+A01	:         : "wwalker.gif" #28: "s_wwalker.gif" #28;
+A01	:         : "wwalker.gif" #28: "s_wwalker.gif" #28;
+A01	:         : "wwalker.gif" #28: "s_wwalker.gif" #28;
+A01	:         : "wwalker.gif" #28: "s_wwalker.gif" #28;
+
+// Going East
+A01	:         : "wwalker.gif" #23: "s_wwalker.gif" #23;
+A01	:         : "wwalker.gif" #22: "s_wwalker.gif" #22;
+A01	:         : "wwalker.gif" #21: "s_wwalker.gif" #21;
+A01	:         : "wwalker.gif" #20: "s_wwalker.gif" #20;
+
+
+
+
+// Turning from North to West
+A01	:         : "wwalker.gif" #15: "s_wwalker.gif" #15;
+A01	:         : "wwalker.gif" #11: "s_wwalker.gif" #11;
+A01	:         : "wwalker.gif" #10: "s_wwalker.gif" #10;
+A01	:         : "wwalker.gif" #09: "s_wwalker.gif" #09;
+A01	:         : "wwalker.gif" #08: "s_wwalker.gif" #08;
+
+// Turning from West to to South
+A01	:         : "wwalker.gif" #07: "s_wwalker.gif" #07;
+A01	:         : "wwalker.gif" #03: "s_wwalker.gif" #03;
+A01	:         : "wwalker.gif" #02: "s_wwalker.gif" #02;
+A01	:         : "wwalker.gif" #01: "s_wwalker.gif" #01;
+A01	:         : "wwalker.gif" #00: "s_wwalker.gif" #00;
+
+// Turning South to East
+A01	:         : "wwalker.gif" #28: "s_wwalker.gif" #28;
+A01	:         : "wwalker.gif" #27: "s_wwalker.gif" #27;
+A01	:         : "wwalker.gif" #26: "s_wwalker.gif" #26;
+A01	:         : "wwalker.gif" #25: "s_wwalker.gif" #25;
+A01	:         : "wwalker.gif" #24: "s_wwalker.gif" #24;
+
+// Turning East to North
+A01	:         : "wwalker.gif" #23: "s_wwalker.gif" #23;
+A01	:         : "wwalker.gif" #19: "s_wwalker.gif" #19;
+A01	:         : "wwalker.gif" #18: "s_wwalker.gif" #18;
+A01	:         : "wwalker.gif" #17: "s_wwalker.gif" #17;
+A01	:         : "wwalker.gif" #16: "s_wwalker.gif" #16;
+
+
+P00 : help : "b_sailskate.gif" #00;
+

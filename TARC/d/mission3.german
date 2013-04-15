@@ -1,0 +1,47 @@
+[Header]
+missionType = "Normal"
+moneyCriteria = 3000
+
+tech = "deny;all;allow;rainVortex;sunFactory;sunArcher;sunWalker"
+
+run0 = CreateNugIsle,6
+run1 = AddRandom,sunWalker
+
+[OBJECTIVE]
+<background="startcl.gif">
+<h2>Mission Three</h2>
+"Bridge the Void"
+<p>
+The honorable mayor has passed into the Beyond. Now it is
+up to you to lead the people of Nimbus.
+<p>
+Nearby battles are causing Storm Crystals to appear on 
+remote islands. You must build bridges through the sky 
+to collect them before they drop away!
+<p>
+A Centipede will be made available to help us transport the
+Crystals back to our home island where we can salvage them.
+You may need to look around the sky to find
+the newly formed crystals.
+$Button=CONTINUE,DoNothing,0
+
+[SUCCESS]
+<h2>Success!</h2>
+<p>
+Your wealth has increased and the Nimbians admire your skill
+at bridge placement.  However, your success is tempered by the
+looming threat of pirate attack. People are whispering that you
+might just be a "Fair Weather Ruler."
+<p>
+They know the attack is coming, but they don't know whether you
+can command...
+<p>
+$Button=CONTINUE,MissionBegin,Mission4
+
+[FAILURE]
+<h2>Failure!</h2>
+Really, there is hardly any way you can fail this mission.
+<br>
+$Button=QUIT,DoNothing,0
+$Button=RESTART,MissionRestart,0
+[end]

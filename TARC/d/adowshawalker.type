@@ -1,0 +1,112 @@
+typename adowshawalker 
+typeflags walker shadow;
+{
+	description="Phantom Floater";
+	class="Ground Transport";
+	maxHitPoints = 50;
+	theme = "adowsha";
+	level = 2;
+	height = 1;
+
+	zorder = "zoEMPLACEMENTS";
+	foot_x = 1;
+	foot_y = 1;
+//	activeSound = "moveBeetle.wav";
+	moveSound = "golemMove1.wav";
+	pickupSound = "golemPickup.wav";
+	dropSound = "golemDrop.wav";
+	group = "walker";
+
+	speed = 3.0;
+	turningSpeed = 99999.0;
+
+//	hotFootRatioX = 0.5;
+//	hotFootRatioY = 0.2;
+	techbit = 32;
+}
+
+// Going North
+A01	:         : "awalker.gif" #24: "awalker.gif" #64;
+A02	:         : "awalker.gif" #25: "awalker.gif" #65;
+A03	:         : "awalker.gif" #26: "awalker.gif" #66;
+A04	:         : "awalker.gif" #27: "awalker.gif" #67;
+A05	:         : "awalker.gif" #28: "awalker.gif" #68;
+A06	:         : "awalker.gif" #29: "awalker.gif" #69;
+A07	:         : "awalker.gif" #30: "awalker.gif" #70;
+A08	:         : "awalker.gif" #31: "awalker.gif" #71;
+
+// N->E
+B01   :         : "awalker.gif" #36: "awalker.gif" #76;
+B02   :         : "awalker.gif" #37: "awalker.gif" #77;
+B03   :         : "awalker.gif" #36: "awalker.gif" #76;
+B04   :         : "awalker.gif" #37: "awalker.gif" #77;
+B05   :         : "awalker.gif" #36: "awalker.gif" #76;
+B06   :         : "awalker.gif" #37: "awalker.gif" #77;
+B07   :         : "awalker.gif" #36: "awalker.gif" #76;
+B08   :         : "awalker.gif" #37: "awalker.gif" #77;
+
+// Going East
+C01	:         : "awalker.gif" #16: "awalker.gif" #56;
+C02	:         : "awalker.gif" #17: "awalker.gif" #57;
+C03	:         : "awalker.gif" #18: "awalker.gif" #58;
+C04	:         : "awalker.gif" #19: "awalker.gif" #59;
+C05	:         : "awalker.gif" #20: "awalker.gif" #60;
+C06	:         : "awalker.gif" #21: "awalker.gif" #61;
+C06	:         : "awalker.gif" #22: "awalker.gif" #62;
+C06	:         : "awalker.gif" #23: "awalker.gif" #63;
+
+// E->S
+D01   :         : "awalker.gif" #38: "awalker.gif" #78;
+D02   :         : "awalker.gif" #39: "awalker.gif" #79;
+D03   :         : "awalker.gif" #38: "awalker.gif" #78;
+D04   :         : "awalker.gif" #39: "awalker.gif" #79;
+D05   :         : "awalker.gif" #38: "awalker.gif" #78;
+D06   :         : "awalker.gif" #39: "awalker.gif" #79;
+D07   :         : "awalker.gif" #38: "awalker.gif" #78;
+D08   :         : "awalker.gif" #39: "awalker.gif" #79;
+
+// Going South
+E01	:         : "awalker.gif" #00: "awalker.gif" #40;
+E02	:         : "awalker.gif" #01: "awalker.gif" #41;
+E03	:         : "awalker.gif" #02: "awalker.gif" #42;
+E04	:         : "awalker.gif" #03: "awalker.gif" #43;
+E05	:         : "awalker.gif" #04: "awalker.gif" #44;
+E06	:         : "awalker.gif" #05: "awalker.gif" #45;
+E07	:         : "awalker.gif" #06: "awalker.gif" #46;
+E08	:         : "awalker.gif" #07: "awalker.gif" #47;
+
+//S->W
+F01   :         : "awalker.gif" #32: "awalker.gif" #72;
+F02   :         : "awalker.gif" #33: "awalker.gif" #73;
+F03   :         : "awalker.gif" #32: "awalker.gif" #72;
+F04   :         : "awalker.gif" #33: "awalker.gif" #73;
+F05   :         : "awalker.gif" #32: "awalker.gif" #72;
+F06   :         : "awalker.gif" #33: "awalker.gif" #73;
+F07   :         : "awalker.gif" #32: "awalker.gif" #72;
+F08   :         : "awalker.gif" #33: "awalker.gif" #73;
+
+// Going West
+G01	: default : "awalker.gif" #08: "awalker.gif" #48;
+G02	:         : "awalker.gif" #09: "awalker.gif" #49;
+G03	:         : "awalker.gif" #10: "awalker.gif" #50;
+G04	:         : "awalker.gif" #11: "awalker.gif" #51;
+G05	:         : "awalker.gif" #12: "awalker.gif" #52;
+G06	:         : "awalker.gif" #13: "awalker.gif" #53;
+G07	:         : "awalker.gif" #14: "awalker.gif" #54;
+G08	:         : "awalker.gif" #15: "awalker.gif" #55;
+
+//W->N
+H01   :         : "awalker.gif" #34: "awalker.gif" #74;
+H02   :         : "awalker.gif" #35: "awalker.gif" #75;
+H03   :         : "awalker.gif" #34: "awalker.gif" #74;
+H04   :         : "awalker.gif" #35: "awalker.gif" #75;
+H05   :         : "awalker.gif" #34: "awalker.gif" #74;
+H06   :         : "awalker.gif" #35: "awalker.gif" #75;
+H07   :         : "awalker.gif" #34: "awalker.gif" #74;
+H08   :         : "awalker.gif" #35: "awalker.gif" #75;
+
+// BLANK
+I00 : : "blank.gif" #0 : "blank.gif" #00;
+
+J00 : help : "b_awalker.gif" #00;
+

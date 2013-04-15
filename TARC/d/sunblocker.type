@@ -1,0 +1,30 @@
+typename sunBlocker constructor
+typeflags createsisland emplacement shadow;
+{
+	description="Stone Tower";
+	class="Defense";
+	maxHitPoints = 2000;
+	cost = 400;
+	theme = "sun";
+	threat = 5;
+	level = 1;
+
+	zorder = "zoEMPLACEMENTS";
+	foot_x = 3;
+	foot_y = 3;
+	height = 2;
+//	hotFootX = 4;
+//	hotFootY = 5;
+	hotFootRatioX = 0.25;
+	hotFootRatioY = 0.3125;
+	damageEffect = 1;
+	constructionRate = 10;
+	group = "blocker";
+
+	techBit = 1;
+}
+
+// frames 2-4 hold rope attachment point warmspots
+P01 : default : "sunblock.gif" #00  : "sunblock.gif" #04  ;
+
+A00 : help : "B_SBLKER.GIF" #00;

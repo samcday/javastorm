@@ -1,0 +1,24 @@
+title = "Struggle For Freedom"
+
+[Overview]
+<background="nsstart">
+<h2>{offical3.title}</h2>
+<p>
+The good people of Nimbus are being enslaved by the Dark Lords
+of Wind, Rain and Thunder. One by one islands have been conquered,
+leaders slaughtered, and citizens bent to the will of the evil
+war machine.
+<p>
+As the sole guardian of justice in Nimbus, you must defeat the
+Dark Lords and free the people of Nimbus from slavery.
+<p>
+Your goal is to gather allies to oppose the rising forces of darkness.
+
+$Checked=1 The War Begins!,MissionBegin,TheWarBegins,{DoneTheWarBegins},1
+$Checked=2 Master of Whirligigs,MissionBegin,MasterOfWhirligigs,{DoneMasterOfWhirligigs},{DoneTheWarBegins}
+$Checked=3 Save the Island!,MissionBegin,SaveTheIsland,{DoneSaveTheIsland},{DoneMasterOfWhirligigs}
+$Checked=4 Fragile Fortune,MissionBegin,FragileFortune,{DoneFragileFortune},{DoneSaveTheIsland}
+$Checked=5 Thundering Power!,MissionBegin,ThunderingPower,{DoneThunderingPower},{DoneFragileFortune}
+$Checked=6 Dissolved Alliance,MissionBegin,DissolvedAlliance,{DoneDissolvedAlliance},{DoneThunderingPower}
+
+$Button=Back,Tell,UCampaign

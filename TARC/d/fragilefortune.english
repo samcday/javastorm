@@ -1,0 +1,67 @@
+[Header]
+missionType = "Tutorial"
+
+missionNumber = 1
+
+myStartMoney = 2000
+myTech = "sunWalker;rainBattery;sunBlocker;sunCannon;sunBalloon"
+
+aiName = "Prince of Wind"
+aiTech = "sunArcher;sunWalker;windBattery"
+aiStartMoney = 1000
+aiGeyserAttachments = 1
+aiCollectors = 3
+aiTimeBetweenMoves = 2
+aiAbility="!STOP_COLLECTING_FROM_DANGEROUS_GEYSERS"
+
+
+title="Fragile Fortune!"
+
+[Options]
+
+[A.]
+<h2>Fragile Fortune!</h2>
+<i>"Up from the mud!<br>
+And into the Tower!<br>
+Here is the day!<br>
+Here is the hour!"<br>
+--Battle-cry of Althus of Wind, from a victory against impossible odds.</i>
+<p>
+The scout island "Pathfinder" has come upon a huge cache of
+Storm Power.  Unfortunately, the Dark Prince of Wind has already
+arrived and started harvesting. You must prevent him from strengthening
+his forces!
+<p>
+Our scouts report that the enemy is taking a vulnerable path
+to collect Storm Power. Use Cannons to destroy the enemy Golems
+on their way to the Geysers!
+
+$Button=Review Knowledge,ShowTechnology,55
+$Button=Play Mission,DoNothing,0
+
+
+[Succeeded][BadTeamDead]
+<h2>Success!</h2>
+<p>
+You have cut a hole through the battle lines of the Dark Prince of Wind
+and snatched enough Storm Power to obliterate his forces!  Pathfinder
+and her crew return home to a massive and glorious celebration.  Young
+and old alike dance in the streets for days.
+<$Config,Done{mission.fileName}=1>
+$Button=Leave Missions,MissionAbort,1
+$Button=Next Mission,MissionBegin,ThunderingPower
+
+
+[Failed]
+<h2>Failure!</h2>
+<p>
+The Dark Prince of Wind has stifled your efforts and the Pathfinder is 
+lost to his evil forces.  For his revenge, the Dark Prince infiltrates
+your home world aboard the Pathfinder and throttles your empire at its
+hub.
+$Button=Continue,Tell,TryAgain
+
+
+[END]
+																		 
+																		 

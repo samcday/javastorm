@@ -1,0 +1,22 @@
+typename TreeThree constructor
+typeflags tree randframe yuckWalk dropBlocking shotblocking;
+{
+	description="Trees";
+	maxHitPoints = 400;
+	theme = "sun";
+	level = 3;
+	cost = 500; 
+
+	zorder = "zoEMPLACEMENTS";
+	foot_x = 3;
+	foot_y = 3;
+	damageEffect = 1;
+}
+
+P01 : default: "tree.gif" #26;
+P02 : : "tree.gif" #27;
+P03 : : "tree.gif" #28;
+P04 : : "tree.gif" #29;
+P05 : : "tree.gif" #30;
+P06 : : "tree.gif" #31;
+

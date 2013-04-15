@@ -1,0 +1,138 @@
+[Header]
+missiontype="tutorial"
+
+missionnumber=8
+moregeysers=1
+
+mytech="outpost;windBattery"
+mystartmoney=5000
+
+title="Fury War"
+
+ai2name="Sir Vortex"
+ai2tech="windArcher;windBattery;windBlocker;windAviary;windballoon;windWalker;outpost"
+ai2startmoney=3000
+ai2geyserattachments=3
+ai2collectors=3
+ai2timebetweenmoves= 2
+ai2color=Green
+ai2bridgedrawrate= 2
+ai2stuffRefreshRate=6
+ai2allylist="3;4;5"
+
+ai3name="Lord Ice"
+ai3tech="rainCannon;rainBattery;rainBlocker;rainAviary;rainballoon;rainWalker;rainFence;outpost"
+ai3startmoney=2000
+ai3geyserattachments=3
+ai3collectors=3
+ai3timebetweenmoves= 2
+ai3color=lightblue
+ai3bridgedrawrate=2
+ai3stuffRefreshRate=5
+ai3allylist="2;4;5"
+
+ai4name="Count Thunder"
+ai4tech="thunderCannon;thunderBattery;outpost;thunderArcher;thunderBlocker;thunderFence;bulf"
+ai4startmoney=2000
+ai4geyserattachments=3
+ai4collectors=3
+ai4timebetweenmoves= 2
+ai4color=Purple
+ai4bridgedrawrate= 2
+ai4stuffRefreshRate=6
+ai4allylist="2;3;5"
+
+ai5name="Mr Sun"
+ai5tech="sunCannon;windBattery;sunArcher;sunAviary;sunBalloon;sunFence;sunBlocker;outpost"
+ai5startmoney=3000
+ai5geyserattachments=3
+ai5collectors=3
+ai5timebetweenmoves= 2
+ai5color=Yellow
+ai5bridgedrawrate= 2
+ai5stuffRefreshRate=4
+ai5allylist="2;3;4"
+
+[Options]
+
+[A.]
+<h2>FURY WAR</h2>
+<i>~y"The battle of the furies never ceases"<br>
+-Grand High Priest</i>
+<p>~B~E~rObjective:~.~B~w  Destroy those enemies who bashed you a moment ago, with a fury of your choice, or prove your worth by using Sun!
+<p>You will need all your training to defeat them!
+<p>~o~B~EHints:  ~.~B~wThe Outpost is available to you.
+$Button=Lets do this!,DoNothing,0
+</?>
+
+[@1]
+<h2>Message</h2>
+<p>Choose your technology:
+<p><!"mana.8">                  <!"mana.9">                  <!"mana.10">                  <!"mana.11">
+
+$Button= Wind,tell,W
+$Button= Rain,tell,R
+$Button= Thunder,tell,T
+$Button= Sun,tell,S
+
+[W]
+<$CheatAllTechnology,0>
+
+[R]
+<$CheatAllTechnology,1>
+
+[T]
+<$CheatAllTechnology,2>
+
+[S]
+<$CheatAllTechnology,3>
+
+[ai2priestdead]
+<h2>~rThe Furies are Pleased!<h2>
+<p>~gSir Vortex has been sacraficed!
+<p>~wHis tech is now yours!
+<p><!"windarcher.*">
+<$CheatAllTechnology,0>
+
+[ai3priestdead]
+<h2>~rThe Furies are Pleased!<h2>
+<p>~lLord Ice has been sacraficed!
+<p>~wHis tech is now yours!
+<p><!"raincannon.*">
+<$CheatAllTechnology,1>
+
+[ai4priestdead]
+<h2>~rThe Furies are Pleased!<h2>
+<p>~mCount Thunder has been sacraficed!
+<p>~wHis tech is now yours!
+<p><!"thundercannon.*">
+<$CheatAllTechnology,2>
+
+[ai5priestdead]
+<h2>~rThe Furies are Pleased!<h2>
+<p>~yMr Sun has been sacraficed!
+<p>~wHis tech is now yours!
+<p><!"sunarcher.*">
+<$CheatAllTechnology,3>
+
+[Failed]
+<h2>Failure...</h2>
+<p>Hope you had fun in the mean time!
+$Button=Training Menu,MissionBegin,BC1Menu76
+<p>
+$Button=Restart,Tell,TryAgain
+<p>
+$Button=Leave Missions,MissionAbort,0
+
+[Success][badteamdead]
+<h2>VICTORY!</h2>
+<p>You truly are a master!
+<p>Your training is now complete.
+<$Config,Done{mission.fileName}=1>
+$Button=Training Menu,MissionBegin,BC1Menu76
+<p>
+$Button=Restart,Tell,TryAgain
+<p>
+$Button=Leave Missions,MissionAbort,0
+
+[END]

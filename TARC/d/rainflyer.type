@@ -1,0 +1,47 @@
+typename rainFlyer constructor
+typeflags flyer dontSave flyershadow;
+{
+	description="Man o'War";
+	class="Aerial Attack";
+	maxHitPoints = 150;
+	theme = "rain";
+	// Level is not relevent for this, only its base.
+
+	zorder = "zoFLYERS";
+	foot_x = 1;
+	foot_y = 1;
+	constructionRate = 5;
+
+	range = 28;
+		// This is the true range of the flyer. Change the value in the
+		// aviary if you change this value!
+
+	speed = 2.1;	
+		// Must be faster than Golems, but slower than priests and sail skaters.
+		
+	hpPerSec = 16;
+	// At this rate it has a reasonable chance of killing an undamaged Golem and
+	// continuing its rampage.
+	//	damageEffect = 1; Not until particle systems are truly attached to their parents! -Ken
+	fireSound = "manOWarFire.wav";
+}
+
+// flyer and deathball art is purposely interchanged. 
+A00 : default : "rflyer.gif" #13  : "s_rflyer.gif" #29  ;
+A01 :         : "rflyer.gif" #14  : "s_rflyer.gif" #30;
+A02 :         : "rflyer.gif" #15  : "s_rflyer.gif" #31;
+A03 :         : "rflyer.gif" #16  : "s_rflyer.gif" #32;
+A04 :         : "rflyer.gif" #17  : "s_rflyer.gif" #33;
+A05 :         : "rflyer.gif" #18  : "s_rflyer.gif" #34;
+A06 :         : "rflyer.gif" #19  : "s_rflyer.gif" #35;
+A07 :         : "rflyer.gif" #20  : "s_rflyer.gif" #36;
+A08 :         : "rflyer.gif" #21  : "s_rflyer.gif" #37;
+A09 :         : "rflyer.gif" #22  : "s_rflyer.gif" #38;
+A10 :         : "rflyer.gif" #23  : "s_rflyer.gif" #39;
+A11 :         : "rflyer.gif" #24  : "s_rflyer.gif" #40;
+A12 :         : "rflyer.gif" #25  : "s_rflyer.gif" #41;
+A13 :         : "rflyer.gif" #26  : "s_rflyer.gif" #42;
+A14 :         : "rflyer.gif" #27  : "s_rflyer.gif" #43;
+A15 :         : "rflyer.gif" #28  : "s_rflyer.gif" #44;
+																				
+P00 : help : "b_rflyer.gif" #00;                                                                                                                                                         

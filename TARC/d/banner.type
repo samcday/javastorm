@@ -1,0 +1,33 @@
+typename banner client constructor
+typeflags default_hotspot notreal;
+{
+	description="Banner";
+	    zorder = "zoISLAND";
+        foot_x = 1;
+        foot_y = 1;
+}
+
+J01 : default : "banner1.gif" #01  ;
+J02 :  : "banner1.gif" #02  ;
+J03 :  : "banner1.gif" #03  ;
+J04 :  : "banner1.gif" #04  ;
+J05 :  : "banner1.gif" #05  ;
+J06 :  : "banner1.gif" #06  ;
+J07 :  : "banner1.gif" #07  ;
+J08 :  : "banner1.gif" #08  ;
+J09 :  : "banner1.gif" #09  ;
+J10 :  : "banner1.gif" #10  ;
+J11 :  : "banner1.gif" #11  ;
+
+K01 :  : "banner2.gif" #01  ;
+K02 :  : "banner2.gif" #02  ;
+K03 :  : "banner2.gif" #03  ;
+K04 :  : "banner2.gif" #04  ;
+K05 :  : "banner2.gif" #05  ;
+K06 :  : "banner2.gif" #06  ;
+K07 :  : "banner2.gif" #07  ;
+K08 :  : "banner2.gif" #08  ;
+K09 :  : "banner2.gif" #09  ;
+K10 :  : "banner2.gif" #10  ;
+K11 :  : "banner2.gif" #11  ;
+

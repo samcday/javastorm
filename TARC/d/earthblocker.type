@@ -1,0 +1,35 @@
+typename earthBlocker constructor
+typeflags createsisland emplacement shadow saveFrame;
+{
+	description="Earth Tower";
+	class="Defense";
+	maxHitPoints = 600;
+	theme = "earth";
+	level = 2;
+	cost = 800;
+
+	zorder = "zoEMPLACEMENTS";
+	foot_x = 3;
+	foot_y = 3;
+	height = 3;
+
+//	hotFootX = 4;
+//	hotFootY = 5;
+	hotFootRatioX = 0.25;
+	hotFootRatioY = 0.3125;
+	damageEffect = 1;
+	constructionRate = 10;
+	group = "blocker";
+
+	techBit = 28;
+}
+
+L00 : default : "eblocker.gif" #03 : "eblocker.gif" #07 ;
+M00 : : "eblocker.gif" #02 : "eblocker.gif" #06 ;
+N00 : : "eblocker.gif" #01 : "eblocker.gif" #05 ;
+O00 : : "eblocker.gif" #00 : "eblocker.gif" #04 ;
+
+P00 : help : "b_wblocker.gif" #00;
+
+
+

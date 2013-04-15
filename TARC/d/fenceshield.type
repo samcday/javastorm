@@ -1,0 +1,17 @@
+typename fenceShield constructor 
+typeflags not_real not_selectable dontSave ;
+{
+	description="Force Field";
+	class="Defense";
+	zorder = "zoFLARES";
+	foot_x = 1;
+	foot_y = 1;
+}
+
+// North-south
+J00 : default : "sfence2.gif" #01;
+
+// East-west
+K00 : : "sfence2.gif" #00;
+
+

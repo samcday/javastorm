@@ -1,0 +1,79 @@
+[Header]
+missiontype="tutorial"
+
+missionnumber=4
+moregeysers=0
+
+mystartmoney=3000
+mytech="windBattery;windArcher"
+myallylist=""
+
+title="Bow Rushing"
+
+ai2name="Lord Ice"
+ai2tech="rainCannon;rainBattery"
+ai2startmoney=3000
+ai2geyserattachments=3
+ai2collectors=4
+ai2timebetweenmoves= 4
+ai2allylist="3;4"
+ai2color=lightblue
+ai2bridgedrawrate= 1
+
+ai3name="Count Thunder"
+ai3tech="thunderCannon;thunderBattery"
+ai3startmoney=3000
+ai3geyserattachments=3
+ai3collectors=4
+ai3timebetweenmoves= 4
+ai3allylist="2;4"
+ai3color=purple
+ai3bridgedrawrate= 1
+
+ai4name="Mr Sun"
+ai4tech="sunCannon;windBattery;sunArcher"
+ai4startmoney=3000
+ai4geyserattachments=3
+ai4collectors=4
+ai4timebetweenmoves= 4
+ai4allylist="2;3"
+ai4color=yellow
+ai4bridgedrawrate= 1
+
+[Options]
+
+[A.]
+<h2>Bow Rush</h2>
+<i>~y"CHARRRRRRRRRRRGEEE!!!"<br>
+-Nimbain General</i>
+<p>~w3 enemies have got you trapped, and you are in a dangerous situation!, you only have two tech available to you, wind generator and crossbow, you will have to move fast to take them all out!!
+<p>~B~E~rObjective:~.~B~w  Use the crossbows to quickly eliminate the enemies before they become a threat.
+<p>~B~E~oHint:~.~B~w You probably want to first attack the enemy that would be considered most threat if left alone.  Dont worry if you start getting attacked, just use th crossbows to effecively destroy them and quickly attack their temple/workshop.
+<p><!"windarcher.*">
+<p>"Cross Bow"
+$Button=Technology available,ShowTechnology,55
+$Button=Lets do this!,DoNothing,0
+</?>
+
+[succeeded][badteamdead]
+<h2>Congratulations!</h2>
+<p>You have learnt this deadly art.. let people scream your name in fear.
+<$Config,Done{mission.fileName}=1>
+$Button=Training Menu,MissionBegin,BC1Menu76
+<p>
+$Button=Restart,Tell,TryAgain
+$Button=Next,MissionBegin,bc5walkers76
+<p>
+$Button=Leave Missions,MissionAbort,0
+
+[Failed]
+<h2>Failure...</h2>
+<p>The enemy has managed to get through your crossbows and defeat you, you wer obiously not ready......
+
+$Button=Training Menu,MissionBegin,BC1Menu76
+<p>
+$Button=Restart,Tell,TryAgain
+<p>
+$Button=Leave Missions,MissionAbort,0
+
+[END]

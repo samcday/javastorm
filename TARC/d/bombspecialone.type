@@ -1,0 +1,26 @@
+typename bombSpecialOne constructor
+typeflags default_hotspot bomb mayDropOnRim ;
+{
+	description="Devastation";
+	class="Offensive Spell";
+
+	zorder = "zoEMPLACEMENTS";
+	foot_x = 1;
+	foot_y = 1;
+
+	level = 99;	// Determines its probability class
+	range = 3;
+	cost = 100;
+
+	activeSound = "devastationGet.wav";
+	fireSound = "devastationCast.wav";
+	casttime=5;
+	praytime=40;
+	manacost=10;
+}
+
+A00 : : "blank.gif" #0 ;
+
+B00 : default baseframe : "spells.gif" #04  ;
+
+B01 : help : "b_obelisk.gif" #00;

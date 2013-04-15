@@ -1,0 +1,65 @@
+[Header]
+missionType = "Tutorial"
+
+missionNumber = 1
+moreGeysers = 1
+
+myStartMoney = 350
+myTech = "sunCannon;windWalker;windBattery;windAviary;windBlocker;sunBlocker"
+
+aiName = "F?rst des Regens"
+aiTech = "sunWalker;rainBattery;rainAviary;rainBlocker;rainBalloon"
+aiStartMoney = 0
+aiGeyserAttachments = 2
+aiCollectors = 3
+aiTimeBetweenMoves = 2
+
+title="Sturmattacke"
+
+[Init]
+<$ViewSpot,(139x88)>
+
+
+[A.]
+<h2>Sturmattacke</h2>
+<i>"Verlangt von Euren M?nnern, da? sie Mut zeigen, und sie werden mutig sein.<br>
+Verlangt von ihnen, ewig zu leben, und sie werden niemals sterben."<br>
+--Colonel Hallsum Breks</i>
+<p>
+Bereits seit vielen Tagen treibt Ihre Insel des Windes mit nur noch minimalen Lebensmittel- und Sturmkraftvorr?ten umher. Lediglich aufgrund ihres Zusammenhalts und ihrer Disziplin konnte die Mannschaft bisher ?berleben.
+<p>
+Mittlerweile ist die Insel unentdeckt in die N?he einer feindlichen Festung gelangt. Einige Freiwillige haben seitlich der Festung eine Br?cke errichtet und begeben sich nun auf eine gef?hrliche Mission.
+$Button=Weiter,Tell,A1.
+
+[A1.]
+<h2>Sturmattacke</h2>
+<p>
+Ihre Aufgabe ist es, gen?gend Sturmkraft abzubauen, um Ihre Produktion wieder in Schwung zu bringen, und m?glichst auch den Feind zu bezwingen!
+<p>
+Sobald Ihr Segelmobil einen Sturmkristall aufnimmt, wird es vom Feind entdeckt! Sie m?ssen es schnellstm?glich auf Ihre Insel zur?ckbeordern und Ihre Truppen zum Kampf r?sten.
+
+$Button=Aktueller Wissensstand,ShowTechnology,55
+$Button=Mission beginnen,DoNothing,0
+
+
+[Succeeded][BadTeamDead]
+<h2>Mission erfolgreich abgeschlossen!</h2>
+<p>
+Ihr findiger Priester ist mit dem Leben davongekommen, und Ihre Insel hat einen mutigen und ?berraschenden Sieg davongetragen! Sie besitzen nun gen?gend Ressourcen und Sturmkraft, um ein mehrere Tage andauerndes, rauschendes Fest feiern zu k?nnen.
+<$Config,Done{mission.fileName}=1>
+$Button=Mission beenden,MissionAbort,1
+$Button=N?chste Mission,MissionBegin,GuardMyBack
+
+
+[Failed]
+<h2>Missionsziel verfehlt!</h2>
+<p>
+Alles ist verloren! Wenngleich Ihre Mannschaft und Ihr Priester gen?gend Mut und Durchhalteverm?gen besa?en, so wurden sie doch durch Ihre Unf?higkeit in die Verdammnis gest?rzt.
+<p>
+Alles, was diesen mutigen und loyalen Kriegern noch bleibt, ist die Erl?sung durch den Tod: Noch w?hrend sie ihre letzten Atemz?ge tun, sprechen sie heftige Verw?nschungen gegen Sie aus. 
+$Button=Weiter,Tell,TryAgain
+
+
+[END]
+																		 
+																		 

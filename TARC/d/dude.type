@@ -1,0 +1,102 @@
+typename Man
+typeflags guy shadow not_selectable not_real;
+{
+	description="Nimbian";
+
+	zorder = "zoEMPLACEMENT";
+	// Trying to make zOrder just under walkers and buildings.
+	foot_x = 00;
+	foot_y = 00;
+//	group = "walker";
+	maxHitPoints = 20;
+	hotFootRatioX = 0.5;
+	hotFootRatioY = 0.2;
+
+	speed = 1.5;
+	turningSpeed = 999999.0;
+}
+
+// NORTH
+A00 : : "walk0.gif" #64 : "walk2.gif" #64;
+A01 : : "walk0.gif" #65 : "walk2.gif" #65;
+A02 : : "walk0.gif" #66 : "walk2.gif" #66;
+A03 : : "walk0.gif" #67 : "walk2.gif" #67;
+A04 : : "walk0.gif" #68 : "walk2.gif" #68;
+A05 : default gumpframe : "walk0.gif" #69 : "walk2.gif" #69;
+A06 : : "walk0.gif" #70 : "walk2.gif" #70;
+A07 : : "walk0.gif" #71 : "walk2.gif" #71;
+
+// NORTHEAST
+B00 : : "walk0.gif" #52 : "walk2.gif" #52;
+B01 : : "walk0.gif" #53 : "walk2.gif" #53;
+B02 : : "walk0.gif" #54 : "walk2.gif" #54;
+B03 : : "walk0.gif" #55 : "walk2.gif" #55;
+B04 : : "walk0.gif" #56 : "walk2.gif" #56;
+B05 : : "walk0.gif" #57 : "walk2.gif" #57;
+B06 : : "walk0.gif" #58 : "walk2.gif" #58;
+B07 : : "walk0.gif" #59 : "walk2.gif" #59;
+
+// EAST
+C00 : : "walk0.gif" #40 : "walk2.gif" #40;
+C01 : : "walk0.gif" #41 : "walk2.gif" #41;
+C02 : : "walk0.gif" #42 : "walk2.gif" #42;
+C03 : : "walk0.gif" #43 : "walk2.gif" #43;
+C04 : : "walk0.gif" #44 : "walk2.gif" #44;
+C05 : : "walk0.gif" #45 : "walk2.gif" #45;
+C06 : : "walk0.gif" #46 : "walk2.gif" #46;
+C07 : : "walk0.gif" #47 : "walk2.gif" #47;
+
+// SOUTHEAST
+D00 : : "walk0.gif" #28 : "walk2.gif" #28;
+D01 : : "walk0.gif" #29 : "walk2.gif" #29;
+D02 : : "walk0.gif" #30 : "walk2.gif" #30;
+D03 : : "walk0.gif" #31 : "walk2.gif" #31;
+D04 : : "walk0.gif" #32 : "walk2.gif" #32;
+D05 : : "walk0.gif" #33 : "walk2.gif" #33;
+D06 : : "walk0.gif" #34 : "walk2.gif" #34;
+D07 : : "walk0.gif" #35 : "walk2.gif" #35;
+
+// SOUTH
+E00 : : "walk0.gif" #16 : "walk2.gif" #16;
+E01 : : "walk0.gif" #17 : "walk2.gif" #17;
+E02 : : "walk0.gif" #18 : "walk2.gif" #18;
+E03 : : "walk0.gif" #19 : "walk2.gif" #19;
+E04 : : "walk0.gif" #20 : "walk2.gif" #20;
+E05 : : "walk0.gif" #21 : "walk2.gif" #21;
+E06 : : "walk0.gif" #22 : "walk2.gif" #22;
+E07 : : "walk0.gif" #23 : "walk2.gif" #23;
+
+// SOUTH-WEST
+F00 : : "walk0.gif" #4 : "walk2.gif" #04;
+F01 : : "walk0.gif" #5 : "walk2.gif" #05;
+F02 : : "walk0.gif" #6 : "walk2.gif" #06;
+F03 : : "walk0.gif" #7 : "walk2.gif" #07;
+F04 : : "walk0.gif" #8 : "walk2.gif" #08;
+F05 : : "walk0.gif" #9 : "walk2.gif" #09;
+F06 : : "walk0.gif" #10 : "walk2.gif" #10;
+F07 : : "walk0.gif" #11 : "walk2.gif" #11;
+
+// WEST
+G00 : : "walk0.gif" #89 : "walk2.gif" #88;
+G01 : : "walk0.gif" #90 : "walk2.gif" #89;
+G02 : : "walk0.gif" #91 : "walk2.gif" #90;
+G03 : : "walk0.gif" #92 : "walk2.gif" #91;
+G04 : : "walk0.gif" #93 : "walk2.gif" #92;
+G05 : : "walk0.gif" #94 : "walk2.gif" #93;
+G06 : : "walk0.gif" #95 : "walk2.gif" #94;
+G07 : : "walk0.gif" #96 : "walk2.gif" #95;
+
+// NORTHWEST
+H00 : : "walk0.gif" #76 : "walk2.gif" #76;
+H01 : : "walk0.gif" #77 : "walk2.gif" #77;
+H02 : : "walk0.gif" #78 : "walk2.gif" #78;
+H03 : : "walk0.gif" #79 : "walk2.gif" #79;
+H04 : : "walk0.gif" #80 : "walk2.gif" #80;
+H05 : : "walk0.gif" #81 : "walk2.gif" #81;
+H06 : : "walk0.gif" #82 : "walk2.gif" #82;
+H07 : : "walk0.gif" #83 : "walk2.gif" #83;
+
+// BLANK
+I00 : : "blank.gif" #0 : "blank.gif" #00;
+
+

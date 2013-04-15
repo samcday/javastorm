@@ -1,0 +1,238 @@
+[Header]
+missionType = "Tutorial"
+aid=1
+
+loadFort = "TacticalCombat"
+denyAscend = 1
+tutorialNumber = 4
+moreGeysers = 0
+
+techAllowed = "deny;all;allow;windVortex;sunFactory;sunWalker;sunArcher;sunCannon;windBattery;sunBlocker"
+
+myStartMoney = 2000
+myTech = "sunArcher;sunWalker;windBattery"
+aiOff = 1
+aiNoTemple = 1
+
+title = "Tactical Combat"
+
+[A.]
+<h2>Advanced Combat, Part 1</h2>
+<i>"Those who advance blindly find trouble.  Victory always lurks in the corners."
+--General Dalik Marridelt</i>
+<p>
+As always, your goal is to capture the enemy Priest.
+However, you will notice that now the enemy island is defended
+by Sun Cannons and Sun Disc Throwers.
+<br>
+     <!"sunCannon.*"><br>
+"Sun Cannon"
+<p>
+The Sun Cannons have a long range, but they have a serious
+limitation: they can only fire in straight lines North, 
+South, East and West.  You will learn how to destroy
+these Cannons with your Sun Disc Throwers despite the superior range
+of the Cannon.
+
+$Button=MORE,Tell,A1.
+
+[A1.]
+<h2>Advanced Combat, Part 2</h2>
+Begin as you have before by collecting Storm Power with Golems.
+There is already a Wind Temple and a Sun Workshop built for you,
+but you still need to put the Sun Disc Thrower and the Wind Generator into production.
+<p>
+<I>The tutorial will continue when you have both of these in production.</I>
+
+$Button=BACK,Tell,A.
+$Button=OK,DoNothing,0
+
+[B.]
+<h2>Sun Disc Thrower vs. Sun Cannon, Part 1</h2>
+You need to destroy the enemy's Sun Cannons before you have
+a hope of capturing the Priest.
+<p>
+If you were to naively attack a Sun Cannon head-on with a 
+Sun Disc Thrower, the superior range and fire power of the Sun Cannon would 
+destroy the Disc Thrower long before it had a chance to 
+inflict much damage.
+<p>
+However, since Cannons can only shoot in straight lines, a Sun Disc Thrower
+can safely attack it from a diagonal angle.
+
+$Button=MORE,Tell,B1.
+
+
+[B1.]
+<h2>Sun Disc Thrower vs. Sun Cannon, Part 2</h2>
+Build bridges towards the Sun Cannons and situate them so that
+you have bridge spurs in a location diagonal to each Cannon.  Don't get too
+close to the edge of the island though, you want to stay out
+of range of the Sun Disc Throwers to the South.
+<p>
+Remember, you may have to build Wind Generators 
+to extend your Energy as you have done before.
+<p>
+Hint: You can <c>left-click</c> on Cannons and Disc Throwers to see their attack range.
+<p>
+<I>The tutorial will continue when you have destroyed the Cannons.</I>
+
+$Button=BACK,Tell,B.
+$Button=OK,DoNothing,0
+
+[C.]
+<h2>Upgrading Workshops, Part 1</h2>
+There are six Sun Disc Throwers on the enemy island.
+You could attempt to overwhelm these
+Disc Throwers with Disc Throwers of your own, but it is not very
+efficient.  Instead, you can build your own Sun Cannons and destroy the Disc Throwers
+from outside of their range.
+<p>
+Multiplayer islands begin with the Sun Disc Thrower and the
+Sun Cannon in your Knowledge base.
+$Button=MORE,Tell,C1.
+
+[C1.]
+<h2>Upgrading Workshops, Part 2</h2>
+You should add <c>Sun Cannon</c> to the production of your Workshop now.
+However, you will find that you do not have enough production slots
+in your Workshop to put Sun Cannons into production.
+You will need to "Upgrade" your Workshop first in order to
+gain another production slot.
+<p>
+<c>Right-click</c> on your Workshop and select <c>Upgrade</c>.
+You may have to gather more Storm Power in order to afford
+the upgrade.
+<p>
+<I>The tutorial will continue when you have put Sun Cannons
+into production in your newly upgraded Workshop.</I>
+$Button=BACK,Tell,C.
+$Button=OK,DoNothing,0
+
+[D.]
+<h2>Sun Cannons vs. Sun Disc Throwers</h2>
+Build Sun Cannons outside the range of the enemy Sun Disc Throwers
+directly in line with them from the North, South, East, or West.
+<p>
+Cannons do have a little flexibility - you don't have to
+align them perfectly with their target.  As long as the gun barrel of
+your cannon is lined up with <i>base</i> of the target, it should be able hit it, assuming it's within range.
+<p>
+One more thing: You may notice that during combat you gain Storm Power
+each time you destroy an enemy Unit.  Indeed, you can often gain more Storm
+Power by destroying the enemy than you can through harvesting.
+<p>
+<I>The tutorial will continue when you have destroyed the enemy Disc Throwers.</I>
+<p>
+Hint: You might toggle <c>Options / Cursor Snap To Grid</c> and see if that
+helps you lay things down more easily.
+
+[E.]
+<h2>Enemy Sun Disc Throwers Destroyed</h2>
+<i>"Too often a drowning man pulls down his would-be saviors."
+--Anonymous
+</i>
+<p>
+You may have found that it was easier to destroy the Sun Disc
+Throwers than you expected.  This is because as one exploded, it
+threw shrapnel which damaged the others.
+<p>
+Shooting units always explode in this way, and chain reactions can
+wipe out closely packed groups.
+<p>
+Be sure to take this into consideration before you attack or build
+a dense pack of shooting weapons.
+
+$Button=MORE,Tell,E1.
+
+[E1.]
+<h2>Sacrificing Priests, Part 1</h2>
+Go capture the Priest as you have done before using a Golem.  When you have done
+so, you can bring him back to your island and sacrifice him
+to the Furies to learn new knowledge.
+<p>
+Incidentally, normally you can use any Transport to capture an
+enemy Priest.  You'll use a Golem for this example.
+<p>
+One more thing: a carrier such as a Golem cannot carry more than one
+thing at a time.  When you <c>left-click</c> on the Golem, the object he is
+carrying will flash briefly.  In order to pick up the Enemy Priest, you will
+need to drop any Storm Crystals that the Golem might be carrying.  <c>Right-click</c>
+on the Golem and Choose "Drop".
+<p>
+<I>The tutorial will continue when you have captured the enemy Priest with a Golem.</I>
+
+$Button=BACK,Tell,E.
+$Button=OK,DoNothing,0
+
+
+[F.]
+<h2>Sacrificing Priests, Part 2</h2>
+Sacrificing the enemy Priest to the Furies allows you to gain new knowledge.
+To begin the sacrificial process, you must build an Altar.  <c>Right-click</c>
+on your Priest (not the one you just captured) and order him to
+<c>Build Altar</c>.
+<p>
+You might not have enough room on your island to build an Altar.  If this is the case,
+you can "Salvage" a Workshop to get more space.  <c>Right-click</c> on the Workshop
+and choose "Salvage".
+<p>
+<I>The tutorial will continue when you have built the Altar.</I>
+
+
+[G.]
+<h2>Sacrificing Priests, Part 3</h2>
+Now that you have an Altar built, you need to bring the enemy Priest 
+to the center of it.  Order the Golem that is carrying the enemy Priest
+to go to the center of the Altar.  He will tie the enemy Priest up and
+walk away once he arrives there.
+<p>
+<I>The tutorial will continue when the enemy Priest is bound to the Altar.</I>
+
+
+[H.]
+<h2>Sacrificing Priests, Part 4</h2>
+Now that the enemy Priest is bound to the Altar, you need to 
+order your Priest to begin the ritual which will 
+ultimately grant you new Knowledge.  <c>Left-click</c>
+on your Priest then <c>left-click</c> on the Altar when the
+cursor has changed to a knife.
+<p>
+Your Priest will walk
+to the Temple and begin the ritual.  He will build five runes.
+When all of them are complete, the Altar will collapse and the Sacrifice will be complete!
+<p>
+<I>The tutorial will continue when the ritual is complete.</I>
+
+[I.]
+<h2>Multiplayer vs. Single Player</h2>
+There is a slight difference between sacrificing a Priest in
+the Multiplayer Arena vs. in the single player missions.
+<p>
+In the single-player missions, a Technology profile is granted to 
+you as part of the challenge of the mission, thus you do not gain Knowledge 
+by Sacrificing in a mission.  The sacrifice is instead usually considered the "win."
+<p>
+When playing in the Multiplayer Arena, on the other hand, the Knowledge that you play with
+survives from one battle to another.  Thus, when you Sacrifice a Priest
+in a Multiplayer battle, you will be given a choice of which Knowledge
+you wish to gain.
+
+$Button=MORE,Tell,I1.
+
+
+[I1.]
+<h2>Mission Accomplished!</h2>
+That completes Tutorial Four.
+<p>
+The next tutorial will describe how to use
+defensive Units to defeat weapons much more powerful than your own.
+<$Config,Done{mission.fileName}=1>
+$Button=BACK,Tell,I.
+$Button=Leave Tutorials,LeaveBattle,1
+$Button=Next Tutorial,MissionBegin,Tutorial5
+
+
+[END]
+																		 
+																		 

@@ -1,0 +1,38 @@
+[Header]
+missionType = "Tutorial"
+aid=1
+
+missionNumber = 1
+
+myStartMoney = 2400
+myTech = "bulf;thunderBattery;thunderArcher;thunderCannon"
+
+ai1Tech = "thunderArcher;thunderBattery;thunderCannon;bulf"
+ai1StartMoney = 30000
+ai1GeyserAttachments = 0
+ai1Collectors = 2
+ai1TimeBetweenMoves = 2
+
+ai2Tech = "sunWalker;rainBattery;rainAviary;sunCannon;rainWalker"
+ai2StartMoney = 30000
+ai2GeyserAttachments = 8
+ai2Collectors = 5
+ai2TimeBetweenMoves = 2
+
+demoRestartTimer = 360
+demo = 1
+
+title = "Verheerende St?rme"
+
+[Demo]
+<h2>Demo: Verheerende St?rme</h2>
+<p>
+Der Finstere Prinz des Regens hat den F?rsten des Donners heimt?ckisch angegriffen.
+<p>
+Kann der F?rst der Attacke lange genug standhalten, um seine Donnerkanonen auf den Widersacher zu ausrichten und ihn zu vernichten?
+
+$Timeout=15,DoNothing,0
+
+[END]
+																		 
+																		 

@@ -1,0 +1,20 @@
+typename RUIN constructor
+typeflags tree randframe yuckWalk dropBlocking shotblocking shadow;
+{
+	description="Ruins";
+	maxHitPoints = 400;
+	theme = "sun";
+	level = 2;
+	cost = 500; 
+
+	zorder = "zoEMPLACEMENTS";
+	foot_x = 2;
+	foot_y = 2;
+	damageEffect = 1;
+}
+
+P01 : default: "RUINS.GIF" #0: "RUINS.GIF" #2;
+
+
+
+

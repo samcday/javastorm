@@ -1,0 +1,17 @@
+typename smallfarm constructor
+typeflags emplacement farm needsPower needsWater yuckWalk dropBlocking shotblocking;
+{
+	description = "Small Farm";
+	zorder = "zoEMPLACEMENTS";
+	maxHitPoints = 50;
+	foot_x = 5;
+	foot_y = 4;
+	damageEffect = 1;
+	constructionRate = 10;
+	crew = 2;
+	baseCrew = 1;
+	foodProduced = 6;
+}
+
+P01 : default : "sfarm.gif" #00  ;
+

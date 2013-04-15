@@ -1,0 +1,33 @@
+typename earthVortex constructor
+typeflags vortex yuckWalk dropBlocking shotblocking mayDropOnRim mayDropOnIsle;
+{
+	description="Earth Temple";
+	class="Energy";
+	maxHitPoints = 5000;
+	theme = "earth";
+	cost = 5000;
+
+	zorder = "zoEMPLACEMENTS";
+	foot_x = 8;
+	foot_y = 6;
+	height = 2;
+
+	damageEffect = 1;
+	constructionRate = 10;
+
+	crew = 30;
+	buildDoneSound = "templeComplete.wav";
+}
+
+A00 : : "evortex.gif" #01 ;
+A01 : : "evortex.gif" #02 ;
+A02 : : "evortex.gif" #03 ;
+A03 : : "evortex.gif" #04 ;
+A04 : : "evortex.gif" #04 ;
+A05 : : "evortex.gif" #03 ;
+A06 : : "evortex.gif" #02 ;
+A07 : : "evortex.gif" #01 ;
+
+B01 : default baseframe : "evortex.gif" #01 ;
+
+P00 : help : "b_wtemple.GIF" #00;

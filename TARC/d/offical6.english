@@ -1,0 +1,10 @@
+title = "User Made Campaigns"
+
+[Overview]
+<background="nsstart">
+<h2>{offical6.title}</h2>
+<p>
+Which section would you like to play?<br><br>
+$Timeout=120,Tell,Campaign
+$Menu=%{userSpec},Tell,{cur.file}.overview
+$Button=Back,Tell,UCampaign

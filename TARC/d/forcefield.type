@@ -1,0 +1,42 @@
+typename ForceField
+
+typeflags notreal;
+{
+	description="High Priest";
+	zorder = "zoEMPLACEMENT";
+	foot_x = 1;
+	foot_y = 1;
+	hotFootRatioX = 0.5;
+	hotFootRatioY = 0.2;
+}
+
+A00 : : "ffield.gif" #00 ;
+A01 : : "ffield.gif" #01 ;
+A02 : : "ffield.gif" #02 ;
+A03 : : "ffield.gif" #03 ;
+A04 : : "ffield.gif" #04 ;
+A05 : : "ffield.gif" #05 ;
+A06 : : "ffield.gif" #06 ;
+A07 : : "ffield.gif" #07 ;
+A08 : : "ffield.gif" #08 ;
+A09 : : "ffield.gif" #09 ;
+A10 : : "ffield.gif" #10 ;
+A11 : : "ffield.gif" #11 ;
+A12 : : "ffield.gif" #12 ;
+A13 : : "ffield.gif" #13 ;
+A14 : : "ffield.gif" #14 ;
+A15 : : "ffield.gif" #15 ;
+A16 : : "ffield.gif" #16 ;
+A17 : : "ffield.gif" #17 ;
+A18 : : "ffield.gif" #18 ;
+A19 : : "ffield.gif" #19 ;
+A20 : : "ffield.gif" #20 ;
+A21 : : "ffield.gif" #21 ;
+A22 : : "ffield.gif" #22 ;
+A23 : : "ffield.gif" #23 ;
+A24 : : "ffield.gif" #24 ;
+A25 : : "ffield.gif" #25 ;
+A26 : : "ffield.gif" #26 ;
+A27 : : "ffield.gif" #27 ;
+A28 : : "ffield.gif" #28 ;
+A29 : : "ffield.gif" #29 ;

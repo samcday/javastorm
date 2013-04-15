@@ -1,0 +1,54 @@
+typename largefarm constructor
+typeflags emplacement farm needspower needswater;
+{
+	description = "Large Farm";
+	zorder = "zoEMPLACEMENTS";
+	maxHitPoints = 100;
+	foot_x = 8;
+	foot_y = 5;
+	damageEffect = 1;
+	constructionRate = 10;
+	crew = 6;
+	baseCrew = 1;
+	foodProduced = 20;
+}
+
+// Here are the frame pairings for the large farm.
+// 0 - the abstract
+// 1 - the basic farm with no fields developed
+// 2 - 7 are the furrowed levels, starting at the top.
+// 8 - 13 at the growing levels.
+// 14 - 19 are the blooming levels.
+// 20 - empty frame.
+
+P01 : default : "lfarm.gif" #01  ;
+
+A01 : : "lfarm.gif" #07  ;
+A02 : : "lfarm.gif" #13  ;
+A03 : : "lfarm.gif" #19  ;
+A04 : : "lfarm.gif" #19  ;
+
+B01 : : "lfarm.gif" #06  ;
+B02 : : "lfarm.gif" #12  ;
+B03 : : "lfarm.gif" #18  ;
+B04 : : "lfarm.gif" #18  ;
+
+C01 : : "lfarm.gif" #05  ;
+C02 : : "lfarm.gif" #11  ;
+C03 : : "lfarm.gif" #17  ;
+C04 : : "lfarm.gif" #17  ;
+
+D01 : : "lfarm.gif" #04  ;
+D02 : : "lfarm.gif" #10  ;
+D03 : : "lfarm.gif" #16  ;
+D04 : : "lfarm.gif" #16  ;
+
+E01 : : "lfarm.gif" #03  ;
+E02 : : "lfarm.gif" #09  ;
+E03 : : "lfarm.gif" #15  ;
+E04 : : "lfarm.gif" #15  ;
+
+F01 : : "lfarm.gif" #02  ;
+F02 : : "lfarm.gif" #08  ;
+F03 : : "lfarm.gif" #14  ;
+F04 : : "lfarm.gif" #14  ;

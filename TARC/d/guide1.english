@@ -1,0 +1,19 @@
+title = "Early Missions"
+
+[Overview]
+<background="nsstart">
+<h2>Early Missions</h2>
+<i>"He who desires peace should prepare for war."  --Anonymous</i>
+<p>
+You have been chosen to lead the people of Nimbus to
+victory against their oppressors.  Are you prepared
+to fight with every ounce of your strength and will?
+
+$Checked=1 Bridge the Gap,MissionBegin,Tutorial1,{DoneTutorial1},1
+$Checked=2 Secret Workshop,MissionBegin,Tutorial2,{DoneTutorial2},{DoneTutorial1}
+$Checked=3 Capture The Priest,MissionBegin,Tutorial3,{DoneTutorial3},{DoneTutorial2}
+$Checked=4 Tactical Combat,MissionBegin,Tutorial4,{DoneTutorial4},{DoneTutorial3}
+$Checked=5 Subtle Defense,MissionBegin,Tutorial5,{DoneTutorial5},{DoneTutorial4}
+$Checked=6 Raw Power,MissionBegin,Tutorial6,{DoneTutorial6},{DoneTutorial5}
+
+$Button=Back,Tell,Campaign

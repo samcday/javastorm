@@ -1,0 +1,224 @@
+[Header]
+missionType = "Tutorial"
+aid=1
+
+loadFort = "CaptureThePriest"
+denySalvage = 1
+denyAscend = 1
+tutorialNumber = 3
+moreGeysers = 0
+
+techAllowed = "deny;all;allow;windVortex;sunArcher;sunWalker;sunFactory;windBattery;sunCannon;altar"
+
+myStartMoney = 2000
+myTech = "sunArcher;sunWalker"
+myProd = "sunArcher"
+
+aiOff = 1
+aiNoTemple = 1
+
+title = "Capture The Priest"
+
+[Options]
+
+[A.]
+<h2>Capture The Priest!</h2>
+<i>"There is no greater serenity than that which follows the sound cudgeling of an enemy."
+--Gen. Ebens Rilfenstor</i>
+<p>
+Now that you know how to build Workshops and assign 
+Production you can use the weapons that these
+Workshops produce to attack the enemy!
+<p>
+In order to speed things along, there is already a Wind Temple
+and Sun Workshop built for you.  Normally you would need
+to build these yourself.
+<p>
+Notice in the production window on the left
+that you now have the ability to create Golems.  Golems are special
+servants of the Temple and can be used to harvest 
+Storm Power.
+
+$Button=MORE,Tell,A1.
+
+
+[A1.]
+<h2>Build Golems</h2>
+You can create Golems like you did the Sun Disc Thrower. They require
+one Sun Energy <!"mana.11"> (i.e. one Rain, Wind, or Thunder).
+<p>
+You'll need more Storm Power this time. Build a bridge out
+to a Geyser, then build several Golems and have 
+them begin to harvest Storm Power from that Geyser.  
+Notice that the Golems are much more efficient at gathering Storm Crystals than
+Priests are.
+<p>
+<I>The tutorial will continue when one of your Golems
+has returned to the Temple with its first Storm Crystal.</I>
+$Button=BACK,Tell,A.
+$Button=OK,DoNothing,0
+
+
+[B.]
+<h2>Capturing Enemy Priests, Part 1</h2>
+<i>"The only difference between a captive Priest and a dead one
+is a little time."  --Belkis Reveskis, Nimbian warlord.</i>
+<p>
+South of your island is the enemy's island. Your goal is to
+capture the enemy Priest.
+<p>
+Priests are immortal on the battlefield.  However,
+when they get shot they become incapacitated and may be
+taken hostage.  You can then bring them back to your island
+and Sacrifice them to the Furies in order to gain more Knowledge.
+$Button=MORE,Tell,B1.
+
+[B1.]
+<h2>Capturing Enemy Priests, Part 2</h2>
+Build bridges from your island and attach to the
+enemy island. 
+<p>
+Bridges are free, so if you have a hard time connecting
+to the enemy island at one place, try branching off and connecting at 
+another location.
+<p>
+Hint: Don't worry about building cracked bridges for the time being,
+there won't be many explosions to cause them to fall.  Just
+practice building the bridge as fast as you can for now.
+<p>
+<I>The tutorial will continue when you have connected
+to the other island.</I>
+
+$Button=BACK,Tell,B.
+$Button=OK,DoNothing,0
+
+[C.]
+<h2>Build Sun Disc Throwers</h2>
+Excellent! Now that you have connected to the enemy island,
+you can begin the assault.  Begin by putting Sun Disc Throwers into
+production.
+<p>
+<I><c>Right-click</c> on the Sun Workshop as you have done before and 
+choose <c>Put Knowledge into Production</c>.  Then select
+<c>Sun Disc Thrower</c>.</I>
+$Button=OK,DoNothing,0
+
+[D.]
+<h2>Generators, Part 1</h2>
+<i>"With a hundred of these, you can fuel the future." --Berlis Smirtenk, Inventor of the 
+Generator</i>
+<p>
+You are going to use the fire power of the Sun Disc Throwers
+to attack the enemy Priest.  Your goal is to drop them
+on the enemy island to begin the pursuit!
+<p>
+When you try to drop a Sun Disc Thrower on the enemy island
+you will find that nowhere on that island does the Energy
+from your Temple reach far enough.  You need to
+extend your Energy using a device called a "Generator".
+
+$Button=MORE,Tell,D1.
+
+[D1.]
+<h2>Generators, Part 2</h2>
+There are three kinds of Generators just as there are three
+kinds of Energy: Rain, Wind, and Thunder.  There is no
+"Sun" Generator because "Sun" is a universal energy 
+that can be fulfilled by Rain, Wind, or Thunder.
+<p>
+Each Generator produces one unit of its flavor of Energy
+in a circle around it just as the Temple does.
+<p>
+<I>The tutorial will continue when you have added "Wind Generator" 
+to the production of your Workshop.</I>
+<br>
+           <!"rainBattery.0">                              <!"windBattery.0">                                <!"thunderBattery.0"><br>
+   "Rain Generator"         "Wind Generator"         "Thunder Generator"
+$Button=BACK,Tell,D.
+$Button=OK,DoNothing,0
+
+[E.]
+<h2>Extending Energy, Part 1</h2>
+As mentioned, a Generator radiates Energy in a circle surrounding it.
+<p>
+Notice that the Generator itself requires one unit of Sun (i.e. any) Energy.
+Thus, you must build your first Generator near the Temple.  Then, 
+you can build another Generator using the Energy cast from the first.
+In this fashion, you can extend your Energy wherever you need it.
+$Button=MORE,Tell,E1.
+
+[E1.]
+<h2>Extending Energy, Part 2</h2>
+Right now, you need Energy on the other island so that you can build
+Sun Disc Throwers there.  Build a series of Wind Generators starting
+from your island extending across the bridge until you have
+extended the Energy all the way to the enemy island.
+<p>
+<I>The tutorial will continue when you have built your first 
+Sun Disc Thrower on the enemy island.</I>
+<p>
+Remember: You can only build weapons off of the ends of bridges or on
+an island; you may not build off the side of a bridge.
+<p>
+Hint: You may need to build more bridges off of the ones you already have
+in order to get the Generators where you need them.
+
+$Button=BACK,Tell,E.
+$Button=OK,DoNothing,0
+
+[F.]
+<h2>Incapacitating the Enemy Priest</h2>
+<i>"You know you have them cornered when they become utterly
+motionless except for the eyes, which dart about, wild with panic."
+--Prut Nilduk, referring to Priests on the battlefield.</i>
+<p>
+When the enemy Priest is within range of your Sun Disc Throwers
+they will automatically begin to shoot at the Priest.
+If the Priest is not within range, build more Sun Disc Throwers until
+he can not escape.  You may need to extend your Energy across
+more of the enemy island in order to build more Sun Disc Throwers.
+<p>
+<I>The tutorial will continue when the Priest has been incapacitated from
+the damage you inflict.</I>
+
+$Button=OK,DoNothing,0
+
+[G.]
+<h2>Capturing the Enemy Priest</h2>
+Now that the priest is immobile (you can see the protection field surrounding him),
+you can use a Golem to go capture him.  
+<c>Left-click</c> on the Golem and order him to move to
+the vicinity of the Priest.
+<p>
+Notice that when you are choosing the
+destination of the Golem the mouse cursor will change to a hand shape when
+it is directly over the priest.
+<p>
+If you <c>left-click</c> when the cursor is a hand icon
+then you are ordering the Golem to walk there and capture the Priest.
+You can only capture the Priest when the Priest has been immobilized.
+<p>
+The Golem can only carry one thing at a time.  If you don't see the
+hand cursor, it may be because your Golem already 
+has his hands full with a Storm Crystal. Order him to drop it first by 
+<c>right clicking</c> on him and choosing <c>Drop Storm Crystal</c>.
+<p>
+<I>The tutorial will continue when your Golem has captured the Priest.</I>
+
+[H.]
+<h2>Mission Accomplished!</h2>
+You have captured the Priest!  Normally, you would now
+Sacrifice him to the Furies, but
+we'll wait until the next tutorial to introduce that.
+<p>
+That completes Tutorial Three.
+The next tutorial will describe how to use Sun Disc Throwers and Sun Cannons
+to decimate your enemies and how to Sacrifice for new Knowledge.
+<$Config,Done{mission.fileName}=1>
+$Button=Leave Tutorials,LeaveBattle,1
+$Button=Next Tutorial,MissionBegin,Tutorial4
+
+
+[END]
+																		 
+																		 

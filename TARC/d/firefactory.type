@@ -1,0 +1,33 @@
+typename fireFactory constructor
+typeflags factory yuckWalk dropBlocking shotblocking;
+{
+	description="Fire Workshop";
+	class="Production";
+	maxHitPoints = 4000;
+	theme = "fire";
+	cost = 1000;
+	zorder = "zoEMPLACEMENTS";
+	foot_x = 8;
+	foot_y = 6;
+
+	damageEffect = 1;
+	buildDoneSound = "workshopComplete.wav";
+}
+
+//A01 : default baseframe : "ffactory.gif" #00 : "ffactory.gif" #09 ;
+//A02 : : "ffactory.gif" #01 ;
+//A03 : : "ffactory.gif" #02 ;
+
+//B01 : : "ffactory.gif" #03 : "ffactory.gif" #09 ;
+//B02 : : "ffactory.gif" #04 : "ffactory.gif" #10 ;
+//B03 : : "ffactory.gif" #05 : "ffactory.gif" #09 ;
+
+//C01 : : "ffactory.gif" #06 : "ffactory.gif" #11 ;
+//C02 : : "ffactory.gif" #07 : "ffactory.gif" #12 ;
+//C03 : : "ffactory.gif" #08 : "ffactory.gif" #11 ;
+
+A01 : default baseframe : "ffactoryb.gif" #00 ;
+B01 : : "ffactoryb.gif" #01 ;
+C01 : : "ffactoryb.gif" #02 ;
+
+P00 : help : "b_sfactory.gif" #00;

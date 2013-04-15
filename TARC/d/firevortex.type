@@ -1,0 +1,25 @@
+typename fireVortex constructor
+typeflags vortex yuckWalk dropBlocking shotblocking mayDropOnRim mayDropOnIsle;
+{
+	description="Fire Temple";
+	class="Energy";
+	maxHitPoints = 5000;
+	theme = "Fire";
+	cost = 5000;
+	threat = 20;
+	zorder = "zoEMPLACEMENTS";
+	foot_x = 8;
+	foot_y = 6;
+
+	damageEffect = 1;
+	constructionRate = 10;
+	hotFootRatioX = 0.5;
+	hotFootRatioY = 0.8;
+
+	crew = 30;
+	buildDoneSound = "templeComplete.wav";
+}
+
+A00 : default baseframe : "FireTempPlaceholder.gif" #00 ;
+
+P00 : help : "s_rainbeauty.gif" #00  ;

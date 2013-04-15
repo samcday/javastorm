@@ -1,0 +1,20 @@
+typename well constructor
+typeflags well emplacement needsPower;
+{
+	description = "Water Wheel";
+	zorder = "zoEMPLACEMENTS";
+	maxHitPoints = 800;
+	foot_x = 2;
+	foot_y = 2;
+	damageEffect = 1;
+	constructionRate = 10;
+	crew = 1;
+	baseCrew = 1;
+}
+
+P01 : default : "well.gif" #00  ;
+P02 : : "well.gif" #01  ;
+P03 : : "well.gif" #02  ;
+P04 : : "well.gif" #03  ;
+P05 : : "well.gif" #04  ;
+

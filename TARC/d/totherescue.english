@@ -1,0 +1,109 @@
+[Header]
+missionType = "Tutorial"
+
+missionNumber = 1
+
+myStartMoney = 4600
+myTech = "sunWalker;rainBattery;rainWalker;rainCannon;sunArcher;sunFence"
+
+// Your beleaguered ally...
+ai2Name = "Governor Cherok"
+ai2Tech = "sunWalker;rainBattery;rainBlocker;rainBalloon"
+ai2StartMoney = 0
+ai2GeyserAttachments = 2
+ai2Collectors = 3
+ai2Ability = "!COLLECT_STORM_POWER"
+ai2TimeBetweenMoves = 3
+ai2AllyList = 1
+ai2Color = purple
+
+// Lower-left enemy
+ai3Name = "Prince of Thunder"
+ai3Tech = "sunWalker;thunderBattery;thunderCannon;thunderBlocker;sunBlocker"
+ai3StartMoney = 2000
+ai3GeyserAttachments = 2
+ai3Collectors = 3
+ai3TimeBetweenMoves = 3
+ai3AllyList = 4
+ai3Enemy = 2
+ai3Color = red
+
+ai4Name = "Duke of Thunder"
+ai4Tech = "sunWalker;sunBalloon;thunderBattery;thunderCannon;thunderBlocker;sunarcher"
+ai4StartMoney = 2000
+ai4GeyserAttachments = 2
+ai4Collectors = 2
+ai4TimeBetweenMoves = 3
+ai4AllyList = 3
+ai4Enemy = 2
+ai4Color = orange
+
+title="To the Rescue!"
+
+[A.]
+<h2>To The Rescue!</h2>
+<i>"For your friend and for devotion, 
+Come up from the dusty ocean, 
+and into the bleeding fray."
+--Book of Nimbus
+</i>
+<p>
+A distress call comes by Balloon from your governor on Cherok Isle,
+<p>
+<i>We are under attack!
+<p>
+While sailing in search of Storm Power two enemy islands swept 
+down upon us out of the sun.
+<p>
+Our resources are low and many are already dead.
+
+$Button=More,Tell,A1.
+
+[A1.]
+<h2>To The Rescue!</h2>
+<p>
+If Cherok Isle is destroyed other governors may fear to
+follow you - possibly even defect to the enemy.
+<p>
+Avert this crisis of confidence by
+pounding the attackers and saving Cherok Isle!
+
+$Button=Review Knowledge,ShowTechnology,55
+$Button=Play Mission,DoNothing,0
+
+
+[@120]
+A message arrives from the governor of Cherok Isle:
+<p>											    
+<i>
+Remember the words of mighty King Luther, "In the End, we will remember
+not the actions of our enemies, but the inaction of our friends."
+</i>
+
+
+[Succeeded][BadTeamDead]
+<h2>Success!</h2>
+<p>
+Cherok Isle is saved!  The governor welcomes you
+warmly to a victory banquet.  All the governors
+of your empire attend, pledging their eternal
+loyalty to you.
+<$Config,Done{mission.fileName}=1>
+$Button=Leave Missions,MissionAbort,1
+$Button=Next Mission,MissionBegin,Vicious
+
+
+[Failed][Ai2PriestDead]
+<h2>Failure!</h2>
+<p>
+Your attempt to rescue Cherok Isle has failed.
+<p>
+The governors of your other empire islands become
+frightened by your inability to protect them. Without their
+support, your empire is pierced and ravaged by the
+enemy.
+$Button=Continue,Tell,TryAgain
+
+
+[END]
+																		 

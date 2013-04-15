@@ -1,0 +1,40 @@
+typename thunderVortex constructor
+typeflags vortex yuckWalk dropBlocking shotblocking mayDropOnRim mayDropOnIsle shadow;
+{
+	description="Thunder Temple";
+	class="Energy";
+	maxHitPoints = 5000;
+	theme = "thunder";
+	cost = 5000;
+
+	zorder = "zoEMPLACEMENTS";
+	foot_x = 8;
+	foot_y = 6;
+	threat = 20;
+	damageEffect = 1;
+	constructionRate = 10;
+	impactSound = "tVortexReady.wav";
+	activeSound = "jacoblad.wav";
+
+	crew = 30;
+	buildDoneSound = "templeComplete.wav";
+}
+
+A00 : default : "tvortex2.gif" #07 : "tvortex2.gif" #20 ;
+B00 :         : "tvortex2.gif" #01 : "tvortex2.gif" #20;
+B01 :         : "tvortex2.gif" #02 : "tvortex2.gif" #20;
+B02 :         : "tvortex2.gif" #03 : "tvortex2.gif" #20;
+B03 :         : "tvortex2.gif" #04 : "tvortex2.gif" #20;
+B04 :         : "tvortex2.gif" #05 : "tvortex2.gif" #20;
+B05 :         : "tvortex2.gif" #06 : "tvortex2.gif" #20;
+B06 :         : "tvortex2.gif" #00 : "tvortex2.gif" #20;
+
+C00 :         : "tvortex2.gif" #13 ;
+C01 :         : "tvortex2.gif" #14 ;
+C02 :         : "tvortex2.gif" #15 ;
+C03 :         : "tvortex2.gif" #16 ;
+C04 :         : "tvortex2.gif" #17 ;
+C05 :         : "tvortex2.gif" #18 ;
+C06 :         : "tvortex2.gif" #19 ;
+
+D00 : help : "b_ttemple.GIF" #00;

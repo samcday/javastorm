@@ -1,0 +1,32 @@
+typename adowshaFactory constructor
+typeflags factory yuckWalk dropBlocking shotblocking shadow;
+{
+	description="Shadow Workshop";
+	class="Production";
+	maxHitPoints = 2000;
+	theme = "adowsha";
+	cost = 1000;
+	zorder = "zoEMPLACEMENTS";
+	foot_x = 8;
+	foot_y = 6;
+	damageEffect = 1;
+	buildDoneSound = "workshopComplete.wav";
+}
+
+A01 : default baseframe : "afactory.gif" #00 : "afactory.gif" #09 ;
+A02 : : "afactory.gif" #01 : "afactory.gif" #09 ;
+A03 : : "afactory.gif" #02 : "afactory.gif" #09 ;
+A04 : : "afactory.gif" #01 : "afactory.gif" #09 ;
+
+B01 :  : "afactory.gif" #03 : "afactory.gif" #10 ;
+B02 :  : "afactory.gif" #04 : "afactory.gif" #10 ;
+B03 :  : "afactory.gif" #05 : "afactory.gif" #10 ;
+B04 :  : "afactory.gif" #04 : "afactory.gif" #10 ;
+
+C01 :  : "afactory.gif" #06 : "afactory.gif" #11 ;
+C02 :  : "afactory.gif" #07 : "afactory.gif" #11 ;
+C03 :  : "afactory.gif" #08 : "afactory.gif" #11 ;
+C04 :  : "afactory.gif" #07 : "afactory.gif" #11 ;
+
+
+P00 : help : "b_wfactory.gif" #00;

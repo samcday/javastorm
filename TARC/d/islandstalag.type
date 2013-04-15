@@ -1,0 +1,21 @@
+typename islandstalag
+
+typeflags not_selectable dontSave;
+{
+	description="IslandStalag";
+	zorder = "zoSTALAG";
+	foot_x = 3;
+	foot_y = 3;
+}
+
+// P because islands connect only to bridges, not to each other...
+P01 : default : "playcolr.gif" #3; 
+P02 :         : "playcolr.gif" #1;  
+P03 :         : "playcolr.gif" #13;
+P04 :         : "playcolr.gif" #5; 
+P05 :         : "playcolr.gif" #15;
+P06 :         : "playcolr.gif" #7; 
+P07 :         : "playcolr.gif" #11;
+P08 :         : "playcolr.gif" #9; 
+
+P09 :         : "island.gif" #02;	// This is with no apron on it

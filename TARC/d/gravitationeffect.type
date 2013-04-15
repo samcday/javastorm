@@ -1,0 +1,20 @@
+typename GravitationEffect
+typeflags dontSave not_real;
+{
+	zorder = "zoMISSILES";
+	//fireSound = "whirligigFire.wav";
+	orientations = 1;
+}
+
+A00 :  : "Grav1.GIF" #0;
+A01 :  : "Grav1.GIF" #1;
+A02 :  : "Grav1.GIF" #2;
+A03 :  : "Grav1.GIF" #3;
+A04 :  : "Grav1.GIF" #4;
+A05 :  : "Grav1.GIF" #5;
+A06 :  : "Grav1.GIF" #6;
+A07 :  : "Grav1.GIF" #7;
+A08 :  : "Grav1.GIF" #8;
+A09 :  : "Grav1.GIF" #9;
+
+

@@ -1,0 +1,252 @@
+[Header]
+missionType = "Tutorial"
+aid=1
+
+loadFort = "SecretWorkshop"
+denySalvage = 1
+denyAscend = 1
+tutorialNumber = 2
+moreGeysers = 0
+
+techAllowed = "deny;all;allow;windVortex;sunArcher"
+
+myStartMoney = 10000
+myTech = "sunArcher"
+
+aiOff = 1
+aiNoTemple = 1
+
+title = "Secret Workshop"
+
+[Options]
+
+[A.]
+<h2>Buildings, Part 1</h2>
+<i>"Priests just chant a bunch of nonsense, and suddenly there's a big, 
+perfect building.  No wonder people want to kill them."  --Nikro Huvaks, Unemployed Nimbian Carpenter
+</i>
+<p>
+Your Priest has the ability to transform Storm Power into several special
+kinds of buildings: Temples, Workshops, and Altars.
+$Button=MORE,Tell,A1.
+
+[A1.]
+<h2>Buildings, Part 2</h2>
+The <c>Temple</c> transforms Storm Crystals into Storm Power and produces bridges.<br>
+The <c>Workshop</c> makes battle units.<br>
+<br>
+<!"windvortex.*">    <!"sunFactory.*">
+                    "Temple"                          "Workshop"
+
+$Button=BACK,Tell,A.
+$Button=MORE,Tell,A2.
+
+
+[A2.]
+<h2>Create a Temple</h2>
+You have been given sufficient Storm Power to create a Temple.
+<c>Right-click</c> on 
+your Priest and select <c>Construct</c> and then choose <c>Temple</c> and then <c>Build Wind Temple</c>.
+<p>
+The cursor will become a Wind Temple. You may lay it any place your Priest can
+walk. Red areas will indicate where it overlaps things. You
+will only be able to drop it when there are no red areas remaining.
+<p>
+Once you've placed it in a legal area, your Priest will walk to the build location and begin construction.
+<p>
+<I>Try it now!</I>  (Use <c>F8</c> if you need to see these instructions again.)
+
+$Button=BACK,Tell,A1.
+$Button=OK,DoNothing,0
+
+[B.]
+<h2>Temple Complete</h2>
+You may have noticed that as soon as the Temple was complete, the color
+of the edge of the island changed.  This is because the 
+owner of this temple (in this case, you) now controls this island.
+Once you control an island, you can build other units
+on that island and build bridge pieces off of it as well.
+<p>
+(F7 toggles the ownership colors on and off.  If you didn't
+see the color change, you may have this display turned off.)
+$Button=MORE,Tell,B1.
+
+[B1.]
+<h2>Create a Workshop</h2>
+Now that you have created a Temple, use the Priest to create a 
+Workshop.
+<p>
+Just like you did for the Temple, <c>right-click</c> on 
+your Priest and select <c>Construct</c> and then choose <c>Workshop</c> and <c>Build Sun Workshop</c>.
+<p>
+The cursor will become a <c>Sun Workshop</c>. You may lay it any where your
+Priest can walk. Red areas will indicate where the Workshop overlaps things. You
+will only be able to drop it when there are no red areas remaining.
+<p>
+<I>Try it now!</I>
+
+$Button=BACK,Tell,B.
+$Button=OK,DoNothing,0
+
+[C.]
+<h2>Production</h2>
+<i>"The Nimbian aptitude for complex mechanics is simply unsurpassed." --Desil Prottus, Nimbian Mechanic.</i>
+<p>
+Workshops can build weapons.
+You start off with the Knowledge of only a single weapon: The "Sun Disc Thrower."
+This machine hurls miniature suns at your enemies.  You will gain the
+Knowledge of other weapons as you capture Priests in battle and
+sacrifice them to the Furies!  But for now, you will just have to make do!
+<p>
+To start producing the Sun Disc Thrower, <c>right-click</c> on the 
+Sun Workshop and select <c>Put Knowledge Into Production</c>.  At the top of the menu
+you'll see that there are two production slots <!"mana.17"><!"mana.17">
+available.  <I>Fill a slot by selecting "Sun Disc Thrower."</I>
+$Button=OK,DoNothing,0
+
+
+[D.]
+<h2>First Weapon, Part 1</h2>
+<i>"Sun Disc Throwers decapitate the clumsy." -Major Tomas Rultoff.</i>
+<p>
+Your Production Window now contains a round device - the Sun Disc Thrower.
+You can place it in the world by <c>left-clicking</c> on it and then
+<c>left-clicking</c> again to drop it (just like bridges).
+<p>
+Notice that it turns red where you can't drop it, just like everything else.
+$Button=MORE,Tell,D1.
+
+[D1.]
+<h2>First Weapon, Part 2</h2>
+Placing weapons has one more constraint, called Energy. When you pick up
+the Sun Disc Thrower you'll see a little icon next to it. A lit icon <!"mana.11">
+means the unit is receiving the Energy required to build it. 
+A gray icon <!"mana.3"> means that it isn't.
+<p>
+<I>Drop a single Sun Disc Thrower now and we'll explain more in a moment.</I>
+<p>
+Take note of where you could and couldn't build the Sun Disc Thrower.
+$Button=BACK,Tell,D.
+$Button=OK,DoNothing,0
+
+[E.]
+<h2>Weapon Displays</h2>
+While you were dragging the Sun Disc Thrower you probably noticed that 
+there was a ring encircling it.  This ring shows the range of the
+weapon.  You can display this range at any time by <c>left-clicking</c>
+on a weapon that is already built in the world.
+<p>
+<I>Try that now, and then build another Sun Disc Thrower near the
+first one.  Try to maximize the target area covered by the two Sun Disc Throwers.</I>
+$Button=OK,DoNothing,0
+
+
+[F.]
+<h2>Energy, Part 1</h2>
+<i>"There is not a single law of nature that Energy cannot flaunt and break."
+--Jan Kilterstern, Nimbian Energy Specialist.</i>
+<p>
+As we mentioned before, all weapons require a certain amount
+of Energy in order to be constructed.  There are three flavors of
+Energy: Wind <!"mana.8>, Rain <!"mana.9> and Thunder <!"mana.10>.
+<p>
+Some weapons, like the Sun Disc Thrower, can use <i>any</i> kind
+of Energy.  A requirement of <i>any</i> Energy is called: "Sun" <!"mana.11">
+since it lacks domination from any of the three Storm Furies.
+<p>
+For example, something that requires Wind Energy <!"mana.8> must be supplied
+with one Wind Energy in order to be built.  However, something that requires one
+Sun Energy can be supplied with Wind, Rain or Thunder.
+$Button=MORE,Tell,F1.
+
+
+[F1.]
+<h2>Energy, Part 2</h2>
+The Wind Temple that you have built on your island generates
+Wind Energy in a circle around it.  You can <c>left-click</c>
+to see the range.
+<p>
+Click on it now to see the range.
+<p>
+<I>The tutorial will continue a few seconds after you have displayed the Energy range
+of the Temple.</I>
+
+[G.]
+<h2>Energy, Part 3</h2>
+Now that you know that the Wind Temple is providing Energy
+around it, you can see where it is legal to build a Sun Disc 
+Thrower and where it is illegal.  The Sun Disc Thrower 
+requires one unit of any Energy and the Wind Temple
+generates one unit of Wind Energy.
+<p>
+Build a few more Sun Disc Throwers.  Try to build a bridge away from
+the island and build a Sun Disc Thrower at the <i>end of</i> the bridge.  
+Notice that if you are too far away, the <!"mana.11"> icon on the left
+of the cursor will turn to a <!"mana.3">.
+<p>
+You can only build units at the <i>ends</i> of bridges, not
+just anywhere along the edges!
+<p>
+<I>The tutorial will continue when you have built two more Sun Disc Throwers.</I>
+$Button=BACK,Tell,F.
+$Button=OK,DoNothing,0
+
+[H.]
+<h2>Energy, Part 4</h2>
+One last word about Energy.
+<p>
+Energy is <i>only</i> required to <i>construct</i> a weapon, 
+not to run it.  Once any Unit has been built,
+it will continue to operate until it is destroyed by the enemy
+or salvaged by you.  It does not consume Energy or Storm
+Power after it is built.
+
+$Button=MORE,Tell,H1.
+
+[H1.]
+<h2>Salvaging</h2>
+After a unit has been built, you may salvage it to recover a fraction
+of its value.
+<p>
+Try it now. <c>Right-click</c> on one of the Sun Disc Throwers
+you just made and choose <c>Salvage</c>.  The amount of Storm Power
+that you will receive is inversely proportional to the damage
+that the Unit has received up to that point.
+<p>
+<I>The tutorial will continue when you have salvaged anything.</I>
+
+$Button=BACK,Tell,H.
+$Button=OK,DoNothing,0
+
+[I.]
+<h2>Mission Accomplished!</h2>
+Congratulations, you have completed Tutorial Two.
+<p>
+The next Tutorial introduces battles!
+<$Config,Done{mission.fileName}=1>
+
+$Button=Leave Tutorials,LeaveBattle,1
+$Button=Next Tutorial,MissionBegin,Tutorial3
+
+
+[NotVortex]
+<h2>Correction</h2>
+You have selected the Wind Temple. This is not the building that
+creates weapons of war. Instead, you need to select the Sun Workshop
+to put Knowledge into production.
+<p>
+Hit <c>F8</c> if you need the instructions again.
+
+[NotFactory]
+<h2>Correction</h2>
+You have selected the Wind Temple. This is not the building that
+creates weapons of war. Instead, you need to select the Sun Workshop
+to put Knowledge into production.
+<p>
+Hit <c>F8</c> if you need the instructions again.
+
+
+
+[END]
+																		 
+																		 

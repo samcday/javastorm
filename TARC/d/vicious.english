@@ -1,0 +1,66 @@
+[Header]
+missionType = "Tutorial"
+
+missionNumber = 1
+
+myStartMoney = 7000
+myTech = "sunWalker;thunderBattery;rainBattery;rainFence;sunFence;sunCannon;thunderFence;thunderBlocker;thunderArcher"
+
+aiName = "Duke of the Furies"
+aiTech = "rainWalker;rainBattery;windBattery;thunderBattery;sunArcher;sunCannon;windArcher;rainCannon;thunderCannon"
+aiStartMoney = 10000
+aiGeyserAttachments = 4
+aiCollectors = 4
+aiTimeBetweenMoves = 2
+
+title = "Vicious!"
+
+[A.]
+<h2>Vicious!</h2>
+<i>"And the islands howled out their damage, up to the dark, deaf sky."<br>
+--Book of Nimbus</i>
+<p>
+The enemy has created a terrible abomination which he calls the
+"Isle of Storms." Wind, Rain and Thunder have been combined there 
+create an unstoppable force.
+<p>
+This fortress epitomizes everything that is cruel and harmful
+in each alignment - and its coming towards you.
+
+$Button=More,Tell,A1.
+
+[A1.]
+<h2>Vicious!</h2>
+<p>
+The attack is directed at the planned site of our new weapons development facility.
+When you build there, the facility will be lightly armed, so you must use prototype weaponry
+to fend off the attacker and destroy his Priest!
+
+$Button=Review Knowledge,ShowTechnology,55
+$Button=Play Mission,DoNothing,0
+
+
+[Succeeded][BadTeamDead]
+<h2>Success!</h2>
+<p>
+Miraculously, you have overcome the Isle of Storms!  You are now poised
+to reign supreme in Nimbus.  Can you now conquer the Dark Lords once and for
+all?
+<$Config,Done{mission.fileName}=1>
+$Button=Leave Missions,MissionAbort,1
+$Button=Next Mission,MissionBegin,EnemyTerritory
+
+
+[Failed]
+<h2>Failure!</h2>
+<p>
+The Isle of Storms has ravaged your forces and left them in tatters.
+<p>
+They have stolen our new weapons plans and will turn them against us to
+destroy our empire!
+$Button=Continue,Tell,TryAgain
+
+
+[END]
+																		 
+																		 

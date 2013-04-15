@@ -1,0 +1,43 @@
+typename puzzlepiece
+typeflags ;
+{
+	zorder = "zoBRIDGE";
+	foot_x = 1;
+	foot_y = 1;
+}
+
+A01 : default: "puzzlepiece.gif" #00 ;
+B01 : : "null.gif" #00;
+C01 : : "null.gif" #00;
+D01 : : "null.gif" #00;
+E01 : : "null.gif" #00;
+F01 : : "null.gif" #00;
+G01 : : "null.gif" #00;
+H01 : : "null.gif" #00;
+I01 : : "null.gif" #00;
+J01 : : "null.gif" #00;
+K01 : : "null.gif" #00;
+L01 : : "null.gif" #00;
+M01 : : "null.gif" #00;
+N01 : : "null.gif" #00;
+O01 : : "null.gif" #00;
+P01 : : "null.gif" #00;
+
+A02 : : "null.gif" #00;
+B02 : : "null.gif" #00;
+C02 : : "null.gif" #00;
+D02 : : "null.gif" #00;
+E02 : : "null.gif" #00;
+F02 : : "null.gif" #00;
+G02 : : "null.gif" #00;
+H02 : : "null.gif" #00;
+I02 : : "null.gif" #00;
+J02 : : "null.gif" #00;
+K02 : : "null.gif" #00;
+L02 : : "null.gif" #00;
+M02 : : "null.gif" #00;
+N02 : : "null.gif" #00;
+O02 : : "null.gif" #00;
+P02 : : "null.gif" #00;
+
+

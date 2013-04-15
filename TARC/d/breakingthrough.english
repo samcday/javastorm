@@ -1,0 +1,75 @@
+[Header]
+missionType = "Tutorial"
+
+loadFort = "BreakingThrough"
+
+missionNumber = 1
+moreGeysers = 0
+
+myStartMoney = 0
+// Very important to start your money at 0 so that you can't stop the priest's capture.
+myTech = "sunWalker;rainBattery;rainCannon;rainBlocker;rainWalker;sunArcher;sunAviary;sunBlocker"
+
+aiName = "Prince of Wind"
+aiTech = "sunWalker;windBattery;windArcher;windAviary;windBlocker"
+aiStartMoney = 4000
+aiGeyserAttachments = 3
+aiCollectors = 4
+aiTimeBetweenMoves = 4
+aiAbility = "!SACRIFICE_ENEMY_PRIEST"
+
+title="Breaking Through!"
+
+[Options]
+
+[A.]
+<h2>Breaking Through!</h2>
+<i>"Lay the hand of war upon your foe.
+Anoint his body with his body's blood."
+--Caspar Grellin, High Priest of Nimbus
+</i>
+<p>
+Your High Priest is in great danger.  He is about to be taken 
+captive by the Dark Prince of Wind!
+<p>
+Spies say screams of agony have been heard from the Wind Temple,
+and many speak of evil experiments performed by the Dark Prince
+in the past.
+
+$Button=More,Tell,A1.
+
+[A1.]
+<h2>Breaking Through!</h2>
+<p>
+Show your followers that no Priest may be harmed while you rule.
+<p>
+Break through the enemy defenses and rescue your captive Priest,
+then destroy the enemy Priest in revenge!
+
+$Button=Review Knowledge,ShowTechnology,55
+$Button=Play Mission,DoNothing,0
+
+
+[Succeeded][BadTeamDead]
+<h2>Success!</h2>
+<p>
+Your priest is safely returned to your people!  And the legions
+of the Dark Prince are in tatters.  Such is the fate of those
+who would molest the holy men of your empire!
+<$Config,Done{mission.fileName}=1>
+$Button=Leave Missions,MissionAbort,1
+$Button=Next Mission,MissionBegin,ToTheRescue
+
+
+[Failed]
+<h2>Failure!</h2>
+<p>
+The Dark Prince has sacrificed your priest.  Your people keen
+for their beloved holy man, and soon come looking for you
+pledging revenge upon you for your carelessness.
+$Button=Continue,Tell,TryAgain
+
+
+[END]
+																		 
+																		 

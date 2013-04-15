@@ -1,0 +1,17 @@
+typename emptyGeyser 
+typeflags dropBlocking shadow createsisland;
+{
+	description="Empty Storm Geyser";
+  class="Source of Storm Power";
+	theme = "sun";
+	cost = 2000;
+
+	zorder = "zoEMPLACEMENTS";
+	foot_x = 3;
+	foot_y = 3;
+	hotFootRatioX = 0.22;
+	hotFootRatioY = 0.22;
+}
+
+B00 : default : "geyser.gif" #35 : "geyser.gif" #32 ;
+P00 : help : "b_strmgysr.gif" #00  ;

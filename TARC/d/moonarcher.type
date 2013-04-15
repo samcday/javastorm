@@ -1,0 +1,67 @@
+typename moonArcher constructor
+typeflags createsisland emplacement ;
+{
+	description="Moon Disc Thrower";
+	class="Shooter";
+	maxHitPoints = 400;
+	theme = "moon";
+	level = 1;
+
+	zorder = "zoEMPLACEMENTS";
+	range = 8;
+	hpPerSec = 10;
+	minUsage = 20;
+	maxUsage = 200;
+//	rateConst = 0.0;
+//	rateVar = 100; // this gets slowed down by animation, not a pause btwn anims...
+	constructionRate = 10;
+	foot_x = 3;
+	foot_y = 3;
+//	hotFootX = 1;
+//	hotFootY = 8;
+	hotFootRatioX = 0.0625;
+	hotFootRatioY = 0.5;
+	damageEffect = 1;
+	group = "archer";
+}
+
+P00 :           : "marcher.gif" #10 ;
+P01 :           : "marcher.gif" #09;
+P02 :           : "marcher.gif" #08;
+P03 :           : "marcher.gif" #07;
+P04 :           : "marcher.gif" #06;
+P05 :           : "marcher.gif" #05;
+P06 :           : "marcher.gif" #04;
+P07 :           : "marcher.gif" #03;
+P08 :           : "marcher.gif" #02;
+P09 :           : "marcher.gif" #01;
+P10 :           : "marcher.gif" #16;
+P11 :           : "marcher.gif" #15;
+P12 :           : "marcher.gif" #14;
+P13 :           : "marcher.gif" #14;
+P14 :           : "marcher.gif" #12;
+P15 :           : "marcher.gif" #11;
+
+P16 :           : "marcher.gif" #26;
+P17 :           : "marcher.gif" #25;
+P18 :           : "marcher.gif" #24;
+P19 :           : "marcher.gif" #23;
+P20 :           : "marcher.gif" #21;
+P21 :           : "marcher.gif" #22;
+P22 :           : "marcher.gif" #20;
+P23 :           : "marcher.gif" #19;
+P24 :           : "marcher.gif" #18;
+P25 :           : "marcher.gif" #17;
+P26 :           : "marcher.gif" #32;
+P27 :           : "marcher.gif" #31;
+P28 :           : "marcher.gif" #30;
+P29 :           : "marcher.gif" #29;
+P30 :           : "marcher.gif" #28;
+P31 :           : "marcher.gif" #27;
+
+
+
+P32 : default   baseframe : "marcher.gif" #00;
+P33 : gumpframe : "marcher.gif" #00;
+
+A00 : help : "b_sarcher.gif" #00;

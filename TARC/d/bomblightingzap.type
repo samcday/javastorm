@@ -1,0 +1,28 @@
+typename bombLightingZap constructor
+typeflags default_hotspot bomb mayDropOnRim ;
+{
+	description="Thunder Strike";
+	class="Offensive Spell";
+
+	zorder = "zoEMPLACEMENTS";
+	foot_x = 1;
+	foot_y = 1;
+
+	level = 2;	// Determines its probability class
+	range = 15;
+	cost = 1800;
+
+	activeSound = "70ThunderStrikePickup1.wav";
+	fireSound = "70ThunderStrikeCast1.wav";
+
+	casttime=5;
+	praytime=5;
+	manacost=10;
+
+}
+
+A00 : : "blank.gif" #0 ;
+
+B00 :  default baseframe : "spells.gif" #17  ;
+
+B01 : help : "b_obelisk.gif" #00;

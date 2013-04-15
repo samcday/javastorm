@@ -1,0 +1,73 @@
+typename geyser constructor
+typeflags geyser dropBlocking shadow createsisland;
+{
+	description="Storm Geyser";
+    class="Source of Storm Power";
+	theme = "sun";
+	cost = 2000;
+
+	zorder = "zoEMPLACEMENTS";
+	foot_x = 3;
+	foot_y = 3;
+	hotFootRatioX = 0.22;
+	hotFootRatioY = 0.22;
+}
+
+A00 : : "geyser.gif" #0 : "geyser.gif" #17;
+A01 : : "geyser.gif" #01;
+A02 : : "geyser.gif" #02;
+A03 : : "geyser.gif" #03;
+A04 : : "geyser.gif" #04;
+A05 : : "geyser.gif" #05;
+A06 : : "geyser.gif" #06;
+A07 : : "geyser.gif" #07;
+A08 : : "geyser.gif" #08;
+A09 : : "geyser.gif" #09;
+A10 : : "geyser.gif" #10;
+A11 : : "geyser.gif" #11;
+A12 : : "geyser.gif" #12;
+A13 : : "geyser.gif" #13;
+A14 : : "geyser.gif" #14;
+A15 : : "geyser.gif" #15;
+A16 : : "geyser.gif" #16;
+A17 : : "geyser2.gif" #18;
+A18 : : "geyser2.gif" #19;
+A19 : : "geyser2.gif" #20;
+A20 : : "geyser2.gif" #21;
+A21 : : "geyser2.gif" #22;
+A22 : : "geyser2.gif" #23;
+A23 : : "geyser2.gif" #24;
+A24 : : "geyser2.gif" #25;
+A25 : : "geyser2.gif" #26;
+A26 : : "geyser2.gif" #27;
+A27 : : "geyser2.gif" #28;
+A28 : : "geyser2.gif" #29;
+A29 : : "geyser2.gif" #30;
+A30 : : "geyser2.gif" #31;
+A31 : : "geyser2.gif" #32;
+A32 : : "geyser2.gif" #33;
+A33 : : "geyser2.gif" #35;
+A34 : : "geyser2.gif" #36;
+A35 : : "geyser2.gif" #37;
+A36 : : "geyser2.gif" #38;
+A37 : : "geyser2.gif" #39;
+A38 : : "geyser2.gif" #40;
+A39 : : "geyser2.gif" #41;
+A40 : : "geyser2.gif" #42;
+A41 : : "geyser2.gif" #43;
+A42 : : "geyser2.gif" #44;
+A43 : : "geyser2.gif" #45;
+A44 : : "geyser2.gif" #46;
+A45 : : "geyser2.gif" #47;
+A46 : : "geyser2.gif" #48;
+A47 : : "geyser2.gif" #49;
+A48 : : "geyser2.gif" #50;
+
+
+//B00 :default  : "geyser2.gif" #17;
+B00 :default baseframe  : "geyser.gif" #33 : "geyser.gif" #17;
+
+
+ 
+
+P00 : help : "b_strmgysr.gif" #00  ;

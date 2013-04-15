@@ -1,0 +1,31 @@
+typename rainBlocker constructor
+typeflags createsisland emplacement shadow;
+{
+	description="Ice Tower";
+	class="Defense";
+	maxHitPoints = 1060;
+	theme = "rain";
+	level = 2;
+	cost = 800;
+	threat = 5;
+	zorder = "zoEMPLACEMENTS";
+	foot_x = 3;
+	foot_y = 3;
+	height = 3;
+
+	//hotFootX = 4;
+	//hotFootY = 5;
+	hotFootRatioX = 0.25;
+	hotFootRatioY = 0.25;
+	constructionRate = 10;
+	group = "blocker";
+
+	techBit = 15;
+}
+
+A00 : default : "rblock.gif" #14 : "rblock.gif" #29 ;
+P00 : help : "b_rblocker.gif" #00;
+
+
+
+

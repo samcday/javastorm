@@ -1,0 +1,16 @@
+typename mansion constructor
+typeflags emplacement needspower needswater residence shotblocking dropBlocking ;
+{
+	description="Mansion";
+	zorder = "zoEMPLACEMENTS";
+	maxHitPoints = 100;
+	foot_x = 6;
+	foot_y = 4;
+	damageEffect = 1;
+	constructionRate = 10;
+	crew = 5;
+	baseCrew = 1;
+}
+
+P01 : default : "mansion.gif" #00  ;
+

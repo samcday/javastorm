@@ -1,0 +1,29 @@
+typename sunBattery constructor
+typeflags createsisland emplacement shadow;
+{
+	description="Sun Generator";
+	class="Source of Energy";
+	maxHitPoints = 600;
+	theme = "sun";
+	level = 1;
+	cost = 250;
+
+	zorder = "zoEMPLACEMENTS";
+	minUsage = -100;
+	maxUsage = -100;
+	foot_x = 3;
+	foot_y = 3;
+//	hotFootX = 2;
+//	hotFootY = 10;
+	hotFootRatioX = 0.125;
+	hotFootRatioY = 0.625;
+	constructionRate = 10;
+	damageEffect = 1;
+	activeSound = "jacoblad.wav";
+//	rateVar = 0.01;
+	group = "battery";
+}
+
+P01 : default : "sbattery.gif" #00  : "sbattery.gif" #05  ;
+P00 : help : "b_sbattery.gif" #00;
+

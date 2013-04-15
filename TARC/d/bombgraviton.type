@@ -1,0 +1,28 @@
+typename bombgraviton constructor
+typeflags default_hotspot bomb mayDropOnRim ;
+{
+	description="Graviton";
+	class="Offensive Spell";
+
+	zorder = "zoEMPLACEMENTS";
+	foot_x = 1;
+	foot_y = 1;
+
+	level = 3;	// Determines its probability class
+	range = 5;
+	cost = 500;
+
+	activeSound = "70GravitationPickup1.wav";
+	fireSound = "70GravitateCast1.wav";
+
+	casttime=1;
+	praytime=60;
+	manacost=10;
+
+}
+
+A00 : : "blank.gif" #0 ;
+
+B00 :  default baseframe : "spells.gif" #19  ;
+
+B01 : help : "b_obelisk.gif" #00;

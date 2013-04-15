@@ -1,0 +1,102 @@
+[Header]
+missionType = "Tutorial"
+
+missionNumber = 1
+
+allowAnyCapture = 1
+
+myStartMoney = 10000
+myTech = "sunWalker;windBattery;windWalker;windArcher;sunBlocker;sunAviary;sunCannon"
+
+aiMoneyRechargeRate = 8    // One sun cannon per minute
+
+// The guy you're saving
+ai2Name = "The Traitor"
+ai2Tech = "sunWalker"
+ai2StartMoney = 0
+ai2TimeBetweenMoves = 4
+ai2AllyList = "1"
+ai2Ability = "!COLLECT_STORM_POWER;!ATTACH_TO_ENEMY_ISLAND;!ENCIRCLE_ENEMY_ISLAND"
+ai2Color = white
+
+ai3Name = "Duke of Wind"
+ai3Tech = "sunWalker;sunArcher;sunCannon;windBattery;windAviary;windBlocker;windArcher"
+ai3StartMoney = 6000
+ai3TimeBetweenMoves = 4
+ai3AllyList = "4"
+ai3Ability = "!ATTACH_TO_ENEMY_ISLAND;!ENCIRCLE_ENEMY_ISLAND"
+ai3Color = red
+
+ai4Name = "Duke of Rain"
+ai4Tech = "sunWalker;sunArcher;sunCannon;rainBattery;rainCannon;rainAviary;rainBlocker"
+ai4StartMoney = 6000
+ai4TimeBetweenMoves = 4
+ai4AllyList = "3"
+ai4Ability = "!ATTACH_TO_ENEMY_ISLAND;!ENCIRCLE_ENEMY_ISLAND"
+ai4Color = orange
+
+title="Enemy Territory!"
+
+[Options]
+
+[A.]
+<h2>Enemy Territory!</h2>
+<i>"My only friends are the foes of my foes."<br>
+--Commander Setin Hork</i>
+<p>
+There is a traitor Priest among the enemy! A minion of the Duke of Thunder
+wishes to be rescued from inside enemy lines. His island is near the
+enemy's defensive line.
+<p>
+Break through the line and rescue him from his small island. He claims to know
+a secret, unguarded route into the heart of the enemy empire!
+
+$Button=Review Knowledge,ShowTechnology,55
+$Button=Play Mission,DoNothing,0
+
+[Ai2PriestCaptured]
+<h2>Saved!</h2>
+<p>
+<i>"Thank goodness you have gotten to me in time. Bring me
+to safety by dropping me on your island and I will
+reveal the secret plans!"
+</i>
+$Button=Continue,DoNothing,0
+
+
+[Succeeded][Ai2PriestSaved]
+<h2>Success!</h2>
+<p>
+You have brought the traitor to your island!
+<p>
+He reveals a secret route through enemy territory that should allow you to
+strike right at the heart of that Dark Empire. Your ultimate
+victory may be at hand!
+
+<$Config,Done{mission.fileName}=1>
+
+$Button=Leave Missions,MissionAbort,1
+$Button=Next Mission,MissionBegin,FinalConfrontation
+
+[Ai2PriestDead]
+<h2>Failure!</h2>
+<p>
+The enemy has slain the traitorous Priest. Without his
+secret you will never pierce to the heart of the
+dark empire!
+$Button=Continue,Tell,TryAgain
+
+
+[Failed]
+<h2>Failure!</h2>
+<p>
+The enemy has crushed your island and slain your Priest.
+<p>
+You will never succeed without the vital information the traitor
+could have provided!
+$Button=Continue,Tell,TryAgain
+
+
+[END]
+																		 
+																		 

@@ -1,0 +1,66 @@
+[Header]
+missionType = "Tutorial"
+
+loadFort = "BreakingThrough"
+
+missionNumber = 1
+moreGeysers = 0
+
+myStartMoney = 0
+// Very important to start your money at 0 so that you can't stop the priest's capture.
+myTech = "sunWalker;rainBattery;rainCannon;rainBlocker;rainWalker;sunArcher;sunAviary;sunBlocker"
+
+aiName = "Prinz des Windes"
+aiTech = "sunWalker;windBattery;windArcher;windAviary;windBlocker"
+aiStartMoney = 4000
+aiGeyserAttachments = 3
+aiCollectors = 4
+aiTimeBetweenMoves = 4
+aiAbility = "!SACRIFICE_ENEMY_PRIEST"
+
+title="Defensivschlag"
+
+[Options]
+
+[A.]
+<h2>Defensivschlag</h2>
+<i>"Bek?mpfe Deine Feinde, und tr?nke ihre K?rper mit ihrem eigenen Blut."
+--Caspar Grellin, Hohepriester von Nimbus
+</i>
+<p>
+Ihr Hohepriester befindet sich in gro?er Gefahr: Er soll in K?rze vom Finsteren Prinzen des Windes gefangengenommen werden!
+<p>
+Ihre Spione berichten von Schmerzensschreien, die aus dem Windtempel dringen. Viele erz?hlen au?erdem von unheimlichen Experimenten, die der Finstere Prinz in der Vergangenheit durchgef?hrt haben soll.
+
+$Button=Weiter,Tell,A1.
+
+[A1.]
+<h2>Defensivschlag</h2>
+<p>
+Beweisen Sie Ihrem Gefolge, da? keinem Ihrer Priester auch nur ein Haar gekr?mmt werden darf, solange Sie das Sagen haben.
+<p>
+Durchbrechen Sie die feindlichen Kampflinien, und retten Sie Ihren in Not geratenen Priester. Danach ?ben Sie Vergeltung, indem Sie den feindlichen Priester vernichten!
+
+$Button=Aktueller Wissensstand,ShowTechnology,55
+$Button=Mission starten,DoNothing,0
+
+
+[Succeeded][BadTeamDead]
+<h2>Mission erfolgreich abgeschlossen!</h2>
+<p>
+Ihr Priester ist wohlbehalten zu seinem Volk zur?ckgekehrt, und die Legionen des Finsteren Prinzen sind zerschlagen! Dieses Schicksal wird jeden ereilen, der es wagen sollte, sich an den heiligen M?nnern Ihres Reiches zu vergreifen!
+<$Config,Ende{mission.fileName}=1>
+$Button=Mission beenden,MissionAbort,1
+$Button=N?chste Mission,MissionBegin,ToTheRescue
+
+
+[Failed]
+<h2>Missionsziel verfehlt!</h2>
+<p>
+Der Finstere Prinz hat die Opferung Ihres Priesters durchgef?hrt. Die Bev?lkerung Ihres Reiches trauert um ihren geliebten heiligen Mann und wird Sie schon bald f?r Ihr unvorsichtiges Vorgehen zur Rechenschaft ziehen.
+$Button=Weiter,Tell,TryAgain
+
+
+[END]
+																		 
+																		 

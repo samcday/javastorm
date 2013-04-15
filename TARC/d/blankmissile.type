@@ -1,0 +1,15 @@
+typename blankMissile 
+typeflags dontSave not_real;
+{
+	impactSound = "impact.wav";
+}
+
+// This is all a hack because the parser can't deal with blank things right!
+// *** Need Jim to look at this if we care.
+
+A01 : default : "arrow.gif" #08  ;
+
+
+
+
+

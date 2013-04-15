@@ -1,0 +1,38 @@
+typename fireBlocker constructor
+typeflags createsisland emplacement container;
+{
+	description="Fire Shield";
+	class="Defense";
+	maxHitPoints = 1000;
+	theme = "fire";
+	level = 2;
+	cost = 600;
+
+	zorder = "zoEMPLACEMENTS";
+	foot_x = 3;
+	foot_y = 3;
+	height = 3;
+	damageEffect = 1;
+
+//	hotFootY = 4;
+	hotFootRatioY = 0.25;
+	constructionRate = 10;
+	group = "blocker";
+
+	techBit = 24;
+}
+
+P01 : default : "focus.gif" #09 ;
+//P02 :         : "fblocker.gif" #00 ;
+//P03 :         : "fblocker.gif" #01 ;
+//P04 :         : "fblocker.gif" #02 ;
+//P05 :         : "fblocker.gif" #03 ;
+//P06 :         : "fblocker.gif" #04 ;
+//P07 :         : "fblocker.gif" #05 ;
+//P08 :         : "fblocker.gif" #06 ;
+//P09 :         : "fblocker.gif" #07 ;
+//P10 :         : "fblocker.gif" #08 ;
+//P11 :         : "fblocker.gif" #09 ;
+
+A00 : help : "b_tblocker.gif" #00  ;
+

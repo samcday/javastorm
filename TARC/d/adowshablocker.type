@@ -1,0 +1,28 @@
+typename adowshaBlocker constructor
+typeflags createsisland emplacement container shadow;
+{
+	description="Dark Tower";
+	class="Defense";
+	maxHitPoints = 3000;
+	theme = "adowsha";
+	level = 2;
+	cost = 600;
+
+	zorder = "zoEMPLACEMENTS";
+	foot_x = 3;
+	foot_y = 3;
+	height = 3;
+	damageEffect = 1;
+
+//	hotFootY = 4;
+	hotFootRatioY = 0.25;
+	constructionRate = 10;
+	group = "blocker";
+
+	techBit = 27;
+}
+
+P01 : default : "s_jammer.gif" #01 : "s_jammer.gif" #24 ;
+
+P00 : help : "b_tblocker.gif" #00  ;
+

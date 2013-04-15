@@ -1,0 +1,16 @@
+typename bridgeConnector client constructor
+typeflags dontSave not_real;
+{
+	description="Bridge";
+	zorder = "zoBRIDGE_CONNECTOR";
+	foot_x = 1;
+	foot_y = 1;
+}
+
+// these are arranged according to the direction the island lies in 
+// from the bridge spur - island north, east, south, west
+
+A00 : : "bridge.gif" #33; 
+A01 : : "bridge.gif" #31;
+A02 : : "bridge.gif" #34;
+A03 : : "bridge.gif" #32;

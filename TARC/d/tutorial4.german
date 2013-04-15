@@ -1,0 +1,170 @@
+[Header]
+missionType = "Tutorial"
+aid=1
+
+loadFort = "TacticalCombat"
+denyAscend = 1
+tutorialNumber = 4
+moreGeysers = 0
+
+techAllowed = "deny;all;allow;windVortex;sunFactory;sunWalker;sunArcher;sunCannon;windBattery;sunBlocker"
+
+myStartMoney = 2000
+myTech = "sunArcher;sunWalker;windBattery"
+aiOff = 1
+aiNoTemple = 1
+
+title = "Taktische Kriegsf?hrung"
+
+[A.]
+<h2>Fortgeschrittene Kampfkunst, Teil 1</h2>
+<i>"Wer blindlings angreift, ger?t in Schwierigkeiten. Nur taktisch wohl?berlegtes Vorgehen f?hrt zum Sieg." --General Dalik Marridelt</i>
+<p>
+Wie ?blich ist das Hauptziel dieser ?bungsmission einmal mehr die Gefangennahme des feindlichen Priesters. In diesem Fall ist die feindliche Insel allerdings durch Sonnenkanonen und Sonnenscheibenwerfer gesch?tzt.
+<br>
+     <!"sunCannon.*"><br>
+"Sonnenkanone"
+<p>
+Die Sonnenkanonen besitzen zwar eine gro?e Reichweite, aber auch eine Schwachstelle: Sie k?nnen nur geradlinig nach Norden, S?den, Osten und Westen feuern. Im Verlauf dieser Mission werden Sie erfahren, wie Sie die Kanonen trotz ihrer enormen Reichweite mit Hilfe Ihrer eigenen Sonnenscheibenwerfer vernichten k?nnen.
+
+$Button=WEITER,Tell,A1.
+
+[A1.]
+<h2>Fortgeschrittene Kampfkunst, Teil 2</h2>
+Beginnen Sie wieder damit, da? Sie einige Golems bauen und sie beauftragen, Sturmkraft abzubauen. Ihre Insel besitzt bereits ein Windtempel und eine Sonnenproduktionsst?tte. Geben Sie nun nur noch die Sonnenscheibenwerfer und Windgeneratoren in Produktion.
+<p>
+<I>Die ?bungsmission wird fortgesetzt, sobald sich diese beiden Einheiten in Produktion befinden.</I>
+
+$Button=ZUR?CK,Tell,A.
+$Button=OK,DoNothing,0
+
+[B.]
+<h2>Sonnenscheibenwerfer gegen Sonnenkanone, Teil 1</h2>
+Bevor Sie den feindlichen Priester gefangennehmen k?nnen, m?ssen Sie zun?chst die feindlichen Sonnenkanonen unsch?dlich machen.
+<p>
+Sollten Sie versuchen, eine Sonnenkanone geradlinig, also entlang ihrer Schu?linie, mit einem Sonnenscheibenwerfer anzugreifen, wird Ihr Werfer durch den Beschu? der Sonnenkanone mit Sicherheit vernichtet sein, lange bevor er auch nur minimalen Schaden anrichten konnte.
+<p>
+Da die Sonnenkanonen jedoch nur in der Lage sind, geradlinig zu feuern, k?nnen Sie Ihre Sonnenscheibenwerfer gefahrlos von einer diagonalen Position aus angreifen lassen.
+
+$Button=WEITER,Tell,B1.
+
+
+[B1.]
+<h2>Sonnenscheibenwerfer gegen Sonnenkanone, Teil 2</h2>
+Bauen Sie Br?ckenwege auf die feindlichen Sonnenkanonen zu, und verzweigen Sie die Br?cken dabei so, da? Sie zu jeder Kanone eine diagonale Stellung beziehen k?nnen. Sie sollten Ihre Einheiten allerdings nicht zu nah an der feindlichen Insel aufstellen, damit sie au?erhalb der Reichweite der im S?den gelegenen feindlichen Sonnenscheibenwerfer bleiben.
+<p>
+Denken Sie daran, da? Sie wie in der vorigen Mission zun?chst einige Windgeneratoren errichten m?ssen, um die Energieversorgung zu sichern.
+<p>
+Hinweis: Klicken Sie die Kanonen und Sonnenscheibenwerfer mit der <c>linken Maustaste</c> an, um sich die jeweilige Schu?reichweite anzeigen zu lassen.
+<p>
+<I>Die ?bungsmission wird automatisch fortgesetzt, nachdem Sie die feindlichen Sonnenkanonen vernichtet haben.</I>
+
+$Button=ZUR?CK,Tell,B.
+$Button=OK,DoNothing,0
+
+[C.]
+<h2>Erweiterung von Produktionsst?tten, Teil 1</h2>
+Auf der feindlichen Insel befinden sich sechs Sonnenscheibenwerfer.
+Sie k?nnen versuchen, diese Einheiten mit Ihren eigenen Sonnenscheibenwerfern au?er Gefecht zu setzen, allerdings ist diese Vorgehensweise nicht sonderlich effizient. Statt dessen sollten Sie eigene Sonnenkanonen errichten und die feindlichen Sonnenscheibenwerfer damit angreifen.
+<p>
+Im Mehrspieler-Modus besitzen Sie zu Beginn des Spiels das Wissen ?ber die Sonnenscheibenwerfer und die Sonnenkanone.
+$Button=WEITER,Tell,C1.
+
+[C1.]
+<h2>Erweiterung von Produktionsst?tten, Teil 2</h2>
+Sie sollten nun die <c>Sonnenkanone</c> in Produktion geben. Allerdings stehen in Ihrer Produktionsst?tte keine weiteren Produktionspl?tze mehr zur Verf?gung, so da? Sie sie zun?chst "erweitern" m?ssen, um einen zus?tzlichen Produktionsplatz zu schaffen.
+<p>
+Klicken Sie dazu Ihre Produktionsst?tte mit der <c>rechten Maustaste</c> an, und w?hlen Sie den Eintrag <c>Erweitern</c>. Gegebenenfalls m?ssen Sie zuvor noch weitere Sturmkraft einsammeln, damit Sie die Erweiterung bezahlen k?nnen.
+<p>
+<I>Die ?bungsmission wird automatisch fortgesetzt, nachdem Sie Ihre Produktionsst?tte erweitert und die Sonnenkanonen in Produktion gegeben haben.</I>
+$Button=ZUR?CK,Tell,C.
+$Button=OK,DoNothing,0
+
+[D.]
+<h2>Sonnenkanonen gegen Sonnenscheibenwerfer</h2>
+Errichten Sie au?erhalb der Reichweite der feindlichen Sonnenscheibenwerfer ein paar Sonnenkanonen, die die Sonnenscheibenwerfer geradlinig in Richtung Norden, S?den, Osten oder Westen als Zielobjekte erfassen k?nnen.
+<p>
+Die Zielerfassung der Kanonen ist relativ flexibel - Sie m?ssen sie also nicht hundertprozentig auf Ihre Ziele ausrichten. Solange sich das Kanonenrohr der Einheit auf einer Linie mit dem <i>Sockel</i> des Zielobjekts befindet, ist eine Treffsicherheit gegeben - vorausgesetzt, das Ziel befindet sich innerhalb der Schu?reichweite.
+<p>
+Hinweis: Sie haben m?glicherweise bereits bemerkt, da? Sie durch die Vernichtung einer feindlichen Einheit im Kampf Sturmkraft hinzugewinnen. Nicht selten k?nnen Sie auf diese Weise mehr Sturmkraft erwirtschaften als durch den Abbau von Sturmkristallen aus den Geysiren.
+<p>
+<I>Nachdem Sie die feindlichen Sonnenscheibenwerfer vernichtet haben, wird die ?bungsmission automatisch fortgesetzt.</I>
+<p>
+Hinweis: Durch Aktivierung des Men?punkts <c>Optionen / Magnetisches Gitter</c> k?nnen Sie sich die genaue Plazierung Ihrer Einheiten vereinfachen.
+
+[E.]
+<h2>Feindliche Sonnenscheibenwerfer vernichtet</h2>
+<i>"Nicht selten zieht ein Ertrinkender seinen potentiellen Retter mit in die Tiefe." --Verfasser unbekannt</i>
+<p>
+Vermutlich war die Vernichtung der feindlichen Sonnenscheibenwerfer einfacher, als Sie es erwartet hatten, weil durch die Explosion der ersten feindlichen Einheit auch die benachbarten Einheiten von Schrapnells getroffen und so gleich mit zerst?rt wurden.
+<p>
+Dieser Effekt tritt bei allen explodierenden Angriffseinheiten gleicherma?en ein: Nah beieinanderstehende Gruppierungen k?nnen durch das Ausl?sen einer Kettenreaktion leicht ausgehoben werden.
+<p>
+Sie sollten diesen Umstand unbedingt ber?cksichtigen, wenn Sie eine feindliche Gruppe von Angriffseinheiten unter Beschu? nehmen und nat?rlich auch, wenn Sie Ihre eigenen Kampfeinheiten in Gruppen anordnen.
+
+$Button=WEITER,Tell,E1.
+
+[E1.]
+<h2>Opferung von Priestern, Teil 1</h2>
+Auf die gleiche Art und Weise, wie Sie es mit Hilfe eines Golems schon in der vorigen ?bungsmission gemacht haben, nehmen Sie jetzt den feindlichen Priester gefangen. Anschlie?end bringen Sie ihn auf Ihre Insel und opfern ihn zu Ehren der Furien, die Sie im Gegenzug mit neuem Wissen belohnen.
+<p>
+Sie k?nnen jedes beliebige Transportmedium damit beauftragen, einen feindlichen Priester gefangenzunehmen. In diesem Fall setzen Sie zu diesem Zweck einen Golem ein.
+<p>
+Hinweis: Jedes Transportmedium, wie z.B. ein Golem, kann immer nur ein Objekt transportieren. Wenn Sie den Golem mit der <c>linken Maustaste</c> anklicken, blinkt das transportierte Objekt kurz auf. Wenn ein Golem, der bereits einen Sturmkristall transportiert, nun den feindlichen Priester gefangennehmen soll, mu? er zun?chst den Kristall ablegen. Klicken Sie dazu den Golem mit der <c>rechten Maustaste</c> an, und w?hlen Sie den Eintrag "Ablegen".
+<p>
+<I>Die ?bungsmission wird fortgesetzt, sobald Ihr Golem den feindlichen Priester gefangengenommen hat.</I>
+
+$Button=ZUR?CK,Tell,E.
+$Button=OK,DoNothing,0
+
+
+[F.]
+<h2>Opferung von Priestern, Teil 2</h2>
+Als Gegenleistung f?r die Opferung feindlicher Priester zu Ehren der Furien erhalten Sie neues Wissen.
+Um die Opferungszeremonie durchf?hren zu k?nnen, m?ssen Sie zun?chst einen Altar errichten. Klicken Sie dazu Ihren eigenen Priester mit der <c>rechten Maustaste</c> an, und w?hlen Sie im folgenden Fenster den Eintrag <c>Altar errichten</c>.
+<p>
+Sollte auf Ihrer Insel nicht mehr gen?gend Platz f?r einen Altar zur Verf?gung stehen, zerst?ren Sie eine Ihrer Produktionsst?tten, indem Sie sie mit der <c>rechten Maustaste</c> anklicken und den Eintrag "Selbstzerst?rung" ausw?hlen.
+<p>
+<I>Die ?bungsmission wird fortgesetzt, sobald der Altar errichtet ist.</I>
+
+
+[G.]
+<h2>Opferung von Priestern, Teil 3</h2>
+Nun ist es an der Zeit, die Opferung des feindlichen Priesters durchzuf?hren. Beauftragen Sie den Golem, der den Priester transportiert, ihn in die Mitte des soeben errichteten Altars zu bringen. Er kettet den Priester dort an und zieht sich dann zur?ck.
+<p>
+<I>Sobald der feindliche Priester am Altar festgebunden ist, wird die ?bungsmission automatisch fortgesetzt.</I>
+
+
+[H.]
+<h2>Opferung von Priestern, Teil 4</h2>
+Die Opferungszeremonie, nach deren Vollendung Sie mit neuem Wissen erleuchtet werden, kann nun beginnen. Beauftragen Sie Ihren Priester, das Opferungsritual durchzuf?hren, indem Sie ihn mit der <c>linken Maustaste</c> anklicken, den Mauszeiger dann auf den Altar bewegen und erneut die <c>linke Maustaste</c> klicken, sobald der Mauszeiger die Form eines Dolches annimmt.
+<p>
+Ihr Priester bewegt sich daraufhin auf den Altar zu und beschw?rt die f?nf Runensteine. Wenn alle Runensteine aktiviert sind, bricht der Altar zusammen, und die Opferung ist damit abgeschlossen!
+<p>
+<I>F?hren Sie nun die Opferungszeremonie durch. Die ?bungsmission wird anschlie?end automatisch fortgesetzt.</I>
+
+[I.]
+<h2>Mehrspieler-Modus und Einzelspieler-Modus</h2>
+Zwischen einer Opferungszeremonie im Einzelspieler-Modus und einer Opferung im Mehrspieler-Modus gibt es ein paar Unterschiede.
+<p>
+In den Einzelspieler-Missionen erhalten Sie als Gegenleistung f?r eine durchgef?hrte Opferung automatisch ein vorgegebenes neues Wissen (Sie k?nnen sich also kein bestimmtes Wissen aussuchen), das in der n?chsten Mission nicht mehr zur Verf?gung steht. Die Opferung feindlicher Priester dient hierbei in erster Linie dazu, die Mission zu "gewinnen".
+<p>
+Im Mehrspieler-Modus behalten Sie das durch eine Opferung erworbene Wissen auch in allen weiteren K?mpfen bei. In diesem Fall h?ngt Ihr ?berleben im Kampf gegen Ihre Feinde wesentlich von den zur Verf?gung stehenden Wissensarten bzw. Technologien ab. Aus diesem Grund k?nnen Sie sich im Mehrspieler-Modus das Wissen, welches Sie als Belohnung f?r eine Opferung erhalten, selbst aussuchen.
+
+$Button=WEITER,Tell,I1.
+
+
+[I1.]
+<h2>Mission erfolgreich abgeschlossen!</h2>
+Sie haben die vierte ?bungsmission erfolgreich abgeschlossen.
+<p>
+In der n?chsten ?bungsmission erfahren Sie, wie Sie Ihre Verteidigungseinheiten sinnvoll einsetzen, um sich gegen st?rkere gegnerische Kampfeinheiten zur Wehr setzen zu k?nnen.
+<$Config,Done{mission.fileName}=1>
+$Button=ZUR?CK,Tell,I.
+$Button=?bungsmission beenden,LeaveBattle,1
+$Button=N?chste ?bungsmission,MissionBegin,Tutorial5
+
+
+[END]
+																		 
+																		 

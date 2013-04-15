@@ -1,0 +1,85 @@
+[Header]
+missionType = "Tutorial"
+
+missionNumber = 1
+moreGeysers = 1
+
+myStartMoney = 5000
+myTech = "sunWalker;sunArcher;sunBlocker;sunBalloon;sunFence;sunAviary;sunCannon;rainBattery;windBattery;thunderBattery"
+
+ai2Name = "Lord of Sun"
+ai2Tech = "sunWalker;sunArcher;sunBlocker;sunBalloon;sunAviary;sunCannon"
+ai2StartMoney = 3000
+ai2GeyserAttachments = 2
+ai2Collectors = 3
+ai2TimeBetweenMoves = 4
+ai2AllyList = "3;4;5"
+ai2color = red
+
+ai3Name = "Lord of Thunder"
+ai3Tech = "sunWalker;thunderBattery;thunderBlocker;thunderCannon;bulf;thunderArcher"
+ai3StartMoney = 3000
+ai3GeyserAttachments = 2
+ai3Collectors = 4
+ai3TimeBetweenMoves = 3
+ai3AllyList = "2;4;5"
+ai3Color = yellow
+
+ai4Name = "Lord of Wind"
+ai4Tech = "sunWalker;windBattery;windWalker;windAviary;windArcher;windBalloon;windBlocker"
+ai4StartMoney = 2000
+ai4GeyserAttachments = 2
+ai4Collectors = 4
+ai4TimeBetweenMoves = 4
+ai4AllyList = "2;3;5"
+ai4Color = orange
+
+ai5Name = "Lord of Rain"
+ai5Tech = "sunWalker;rainBattery;rainCannon;rainAviary;rainBalloon;rainBlocker;rainWalker"
+ai5StartMoney = 0
+ai5GeyserAttachments = 2
+ai5Collectors = 3
+ai5TimeBetweenMoves = 4
+ai5AllyList = "2;3;4"
+ai5Color = white
+
+title="Surrounded!"
+
+[Options]
+
+[A.]
+<h2>Surrounded!</h2>
+<i>"But if there were a lasting peace in Nimbus, how would we possibly pass the time?"<br>
+--Intum Rukat, Minister of War</i>
+<p>
+Angered by your continued victories, the Dark Lords of Sun, Wind, Rain
+and Thunder have come upon you in a surprise attack. You must use
+all your wits to destroy them!
+
+$Button=Review Knowledge,ShowTechnology,55
+$Button=Play Mission,DoNothing,0
+
+
+[Succeeded][BadTeamDead]
+<h2>Success!</h2>
+<p>
+Your military genius has allowed you to achieve the impossible!  You have
+fended off an enormous surprise attack and risen to a fantastic victory!
+Let it be known who rules the skies of Nimbus!
+<$Config,Done{mission.fileName}=1>
+$Button=Leave Missions,MissionAbort,1
+$Button=Next Mission,MissionBegin,BreakingThrough
+
+
+[Failed]
+<h2>Failure!</h2>
+<p>
+The Dark Lords have at last halted your incredible rise to prowess
+in the skies of Nimbus.  You will henceforward be a minion of Darkness,
+forced to do the bidding of the sick and vicious Dark Lords.
+$Button=Continue,Tell,TryAgain
+
+
+[END]
+																		 
+																		 

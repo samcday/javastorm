@@ -1,0 +1,239 @@
+typename Dais constructor
+typeflags dais saveFrame mayDropOnRim ;
+{
+	description = "Altar";
+	class="Altar";
+	zorder = "zoBRIDGE";
+	foot_x = 7;
+	foot_y = 7;
+	cost = 500; // if you change this, make sure you change it in altar.type, too!
+}
+
+P00 : : "altar01.gif" #00;  // 0 for cursor
+P01 : : "altar01.gif" #01; // 1 the ring grows (build animation) while hole animation plays
+P02 : : "altar01.gif" #02; // 2 hole (last frame of unfinished animation
+
+P03 : default : "altar01.gif" #03; // 3 final frame of altar, before sacrifice
+P04 : : "altar13.gif" #00; // one bridge going
+P05 : : "altar13.gif" #01; // one bridge going
+P06 : : "altar13.gif" #02; // one bridge going
+P07 : : "altar13.gif" #03; // one bridge going
+P08 : : "altar13.gif" #04; // one bridge going
+P09 : : "altar13.gif" #05; // one bridge going
+P10 : : "altar13.gif" #06; // one bridge going
+P11 : : "altar13.gif" #07; // one bridge going
+P12 : : "altar13.gif" #08; // one bridge going
+P13 : : "altar13.gif" #09; // one bridge going
+
+P14 : : "altar01.gif" #04; // 4 one bridge gone
+P15 : : "altar14.gif" #00; // two bridge going
+P16 : : "altar14.gif" #01; // two bridge going
+P17 : : "altar14.gif" #02; // two bridge going
+P18 : : "altar14.gif" #03; // two bridge going
+P19 : : "altar14.gif" #04; // two bridge going
+P20 : : "altar14.gif" #05; // two bridge going
+P21 : : "altar14.gif" #06; // two bridge going
+P22 : : "altar14.gif" #07; // two bridge going
+P23 : : "altar14.gif" #08; // two bridge going
+P24 : : "altar14.gif" #09; // two bridge going
+
+P25 : : "altar01.gif" #05; // 5 two bridges gone
+P26 : : "altar15.gif" #00; // three bridge going
+P27 : : "altar15.gif" #01; // three bridge going
+P28 : : "altar15.gif" #02; // three bridge going
+P29 : : "altar15.gif" #03; // three bridge going
+P30 : : "altar15.gif" #04; // three bridge going
+P31 : : "altar15.gif" #05; // three bridge going
+P32 : : "altar15.gif" #06; // three bridge going
+P33 : : "altar15.gif" #07; // three bridge going
+P34 : : "altar15.gif" #08; // three bridge going
+P35 : : "altar15.gif" #09; // three bridge going
+
+P36 : : "altar01.gif" #06; // 6 three bridges gone
+P37 : : "altar16.gif" #00; // four bridge going
+P38 : : "altar16.gif" #01; // four bridge going
+P39 : : "altar16.gif" #02; // four bridge going
+P40 : : "altar16.gif" #03; // four bridge going
+P41 : : "altar16.gif" #04; // four bridge going
+P42 : : "altar16.gif" #05; // four bridge going
+P43 : : "altar16.gif" #06; // four bridge going
+P44 : : "altar16.gif" #07; // four bridge going
+P45 : : "altar16.gif" #08; // four bridge going
+P46 : : "altar16.gif" #09; // four bridge going
+
+P47 : : "altar01.gif" #07; // 7 four bridges gone
+P48 : : "altar17.gif" #00; // five bridge going
+P49 : : "altar17.gif" #01; // five bridge going
+P50 : : "altar17.gif" #02; // five bridge going
+P51 : : "altar17.gif" #03; // five bridge going
+P52 : : "altar17.gif" #04; // five bridge going
+P53 : : "altar17.gif" #05; // five bridge going
+P54 : : "altar17.gif" #06; // five bridge going
+P55 : : "altar17.gif" #07; // five bridge going
+P56 : : "altar17.gif" #08; // five bridge going
+P57 : : "altar17.gif" #09; // five bridge going
+
+P58 : : "altar01.gif" #08; // 8 all bridges gone, begin ssacrifice animation
+P59 : : "altar01.gif" #09; // 9-13, rune frames, go with 3-7
+
+P60 : : "blank.gif" #00; 
+P61 : : "blank.gif" #00; 
+P62 : : "blank.gif" #00; 
+P63 : : "blank.gif" #00; 
+
+// 14-19 same as 3-8, but level two ring
+P64 : : "altar02.gif" #14; //  final frame of altar, before sacrifice
+P65 : : "altar03.gif" #00; // one bridge going
+P66 : : "altar03.gif" #01; // one bridge going
+P67 : : "altar03.gif" #02; // one bridge going
+P68 : : "altar03.gif" #03; // one bridge going
+P69 : : "altar03.gif" #04; // one bridge going
+P70 : : "altar03.gif" #05; // one bridge going
+P71 : : "altar03.gif" #06; // one bridge going
+P72 : : "altar03.gif" #07; // one bridge going
+P73 : : "altar03.gif" #08; // one bridge going
+P74 : : "altar03.gif" #09; // one bridge going
+
+P75 : : "altar02.gif" #15; //  one bridge gone
+P76 : : "altar04.gif" #00; // two bridge going
+P77 : : "altar04.gif" #01; // two bridge going
+P78 : : "altar04.gif" #02; // two bridge going
+P79 : : "altar04.gif" #03; // two bridge going
+P80 : : "altar04.gif" #04; // two bridge going
+P81 : : "altar04.gif" #05; // two bridge going
+P82 : : "altar04.gif" #06; // two bridge going
+P83 : : "altar04.gif" #07; // two bridge going
+P84 : : "altar04.gif" #08; // two bridge going
+P85 : : "altar04.gif" #09; // two bridge going
+
+P86 : : "altar02.gif" #16; //  two bridges gone
+P87 : : "altar05.gif" #00; // three bridge going
+P88 : : "altar05.gif" #01; // three bridge going
+P89 : : "altar05.gif" #02; // three bridge going
+P90 : : "altar05.gif" #03; // three bridge going
+P91 : : "altar05.gif" #04; // three bridge going
+P92 : : "altar05.gif" #05; // three bridge going
+P93 : : "altar05.gif" #06; // three bridge going
+P94 : : "altar05.gif" #07; // three bridge going
+P95 : : "altar05.gif" #08; // three bridge going
+P96 : : "altar05.gif" #09; // three bridge going
+
+P97 : : "altar02.gif" #17; //  three bridges gone
+P98 : : "altar06.gif" #00; // four bridge going
+P99 : : "altar06.gif" #01; // four bridge going
+O00 : : "altar06.gif" #02; // four bridge going
+O01 : : "altar06.gif" #03; // four bridge going
+O02 : : "altar06.gif" #04; // four bridge going
+O03 : : "altar06.gif" #05; // four bridge going
+O04 : : "altar06.gif" #06; // four bridge going
+O05 : : "altar06.gif" #07; // four bridge going
+O06 : : "altar06.gif" #08; // four bridge going
+O07 : : "altar06.gif" #09; // four bridge going
+
+O08 : : "altar02.gif" #18; //  four bridges gone
+O09 : : "altar07.gif" #00; // five bridge going
+O10 : : "altar07.gif" #01; // five bridge going
+O11 : : "altar07.gif" #02; // five bridge going
+O12 : : "altar07.gif" #03; // five bridge going
+O13 : : "altar07.gif" #04; // five bridge going
+O14 : : "altar07.gif" #05; // five bridge going
+O15 : : "altar07.gif" #06; // five bridge going
+O16 : : "altar07.gif" #07; // five bridge going
+O17 : : "altar07.gif" #08; // five bridge going
+O18 : : "altar07.gif" #09; // five bridge going
+
+O19 : : "altar02.gif" #19; //  all bridges gone, begin ssacrifice animation
+
+// 20-25 same as 3-8, but level three ring
+O20 : : "altar02.gif" #20; //  final frame of altar, before sacrifice
+O21 : : "altar08.gif" #00; // one bridge going
+O22 : : "altar08.gif" #01; // one bridge going
+O23 : : "altar08.gif" #02; // one bridge going
+O24 : : "altar08.gif" #03; // one bridge going
+O25 : : "altar08.gif" #04; // one bridge going
+O26 : : "altar08.gif" #05; // one bridge going
+O27 : : "altar08.gif" #06; // one bridge going
+O28 : : "altar08.gif" #07; // one bridge going
+O29 : : "altar08.gif" #08; // one bridge going
+O30 : : "altar08.gif" #09; // one bridge going
+
+O31 : : "altar02.gif" #21; //  one bridge gone
+O32 : : "altar09.gif" #00; // two bridge going
+O33 : : "altar09.gif" #01; // two bridge going
+O34 : : "altar09.gif" #02; // two bridge going
+O35 : : "altar09.gif" #03; // two bridge going
+O36 : : "altar09.gif" #04; // two bridge going
+O37 : : "altar09.gif" #05; // two bridge going
+O38 : : "altar09.gif" #06; // two bridge going
+O39 : : "altar09.gif" #07; // two bridge going
+O40 : : "altar09.gif" #08; // two bridge going
+O41 : : "altar09.gif" #09; // two bridge going
+
+O42 : : "altar02.gif" #22; //  two bridges gone
+O43 : : "altar10.gif" #00; // three bridge going
+O44 : : "altar10.gif" #01; // three bridge going
+O45 : : "altar10.gif" #02; // three bridge going
+O46 : : "altar10.gif" #03; // three bridge going
+O47 : : "altar10.gif" #04; // three bridge going
+O48 : : "altar10.gif" #05; // three bridge going
+O49 : : "altar10.gif" #06; // three bridge going
+O50 : : "altar10.gif" #07; // three bridge going
+O51 : : "altar10.gif" #08; // three bridge going
+O52 : : "altar10.gif" #09; // three bridge going
+
+O53 : : "altar02.gif" #23; //  three bridges gone
+O54 : : "altar11.gif" #00; // four bridge going
+O55 : : "altar11.gif" #01; // four bridge going
+O56 : : "altar11.gif" #02; // four bridge going
+O57 : : "altar11.gif" #03; // four bridge going
+O58 : : "altar11.gif" #04; // four bridge going
+O59 : : "altar11.gif" #05; // four bridge going
+O60 : : "altar11.gif" #06; // four bridge going
+O61 : : "altar11.gif" #07; // four bridge going
+O62 : : "altar11.gif" #08; // four bridge going
+O63 : : "altar11.gif" #09; // four bridge going
+
+O64 : : "altar02.gif" #24; //  four bridges gone
+O65 : : "altar12.gif" #00; // five bridge going
+O66 : : "altar12.gif" #01; // five bridge going
+O67 : : "altar12.gif" #02; // five bridge going
+O68 : : "altar12.gif" #03; // five bridge going
+O69 : : "altar12.gif" #04; // five bridge going
+O70 : : "altar12.gif" #05; // five bridge going
+O71 : : "altar12.gif" #06; // five bridge going
+O72 : : "altar12.gif" #07; // five bridge going
+O73 : : "altar12.gif" #08; // five bridge going
+O74 : : "altar12.gif" #09; // five bridge going
+
+O75 : : "altar02.gif" #25; //  all bridges gone, begin ssacrifice animation
+
+// no altar, lights flickering level 1
+N00 : : "altar24.gif" #00; 
+N01 : : "altar24.gif" #01; 
+N02 : : "altar24.gif" #02; 
+N03 : : "altar24.gif" #03; 
+N04 : : "altar24.gif" #04; 
+N05 : : "altar24.gif" #05; 
+N06 : : "altar24.gif" #06; 
+
+// no altar, lights flickering level 2
+M00 : : "altar24.gif" #07; 
+M01 : : "altar24.gif" #08; 
+M02 : : "altar24.gif" #09; 
+M03 : : "altar24.gif" #10; 
+M04 : : "altar24.gif" #11; 
+M05 : : "altar24.gif" #12; 
+M06 : : "altar24.gif" #13; 
+
+// no altar, lights flickering level 3
+L00 : : "altar24.gif" #14; 
+L01 : : "altar24.gif" #15; 
+L02 : : "altar24.gif" #16; 
+L03 : : "altar24.gif" #17; 
+L04 : : "altar24.gif" #18; 
+L05 : : "altar24.gif" #19; 
+L06 : : "altar24.gif" #20; 
+
+
+K00 :        : "blank.gif" #00;
+

@@ -1,0 +1,81 @@
+[Header]
+missionType = "Tutorial"
+
+missionNumber = 1
+
+myStartMoney = 1200
+myTech = "all"
+
+aiName = "Player"
+aiMoneyRechargeRate = 8    // About 3 minutes to get from 0 to reasonable wealth.
+aiTimeBetweenMoves = 2
+aiCollectors = 3
+aiGeyserAttachments = 3
+aiAllyList = "2;3;4;5"
+
+// First enemy to the upper right
+ai2Name = "Lord of Thunder"
+ai2Tech = "thunderBattery;bulf;thunderCannon;thunderBlocker;thunderArcher"
+ai2StartMoney = 0
+
+// Second enemy in the middle of the map
+ai3Name = "Lord of Rain"
+ai3Tech = "rainBattery;rainWalker;rainCannon;rainAviary;rainBlocker;rainBalloon"
+ai3StartMoney = 0
+
+// Lower-right corner enemy
+ai4Name = "Lord of Wind"
+ai4Tech = "windBattery;windWalker;windArcher;windAviary;windBlocker;windBalloon"
+ai4StartMoney = 0
+ai4Ability = "!ATTACH_TO_ENEMY_ISLAND;!ENCIRCLE_ENEMY_ISLAND"
+
+// Lower-right corner enemy
+ai5Name = "Storm Lord"
+ai5Tech = "sunWalker;thunderBlocker"
+ai5Collectors = 0
+ai5GeyserAttachments = 0
+ai5StartMoney = 0
+ai5Ability = "!COLLECT_STORM_POWER;!ATTACH_TO_ENEMY_ISLAND;!ENCIRCLE_ENEMY_ISLAND"
+
+title="Final Confrontation"
+
+[A.]
+<h2>Final Confrontation</h2>
+<i>"All was calm as we approached the strongholds though the air was already thick somehow with 
+the battle that would come, and with the stench of our impending deaths."<br>
+--journal entry, Trin Hursperints</i>
+<p>
+In a daring maneuver your island has moved deep into enemy territory: right
+to the heart of their evil empire!
+<p>
+Now you have discovered the final strongholds of the Dark Princes of
+Wind, Rain and Thunder.  Defeat them in battle and claim the
+Ultimate Victory!
+
+$Button=Review Knowledge,ShowTechnology,55
+$Button=Play Mission,DoNothing,0
+
+
+[Succeeded][BadTeamDead]
+<h2>Success!</h2>
+<p>
+Let it now be known that you alone rule in Nimbus!  Let all the world
+stand in the shadow of your ultimate power!  Let the Dark Lords 
+approach you on their bellies to beg for their lives!  Let the 
+Furies do your bidding forevermore!
+<$Config,Done{mission.fileName}=1>
+$Button=OK,MissionAbort,1
+
+
+[Failed]
+<h2>Failure!</h2>
+<p>
+You were the last hope to rescue Nimbus from ultimate Darkness, 
+but you have failed.  For your insolence, the Dark Lords have 
+decreed that every Nimbian will live out an eternity of poverty,
+sickness, and servitude. 
+$Button=Continue,Tell,TryAgain
+
+[END]
+																		 
+																		 

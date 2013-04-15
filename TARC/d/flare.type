@@ -1,0 +1,52 @@
+typename Flare
+
+typeflags dontSave not_real;
+{
+	zorder = "zoFLARES";
+	foot_x = 4;
+	foot_y = 4;
+}
+
+A01 : default : "flare.gif" #3 ;
+A02 : : "flare.gif" #2 ;
+A03 : : "flare.gif" #1 ;
+A04 : gumpFrame : "flare.gif" #0 ;
+A05 : : "flare.gif" #1 ;
+A06 : : "flare.gif" #2 ;
+A07 : : "flare.gif" #3 ;
+
+B01 : : "flare.gif" #7 ;
+B02 : : "flare.gif" #6 ;
+B03 : : "flare.gif" #5 ;
+B04 : : "flare.gif" #4 ;
+B05 : : "flare.gif" #5 ;
+B06 : : "flare.gif" #6 ;
+B07 : : "flare.gif" #7 ;
+
+C00 : : "manabolt.gif" #3 ;
+C00 : : "manabolt.gif" #2 ;
+C00 : : "manabolt.gif" #1 ;
+C00 : : "manabolt.gif" #0 ;
+C00 : : "manabolt.gif" #12 ;
+C00 : : "manabolt.gif" #11 ;
+C00 : : "manabolt.gif" #10 ;
+C00 : : "manabolt.gif" #9 ;
+
+D00 : : "manabolt.gif" #16 ;
+D00 : : "manabolt.gif" #15 ;
+D00 : : "manabolt.gif" #14 ;
+D00 : : "manabolt.gif" #13 ;
+D00 : : "manabolt.gif" #25 ;
+D00 : : "manabolt.gif" #24 ;
+D00 : : "manabolt.gif" #23 ;
+D00 : : "manabolt.gif" #22 ;
+
+E00 : : "manabolt.gif" #29 ;
+E00 : : "manabolt.gif" #28 ;
+E00 : : "manabolt.gif" #27 ;
+E00 : : "manabolt.gif" #26 ;
+E00 : : "manabolt.gif" #37 ;
+E00 : : "manabolt.gif" #36 ;
+E00 : : "manabolt.gif" #35 ;
+
+

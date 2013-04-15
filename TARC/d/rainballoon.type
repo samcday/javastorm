@@ -1,0 +1,55 @@
+typename rainBalloon 
+typeflags balloon flyershadow;
+{
+	description="Cloud Floater";
+	class="Aerial Transport";
+	maxHitPoints = 200;
+		// Doubled and change to hit doubled to make xbow and
+		// sun disc about even when shooting at this.
+	theme = "rain";
+	level = 3;
+	cost = 1000;
+	threat = 15;
+
+	zorder = "zoFLYERS";
+	foot_x = 2;
+	foot_y = 2;
+	group = "balloon";
+
+	hotFootRatioX = 1.0;
+	hotFootRatioY = 0.7;
+
+	speed = 2.0;
+		// Ken improved v5.3 after consultation.
+//	speed = 10.0;
+	turningSpeed = 99999.0;
+	pickupSound = "cloudDrop.wav";
+	moveSound = "cloudMove.wav";
+	dropSound = "cloudDrop.wav";
+
+	techBit = 14;
+}
+
+A00 : default : "rballoon.gif" #00 : "rballoon.gif" #20;
+A01 : : "rballoon.gif" #01 : "rballoon.gif" #21;
+A02 : : "rballoon.gif" #02 : "rballoon.gif" #22;
+A03 : : "rballoon.gif" #03 : "rballoon.gif" #23;
+A04 : : "rballoon.gif" #04 : "rballoon.gif" #24;
+A05 : : "rballoon.gif" #05 : "rballoon.gif" #25;
+A06 : : "rballoon.gif" #06 : "rballoon.gif" #26;
+A07 : : "rballoon.gif" #07 : "rballoon.gif" #27;
+A08 : : "rballoon.gif" #08 : "rballoon.gif" #28;
+A09 : : "rballoon.gif" #09 : "rballoon.gif" #29;
+A10 : : "rballoon.gif" #10 : "rballoon.gif" #30;
+A11 : : "rballoon.gif" #11 : "rballoon.gif" #31;
+A12 : : "rballoon.gif" #12 : "rballoon.gif" #32;
+A13 : : "rballoon.gif" #13 : "rballoon.gif" #33;
+A14 : : "rballoon.gif" #14 : "rballoon.gif" #34;
+A15 : : "rballoon.gif" #15 : "rballoon.gif" #35;
+A16 : : "rballoon.gif" #16 : "rballoon.gif" #36;
+A17 : : "rballoon.gif" #17 : "rballoon.gif" #37;
+A18 : : "rballoon.gif" #18 : "rballoon.gif" #38;
+A19 : : "rballoon.gif" #19 : "rballoon.gif" #39;
+
+P00 : help : "b_rballoon.gif" #00 ;
+

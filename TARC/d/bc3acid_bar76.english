@@ -1,0 +1,70 @@
+[Header]
+missiontype="tutorial"
+
+missionnumber=3
+moregeysers=0
+
+mystartmoney=3000
+mytech="RainBattery;RainFence"
+myallylist=""
+
+title="Acid Bars"
+
+ai2name="Jailer"
+ai2tech="thunderBattery;thunderCannon"
+ai2startmoney=3000
+ai2geyserattachments=2
+ai2collectors=3
+ai2timebetweenmoves= 4
+ai2allylist=""
+ai2color=Red
+ai2bridgedrawrate= 7
+
+[Options]
+
+[A.]
+<h2>Acid Bars</h2>
+<i>~y"Acid bars - they dont cost money, they MAKE money"<br>
+-Nimbian salesman</i>
+<p>~wYou have been taken prisoner.  The only thing guarding your escape is a stronghold of man o wars.  All you technology has been stripped away from you, the only thing you were able to retain is acid bars, hidden deep away as you never thought you would use them.  But they cannot possibly help you escape.. can they?
+<p>You hear voices outside:
+$Button=MORE,Tell,A1.
+
+[A1.]
+<h2>Acid Bars</h2>
+<p>~o~E"New orders, we are to execute the prisoner!"
+<p>~.~B~wIf you are to make your move, it had better be now!
+<p>~B~E~rObjective:~.~b~w  Link acid bars together with enemy units in their path in order to destroy them, when you get the oppurunity, set up acid bars so that the enemy priest falls within the path (he might be hiding amoungst the bulfs) to immbolise him, capture and sacrafice him.
+<p>~B~E~oHint:~.~b~w  There is alredy 1 acid set up to the right of the thunder cannons which are destroying your temple, put a connecting acid bar to the left of these cannons on the bridge provided.
+<p><!"rainfence.*">
+<p>"Acid Bar"
+$Button=Technology available,ShowTechnology,55
+$Button=Lets do this!,DoNothing,0
+</?>
+
+[succeeded][badteamdead]
+<h2>Escape!</h2>
+<p>You have done it!  The jailer did not see it coming, you watch as your island floats away, the neutralised "stonghold" falling back into the distance.
+
+<$Config,Done{mission.fileName}=1>
+$Button=Training Menu,MissionBegin,BC1Menu76
+<p>
+$Button=Restart,Tell,TryAgain
+$Button=Next,MissionBegin,bc4bow_rush76
+<p>
+$Button=Leave Missions,MissionAbort,0
+
+[Failed]
+<h2>Failure...</h2>
+<p>You can say that you tried your best, however the jailer broke through, and executed you as planned, through your dying scream, you hear the jailer laugh:
+<p>~o"Acid bars? like they can do damage... hahahahahah"
+<p>~wPerhaps he was right?
+
+
+$Button=Training Menu,MissionBegin,BC1Menu76
+<p>
+$Button=Restart,Tell,TryAgain
+<p>
+$Button=Leave Missions,MissionAbort,0
+
+[END]

@@ -1,0 +1,111 @@
+typename sunwalker 
+typeflags walker shadow;
+{
+	description="Golem";
+	class="Ground Transport";
+	maxHitPoints = 50;
+	theme = "sun";
+	level = 1;
+	height = 1;
+	threat = 10;
+	zorder = "zoEMPLACEMENTS";
+	foot_x = 1;
+	foot_y = 1;
+//	activeSound = "moveBeetle.wav";
+	moveSound = "golemMove1.wav";
+	pickupSound = "golemPickup.wav";
+	dropSound = "golemDrop.wav";
+	group = "walker";
+
+	speed = 2.0;
+	turningSpeed = 99999.0;
+
+	hotFootRatioX = 0.5;
+	hotFootRatioY = 0.2;
+}
+
+// NORTH
+A00 : : "golem.gif" #64 : "s_golem.gif" #64;
+A01 : : "golem.gif" #65 : "s_golem.gif" #65;
+A02 : : "golem.gif" #66 : "s_golem.gif" #66;
+A03 : : "golem.gif" #67 : "s_golem.gif" #67;
+A04 : : "golem.gif" #68 : "s_golem.gif" #68;
+A05 : default gumpframe : "golem.gif" #69 : "s_golem.gif" #69;
+A06 : : "golem.gif" #70 : "s_golem.gif" #70;
+A07 : : "golem.gif" #71 : "s_golem.gif" #71;
+
+// NORTHEAST
+B00 : : "golem.gif" #52 : "s_golem.gif" #52;
+B01 : : "golem.gif" #53 : "s_golem.gif" #53;
+B02 : : "golem.gif" #54 : "s_golem.gif" #54;
+B03 : : "golem.gif" #55 : "s_golem.gif" #55;
+B04 : : "golem.gif" #56 : "s_golem.gif" #56;
+B05 : : "golem.gif" #57 : "s_golem.gif" #57;
+B06 : : "golem.gif" #58 : "s_golem.gif" #58;
+B07 : : "golem.gif" #59 : "s_golem.gif" #59;
+
+// EAST
+C00 : : "golem.gif" #40 : "s_golem.gif" #40;
+C01 : : "golem.gif" #41 : "s_golem.gif" #41;
+C02 : : "golem.gif" #42 : "s_golem.gif" #42;
+C03 : : "golem.gif" #43 : "s_golem.gif" #43;
+C04 : : "golem.gif" #44 : "s_golem.gif" #44;
+C05 : : "golem.gif" #45 : "s_golem.gif" #45;
+C06 : : "golem.gif" #46 : "s_golem.gif" #46;
+C07 : : "golem.gif" #47 : "s_golem.gif" #47;
+
+// SOUTHEAST
+D00 : : "golem.gif" #28 : "s_golem.gif" #28;
+D01 : : "golem.gif" #29 : "s_golem.gif" #29;
+D02 : : "golem.gif" #30 : "s_golem.gif" #30;
+D03 : : "golem.gif" #31 : "s_golem.gif" #31;
+D04 : : "golem.gif" #32 : "s_golem.gif" #32;
+D05 : : "golem.gif" #33 : "s_golem.gif" #33;
+D06 : : "golem.gif" #34 : "s_golem.gif" #34;
+D07 : : "golem.gif" #35 : "s_golem.gif" #35;
+
+// SOUTH
+E00 : : "golem.gif" #16 : "s_golem.gif" #16;
+E01 : : "golem.gif" #17 : "s_golem.gif" #17;
+E02 : : "golem.gif" #18 : "s_golem.gif" #18;
+E03 : : "golem.gif" #19 : "s_golem.gif" #19;
+E04 : : "golem.gif" #20 : "s_golem.gif" #20;
+E05 : : "golem.gif" #21 : "s_golem.gif" #21;
+E06 : : "golem.gif" #22 : "s_golem.gif" #22;
+E07 : : "golem.gif" #23 : "s_golem.gif" #23;
+
+// SOUTH-WEST
+F00 : : "golem.gif" #4 : "s_golem.gif" #04;
+F01 : : "golem.gif" #5 : "s_golem.gif" #05;
+F02 : : "golem.gif" #6 : "s_golem.gif" #06;
+F03 : : "golem.gif" #7 : "s_golem.gif" #07;
+F04 : : "golem.gif" #8 : "s_golem.gif" #08;
+F05 : : "golem.gif" #9 : "s_golem.gif" #09;
+F06 : : "golem.gif" #10 : "s_golem.gif" #10;
+F07 : : "golem.gif" #11 : "s_golem.gif" #11;
+
+// WEST
+G00 : : "golem.gif" #88 : "s_golem.gif" #88;
+G01 : : "golem.gif" #89 : "s_golem.gif" #89;
+G02 : : "golem.gif" #90 : "s_golem.gif" #90;
+G03 : : "golem.gif" #91 : "s_golem.gif" #91;
+G04 : : "golem.gif" #92 : "s_golem.gif" #92;
+G05 : : "golem.gif" #93 : "s_golem.gif" #93;
+G06 : : "golem.gif" #94 : "s_golem.gif" #94;
+G07 : : "golem.gif" #95 : "s_golem.gif" #95;
+
+// NORTHWEST
+H00 : : "golem.gif" #76 : "s_golem.gif" #76;
+H01 : : "golem.gif" #77 : "s_golem.gif" #77;
+H02 : : "golem.gif" #78 : "s_golem.gif" #78;
+H03 : : "golem.gif" #79 : "s_golem.gif" #79;
+H04 : : "golem.gif" #80 : "s_golem.gif" #80;
+H05 : : "golem.gif" #81 : "s_golem.gif" #81;
+H06 : : "golem.gif" #82 : "s_golem.gif" #82;
+H07 : : "golem.gif" #83 : "s_golem.gif" #83;
+
+// BLANK
+I00 : : "blank.gif" #0 : "blank.gif" #00;
+
+J00 : help : "b_golem.GIF" #00;
+

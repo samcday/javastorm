@@ -1,0 +1,300 @@
+typename efarm constructor
+typeflags edgefarm matchframe dropBlocking walkBlocking mayDropOnRim;
+{
+	description="Edge Farm";
+	class="Defense";
+	theme = "sun";
+	level = 1;
+
+	zorder = "zoEDGEFARM"; 
+	foot_x = 1;
+	foot_y = 1;
+	damageEffect = 1;
+}
+
+// IMPORTANT! These frame counts are take PRECISELY from the isle.type
+// file. The program expects to be able to do a perfect matching between
+// the island frames and these frames. Of course, this means that the AA
+// frames needs filler, so I use rgrass.gif, and instead of efarm.gif
+// we're using efarm.gif. -Ken
+
+// Filled pieces
+// SUN
+AA01 : default: "rgrass.gif" #0 ;
+AA02 : : "rgrass.gif" #1 ;
+AA03 : : "rgrass.gif" #2 ;
+AA04 : : "rgrass.gif" #3 ;
+AA05 : : "rgrass.gif" #4 ;
+AA06 : : "rgrass.gif" #5 ;
+//thunder
+AA07 : : "THGRASS.gif" #0 ;
+AA08 : : "THGRASS.gif" #1 ;
+AA09 : : "THGRASS.gif" #2 ;
+AA10 : : "THGRASS.gif" #3 ;
+AA11 : : "THGRASS.gif" #4 ;
+AA12 : : "THGRASS.gif" #5 ;
+// wind
+AA13 : : "WIGRASS.gif" #0 ;
+AA14 : : "WIGRASS.gif" #1 ;
+AA15 : : "WIGRASS.gif" #2 ;
+AA16 : : "WIGRASS.gif" #3 ;
+AA17 : : "WIGRASS.gif" #4 ;
+AA18 : : "WIGRASS.gif" #5 ;
+// rAIN
+AA19 : : "RAGRASS.GIF" #0 ;
+AA20 : : "RAGRASS.GIF" #1 ;
+AA21 : : "RAGRASS.GIF" #2 ;
+AA22 : : "RAGRASS.GIF" #3 ;
+AA23 : : "RAGRASS.GIF" #4 ;
+AA24 : : "RAGRASS.GIF" #5 ;
+
+// Inside Corners
+// SUN
+AB01 : rim fringe  : "efarm.gif" #17 ;
+AB02 : rim fringe  : "efarm.gif" #29 ;
+// thunder
+AB03 : rim fringe  : "THFARM.GIF" #17 ;
+AB04 : rim fringe  : "THFARM.GIF" #29 ;
+// wind
+AB05 : rim fringe  : "wefarm.gif" #17 ;
+AB06 : rim fringe  : "wefarm.gif" #29 ;
+// rain
+AB07 : rim fringe  : "raefarm.gif" #17 ;
+AB08 : rim fringe  : "raefarm.gif" #29 ;
+
+// SUN
+AC01 : rim : "efarm.gif" #33 ;
+AC02 : rim : "efarm.gif" #34 ;
+// thunder
+AC03 : rim : "THFARM.GIF" #33 ;
+AC04 : rim : "THFARM.GIF" #34 ;
+// wind
+AC05 : rim : "wefarm.gif" #33 ;
+AC06 : rim : "wefarm.gif" #34 ;
+// rain
+AC07 : rim : "raefarm.gif" #33 ;
+AC08 : rim : "raefarm.gif" #34 ;
+
+
+// SUN
+AD01 : rim : "efarm.gif" #35 ;
+AD02 : rim : "efarm.gif" #36 ;
+// thunder
+AD03 : rim : "THFARM.GIF" #35 ;
+AD04 : rim : "THFARM.GIF" #36 ;
+// wind
+AD05 : rim : "wefarm.gif" #35 ;
+AD06 : rim : "wefarm.gif" #36 ;
+// rain
+AD07 : rim : "raefarm.gif" #35 ;
+AD08 : rim : "raefarm.gif" #36 ;
+
+
+// sun
+AE01 : rim fringe : "efarm.gif" #18 ;
+AE02 : rim fringe : "efarm.gif" #30 ;
+// thunder
+AE03 : rim fringe : "THFARM.GIF" #18 ;
+AE04 : rim fringe : "THFARM.GIF" #30 ;
+// wind
+AE05 : rim fringe : "wefarm.gif" #18 ;
+AE06 : rim fringe : "wefarm.gif" #30 ;
+// rain
+AE07 : rim fringe : "raefarm.gif" #18 ;
+AE08 : rim fringe : "raefarm.gif" #30 ;
+
+// Illegal 
+//AF01 : rim : "efarm.gif" #20 ;
+//AF02 : rim : "efarm.gif" #20 ;
+//AH01 : rim : "efarm.gif" #20 ;
+//AI01 : rim : "efarm.gif" #20 ;
+//AG01 : rim : "efarm.gif" #20 ;
+
+// These three look completely wacky and illegal. Why would 
+// we need BD, BK, BE? - jfg
+// Left edge meeting other edge
+//BD01 : rim : "efarm.gif" #19 ;
+//BK01 : rim fringe : "efarm.gif" #16 ;
+//BE01 : rim fringe : "efarm.gif" #16 ;
+
+// Left Edge
+// SUN
+BF01 : rim : "efarm.gif" #00 ;
+BF02 : rim : "efarm.gif" #01 ;
+BF03 : rim : "efarm.gif" #02 ;
+BF04 : rim : "efarm.gif" #03 ;
+BF05 : rim : "efarm.gif" #04 ;
+// thunder
+BF06 : rim : "THFARM.GIF" #00 ;
+BF07 : rim : "THFARM.GIF" #01 ;
+BF08 : rim : "THFARM.GIF" #02 ;
+BF09 : rim : "THFARM.GIF" #03 ;
+BF10 : rim : "THFARM.GIF" #04 ;
+// wind
+BF11 : rim : "wefarm.gif" #00 ;
+BF12 : rim : "wefarm.gif" #01 ;
+BF13 : rim : "wefarm.gif" #02 ;
+BF14 : rim : "wefarm.gif" #03 ;
+BF15 : rim : "wefarm.gif" #04 ;
+// rain
+BF16 : rim : "raefarm.gif" #00 ;
+BF17 : rim : "raefarm.gif" #01 ;
+BF18 : rim : "raefarm.gif" #02 ;
+BF19 : rim : "raefarm.gif" #03 ;
+BF20 : rim : "raefarm.gif" #04 ;
+// Top Edge
+
+// These two are also wacky and should never be needed.
+//CJ01 : rim : "efarm.gif" #19 ;
+//CK01 : rim : "efarm.gif" #20 ;
+// SUN
+CG01 : rim : "efarm.gif" #05 ;
+CG02 : rim : "efarm.gif" #06 ;
+CG03 : rim : "efarm.gif" #07 ;
+CG04 : rim : "efarm.gif" #08 ;
+CG05 : rim : "efarm.gif" #09 ;
+// thunder
+CG06 : rim : "THFARM.GIF" #05 ;
+CG07 : rim : "THFARM.GIF" #06 ;
+CG08 : rim : "THFARM.GIF" #07 ;
+CG09 : rim : "THFARM.GIF" #08 ;
+CG10 : rim : "THFARM.GIF" #09 ;
+// wind
+CG11 : rim : "wefarm.gif" #05 ;
+CG12 : rim : "wefarm.gif" #06 ;
+CG13 : rim : "wefarm.gif" #07 ;
+CG14 : rim : "wefarm.gif" #08 ;
+CG15 : rim : "wefarm.gif" #09 ;
+// rain
+CG16 : rim : "raefarm.gif" #05 ;
+CG17 : rim : "raefarm.gif" #06 ;
+CG18 : rim : "raefarm.gif" #07 ;
+CG19 : rim : "raefarm.gif" #08 ;
+CG20 : rim : "raefarm.gif" #09 ;
+
+// Right edge meeting other edge
+// These two are also wacky and should never be needed.
+//DK01 : rim : "efarm.gif" #20 ;
+//DJ01 : rim fringe  : "efarm.gif" #15 ;
+
+// Right Edge
+// SUN
+DH01 : rim : "efarm.gif" #10 ;
+DH02 : rim : "efarm.gif" #11 ;
+DH03 : rim : "efarm.gif" #12 ;
+DH04 : rim : "efarm.gif" #13 ;
+DH05 : rim : "efarm.gif" #14 ;
+// thunder
+DH06 : rim : "THFARM.GIF" #10 ;
+DH07 : rim : "THFARM.GIF" #11 ;
+DH08 : rim : "THFARM.GIF" #12 ;
+DH09 : rim : "THFARM.GIF" #13 ;
+DH10 : rim : "THFARM.GIF" #14 ;
+// wind
+DH11 : rim : "wefarm.gif" #10 ;
+DH12 : rim : "wefarm.gif" #11 ;
+DH13 : rim : "wefarm.gif" #12 ;
+DH14 : rim : "wefarm.gif" #13 ;
+DH15 : rim : "wefarm.gif" #14 ;
+// rain
+DH16 : rim : "raefarm.gif" #10 ;
+DH17 : rim : "raefarm.gif" #11 ;
+DH18 : rim : "raefarm.gif" #12 ;
+DH19 : rim : "raefarm.gif" #13 ;
+DH20 : rim : "raefarm.gif" #14 ;
+
+
+// These two are also wacky and should never be needed.
+//ED01 : rim fringe : "efarm.gif" #15 ;
+//EK01 : rim fringe : "efarm.gif" #16 ;
+
+// Bottom Edge
+// SUN
+EI01 : rim fringe help : "efarm.gif" #21 ;
+EI02 : rim fringe : "efarm.gif" #22 ;
+EI03 : rim fringe : "efarm.gif" #23 ;
+EI04 : rim fringe : "efarm.gif" #24 ;
+EI05 : rim fringe : "efarm.gif" #25 ;
+EI06 : rim fringe : "efarm.gif" #26 ;
+// thunder
+EI07 : rim fringe : "THFARM.GIF" #21 ;
+EI08 : rim fringe : "THFARM.GIF" #22 ;
+EI09 : rim fringe : "THFARM.GIF" #23 ;
+EI10 : rim fringe : "THFARM.GIF" #24 ;
+EI11 : rim fringe : "THFARM.GIF" #25 ;
+EI12 : rim fringe : "THFARM.GIF" #26 ;
+// wind
+EI13 : rim fringe : "wefarm.gif" #21 ;
+EI14 : rim fringe : "wefarm.gif" #22 ;
+EI15 : rim fringe : "wefarm.gif" #23 ;
+EI16 : rim fringe : "wefarm.gif" #24 ;
+EI17 : rim fringe : "wefarm.gif" #25 ;
+EI18 : rim fringe : "wefarm.gif" #26 ;
+// rain
+EI19 : rim fringe : "raefarm.gif" #21 ;
+EI20 : rim fringe : "raefarm.gif" #22 ;
+EI21 : rim fringe : "raefarm.gif" #23 ;
+EI22 : rim fringe : "raefarm.gif" #24 ;
+EI23 : rim fringe : "raefarm.gif" #25 ;
+EI24 : rim fringe : "raefarm.gif" #26 ;
+
+// Outside Corners
+// Top Left
+// SUN
+FL01 : rim : "efarm.gif" #19 ;
+FL02 : rim : "efarm.gif" #31 ;
+// thunder
+FL03 : rim : "THFARM.GIF" #19 ;
+FL04 : rim : "THFARM.GIF" #31 ;
+// wind
+FL05 : rim : "wefarm.gif" #19 ;
+FL06 : rim : "wefarm.gif" #31 ;
+// rain
+FL07 : rim : "raefarm.gif" #19 ;
+FL08 : rim : "raefarm.gif" #31 ;
+
+
+// Top Right
+// SUN
+GM01 : rim : "efarm.gif" #20 ;
+GM02 : rim : "efarm.gif" #32 ;
+// thunder
+GM03 : rim : "THFARM.GIF" #20 ;
+GM04 : rim : "THFARM.GIF" #32 ;
+// wind
+GM05 : rim : "wefarm.gif" #20 ;
+GM06 : rim : "wefarm.gif" #32 ;
+// rain
+GM07 : rim : "raefarm.gif" #20 ;
+GM08 : rim : "raefarm.gif" #32 ;
+
+
+// Bottom Right
+// SUN
+HN01 : rim fringe : "efarm.gif" #15 ;
+HN02 : rim fringe : "efarm.gif" #27 ;
+// thunder
+HN03 : rim fringe : "THFARM.GIF" #15 ;
+HN04 : rim fringe : "THFARM.GIF" #27 ;
+// wind
+HN05 : rim fringe : "wefarm.gif" #15 ;
+HN06 : rim fringe : "wefarm.gif" #27 ;
+// rain
+HN07 : rim fringe : "raefarm.gif" #15 ;
+HN08 : rim fringe : "raefarm.gif" #27 ;
+
+// Bottom Left
+// SUN
+IO01 : rim fringe : "efarm.gif" #16 ;
+IO02 : rim fringe : "efarm.gif" #28 ;
+// thunder
+IO03 : rim fringe : "THFARM.GIF" #16 ;
+IO04 : rim fringe : "THFARM.GIF" #28 ;
+// wind
+IO05 : rim fringe : "wefarm.gif" #16 ;
+IO06 : rim fringe : "wefarm.gif" #28 ;
+// rain
+IO07 : rim fringe : "raefarm.gif" #16 ;
+IO08 : rim fringe : "raefarm.gif" #28 ;
+
+PP00 : help : "b_edgefarm.GIF" #00;

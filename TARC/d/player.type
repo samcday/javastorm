@@ -1,0 +1,12 @@
+typename player
+typeflags predictable;
+{
+	description="Player Stub";
+	zorder = "zoEMPLACEMENTS";
+	foot_x = 1;
+	foot_y = 1;
+}
+
+A01 : default : "blank.gif" #00 ;
+A02 : : "blank.gif" #00 ;
+//A02 : : "player.gif" #00 ;

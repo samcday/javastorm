@@ -1,0 +1,14 @@
+typename sunDisc
+typeflags dontSave not_real;
+{
+	zorder = "zoMISSILES";
+	fireSound = "fireBow.wav";
+	impactSound = "sunDiscThrowerImpact.wav";
+	orientations = 1;
+}
+
+A01 :  : "sarcher.gif" #33  ;
+B02 : default : "sarcher.gif" #34  ;
+B03 :  : "sarcher.gif" #35  ;
+
+

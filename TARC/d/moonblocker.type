@@ -1,0 +1,28 @@
+typename moonBlocker constructor
+typeflags createsisland emplacement container;
+{
+	description="Moon Disruptor";
+	class="Defense";
+	maxHitPoints = 800;
+	theme = "moon";
+	level = 1;
+	cost = 600;
+
+	zorder = "zoEMPLACEMENTS";
+	foot_x = 3;
+	foot_y = 3;
+	height = 3;
+	damageEffect = 1;
+
+//	hotFootY = 4;
+	hotFootRatioY = 0.25;
+	constructionRate = 10;
+	group = "blocker";
+
+	techBit = 29;
+}
+
+P01 : default : "mblocker.gif" #00 ;
+
+P00 : help : "b_tblocker.gif" #00  ;
+

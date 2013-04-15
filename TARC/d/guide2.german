@@ -1,0 +1,20 @@
+title = "Kampf um Freiheit"
+
+[Overview]
+<background="nsstart">
+<h2>Kampf um Freiheit</h2>
+<p>
+Die rechtschaffene Bev?lkerung von Nimbus wurde von den Finsteren F?rsten des Windes, des Regens und des Donners versklavt. Sie eroberten eine Insel nach der anderen, metzelten die Anf?hrer nieder und machten die Inselbewohner mit Hilfe grausamer Kriegsmaschinerie gef?gig.
+<p>
+Als alleiniger H?ter von Recht und Ordnung in Nimbus ist es Ihre Aufgabe, die Finsteren F?rsten zu bezwingen und die Nimber aus der Sklaverei zu befreien.
+<p>
+Rufen Sie Ihre Alliierten zusammen, und bek?mpfen Sie mit vereinten Kr?ften die unheilvollen M?chte der Finsternis.
+
+$Checked=1 Kriegserkl?rung,MissionBegin,TheWarBegins,{DoneTheWarBegins},1
+$Checked=2 Meister der Helibomber,MissionBegin,MasterOfWhirligigs,{DoneMasterOfWhirligigs},{DoneTheWarBegins}
+$Checked=3 Befreiungseinsatz,MissionBegin,SaveTheIsland,{DoneSaveTheIsland},{DoneMasterOfWhirligigs}
+$Checked=4 Kraftprobe,MissionBegin,FragileFortune,{DoneFragileFortune},{DoneSaveTheIsland}
+$Checked=5 Donnernde M?chte,MissionBegin,ThunderingPower,{DoneThunderingPower},{DoneFragileFortune}
+$Checked=6 B?ndnisbruch,MissionBegin,DissolvedAlliance,{DoneDissolvedAlliance},{DoneThunderingPower}
+
+$Button=Zur?ck,Tell,Campaign

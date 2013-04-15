@@ -1,0 +1,41 @@
+typename thunderArcher constructor
+typeflags createsisland emplacement shadow;
+{
+	description="Vander Tower";
+	class="Shooter";
+	maxHitPoints = 600;
+	theme = "thunder";
+	level = 3;
+	cost=600;
+	zorder = "zoEMPLACEMENTS";
+	range = 15;
+	threat = 5;
+	hpPerSec = 35;
+	//attackValueConst = 2;
+	minUsage = 20;
+	maxUsage = 200;
+//	rateConst = 0.0;
+//	rateVar = 100; // this gets slowed down by animation, not a pause btwn anims...
+	delayBetweenShots = 1.0;
+	constructionRate = 10;
+	foot_x = 3;
+	foot_y = 3;
+//	hotFootX = 1;
+//	hotFootY = 8;
+	hotFootRatioX = 0.0625;
+	hotFootRatioY = 0.5;
+	damageEffect = 1;
+	group = "archer";
+
+	techBit = 21;
+}
+
+A00 : default   : "tarcher.gif" #0 : "tarcher.gif" #2 ;
+A01 :           : "tarcher.gif" #1 : "tarcher.gif" #2 ;
+//A00 : default   : "sfence.gif" #0 : "sfence.gif" #16 ;
+//A01 :           : "sfence.gif" #1 : "sfence.gif" #16 ;
+
+P00 : help : "b_tarcher.gif" #00;
+
+
+

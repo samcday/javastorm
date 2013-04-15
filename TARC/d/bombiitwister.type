@@ -1,0 +1,27 @@
+typename bombIITwister constructor
+typeflags default_hotspot bomb mayDropOnRim ;
+{
+	description="Twister";
+	class="Summons Spell";
+
+	zorder = "zoEMPLACEMENTS";
+	foot_x = 1;
+	foot_y = 1;
+
+	level = 2;	// Determines its probability class
+	range = 30;
+	cost = 1100;
+
+	activeSound = "70TwisterPickup1.wav";
+	fireSound = "70TwisterCast1.wav";
+	casttime=5;
+	praytime=60;
+	manacost=10;
+	spawns=4;
+}
+
+A00 : : "blank.gif" #0 ;
+
+B00 :  default baseframe : "spells.gif" #11  ;
+
+B01 : help : "b_obelisk.gif" #00;

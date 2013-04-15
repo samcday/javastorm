@@ -1,0 +1,43 @@
+typename adowshaVortex constructor
+typeflags vortex yuckWalk dropBlocking shotblocking mayDropOnRim mayDropOnIsle;
+{
+	description="Shadow Temple";
+	class="Energy";
+	maxHitPoints = 5000;
+	theme = "adowsha";
+	cost = 5000;
+
+	zorder = "zoEMPLACEMENTS";
+	foot_x = 8;
+	foot_y = 6;
+	height = 2;
+
+	damageEffect = 1;
+	constructionRate = 10;
+
+	crew = 30;
+	buildDoneSound = "templeComplete.wav";
+}
+
+A00 : : "avortex.gif" #00 ;
+A01 : : "avortex.gif" #01 ;
+A02 : : "avortex.gif" #02 ;
+A03 : : "avortex.gif" #03 ;
+A04 : : "avortex.gif" #04 ;
+A05 : : "avortex.gif" #05 ;
+A06 : : "avortex.gif" #06 ;
+A07 : : "avortex.gif" #07 ;
+A08 : : "avortex.gif" #07 ;
+A09 : : "avortex.gif" #06 ;
+A10 : : "avortex.gif" #05 ;
+A11 : : "avortex.gif" #04 ;
+A12 : : "avortex.gif" #03 ;
+A13 : : "avortex.gif" #02 ;
+A14 : : "avortex.gif" #01 ;
+A15 : : "avortex.gif" #00 ;
+
+B01 : default baseframe : "avortex.gif" #00;
+
+C00 : : "avortex.gif" #00 ;
+
+P00 : help : "b_wtemple.GIF" #00;

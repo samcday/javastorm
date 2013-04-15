@@ -1,0 +1,176 @@
+[Header]
+missionType = "Tutorial"
+aid=1
+
+loadFort = "SubtleDefense"
+denyAscend = 1
+tutorialNumber = 5
+moreGeysers = 0
+
+techAllowed = "deny;all;allow;windVortex;sunFactory;sunWalker;sunArcher;windBattery;sunBlocker;sunCannon;dais"
+
+myStartMoney = 4000
+myTech = "sunArcher;sunWalker;sunCannon;sunBlocker;windBattery"
+
+aiOff = 1
+
+title = "Subtile Verteidigung"
+
+[Options]
+
+[A.]
+<h2>Verteidigung, Teil 1</h2>
+<i>"Eine effektive Strategie basiert nicht ausschlie?lich auf der Anzahl der Waffen." -- Tzu, Sonnenkrieger</i>
+<p>
+Diesmal m?ssen Sie sich mit der Ihren Einheiten deutlich ?berlegenen Feuerkraft Ihres Gegners auseinandersetzen.
+<p>
+Auf der feindlichen Insel befinden sich neben "Donnerkanonen", die eine enorme Reichweite und Schu?kraft besitzen, auch "Helihangars", aus denen fliegende Helibomber gestartet werden, die Ihre Einheiten aus der Luft angreifen!
+<br>   <!"thunderCannon.*">                         <!"sunAviary.*">
+<br>  Donnerkanone                   Helihangar
+
+$Button=WEITER,Tell,A1.
+
+[A1.]
+<h2>Verteidigung, Teil 2</h2>
+Ihre Kampfeinheiten werden bereits angegriffen!
+<p>
+Die im S?den positionierte Donnerkanone hat schon Ihren Tempel unter Beschu? genommen. Sie m?ssen nun m?glichst schnell eine Verteidigungseinheit in die Schu?linie der feindlichen Einheit plazieren, um Ihren Tempel vor weiterem Schaden zu bewahren.
+<p>
+In dieser ?bungsmission besitzen Sie bereits zu Beginn das Wissen ?ber den "Steinturm". Ein Steinturm ist eine Verteidigungseinheit, die recht viele Treffer verkraften kann, bis sie endg?ltig zerst?rt wird, und als Schutzschild f?r Ihre Kampfeinheiten eingesetzt werden kann.
+<p>
+Auf Ihrer Insel befinden sich bereits einige Produktionsst?tten. Geben Sie den "Steinturm" in Produktion, und stellen Sie ihn anschlie?end sofort in die Schu?linie der feindlichen Donnerkanone. Sie sollten keine Zeit verlieren!
+<p>
+<I>Die ?bungsmission wird automatisch fortgesetzt, sobald der Steinturm unter Beschu? ist.</I>
+
+$Button=ZUR?CK,Tell,A.
+$Button=OK,DoNothing,0
+
+
+[B.]
+<h2>Errichtung zus?tzlicher Produktionsst?tten</h2>
+Gro?artig, Sie haben den feindlichen Beschu? Ihres Tempels vorerst abgewendet. Jetzt haben Sie ein bi?chen Zeit, Gegenma?nahmen zu ergreifen. Der Steinturm h?lt zwar nicht ewig, aber sobald er vernichtet wurde, k?nnen Sie ihn gleich wieder durch einen neuen ersetzen.
+<p>
+Als n?chstes m??ten Sie nun den "Sonnenscheibenwerfer", die "Sonnenkanone" und den "Windgenerator" in Produktion geben, aber in Ihrer Produktionsst?tte ist leider nur noch ein einziger Produktionsplatz frei. In der vorigen ?bungsmission haben Sie weitere Produktionspl?tze geschaffen, indem Sie Ihre Produktionsst?tte erweitert haben. Eine andere Methode, die den gleichen Zweck erf?llt, ist die Errichtung weiterer Produktionsst?tten.
+<p>
+S?dwestlich Ihres Tempels ist eine ausreichend gro?e Fl?che f?r die Errichtung einer weiteren Produktionsst?tte vorhanden.
+<p>
+<I>Nachdem Sie den "Sonnenscheibenwerfer", die "Sonnenkanone" und den "Windgenerator" in Produktion gegeben haben, wird die ?bungsmission fortgesetzt.</I>
+$Button=OK,DoNothing,0
+
+
+[C.]
+<h2>Die feindliche Insel</h2>
+<i>"Wenn Sie erst einmal danach fragen, warum ein Tempel seine Insel sch?tzt, wird er sofort damit aufh?ren." --Die Schrift von Nimbus</i>
+<p>
+In den vorigen ?bungsmissionen existierten auf den feindlichen Inseln keine Tempel. Ein Tempel verhindert unter anderem, da? feindliche Einheiten auf der jeweiligen Insel errichtet werden k?nnen. In dieser ?bungsmission besitzt auch die feindliche Insel einen Tempel, so da? Sie Ihre Kampfeinheiten in diesem Fall nicht auf der Insel selbst, sondern an den Br?ckenenden vor der feindlichen Insel errichten m?ssen.
+<p>
+Beachten Sie bitte, da? die in der Mitte der feindlichen Insel befindliche Donnerkanone zu weit vom Inselrand entfernt ist, als da? sie von Ihren Sonnenscheibenwerfern vor der Insel angegriffen werden k?nnte. Sie sind deshalb gezwungen, diese feindliche Donnerkanone mit einer eigenen Kanone unter Beschu? zu nehmen, wobei allerdings auch ein paar Verteidigungsma?nahmen getroffen werden m?ssen.
+
+$Button=WEITER,Tell,C1.
+
+[C1.]
+<h2>Verteidigung gegen Luftangriffe</h2>
+<i>"Die einzige M?glichkeit, eine Schlammschlacht noch verwirrender zu gestalten, w?re es, dabei auch noch zu fliegen."
+--Gril Hegberk, zwei Jahre bevor die Flugtechnologie perfektioniert wurde</i>
+<p>
+Abgesehen von der Donnerkanone setzt Ihr Gegner au?erdem noch "Helihangars" ein, die leistungsf?hige Luftangriffseinheiten aussenden. Solche Helibomber sind besonders effektiv, weil sie sich m?helos von einem Ziel zum anderen bewegen k?nnen. Dennoch gibt es auch bei diesen Einheiten ein paar Schwachstellen, die Sie sich zunutze machen k?nnen.
+<p>
+Zum einen k?nnen Helibomber selbst w?hrend des Fluges von den Geschossen Ihrer Sonnenscheibenwerfer besch?digt bzw. zerst?rt werden. Zum anderen m?ssen die Helibomber regelm??ig zu ihren Basisstationen zur?ckkehren, um aufzutanken. W?hrenddessen bewegen sie sich nicht, wodurch sich eine hervorragende Gelegenheit f?r vernichtende Angriffe ergibt. Abgesehen davon gibt es noch eine weitere M?glichkeit, sich gegen die Helibomber zur Wehr zu setzen: Vernichten Sie die Helihangars, damit die Helibomber nicht mehr auftanken k?nnen und unbrauchbar werden.
+<p>
+W?hrend Sie inmitten des Kampfgeschehens zur feindlichen Insel vordringen, m?ssen Sie au?erdem Ihre Sonnenscheibenwerfer einsetzen, um Ihre Kanonen und Steint?rme gegen die Luftangriffe durch die Helibomber zu sch?tzen.
+<p>
+Sehen Sie sich nun die feindliche Insel etwas genauer an, und klicken Sie mit der <c>linken Maustaste</c> auf einen Helihangar.
+<p>
+<I>Einige Sekunden nachdem Sie den Helihangar angeklickt haben, wird die ?bungsmission automatisch fortgesetzt.</I>
+
+$Button=ZUR?CK,Tell,C.
+$Button=OK,DoNothing,0
+
+[D.]
+<h2>Verteidigung gegen eine Kanone, Teil 1</h2>
+<i>"Steint?rme sch?pfen ihre Kraft aus ihrem Innern ... in jeder dritten Steinreihe ist der K?rper eines mutigen Mannes eingemauert." --Yed Nuren, Nimbischer Maurer</i>
+<p>
+Wenn Sie einen Steinturm als Schutzschild einsetzen, wird er automatisch von der feindlichen Donnerkanone als Ziel erfa?t und angegriffen, so da? Sie die M?glichkeit haben, hinter dem Steinturm eigene Sonnenkanonen zu errichten, die ihrerseits die Donnerkanone unter Beschu? nehmen.
+<p>
+Bauen Sie eine Br?cke auf die feindliche Donnerkanone zu, und errichten Sie dann nahe vor der feindlichen Insel einen Steinturm, der in der Schu?linie der Donnerkanone plaziert ist. Anschlie?end positionieren Sie hinter dem Steinturm einige Sonnenkanonen.
+<p>
+Hierbei gibt es einen kleinen Trick: Sie k?nnen von den Plattformen Ihrer eigenen Einheiten aus abgehende Br?cken bauen. Das hei?t, Sie k?nnen zuerst den Steinturm errichten, dann auf dessen R?ckseite ein kurzes Br?ckenteil anlegen und an dessen Ende wiederum eine Sonnenkanone aufstellen. Fahren Sie auf diese Weise fort, bis Sie eine ganze Reihe von Kanonen errichtet haben, die alle auf dasselbe Zielobjekt feuern!
+
+$Button=WEITER,Tell,D1.
+
+[D1.]
+<h2>Br?ckenstabilit?t</h2>
+Wenn Sie in dieser ?bungsmission Br?cken bauen, sollten Sie unbedingt auf eine solide Qualit?t der Br?ckenteile achten. Bricht eines der Br?ckenteile zusammen, werden durch die Ersch?tterung auch benachbarte Br?ckenteile in Mitleidenschaft gezogen. Dadurch w?rde Ihr Angriff erheblich erschwert. Versuchen Sie, dieses Mal nur gefestigte Br?ckenteile aus dem Produktionsfenster zu benutzen. Rissige Br?ckenteile sollten Sie wirklich nur dann verwenden, wenn es gar nicht mehr anders geht.
+<p>
+Br?cken k?nnen nicht von Angriffseinheiten als Ziel erfa?t werden, sie k?nnen aber dennoch zerst?rt werden. Durch die ?berhitzung von Generatoren werden sowohl die benachbarten Einheiten als auch die benachbarten Br?cken besch?digt. Wenn Sie also eine eigene oder feindliche Br?cke zerst?ren wollen, k?nnen Sie dies durch Aktivierung der Option <c>?berhitzung!</c> eines Generators bewerkstelligen (nur im Mehrspieler-Modus).
+<p>
+<I>Nachdem Sie die Donnerkanone und die Helihangars auf der feindlichen Insel vernichtet haben, wird die ?bungsmission automatisch fortgesetzt. Dieses Mal haben Sie eine sehr schwere Aufgabe vor sich, also viel Gl?ck dabei!</I>
+
+$Button=ZUR?CK,Tell,D.
+$Button=OK,DoNothing,0
+
+
+[E.]
+<h2>Zauberspr?che</h2>
+<i>"Man sollte seinen Kindern zu ihrer eigenen Sicherheit fr?hzeitig einsch?rfen, niemals die Inschriften von Obelisken zu lesen." --Alte erzieherische Redewendung</i>
+<p>
+Auf der feindlichen Insel befinden sich einige Obelisken, altert?mliche Artefakte, auf denen Zauberspr?che eingemei?elt sind. Ein Golem, der die Inschrift eines Obelisken liest, erlernt damit den entsprechenden Zauberspruch und kann ihn anschlie?end auch anwenden. Viele dieser Zauber sind ?u?erst n?tzlich.
+<p>
+Beauftragen Sie einen Golem, die Inschrift eines Obelisken zu erlernen, indem Sie zun?chst den Golem mit der <c>linken Maustaste</c> anklicken, den Mauszeiger dann auf den Obelisken bewegen, bis er die Form einer Hand annimmt und schlie?lich erneut die <c>linke Maustaste</c> klicken.
+<p>
+<I>Die ?bungsmission wird fortgesetzt, sobald einer Ihrer Golems einen Zauberspruch erlernt hat.</I>
+<p>
+       <!"buried.*"><br>
+ "Obelisk"
+$Button=OK,DoNothing,0
+
+
+[F.]
+<h2>Verw?stungszauber</h2>
+Sie haben einen "Verw?stungszauber" erlernt. Bewegen Sie Ihren Golem in die N?he des feindlichen Priesters, klicken Sie den Golem dann mit der <c>rechten Maustaste</c> an, und w?hlen Sie schlie?lich den Eintrag <c>Verw?stung anwenden</c>.
+Das sollte reichen, um den Widerstand des Priesters zu brechen!
+<p>
+Wenn Sie den Golem mit der <c>linken Maustaste</c> anklicken, wird die Reichweite des erlernten Zaubers eingeblendet sowie ein kleines Symbol, anhand dessen Sie erkennen k?nnen, welchen Zauber der Golem besitzt.
+<p>
+<I>Wenden Sie den Zauberspruch an, um den feindlichen Priester gefangenzunehmen, und schreiten Sie dann zur Opferungszeremonie.</I>
+
+$Button=WEITER,Tell,F1.
+
+[F1.]
+<h2>Opferung des Priesters</h2>
+Hier nochmals eine kurze Zusammenfassung der Vorgehensweise bei der Opferungszeremonie eines feindlichen Priesters:
+<p>
+1. Lassen Sie von Ihrem Priester einen Altar errichten.
+<p>
+2. Bringen Sie den gefangengenommenen feindlichen Priester in die Mitte des Altars.
+<p>
+3. Beauftragen Sie Ihren eigenen Priester, mit dem Opferungsritual zu beginnen, indem Sie ihn mit der <c>linken Maustaste</c> anklicken, dann den Mauszeiger auf den Altar bewegen und schlie?lich erneut die <c>linke Maustaste</c> klicken, sobald der Mauszeiger die Form eines Dolches annimmt. 
+<p>
+4. Warten Sie, bis der Priester die Zeremonie beendet hat. (In einem normalen Spiel m??ten Sie unterdessen auf feindliche Einheiten achten, die versuchen w?rden, den gefangengenommenen Priester zu befreien!)
+<p>
+<I>Nach der Opferung des feindlichen Priesters wird die ?bungsmission automatisch fortgesetzt.</I>
+
+$Button=ZUR?CK,Tell,F.
+$Button=OK,DoNothing,0
+
+[G.]
+<h2>Mission erfolgreich abgeschlossen</h2>
+Sie haben die f?nfte ?bungsmission erfolgreich beendet.
+<p>
+In der n?chsten ?bungsmission werden die Lufttransportmedien vorgestellt und die Vorteile von Wind-, Regen- und Donner-konformen Einheiten eingehend erl?utert.
+<$Config,Done{mission.fileName}=1>
+$Button=?bungsmission beenden,LeaveBattle,1
+$Button=N?chste ?bungsmission,MissionBegin,Tutorial6
+
+
+[VortexDestroyed]
+<h2>Tempel vernichtet!</h2>
+Ihr Tempel wurde zerst?rt. Sie sind nun weder in der Lage, Sturmkraft zu produzieren noch Br?cken zu bauen, wodurch eine erfolgreiche Beendigung der Mission unwahrscheinlich ist. Beim n?chsten Versuch sollten Sie unbedingt den Steinturm, der Ihren Tempel vor feindlichem Beschu? sch?tzen soll, besser im Auge behalten. Wenn Sie diese ?bungsmission erneut starten wollen, dr?cken Sie ESC, und w?hlen Sie im Spiel-Men? den Eintrag "Mission neu starten".
+
+[FactoryDestroyed]
+<h2>Produktionsst?tte vernichtet!</h2>
+Ihre Produktionsst?tte wurde zerst?rt. Einige Ihrer Kampfeinheiten k?nnen nun nicht mehr produziert werden. Sofern Sie gen?gend Sturmkraft besitzen, sollten Sie umgehend eine neue Produktionsst?tte errichten. Wenn Ihre verbleibenden Sturmkraftreserven nicht ausreichen, m?ssen Sie zun?chst weitere Sturmkraft erzeugen oder diese ?bungsmission neu starten.
+
+[END]
+																		 
+																		 

@@ -1,0 +1,31 @@
+typename river constructor
+typeflags provideswater predictable;
+{
+	description="River";
+	zorder = "zoARTIFACT";
+	foot_x = 1;
+	foot_y = 1;
+}
+
+A01 : default solid rim : "river.gif" #00 ;
+B01 : solid rim : "river.gif" #01 ;                // No drain
+B02 : solid rim : "river.gif" #12 ;
+C01 : solid rim : "river.gif" #02 ;
+C02 : solid rim : "river.gif" #13 ;
+D01 : solid rim : "river.gif" #03 ;                // Hard coded frame ref. in generatorprocess
+D02 : solid rim : "river.gif" #14 ;
+E01 : solid rim : "river.gif" #04 ;
+E02 : solid rim : "river.gif" #15 ;
+F01 : solid rim : "river.gif" #05 ;
+G01 : solid rim : "river.gif" #06 ;
+H01 : solid rim : "river.gif" #07 ;
+I01 : solid rim : "river.gif" #08 ;
+J01 : solid rim : "river.gif" #09 ;
+J02 : solid rim : "river.gif" #16 ;                // Hard coded frame ref. in generatorprocess
+J03 : solid rim : "river.gif" #18 ;
+J04 : solid rim : "river.gif" #20 ;
+K01 : solid rim : "river.gif" #10 ;
+K02 : solid rim : "river.gif" #17 ;                // Hard coded frame ref. in generatorprocess
+K03 : solid rim : "river.gif" #19 ;
+K04 : solid rim : "river.gif" #21 ;
+

@@ -1,0 +1,119 @@
+typename bulf
+typeflags walker shadow;
+{
+	description="Bulf";
+	class="Ground Transport";
+	maxHitPoints = 800; // down from 1200 since they now have devastation -jfg // to 1k at 64 now to 800
+	theme = "thunder";
+	level = 1;
+	cost = 500;
+	threat = 15;
+
+	damageEffect = 1;
+	zorder = "zoEMPLACEMENTS";
+	foot_x = 1;
+	foot_y = 1;
+	pickupSound = "bulfPickup.wav";
+	moveSound = "bulfMove.wav";
+	dropSound = "bulfDrop.wav";
+	group = "walker";
+
+	speed = 2.0;
+	turningSpeed = 250.0;
+
+	techBit = 20;
+}
+
+// North Facing
+A00 : : "bulfwalk.gif" #16  : "bulfwalk.gif" #48;
+A01 : : "bulfwalk.gif" #17  : "bulfwalk.gif" #49;
+A02 : : "bulfwalk.gif" #18  : "bulfwalk.gif" #50;
+A03 : : "bulfwalk.gif" #19  : "bulfwalk.gif" #51;
+A04 : : "bulfwalk.gif" #20  : "bulfwalk.gif" #52;
+A05 : : "bulfwalk.gif" #21  : "bulfwalk.gif" #53;
+A06 : : "bulfwalk.gif" #22  : "bulfwalk.gif" #54;
+A07 : : "bulfwalk.gif" #23  : "bulfwalk.gif" #55;
+
+// East Facing
+B00 : : "bulfwalk.gif" #08  : "bulfwalk.gif" #40;
+B01 : : "bulfwalk.gif" #09  : "bulfwalk.gif" #41;
+B02 : gumpframe default : "bulfwalk.gif" #10  : "bulfwalk.gif" #42;
+B03 : : "bulfwalk.gif" #11  : "bulfwalk.gif" #43;
+B04 : : "bulfwalk.gif" #12  : "bulfwalk.gif" #44;
+B05 : : "bulfwalk.gif" #13  : "bulfwalk.gif" #45;
+B06 : : "bulfwalk.gif" #14  : "bulfwalk.gif" #46;
+B07 : : "bulfwalk.gif" #15  : "bulfwalk.gif" #47;
+
+// South Facing
+C00 : : "bulfwalk.gif" #00  : "bulfwalk.gif" #32;
+C01 : : "bulfwalk.gif" #01  : "bulfwalk.gif" #33;
+C02 : : "bulfwalk.gif" #02  : "bulfwalk.gif" #34;
+C03 : : "bulfwalk.gif" #03  : "bulfwalk.gif" #35;
+C04 : : "bulfwalk.gif" #04  : "bulfwalk.gif" #36;
+C05 : : "bulfwalk.gif" #05  : "bulfwalk.gif" #37;
+C06 : : "bulfwalk.gif" #06  : "bulfwalk.gif" #38;
+C07 : : "bulfwalk.gif" #07  : "bulfwalk.gif" #39;
+
+// West Facing
+D00 : : "bulfwalk.gif" #24  : "bulfwalk.gif" #56;
+D01 : : "bulfwalk.gif" #25  : "bulfwalk.gif" #57;
+D02 : : "bulfwalk.gif" #26  : "bulfwalk.gif" #58;
+D03 : : "bulfwalk.gif" #27  : "bulfwalk.gif" #59;
+D04 : : "bulfwalk.gif" #28  : "bulfwalk.gif" #60;
+D05 : : "bulfwalk.gif" #29  : "bulfwalk.gif" #61;
+D06 : : "bulfwalk.gif" #30  : "bulfwalk.gif" #62;
+D07 : : "bulfwalk.gif" #31  : "bulfwalk.gif" #63;
+
+// Clockwise Turning
+E00 : : "bulftrnl.gif" #11  : "bulftrnl.gif" #36;
+E01 : : "bulftrnl.gif" #12  : "bulftrnl.gif" #37;
+E02 : : "bulftrnl.gif" #13  : "bulftrnl.gif" #38;
+E03 : : "bulftrnl.gif" #14  : "bulftrnl.gif" #39;
+E04 : : "bulftrnl.gif" #15  : "bulftrnl.gif" #40;
+E05 : : "bulftrnl.gif" #16  : "bulftrnl.gif" #41;
+E06 : : "bulftrnl.gif" #17  : "bulftrnl.gif" #42;
+E07 : : "bulftrnl.gif" #18  : "bulftrnl.gif" #43;
+E08 : : "bulftrnl.gif" #19  : "bulftrnl.gif" #44;
+E09 : : "bulftrnl.gif" #20  : "bulftrnl.gif" #45;
+E10 : : "bulftrnl.gif" #21  : "bulftrnl.gif" #46;
+E11 : : "bulftrnl.gif" #22  : "bulftrnl.gif" #47;
+E12 : : "bulftrnl.gif" #24  : "bulftrnl.gif" #48;
+E13 : : "bulftrnl.gif" #00  : "bulftrnl.gif" #25;
+E14 : : "bulftrnl.gif" #01  : "bulftrnl.gif" #26;
+E15 : : "bulftrnl.gif" #02  : "bulftrnl.gif" #27;
+E16 : : "bulftrnl.gif" #03  : "bulftrnl.gif" #28;
+E17 : : "bulftrnl.gif" #04  : "bulftrnl.gif" #29;
+E18 : : "bulftrnl.gif" #05  : "bulftrnl.gif" #30;
+E19 : : "bulftrnl.gif" #06  : "bulftrnl.gif" #31;
+E20 : : "bulftrnl.gif" #07  : "bulftrnl.gif" #32;
+E21 : : "bulftrnl.gif" #08  : "bulftrnl.gif" #33;
+E22 : : "bulftrnl.gif" #09  : "bulftrnl.gif" #34;
+E23 : : "bulftrnl.gif" #10  : "bulftrnl.gif" #35;
+
+// Counter-Clockwise Turning
+F00 : : "bulfturn.gif" #11  : "bulfturn.gif" #35  ;
+F01 : : "bulfturn.gif" #10  : "bulfturn.gif" #34;
+F02 : : "bulfturn.gif" #09  : "bulfturn.gif" #33;
+F03 : : "bulfturn.gif" #08  : "bulfturn.gif" #32;
+F04 : : "bulfturn.gif" #07  : "bulfturn.gif" #31;
+F05 : : "bulfturn.gif" #06  : "bulfturn.gif" #30;
+F06 : : "bulfturn.gif" #05  : "bulfturn.gif" #29;
+F07 : : "bulfturn.gif" #04  : "bulfturn.gif" #28;
+F08 : : "bulfturn.gif" #03  : "bulfturn.gif" #27;
+F09 : : "bulfturn.gif" #02  : "bulfturn.gif" #26;
+F10 : : "bulfturn.gif" #01  : "bulfturn.gif" #25;
+F11 : : "bulfturn.gif" #00  : "bulfturn.gif" #24;
+F12 : : "bulfturn.gif" #23  : "bulfturn.gif" #47;
+F13 : : "bulfturn.gif" #22  : "bulfturn.gif" #46;
+F14 : : "bulfturn.gif" #21  : "bulfturn.gif" #45;
+F15 : : "bulfturn.gif" #20  : "bulfturn.gif" #44;
+F16 : : "bulfturn.gif" #19  : "bulfturn.gif" #43;
+F17 : : "bulfturn.gif" #18  : "bulfturn.gif" #42;
+F18 : : "bulfturn.gif" #17  : "bulfturn.gif" #41;
+F19 : : "bulfturn.gif" #16  : "bulfturn.gif" #40;
+F20 : : "bulfturn.gif" #15  : "bulfturn.gif" #39;
+F21 : : "bulfturn.gif" #14  : "bulfturn.gif" #38;
+F22 : : "bulfturn.gif" #13  : "bulfturn.gif" #37;
+F23 : : "bulfturn.gif" #12  : "bulfturn.gif" #36;
+
+P00 : help : "s_bulfbeauty.gif" #00  ;

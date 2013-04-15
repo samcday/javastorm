@@ -1,0 +1,39 @@
+typename moonBalloon 
+typeflags balloon;
+{
+	description="Manta Ray";
+	class="Aerial Transport";
+	maxHitPoints = 100;
+	theme = "moon";
+	level = 2;
+	cost = 600;
+
+	zorder = "zoFLYERS";
+	foot_x = 1;
+	foot_y = 1;
+	group = "balloon";
+
+	speed = 3.0;
+		// Ken improved v5.3 after consultation.
+	turningSpeed = 90000.0;
+
+	turningSpeed = 90.0;
+	pickupSound = "balloonPickup.wav";
+	moveSound = "balloonMove.wav";
+	dropSound = "balloonDrop.wav";
+
+	techBit = 30;
+}
+
+A00	: gumpframe default	: "mballoon.gif" #00 ;
+A01	: : "mballoon.gif" #01 ;
+A02	: : "mballoon.gif" #02 ;
+A03	: : "mballoon.gif" #03 ;
+A04	: : "mballoon.gif" #04 ;
+A05	: : "mballoon.gif" #05 ;
+A06	: : "mballoon.gif" #06 ;
+A07	: : "mballoon.gif" #07 ;
+A08	: : "mballoon.gif" #08 ;
+A09	: : "mballoon.gif" #09 ;
+
+P00 : help : "b_sballoon.gif" #00;

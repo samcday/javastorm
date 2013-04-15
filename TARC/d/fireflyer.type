@@ -1,0 +1,54 @@
+typename fireFlyer constructor
+typeflags flyer dontSave;
+{
+	description="Flaming Top";
+	class="Aerial Attack";
+//	invulnerable!    maxHitPoints = 20;
+	theme = "fire";
+	// Level is not relevent for this, only its base.
+
+	zorder = "zoFLYERS";
+	foot_x = 1;
+	foot_y = 1;
+	constructionRate = 5;
+
+	range = 30;
+		// Ken shifted this down from 30 July 17, 1997
+		// This is the true range of the flyer. Change the value in the
+		// aviary if you change this value!
+		//Aug 28, increase 20 to 24
+
+	speed = 4.0;
+		// This speed is very important! It should be equal to or slightly less
+		// than a golem, so that golems can out-run them!
+		// Ken changed 8-15-97 to reflect the "quick-striker" quality of it.
+	
+	hpPerSec = 12;
+		// reduced from 20 to 12 after the 3 per target rule was instated 9/26 -jfg
+		// This may seem weak, but it isn't! Remember that it damages everything on its way!
+		// And they're invulnerable! Make it an even number.
+		// Aug 28, increased 8 to 60
+//	attackValueConst = 5;
+	//	damageEffect = 1; Not until particle systems are truly attached to their parents! -Ken
+	activeSound = "dustDevilSpin.wav";
+}
+
+A00 : default : "fflyer.gif" #01 ;
+A01 :         : "fflyer.gif" #02 ;
+A02 :         : "fflyer.gif" #03 ;
+A03 :         : "fflyer.gif" #04 ;
+A04 :         : "fflyer.gif" #05 ;
+A05 :         : "fflyer.gif" #06 ;
+A06 :         : "fflyer.gif" #07 ;
+A07 :         : "fflyer.gif" #08 ;
+
+B00 :         : "fflyer.gif" #09 ;
+B01 :         : "fflyer.gif" #10 ;
+B02 :         : "fflyer.gif" #11 ;
+B03 :         : "fflyer.gif" #12 ;
+B04 :         : "fflyer.gif" #13 ;
+B05 :         : "fflyer.gif" #14 ;
+B06 :         : "fflyer.gif" #15 ;
+B07 :         : "fflyer.gif" #16 ;
+
+P00 : help    : "b_wflyer.gif" #00;

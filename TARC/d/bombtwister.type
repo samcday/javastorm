@@ -1,0 +1,27 @@
+typename bombTwister constructor
+typeflags default_hotspot bomb mayDropOnRim ;
+{
+	description="Whirlwind";
+	class="Summons Spell";
+
+	zorder = "zoEMPLACEMENTS";
+	foot_x = 1;
+	foot_y = 1;
+
+	level = 3;	// Determines its probability class
+	range = 30;
+	cost = 550;
+
+	activeSound = "70WhirlwindPickup1.wav";
+	fireSound = "70WhirlwindCast1.wav";
+	casttime=5;
+	praytime=60;
+	manacost=10;
+	spawns=2;
+}
+
+A00 : : "blank.gif" #0 ;
+
+B00 :  default baseframe : "spells.gif" #10  ;
+
+B01 : help : "b_obelisk.gif" #00;

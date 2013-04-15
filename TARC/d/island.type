@@ -1,0 +1,23 @@
+typename island
+
+//typeflags rim surface default_hotspot island not_selectable islandThreeByThree;
+typeflags rim default_hotspot not_selectable islandThreeByThree dontSave;
+{
+	description="Island";
+	zorder = "zoISLAND";
+	foot_x = 3;
+	foot_y = 3;
+}
+
+// P because islands connect only to bridges, not to each other...
+P01 : default solid dirt : "playcolr.gif" #2;
+P02 : solid dirt : "playcolr.gif" #0; 
+P03 : solid dirt : "playcolr.gif" #12; 
+P04 : solid dirt : "playcolr.gif" #4; 
+P05 : solid dirt : "playcolr.gif" #14; 
+P06 : solid dirt : "playcolr.gif" #6; 
+P07 : solid dirt : "playcolr.gif" #10; 
+P08 : solid dirt : "playcolr.gif" #8; 
+
+P09 : solid dirt : "island.gif" #01;	// This is with no apron on it
+

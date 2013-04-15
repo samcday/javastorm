@@ -1,0 +1,66 @@
+[Header]
+missionType = "Tutorial"
+aid=1
+
+loadFort = "SaveTheIsland"
+
+missionNumber = 1
+
+myStartMoney = 2000
+myTech = "sunWalker;rainBattery;sunArcher;sunCannon;sunBlocker;sunAviary"
+
+aiName = "Earl of Thunder"
+aiTech = "sunWalker;thunderBattery;thunderCannon;sunArcher;thunderArcher;sunBalloon"
+aiStartMoney = 2000
+aiGeyserAttachments = 1
+aiCollectors = 1
+aiTimeBetweenMoves = 4
+
+title="Save the Island!"
+
+[Options]
+
+[A.]
+<h2>Save The Island!</h2>
+<i>"We are not a savage people by nature, but by an unending circumstance of necessity."
+--General Abstek Voltikkin</i>
+<p>
+The island of the Ambassador of Hydrus has come under sudden attack. 
+Golems were rallied barely in time to erect a Sun Barrier 
+and save the island from certain devastation.
+<p>
+With resources low and his back against the wall, the
+Ambassador has called for your military brilliance to save
+him in his hour of need.
+<p>
+If this island can be saved, the Ambassador could prove a valuable
+ally!
+
+$Button=Review Knowledge,ShowTechnology,55
+$Button=Play Mission,DoNothing,0
+
+
+[Succeeded][BadTeamDead]
+<h2>Success!</h2>
+<p>
+Your military acumen is now the stuff of legend!  As a show of
+his undying gratitude, the Ambassador adopts you as his son and heir.  
+<p>
+His people pledge their fidelity to you forevermore, and your empire is born!
+<$Config,Done{mission.fileName}=1>
+$Button=Leave Missions,MissionAbort,1
+$Button=Next Mission,MissionBegin,FragileFortune
+
+
+[Failed]
+<h2>Failure!</h2>
+<p>
+Clearly the Ambassador's faith in you was misplaced!  You have 
+allowed his island to be overrun by the savage enemy. As  
+the Ambassador's last act, he slaughters you himself.
+$Button=Continue,Tell,TryAgain
+
+
+[END]
+																		 
+																		 

@@ -1,0 +1,16 @@
+title = "Complete Victory"
+
+[Overview]
+<background="nsstart">
+<h2>{offical5.title}</h2>
+<p>
+Can you crush the forces of darkness to claim the
+ultimate victory?
+
+$Checked=1 Breaking Through,MissionBegin,BreakingThrough,{DoneBreakingThrough},{DoneSurrounded}
+$Checked=2 To The Rescue!,MissionBegin,ToTheRescue,{DoneToTheRescue},{DoneBreakingThrough}
+$Checked=3 Vicious,MissionBegin,Vicious,{DoneVicious},{DoneToTheRescue}
+$Checked=4 Enemy Territory,MissionBegin,EnemyTerritory,{DoneEnemyTerritory},{DoneVicious}
+$Checked=5 Final Confrontation,MissionBegin,FinalConfrontation,{DoneFinalConfrontation},{DoneEnemyTerritory}
+
+$Button=Back,Tell,UCampaign

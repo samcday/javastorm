@@ -1,0 +1,28 @@
+typename bombLightingwave constructor
+typeflags default_hotspot bomb mayDropOnRim ;
+{
+	description="Thunderstorm";
+	class="Offensive Spell";
+
+	zorder = "zoEMPLACEMENTS";
+	foot_x = 1;
+	foot_y = 1;
+
+	level = 1;	// Determines its probability class
+	range = 15;
+	cost = 2500;
+
+	activeSound = "70ThunderStormPickup1.wav";
+	fireSound = "70ThunderStormCast1.wav";
+
+	casttime=5;
+	praytime=5;
+	manacost=10;
+
+}
+
+A00 : : "blank.gif" #0 ;
+
+B00 :  default baseframe : "spells.gif" #16  ;
+
+B01 : help : "b_obelisk.gif" #00;

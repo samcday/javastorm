@@ -1,0 +1,38 @@
+typename windaviary constructor
+typeflags createsisland emplacement shadow;
+{
+	description="Devil Maker";
+	class="Air Attack Base";
+	maxHitPoints = 400;
+		// Ken changes 8-15 to make wind flyers a tougher unit in general. Bug 621
+		// A little more tough, since its level 4. 400 to 600. Aug 28
+	theme = "wind";
+	level = 3;
+	cost = 800;
+
+	zorder = "zoEMPLACEMENTS";
+	foot_x = 3;
+	foot_y = 3;
+	threat = 5;
+	constructionRate = 10;
+
+	range = 30;
+		// This is the true range of the flyer. Change the value in the
+		// flyer if you change this value!
+
+	hotfootratiox = 0.5;
+	hotfootratioy = 0.625;
+	damageEffect = 1;
+	group = "aviary";
+
+	techBit = 6;
+}
+
+P00 : default : "wflyer.gif" #42  : "wflyer.gif" #48  ;
+P01 :         : "wflyer.gif" #43  : "wflyer.gif" #49;
+P02 :         : "wflyer.gif" #44  : "wflyer.gif" #50;
+P03 :         : "wflyer.gif" #45  : "wflyer.gif" #51;
+P04 :         : "wflyer.gif" #46  : "wflyer.gif" #52;
+P05 :         : "wflyer.gif" #47  : "wflyer.gif" #53;
+
+A00 : help : "b_waviary.gif" #00;

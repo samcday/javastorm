@@ -1,0 +1,63 @@
+[Header]
+missionType = "Tutorial"
+
+missionNumber = 1
+moreGeysers = 1
+
+myStartMoney = 4000
+myTech = "sunWalker;windArcher;windBlocker;windBattery;windWalker;windBalloon;windAviary;sunBlocker;sunAviary;sunCannon"
+
+ai1Name = "Spieler"
+ai1Tech = "sunWalker;windBattery;windBlocker;windWalker;windArcher;windBalloon;windAviary;sunBlocker;sunAviary;sunCannon"
+ai1TimeBetweenMoves = 3
+
+ai2Name = "Prinz des Donners"
+ai2Tech = "sunWalker;sunArcher;thunderBattery;thunderCannon;thunderBlocker;sunAviary"
+ai2StartMoney = 6000
+ai2TimeBetweenMoves = 5
+ai2AllyList = "3"
+
+ai3Name = "F?rst des Regens"
+ai3Tech = "sunWalker;sunArcher;sunCannon"
+ai3StartMoney = 2000
+ai3TimeBetweenMoves = 4
+ai3AllyList = "2"
+ai3Ability = "!STOP_COLLECTING_FROM_DANGEROUS_GEYSERS;!REPEAT_SUCCESSFUL_DROPS"
+
+demoRestartTimer = 360
+
+title="B?ndnisbruch"
+
+[Options]
+
+[A.]
+<h2>B?ndnisbruch</h2>
+<i>"Seine Worte klangen s?? wie Honig, und doch hatten sie einen bitteren, ja giftigen Beigeschmack."
+--Promos Ahbresk, Nimbischer Dichter</i>
+<p>
+Ihr Alliierter, der F?rst des Regens, hat sich inmitten einer heftigen Schlacht gegen den Finsteren Prinzen des Donners als Verr?ter entpuppt! Jetzt sitzen Sie in der Klemme.
+<p>
+Rei?en Sie das Ruder herum, indem Sie zuerst den verr?terischen F?rsten vernichten! Und anschlie?end beweisen Sie dem finsteren Prinzen des Donners, da? Ihr Siegeszug nicht aufzuhalten ist.
+
+$Button=Aktueller Wissensstand,ShowTechnology,55
+$Button=Mission beginnen,DoNothing,0
+
+
+[Succeeded][BadTeamDead]
+<h2>Mission erfolgreich abgeschlossen!</h2>
+<p>
+Der verr?terische F?rst wurde vernichtet! Sie haben seine unheilvolle Allianz mit dem Finsteren Prinzen des Donners zerschlagen. Dies soll allen Verr?tern in Ihrem Reich eine Lehre sein!
+<$Config,Done{mission.fileName}=1>
+$Button=Mission beenden,MissionAbort,1
+$Button=N?chste Mission,MissionBegin,TheNoose
+
+
+[Failed]
+<h2>Missionsziel verfehlt!</h2>
+<p>
+Sie haben eine verheerende Niederlage gegen den Finsteren Prinzen des Donners und seinen neuen Freund, den F?rsten des Regens, erlitten. Deren vereinte Streitkr?fte haben Ihre Insel verw?stet und gepl?ndert, w?hrend Sie nur hilflos und gedem?tigt zusehen konnten.
+$Button=Weiter,Tell,TryAgain
+
+[END]
+																		 
+																		 

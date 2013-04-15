@@ -1,0 +1,54 @@
+[Header]
+missionType = "Normal"
+buildCriteria = "rainVortex"
+
+loadFort = "_War College"
+saveFort = "War College"
+
+tech = "deny;all;allow;windVortex;rainVortex;thunderVortex"
+
+[Options]
+
+[OBJECTIVE]
+<$config,welcomeGiven=1>
+<background="startcl">
+<h2>Mission One</h2>
+Welcome to the War College!
+<p>
+The Mayor of the island <i>"Intrepid"</i> has fallen ill! The people
+have turned to you for guidance. Fill the Tribe's coffers by
+collecting Storm Crystals.
+<p>
+When you right-click on a Storm Crystal and select "Salvage" you
+will get Storm Power.  Storm Power will be used later to build
+important structures.
+<p>
+When you have enough Storm Power right-click on a gem 
+and buid a {Vortex}. Remember that you must place the
+{Vortex} upon the Gem from which it is being created.
+<br><br>
+Storm Crystal: <!"nugget.0">
+<br>
+<br>
+Gem: <!"windGem.0">, <!"rainGem.0">, or <!"thunderGem.0">
+$Button=CONTINUE,DoNothing,0
+
+[SUCCESS]
+<h2>Success!</h2>
+Congratulations! The citizens are ecstatic about your performance.
+<p>
+Although certain cynics point out that you're still untried in battle,
+the mayor calls you to his bedside and hands you the Keys to the
+Fortress. 
+<p>
+Congratulations on a job well done.
+$Button=NEXT MISSION,MissionBegin,Mission2
+
+[FAILURE]
+<h2>Failure!</h2>
+Really, there is hardly any way you can fail this mission.
+<br>
+$Button=QUIT,DoNothing,0
+$Button=RESTART,MissionRestart,0
+[end]
+

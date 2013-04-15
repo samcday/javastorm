@@ -1,0 +1,24 @@
+typename moonFactory constructor
+typeflags factory yuckWalk dropBlocking shotblocking;
+{
+	description="Moon Forge";
+	class="Production";
+	maxHitPoints = 4000;
+	theme = "moon";
+	cost = 800;
+	zorder = "zoEMPLACEMENTS";
+	foot_x = 7;
+	foot_y = 6;
+
+	damageEffect = 1;
+	buildDoneSound = "workshopComplete.wav";
+}
+
+A01 : default baseframe : "mfactory.gif" #00 ;
+
+B01 : : "mfactory.gif" #01 ;
+
+C01 : : "mfactory.gif" #02 ;
+
+
+P00 : help : "b_sfactory.gif" #00;

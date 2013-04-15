@@ -1,0 +1,58 @@
+[Header]
+missionType = "Tutorial"
+
+missionNumber = 1
+
+myStartMoney = 7000
+myTech = "sunWalker;thunderBattery;rainBattery;rainFence;sunFence;sunCannon;thunderFence;thunderBlocker;thunderArcher"
+
+aiName = "F?rst der Furien"
+aiTech = "rainWalker;rainBattery;windBattery;thunderBattery;sunArcher;sunCannon;windArcher;rainCannon;thunderCannon"
+aiStartMoney = 10000
+aiGeyserAttachments = 4
+aiCollectors = 4
+aiTimeBetweenMoves = 2
+
+title = "Teufelskreis"
+
+[A.]
+<h2>Teufelskreis</h2>
+<i>"Und die Klageschreie der Inseln verklangen ungeh?rt im dunklen Himmel."<br>
+--Die Schrift von Nimbus</i>
+<p>
+Ihr Gegner hat ein gr??liches Gebilde errichtet, das er auf den Namen "Sturminsel" getauft hat. Wind, Regen und Donner wurden zu einer unbesiegbaren Macht kombiniert.
+<p>
+In dieser Festung sind alle grausamen und gef?hrlichen Qualit?ten der einzelnen Konformit?ten vereint - und diese geballte Kraft kommt auf Sie zu.
+
+$Button=Weiter,Tell,A1.
+
+[A1.]
+<h2>Teufelskreis</h2>
+<p>
+Der Angriff richtet sich auf die f?r die Errichtung unserer neuen Waffenentwicklungsstation vorgesehene Fl?che. Wenn Sie die Station dort errichten, ist sie lediglich durch eine leichte Bewaffnung gesch?tzt, so da? Sie Prototypwaffen einsetzen m?ssen, um den Angreifer abzuwehren und seinen Priester zu vernichten!
+
+$Button=Aktueller Wissensstand,ShowTechnology,55
+$Button=Mission beginnen,DoNothing,0
+
+
+[Succeeded][BadTeamDead]
+<h2>Mission erfolgreich abgeschlossen!</h2>
+<p>
+Wie durch ein Wunder ist es Ihnen gelungen, die Sturminsel zu bezwingen. Jetzt sind Sie bereit, die Alleinherrschaft ?ber Nimbus zu ?bernehmen. Schaffen Sie es, die Finsteren F?rsten ein f?r allemal zu besiegen?
+<$Config,Done{mission.fileName}=1>
+$Button=Mission beenden,MissionAbort,1
+$Button=N?chste Mission,MissionBegin,EnemyTerritory
+
+
+[Failed]
+<h2>Missionsziel verfehlt!</h2>
+<p>
+Die Sturminsel hat Ihre Truppen besiegt und in St?cke gerissen.
+<p>
+Der Feind hat unsere neuen Waffen gestohlen und wird sie gegen uns einsetzen, um unser Reich zu vernichten!
+$Button=Weiter,Tell,TryAgain
+
+
+[END]
+																		 
+																		 

@@ -1,0 +1,36 @@
+typename windBalloon 
+typeflags balloon flyershadow;
+{
+	description="Air Ship";
+	class="Aerial Transport";
+	maxHitPoints = 655;
+		// Improved the hit points from 400 to 1600 to fix
+		// bug 633.
+		// Too much!  Reduced a bit.
+		// Balance pass Aug 28, from 1220 to 800
+	theme = "wind";
+	level = 3;
+	threat = 15;
+	cost = 1200;
+	// Balance pass Aug 28, from 1000 to 1200
+
+	zorder = "zoFLYERS";
+	foot_x = 4;
+	foot_y = 4;
+	group = "balloon";
+
+	speed = 2.5;
+		// Ken improved v5.3 after consultation.
+		// Raduced back to Crab Walker speed.
+//	speed = 10;
+	turningSpeed = 90000.0;
+	pickupSound = "windBalloonPickup.wav";
+	moveSound = "windBalloonMove.wav";
+	dropSound = "windBalloonDrop.wav";
+
+	techBit = 8;
+}
+
+P01	: default : "ship.gif" #00 : "ship.gif" #01;
+
+A00 : help : "s_shipbeauty.gif" #00;

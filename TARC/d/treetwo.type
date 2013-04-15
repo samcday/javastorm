@@ -1,0 +1,32 @@
+typename TreeTwo constructor
+typeflags tree randframe yuckWalk dropBlocking shotblocking;
+{
+	description="Trees";
+	maxHitPoints = 400;
+	theme = "sun";
+	level = 2;
+	cost = 500; 
+
+	zorder = "zoEMPLACEMENTS";
+	foot_x = 2;
+	foot_y = 2;
+	damageEffect = 1;
+}
+
+P01 : default: "tree.gif" #10;
+P02 : : "tree.gif" #11;
+P03 : : "tree.gif" #12;
+P04 : : "tree.gif" #13;
+P05 : : "tree.gif" #14;
+P06 : : "tree.gif" #15;
+P07 : : "tree.gif" #16;
+P08 : : "tree.gif" #17;
+P09 : : "tree.gif" #18;
+P10 : : "tree.gif" #19;
+P11 : : "tree.gif" #20;
+P12 : : "tree.gif" #21;
+P13 : : "tree.gif" #22;
+P14 : : "tree.gif" #23;
+P15 : : "tree.gif" #24;
+P16 : : "tree.gif" #25;
+

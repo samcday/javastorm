@@ -1,0 +1,52 @@
+typename rainwalker constructor
+typeflags walker shadow	;
+{
+	description="Crystal Crab";
+	class="Ground Transport";
+	maxHitPoints = 200;
+	theme = "rain";
+	level = 1;
+	threat = 15;
+	cost = 500;
+	// Cost decreased slightly. Aug 28
+
+	zorder = "zoEMPLACEMENTS";
+	foot_x = 1;
+	foot_y = 1;
+	activeSound = "moveBeetle.wav";
+	pickupSound = "moveBeetle.wav";
+	moveSound = "moveBeetle.wav";
+	dropSound = "moveBeetle.wav";
+
+	group = "walker";
+
+	speed = 2.4;
+	// Reduced from 2.5 to 2.4 Aug 28
+	turningSpeed = 1800000.0;
+
+	techBit = 16;
+}
+
+A00 : : "rcrab.gif" #00: "rcrab.gif" #20;
+A01 : : "rcrab.gif" #01: "rcrab.gif" #21;
+A02 :default: "rcrab.gif" #02: "rcrab.gif" #22;
+A03 : : "rcrab.gif" #03: "rcrab.gif" #23;
+A04 : : "rcrab.gif" #04: "rcrab.gif" #24;
+A05 : : "rcrab.gif" #05: "rcrab.gif" #25;
+A06 : : "rcrab.gif" #06: "rcrab.gif" #26;
+A07 : : "rcrab.gif" #07: "rcrab.gif" #27;
+A08 : : "rcrab.gif" #08: "rcrab.gif" #28;
+A09 : : "rcrab.gif" #09: "rcrab.gif" #29;
+B00 : : "rcrab.gif" #10: "rcrab.gif" #30;
+B01 : : "rcrab.gif" #11: "rcrab.gif" #31;
+B02 : : "rcrab.gif" #12: "rcrab.gif" #32;
+B03 : : "rcrab.gif" #13: "rcrab.gif" #33;
+B04 : : "rcrab.gif" #14: "rcrab.gif" #34;
+B05 : : "rcrab.gif" #15: "rcrab.gif" #35;
+B06 : : "rcrab.gif" #16: "rcrab.gif" #36;
+B07 : : "rcrab.gif" #17: "rcrab.gif" #37;
+B08 : : "rcrab.gif" #18: "rcrab.gif" #38;
+B09 : : "rcrab.gif" #19: "rcrab.gif" #39;
+
+P00 : help : "b_rwalker.gif" #00;
+

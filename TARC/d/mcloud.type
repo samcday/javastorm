@@ -1,0 +1,11 @@
+typename mcloud
+
+typeflags default_hotspot;
+{
+}
+
+A01 : default: "kelcloud.gif" #00  ;
+A02 : : "kelcloud.gif" #01  ;
+A03 : : "kelcloud.gif" #02  ;
+A04 : : "kelcloud.gif" #03 	;
+

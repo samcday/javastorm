@@ -1,0 +1,23 @@
+typename wall constructor
+typeflags wall walkBlocking dropBlocking shotblocking mayDropOnRim mayDropOnIsle shadow;
+{
+	description="Wall";
+	class="Defense";
+	maxHitPoints = 2000;
+	theme = "sun";
+	level = 2;
+	cost = 50;
+	mana = "";
+
+	zorder = "zoEMPLACEMENTS";
+	foot_x = 1;
+	foot_y = 1;
+	damageEffect = 1;
+	constructionRate = 10;
+	group = "misc";
+}
+
+P01 : default : "wall.gif" #00 : "wall.gif" #03 ;
+P02 : : "wall.gif" #01 : "wall.gif" #03 ;
+P03 : : "wall.gif" #02 : "wall.gif" #03 ;
+

@@ -1,0 +1,17 @@
+typename tinyfarm constructor
+typeflags emplacement farm;
+{
+	description="Homestead";
+	zorder = "zoEMPLACEMENTS";
+	maxHitPoints = 25;
+	foot_x = 2;
+	foot_y = 2;
+	damageEffect = 1;
+	constructionRate = 10;
+	crew = 1;
+	baseCrew = 1;
+	foodProduced = 2;
+}
+
+P01 : default : "tfarm.gif" #00  ;
+

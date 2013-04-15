@@ -1,0 +1,35 @@
+typename thunderFence constructor 
+typeflags createsisland emplacement fence fencePost;
+{
+	description="Arc Spire";
+	class="Defense";
+	zorder = "zoEMPLACEMENTS";
+	hpPerSec = 45;
+	range = 45;
+	minUsage = 20;
+	maxUsage = 20;
+	constructionRate = 10;
+	foot_x = 3;
+	foot_y = 3;
+//	hotFootY = 6;
+	threat = 5;
+	hotFootRatioY = 0.375;
+	damageEffect = 1;
+	group = "fence";
+	cost=400;
+	maxHitPoints = 1000; //1200 1500
+	// Changed per Email with JK 10-4-97
+	theme = "thunder";
+	level = 1;
+
+	techBit = 22;
+}
+
+P00 : default : "tfence.gif" #00  ;
+P01 : : "tfence.gif" #01  ;
+P02 : : "tfence.gif" #02  ;
+P03 : : "tfence.gif" #03  ;
+P04 : : "tfence.gif" #04  ;
+P05 : : "tfence.gif" #05  ;
+
+A00 : help : "b_tfence.gif" #00;

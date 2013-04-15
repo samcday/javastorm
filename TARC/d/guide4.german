@@ -1,0 +1,15 @@
+title = "Triumphaler Siegeszug"
+
+[Overview]
+<background="nsstart">
+<h2>Triumphaler Siegeszug</h2>
+<p>
+K?nnen Sie die Truppen der Finsternis vernichten und das Schlachtfeld als alleiniger Sieger verlassen?
+
+$Checked=1 Defensivschlag,MissionBegin,BreakingThrough,{DoneBreakingThrough},{DoneSurrounded}
+$Checked=2 Rettungsaktion,MissionBegin,ToTheRescue,{DoneToTheRescue},{DoneBreakingThrough}
+$Checked=3 Teufelskreis,MissionBegin,Vicious,{DoneVicious},{DoneToTheRescue}
+$Checked=4 Feindliches Gebiet,MissionBegin,EnemyTerritory,{DoneEnemyTerritory},{DoneVicious}
+$Checked=5 Entscheidende Begegnung,MissionBegin,FinalConfrontation,{DoneFinalConfrontation},{DoneEnemyTerritory}
+
+$Button=Zur?ck,Tell,Campaign

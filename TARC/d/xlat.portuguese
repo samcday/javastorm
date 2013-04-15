@@ -1,0 +1,4793 @@
+CompXlat.pl output: file e:\ns\d\xlat.portuguese.new compared to file e:\ns\d\xlat.portuguese.ref
+
++++++++++++ NEW TRANSLATIONS +++++++++++++
+***
+Loading
+---
+los
+===
+
+***
+Please Wait
+---
+que separe
+===
+
+***
+You may not run more than one copy of NetStorm simultaneously.
+---
+para dominar en el D?a y en la noche y para.
+===
+
+***
+Error.
+---
+sobre.
+===
+
+***
+Unrecoverable Exception!
+---
+que separe!
+===
+
+***
+NetStorm will now shutdown.
+---
+y multiplicaos Llenad las.
+===
+
+***
+Unrecoverable Exception!
+---
+Llam? Dios!
+===
+
+***
+Priest can't get here.
+---
+todo ?rbol cuyo fruto.
+===
+
+***
+Put Knowledge into Production
+---
+a la B?veda Cielos
+===
+
+***
+Knowledge Available
+
+---
+Entonces dijo
+
+===
+
+***
+All Knowledge is in Production
+---
+las aguas que Est?n debajo
+===
+
+***
+Put Knowledge into Production
+---
+separar la luz de
+===
+
+***
+Your Description Here
+---
+la tarde y
+===
+
+***
+New battle description:
+---
+estaciones y para:
+===
+
+***
+Please type in your player name.
+---
+Y Y fue la tarde y.
+===
+
+***
+Dead
+---
+noche
+===
+
+***
+Captured
+---
+luz
+===
+
+***
+Ignore chat
+---
+Hizo tambi?n
+===
+
+***
+Send %s1000~[IfortGump.3]
+---
+Y %sfue~la.tarde
+===
+
+***
+Un-mark as Ally
+---
+y-que las aguas
+===
+
+***
+Mark as Ally
+---
+fue la ma?ana
+===
+
+***
+Refresh Zones
+---
+la ma?ana
+===
+
+***
+View Knowledge - ~iF6~.
+---
+tinieblas Llam? - ~iNoche~.
+===
+
+***
+View Player List - ~iF9~.
+---
+su especie el - ~iganado~.
+===
+
+***
+~E~Select Server
+
+---
+~E~Sa las
+
+===
+
+***
+Sound Quality
+---
+semilla ellos
+===
+
+***
+Edge Scroll in Fullscreen
+---
+las aves del cielo
+===
+
+***
+Zacket Record During Battle
+---
+que Est?n debajo del
+===
+
+***
+Leave Battle In Shame
+---
+alada Seg?n su especie
+===
+
+***
+Leave Battle Honorably
+---
+una B?veda en
+===
+
+***
+Declare a Draw
+---
+separe las aguas
+===
+
+***
+Technical Help
+---
+D?a de
+===
+
+***
+Make me an AI
+---
+la tarde y fue
+===
+
+***
+~ySave Game: ~w%s
+---
+~yEntonces Entonces: ~w%s
+===
+
+***
+~yPlayer Name: ~w%s
+---
+~yvivientes y: ~w%s
+===
+
+***
+New Server Address?
+---
+fue la tarde
+===
+
+***
+Technical Help
+---
+que alumbren
+===
+
+***
+~w%s has disconnected
+---
+~w%s Y fue
+===
+
+***
+~w%s sent you Storm Power
+---
+~w%s vio que la luz
+===
+
+***
+~w%s wishes to declare a Draw
+---
+~w%s y tenga dominio sobre los
+===
+
+***
+~w%s and %s are now Allies
+---
+~w%s quinto %s D?a Y Y
+===
+
+***
+~w%s and %s have broken their Alliance.
+---
+~w%s semilla %s Seg?n su especie ?rboles.
+===
+
+***
+~wGame started!
+---
+~wpuso en!
+===
+
+***
+~wGame completed!
+---
+~wsuperficie de!
+===
+
+***
+Game Server disconnected.  Reconnecting to new Game Server.
+---
+la tierra En.  En el principio Cre? Dios.
+===
+
+***
+Connecting to Game Server.
+---
+faz del oc?ano y.
+===
+
+***
+Game Server disconnected; reconnecting. Retry countdown %d
+---
+Dios Dios vio que. la luz %d
+===
+
+***
+Contacting Challenge Server.
+---
+Llam? Noche Y.
+===
+
+***
+Game Server disconnected; reconnecting. Transfering.
+---
+Y Y fue la. tarde.
+===
+
+***
+Connected to server. Transfering.
+---
+Seg?n su especie. cuya.
+===
+
+***
+~.~3%s~*~.
+
+%s
+Time Remaining: ~i%d~.%s
+---
+~.~3%s~*~.
+
+%s
+la B?veda: ~i%d~.%s
+===
+
+***
+Becoming Server
+---
+y Separ?
+===
+
+***
+Starting Game
+---
+alumbrar sobre
+===
+
+***
+(demo)
+---
+dominar
+===
+
+***
+(beta)
+---
+Dios
+===
+
+***
+Change Description...
+---
+la tierra...
+===
+
+***
+~w~E%s
+Players in Battle (Zone %d)
+
+---
+~w~E%s
+principio Cre? Dios los %dcielos
+
+===
+
+***
+Class: <c>%s</c>
+---
+cuya: <c>%s</c>
+===
+
+***
+Type
+---
+tened
+===
+
+***
+Battle Status Window
+---
+del mar las
+===
+
+***
+View Learned Knowledge
+---
+seres vivientes y
+===
+
+***
+~y~EExcluded
+---
+~y~Epara
+===
+
+***
+~0~w~ENot enough Storm Power to build this
+---
+~0~w~ESeg?n su especie ?rboles frutales cuya semilla
+===
+
+***
+Close
+---
+semilla
+===
+
+***
+~y~E~3Your Friends, ~rhere ~yand ~welsewhere
+---
+~y~E~3que dan, ~rsemilla ~ySeg?n ~wsu
+===
+
+***
+%s
+%s%sLevel %d
+
+---
+%s
+%s%sSed %d
+
+===
+
+***
+Owner
+---
+dijo
+===
+
+***
+Enemy
+---
+vio
+===
+
+***
+Ally
+---
+aguas
+===
+
+***
+NetStorm has failed an assertion. The game cannot continue.
+Please copy the following information and send it to nsbugs@titanic.com
+(To copy, select with mouse, then hit Ctrl-ins. Then Hit Shift-Ins in email program.)
+---
+    .    .
+         .
+ ,  En el, principio Cre? Dios-los. cielos y la-tierra En En el.principio
+===
+
+***
+NetStorm Assertion Failed
+---
+todo animal que
+===
+
+***
+Build Level %d %s%s
+---
+Y Y %d %s%s
+===
+
+***
+View Learned Knowledge
+---
+separar la luz
+===
+
+***
+~yNot Connected!~.
+
+---
+~yy animales!~.
+
+===
+
+***
+Kill Reward
+---
+Produzca la
+===
+
+***
+Play Now
+---
+Y a
+===
+
+***
+Back to Install
+---
+solo lugar de
+===
+
+***
+System Information
+---
+B?veda y
+===
+
+***
+Please exit the game before running Setup.
+---
+fecundos y multiplicaos Llenad las aguas de.
+===
+
+***
+Another copy of NetStorm Setup is already running.
+---
+aves del cielo el ganado y en toda.
+===
+
+***
+The destination %s is on a CD-ROM. You cannot install to a CD-ROM.
+---
+Entonces Entonces %s dijo Dios Produzcan las-aguas. innumerables seres vivientes y haya aves-que.
+===
+
+***
+Maximal install requires %d bytes of free disk space.
+%s has %d bytes free
+---
+Y Y fue %d la tarde y fue la.
+%s ma?ana %d del tercer
+===
+
+***
+Minimal install required %d bytes of free disk space.
+%s has %d bytes free
+---
+y fue la %d ma?ana del segundo D?a Dios.
+%s Dios %d Llam? a
+===
+
+***
+Could not create directory %s. It this disk-drive read-only?
+
+---
+D?a Dios Dios Llam? %s. a la luz-D?a y-a
+
+===
+
+***
+Unable to create the install detection file on the local drive (%s)
+
+---
+Dios Produzca la tierra hierba plantas que den semilla y ?rboles frutales%sque
+
+===
+
+***
+Current location
+---
+tarde y
+===
+
+***
+none
+---
+tierra
+===
+
+***
+Not run
+---
+las aves
+===
+
+***
+Unable to lookup name: %s
+
+
+---
+todo animal que se: %s
+
+
+===
+
+***
+
+
+Pinging %s (%s)
+
+
+---
+
+
+He %s Aqu?%sque
+
+
+===
+
+***
+ : Not found
+
+
+---
+ : Dios vio
+
+
+===
+
+***
+Found CLSID==%s
+
+
+---
+que alumbren%s
+
+
+===
+
+***
+HTML File Association Not Found
+
+
+---
+B?veda Cielos Y fue la
+
+
+===
+
+***
+failed
+
+DirectDraw not found on this system
+
+
+---
+Dios
+
+Dios las puso en la B?veda
+
+
+===
+
+***
+found it
+
+Looking for DirectSound...
+---
+mayor para
+
+dominar en el...
+===
+
+***
+failed
+
+DirectSound not found on this system
+
+
+---
+y
+
+los bendijo Dios diciendo Sed fecundos
+
+
+===
+
+***
+found it
+
+DirectX is present on this system
+
+
+---
+los bendijo
+
+Dios diciendo Sed fecundos y multiplicaos
+
+
+===
+
+***
+TCP/IP Socket Layer Not Found
+
+
+---
+Produzca la tierra seres vivientes
+
+
+===
+
+***
+TCP/IP Socket Layer Version %d.%d
+
+  desc = %s
+
+  status = %s
+
+  maxSockets = %d
+
+
+---
+su fruto Seg?n su %d.%d
+
+  especie Y %s
+
+  vio Dios %s
+
+  que esto %d
+
+
+===
+
+***
+Unable to create socket
+
+
+---
+la faz del oc?ano
+
+
+===
+
+***
+IPX Support detected.
+
+
+---
+En el principio.
+
+
+===
+
+***
+No IPX Support detected.
+
+
+---
+Y Y fue la.
+
+
+===
+
+***
+Testing xmit on %s port %d
+
+
+---
+del cielo y %s a %d
+
+
+===
+
+***
+Unable to create socket
+
+
+---
+Cre? pues Dios al
+
+
+===
+
+***
+Unable to lookup %s
+
+
+---
+Llam? Noche Y %s
+
+
+===
+
+***
+Connection failed. Code = %d
+
+
+---
+Hizo Dios. los animales %d
+
+
+===
+
+***
+Send to root server failed. Code = %d
+
+
+---
+Cre? Cre? pues Dios al. hombre a %d
+
+
+===
+
+***
+Expected buffered packet. (len=%d). Code = %d
+
+
+---
+hizo Dios la. B?veda%dy. Separ? las %d
+
+
+===
+
+***
+Connection to root succeed
+
+
+---
+imagen a imagen de
+
+
+===
+
+***
+Root server did not return correct code. Code:%d; Should be:%d
+
+
+---
+Y Y la tierra estaba sin orden. y:%dVac?a Hab?a tinieblas:%d
+
+
+===
+
+***
+Read incomplete packet. (len=%d should be=%d). Code = %d
+
+
+---
+de las aguas. Entonces%d Entonces dijo%dDios. Haya una %d
+
+
+===
+
+***
+Testing receive on port %d.
+
+
+---
+pues Dios al hombre %d.
+
+
+===
+
+***
+Unable to create listening socket.
+
+
+---
+Dios Dios las puso en.
+
+
+===
+
+***
+Unable to bind to port %d. Code = %d
+
+
+---
+hizo Dios las dos grandes %d. lumbreras la %d
+
+
+===
+
+***
+Unable to listen to port %d. Code = %d
+
+
+---
+toda ave del cielo y %d. a todo %d
+
+
+===
+
+***
+Unable to create outbound socket.
+
+
+---
+la luz D?a y a.
+
+
+===
+
+***
+Outbound connection failed. Code = %d
+
+
+---
+y a todo. animal que %d
+
+
+===
+
+***
+Request to callback failed. Code = %d
+
+
+---
+y los bendijo Dios. diciendo Sed %d
+
+
+===
+
+***
+Unable to select on listening socket. Code = %d
+
+
+---
+fue la tarde y fue la. ma?ana del %d
+
+
+===
+
+***
+Timed out without a connection from the server.
+
+
+---
+de las tinieblas Dios Dios vio que la.
+
+
+===
+
+***
+Accept failed. Code = %d
+
+
+---
+Seg?n su. especie ?rboles %d
+
+
+===
+
+***
+Received connection from remote host.
+
+
+---
+peces del mar las aves.
+
+
+===
+
+***
+Send on accepted socket failed. Code = %d
+
+
+---
+Entonces dijo Dios Haya lumbreras. en la %d
+
+
+===
+
+***
+Expected buffered packet. (len=%d). Code = %d
+
+
+---
+E hizo Dios. la%dB?veda. y Separ? %d
+
+
+===
+
+***
+Received verification packet.
+
+Reception on port %d validated.
+
+
+---
+primer D?a Dios.
+
+Dios Llam? a %d la.
+
+
+===
+
+***
+Incorrect code received during validation. Code = %d
+
+
+---
+la tarde y fue la. ma?ana del %d
+
+
+===
+
+***
+Read incomplete packet on accepted socket. (len = %d, should be=%d). Code = %d
+
+
+---
+E E hizo Dios la B?veda. y Separ? %d, las aguas%dque. Est?n debajo %d
+
+
+===
+
+***
+Unknown
+---
+alumbrar
+===
+
+***
+Windows Version %d.%d Build %d
+---
+imagen conforme %d.%d a %d
+===
+
+***
+Windows NT Version %d.%d Build %d
+---
+alumbrar sobre la %d.%d tierra %d
+===
+
+***
+Operating System: 
+---
+a imagen: 
+===
+
+***
+Unknown
+---
+sobre
+===
+
+***
+80386 or compatible
+---
+Seg?n su especie
+===
+
+***
+80486 or compatible
+---
+faz del oc?ano
+===
+
+***
+Pentium or compatible
+---
+produjo hierba plantas
+===
+
+***
+CPU: 
+---
+vio: 
+===
+
+***
+%d bytes
+
+---
+%d que
+
+===
+
+***
+Installed Memory: 
+---
+y Separ?: 
+===
+
+***
+emptyGeyser
+---
+la
+===
+
+***
+geyserBrightener
+---
+tarde
+===
+
+***
+fenceShield
+---
+la
+===
+
+***
+Source of Energy
+---
+a las tinieblas
+===
+
+***
+Source of Storm Power
+---
+dijo Dios Haya lumbreras
+===
+
+***
+Source of Storm Power
+---
+grandes lumbreras la lumbrera
+===
+
+***
+Acid Barricade
+---
+dijo Dios
+===
+
+***
+Air Ship
+---
+que se
+===
+
+***
+Arc Spire
+---
+Y fue
+===
+
+***
+Artifact
+---
+esto
+===
+
+***
+Balloon
+---
+y
+===
+
+***
+Banner
+---
+B?veda
+===
+
+***
+Bulf
+---
+dijo
+===
+
+***
+Bulwark
+---
+las
+===
+
+***
+City Gate
+---
+y animales
+===
+
+***
+Cloud Floater
+---
+dijo Dios
+===
+
+***
+Crossbow
+---
+luz
+===
+
+***
+Crystal Crab
+---
+las puso
+===
+
+***
+Decimation
+---
+fue
+===
+
+***
+Devastation
+---
+las
+===
+
+***
+Devil Maker
+---
+dijo Dios
+===
+
+***
+Dust Devil
+---
+de modo
+===
+
+***
+Edge Farm
+---
+imagen de
+===
+
+***
+Embassy
+---
+pues
+===
+
+***
+Empty Storm Geyser
+---
+Seg?n su especie
+===
+
+***
+fake3x3Surface
+---
+que
+===
+
+***
+Force Field
+---
+la luz
+===
+
+***
+Fountain
+---
+hizo
+===
+
+***
+Golem
+---
+B?veda
+===
+
+***
+Grove
+---
+ma?ana
+===
+
+***
+Growing Ice Tower
+---
+aparezca la parte
+===
+
+***
+Homestead
+---
+hizo
+===
+
+***
+Ice Cannon
+---
+la tarde
+===
+
+***
+Ice Tower
+---
+su especie
+===
+
+***
+Invisibility
+---
+a
+===
+
+***
+Island
+---
+su
+===
+
+***
+IslandStalag
+---
+tierra
+===
+
+***
+Man o'War Pool
+---
+y Separ? las
+===
+
+***
+Man o'War
+---
+que den
+===
+
+***
+Mansion
+---
+aguas
+===
+
+***
+Nimbian
+---
+Entonces
+===
+
+***
+Obelisk
+---
+las
+===
+
+***
+Player Stub
+---
+Seg?n su
+===
+
+***
+Point Blast
+---
+Cre? Dios
+===
+
+***
+Rain Generator
+---
+ma?ana del
+===
+
+***
+Rain Temple
+---
+solo lugar
+===
+
+***
+Rain Workshop
+---
+la ma?ana
+===
+
+***
+Rain {Focus}
+---
+todos los
+===
+
+***
+River
+---
+tarde
+===
+
+***
+Sail Skater
+---
+Produzca la
+===
+
+***
+Stone Tower
+---
+del cielo
+===
+
+***
+Storm Crystal
+---
+que esto
+===
+
+***
+Storm Geyser
+---
+luz era
+===
+
+***
+Sun Barricade
+---
+Dios los
+===
+
+***
+Sun Cannon
+---
+a la
+===
+
+***
+Sun Disc Thrower
+---
+la B?veda y
+===
+
+***
+Sun Generator
+---
+toda la
+===
+
+***
+Sun Workshop
+---
+faz del
+===
+
+***
+Sun {Focus}
+---
+faz de
+===
+
+***
+teleport effect
+---
+Sea la
+===
+
+***
+Thunder Cannon
+---
+superficie de
+===
+
+***
+Thunder Generator
+---
+su imagen
+===
+
+***
+Thunder Temple
+---
+tarde y
+===
+
+***
+Thunder Workshop
+---
+la tierra
+===
+
+***
+Thunder {Focus}
+---
+toda planta
+===
+
+***
+Trees
+---
+los
+===
+
+***
+Vander Tower
+---
+el Esp?ritu
+===
+
+***
+Wall
+---
+tercer
+===
+
+***
+Whirlibase
+---
+la
+===
+
+***
+Whirligig
+---
+tarde
+===
+
+***
+Wind Generator
+---
+la ma?ana
+===
+
+***
+Wind Temple
+---
+En el
+===
+
+***
+Wind Tower
+---
+semilla Seg?n
+===
+
+***
+Wind Workshop
+---
+y vio
+===
+
+***
+Wind {Focus}
+---
+semejanza y
+===
+
+***
+Platform
+---
+aguas
+===
+
+***
+PlayerBanner
+---
+fue
+===
+
+
++++++++++++ PRESERVED TRANSLATIONS +++++++++++++
+***
+Activision and Titanic Entertainment Present: NetStorm
+---
+una B?veda en medio de: las
+===
+
+***
+Everyone
+---
+separar
+===
+
+***
+Allies
+---
+fue
+===
+
+***
+Friends
+---
+tened
+===
+
+***
+Battle
+---
+aguas
+===
+
+***
+~y~ESend To:
+---
+~y~ELlam? Dios:
+===
+
+***
+~y~ESend To:
+---
+~y~ELlam? Dios:
+===
+
+***
+Cost: ~i%d~[IfortGump.3]~.
+
+---
+la: ~i%d~luz.Entonces~.
+
+===
+
+***
+~r~ENeed more Storm Power to Build!
+
+---
+~r~EDios Llam? a la luz D?a!
+
+===
+
+***
+Salvage for %d~[IfortGump.3]
+---
+del cielo %d~y.a
+===
+
+***
+Storm Power Available
+---
+Dios vio que
+===
+
+***
+Production Window
+---
+cielo para
+===
+
+***
+Production Window
+---
+cielo para
+===
+
+***
+Production Window
+---
+cielo para
+===
+
+***
+Must be placed over constructing artifact
+---
+especie ganado reptiles y animales de
+===
+
+***
+Cannot place here
+---
+lumbreras la lumbrera
+===
+
+***
+Energy not satisfied
+---
+de Dios lo
+===
+
+***
+Only on Controlled Island
+---
+?rbol cuyo fruto lleva
+===
+
+***
+ Level %s
+---
+ vivientes %s
+===
+
+***
+None
+---
+lleva
+===
+
+***
+Production Slots Available: %s
+
+---
+en que hay: %s
+
+===
+
+***
+ Again
+---
+ B?veda
+===
+
+***
+ Again
+---
+ B?veda
+===
+
+***
+Upgrade costs %s%d~[IfortGump.3]
+---
+Cre? Dios %s%d~los.grandes
+===
+
+***
+Cancel
+---
+la
+===
+
+***
+New Player SubId?
+---
+aguas que Est?n
+===
+
+***
+Player %s
+
+---
+fue %s
+
+===
+
+***
+View Player Info
+---
+ganado y en
+===
+
+***
+Un-mark as Friend
+---
+en-la noche y
+===
+
+***
+Mark as Friend
+---
+tarde y fue
+===
+
+***
+Friends
+---
+tened
+===
+
+***
+View Home Temple - ~iF4~.
+---
+que Est? sobre - ~ila~.
+===
+
+***
+View Your Priest - ~iF5~.
+---
+a las tinieblas - ~iLlam?~.
+===
+
+***
+Hide Island Ownership - ~iF7~.
+---
+Entonces dijo Dios - ~iHaya~.
+===
+
+***
+Review Mission Objectives - ~iF8~.
+---
+Y Y fue - ~ila~.
+===
+
+***
+Sound On
+---
+dijo Dios
+===
+
+***
+Play Music
+---
+la lumbrera
+===
+
+***
+Wind Noise
+---
+Y fue
+===
+
+***
+Speaker Swap L/R
+---
+fruto lleva semilla
+===
+
+***
+Default
+---
+la
+===
+
+***
+Low
+---
+que
+===
+
+***
+Medium
+---
+semejanza
+===
+
+***
+High
+---
+del
+===
+
+***
+Volume 1
+---
+dos grandes
+===
+
+***
+Volume 2
+---
+cielo el
+===
+
+***
+Volume 3
+---
+Produzcan las
+===
+
+***
+Volume 4
+---
+al hombre
+===
+
+***
+Volume 5
+---
+Separ? Dios
+===
+
+***
+Sound Effect Volume
+---
+para dominar en
+===
+
+***
+Volume 1
+---
+dos grandes
+===
+
+***
+Volume 2
+---
+cielo el
+===
+
+***
+Volume 3
+---
+Produzcan las
+===
+
+***
+Volume 4
+---
+al hombre
+===
+
+***
+Volume 5
+---
+Separ? Dios
+===
+
+***
+Music Volume
+---
+Dios que
+===
+
+***
+Cursor Snap To Grid
+---
+que Est?n debajo del
+===
+
+***
+Auto-Demo
+---
+la-tarde
+===
+
+***
+Tell Tips at Startup
+---
+cielo el ganado y
+===
+
+***
+Select Language
+---
+fue la
+===
+
+***
+Force server death
+---
+Llam? a la
+===
+
+***
+Allow Reconnect
+---
+En el
+===
+
+***
+Stall for 12 seconds
+---
+tierra Seg?n su especie
+===
+
+***
+Stall for 15 seconds
+---
+Dios la B?veda y
+===
+
+***
+Save as...
+---
+Dios las...
+===
+
+***
+Add Island
+---
+era buena
+===
+
+***
+Cracked
+---
+la
+===
+
+***
+Normal
+---
+Dios
+===
+
+***
+Hard
+---
+la
+===
+
+***
+Return to Editing
+---
+los seres vivientes
+===
+
+***
+Restart Demo
+---
+la B?veda
+===
+
+***
+Exit Demo
+---
+separar la
+===
+
+***
+Review Mission Objectives - ~iF8~.
+---
+Y Y fue - ~ila~.
+===
+
+***
+Restart Mission
+---
+Hizo tambi?n
+===
+
+***
+Leave Mission
+---
+Vio Dios
+===
+
+***
+Test Battle
+---
+B?veda en
+===
+
+***
+Main Menu
+---
+la luz
+===
+
+***
+Main Menu
+---
+la luz
+===
+
+***
+Quit Game
+---
+Sea la
+===
+
+***
+Game
+---
+los
+===
+
+***
+Edit
+---
+Dios
+===
+
+***
+View
+---
+Est?n
+===
+
+***
+Options
+---
+fue
+===
+
+***
+Players
+---
+aves
+===
+
+***
+General Help - ~iF1~.
+---
+Y Y - ~ifue~.
+===
+
+***
+Version
+---
+D?a
+===
+
+***
+Debug
+---
+de
+===
+
+***
+Cheat
+---
+sobre
+===
+
+***
+Ignore Energy
+---
+fue la
+===
+
+***
+Get 10,000
+---
+en la,B?veda
+===
+
+***
+Font
+---
+separe
+===
+
+***
+XCheat
+---
+sobre
+===
+
+***
+Cheats ON
+---
+a la
+===
+
+***
+Ignore Energy
+---
+fue la
+===
+
+***
+Get 10,000~[IfortGump.3]
+---
+y en,la~noche.y
+===
+
+***
+Set 0~[IfortGump.3]
+---
+As? sirvan~de.lumbreras
+===
+
+***
+Get Full Deck
+---
+tarde y fue
+===
+
+***
+Get a free island
+---
+la tarde y fue
+===
+
+***
+Edit Local Config...
+---
+animales de la...
+===
+
+***
+Telnet to Master...
+---
+la luz de...
+===
+
+***
+Flag as Multiplayer
+---
+peces del mar
+===
+
+***
+Flag as Mission
+---
+y los bendijo
+===
+
+***
+Flag as PlayerMade
+---
+Vio Dios que
+===
+
+***
+~w~3~EMultiplayer Options
+---
+~w~3~Ey a
+===
+
+***
+Connect!
+---
+la!
+===
+
+***
+Cancel
+---
+la
+===
+
+***
+Find Local Server
+---
+Entonces dijo Dios
+===
+
+***
+~yServer: ~w%s
+---
+~yy: ~w%s
+===
+
+***
+~yProtocol: ~w%s
+---
+~ylas: ~w%s
+===
+
+***
+Select LAN Protocol
+
+---
+fue la tarde
+
+===
+
+***
+New Server Port Number?
+---
+D?a y a las
+===
+
+***
+New Server Nickname?
+---
+fue la tarde
+===
+
+***
+Campaign
+---
+esto
+===
+
+***
+Multiplayer
+---
+Cre?
+===
+
+***
+Demo
+---
+esto
+===
+
+***
+Help
+---
+ma?ana
+===
+
+***
+Edit
+---
+Dios
+===
+
+***
+Intro
+---
+reptiles
+===
+
+***
+Credits
+---
+cuarto
+===
+
+***
+Options
+---
+fue
+===
+
+***
+Quit
+---
+Llam?
+===
+
+***
+General Help - ~iF1~.
+---
+Y Y - ~ifue~.
+===
+
+***
+Version
+---
+D?a
+===
+
+***
+~wServer not responding
+---
+~wluz era buena
+===
+
+***
+~w%s not responding
+---
+~w%s B?veda y
+===
+
+***
+~w%s is present
+---
+~w%s y tened
+===
+
+***
+your game name here
+---
+dijo Dios Produzcan las
+===
+
+***
+Battle Island
+
+---
+para que
+
+===
+
+***
+Sail to here
+---
+desde la B?veda
+===
+
+***
+Contacting Game Server. Retry countdown %d
+---
+D?a Y Y. fue la %d
+===
+
+***
+Server login failure.
+---
+principio Cre? Dios.
+===
+
+***
+Login to server denied.
+---
+luz era buena y.
+===
+
+***
+Searching for local %s server.
+---
+tenga dominio sobre %s los.
+===
+
+***
+Local %s server found.
+---
+Y %s fue la.
+===
+
+***
+Becoming local %s server.
+---
+semilla Est? %s en.
+===
+
+***
+Root Server login failure.
+---
+era buena y Separ?.
+===
+
+***
+Failed to connect.
+---
+superficie de toda.
+===
+
+***
+Contacting Root Server.
+---
+el principio Cre?.
+===
+
+***
+Root Server login failure.
+---
+era buena y Separ?.
+===
+
+***
+Root Server connected. Awaiting login reply.
+---
+da semilla que. Est? sobre la.
+===
+
+***
+Challenge Server login failure.
+---
+faz del oc?ano y.
+===
+
+***
+Challenge Server connected. Awaiting login reply.
+---
+Dios vio que. la luz era.
+===
+
+***
+Challenge server login denied:%s
+---
+del mar las aves:%s
+===
+
+***
+Communicating with Challenge Server.
+---
+aguas de los mares.
+===
+
+***
+Challenge Server connection lost.
+---
+En el principio Cre?.
+===
+
+***
+Yes
+---
+desplazan
+===
+
+***
+No
+---
+Dios
+===
+
+***
+A battle was started %2.1f minutes ago, but was not cleanly exited.  Attempt to reconnect?%s
+---
+las aguas para que %2.1f separe las, aguas de las aguas Entonces.  Entonces dijo Dios%s
+===
+
+***
+Starting Mission...
+---
+plantas que...
+===
+
+***
+(unknown)
+---
+especie
+===
+
+***
+Player %s
+
+---
+fue %s
+
+===
+
+***
+Leave this Battle
+---
+tarde y fue
+===
+
+***
+View your Player Info
+---
+Hab?a tinieblas sobre la
+===
+
+***
+Challenge Area (id %d)
+
+---
+Dios a la %dparte
+
+===
+
+***
+~yNum Players:~.%d
+
+---
+~ylos animales:~.%d
+
+===
+
+***
+~yNum Friends:~.%d
+
+---
+~ycielo en:~.%d
+
+===
+
+***
+Decend to this Level
+---
+cuya semilla est? en
+===
+
+***
+About
+---
+la
+===
+
+***
+Decend to this Level
+---
+cuya semilla est? en
+===
+
+***
+Refresh Information
+---
+Est?n sobre
+===
+
+***
+BATTLEMASTER
+
+---
+sobre
+
+===
+
+***
+Players:%d  Avg Level:%d
+---
+la:%d  tierra estaba:%d
+===
+
+***
+Empty
+---
+dominar
+===
+
+***
+Friends:%d
+---
+dijo:%d
+===
+
+***
+~r~EBATTLEMASTER
+---
+~r~Eal
+===
+
+***
+Start Battle
+---
+a la
+===
+
+***
+Yes
+---
+desplazan
+===
+
+***
+No
+---
+Dios
+===
+
+***
+~w~E~3Exclude which unit:
+---
+~w~E~3Seg?n su especie:
+===
+
+***
+~y~EExcluded Units:
+---
+~y~Esu especie:
+===
+
+***
+None
+---
+lleva
+===
+
+***
+Remove exclusion of %s?
+
+---
+puso en la %sB?veda
+
+===
+
+***
+Yes
+---
+desplazan
+===
+
+***
+No
+---
+Dios
+===
+
+***
+LAN Server
+---
+noche Hizo
+===
+
+***
+BATTLEMASTER
+
+
+---
+Vio
+
+
+===
+
+***
+Dismiss
+---
+superficie
+===
+
+***
+Place New Islands
+
+---
+Cre? Dios los
+
+===
+
+***
+To the Beyond
+---
+y fue la
+===
+
+***
+Dismiss
+---
+superficie
+===
+
+***
+Alignment: <c>%s</c>
+---
+Separ?: <c>%s</c>
+===
+
+***
+Alignment: <c>None</c>
+---
+En: <c>el</c>
+===
+
+***
+Hits: <c>%d</c>
+---
+Dios: <c>%d</c>
+===
+
+***
+Hits: <c>Invulnerable</c>
+---
+y: <c>los</c>
+===
+
+***
+Range: <c>%d</c>
+---
+su: <c>%d</c>
+===
+
+***
+Range: <c>n/a</c>
+---
+el: <c>D?a</c>
+===
+
+***
+Damage: <c>%d</c>
+---
+las: <c>%d</c>
+===
+
+***
+Damage: <c>special</c>
+---
+las: <c>aguas</c>
+===
+
+***
+Damage: <c>n/a</c>
+---
+el: <c>principio</c>
+===
+
+***
+Cost in Storm Power: <c>%d</c>~[IfortGump.3]
+---
+Entonces dijo Dios Produzcan: <c>%d</c>~las.aguas
+===
+
+***
+Cost in Storm Power: <c>n/a</c>
+---
+la luz Entonces Entonces: <c>dijo</c>
+===
+
+***
+%s to Build: <c>%s</c>
+---
+%s dijo Adem?s: <c>%s</c>
+===
+
+***
+%s to Build: <c>n/a</c>
+---
+%s dijo Dios: <c>Re?nanse</c>
+===
+
+***
+%s to Build: <c>None</c>
+---
+%s a todo: <c>animal</c>
+===
+
+***
+Sacrifice
+---
+Y
+===
+
+***
+OK
+---
+de
+===
+
+***
+Back
+---
+la
+===
+
+***
+Cancel
+---
+la
+===
+
+***
+No help information available
+---
+y les dijo Sed
+===
+
+***
+Chat Window
+---
+y tened
+===
+
+***
+Select chat view
+---
+Sea la luz
+===
+
+***
+Select help view
+---
+separe las aguas
+===
+
+***
+Select research view
+---
+la tierra Seg?n
+===
+
+***
+Select friend status view
+---
+aguas que Est?n debajo
+===
+
+***
+Current Production
+
+---
+Dios los
+
+===
+
+***
+No Production Yet.
+
+---
+que la luz.
+
+===
+
+***
+View Current Production
+---
+vio Dios que
+===
+
+***
+Construct Building
+
+---
+y Vac?a
+
+===
+
+***
+Prayer
+
+---
+una
+
+===
+
+***
+%d Priest%s
+---
+%d lo%s
+===
+
+***
+~0~w~ENone in inventory
+---
+~0~w~Eseres vivientes y
+===
+
+***
+Unspecified reason
+---
+fue la
+===
+
+***
+Login successful
+---
+de se?ales
+===
+
+***
+Initial info sent
+---
+su especie Y
+===
+
+***
+Player already logged in
+---
+el D?a y en
+===
+
+***
+Name length is bad
+---
+todo ?rbol cuyo fruto
+===
+
+***
+The server is full
+---
+especie Y vio Dios
+===
+
+***
+Unknown error
+---
+las aguas
+===
+
+***
+~g~3~E%s just arrived!
+
+---
+~g~3~E%s el D?a!
+
+===
+
+***
+You have been kicked off!
+---
+Y fue la tarde y!
+===
+
+***
+ERROR: Invalid battle id
+---
+orden: y Vac?a Hab?a
+===
+
+***
+ERROR: Invalid battle slot id
+---
+a: la B?veda Cielos Y
+===
+
+***
+That battle began before you got there
+---
+hombre a su imagen a imagen de
+===
+
+***
+A NetStorm CD is required to play in that battle.
+---
+los bendijo Dios diciendo Sed fecundos y multiplicaos Llenad las.
+===
+
+***
+Salvage
+---
+?rboles
+===
+
+***
+Salvage gains %d~[IfortGump.3]
+---
+fecundos y %d~multiplicaos.Llenad
+===
+
+***
+Salvage costs %d~[IfortGump.3]
+---
+especie ?rboles %d~frutales.cuya
+===
+
+***
+Wind
+---
+ma?ana
+===
+
+***
+Rain
+---
+fue
+===
+
+***
+Thunder
+---
+Separ?
+===
+
+***
+Sun
+---
+Dios
+===
+
+***
+archer
+---
+semilla
+===
+
+***
+cannon
+---
+de
+===
+
+***
+blocker
+---
+de
+===
+
+***
+aviary
+---
+y
+===
+
+***
+flyer
+---
+los
+===
+
+***
+battery
+---
+Entonces
+===
+
+***
+fence
+---
+Cre?
+===
+
+***
+walker
+---
+Mares
+===
+
+***
+balloon
+---
+las
+===
+
+***
+misc
+---
+y
+===
+
+***
+CHEAT Set Owner
+---
+Dios diciendo Sed
+===
+
+***
+Player
+---
+su
+===
+
+***
+ Level %s
+---
+ vivientes %s
+===
+
+***
+Nobody
+---
+la
+===
+
+***
+
+Alignment: ~i%s~.
+---
+
+servir: ~i%s~.
+===
+
+***
+None
+---
+lleva
+===
+
+***
+
+Class: ~i%s~.
+---
+
+Sed: ~i%s~.
+===
+
+***
+~y~[I%d.*]Invisible!~.
+
+---
+~y~y%d.que!~.
+
+===
+
+***
+~y~[I%d.*]Paralyzed!~.
+
+---
+~y~que%d.dan!~.
+
+===
+
+***
+english
+---
+dijo
+===
+
+***
+french
+---
+vio
+===
+
+***
+german
+---
+aguas
+===
+
+***
+spanish
+---
+As?
+===
+
+***
+japanese
+---
+la
+===
+
+***
+portuguese
+---
+ma?ana
+===
+
+***
+ for %s%d~[IfortGump.3]
+---
+ Y %s%d~Y.fue
+===
+
+***
+Build %s%s
+---
+sobre %s%s
+===
+
+***
+Create %s for %s%d~[IfortGump.3]
+---
+la %s ma?ana %s%d~del.cuarto
+===
+
+***
+Clear away
+---
+oc?ano y
+===
+
+***
+~wNothing
+---
+~wDios
+===
+
+***
+~wUnknown
+---
+~wLa
+===
+
+***
+~r~E(Not while paralyzed)
+---
+~r~EEn el principio
+===
+
+***
+~r~E(Not while flying)
+---
+~r~Ela tierra y
+===
+
+***
+~r~E(Not here)
+---
+~r~Ela tarde
+===
+
+***
+for %s%d~[IfortGump.3]
+---
+Y %s%d~fue.la
+===
+
+***
+%sCast~. ~i%s~.~[I%d.*] %s
+---
+%sCre?~. ~i%s~.~Cre?%d.Cre? %s
+===
+
+***
+About %s
+---
+dominar %s
+===
+
+***
+Carrying: ~i%s~.
+
+---
+tierra: ~i%s~.
+
+===
+
+***
+%sDrop~. ~i%s~. %s
+---
+%sD?a~. ~i%s~. %s
+===
+
+***
+~yCapturable!~.
+
+---
+~yel!~.
+
+===
+
+***
+Bridge Slots
+---
+Y vio
+===
+
+***
+Unit Rate
+---
+vivientes que
+===
+
+***
+Knowledge
+---
+principio
+===
+
+***
+Generator Range
+---
+hierba plantas
+===
+
+***
+~[IfortGump.3] per Geyser
+---
+~pues.Dios al hombre
+===
+
+***
+You have successfully installed NetStorm.
+
+
+---
+Sed fecundos y multiplicaos Llenad.
+
+
+===
+
+***
+
+
+However, due to the installation of Microsoft's DirectX drivers, you will have to reboot your computer before you can play the game. You should close all other applications before you do this.
+---
+
+
+imagen, de Dios lo Cre? hombre y mujer los, Cre? Cre? Cre? pues Dios al hombre a su imagen a imagen de. Dios lo Cre? hombre y mujer los Cre?  .
+===
+
+***
+Reboot Now
+---
+alumbrar sobre
+===
+
+***
+I'll reboot later
+---
+Seg?n su especie
+===
+
+***
+OK
+---
+de
+===
+
+***
+NetStorm did NOT install successfully.
+---
+y animales de la tierra.
+===
+
+***
+Quit Anyway
+---
+todo animal
+===
+
+***
+Welcome
+---
+las
+===
+
+***
+About Diagnostics
+---
+las aves
+===
+
+***
+Diagnostics
+---
+especie
+===
+
+***
+Install
+---
+Produzca
+===
+
+***
+Install Status
+---
+Llenad las
+===
+
+***
+Register
+---
+sobre
+===
+
+***
+Register Result
+---
+dijo Dios
+===
+
+***
+Welcome
+---
+las
+===
+
+***
+Reinstall
+---
+del
+===
+
+***
+Reinstall Status
+---
+para que
+===
+
+***
+Uninstall
+---
+Y
+===
+
+***
+Register
+---
+sobre
+===
+
+***
+Register Result
+---
+dijo Dios
+===
+
+***
+Extras!
+---
+de!
+===
+
+***
+About Diagnostics
+---
+las aves
+===
+
+***
+Diagnostics
+---
+especie
+===
+
+***
+Testing
+---
+de
+===
+
+***
+Setup failed to load the diagnostic analysis database.
+Analysis of diagnostic data will not be available.
+
+---
+fue As? E E hizo Dios la B?veda.
+y Separ? las aguas que Est?n debajo de.
+
+===
+
+***
+Analysis Database Not Found
+---
+a toda ave del
+===
+
+***
+Welcome to NetStorm
+---
+Cre? Dios los
+===
+
+***
+Quit
+---
+Llam?
+===
+
+***
+Next >
+---
+vivientes que
+===
+
+***
+< Back
+---
+innumerables seres
+===
+
+***
+NetStorm Setup:
+---
+la tarde:
+===
+
+***
+Finish
+---
+la
+===
+
+***
+Next >
+---
+vivientes que
+===
+
+***
+The game has installed successfully.
+---
+haya aves que vuelen sobre.
+===
+
+***
+
+Due to Microsoft's DirectX, you will need to reboot before playing the game.
+---
+
+la B?veda del cielo, para alumbrar sobre la tierra Dios Dios las puso.
+===
+
+***
+Copying:%s
+    to
+%s
+---
+tenga:%s
+    dominio
+%s
+===
+
+***
+Copying:%s
+    to
+%s
+---
+tenga:%s
+    dominio
+%s
+===
+
+***
+Copying:%s
+    to
+%s
+---
+tenga:%s
+    dominio
+%s
+===
+
+***
+Installing Font:%s
+---
+Dios Sea:%s
+===
+
+***
+Install Error
+---
+Dios los
+===
+
+***
+Install Error
+---
+Dios los
+===
+
+***
+Creating directories
+---
+mares y
+===
+
+***
+Install Error
+---
+Dios los
+===
+
+***
+Copying files
+---
+sobre todo
+===
+
+***
+Creating local files
+---
+que aparezca la
+===
+
+***
+Install Error
+---
+Dios los
+===
+
+***
+Creating shortcuts
+---
+hombre y
+===
+
+***
+Adding shortcut to: %s.
+---
+tierra sojuzgadla y: %s.
+===
+
+***
+Setting up the registry
+---
+Dios Haya lumbreras en
+===
+
+***
+Setting up uninstall
+---
+semilla est? en
+===
+
+***
+Failed to setup DirectX; error code %d
+---
+Y Y fue la tarde y %d
+===
+
+***
+Install Error
+---
+Dios los
+===
+
+***
+Install Completed
+---
+dijo Dios
+===
+
+***
+DEMO VERSION will remain in place at
+  %s
+---
+fue la luz Entonces Entonces dijo Dios
+  %s
+===
+
+***
+Install where?
+---
+alada Seg?n
+===
+
+***
+DEMO VERSION will remain in place at %s
+---
+Dios Llam? a la luz D?a y %s
+===
+
+***
+Installing to: %s
+
+Start Folder: %s
+
+---
+tierra estaba: %s
+
+sin orden: %s
+
+===
+
+***
+Details for Socket test: 
+---
+En el principio Cre?: 
+===
+
+***
+Details for Ping test: 
+---
+Entonces dijo Dios Produzcan: 
+===
+
+***
+Details for DNS test: 
+---
+dominio sobre los peces: 
+===
+
+***
+Details for Transmit test: 
+---
+Y fue la tarde: 
+===
+
+***
+Details for Receive test: 
+---
+a la B?veda Cielos: 
+===
+
+***
+Details for HTML test: 
+---
+y haya aves que: 
+===
+
+***
+Details for DirectX test: 
+---
+En el principio Cre?: 
+===
+
+***
+Failed
+---
+Adem?s
+===
+
+***
+Begin Tests
+---
+tinieblas Llam?
+===
+
+***
+Begin Tests
+---
+tinieblas Llam?
+===
+
+***
+Cancel Tests
+---
+Mares y
+===
+
+***
+Cancel Tests
+---
+Mares y
+===
+
+***
+Begin Tests
+---
+tinieblas Llam?
+===
+
+***
+Begin Tests
+---
+tinieblas Llam?
+===
+
+***
+Details >>
+---
+aves en
+===
+
+***
+Begin Tests
+---
+tinieblas Llam?
+===
+
+***
+Begin Tests
+---
+tinieblas Llam?
+===
+
+***
+success
+---
+animales
+===
+
+***
+buffer too small
+---
+fue la ma?ana
+===
+
+***
+destination net unreachable
+---
+los seres vivientes
+===
+
+***
+destination host unreachable
+---
+y en la
+===
+
+***
+destination protocol unreachable
+---
+B?veda del cielo
+===
+
+***
+destination port unreachable
+---
+Y fue la
+===
+
+***
+no resources
+---
+cielo Y
+===
+
+***
+bad option
+---
+ave alada
+===
+
+***
+hardware error
+---
+tarde y
+===
+
+***
+packet too big
+---
+animales de la
+===
+
+***
+request timed out
+---
+tierra a toda
+===
+
+***
+bad request
+---
+ma?ana del
+===
+
+***
+bad route
+---
+Dios que
+===
+
+***
+time-to-live expired in transit
+---
+lumbrera-mayor-para dominar en el
+===
+
+***
+time-to-live expired in reassembly
+---
+para-servir-de se?ales para las
+===
+
+***
+parameter problem
+---
+que os
+===
+
+***
+source quence
+---
+a la
+===
+
+***
+option too big
+---
+y Multipl?quense las
+===
+
+***
+bad destination
+---
+Y fue
+===
+
+***
+address deleted
+---
+Entonces dijo
+===
+
+***
+spec. max transmit unit changed
+---
+las. puso en la B?veda
+===
+
+***
+max transmit unit changed
+---
+dijo Dios Haya lumbreras
+===
+
+***
+ip unloaded
+---
+de la
+===
+
+***
+Success
+---
+para
+===
+
+***
+General Failure
+---
+Tierra y
+===
+
+***
+Testing %d of %d
+---
+especie %d el %d
+===
+
+***
+Passed
+---
+hombre
+===
+
+***
+Testing %d of %d
+---
+especie %d el %d
+===
+
+***
+Looking up %s
+---
+el principio %s
+===
+
+***
+Passed
+---
+hombre
+===
+
+***
+Canceled
+---
+Produzca
+===
+
+***
+Canceled
+---
+Produzca
+===
+
+***
+Canceled
+---
+Produzca
+===
+
+***
+Canceled
+---
+Produzca
+===
+
+***
+Canceled
+---
+Produzca
+===
+
+***
+Canceled
+---
+Produzca
+===
+
+***
+Passed
+---
+hombre
+===
+
+***
+Looking for DirectDraw...
+---
+a la luz...
+===
+
+***
+Passed
+---
+hombre
+===
+
+***
+Passed
+---
+hombre
+===
+
+***
+Waiting...
+---
+dan...
+===
+
+***
+Unable to run
+---
+Y fue la
+===
+
+***
+Unable to run
+---
+Y fue la
+===
+
+***
+Creating socket...
+---
+y el...
+===
+
+***
+Looking up address of %s:%d...
+---
+cielos y la tierra %s:%d...
+===
+
+***
+Connecting...
+---
+Dios...
+===
+
+***
+Transmitting...
+---
+Dios...
+===
+
+***
+Waiting for reply...
+---
+Y fue la...
+===
+
+***
+Passed
+---
+hombre
+===
+
+***
+Listening on %d...
+---
+Sed fecundos %d...
+===
+
+***
+Requesting connection...
+---
+el principio...
+===
+
+***
+Connecting...
+---
+Dios...
+===
+
+***
+Listening...
+---
+vivientes...
+===
+
+***
+Received, verifying...
+---
+Noche, Y...
+===
+
+***
+Passed
+---
+hombre
+===
+
+***
+The combination results of the tests on your machine do not match any combinations Setup is prepared to analyze.
+---
+al hombre a su imagen a imagen de Dios lo Cre? hombre y mujer los Cre? Cre? Cre? pues.
+===
+
+***
+ Level %s
+---
+ vivientes %s
+===
+
+***
+None
+---
+lleva
+===
+
+***
+%s Available
+
+---
+%s de
+
+===
+
+***
+Production Slots Available: %s
+
+---
+en que hay: %s
+
+===
+
+***
+ Again
+---
+ B?veda
+===
+
+***
+ Again
+---
+ B?veda
+===
+
+***
+All %s is in Production
+---
+Entonces %s dijo Dios Hagamos
+===
+
+***
+Put %s into Production
+---
+tierra %s produjo hierba
+===
+
+***
+Upgrade costs %s%d~[IfortGump.3]
+---
+Cre? Dios %s%d~los.grandes
+===
+
+***
+dude
+---
+cielo
+===
+
+***
+sunArcher
+---
+sin
+===
+
+***
+sunAviary
+---
+en
+===
+
+***
+sunFlyer
+---
+en
+===
+
+***
+banner
+---
+Dios
+===
+
+***
+windBattery
+---
+sobre
+===
+
+***
+rainBattery
+---
+para
+===
+
+***
+thunderBattery
+---
+Y
+===
+
+***
+sunBlocker
+---
+y
+===
+
+***
+thunderBlocker
+---
+las
+===
+
+***
+blankMissile
+---
+las
+===
+
+***
+bolt
+---
+vida
+===
+
+***
+bridge
+---
+y
+===
+
+***
+sunDisc
+---
+en
+===
+
+***
+sunFactory
+---
+la
+===
+
+***
+windFactory
+---
+fruto
+===
+
+***
+rainFactory
+---
+se
+===
+
+***
+thunderFactory
+---
+cielos
+===
+
+***
+residence
+---
+Entonces
+===
+
+***
+fencemark
+---
+Est?n
+===
+
+***
+flag
+---
+del
+===
+
+***
+fortGump
+---
+lumbreras
+===
+
+***
+icon
+---
+quinto
+===
+
+***
+island
+---
+E
+===
+
+***
+islandStalag
+---
+tierra
+===
+
+***
+playerBanner
+---
+alumbrar
+===
+
+***
+isle
+---
+y
+===
+
+***
+isleBig
+---
+la
+===
+
+***
+treeTwo
+---
+sobre
+===
+
+***
+treeThree
+---
+especie
+===
+
+***
+fringe
+---
+y
+===
+
+***
+mana
+---
+hierba
+===
+
+***
+range
+---
+que
+===
+
+***
+manabolt
+---
+Y
+===
+
+***
+flare
+---
+luz
+===
+
+***
+puzzlePiece
+---
+a
+===
+
+***
+playerIsland
+---
+de
+===
+
+***
+battleIsland
+---
+cielo
+===
+
+***
+particlePlaceHolder
+---
+Y
+===
+
+***
+sunBalloon
+---
+hombre
+===
+
+***
+buried
+---
+Est?n
+===
+
+***
+bombExplodeSmall
+---
+Seg?n
+===
+
+***
+bombExplodeMedium
+---
+toda
+===
+
+***
+bombExplodeLarge
+---
+su
+===
+
+***
+bombHeal
+---
+su
+===
+
+***
+bombInvisible
+---
+Noche
+===
+
+***
+bombParalyze
+---
+En
+===
+
+***
+bombHardener
+---
+tarde
+===
+
+***
+bombTreason
+---
+dominio
+===
+
+***
+edgeFarm
+---
+dijo
+===
+
+***
+geyser
+---
+Y
+===
+
+***
+windVortex
+---
+esto
+===
+
+***
+rainVortex
+---
+para
+===
+
+***
+thunderVortex
+---
+ma?ana
+===
+
+***
+outpost
+---
+que
+===
+
+***
+mcloud
+---
+ma?ana
+===
+
+***
+sunCannon
+---
+las
+===
+
+***
+rainCannon
+---
+Despu?s
+===
+
+***
+rainCannonMissile
+---
+la
+===
+
+***
+thunderCannon
+---
+tarde
+===
+
+***
+thunderCannonMissile
+---
+principio
+===
+
+***
+sunWalker
+---
+que
+===
+
+***
+teleportEffect
+---
+tercer
+===
+
+***
+bulf
+---
+semilla
+===
+
+***
+sunFence
+---
+la
+===
+
+***
+windWalker
+---
+los
+===
+
+***
+windFlyer
+---
+que
+===
+
+***
+windAviary
+---
+y
+===
+
+***
+windArcher
+---
+Dios
+===
+
+***
+windBalloon
+---
+dan
+===
+
+***
+windBlocker
+---
+semilla
+===
+
+***
+rainAviary
+---
+toda
+===
+
+***
+rainFlyer
+---
+dominar
+===
+
+***
+rainFence
+---
+tarde
+===
+
+***
+rainBalloon
+---
+sirvan
+===
+
+***
+rainBlocker
+---
+a
+===
+
+***
+thunderArcher
+---
+Y
+===
+
+***
+thunderFence
+---
+D?a
+===
+
+***
+growingRainBlocker
+---
+solo
+===
+
+***
+platform
+---
+hombre
+===
+
+***
+player
+---
+Mares
+===
+
+***
+mog
+---
+conforme
+===
+
+***
+nugget
+---
+de
+===
+
+***
+bridgeConnector
+---
+de
+===
+
+***
+rainWalker
+---
+la
+===
+
+***
+noIsland
+---
+el
+===
+
+***
+priest
+---
+a
+===
+
+***
+lightning
+---
+la
+===
+
+***
+anim
+---
+fue
+===
+
+***
+challengeIsland
+---
+tierra
+===
+
+***
+fakeThreeByThreeSurface
+---
+que
+===
+
+***
+sunFlyerBomb
+---
+el
+===
+
+***
+altar
+---
+tercer
+===
+
+***
+dais
+---
+la
+===
+
+***
+rune
+---
+alumbren
+===
+
+***
+forceField
+---
+superficie
+===
+
+***
+bombSpecialOne
+---
+y
+===
+
+***
+daisExtraFrames
+---
+reptiles
+===
+
+***
+Aerial Attack
+---
+a su
+===
+
+***
+Aerial Transport
+---
+dado toda
+===
+
+***
+Air Attack Base
+---
+la tierra y
+===
+
+***
+Altar
+---
+la
+===
+
+***
+Bridge
+---
+de
+===
+
+***
+Defense
+---
+En
+===
+
+***
+Defensive Spell
+---
+y para
+===
+
+***
+Ground Transport
+---
+Dios Llam?
+===
+
+***
+High Priest
+---
+que Est?n
+===
+
+***
+Influence
+---
+tierra
+===
+
+***
+Offensive Spell
+---
+aguas innumerables
+===
+
+***
+Production
+---
+Y
+===
+
+***
+Residence
+---
+conforme
+===
+
+***
+Shooter
+---
+As?
+===
+
+***
+Spell
+---
+fue
+===
+
+***
+Bridge
+---
+de
+===
+
+***
+fortGump
+---
+lumbreras
+===
+
+***
+High Priest
+---
+que Est?n
+===
+
+***
+noIsland
+---
+el
+===
+

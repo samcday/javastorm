@@ -1,0 +1,22 @@
+title = "Priest Training"
+
+[Overview]
+<background="nsstart">
+<h2>Priest Training</h2>
+<p>As you will no doubt be wanting to play the multiplayer game at some stage, you might want to be prepared, there are a lot of skilled players out there who have been playing a while, these tutorials are here to help you practice on what to expect.
+
+<p>If you want a more visual indication on what you are picking, please choose the "menu" button.
+
+<p>~B~E~b-BlueCheese
+
+$Checked=Menu,MissionBegin,bc1menu76,{Donebc1menu76},1
+$Checked=Bridging,MissionBegin,bc2bridging76,{Donebc2bridging76},2
+$Checked=Acid Bars,MissionBegin,bc3acid_bar76,{Donebc3acid_bar76},3
+$Checked=X-Bows,MissionBegin,bc4bow_rush76,{Donebc4bow_rush76},4
+$Checked=Death Bridge,MissionBegin,bc5walkers76,{Donebc5walkers76},5
+$Checked=Man o' Wars,MissionBegin,bc6mows76,{Donebc6mows76},6
+$Checked=Sun Barricade,MissionBegin,bc7sun_bars76,{Donebc7sun_bars76},7
+$Checked=Fury War,MissionBegin,bc8fury76,{Donebc8fury76},{Donebc7sun_bars76}{Donebc6mows76}{Donebc5walkers76}{Donebc4bow_rush76}{Donebc3acid_bar76}{Donebc2bridging76}
+$Checked=Secret,MissionBegin,bc9ssun_bars76,{Donebc9ssun_bars76},{Donebc9ssun_bars76}
+
+$Button=Back,Tell,UCampaign

@@ -1,0 +1,45 @@
+typename rainaviary constructor
+typeflags createsisland emplacement shadow;
+{
+	description="Man o'War Pool";
+	class="Air Attack Base";
+	maxHitPoints = 200;
+	theme = "rain";
+	level = 3;
+	cost = 600;
+
+	zorder = "zoEMPLACEMENTS";
+	foot_x = 3;
+	foot_y = 3;
+	threat = 5;
+
+	range = 28;
+		// This is the true range of the flyer. Change the value in the
+		// flyer if you change this value!
+
+	constructionRate = 10;
+	hotfootratiox = 0.25;
+	hotfootratioy = 0.1;
+	damageEffect = 1;
+	group = "aviary";
+
+	techBit = 12;
+}
+
+P00 : default : "rflyer.gif" #00  : "rflyer.gif" #29;
+P01 :         : "rflyer.gif" #01  : "rflyer.gif" #29;
+P02 :         : "rflyer.gif" #02  : "rflyer.gif" #29;
+P03 :         : "rflyer.gif" #03  : "rflyer.gif" #29;
+P04 :         : "rflyer.gif" #04  : "rflyer.gif" #30;
+P05 :         : "rflyer.gif" #05  : "rflyer.gif" #31;
+P06 :         : "rflyer.gif" #06  : "rflyer.gif" #32;
+P07 :         : "rflyer.gif" #07  : "rflyer.gif" #33;
+P08 :         : "rflyer.gif" #08  : "rflyer.gif" #34;
+P09 :         : "rflyer.gif" #09  : "rflyer.gif" #35;
+P10 :         : "rflyer.gif" #10  : "rflyer.gif" #36;
+P11 :         : "rflyer.gif" #11  : "rflyer.gif" #37;
+P12 :         : "rflyer.gif" #12  : "rflyer.gif" #38;
+
+A00 : help : "b_raviary.gif" #00;
+
+

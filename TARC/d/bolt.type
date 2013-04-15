@@ -1,0 +1,30 @@
+typename bolt
+typeflags dontSave not_real;
+{
+	orientations = 20;
+	zorder = "zoMISSILES";
+	fireSound = "fireCrossbow.wav";
+	// sound better with no impact sound, since the bow firing sound is 
+	// long and cool and gets overwritten by the impact
+}
+
+A00 : : "warch2.gif" #101 ;
+A01 : : "warch2.gif" #102 ;
+A02 : : "warch2.gif" #103 ;
+A03 : : "warch2.gif" #104 ;
+A04 : : "warch2.gif" #105 ;
+A05 : : "warch2.gif" #106 ;
+A06 : : "warch2.gif" #107 ;
+A07 : : "warch2.gif" #108 ;
+A08 : : "warch2.gif" #109 ;
+A09 : : "warch2.gif" #110 ;
+A10 : : "warch2.gif" #111 ;
+A11 : : "warch2.gif" #112 ;
+A12 : : "warch2.gif" #113 ;
+A13 : : "warch2.gif" #114 ;
+A14 : : "warch2.gif" #115 ;
+A15 : : "warch2.gif" #116 ;
+A16 : : "warch2.gif" #117 ;
+A17 : : "warch2.gif" #118 ;
+A18 : : "warch2.gif" #119 ;
+A19 : : "warch2.gif" #120 ;

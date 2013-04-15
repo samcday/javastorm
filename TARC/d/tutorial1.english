@@ -1,0 +1,194 @@
+[Header]
+missionType = "Tutorial"
+aid=1
+
+loadFort = "BridgeTheGap"
+denySalvage = 1
+denyAscend = 1
+tutorialNumber = 1
+moreGeysers = 0
+
+techAllowed = "deny;all;allow;windVortex"
+
+myStartMoney = 0
+myTech = ""
+
+aiOff = 1
+aiNoTemple = 1
+
+title = "Bridge the Gap!"
+
+[Options]
+
+[A.]
+<h2>NetStorm!</h2>
+<i>"He who desires peace should prepare for war." -Anonymous</i>
+<p>
+The goal in NetStorm is simple: Capture enemy Priests and Sacrifice them
+to the Furies to gain secret Knowledge and Power.
+<p>
+NetStorm's controls are also simple:
+<p>
+<c>Left-click</c> to pick up and drop objects.
+<br>
+<c>Right-click</c> to get more options and information.
+<p>
+Scroll the screen by moving the mouse to a screen edge 
+(in Full Screen and 640x480 resolution running in Window mode) or by
+holding down the <c>ALT</c> key to scroll towards the cursor (in any mode).
+<p>
+The <c>Escape</c> key displays an options menu at the top of the screen.
+$Button=MORE,Tell,A1.
+
+[A1.]
+<h2>Scrolling</h2>
+For now, practice scrolling around your island. 
+<I>When you hit F4 to return to your island the tutorial will continue.</I>
+<p>
+Hit <c>F8</c> at any time to review the instructions.
+$Button=BACK,Tell,A.
+$Button=OK,DoNothing,0
+
+
+[B.]
+<h2>Bridges</h2>
+<i>"Let the islands lean against the bridge,<br>
+And the bridges lean against the air."<br>
+--Book of Nimbus</i>
+<p>
+To your left is the Production Window. You'll notice that it contains oddly
+shaped bridge pieces. You can <c>left-click</c> one to pick it up. Move it over the 
+world and then <c>left-click</c> again to drop it.
+<p>
+Bridges must attach to the <i>edge</i> of an island or to the <i>open</i> end of another bridge. 
+If the bridge is completely red while you are dragging it then it
+isn't attached or it might be blocked by something below it.
+<p>
+Note that you cannot connect bridges to an island where there is vegetation hanging over the edge.
+<p>
+<I>Try dropping a few bridges.</I>
+<p>
+REMEMBER: You can press <c>F8</c> at any time to review the instructions.
+$Button=OK,DoNothing,0
+
+
+[C.]
+<h2>Rotating Bridges</h2>
+<i>"If the shortest distance between two points is a straight line, 
+we wouldn't build bridges like this, would we?" --Euclidius, 4th Century.
+</i>
+<p>
+If a bridge isn't pointing the direction you would like, <c>right-click</c> to 
+rotate it. <c>Left-click</c> as usual to put it into the world.
+<p>
+If you pick up a bridge you don't want, hit <c>ESCAPE</c> to return it to the
+Production Window. You can also drop the bridge back into its place 
+in the Production Window by <c>left-clicking</c> there.
+<p>
+One more thing: You can use the keys: <c>q</c>, <c>w</c>, <c>a</c>, and <c>s</c>
+to quickly select bridges.
+$Button=MORE,Tell,C1.
+
+[C1.]
+<h2>Bridge Quality</h2>
+When a bridge appears in the Production Window, it is initially
+cracked.  If it is left in the Production Window for a while, it
+will become solid.  Cracked bridges
+are weaker and tend to break.
+Thus, if you build bridges too quickly, the quality of your work will be low and
+you may pay the price later!
+<p>
+Bridges left hanging out over the sky,
+unconnected to any island, will crumble from their own weight. Anything
+standing on the bridge will fall!
+<p>
+<I>This tutorial will continue once you've dropped a few more bridge pieces.</I>
+(Try <c>right-clicking</c> to rotate them!)
+
+$Button=BACK,Tell,C.
+$Button=OK,DoNothing,0
+
+[D.]
+<h2>Storm Power, Part 1</h2>
+<i>"The coagulation of the Geyser into Crystal form is like watching white fire turn to ice."
+--Freiken Drupe, Nimbian Naturalist</i>
+<p>
+Above the Production Window is a number which shows your
+Storm Power. Storm Power is required to build battle Units in Nimbus - it is the
+essence of creation and destruction - and that means you want a lot of it!
+<p>
+Geysers contain Storm Crystals which can be harvested for Storm Power.
+<p>
+       <!"geyser.*">                          <!"nugget.*"><br>
+"Storm Geyser"       "Storm Crystal"
+$Button=MORE,Tell,D1.
+
+[D1.]
+<h2>Storm Power, Part 2</h2>
+Build a bridge from your island out 
+to a Geyser. Don't worry if you have trouble connecting your bridge to the
+Geyser - it just takes practice; and, if you wait long enough a misplaced bridge
+will crumble anyway.
+<p>
+Notice that if you've put a bridge in the proper place to connect with an island, a small
+extension will appear on the end of the bridge to close the gap.  Use this to help
+you figure out when you are connected to the Geyser.
+<p>
+Hint: Press <c>F2</c> to make all the tall objects transparent so you can see through them.
+Press <c>F2</c> again to return it back to normal.
+<p>
+<I>The tutorial will continue once you have connected to a Geyser.</I>
+<p>
+       <!"geyser.*"><br>
+"Storm Geyser"
+$Button=BACK,Tell,D.
+$Button=OK,DoNothing,0
+
+
+[E.]
+<h2>Harvesting Storm Power</h2>
+Now that you have attached to a Geyser,
+you can begin to harvest the Storm Crystals that it produces.
+<p>
+<c>Left-click</c> on your Priest and then <c>left-click</c> 
+on the Geyser. Your Priest will begin to walk to the Geyser and
+will return as soon as he has retrieved a Storm Crystal.
+<p>
+Hint: <c>F5</c> will center the screen on your Priest.
+<p>
+<I>This tutorial will continue once your Priest returns to the Temple with a 
+Storm Crystal.</I>
+<p>
+     <!"priest.*"><br>
+     "Priest"<br>
+
+$Button=OK,DoNothing,0
+
+[F.]
+<h2>The Temple</h2>
+The Priest is going to the Storm Geyser to gather Storm Crystals. Each time he
+returns to the Temple he delivers another Crystal.
+<p>
+The Temple has the
+magical ability to turn Crystals into Storm Power - you'll see the number
+above the Production Window increase.
+<p>
+Let the Priest continue gathering until you have 600 Storm Power. In the meantime,
+practice building bridges to other Geysers.
+
+
+[G.]
+<h2>Mission Accomplished!</h2>
+Congratulations, you have completed the first Tutorial.
+<p>
+The next Tutorial will describe how to create weapons of war.
+<$Config,Done{mission.fileName}=1>
+$Button=Leave Tutorials,LeaveBattle,1
+$Button=Next Tutorial,MissionBegin,Tutorial2
+
+[NoBridgeYet]
+Just practice scrolling now. Hit <c>F4</c> to go home when you're ready to learn about bridges.
+
+[END]
+																		 
+																		 

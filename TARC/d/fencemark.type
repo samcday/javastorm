@@ -1,0 +1,8 @@
+typename fencemark constructor
+typeflags dontSave not_real ;
+{
+	zorder = "zoNONE";
+}
+
+A01 : default : "fence.gif" #01 ;
+

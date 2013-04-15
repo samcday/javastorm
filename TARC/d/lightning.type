@@ -1,0 +1,10 @@
+typename lightning
+typeflags dontSave not_real;
+{
+	orientations = 1;
+	zorder = "zoMISSILES";
+//	fireSound = "fireBow.wav";
+//	impactSound = "impact.wav";
+}
+
+A00 :  : "litngtst.gif" #00  ;

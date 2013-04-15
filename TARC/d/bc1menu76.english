@@ -1,0 +1,56 @@
+[Header]
+missiontype="tutorial"
+
+missionnumber=1
+moregeysers=0
+allowAnyCapture=1
+
+mystartmoney=0
+mytech=""
+
+title="Menu"
+
+ai2name="CrossBows"
+ai2ability="CAPTURE_ENEMY_PRIEST"
+ai2enemy=1
+
+ai3name="Bridges"
+
+ai4name="Acid Bars"
+
+ai5name="Walkers"
+
+ai6name="Sun Barricade"
+
+ai7name="Man o'Wars"
+
+[Options]
+
+[A.]
+<h2>Menu</h2>
+<p>Capture the priest by the technology that interests you.
+
+$Button=Technology available,ShowTechnology,55
+$Button=Ok,DoNothing,0
+</?>
+
+[ai1templedead]
+<h2>Secret</h2>
+<p>You have just uncovered a secret mission...
+<$Config,Done{mission.fileName}=1>
+$Button=Ready!,MissionBegin,bc9ssun_bars76
+[ai2priestcaptured]
+$Button=X-Bows,MissionBegin,bc4bow_rush76
+[ai3priestcaptured]
+$Button=Bridging,MissionBegin,bc2bridging76
+[ai4priestcaptured]
+$Button=Acid Bars,MissionBegin,bc3acid_bar76
+[ai5priestcaptured]
+$Button=Walkers,MissionBegin,bc5walkers76
+[ai7priestcaptured]
+$Button=Man o' War,MissionBegin,BC6Mows76
+[ai6priestcaptured]
+$Button=Sun Barricade,MissionBegin,bc7Sun_bars76
+
+
+[END]

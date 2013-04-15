@@ -1,0 +1,74 @@
+typename thundercannon constructor
+typeflags createsisland emplacement saveFrame;
+{
+	description="Thunder Cannon";
+	class="Shooter";
+	maxHitPoints = 1000;
+	theme = "thunder";
+	level = 2;
+	cost = 1200;
+	threat = 5;
+	zorder = "zoEMPLACEMENTS";
+	range = 42;
+//	attackValueConst = 15;
+	hpPerSec = 40;		//11*3.5 charge = 40
+	foot_x = 3;
+	foot_y = 3;
+	height = 2;
+
+	minUsage = 20;
+	maxUsage = 200;
+//	hotFootX = 2;
+//	hotFootY = 6;
+	hotFootRatioX = 0.125;
+	hotFootRatioY = 0.375;
+//	rateConst = 0.0;
+//	rateVar = 0.002;
+	group = "cannon";
+
+	damageEffect = 1;
+	constructionRate = 10;
+	fireSound = "thunderCannon.wav";
+
+	techBit = 19;
+}
+
+L00	:         : "tcannon.gif" #12 ;
+L01	:suck     : "tcannon.gif" #13 ;
+L02	:suck	  : "tcannon.gif" #14 ;
+L03	:suck	  : "tcannon.gif" #15 ;
+L04	:suck	  : "tcannon.gif" #16 ;
+L05	:suck	  : "tcannon.gif" #17 ;
+L06	:suck	  : "tcannon.gif" #18 ;
+L07	:		  : "tcannon.gif" #19 ;
+L08	:		  : "tcannon.gif" #20 ;
+M00	:         : "tcannon.gif" #00 ;
+M01	:suck     : "tcannon.gif" #01 ;
+M02	:suck	  : "tcannon.gif" #02 ;
+M03	:suck     : "tcannon.gif" #03 ;
+M04	:suck	  : "tcannon.gif" #04 ;
+M05	:suck	  : "tcannon.gif" #05 ;
+M06	:suck	  : "tcannon.gif" #06 ;
+M07	:		  : "tcannon.gif" #07 ;
+M08	:		  : "tcannon.gif" #08 ;
+N00	:         : "tcannon.gif" #24 ;
+N01	:suck     : "tcannon.gif" #25 ;
+N02	:suck	  : "tcannon.gif" #26 ;
+N03	:suck     : "tcannon.gif" #27 ;
+N04	:suck	  : "tcannon.gif" #28 ;
+N05	:suck	  : "tcannon.gif" #29 ;
+N06	:suck	  : "tcannon.gif" #30 ;
+N07	:		  : "tcannon.gif" #31 ;
+N08	:		  : "tcannon.gif" #32 ;
+O00	:         : "tcannon.gif" #36 ;
+O01	:suck     : "tcannon.gif" #37 ;
+O02	:suck	  : "tcannon.gif" #38 ;
+O03	:suck     : "tcannon.gif" #39 ;
+O04	:suck	  : "tcannon.gif" #40 ;
+O05	:suck	  : "tcannon.gif" #41 ;
+O06	:suck	  : "tcannon.gif" #42 ;
+O07	:		  : "tcannon.gif" #43 ;
+O08	:		  : "tcannon.gif" #44 ;
+
+P00 : help : "b_tcannon.gif" #00;
+

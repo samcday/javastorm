@@ -1,0 +1,28 @@
+typename thunderBlocker constructor
+typeflags createsisland emplacement container shadow;
+{
+	description="Bulwark";
+	class="Defense";
+	maxHitPoints = 3900;
+	theme = "thunder";
+	level = 2;
+	cost = 800;
+	threat = 5;
+	zorder = "zoEMPLACEMENTS";
+	foot_x = 3;
+	foot_y = 3;
+	height = 3;
+	damageEffect = 1;
+
+//	hotFootY = 4;
+	hotFootRatioY = 0.25;
+	constructionRate = 10;
+	group = "blocker";
+
+	techBit = 18;
+}
+
+P01 : default : "thblock.gif" #01 : "thblock.gif" #09 ;
+
+P00 : help : "b_tblocker.gif" #00  ;
+

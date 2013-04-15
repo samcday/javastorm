@@ -1,0 +1,32 @@
+typename sunFlyerBomb
+typeflags dontSave not_real;
+{
+	zorder = "zoMISSILES";
+	fireSound = "whirligigFire.wav";
+	orientations = 1;
+}
+
+A01 :  : "sflyerb.gif" #18;
+A02 :  : "sflyerb.gif" #19;
+A03 :  : "sflyerb.gif" #20;
+A04 :  : "sflyerb.gif" #21;
+A05 :  : "sflyerb.gif" #22;
+A06 :  : "sflyerb.gif" #23;
+
+B01 :  : "sflyerb.gif" #00;
+B02 :  : "sflyerb.gif" #01;
+B03 :  : "sflyerb.gif" #02;
+B04 :  : "sflyerb.gif" #03;
+B05 :  : "sflyerb.gif" #04;
+B06 :  : "sflyerb.gif" #05;
+B07 :  : "sflyerb.gif" #06;
+B08 :  : "sflyerb.gif" #07;
+B09 :  : "sflyerb.gif" #08;
+B10 :  : "sflyerb.gif" #09;
+B11 :  : "sflyerb.gif" #10;
+B12 :  : "sflyerb.gif" #11;
+B13 :  : "sflyerb.gif" #12;
+B14 :  : "sflyerb.gif" #13;
+B15 :  : "sflyerb.gif" #14;
+B16 :  : "sflyerb.gif" #15;
+B17 :  : "sflyerb.gif" #16;

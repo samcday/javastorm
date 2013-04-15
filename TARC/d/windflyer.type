@@ -1,0 +1,62 @@
+typename windFlyer constructor
+typeflags flyer dontSave flyershadow;
+{
+	description="Dust Devil";
+	class="Aerial Attack";
+//	invulnerable!    maxHitPoints = 20;
+	theme = "wind";
+	// Level is not relevent for this, only its base.
+
+	zorder = "zoFLYERS";
+	foot_x = 1;
+	foot_y = 1;
+	constructionRate = 5;
+
+	range = 30;
+		// Ken shifted this down from 30 July 17, 1997
+		// This is the true range of the flyer. Change the value in the
+		// aviary if you change this value!
+		//Aug 28, increase 20 to 24
+
+	speed = 3.3;
+		// This speed is very important! It should be equal to or slightly less
+		// than a golem, so that golems can out-run them!
+		// Ken changed 8-15-97 to reflect the "quick-striker" quality of it.
+	
+	hpPerSec = 12;
+		// reduced from 20 to 12 after the 3 per target rule was instated 9/26 -jfg
+		// This may seem weak, but it isn't! Remember that it damages everything on its way!
+		// And they're invulnerable! Make it an even number.
+		// Aug 28, increased 8 to 60
+//	attackValueConst = 5;
+	//	damageEffect = 1; Not until particle systems are truly attached to their parents! -Ken
+	activeSound = "dustDevilSpin.wav";
+}
+
+A00 : default : "wflyer.gif" #00 : "s_wflyer.gif" #00;
+A01 :         : "wflyer.gif" #01 : "s_wflyer.gif" #01;
+A02 :         : "wflyer.gif" #02 : "s_wflyer.gif" #02;
+A03 :         : "wflyer.gif" #03 : "s_wflyer.gif" #03;
+A04 :         : "wflyer.gif" #04 : "s_wflyer.gif" #04;
+A05 :         : "wflyer.gif" #05 : "s_wflyer.gif" #05;
+A06 :         : "wflyer.gif" #06 : "s_wflyer.gif" #06;
+A07 :         : "wflyer.gif" #07 : "s_wflyer.gif" #07;
+A08 :         : "wflyer.gif" #08 : "s_wflyer.gif" #08;
+A09 :         : "wflyer.gif" #09 : "s_wflyer.gif" #09;
+A10 :         : "wflyer.gif" #10 : "s_wflyer.gif" #10;
+A11 :         : "wflyer.gif" #11 : "s_wflyer.gif" #11;
+A12 :         : "wflyer.gif" #12 : "s_wflyer.gif" #12;
+																				
+
+// All these shadow are wrong																				
+B00 :         : "wflyer.gif" #33 : "s_wflyer.gif" #33;
+B01 :         : "wflyer.gif" #34 : "s_wflyer.gif" #34;
+B02 :         : "wflyer.gif" #35 : "s_wflyer.gif" #35;
+B03 :         : "wflyer.gif" #36 : "s_wflyer.gif" #36;
+B04 :         : "wflyer.gif" #37 : "s_wflyer.gif" #37;
+B05 :         : "wflyer.gif" #38 : "s_wflyer.gif" #38;
+B06 :         : "wflyer.gif" #39 : "s_wflyer.gif" #39;
+B07 :         : "wflyer.gif" #40 : "s_wflyer.gif" #40;
+B08 :         : "wflyer.gif" #41 : "s_wflyer.gif" #41;
+
+P00 : help    : "b_wflyer.gif" #00;

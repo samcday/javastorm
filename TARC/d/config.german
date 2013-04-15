@@ -1,0 +1,61 @@
+// Names for things
+// This were only useful when we were undecided as to the names of
+// things in the game.  Any time you see, enclosed in {} pairs, any of
+// the phrases on the left of the '=' below, you may replace them with
+// the phrase on the right.
+// E.g.  "{a factory}" may be replaced with "a Workshop".  Note the
+// lack of {} in the replacement.
+//---------------------------------------------------------------------
+a factory = "eine Produktionsst?tte"
+factory = "Produktionsst?tte"
+factories = "Produktionsst?tten"
+vortex = "Tempel"
+vortices = "Tempel"
+stormpower = "Sturmkraft"
+technology = "Wissen"
+technologies = "Wissen"
+helpWord = "Info"
+priest = "Hohepriester"
+influence = "Energie"
+defaultAiName = "F?rst des B?sen"
+progName = "NetStorm"
+copyright = "(C) 1997 Titanic Entertainment, Inc. und Activision Inc. {version}"
+
+// The stuff below needs translation.  Remember not to translate things
+// between {} pairs. Also, in the first line (OKButton), the only word
+// which needs translation is 'OK'.
+// User Interface
+//--------------------------------------------------------------------
+OkButton = "$Button=OK,DoNothing,0"
+WindowName = "NetStorm Mehrspieler-Spiel `"{local.1}`" Besitzer: {fort.mySubHandle|Not Registered}"
+BlankWindowName = "NetStorm Hauptmen?"
+MissionWindowName = "NetStorm Mission `"{local.1}`""
+TestBattleWindowName = "NetStorm Testkampf `"{local.1}`""
+DemoWindowName = "NetStorm Demo `"{local.1}`""
+EditorWindowName = "NetStorm Editor-Spiel `"{local.1}`""
+
+crash HTML = "<p>Bitte notieren Sie sich diese Informationen, und <a href=`"senden Sie sie per E-Mail an: bugs@titanic.com`">Senden Sie uns eine E-Mail</a> mit diesen Informationen.`n<p>`n<a href=`"{troubleshooting URL}`">Probleml?sungsseiten aufrufen.</a><hr>(Um den Start dieses Browsers zu unterbinden, setzen Sie in der Datei options.cfg den Eintrag troubleshootOnCrash = 0.)`n"
+crash TXT  = "Fehlerhafte Zuordnung:`n'%s' in '%s', Zeile %d Version %d.`nBitte notieren Sie sich diese Informationen, und senden Sie sie per E-Mail an bugs@titanic.com`n"
+
+readonly = "READONLY! "
+newFort="AktOnlineSpiel"
+
+// Install Shortcuts
+// The program names and URLs do not need translation, but the rest of the string does.
+// Shortcuts always get installed
+// RelShortcuts get installed for release builds only
+// DemoShortcuts get installed for demos only
+// InetShortcuts always get installed.
+
+//Shortcut0 = "\Help\Help.exe,Readme.hlp,Technische Hilfe,NetStorm Technical Help,\help"
+RelShortcut0 = "\NetStorm.exe,,NetStorm,Main NetStorm Executable,"
+RelShortcut1 = "\nsutil.exe,diagnose,NetStorm Diagnose,Diagnostics for NetStorm,"
+RelShortcut2 = "\nsutil.exe,uninstall,NetStorm Deinstallieren,Uninstall for NetStorm,"
+RelShortcut3 = "\Help\Help.exe,Readme.hlp,Technische Hilfe,NetStorm Technical Help,\help"
+DemoShortcut0 = "\NetStorm.exe,,NetStorm Demo,Main NetStorm Executable,"
+DemoShortcut1 = "\nsutil.exe,diagnose,NetStorm-Demo-Diagnose,Diagnostics for NetStorm,"
+DemoShortcut2 = "\nsutil.exe,uninstall,NetStorm-Demo Deinstallieren,Uninstall for NetStorm,"
+DemoShortcut3 = "\Help\Help.exe,Readme.hlp,Technische Hilfe,NetStorm Technical Help,\help"
+InetShortcut0 = "http://www.activision.com,Besuchen Sie die Activision-Web-Site"
+InetShortcut1 = "http://www.titanic.com,Besuchen Sie die Titanic-Web-Site"
+

@@ -1,0 +1,99 @@
+[Header]
+missionType = "Tutorial"
+
+missionNumber = 1
+
+myStartMoney = 4600
+myTech = "sunWalker;rainBattery;rainWalker;rainCannon;sunArcher;sunFence"
+
+// Your beleaguered ally...
+ai2Name = "Gouverneur Cherok"
+ai2Tech = "sunWalker;rainBattery;rainBlocker;rainBalloon"
+ai2StartMoney = 0
+ai2GeyserAttachments = 2
+ai2Collectors = 3
+ai2Ability = "!COLLECT_STORM_POWER"
+ai2TimeBetweenMoves = 3
+ai2AllyList = 1
+ai2Color = purple
+
+// Lower-left enemy
+ai3Name = "Prinz des Donners"
+ai3Tech = "sunWalker;thunderBattery;thunderCannon;thunderBlocker;sunBlocker"
+ai3StartMoney = 2000
+ai3GeyserAttachments = 2
+ai3Collectors = 3
+ai3TimeBetweenMoves = 3
+ai3AllyList = 4
+ai3Enemy = 2
+ai3Color = red
+
+ai4Name = "F?rst des Donners"
+ai4Tech = "sunWalker;sunBalloon;thunderBattery;thunderCannon;thunderBlocker;sunarcher"
+ai4StartMoney = 2000
+ai4GeyserAttachments = 2
+ai4Collectors = 2
+ai4TimeBetweenMoves = 3
+ai4AllyList = 3
+ai4Enemy = 2
+ai4Color = orange
+
+title="Rettungsaktion"
+
+[A.]
+<h2>Rettungsaktion</h2>
+<i>"Euren Freunden und Idealen zuliebe 
+erhebt Euch aus dem Staub, 
+und st?rzt Euch in den blutigen Kampf."
+--Die Schrift von Nimbus
+</i>
+<p>
+Ihr Gouverneur auf Cherok Isle sendet Ihnen per Ballon einen Hilferuf: 
+<p>
+<i>Wir werden angegriffen!
+<p>
+Als wir auf der Suche nach Sturmkraft umhersegelten, schwebten zwei feindliche Inseln von der Sonne auf uns herab.
+<p>
+Wir haben nur noch wenige Ressourcen. Viele sind bereits tot.
+
+$Button=Weiter,Tell,A1.
+
+[A1.]
+<h2>Rettungsaktion</h2>
+<p>
+Wenn Cherok Isle vernichtet wird, k?nnte dies f?r andere Gouverneure ein Grund sein, sich nicht Ihrem Reich anzuschlie?en - oder gar zum Feind ?berzulaufen.
+<p>
+Verhindern Sie, da? es zu einer derartigen Vertrauenskrise kommt, indem Sie den Angreifern den Garaus machen und Cherok Isle retten!
+
+$Button=Aktueller Wissensstand,ShowTechnology,55
+$Button=Mission beginnen,DoNothing,0
+
+
+[@120]
+Sie erhalten eine Nachricht vom Gouverneur von Cherok Isle:
+<p>
+<i>
+Denken Sie an die Worte des m?chtigen K?nigs Luther: "Am Ende werden wir uns nicht an die Taten unserer Feinde erinnern, sondern an die Unt?tigkeit unserer Freunde."
+</i>
+
+
+[Succeeded][BadTeamDead]
+<h2>Mission erfolgreich abgeschlossen!</h2>
+<p>
+Cherok Isle ist gerettet! Der Gouverneur bereitet Ihnen mit einem Siegesbankett ein herzliches Willkommen. Alle Gouverneure Ihres Reiches nehmen daran teil und schw?ren Ihnen ewige Treue.
+<$Config,Done{mission.fileName}=1>
+$Button=Mission beenden,MissionAbort,1
+$Button=N?chste Mission,MissionBegin,Vicious
+
+
+[Failed][Ai2PriestDead]
+<h2>Missionsziel verfehlt!</h2>
+<p>
+Ihr Versuch, Cherok Isle zu retten, ist fehlgeschlagen.
+<p>
+Die Gouverneure der anderen Inseln Ihres Reiches sind entsetzt ?ber Ihre Unf?higkeit, ihnen Schutz zu gew?hren. Da sie Ihnen nun jede weitere Unterst?tzung versagen, haben Ihre Feinde leichtes Spiel und zerschlagen Ihr Reich.
+$Button=Weiter,Tell,TryAgain
+
+
+[END]
+																		 
