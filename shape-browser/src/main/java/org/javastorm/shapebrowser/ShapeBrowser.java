@@ -1,3 +1,5 @@
+package org.javastorm.shapebrowser;
+
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.event.ActionEvent;
@@ -23,9 +25,9 @@ import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 import javax.swing.filechooser.FileNameExtensionFilter;
 
-import org.javastorm.shapes.NSShapeFile;
-import org.javastorm.shapes.NSShapeFile.VFXFrame;
-import org.javastorm.shapes.NSShapeFile.VFXPalette;
+import org.javastorm.shapes.ShapeFile;
+import org.javastorm.shapes.ShapeFile.VFXFrame;
+import org.javastorm.shapes.ShapeFile.VFXPalette;
 import org.javastorm.util.MyDataInputStream;
 
 public class ShapeBrowser extends JApplet
@@ -250,7 +252,7 @@ public class ShapeBrowser extends JApplet
 
 		try
 		{
-			this.shape = new NSShapeFile();
+			this.shape = new ShapeFile();
 			FileInputStream fin = new FileInputStream(file);
 			ByteBuffer buf = fin.getChannel().map(MapMode.READ_ONLY, 0, fin.getChannel().size());
 			shape.open(buf);
@@ -279,7 +281,7 @@ public class ShapeBrowser extends JApplet
 
 	private int currentType;
 
-	private NSShapeFile shape;
+	private ShapeFile shape;
 
 	private int colors[];
 
