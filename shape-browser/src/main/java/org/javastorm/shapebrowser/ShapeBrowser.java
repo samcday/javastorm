@@ -1,9 +1,12 @@
 package org.javastorm.shapebrowser;
 
+import java.applet.Applet;
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.FileInputStream;
@@ -12,15 +15,7 @@ import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel.MapMode;
 
-import javax.swing.ImageIcon;
-import javax.swing.JApplet;
-import javax.swing.JComboBox;
-import javax.swing.JFileChooser;
-import javax.swing.JLabel;
-import javax.swing.JMenu;
-import javax.swing.JMenuBar;
-import javax.swing.JMenuItem;
-import javax.swing.JSlider;
+import javax.swing.*;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 import javax.swing.filechooser.FileNameExtensionFilter;
@@ -34,7 +29,28 @@ public class ShapeBrowser extends JApplet
 {
 	private static final long serialVersionUID = 1L;
 
-	public void init()
+    public static void main(String[] args)
+    {
+        JFrame frame = new JFrame();
+        frame.setSize(400, 300);
+
+        final Applet applet = new ShapeBrowser();
+
+        frame.getContentPane().add(applet);
+        frame.addWindowListener(new WindowAdapter() {
+            public void windowClosing(WindowEvent we) {
+                applet.stop();
+                applet.destroy();
+                System.exit(0);
+            }
+        });
+
+        frame.setVisible(true);
+        applet.init();
+        applet.start();
+    }
+
+    public void init()
 	{
 		try
 		{
